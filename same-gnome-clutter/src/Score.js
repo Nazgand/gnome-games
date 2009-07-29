@@ -50,19 +50,18 @@ function game_completed(won)
 
 function show_scores_dialog()
 {
-	var highscores_dialog = new GnomeGamesSupport.ScoresDialog();
-	highscores_dialog.parent_window = main.window;
-	highscores_dialog.scores = highscores;
-	highscores_dialog.title = _("Same GNOME Scores");
-	//highscores_dialog.add_category("
-	
-	// TODO: set up high scores categories (for different board sizes)
-	
-	highscores_dialog.set_buttons(GnomeGamesSupport.ScoresButtons.QUIT_BUTTON);
-	
+	var highscores_dialog = new GnomeGamesSupport.ScoresDialog.c_new(
+		main.window, highscores, _("Same GNOME Scores"));
+
+	highscores_dialog.set_category_description(_("Size:"));
+		
 	highscores_dialog.run();
-	
 	highscores_dialog.hide();
+}
+
+function update_score_category()
+{
+	highscores.set_category(Settings.sizes[Settings.size].name);
 }
 
 ScoreView = new GType({
@@ -138,15 +137,14 @@ ScoreView = new GType({
 
 // Initialize high scores with libgames-support
 
-/*highscores = new GnomeGamesSupport.Scores({app_name: "same-gnome-clutter"});
+highscores = new GnomeGamesSupport.Scores.c_new("same-gnome", null,
+                                                null, "board size", null, 0,
+                                GnomeGamesSupport.ScoreStyle.PLAIN_DESCENDING);
 
-highscores.add_category("Small", _("Small"));*/
+highscores.add_category("Small", _("Small"));
+highscores.add_category("Normal", _("Normal"));
+highscores.add_category("Large", _("Large"));
 
-/*cat = new GnomeGamesSupport.ScoresCategory();
-cat.key = "Small";
-cat.name = "Small";
+update_score_category();
 
-highscores = new GnomeGamesSupport.Scores.c_new("same-gnome", [cat],
-                                                1, "board size", null, 0, 0);
-*/
-//highscores.add_category("Small", _("Small"));
+Settings.Watcher.signal.size_changed.connect(update_score_category);

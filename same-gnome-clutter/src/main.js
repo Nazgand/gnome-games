@@ -14,7 +14,12 @@ GnomeGamesSupport = imports.gi.GnomeGamesSupport;
 _ = imports.gettext.gettext;
 
 GtkClutter.init(Seed.argv);
+
+if(GnomeGamesSupport.setgid_io_init)
+	GnomeGamesSupport.setgid_io_init();
+
 GnomeGamesSupport.runtime_init("same-gnome");
+GnomeGamesSupport.Conf.initialise("same-gnome");
 GnomeGamesSupport.stock_init();
 
 GConf.init(Seed.argv);
