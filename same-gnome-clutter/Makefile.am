@@ -18,18 +18,15 @@ same_DATA = \
     src/Path.js \
     src/ThemeLoader.js
 
-same_gnome_clutter_c_SOURCES = same.c
-same_gnome_clutter_c_CFLAGS = `pkg-config --cflags clutter-0.9 glib-2.0`
-same_gnome_clutter_c_LDFLAGS = `pkg-config --libs clutter-0.9 glib-2.0`
-
 bin_SCRIPTS = same-gnome-clutter
-bin_PROGRAMS = same-gnome-clutter-c
 
 schema_in_files = same-gnome-clutter.schemas.in
+if HAVE_GNOME
 schemadir = $(GCONF_SCHEMA_FILE_DIR)
 schema_DATA = $(schema_in_files:.schemas.in=.schemas)
+endif
 
-desktop_in_files = same-gnome-clutter.desktop.in.in same-gnome-clutter-c.desktop.in.in
+desktop_in_files = same-gnome-clutter.desktop.in.in
 desktopdir = $(datadir)/applications
 desktop_DATA = $(desktop_in_files:.desktop.in.in=.desktop)
 @INTLTOOL_DESKTOP_RULE@
@@ -46,8 +43,8 @@ EXTRA_DIST = \
     data/settings.ui \
     src/Score.js \
     src/Path.js.in \
-    src/ThemeLoader.js
-
+    src/ThemeLoader.js \
+    $(schema_in_files)
 
 install-schemas-local: $(schema_DATA)
 if GCONF_SCHEMAS_INSTALL
