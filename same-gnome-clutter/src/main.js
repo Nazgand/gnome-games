@@ -3,7 +3,7 @@
 var tile_size = 50;
 var offset = tile_size/2;
 
-imports.gi.versions.Clutter = "0.9";
+imports.gi.versions.Clutter = "1.0";
 
 Gtk = imports.gi.Gtk;
 GtkClutter = imports.gi.GtkClutter;
