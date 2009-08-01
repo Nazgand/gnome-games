@@ -9,7 +9,6 @@ Gtk = imports.gi.Gtk;
 GtkClutter = imports.gi.GtkClutter;
 GtkBuilder = imports.gtkbuilder;
 Clutter = imports.gi.Clutter;
-GConf = imports.gi.GConf;
 GnomeGamesSupport = imports.gi.GnomeGamesSupport;
 _ = imports.gettext.gettext;
 
@@ -19,10 +18,8 @@ if(GnomeGamesSupport.setgid_io_init)
 	GnomeGamesSupport.setgid_io_init();
 
 GnomeGamesSupport.runtime_init("same-gnome");
-GnomeGamesSupport.Conf.initialise("same-gnome");
+GnomeGamesSupport.Conf.initialise("same-gnome-clutter");
 GnomeGamesSupport.stock_init();
-
-GConf.init(Seed.argv);
 
 Light = imports.Light;
 Board = imports.Board;
@@ -113,7 +110,6 @@ board.new_game();
 
 Gtk.main();
 
-// should use GGS conf stuff instead of gconf?
-//GnomeGamesSupport.Conf.get_default().shutdown();
+GnomeGamesSupport.Conf.shutdown();
 GnomeGamesSupport.runtime_shutdown();
 

@@ -2,10 +2,9 @@ Gtk = imports.gi.Gtk;
 Gio = imports.gi.Gio;
 GtkBuilder = imports.gtkbuilder;
 main = imports.main;
-GConf = imports.gi.GConf;
 ThemeLoader = imports.ThemeLoader;
-
-GConf.init(Seed.argv);
+GnomeGamesSupport = imports.gi.GnomeGamesSupport;
+ggsconf = GnomeGamesSupport.Conf;
 
 // Defaults
 var theme, colors, zealous, size;
@@ -22,11 +21,10 @@ var sizes = [{name: "Small", columns: 6, rows: 5},
 
 try
 {
-	gconf_client = GConf.Client.get_default();
-	theme = themes[gconf_client.get_string("/apps/same-gnome-clutter/theme")];
-	size = gconf_client.get_int("/apps/same-gnome-clutter/size");
-	colors = gconf_client.get_int("/apps/same-gnome-clutter/colors");
-	zealous = gconf_client.get_bool("/apps/same-gnome-clutter/zealous");
+	theme = themes[ggsconf.get_string(null, "theme")];
+	size = ggsconf.get_integer(null, "size");
+	colors = ggsconf.get_integer(null, "colors");
+	zealous = ggsconf.get_boolean(null, "zealous");
 	
 	if(colors < 2 || colors > 4)
 		colors = default_colors;
@@ -36,12 +34,11 @@ try
 }
 catch(e)
 {
-	print("Couldn't load settings from GConf.");
+	print("Couldn't load settings from ggsconf.");
 	theme = themes[default_theme];
 	size = default_size;
 	colors = default_colors;
 	zealous = default_zealous;
-	fly_score = default_fly_score;
 }
 
 // Settings Event Handler
@@ -73,11 +70,11 @@ handlers = {
 		
 		try
 		{
-			gconf_client.set_string("/apps/same-gnome-clutter/theme", selector.get_active_text());
+			ggsconf.set_string(null, "theme", selector.get_active_text());
 		}
 		catch(e)
 		{
-			print("Couldn't save settings to GConf.");
+			print("Couldn't save settings to ggsconf.");
 		}
 	
 		Watcher.signal.theme_changed.emit();
@@ -88,11 +85,11 @@ handlers = {
 		
 		try
 		{
-			gconf_client.set_bool("/apps/same-gnome-clutter/zealous", zealous);
+			ggsconf.set_boolean(null, "zealous", zealous);
 		}
 		catch(e)
 		{
-			print("Couldn't save settings to GConf.");
+			print("Couldn't save settings to ggsconf.");
 		}
 	},
 	update_size: function(widget, ud)
@@ -106,11 +103,11 @@ handlers = {
 		
 		try
 		{
-			gconf_client.set_int("/apps/same-gnome-clutter/size", size);
+			ggsconf.set_integer(null, "size", size);
 		}
 		catch(e)
 		{
-			print("Couldn't save settings to GConf.");
+			print("Couldn't save settings to ggsconf.");
 		}
 		
 		Watcher.signal.size_changed.emit();
@@ -126,11 +123,11 @@ handlers = {
 
 		try
 		{
-			gconf_client.set_int("/apps/same-gnome-clutter/colors", colors);
+			ggsconf.set_integer(null, "colors", colors);
 		}
 		catch(e)
 		{
-			print("Couldn't save settings to GConf.");
+			print("Couldn't save settings to ggsconf.");
 		}
 	
 		Watcher.signal.colors_changed.emit();
