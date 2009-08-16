@@ -14,4 +14,3 @@ EXTRA_DIST = \
 	red.svg \
 	yellow.svg \
 	theme.js
-

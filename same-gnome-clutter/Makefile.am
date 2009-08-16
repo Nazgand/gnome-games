@@ -58,4 +58,3 @@ endif
 install-data-local: install-schemas-local
 
 @INTLTOOL_SCHEMAS_RULE@
-
