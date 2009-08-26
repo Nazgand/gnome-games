@@ -21,7 +21,9 @@ gnometris_SOURCES = \
 	blockops.cpp \
 	blockops.h \
 	renderer.cpp \
-	renderer.h
+	renderer.h \
+	blocks-cache.cpp \
+	blocks-cache.h
 
 gnometris_CPPFLAGS = \
 	-I$(top_srcdir) \

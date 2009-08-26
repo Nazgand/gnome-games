@@ -28,7 +28,6 @@
 #include <glib.h>
 
 #include "blocks.h"
-#include "tetris.h"
 
 struct ThemeTableEntry {
 	const gchar *name;
@@ -36,35 +35,25 @@ struct ThemeTableEntry {
 };
 
 extern const ThemeTableEntry ThemeTable[];
+gint themeNameToNumber (const gchar *id);
 
 class Renderer {
 public:
-	Renderer (gint pxw, gint pxh, bool initFromSubclass);
-	virtual ~ Renderer ();
-
-	void rescaleCache (gint pxw, gint pxh);
-	cairo_surface_t* getCacheCellById (gint id);
-
-	gint pxwidth;
-	gint pxheight;
-protected:
-	cairo_surface_t* cache[NCOLOURS];
-	virtual void drawCell (cairo_t * cr, guint color);
+	virtual void drawCell (cairo_t *cr, guint color);
 };
 
-Renderer *rendererFactory (gint id, gint pxw, gint pxh);
-gint themeNameToNumber (const gchar * id);
+Renderer *rendererFactory (gint id);
 
 class TangoBlock:public Renderer {
 public:
-	TangoBlock (gint pxw, gint pxh, gboolean grad);
+	TangoBlock (gboolean grad);
+	virtual void drawCell (cairo_t *cr, guint color);
 
-protected:
-	virtual void drawCell (cairo_t * cr, guint color);
+protected:	
 	gboolean usegrads;
 
 private:
-	void drawRoundedRectangle (cairo_t * cr, gdouble x, gdouble y, gdouble w, gdouble h, gdouble r);
+	void drawRoundedRectangle (cairo_t *cr, gdouble x, gdouble y, gdouble w, gdouble h, gdouble r);
 };
 
 #endif // __renderer_h__

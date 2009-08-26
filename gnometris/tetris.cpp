@@ -26,8 +26,6 @@
 #include <math.h>
 #include <ctype.h>
 
-#include <glib/gi18n.h>
-#include <gtk/gtk.h>
 #include <gdk/gdkkeysyms.h>
 #include <gio/gio.h>
 
@@ -43,8 +41,8 @@
 #include "scoreframe.h"
 #include "highscores.h"
 #include "preview.h"
-#include "renderer.h"
 #include "blockops.h"
+#include "renderer.h"
 
 int LINES = 20;
 int COLUMNS = 14;

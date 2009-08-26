@@ -22,8 +22,8 @@
  */
 
 #include <config.h>
-
 #include <string.h>
+#include <glib/gi18n.h>
 
 #include "renderer.h"
 
@@ -53,87 +53,27 @@ gint themeNameToNumber (const gchar *id)
 	return 0;
 }
 
-Renderer * rendererFactory (gint id, gint pxw, gint pxh)
+Renderer * rendererFactory (gint id)
 {
+	Renderer *r;
 	switch (id) {
 	case 2:
-		return new TangoBlock (pxw, pxh, TRUE);
+		r = new TangoBlock (TRUE);
 	case 1:
-		return new TangoBlock (pxw, pxh, FALSE);
+		r = new TangoBlock (FALSE);
 	case 0:
 	default:
-		return new Renderer (pxw, pxh, FALSE);
+		r = new Renderer ();
 	}
+	return r;
 }
 
 /* The Renderer class is a basic drawing class that is structured to
-   be easily customised by subclasses. The most basic customisation
-   would be to override drawCell to customise the drawing of one
-   cell. If more sophisticated drawing is required for either the
-   foreground or the background is required then drawForeground and
-   drawBackground are the functions to alter. If a completely
-   different drawing regime is required then the render method - the
-   only entry point from external code - can be replaced. */
+   be easily customised by subclasses. Override drawCell to customise
+   the drawing of one cell. */
 
 /* Note that the default renderer is designed to be reasonably fast
-   and flexible, not flashy. Also note that the renderer may be used
-   for the preview widget and possibly the theme previewer, so make no
-   assumptions. */
-
-Renderer::Renderer (gint pxw, gint pxh, bool initFromSubclass)
-{
-	pxwidth = pxw == 0 ? 1 : pxw;
-	pxheight = pxh == 0 ? 1 : pxh;
-	for (int i = 0; i < NCOLOURS; i++) {
-		cache[i] = NULL;
-	}
-	if (!initFromSubclass)
-		rescaleCache (pxwidth, pxheight);
-}
-
-Renderer::~Renderer ()
-{
-	for (int i = 0; i<NCOLOURS; i++) {
-		if (cache[i])
-			cairo_surface_destroy (cache[i]);
-	}
-}
-
-cairo_surface_t* Renderer::getCacheCellById (gint id)
-{
-	return cache[id];
-}
-
-void Renderer::rescaleCache (gint x, gint y)
-{
-	if (x == 0 or y == 0)
-		return;
-
-	pxwidth = x;
-	pxheight = y;
-
-	if(cache[0]) {
-		for (int i = 0; i<NCOLOURS; i++) {
-			g_object_unref (cache[i]);
-			cache[i] = cairo_image_surface_create (CAIRO_FORMAT_ARGB32,
-							       pxwidth,
-							       pxheight);
-			cairo_t *cr = cairo_create (cache[i]);
-			cairo_scale (cr, 1.0 * pxwidth, 1.0 * pxheight);
-			drawCell (cr, i);
-			cairo_destroy (cr);
-		}
-	} else {
-		for (int i = 0; i<NCOLOURS; i++) {
-			cache[i] = cairo_image_surface_create (CAIRO_FORMAT_ARGB32,
-							       pxwidth, pxheight);
-			cairo_t *cr = cairo_create (cache[i]);
-			cairo_scale (cr, 1.0 * pxwidth, 1.0 * pxheight);
-			drawCell (cr, i);
-			cairo_destroy (cr);
-		}
-	}
-}
+   and flexible, not flashy. */
 
 void Renderer::drawCell (cairo_t *cr, guint color)
 {
@@ -153,10 +93,9 @@ void Renderer::drawCell (cairo_t *cr, guint color)
 	cairo_paint (cr);
 }
 
-TangoBlock::TangoBlock (gint pxw, gint pxh, gboolean grad) : Renderer (pxw, pxh, TRUE)
+TangoBlock::TangoBlock (gboolean grad) : Renderer ()
 {
 	usegrads = grad;
-	rescaleCache (pxwidth, pxheight);
 }
 
 void TangoBlock::drawCell (cairo_t *cr, guint color)

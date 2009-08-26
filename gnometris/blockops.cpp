@@ -22,88 +22,13 @@
  */
 
 #include <config.h>
+
 #include "blockops.h"
-#include "blocks.h"
+#include <cairo/cairo.h>
 #include <clutter-gtk/clutter-gtk.h>
+#include "tetris.h"
 
 #define FONT "Sans Bold"
-
-Block::Block ():
-	what(EMPTY),
-	actor(NULL),
-	x(0),
-	y(0),
-	move_behaviour(NULL),
-	fall_behaviour(NULL),
-	explode_move_behaviour(NULL)
-{}
-
-Block::~Block ()
-{
-	if (actor)
-		clutter_actor_destroy (CLUTTER_ACTOR(actor));
-	if (move_behaviour)
-		g_object_unref (move_behaviour);
-	if (fall_behaviour)
-		g_object_unref (fall_behaviour);
-	if (explode_move_behaviour)
-		g_object_unref (explode_move_behaviour);
-}
-
-void
-Block::createActor (ClutterActor *chamber, cairo_surface_t *texture_source)
-{
-	if (actor)
-		clutter_actor_destroy (CLUTTER_ACTOR(actor));
-	actor = clutter_texture_new ();
-	// FIXME jclinton ... this should really be cluttercairo somehow for efficiency
-	clutter_texture_set_from_rgb_data (CLUTTER_TEXTURE(actor),
-					   cairo_image_surface_get_data(texture_source),
-					   TRUE,
-					   cairo_image_surface_get_width(texture_source),
-					   cairo_image_surface_get_height(texture_source),
-					   cairo_image_surface_get_stride(texture_source),
-					   32, CLUTTER_TEXTURE_NONE, NULL);
-	clutter_group_add (CLUTTER_GROUP (chamber), actor);
-	clutter_actor_set_position (CLUTTER_ACTOR(actor), x, y);
-	clutter_actor_show (CLUTTER_ACTOR(actor));
-}
-
-void
-Block::bindAnimations (BlockOps *f)
-{
-	move_behaviour = clutter_behaviour_path_new_with_knots (f->move_alpha,
-								NULL, 0);
-
-	fall_behaviour = clutter_behaviour_path_new_with_knots (f->fall_alpha,
-								NULL, 0);
-
-	explode_move_behaviour = clutter_behaviour_path_new_with_knots (f->explode_alpha,
-									NULL, 0);
-}
-
-Block&
-Block::moveFrom (Block& b, BlockOps *f)
-{
-	if (this != &b) {
-		what = b.what;
-		b.what = EMPTY;
-		color = b.color;
-		b.color = 0;
-		if (b.actor) {
-			const ClutterKnot knot_line[] = {{b.x, b.y}, {x, y}};
-			fall_behaviour = clutter_behaviour_path_new_with_knots (f->fall_alpha,
-										knot_line, 2);
-			clutter_behaviour_apply (fall_behaviour, b.actor);
-			f->fall_behaviours = g_list_prepend (f->fall_behaviours, fall_behaviour);
-		}
-		actor = b.actor;
-		b.actor = NULL;
-	}
-	return *this;
-}
-
-/******************************************************************************/
 
 gboolean
 BlockOps::move_end (ClutterTimeline *time, BlockOps *f)
@@ -156,7 +81,7 @@ BlockOps::BlockOps() :
 	height(0),
 	cell_width(0),
 	cell_height(0),
-	renderer(NULL),
+	cache(NULL),
 	themeID(-1),
 	blocknr(0),
 	rot(0),
@@ -178,7 +103,7 @@ BlockOps::BlockOps() :
 	stage = gtk_clutter_embed_get_stage (GTK_CLUTTER_EMBED (w));
 
 	playingField = clutter_group_new ();
-	clutter_group_add (CLUTTER_GROUP(stage), CLUTTER_ACTOR(playingField));
+	clutter_stage_add (stage, playingField);
 	
 	move_time = clutter_timeline_new (60);
 	g_signal_connect (move_time, "completed", G_CALLBACK
@@ -635,9 +560,13 @@ BlockOps::emptyField(int filled_lines, int fill_prob)
 				guint tmpColor = g_random_int_range(0, NCOLOURS);
 				field[x][y].what = LAYING;
 				field[x][y].color = tmpColor;
-				field[x][y].createActor (playingField, renderer->getCacheCellById (tmpColor));
+				field[x][y].createActor (playingField,
+				                         blocks_cache_get_block_texture_by_id (cache,
+				                                                               tmpColor),
+				                         cell_width,
+				                         cell_height);
 				clutter_actor_set_position (CLUTTER_ACTOR(field[x][y].actor),
-							    x*(cell_width), y*(cell_height));
+				                            x*(cell_width), y*(cell_height));
 			}
 		}
 	}
@@ -662,7 +591,10 @@ BlockOps::putBlockInField (SlotType fill)
 				field[i][j].color = color;
 				if (fill == FALLING) {
 					field[i][j].createActor (playingField,
-								 renderer->getCacheCellById (color));
+					                         blocks_cache_get_block_texture_by_id (cache,
+					                                                               color),
+								 cell_width,
+								 cell_height);
 				} else {
 					if (field[i][j].actor) {
 						clutter_actor_destroy (field[i][j].actor);
@@ -735,6 +667,7 @@ BlockOps::resize(GtkWidget *widget, GtkAllocation *allocation, BlockOps *field)
 {
 	field->width = allocation->width;
 	field->height = allocation->height;
+
 	if (field->width == 0 || field->height == 0)
 		return FALSE;
 	field->cell_width = field->width/COLUMNS;
@@ -769,11 +702,12 @@ BlockOps::rescaleField ()
 
 	cairo_t *bg_cr;
 
-	if (renderer)
-		renderer->rescaleCache (cell_width, cell_height);
+	/*if (cache)
+		g_object_unref (cache);
 	else {
-		renderer = rendererFactory (themeID, cell_width, cell_height);
-	}
+		cache = blocks_cache_new ();
+		blocks_cache_set_theme (cache, themeID);
+	}*/
 
 	if (background) {
 		clutter_actor_set_size (CLUTTER_ACTOR(background), width, height);
@@ -786,8 +720,9 @@ BlockOps::rescaleField ()
 		ClutterColor stage_color = { 0x61, 0x64, 0x8c, 0xff };
 		clutter_stage_set_color (CLUTTER_STAGE (stage),
 					 &stage_color);
-		clutter_group_add (CLUTTER_GROUP (stage),
+		clutter_stage_add (stage,
 				   background);
+		clutter_actor_set_position (CLUTTER_ACTOR (background), 0, 0);
 	}
 
 	rescaleBlockPos ();
@@ -799,8 +734,9 @@ BlockOps::rescaleField ()
 							width, height);
 	} else {
 		foreground = clutter_cairo_texture_new (width, height);
-		clutter_group_add (CLUTTER_GROUP (stage),
+		clutter_stage_add (stage,
 				   foreground);
+		clutter_actor_set_position (CLUTTER_ACTOR (foreground), 0, 0);
 	}
 
 	bg_cr = clutter_cairo_texture_create (CLUTTER_CAIRO_TEXTURE(background));
@@ -837,8 +773,6 @@ BlockOps::rescaleField ()
 			center_anchor_x, center_anchor_y);
 	clutter_actor_raise (CLUTTER_ACTOR (playingField),
 			CLUTTER_ACTOR(background));
-
-	clutter_actor_show_all (stage);
 }
 
 void
@@ -852,7 +786,6 @@ BlockOps::drawMessage()
 	char *msg;
 
 	cr = clutter_cairo_texture_create (CLUTTER_CAIRO_TEXTURE(foreground));
-	clutter_actor_raise_top (CLUTTER_ACTOR(foreground));
 	cairo_set_operator (cr, CAIRO_OPERATOR_CLEAR);
 	cairo_paint(cr);
 	cairo_set_operator (cr, CAIRO_OPERATOR_OVER);
@@ -957,13 +890,11 @@ BlockOps::setTheme (gint id)
 		return;
 
 	themeID = id;
-	if (renderer) {
-		delete renderer;
-		renderer = rendererFactory (themeID, cell_width,
-					    cell_height);
+	if (cache) {
+		blocks_cache_set_theme (cache, themeID);
 	} else {
-		renderer = rendererFactory (themeID, cell_width,
-					    cell_height);
+		cache = blocks_cache_new ();
+		blocks_cache_set_theme (cache, themeID);
 	}
 	rescaleBlockPos();
 }

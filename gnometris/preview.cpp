@@ -20,7 +20,6 @@
  * For more details see the file COPYING.
  */
 
-#include <config.h>
 #include "preview.h"
 
 #define PREVIEW_WIDTH 6
@@ -35,7 +34,7 @@ Preview::Preview():
 	blocknr(-1),
 	color(-1),
 	themeID(-1),
-	renderer(NULL),
+	cache(NULL),
 	enabled(true)
 {
 	blocks = new Block*[PREVIEW_WIDTH];
@@ -61,7 +60,6 @@ Preview::Preview():
 	piece = clutter_group_new ();
 	clutter_group_add (CLUTTER_GROUP (stage),
 			   piece);
-	clutter_actor_show_all (stage);
 
 	piece_timeline = clutter_timeline_new (180);
 	alpha = clutter_alpha_new_full (piece_timeline,
@@ -79,7 +77,7 @@ Preview::~Preview ()
 		delete[] blocks[i];
 
 	delete[] blocks;
-	delete renderer;
+	g_object_unref (cache);
 }
 
 void
@@ -91,27 +89,12 @@ Preview::enable(bool en)
 void
 Preview::setTheme (gint id)
 {
-	if (themeID == id)
-		return;
-
 	themeID = id;
 
-	if (renderer) {
-		delete renderer;
-		renderer = rendererFactory (themeID, PREVIEW_SIZE*4, PREVIEW_SIZE*4);
-	} else {
-		renderer = rendererFactory (themeID, PREVIEW_SIZE*4, PREVIEW_SIZE*4);
-	}
-}
+	if (cache)
+		g_object_unref (cache);
+	cache = blocks_cache_new ();
 
-void
-Preview::regenerateRenderer ()
-{
-	if (renderer)
-		renderer->rescaleCache (PREVIEW_SIZE*4, PREVIEW_SIZE*4);
-	else {
-		renderer = rendererFactory (themeID, PREVIEW_SIZE*4, PREVIEW_SIZE*4);
-	}
 }
 
 void
@@ -131,20 +114,21 @@ Preview::previewBlock(gint bnr, gint bcol)
 			    blockTable[blocknr][0][x-1][y-1]) {
 				blocks[x][y].what = LAYING;
 				blocks[x][y].createActor (piece,
-							  renderer->getCacheCellById (color));
+				                          blocks_cache_get_block_texture_by_id (cache, color),
+				                          PREVIEW_SIZE*4,
+				                          PREVIEW_SIZE*4);
 				clutter_actor_set_position (CLUTTER_ACTOR(blocks[x][y].actor),
-							    x*PREVIEW_SIZE*4, y*PREVIEW_SIZE*4);
+				                            x*PREVIEW_SIZE*4, y*PREVIEW_SIZE*4);
 			} else {
 				blocks[x][y].what = EMPTY;
 				if (blocks[x][y].actor) {
-					clutter_actor_destroy (blocks[x][y].actor);
+					clutter_actor_destroy (CLUTTER_ACTOR(blocks[x][y].actor));
 					blocks[x][y].actor = NULL;
 				}
 			}
 		}
 	}
 	clutter_timeline_start (piece_timeline);
-	clutter_actor_show_all (stage);
 }
 
 gint
@@ -152,7 +136,6 @@ Preview::resize(GtkWidget *widget, GtkAllocation *allocation, Preview *preview)
 {
 	preview->width = allocation->width;
 	preview->height = allocation->height;
-	preview->regenerateRenderer ();
 	clutter_actor_set_anchor_point (preview->piece, PREVIEW_SIZE*10, PREVIEW_SIZE*10);
 	clutter_actor_set_position (CLUTTER_ACTOR(preview->piece), PREVIEW_SIZE*10, PREVIEW_SIZE*10);
 	preview->previewBlock (preview->blocknr, preview->color);

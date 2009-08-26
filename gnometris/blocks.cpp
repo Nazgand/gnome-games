@@ -19,6 +19,78 @@
  * For more details see the file COPYING.
  */
 
+#include "blocks.h"
+#include "blockops.h"
+
+Block::Block ():
+	what(EMPTY),
+	actor(NULL),
+	x(0),
+	y(0),
+	move_behaviour(NULL),
+	fall_behaviour(NULL),
+	explode_move_behaviour(NULL)
+{}
+
+Block::~Block ()
+{
+	if (actor)
+		clutter_actor_destroy (CLUTTER_ACTOR(actor));
+	if (move_behaviour)
+		g_object_unref (move_behaviour);
+	if (fall_behaviour)
+		g_object_unref (fall_behaviour);
+	if (explode_move_behaviour)
+		g_object_unref (explode_move_behaviour);
+}
+
+void
+Block::createActor (ClutterActor *chamber, CoglHandle texture_source, gint pxwidth, gint pxheight)
+{
+	if (actor)
+		clutter_actor_destroy (CLUTTER_ACTOR(actor));
+	actor = clutter_texture_new ();
+	clutter_texture_set_cogl_texture (CLUTTER_TEXTURE(actor),
+	                                  texture_source);
+	clutter_group_add (CLUTTER_GROUP (chamber), actor);
+	clutter_actor_set_position (CLUTTER_ACTOR(actor), x, y);
+	clutter_actor_show (CLUTTER_ACTOR(actor));
+}
+
+void
+Block::bindAnimations (BlockOps *f)
+{
+	move_behaviour = clutter_behaviour_path_new_with_knots (f->move_alpha,
+								NULL, 0);
+
+	fall_behaviour = clutter_behaviour_path_new_with_knots (f->fall_alpha,
+								NULL, 0);
+
+	explode_move_behaviour = clutter_behaviour_path_new_with_knots (f->explode_alpha,
+									NULL, 0);
+}
+
+Block&
+Block::moveFrom (Block& b, BlockOps *f)
+{
+	if (this != &b) {
+		what = b.what;
+		b.what = EMPTY;
+		color = b.color;
+		b.color = 0;
+		if (b.actor) {
+			const ClutterKnot knot_line[] = {{b.x, b.y}, {x, y}};
+			fall_behaviour = clutter_behaviour_path_new_with_knots (f->fall_alpha,
+										knot_line, 2);
+			clutter_behaviour_apply (fall_behaviour, b.actor);
+			f->fall_behaviours = g_list_prepend (f->fall_behaviours, fall_behaviour);
+		}
+		actor = b.actor;
+		b.actor = NULL;
+	}
+	return *this;
+}
+
 int blockTable[][4][4][4] =
 {
   {

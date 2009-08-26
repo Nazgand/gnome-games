@@ -23,11 +23,8 @@
  */
 
 #include "tetris.h"
-#include "blockops.h"
-#include "renderer.h"
 #include "blocks.h"
-
-#include <clutter/clutter.h>
+#include "blocks-cache.h"
 #include <clutter-gtk/clutter-gtk.h>
 
 class Preview {
@@ -42,7 +39,6 @@ public:
 	void enable (bool enable);
 	void setTheme (gint id);
 	void previewBlock (int bnr, int bcolor);
-	void regenerateRenderer ();
 
 private:
 	GtkWidget *w;
@@ -58,7 +54,7 @@ private:
 
 	Block **blocks;
 	ClutterActor* piece;
-	Renderer* renderer;
+	BlocksCache *cache;
 
 	bool enabled;
 

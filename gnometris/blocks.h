@@ -22,7 +22,42 @@
  * For more details see the file COPYING.
  */
 
+#include <clutter/clutter.h>
+#include <cogl/cogl.h>
+
+class BlockOps;
+
 #define NCOLOURS 7
+
+enum SlotType {
+	EMPTY,
+	FALLING,
+	LAYING
+};
+
+class Block {
+public:
+	Block ();
+	~Block ();
+
+	Block& moveFrom (Block &b, BlockOps *f);
+
+	SlotType what;
+	guint color;
+	ClutterActor *actor;
+
+	int x;
+	int y;
+
+	void createActor (ClutterActor *chamber, CoglHandle texture_source, gint pxwidth, gint pxheight);
+	void bindAnimations (BlockOps *f);
+
+	/* Every block will have a unique position
+	 * These can be continuously cleared and repopulated with new paths */
+	ClutterBehaviour *move_behaviour;
+	ClutterBehaviour *fall_behaviour;
+	ClutterBehaviour *explode_move_behaviour;
+};
 
 extern int blockTable[][4][4][4];
 extern int tableSize;

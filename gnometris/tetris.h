@@ -26,7 +26,7 @@
 
 #include <glib/gi18n.h>
 #include <gtk/gtk.h>
-#include <gdk-pixbuf/gdk-pixbuf.h>
+//#include <gdk-pixbuf/gdk-pixbuf.h>
 
 #include <libgames-support/games-conf.h>
 
