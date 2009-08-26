@@ -27,7 +27,7 @@
 #include "renderer.h"
 #include "blocks-cache.h"
 
-#include "../libgames-support/games-debug.h"
+#include <libgames-support/games-debug.h>
 
 struct _BlocksCachePrivate
 {
