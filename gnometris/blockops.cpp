@@ -82,7 +82,7 @@ BlockOps::BlockOps() :
 	cell_width(0),
 	cell_height(0),
 	cache(NULL),
-	themeID(-1),
+	themeID(0),
 	blocknr(0),
 	rot(0),
 	color(0),
@@ -713,6 +713,8 @@ BlockOps::rescaleField ()
 
 	cairo_t *bg_cr;
 
+	if (!cache)
+		cache = blocks_cache_new ();
 	blocks_cache_set_theme (cache, themeID);
 
 	if (background) {
@@ -889,7 +891,7 @@ BlockOps::hideGameOverMessage()
 }
 
 void
-BlockOps::setTheme (gint id)
+BlockOps::setTheme (guint id)
 {
 	// don't waste time if theme is the same (like from initOptions)
 	if (themeID == id)

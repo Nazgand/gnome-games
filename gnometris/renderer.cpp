@@ -59,8 +59,10 @@ Renderer * rendererFactory (guint id)
 	switch (id) {
 	case 2:
 		r = new TangoBlock (TRUE);
+		break;
 	case 1:
 		r = new TangoBlock (FALSE);
+		break;
 	case 0:
 	default:
 		r = new Renderer ();
@@ -100,7 +102,6 @@ TangoBlock::TangoBlock (gboolean grad) : Renderer ()
 
 void TangoBlock::drawCell (cairo_t *cr, guint color)
 {
-
 	cairo_pattern_t *pat = NULL;
 	/* the following garbage is derived from the official tango style guide */
 	const gdouble colours[8][3][3] = {

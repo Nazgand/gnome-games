@@ -56,7 +56,7 @@ public:
 	void hidePauseMessage ();
 	void showGameOverMessage ();
 	void hideGameOverMessage ();
-	void setTheme (gint id);
+	void setTheme (guint id);
 	void drawMessage ();
 
 	GList *destroy_actors;
@@ -105,7 +105,7 @@ private:
 	guint cell_width;
 	guint cell_height;
 	BlocksCache *cache;
-	gint themeID;
+	guint themeID;
 
 	Block **field;
 	Block **backfield;

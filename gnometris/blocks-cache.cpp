@@ -303,6 +303,7 @@ blocks_cache_get_block_texture_by_id (BlocksCache *cache,
       return COGL_INVALID_HANDLE;
     }
 
+    cairo_scale (cr, 1.0 * 32, 1.0 * 32);
     renderer->drawCell (cr, colour);
     cairo_destroy (cr);
 
@@ -315,6 +316,7 @@ blocks_cache_get_block_texture_by_id (BlocksCache *cache,
                                          cr_surface_data);
     cairo_surface_destroy (cr_surface);
     g_free (cr_surface_data);
+    delete renderer;
 
     if (handle == COGL_INVALID_HANDLE) {
       priv->colours[colour] = FAILED_HANDLE;

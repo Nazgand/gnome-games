@@ -91,9 +91,9 @@ Preview::setTheme (guint id)
 {
 	themeID = id;
 
-	if (cache)
-		g_object_unref (cache);
-	cache = blocks_cache_new ();
+	if (!cache)
+		cache = blocks_cache_new ();
+	blocks_cache_set_theme (cache, themeID);
 
 }
 
