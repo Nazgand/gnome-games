@@ -87,7 +87,7 @@ Preview::enable(bool en)
 }
 
 void
-Preview::setTheme (gint id)
+Preview::setTheme (guint id)
 {
 	themeID = id;
 
@@ -112,6 +112,7 @@ Preview::previewBlock(gint bnr, gint bcol)
 		for (y = 1; y < PREVIEW_HEIGHT - 1; y++) {
 			if ((blocknr != -1) &&
 			    blockTable[blocknr][0][x-1][y-1]) {
+				blocks[x][y].emptyCell ();
 				blocks[x][y].what = LAYING;
 				blocks[x][y].createActor (piece,
 				                          blocks_cache_get_block_texture_by_id (cache, color),
@@ -121,10 +122,8 @@ Preview::previewBlock(gint bnr, gint bcol)
 				                            x*PREVIEW_SIZE*4, y*PREVIEW_SIZE*4);
 			} else {
 				blocks[x][y].what = EMPTY;
-				if (blocks[x][y].actor) {
-					clutter_actor_destroy (CLUTTER_ACTOR(blocks[x][y].actor));
-					blocks[x][y].actor = NULL;
-				}
+				if (blocks[x][y].actor)
+					blocks[x][y].emptyCell ();
 			}
 		}
 	}

@@ -35,14 +35,14 @@ struct ThemeTableEntry {
 };
 
 extern const ThemeTableEntry ThemeTable[];
-gint themeNameToNumber (const gchar *id);
+guint themeNameToNumber (const gchar *id);
 
 class Renderer {
 public:
 	virtual void drawCell (cairo_t *cr, guint color);
 };
 
-Renderer *rendererFactory (gint id);
+Renderer *rendererFactory (guint id);
 
 class TangoBlock:public Renderer {
 public:

@@ -63,6 +63,12 @@ enum
 #define LOG_CACHE_MISS(obj)
 #endif /* GNOME_ENABLE_DEBUG */
 
+#if G_BYTE_ORDER == G_LITTLE_ENDIAN
+#define CLUTTER_CAIRO_TEXTURE_PIXEL_FORMAT COGL_PIXEL_FORMAT_BGRA_8888_PRE
+#else
+#define CLUTTER_CAIRO_TEXTURE_PIXEL_FORMAT COGL_PIXEL_FORMAT_ARGB_8888_PRE
+#endif
+
 static void blocks_cache_dispose (GObject *object);
 static void blocks_cache_finalize (GObject *object);
 
@@ -287,13 +293,16 @@ blocks_cache_get_block_texture_by_id (BlocksCache *cache,
   }
 
   if (handle == COGL_INVALID_HANDLE) {
-    cairo_surface_t *imgbuf = cairo_image_surface_create (CAIRO_FORMAT_ARGB32,
-                                                          64, 64); /*FIXME for pixel-level precision*/
+    guint rowstride = cairo_format_stride_for_width (CAIRO_FORMAT_ARGB32, 32);
+    guchar *cr_surface_data = static_cast<guchar*>(g_malloc0 (32 * rowstride));
+    cairo_surface_t *cr_surface = cairo_image_surface_create_for_data (cr_surface_data,
+                                                                       CAIRO_FORMAT_ARGB32,
+                                                                       32, 32, rowstride); /*FIXME for pixel-level precision*/
 
     LOG_CACHE_MISS (cache);
 
     Renderer *renderer = rendererFactory (priv->theme);
-    cairo_t *cr = cairo_create (imgbuf);
+    cairo_t *cr = cairo_create (cr_surface);
 
     if (!cr) {
       priv->colours[colour] = FAILED_HANDLE;
@@ -303,14 +312,15 @@ blocks_cache_get_block_texture_by_id (BlocksCache *cache,
     renderer->drawCell (cr, colour);
     cairo_destroy (cr);
 
-    handle = cogl_texture_new_from_data (64,
-                                         64,
+    handle = cogl_texture_new_from_data (32,
+                                         32,
                                          COGL_TEXTURE_NONE,
-                                         COGL_PIXEL_FORMAT_RGBA_8888,
+                                         CLUTTER_CAIRO_TEXTURE_PIXEL_FORMAT,
                                          COGL_PIXEL_FORMAT_ANY,
-                                         2048,
-                                         cairo_image_surface_get_data (imgbuf));
-    cairo_surface_destroy (imgbuf);
+                                         rowstride,
+                                         cr_surface_data);
+    cairo_surface_destroy (cr_surface);
+    g_free (cr_surface_data);
 
     if (handle == COGL_INVALID_HANDLE) {
       priv->colours[colour] = FAILED_HANDLE;

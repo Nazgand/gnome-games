@@ -33,9 +33,9 @@ const ThemeTableEntry ThemeTable[] = {{N_("Plain"), "plain"},
 				      {NULL, NULL}};
 
 
-gint themeNameToNumber (const gchar *id)
+guint themeNameToNumber (const gchar *id)
 {
-	int i;
+	guint i;
 	const ThemeTableEntry *t;
 
 	if (id == NULL)
@@ -53,7 +53,7 @@ gint themeNameToNumber (const gchar *id)
 	return 0;
 }
 
-Renderer * rendererFactory (gint id)
+Renderer * rendererFactory (guint id)
 {
 	Renderer *r;
 	switch (id) {

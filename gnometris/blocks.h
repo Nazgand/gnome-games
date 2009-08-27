@@ -40,6 +40,8 @@ public:
 	Block ();
 	~Block ();
 
+	void emptyCell ();
+
 	Block& moveFrom (Block &b, BlockOps *f);
 
 	SlotType what;
@@ -52,8 +54,7 @@ public:
 	void createActor (ClutterActor *chamber, CoglHandle texture_source, gint pxwidth, gint pxheight);
 	void bindAnimations (BlockOps *f);
 
-	/* Every block will have a unique position
-	 * These can be continuously cleared and repopulated with new paths */
+	/* Every block will have a unique position*/
 	ClutterBehaviour *move_behaviour;
 	ClutterBehaviour *fall_behaviour;
 	ClutterBehaviour *explode_move_behaviour;

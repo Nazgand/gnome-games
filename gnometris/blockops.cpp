@@ -110,12 +110,14 @@ BlockOps::BlockOps() :
 			  (BlockOps::move_end), this);
 	move_alpha = clutter_alpha_new_full (move_time,
 					     CLUTTER_EASE_IN_QUAD);
+	g_object_ref (move_alpha);
 
 	fall_time = clutter_timeline_new (FALL_TIMING);
 	g_signal_connect (fall_time, "completed", G_CALLBACK
 			  (BlockOps::fall_end), this);
 	fall_alpha = clutter_alpha_new_full (fall_time,
 					     CLUTTER_EASE_IN_QUAD);
+	g_object_ref (fall_alpha);
 
 	explode_time = clutter_timeline_new (720);
 	g_signal_connect (explode_time, "completed", G_CALLBACK
@@ -140,10 +142,6 @@ BlockOps::BlockOps() :
 	{
 		field[i] = new Block[LINES];
 		backfield[i] = new Block[LINES];
-		for (int j = 0; j < LINES; ++j)
-		{
-			field[i][j].bindAnimations (this);
-		}
 	}
 }
 
@@ -300,18 +298,23 @@ BlockOps::dropBlock()
 void
 BlockOps::fallingToLaying()
 {
-	for (int x = 0; x < COLUMNS; ++x)
-		for (int y = 0; y < LINES; ++y)
-			if (field[x][y].what == FALLING)
-			{
-				field[x][y].what = LAYING;
-				if (!animate)
-					continue;
-				clutter_actor_set_position (field[x][y].actor,
-							    field[x][y].x,
-							    field[x][y].y);
-				clutter_behaviour_remove_all (field[x][y].move_behaviour);
+	for (int x = 0; x < COLUMNS; ++x) {
+		for (int y = 0; y < LINES; ++y) {
+			Block *cell = &field[x][y];
+			if (cell->what == FALLING) {
+				cell->what = LAYING;
+				//if (!animate)
+				//	continue;
+				clutter_actor_set_position (cell->actor,
+							    cell->x, cell->y);
+				if (cell->move_behaviour) {
+					clutter_behaviour_remove_all (cell->move_behaviour);
+					g_object_unref (cell->move_behaviour);
+					cell->move_behaviour = NULL;
+				}
 			}
+		}
+	}
 }
 
 void
@@ -319,23 +322,27 @@ BlockOps::eliminateLine(int l)
 {
 	for (int x = 0; x < COLUMNS; ++x)
 	{
-		if (field[x][l].actor) {
+		Block *cell = &field[x][l];
+		if (cell->actor) {
 			int cur_x, cur_y = 0;
-			g_object_get (G_OBJECT (field[x][l].actor), "x", &cur_x, "y", &cur_y, NULL);
-			clutter_actor_raise_top (field[x][l].actor);
+			g_object_get (G_OBJECT (cell->actor), "x", &cur_x, "y", &cur_y, NULL);
+			clutter_actor_raise_top (cell->actor);
 			ClutterPath *path_line = clutter_path_new ();
 			clutter_path_add_move_to (path_line, cur_x, cur_y);
 			clutter_path_add_line_to (path_line,
 						  cur_x + g_random_int_range (-60 - cell_width / 4, 60),
 						  cur_y + g_random_int_range (-60 - cell_height / 4, 60));
-			clutter_behaviour_remove_all (field[x][l].explode_move_behaviour);
-			clutter_behaviour_path_set_path (CLUTTER_BEHAVIOUR_PATH(field[x][l].explode_move_behaviour),
-							 path_line);
-			clutter_behaviour_apply (field[x][l].explode_move_behaviour, field[x][l].actor);
-			clutter_behaviour_apply (explode_fade_behaviour, field[x][l].actor);
-			clutter_behaviour_apply (explode_scale_behaviour, field[x][l].actor);
-			destroy_actors = g_list_prepend (destroy_actors, field[x][l].actor);
-			field[x][l].actor = NULL;
+			if (cell->explode_move_behaviour) {
+				clutter_behaviour_remove_all (cell->explode_move_behaviour);
+				g_object_unref (cell->explode_move_behaviour);
+			}
+			cell->explode_move_behaviour = clutter_behaviour_path_new (explode_alpha,
+										   path_line);
+			clutter_behaviour_apply (cell->explode_move_behaviour, cell->actor);
+			clutter_behaviour_apply (explode_fade_behaviour, cell->actor);
+			clutter_behaviour_apply (explode_scale_behaviour, cell->actor);
+			destroy_actors = g_list_prepend (destroy_actors, cell->actor);
+			cell->actor = NULL;
 		}
 	}
 }
@@ -549,23 +556,20 @@ BlockOps::emptyField(int filled_lines, int fill_prob)
 
 		for (int x = 0; x < COLUMNS; ++x)
 		{
-			field[x][y].what = EMPTY;
-			if (field[x][y].actor) {
-				clutter_actor_destroy (CLUTTER_ACTOR(field[x][y].actor));
-				field[x][y].actor = NULL;
-			}
+			Block *cell = &field[x][y];
+			cell->what = EMPTY;
+			cell->emptyCell ();
 
 			if ((y>=(LINES - filled_lines)) && (x != blank) &&
 			    ((g_random_int_range(0, 10)) < fill_prob)) {
 				guint tmpColor = g_random_int_range(0, NCOLOURS);
-				field[x][y].what = LAYING;
-				field[x][y].color = tmpColor;
-				field[x][y].createActor (playingField,
-				                         blocks_cache_get_block_texture_by_id (cache,
-				                                                               tmpColor),
-				                         cell_width,
-				                         cell_height);
-				clutter_actor_set_position (CLUTTER_ACTOR(field[x][y].actor),
+				cell->what = LAYING;
+				cell->color = tmpColor;
+				cell->createActor (playingField,
+				                   blocks_cache_get_block_texture_by_id (cache, tmpColor),
+				                   cell_width, cell_height);
+				g_object_set (G_OBJECT(cell->actor), "sync-size", true, NULL);
+				clutter_actor_set_position (CLUTTER_ACTOR(cell->actor),
 				                            x*(cell_width), y*(cell_height));
 			}
 		}
@@ -587,19 +591,16 @@ BlockOps::putBlockInField (SlotType fill)
 				int i = posx - 2 + x;
 				int j = y + posy;
 
-				field[i][j].what = fill;
-				field[i][j].color = color;
+				Block *cell = &field[i][j];
+				cell->what = fill;
 				if (fill == FALLING) {
-					field[i][j].createActor (playingField,
-					                         blocks_cache_get_block_texture_by_id (cache,
-					                                                               color),
-								 cell_width,
-								 cell_height);
+					cell->color = color;
+					cell->createActor (playingField,
+					                   blocks_cache_get_block_texture_by_id (cache, color),
+					                   cell_width, cell_height);
 				} else {
-					if (field[i][j].actor) {
-						clutter_actor_destroy (field[i][j].actor);
-						field[i][j].actor = NULL;
-					}
+					cell->color = color;
+					cell->emptyCell ();
 				}
 			}
 		}
@@ -616,12 +617,16 @@ BlockOps::moveBlockInField (gint x_trans, gint y_trans)
 			if (blockTable[blocknr][rot][x][y]) {
 				int i = posx - 2 + x;
 				int j = y + posy;
+				Block *source_cell = &field[i-x_trans][j-y_trans];
 
-				blocks_actor[x][y] = field[i-x_trans][j-y_trans].actor;
-				field[i-x_trans][j-y_trans].what = EMPTY;
-				field[i-x_trans][j-y_trans].actor = NULL;
-				if (animate)
-					clutter_behaviour_remove_all (field[i-x_trans][j-y_trans].move_behaviour);
+				blocks_actor[x][y] = source_cell->actor;
+				source_cell->what = EMPTY;
+				source_cell->actor = NULL;
+				if (animate && source_cell->move_behaviour) {
+					clutter_behaviour_remove_all (source_cell->move_behaviour);
+					g_object_unref (source_cell->move_behaviour);
+					source_cell->move_behaviour = NULL;
+				}
 			}
 		}
 	}
@@ -630,19 +635,24 @@ BlockOps::moveBlockInField (gint x_trans, gint y_trans)
 			if (blockTable[blocknr][rot][x][y]) {
 				gint i = posx - 2 + x;
 				gint j = y + posy;
+				Block *cell = &field[i][j];
 
-				field[i][j].what = FALLING;
-				field[i][j].color = color;
-				field[i][j].actor = blocks_actor[x][y];
-				if (field[i][j].actor && animate) {
+				cell->what = FALLING;
+				cell->color = color;
+				cell->actor = blocks_actor[x][y];
+				if (cell->actor && animate) {
 					gint cur_x, cur_y = 0;
-					g_object_get (G_OBJECT (field[i][j].actor), "x", &cur_x, "y", &cur_y, NULL);
+					g_object_get (G_OBJECT (cell->actor), "x", &cur_x, "y", &cur_y, NULL);
 					ClutterPath *path_line = clutter_path_new ();
 					clutter_path_add_move_to (path_line, cur_x, cur_y);
-					clutter_path_add_line_to (path_line, field[i][j].x, field[i][j].y);
-					clutter_behaviour_remove_all (field[i][j].move_behaviour);
-					clutter_behaviour_path_set_path (CLUTTER_BEHAVIOUR_PATH(field[i][j].move_behaviour), path_line);
-					clutter_behaviour_apply (field[i][j].move_behaviour, field[i][j].actor);
+					clutter_path_add_line_to (path_line, cell->x, cell->y);
+					if (cell->move_behaviour) {
+						clutter_behaviour_remove_all (cell->move_behaviour);
+						g_object_unref (cell->move_behaviour);
+					}
+					cell->move_behaviour = clutter_behaviour_path_new (CLUTTER_ALPHA(move_alpha),
+					                                                   CLUTTER_PATH(path_line));
+					clutter_behaviour_apply (cell->move_behaviour, cell->actor);
 				}
 			}
 		}

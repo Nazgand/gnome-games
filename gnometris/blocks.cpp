@@ -45,29 +45,34 @@ Block::~Block ()
 }
 
 void
+Block::emptyCell ()
+{
+	if (actor) {
+		clutter_actor_destroy (CLUTTER_ACTOR(actor));
+		actor = NULL;
+	}
+	if (move_behaviour) {
+		g_object_unref (move_behaviour);
+		move_behaviour = NULL;
+	}
+	if (fall_behaviour) {
+		g_object_unref (fall_behaviour);
+		fall_behaviour = NULL;
+	}
+	if (explode_move_behaviour) {
+		g_object_unref (explode_move_behaviour);
+		explode_move_behaviour = NULL;
+	}
+}
+
+void
 Block::createActor (ClutterActor *chamber, CoglHandle texture_source, gint pxwidth, gint pxheight)
 {
-	if (actor)
-		clutter_actor_destroy (CLUTTER_ACTOR(actor));
 	actor = clutter_texture_new ();
 	clutter_texture_set_cogl_texture (CLUTTER_TEXTURE(actor),
 	                                  texture_source);
 	clutter_group_add (CLUTTER_GROUP (chamber), actor);
 	clutter_actor_set_position (CLUTTER_ACTOR(actor), x, y);
-	clutter_actor_show (CLUTTER_ACTOR(actor));
-}
-
-void
-Block::bindAnimations (BlockOps *f)
-{
-	move_behaviour = clutter_behaviour_path_new_with_knots (f->move_alpha,
-								NULL, 0);
-
-	fall_behaviour = clutter_behaviour_path_new_with_knots (f->fall_alpha,
-								NULL, 0);
-
-	explode_move_behaviour = clutter_behaviour_path_new_with_knots (f->explode_alpha,
-									NULL, 0);
 }
 
 Block&

@@ -37,7 +37,7 @@ public:
 	}
 
 	void enable (bool enable);
-	void setTheme (gint id);
+	void setTheme (guint id);
 	void previewBlock (int bnr, int bcolor);
 
 private:
