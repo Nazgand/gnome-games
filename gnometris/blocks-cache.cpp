@@ -32,6 +32,7 @@
 struct _BlocksCachePrivate
 {
   guint theme;
+  guint size;
 
   CoglHandle *colours;
 
@@ -44,7 +45,8 @@ struct _BlocksCachePrivate
 enum
 {
   PROP_0,
-  PROP_THEME
+  PROP_THEME,
+  PROP_SIZE
 };
 
 /* This is an invalid value for a CoglHandle, and distinct from COGL_INVALID_HANDLE */
@@ -162,6 +164,10 @@ blocks_cache_set_property (GObject *self,
       blocks_cache_set_theme (cache, g_value_get_uint (value));
       break;
 
+    case PROP_SIZE:
+      blocks_cache_set_size (cache, g_value_get_uint (value));
+      break;
+
     default:
       G_OBJECT_WARN_INVALID_PROPERTY_ID (self, property_id, pspec);
       break;
@@ -179,6 +185,10 @@ blocks_cache_get_property (GObject *self,
   switch (property_id) {
     case PROP_THEME:
       g_value_set_object (value, GUINT_TO_POINTER(blocks_cache_get_theme (cache)));
+      break;
+
+    case PROP_SIZE:
+      g_value_set_object (value, GUINT_TO_POINTER(blocks_cache_get_size (cache)));
       break;
 
     default:
@@ -208,6 +218,15 @@ blocks_cache_class_init (BlocksCacheClass *klass)
                                G_PARAM_STATIC_NICK |
                                G_PARAM_STATIC_BLURB));
   g_object_class_install_property (gobject_class, PROP_THEME, pspec);
+
+  pspec = g_param_spec_uint ("size", NULL, NULL,
+                               0, 2048, 32,
+                               static_cast<GParamFlags>(G_PARAM_WRITABLE |
+                               G_PARAM_CONSTRUCT_ONLY |
+                               G_PARAM_STATIC_NAME |
+                               G_PARAM_STATIC_NICK |
+                               G_PARAM_STATIC_BLURB));
+  g_object_class_install_property (gobject_class, PROP_SIZE, pspec);
 }
 
 /* Public API */
@@ -263,6 +282,44 @@ blocks_cache_get_theme (BlocksCache *cache)
 }
 
 /**
+ * blocks_cache_set_size:
+ * @cache:
+ * @size:
+ *
+ * Sets the block size.
+ */
+void
+blocks_cache_set_size (BlocksCache *cache,
+                        guint size)
+{
+  BlocksCachePrivate *priv = cache->priv;
+
+  g_return_if_fail (IS_BLOCKS_CACHE (cache));
+
+  if (priv->size == size)
+    return;
+
+  blocks_cache_clear (cache);
+
+  priv->size = size;
+  g_object_notify (G_OBJECT (cache), "size");
+}
+
+/**
+ * blocks_cache_get_size:
+ * @cache:
+ *
+ * Returns: the the block size of @cache
+ */
+guint
+blocks_cache_get_size (BlocksCache *cache)
+{
+  g_return_val_if_fail (IS_BLOCKS_CACHE (cache), NULL);
+
+  return cache->priv->size;
+}
+
+/**
  * blocks_cache_get_block_texture_by_id:
  * @cache:
  * @colour:
@@ -287,11 +344,11 @@ blocks_cache_get_block_texture_by_id (BlocksCache *cache,
   }
 
   if (handle == COGL_INVALID_HANDLE) {
-    guint rowstride = cairo_format_stride_for_width (CAIRO_FORMAT_ARGB32, 32);
-    guchar *cr_surface_data = static_cast<guchar*>(g_malloc0 (32 * rowstride));
-    cairo_surface_t *cr_surface = cairo_image_surface_create_for_data (cr_surface_data,
-                                                                       CAIRO_FORMAT_ARGB32,
-                                                                       32, 32, rowstride); /*FIXME for pixel-level precision*/
+    guint rowstride = cairo_format_stride_for_width (CAIRO_FORMAT_ARGB32, priv->size);
+    guchar *cr_surface_data = static_cast<guchar*>(g_malloc0 (priv->size * rowstride));
+    cairo_surface_t *cr_surface =
+      cairo_image_surface_create_for_data (cr_surface_data, CAIRO_FORMAT_ARGB32,
+                                           priv->size, priv->size, rowstride);
 
     LOG_CACHE_MISS (cache);
 
@@ -303,12 +360,11 @@ blocks_cache_get_block_texture_by_id (BlocksCache *cache,
       return COGL_INVALID_HANDLE;
     }
 
-    cairo_scale (cr, 1.0 * 32, 1.0 * 32);
+    cairo_scale (cr, 1.0 * priv->size, 1.0 * priv->size);
     renderer->drawCell (cr, colour);
     cairo_destroy (cr);
 
-    handle = cogl_texture_new_from_data (32,
-                                         32,
+    handle = cogl_texture_new_from_data (priv->size, priv->size,
                                          COGL_TEXTURE_NONE,
                                          CLUTTER_CAIRO_TEXTURE_PIXEL_FORMAT,
                                          COGL_PIXEL_FORMAT_ANY,

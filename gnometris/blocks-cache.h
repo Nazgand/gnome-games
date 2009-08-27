@@ -57,6 +57,11 @@ void blocks_cache_set_theme (BlocksCache *cache,
 
 guint blocks_cache_get_theme (BlocksCache *cache);
 
+void blocks_cache_set_size (BlocksCache *cache,
+                            guint size);
+
+guint blocks_cache_get_size (BlocksCache *cache);
+
 CoglHandle blocks_cache_get_block_texture_by_id (BlocksCache *cache,
                                                  guint colour);
 

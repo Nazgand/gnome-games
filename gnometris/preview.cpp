@@ -94,7 +94,7 @@ Preview::setTheme (guint id)
 	if (!cache)
 		cache = blocks_cache_new ();
 	blocks_cache_set_theme (cache, themeID);
-
+	previewBlock (blocknr, color);
 }
 
 void
@@ -135,6 +135,9 @@ Preview::resize(GtkWidget *widget, GtkAllocation *allocation, Preview *preview)
 {
 	preview->width = allocation->width;
 	preview->height = allocation->height;
+	if (!preview->cache)
+		preview->cache = blocks_cache_new ();
+	blocks_cache_set_size (preview->cache, PREVIEW_SIZE*4);
 	clutter_actor_set_anchor_point (preview->piece, PREVIEW_SIZE*10, PREVIEW_SIZE*10);
 	clutter_actor_set_position (CLUTTER_ACTOR(preview->piece), PREVIEW_SIZE*10, PREVIEW_SIZE*10);
 	preview->previewBlock (preview->blocknr, preview->color);

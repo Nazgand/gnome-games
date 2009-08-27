@@ -695,7 +695,6 @@ BlockOps::rescaleBlockPos ()
 			if (cell->actor) {
 				clutter_actor_set_position (CLUTTER_ACTOR(cell->actor),
 							    x*(cell_width), y*(cell_height));
-
 				clutter_texture_set_cogl_texture (CLUTTER_TEXTURE(cell->actor),
 				                                  blocks_cache_get_block_texture_by_id (cache, cell->color));
 			}
@@ -716,6 +715,7 @@ BlockOps::rescaleField ()
 	if (!cache)
 		cache = blocks_cache_new ();
 	blocks_cache_set_theme (cache, themeID);
+	blocks_cache_set_size (cache, cell_width);
 
 	if (background) {
 		clutter_actor_set_size (CLUTTER_ACTOR(background), width, height);
