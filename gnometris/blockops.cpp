@@ -303,8 +303,8 @@ BlockOps::fallingToLaying()
 			Block *cell = &field[x][y];
 			if (cell->what == FALLING) {
 				cell->what = LAYING;
-				//if (!animate)
-				//	continue;
+				if (!animate)
+					continue;
 				clutter_actor_set_position (cell->actor,
 							    cell->x, cell->y);
 				if (cell->move_behaviour) {
@@ -324,7 +324,7 @@ BlockOps::eliminateLine(int l)
 	{
 		Block *cell = &field[x][l];
 		if (cell->actor) {
-			int cur_x, cur_y = 0;
+			gfloat cur_x, cur_y = 0;
 			g_object_get (G_OBJECT (cell->actor), "x", &cur_x, "y", &cur_y, NULL);
 			clutter_actor_raise_top (cell->actor);
 			ClutterPath *path_line = clutter_path_new ();
@@ -610,7 +610,7 @@ BlockOps::putBlockInField (SlotType fill)
 void
 BlockOps::moveBlockInField (gint x_trans, gint y_trans)
 {
-	ClutterActor *blocks_actor[4][4] = {{0, }};
+	ClutterActor *temp_actors[4][4] = {{0, }};
 
 	for (int x = 0; x < 4; ++x) {
 		for (int y = 0; y < 4; ++y) {
@@ -619,7 +619,7 @@ BlockOps::moveBlockInField (gint x_trans, gint y_trans)
 				int j = y + posy;
 				Block *source_cell = &field[i-x_trans][j-y_trans];
 
-				blocks_actor[x][y] = source_cell->actor;
+				temp_actors[x][y] = source_cell->actor;
 				source_cell->what = EMPTY;
 				source_cell->actor = NULL;
 				if (animate && source_cell->move_behaviour) {
@@ -639,9 +639,9 @@ BlockOps::moveBlockInField (gint x_trans, gint y_trans)
 
 				cell->what = FALLING;
 				cell->color = color;
-				cell->actor = blocks_actor[x][y];
-				if (cell->actor && animate) {
-					gint cur_x, cur_y = 0;
+				cell->actor = temp_actors[x][y];
+				if (animate) {
+					gfloat cur_x, cur_y = 0.0;
 					g_object_get (G_OBJECT (cell->actor), "x", &cur_x, "y", &cur_y, NULL);
 					ClutterPath *path_line = clutter_path_new ();
 					clutter_path_add_move_to (path_line, cur_x, cur_y);
@@ -691,15 +691,16 @@ BlockOps::rescaleBlockPos ()
 {
 	for (int y = 0; y < LINES; ++y) {
 		for (int x = 0; x < COLUMNS; ++x) {
-			if (field[x][y].actor) {
-				clutter_actor_set_position (CLUTTER_ACTOR(field[x][y].actor),
+			Block *cell = &field[x][y];
+			if (cell->actor) {
+				clutter_actor_set_position (CLUTTER_ACTOR(cell->actor),
 							    x*(cell_width), y*(cell_height));
-				// FIXME jclinton - is this needed?
-				//clutter_clone_texture_set_parent_texture (CLUTTER_CLONE_TEXTURE(field[x][y].actor),
-				//					  CLUTTER_TEXTURE(renderer->getCacheCellById (field[x][y].color)));
+
+				clutter_texture_set_cogl_texture (CLUTTER_TEXTURE(cell->actor),
+				                                  blocks_cache_get_block_texture_by_id (cache, cell->color));
 			}
-			field[x][y].x = x*(cell_width);
-			field[x][y].y = y*(cell_height);
+			cell->x = x*(cell_width);
+			cell->y = y*(cell_height);
 		}
 	}
 }
@@ -712,12 +713,7 @@ BlockOps::rescaleField ()
 
 	cairo_t *bg_cr;
 
-	/*if (cache)
-		g_object_unref (cache);
-	else {
-		cache = blocks_cache_new ();
-		blocks_cache_set_theme (cache, themeID);
-	}*/
+	blocks_cache_set_theme (cache, themeID);
 
 	if (background) {
 		clutter_actor_set_size (CLUTTER_ACTOR(background), width, height);

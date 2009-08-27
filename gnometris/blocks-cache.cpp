@@ -32,7 +32,6 @@
 struct _BlocksCachePrivate
 {
   guint theme;
-  //guint theme_changed_handler;
 
   CoglHandle *colours;
 
@@ -104,9 +103,7 @@ blocks_cache_unset_theme (BlocksCache *cache)
 {
   BlocksCachePrivate *priv = cache->priv;
 
-  //g_signal_handler_disconnect (GUINT_TO_POINTER(priv->theme), priv->theme_changed_handler);
   priv->theme = NULL;
-  //priv->theme_changed_handler = 0;
 }
 
 /* Class implementation */
@@ -248,9 +245,6 @@ blocks_cache_set_theme (BlocksCache *cache,
   blocks_cache_unset_theme (cache);
 
   priv->theme = theme;
-  //priv->theme_changed_handler = g_signal_connect_swapped (GUINT_TO_POINTER(theme), "changed",
-  //                                                        G_CALLBACK (blocks_cache_clear),
-  //                                                        cache);
   g_object_notify (G_OBJECT (cache), "theme");
 }
 

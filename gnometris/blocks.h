@@ -48,8 +48,8 @@ public:
 	guint color;
 	ClutterActor *actor;
 
-	int x;
-	int y;
+	gfloat x;
+	gfloat y;
 
 	void createActor (ClutterActor *chamber, CoglHandle texture_source, gint pxwidth, gint pxheight);
 	void bindAnimations (BlockOps *f);
