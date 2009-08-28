@@ -25,15 +25,13 @@
 #define PREVIEW_WIDTH 6
 #define PREVIEW_HEIGHT 6
 
-// FIXME: Remove
-#define PREVIEW_SIZE 5
-
 Preview::Preview():
 	width(0),
 	height(0),
 	blocknr(-1),
 	color(-1),
-	themeID(-1),
+	themeID(0),
+	cell_size(20),
 	cache(NULL),
 	enabled(true)
 {
@@ -49,8 +47,7 @@ Preview::Preview():
 	/* FIXME: We should scale with the rest of the UI, but that requires
 	 * changes to the widget layout - i.e. wrap the preview in an
 	 * fixed-aspect box. */
-	gtk_widget_set_size_request (w, PREVIEW_SIZE * 20,
-				     PREVIEW_SIZE * 20);
+	gtk_widget_set_size_request (w, 120, 120);
 	ClutterActor *stage;
 	stage = gtk_clutter_embed_get_stage (GTK_CLUTTER_EMBED (w));
 
@@ -66,8 +63,8 @@ Preview::Preview():
 			CLUTTER_EASE_IN_OUT_SINE);
 	piece_behav = clutter_behaviour_scale_new (alpha,
 			1.0, 1.0, 1.4, 1.4);
-	clutter_actor_set_anchor_point (piece, PREVIEW_SIZE*10, PREVIEW_SIZE*10);
-	clutter_actor_set_position (CLUTTER_ACTOR(piece), PREVIEW_SIZE*10, PREVIEW_SIZE*10);
+	clutter_actor_set_anchor_point (piece, 60, 60);
+	clutter_actor_set_position (CLUTTER_ACTOR(piece), 60, 60);
 	clutter_behaviour_apply (piece_behav, piece);
 }
 
@@ -116,10 +113,10 @@ Preview::previewBlock(gint bnr, gint bcol)
 				blocks[x][y].what = LAYING;
 				blocks[x][y].createActor (piece,
 				                          blocks_cache_get_block_texture_by_id (cache, color),
-				                          PREVIEW_SIZE*4,
-				                          PREVIEW_SIZE*4);
+				                          cell_size,
+				                          cell_size);
 				clutter_actor_set_position (CLUTTER_ACTOR(blocks[x][y].actor),
-				                            x*PREVIEW_SIZE*4, y*PREVIEW_SIZE*4);
+				                            x*cell_size, y*cell_size);
 			} else {
 				blocks[x][y].what = EMPTY;
 				if (blocks[x][y].actor)
@@ -131,16 +128,18 @@ Preview::previewBlock(gint bnr, gint bcol)
 }
 
 gint
-Preview::resize(GtkWidget *widget, GtkAllocation *allocation, Preview *preview)
+Preview::resize(GtkWidget *widget, GtkAllocation *allocation, Preview *p)
 {
-	preview->width = allocation->width;
-	preview->height = allocation->height;
-	if (!preview->cache)
-		preview->cache = blocks_cache_new ();
-	blocks_cache_set_size (preview->cache, PREVIEW_SIZE*4);
-	clutter_actor_set_anchor_point (preview->piece, PREVIEW_SIZE*10, PREVIEW_SIZE*10);
-	clutter_actor_set_position (CLUTTER_ACTOR(preview->piece), PREVIEW_SIZE*10, PREVIEW_SIZE*10);
-	preview->previewBlock (preview->blocknr, preview->color);
+	p->width = allocation->width;
+	p->height = allocation->height;
+	p->cell_size = (p->width + p->height) / 2 / 6;
+
+	if (!p->cache)
+		p->cache = blocks_cache_new ();
+	blocks_cache_set_size (p->cache, p->cell_size);
+	clutter_actor_set_anchor_point (p->piece, (p->width / 2), (p->height / 2));
+	clutter_actor_set_position (CLUTTER_ACTOR(p->piece), (p->width / 2), (p->height / 2));
+	p->previewBlock (p->blocknr, p->color);
 	return FALSE;
 }
 

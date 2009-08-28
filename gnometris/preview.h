@@ -47,6 +47,7 @@ private:
 	gint blocknr;
 	gint color;
 	gint themeID;
+	guint cell_size;
 
 	ClutterTimeline *piece_timeline;
 	ClutterAlpha *alpha;
