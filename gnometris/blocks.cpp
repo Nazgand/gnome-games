@@ -51,18 +51,12 @@ Block::emptyCell ()
 		clutter_actor_destroy (CLUTTER_ACTOR(actor));
 		actor = NULL;
 	}
-	if (move_behaviour) {
-		g_object_unref (move_behaviour);
-		move_behaviour = NULL;
-	}
-	if (fall_behaviour) {
-		g_object_unref (fall_behaviour);
-		fall_behaviour = NULL;
-	}
-	if (explode_move_behaviour) {
-		g_object_unref (explode_move_behaviour);
-		explode_move_behaviour = NULL;
-	}
+	if (move_behaviour)
+		clutter_behaviour_remove_all (move_behaviour);
+	if (fall_behaviour)
+		clutter_behaviour_remove_all (fall_behaviour);
+	if (explode_move_behaviour)
+		clutter_behaviour_remove_all (explode_move_behaviour);
 }
 
 void
@@ -75,6 +69,17 @@ Block::createActor (ClutterActor *chamber, CoglHandle texture_source, gint pxwid
 	clutter_actor_set_position (CLUTTER_ACTOR(actor), x, y);
 }
 
+void
+Block::bindAnimations (BlockOps *f)
+{
+	move_behaviour = clutter_behaviour_path_new_with_knots (f->move_alpha,
+								NULL, 0);
+	fall_behaviour = clutter_behaviour_path_new_with_knots (f->fall_alpha,
+								NULL, 0);
+	explode_move_behaviour = clutter_behaviour_path_new_with_knots (f->explode_alpha,
+									NULL, 0);
+}
+
 Block&
 Block::moveFrom (Block& b, BlockOps *f)
 {
@@ -84,9 +89,11 @@ Block::moveFrom (Block& b, BlockOps *f)
 		color = b.color;
 		b.color = 0;
 		if (b.actor) {
-			const ClutterKnot knot_line[] = {{b.x, b.y}, {x, y}};
-			fall_behaviour = clutter_behaviour_path_new_with_knots (f->fall_alpha,
-										knot_line, 2);
+			ClutterPath *path = clutter_path_new ();
+			clutter_path_add_move_to (path, b.x, b.y);
+			clutter_path_add_line_to (path, x, y);
+			clutter_behaviour_path_set_path (CLUTTER_BEHAVIOUR_PATH(fall_behaviour),
+			                                 CLUTTER_PATH(path));
 			clutter_behaviour_apply (fall_behaviour, b.actor);
 			f->fall_behaviours = g_list_prepend (f->fall_behaviours, fall_behaviour);
 		}

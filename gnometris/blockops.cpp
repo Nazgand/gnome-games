@@ -110,14 +110,12 @@ BlockOps::BlockOps() :
 			  (BlockOps::move_end), this);
 	move_alpha = clutter_alpha_new_full (move_time,
 					     CLUTTER_EASE_IN_QUAD);
-	g_object_ref (move_alpha);
 
 	fall_time = clutter_timeline_new (FALL_TIMING);
 	g_signal_connect (fall_time, "completed", G_CALLBACK
 			  (BlockOps::fall_end), this);
 	fall_alpha = clutter_alpha_new_full (fall_time,
 					     CLUTTER_EASE_IN_QUAD);
-	g_object_ref (fall_alpha);
 
 	explode_time = clutter_timeline_new (720);
 	g_signal_connect (explode_time, "completed", G_CALLBACK
@@ -138,10 +136,12 @@ BlockOps::BlockOps() :
 
 	field = new Block*[COLUMNS];
 	backfield = new Block*[COLUMNS];
-	for (int i = 0; i < COLUMNS; ++i)
-	{
+	for (int i = 0; i < COLUMNS; ++i) {
 		field[i] = new Block[LINES];
 		backfield[i] = new Block[LINES];
+		for (int j = 0; j < LINES; ++j) {
+			field[i][j].bindAnimations (this);
+		}
 	}
 }
 
@@ -307,11 +307,7 @@ BlockOps::fallingToLaying()
 					continue;
 				clutter_actor_set_position (cell->actor,
 							    cell->x, cell->y);
-				if (cell->move_behaviour) {
-					clutter_behaviour_remove_all (cell->move_behaviour);
-					g_object_unref (cell->move_behaviour);
-					cell->move_behaviour = NULL;
-				}
+				clutter_behaviour_remove_all (cell->move_behaviour);
 			}
 		}
 	}
@@ -330,17 +326,13 @@ BlockOps::eliminateLine(int l)
 			ClutterPath *path_line = clutter_path_new ();
 			clutter_path_add_move_to (path_line, cur_x, cur_y);
 			clutter_path_add_line_to (path_line,
-						  cur_x + g_random_int_range (-60 - cell_width / 4, 60),
-						  cur_y + g_random_int_range (-60 - cell_height / 4, 60));
-			if (cell->explode_move_behaviour) {
-				clutter_behaviour_remove_all (cell->explode_move_behaviour);
-				g_object_unref (cell->explode_move_behaviour);
-			}
-			cell->explode_move_behaviour = clutter_behaviour_path_new (explode_alpha,
-										   path_line);
-			clutter_behaviour_apply (cell->explode_move_behaviour, cell->actor);
-			clutter_behaviour_apply (explode_fade_behaviour, cell->actor);
-			clutter_behaviour_apply (explode_scale_behaviour, cell->actor);
+			                          cur_x + g_random_int_range (-60 - cell_width / 4, 60),
+			                          cur_y + g_random_int_range (-60 - cell_height / 4, 60));
+			clutter_behaviour_path_set_path (CLUTTER_BEHAVIOUR_PATH(cell->explode_move_behaviour),
+			                                 CLUTTER_PATH(path_line));
+			clutter_behaviour_apply (CLUTTER_BEHAVIOUR(cell->explode_move_behaviour), cell->actor);
+			clutter_behaviour_apply (CLUTTER_BEHAVIOUR(explode_fade_behaviour), cell->actor);
+			clutter_behaviour_apply (CLUTTER_BEHAVIOUR(explode_scale_behaviour), cell->actor);
 			destroy_actors = g_list_prepend (destroy_actors, cell->actor);
 			cell->actor = NULL;
 		}
@@ -622,11 +614,8 @@ BlockOps::moveBlockInField (gint x_trans, gint y_trans)
 				temp_actors[x][y] = source_cell->actor;
 				source_cell->what = EMPTY;
 				source_cell->actor = NULL;
-				if (animate && source_cell->move_behaviour) {
-					clutter_behaviour_remove_all (source_cell->move_behaviour);
-					g_object_unref (source_cell->move_behaviour);
-					source_cell->move_behaviour = NULL;
-				}
+				if (animate && source_cell->move_behaviour)
+					clutter_behaviour_remove_all (CLUTTER_BEHAVIOUR(source_cell->move_behaviour));
 			}
 		}
 	}
@@ -646,12 +635,9 @@ BlockOps::moveBlockInField (gint x_trans, gint y_trans)
 					ClutterPath *path_line = clutter_path_new ();
 					clutter_path_add_move_to (path_line, cur_x, cur_y);
 					clutter_path_add_line_to (path_line, cell->x, cell->y);
-					if (cell->move_behaviour) {
-						clutter_behaviour_remove_all (cell->move_behaviour);
-						g_object_unref (cell->move_behaviour);
-					}
-					cell->move_behaviour = clutter_behaviour_path_new (CLUTTER_ALPHA(move_alpha),
-					                                                   CLUTTER_PATH(path_line));
+					clutter_behaviour_path_set_path (CLUTTER_BEHAVIOUR_PATH(cell->move_behaviour),
+					                                 CLUTTER_PATH(path_line));
+					clutter_behaviour_remove_all (CLUTTER_BEHAVIOUR(cell->move_behaviour));
 					clutter_behaviour_apply (cell->move_behaviour, cell->actor);
 				}
 			}
