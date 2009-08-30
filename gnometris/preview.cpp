@@ -22,8 +22,8 @@
 
 #include "preview.h"
 
-#define PREVIEW_WIDTH 6
-#define PREVIEW_HEIGHT 6
+#define PREVIEW_WIDTH 4
+#define PREVIEW_HEIGHT 4
 
 Preview::Preview():
 	width(0),
@@ -62,7 +62,7 @@ Preview::Preview():
 	alpha = clutter_alpha_new_full (piece_timeline,
 			CLUTTER_EASE_IN_OUT_SINE);
 	piece_behav = clutter_behaviour_scale_new (alpha,
-			1.0, 1.0, 1.4, 1.4);
+			0.6, 0.6, 1.0, 1.0);
 	clutter_actor_set_anchor_point (piece, 60, 60);
 	clutter_actor_set_position (CLUTTER_ACTOR(piece), 60, 60);
 	clutter_behaviour_apply (piece_behav, piece);
@@ -105,16 +105,15 @@ Preview::previewBlock(gint bnr, gint bcol)
 	blocknr = bnr;
 	color = bcol;
 
-	for (x = 1; x < PREVIEW_WIDTH - 1; x++) {
-		for (y = 1; y < PREVIEW_HEIGHT - 1; y++) {
+	for (x = 0; x < PREVIEW_WIDTH; x++) {
+		for (y = 0; y < PREVIEW_HEIGHT; y++) {
 			if ((blocknr != -1) &&
-			    blockTable[blocknr][0][x-1][y-1]) {
+			    blockTable[blocknr][0][x][y]) {
 				blocks[x][y].emptyCell ();
 				blocks[x][y].what = LAYING;
 				blocks[x][y].createActor (piece,
 				                          blocks_cache_get_block_texture_by_id (cache, color),
-				                          cell_size,
-				                          cell_size);
+				                          cell_size, cell_size);
 				clutter_actor_set_position (CLUTTER_ACTOR(blocks[x][y].actor),
 				                            x*cell_size, y*cell_size);
 			} else {
@@ -124,6 +123,11 @@ Preview::previewBlock(gint bnr, gint bcol)
 			}
 		}
 	}
+	gint center_x, center_y;
+	center_x = (sizeTable[blocknr][0][1] * cell_size / 2) + (offsetTable[blocknr][0][1] * cell_size);
+	center_y = (sizeTable[blocknr][0][0] * cell_size / 2) + (offsetTable[blocknr][0][0] * cell_size);
+	clutter_actor_set_anchor_point (piece, center_x, center_y);
+	clutter_actor_set_position (CLUTTER_ACTOR(piece), width / 2, height / 2);
 	clutter_timeline_start (piece_timeline);
 }
 
@@ -132,13 +136,11 @@ Preview::resize(GtkWidget *widget, GtkAllocation *allocation, Preview *p)
 {
 	p->width = allocation->width;
 	p->height = allocation->height;
-	p->cell_size = (p->width + p->height) / 2 / 6;
+	p->cell_size = (p->width + p->height) / 2 / 5;
 
 	if (!p->cache)
 		p->cache = blocks_cache_new ();
 	blocks_cache_set_size (p->cache, p->cell_size);
-	clutter_actor_set_anchor_point (p->piece, (p->width / 2), (p->height / 2));
-	clutter_actor_set_position (CLUTTER_ACTOR(p->piece), (p->width / 2), (p->height / 2));
 	p->previewBlock (p->blocknr, p->color);
 	return FALSE;
 }
