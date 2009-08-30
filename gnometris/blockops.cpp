@@ -632,11 +632,9 @@ BlockOps::moveBlockInField (gint x_trans, gint y_trans)
 				if (animate) {
 					gfloat cur_x, cur_y = 0.0;
 					g_object_get (G_OBJECT (cell->actor), "x", &cur_x, "y", &cur_y, NULL);
-					ClutterPath *path_line = clutter_path_new ();
-					clutter_path_add_move_to (path_line, cur_x, cur_y);
-					clutter_path_add_line_to (path_line, cell->x, cell->y);
-					clutter_behaviour_path_set_path (CLUTTER_BEHAVIOUR_PATH(cell->move_behaviour),
-					                                 CLUTTER_PATH(path_line));
+					clutter_path_clear (CLUTTER_PATH(cell->move_path));
+					clutter_path_add_move_to (cell->move_path, cur_x, cur_y);
+					clutter_path_add_line_to (cell->move_path, cell->x, cell->y);
 					clutter_behaviour_remove_all (CLUTTER_BEHAVIOUR(cell->move_behaviour));
 					clutter_behaviour_apply (cell->move_behaviour, cell->actor);
 				}

@@ -29,7 +29,8 @@ Block::Block ():
 	y(0),
 	move_behaviour(NULL),
 	fall_behaviour(NULL),
-	explode_move_behaviour(NULL)
+	explode_move_behaviour(NULL),
+	move_path(NULL)
 {}
 
 Block::~Block ()
@@ -72,8 +73,9 @@ Block::createActor (ClutterActor *chamber, CoglHandle texture_source, gint pxwid
 void
 Block::bindAnimations (BlockOps *f)
 {
-	move_behaviour = clutter_behaviour_path_new_with_knots (f->move_alpha,
-								NULL, 0);
+	move_path = clutter_path_new ();
+	move_behaviour = clutter_behaviour_path_new (f->move_alpha,
+	                                             move_path);
 	fall_behaviour = clutter_behaviour_path_new_with_knots (f->fall_alpha,
 								NULL, 0);
 	explode_move_behaviour = clutter_behaviour_path_new_with_knots (f->explode_alpha,

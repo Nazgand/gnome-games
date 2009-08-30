@@ -58,6 +58,7 @@ public:
 	ClutterBehaviour *move_behaviour;
 	ClutterBehaviour *fall_behaviour;
 	ClutterBehaviour *explode_move_behaviour;
+	ClutterPath *move_path;
 };
 
 extern int blockTable[][4][4][4];
