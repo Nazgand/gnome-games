@@ -17,8 +17,11 @@ endif
 
 @INTLTOOL_SCHEMAS_RULE@
 
+man_MANS = blackjack.6
+
 EXTRA_DIST    = $(rules_DATA)		\
-		$(schema_in_files)
+		$(schema_in_files)	\
+		$(man_MANS)
 
 DISTCLEANFILES = $(schema_DATA) $(sys_DATA)
 

@@ -72,9 +72,12 @@ schema_DATA = $(schema_in_files:.schemas.in=.schemas)
 endif
 @INTLTOOL_SCHEMAS_RULE@
 
+man_MANS = gnometris.6
+
 EXTRA_DIST = AUTHORS \
 	$(pixmap_DATA) \
-	$(schema_in_files)
+	$(schema_in_files) \
+	$(man_MANS)
 
 install-data-local:
 if GCONF_SCHEMAS_INSTALL
