@@ -1,15 +1,16 @@
+# translation of mahjongg.master.po to
 # Jennie Petoumenou <epetoumenou@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: mahjongg.HEAD\n"
-"POT-Creation-Date: 2009-07-22 15:45+0000\n"
-"PO-Revision-Date: 2009-07-31 19:21+0300\n"
-"Last-Translator:Tournaris Pavlos <p.tournaris@gmail.com> \n"
-"Language-Team: Greek <team@lists.gnome.gr>\n"
+"Project-Id-Version: mahjongg.master\n"
+"POT-Creation-Date: 2009-09-12 17:10+0000\n"
+"PO-Revision-Date: 2009-09-16 08:26+0200\n"
+"Last-Translator: \n"
+"Language-Team:  <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -33,14 +34,12 @@ msgstr "@@image: 'figures/toolbar.png'; md5=ee97ea171b1eb2510f7376734b590791"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/mahjongg.xml:632(None)
-msgid ""
-"@@image: 'figures/preferences.png'; md5=0c04907f6aeaf7b3620e2c21e54d2025"
-msgstr ""
-"@@image: 'figures/preferences.png'; md5=0c04907f6aeaf7b3620e2c21e54d2025"
+msgid "@@image: 'figures/preferences.png'; md5=0c04907f6aeaf7b3620e2c21e54d2025"
+msgstr "@@image: 'figures/preferences.png'; md5=0c04907f6aeaf7b3620e2c21e54d2025"
 
 #: C/mahjongg.xml:25(title)
 msgid "<application>Mahjongg</application> Manual"
-msgstr "Τεκμηρίωση του <application>Ματζόγκ</application>"
+msgstr "Εγχειρίδιο του <application>Ματζόγκ</application>"
 
 #: C/mahjongg.xml:27(para)
 msgid ""
@@ -67,19 +66,17 @@ msgstr "2000"
 
 #: C/mahjongg.xml:39(holder)
 msgid "Eric Baudais (Documentation Author)"
-msgstr "Eric Baudais (Συγγραφέας της τεκμηρίωσης)"
+msgstr "Eric Baudais (Συγγραφέας τεκμηρίωσης)"
 
 #: C/mahjongg.xml:42(year)
-#, fuzzy
 #| msgid "2000"
 msgid "2009"
-msgstr "2000"
+msgstr "2009"
 
 #: C/mahjongg.xml:43(holder)
-#, fuzzy
 #| msgid "Eric Baudais (Documentation Author)"
 msgid "Paul Cutler (Documentation Author)"
-msgstr "Eric Baudais (Συγγραφέας της τεκμηρίωσης)"
+msgstr "Paul Cutler (Συγγραφέας τεκμηρίωσης)"
 
 #: C/mahjongg.xml:57(publishername) C/mahjongg.xml:83(orgname)
 #: C/mahjongg.xml:114(para) C/mahjongg.xml:131(para)
@@ -95,12 +92,13 @@ msgid ""
 "of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
 "in the file COPYING-DOCS distributed with this manual."
 msgstr ""
-"Δίνεται άδεια για αντιγραφή, διανομή και/ή τροποποίηση του εγγράφου υπό τους "
-"GNU Free Documentation License (GFDL), Έκδοση 1.1 ή μεταγενέστερη εκδιδόμενη "
-"από το Ίδρυμα Ελεύθερου Λογισμικού χωρίς Σταθερά Εδάφια, χωρίς Εξώφυλλα "
-"Κειμένου, και χωρίς Οπισθόφυλλα Κειμένου. Μπορείτε να βρείτε ένα αντίγραφο "
-"της GFDL σε αυτόν τον <ulink type=\"help\" url=\"ghelp:fdl\">σύνδεσμο</"
-"ulink> ή στο αρχείο COPYING-DOCS που διανεμήθηκε με αυτόν τον οδηγό."
+"Χορηγείται άδεια αντιγραφής, διανομής και/ή τροποποίησης του παρόντος "
+"εγγράφου υπό τους όρους της έκδοσης 1.1 της Ελεύθερης Άδειας Τεκμηρίωσης GNU "
+"(GFDL), ή οποιασδήποτε μεταγενέστερης έκδοσής αυτής από το Ίδρυμα Ελεύθερου "
+"Λογισμικού (FSF), χωρίς αμετάβλητες ενότητες, κείμενα εμπροσθοφύλλου και "
+"κείμενα οπισθοφύλλου. Αντίγραφο της άδειας GFDL είναι διαθέσιμο στον "
+"ακόλουθο <ulink type=\"help\" url=\"ghelp:fdl\">σύνδεσμο</ulink>, ή στο "
+"αρχείο COPYING-DOCS που διανέμεται μαζί με το παρόν εγχειρίδιο."
 
 #: C/mahjongg.xml:12(para)
 msgid ""
@@ -108,12 +106,7 @@ msgid ""
 "GFDL. If you want to distribute this manual separately from the collection, "
 "you can do so by adding a copy of the license to the manual, as described in "
 "section 6 of the license."
-msgstr ""
-"Αυτή η τεκμηρίωση είναι μέρος της συλλογής τεκμηρίωσης του GNOME όπως "
-"διανέμεται υπό τους όρους της GFDL. Εάν επιθυμείτε να διανείμετε αυτή την "
-"τεκμηρίωση ξεχωριστά από την συλλογή, μπορείτε να το κάνετε εάν η τεκμηρίωση "
-"συνοδεύεται από αντίγραφο της άδειας (GFDL) όπως περιγράφεται στον τομέα 6 "
-"της άδειας."
+msgstr "Αυτό το εγχειρίδιο αποτελεί μέρος της συλλογής εγχειριδίων του GNOME που διανέμονται υπό τους όρους της GFDL. Αν επιθυμείτε να διανείμετε το παρόν εγχειρίδιο ξεχωριστά από τη συλλογή, οφείλετε να προσθέσετε στο εγχειρίδιο αντίγραφο της άδειας χρήσης, όπως προβλέπεται στην ενότητα 6 της άδειας."
 
 #: C/mahjongg.xml:19(para)
 msgid ""
@@ -122,12 +115,7 @@ msgid ""
 "documentation, and the members of the GNOME Documentation Project are made "
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
-msgstr ""
-"Πολλά από τα ονόματα που χρησιμοποιούνται από εταιρίες για να ξεχωρίσουν τα "
-"προϊόντα και τις υπηρεσίες είναι σήματα κατατεθέν. Όπου αυτά τα ονόματα "
-"εμφανίζονται στην τεκμηρίωση GNOME, και τα μέλη της ομάδας τεκμηρίωσης GNOME "
-"έχουν γνώση αυτών, τότε αυτά αναγράφονται με κεφαλαίους χαρακτήρες ή με "
-"αρχικούς κεφαλαίους χαρακτήρες."
+msgstr "Πολλές από τις ονομασίες που χρησιμοποιούνται από εταιρείες για την διαφοροποίηση των προϊόντων και υπηρεσιών τους έχουν καταχωρισθεί ως εμπορικά σήματα. Σε όποιο σημείο της τεκμηρίωσης GNOME τυχόν εμφανίζονται αυτές οι ονομασίες, και εφόσον τα μέλη του Έργου τεκμηρίωσης GNOME έχουν λάβει γνώση αυτών των εμπορικών σημάτων, οι ονομασίες ή τα αρχικά αυτών θα γράφονται με κεφαλαίους χαρακτήρες."
 
 #: C/mahjongg.xml:35(para)
 msgid ""
@@ -143,14 +131,19 @@ msgid ""
 "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
 "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 msgstr ""
-"Η ΤΕΚΜΗΡΙΩΣΗ ΑΥΤΗ ΠΑΡΕΧΕΤΑΙ \"ΩΣ ΕΧΕΙ\", ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ ΟΤΙ ΜΠΟΡΕΙ ΝΑ "
-"ΕΞΥΠΗΡΕΤΗΣΕΙ ΚΑΠΟΙΟ ΣΚΟΠΟ Η ΟΤΙ ΕΙΝΑΙ ΧΩΡΙΣ ΣΦΑΛΜΑ. ΟΛΟΚΛΗΡΗ Η ΕΥΘΥΝΗ ΓΙΑ "
-"ΤΗΝ ΠΟΙΟΤΗΤΑ, ΑΚΡΙΒΕΙΑ ΚΑΙ ΛΕΙΤΟΥΡΓΙΚΟΤΗΤΑ ΤΗΣ ΤΕΚΜΗΡΙΩΣΗΣ Ή ΠΑΡΑΛΛΑΓΩΝ "
-"ΑΥΤΗΣ ΑΝΗΚΕΙ ΣΕ ΕΣΑΣ. ΕΑΝ Η ΤΕΚΜΗΡΙΩΣΗ ΑΥΤΗ Ή ΠΑΡΑΛΛΑΓΗ ΑΥΤΗΣ ΕΙΝΑΙ ΛΑΘΟΣ "
-"ΚΑΤΑ ΚΑΠΟΙΟ ΤΡΟΠΟ ΕΣΕΙΣ ΑΝΑΛΑΜΒΑΝΕΤΕ ΤΗΝ ΕΥΘΥΝΗ ΤΗΣ ΔΙΟΡΘΩΣΗΣ. Η ΑΠΑΛΛΑΓΗ "
-"ΕΥΘΥΝΗΣ ΠΟΥ ΣΥΝΟΔΕΥΕΙ ΑΥΤΗ ΤΗΝ ΤΕΚΜΗΡΙΩΣΗ ΕΙΝΑΙ ΑΝΑΠΟΣΠΑΣΤΟ ΚΟΜΜΑΤΙ ΑΥΤΗΣ. "
-"ΚΑΜΙΑ ΧΡΗΣΗ ΤΗΣ ΤΕΚΜΗΡΙΩΣΗΣ Ή ΠΑΡΑΛΛΑΓΩΝ ΑΥΤΗΣ ΔΕΝ ΕΠΙΤΡΕΠΕΤΑΙ ΠΑΡΑ ΜΟΝΟ ΕΑΝ "
-"ΣΥΝΟΔΕΥΕΤΑΙ ΑΠΟ ΤΗΝ ΑΠΑΛΛΑΓΗ ΕΥΘΥΝΗΣ."
+"ΤΟ ΠΑΡΟΝ ΕΓΓΡΑΦΟ ΠΑΡΕΧΕΤΑΙ \"ΩΣ ΕΧΕΙ\", ΧΩΡΙΣ ΟΠΟΙΑΔΗΠΟΤΕ ΑΛΛΗ ΕΓΓΥΗΣΗ, ΕΙΤΕ "
+"ΡΗΤΗ ΕΙΤΕ ΣΙΩΠΗΡΗ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΗΣ, ΧΩΡΙΣ ΠΕΡΙΟΡΙΣΜΟ, ΤΗΣ ΕΓΓΥΗΣΗΣ ΟΤΙ "
+"ΤΟ ΕΓΓΡΑΦΟ, Ή Η ΤΡΟΠΟΠΟΙΗΜΕΝΗ ΕΚΔΟΣΗ ΑΥΤΟΥ, ΕΙΝΑΙ ΕΜΠΟΡΕΥΣΙΜΟ, ΚΑΤΑΛΛΗΛΟ ΓΙΑ "
+"ΕΙΔΙΚΟ ΣΚΟΠΟ ΚΑΙ ΔΕΝ ΠΡΟΣΒΑΛΛΕΙ ΔΙΚΑΙΩΜΑΤΑ ΤΡΙΤΩΝ. Ο ΧΡΗΣΤΗΣ ΑΝΑΛΑΜΒΑΝΕΙ ΕΞ "
+"ΟΛΟΚΛΗΡΟΥ ΤΗΝ ΕΘΥΝΗ ΩΣ ΠΡΟΣ ΤΗΝ ΠΟΙΟΤΗΤΑ, ΤΗΝ ΑΚΡΙΒΕΙΑ ΚΑΙ ΤΗΝ ΧΡΗΣΗ ΤΟΥ "
+"ΕΓΓΡΑΦΟΥ Ή ΤΗΣ ΤΡΟΠΟΠΟΙΗΜΕΝΗΣ ΕΚΔΟΣΗΣ ΑΥΤΟΥ. ΣΕ ΠΕΡΙΠΤΩΣΗ ΠΟΥ ΟΠΟΙΟΔΗΠΟΤΕ "
+"ΕΓΓΡΑΦΟ Ή ΤΡΟΠΟΠΟΙΗΜΕΝΗ ΕΚΔΟΣΗ ΑΥΤΟΥ ΑΠΟΔΕΙΧΘΟΥΝ ΕΛΑΤΤΩΜΑΤΙΚΑ ΚΑΘ' "
+"ΟΙΟΝΔΗΠΟΤΕ ΤΡΟΠΟ, Ο ΧΡΗΣΤΗΣ (ΚΑΙ ΟΧΙ Ο ΑΡΧΙΚΟΣ ΣΥΓΓΡΑΦΕΑΣ, ΔΗΜΙΟΥΡΓΟΣ Ή "
+"ΟΠΟΙΟΣΔΗΠΟΤΕ ΣΥΝΤΕΛΕΣΤΗΣ) ΑΝΑΛΑΜΒΑΝΕΙ ΤΟ ΚΟΣΤΟΣ ΟΠΟΙΑΣΔΗΠΟΤΕ ΑΝΑΓΚΑΙΑΣ "
+"ΣΥΝΤΗΡΗΣΗΣ, ΕΠΙΣΚΕΥΗΣ Ή ΔΙΟΡΘΩΣΗΣ. Η ΠΑΡΟΥΣΑ ΑΠΟΠΟΙΗΣΗ ΕΓΓΥΗΣΗΣ ΑΠΟΤΕΛΕΙ "
+"ΑΝΑΠΟΣΠΑΣΤΟ ΜΕΡΟΣ ΤΗΣ ΑΔΕΙΑΣ. ΔΕΝ ΕΠΙΤΡΕΠΕΤΑΙ ΟΥΔΕΜΙΑ ΧΡΗΣΗ ΤΟΥ ΕΓΓΡΑΦΟΥ Ή "
+"ΤΡΟΠΟΠΟΙΗΜΕΝΩΝ ΕΚΔΟΣΕΩΝ ΑΥΤΟΥ ΣΥΜΦΩΝΑ ΜΕ ΤΟΥΣ ΟΡΟΥΣ ΤΗΣ ΠΑΡΟΥΣΑΣ, ΠΑΡΑ ΜΟΝΟ "
+"ΕΑΝ ΣΥΝΟΔΕΥΕΤΑΙ ΑΠΟ ΤΗΝ ΑΠΟΠΟΙΗΣΗ ΕΓΓΥΗΣΗΣ, ΚΑΙ"
 
 #: C/mahjongg.xml:55(para)
 msgid ""
@@ -165,12 +158,18 @@ msgid ""
 "VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
 "POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
-"ΣΕ ΚΑΜΙΑ ΠΕΡΙΠΤΩΣΗ ΚΑΙ ΥΠΟ ΚΑΜΙΑ ΝΟΜΙΚΗ ΣΥΝΘΗΚΗ, ΕΙΤΕ ΜΕΣΩ ΣΥΜΒΟΛΑΙΩΝ Ή "
-"ΑΛΛΙΩΣ, ΔΕΝ ΕΥΘΥΝΟΝΤΑΙ Ο ΣΥΓΓΡΑΦΕΑΣ, Ο ΔΙΑΝΟΜΕΑΣ, Η ΑΛΛΟΣ ΣΥΝΥΠΕΥΘΥΝΟΣ ΓΙΑ "
-"ΤΗΝ ΣΥΓΓΡΑΦΗ ΤΗΣ ΤΕΚΜΗΡΙΩΣΗΣ, ΓΙΑ ΕΜΜΕΣΕΣ Η ΑΜΕΣΕΣ, ΤΥΧΑΙΕΣ Ή ΜΗ ΖΗΜΙΕΣ "
-"ΠΑΝΤΩΣ ΦΥΣΕΩΣ ΠΟΥ ΠΡΟΕΡΧΟΝΤΑΙ ΑΠΟ ΤΗΝ ΧΡΗΣΗ ΤΗΣ ΤΕΚΜΗΡΙΩΣΗΣ ΚΑΙ/Ή ΠΑΡΑΛΛΑΓΩΝ "
-"ΑΥΤΗΣ ΑΚΟΜΑ ΚΑΙ ΕΑΝ ΕΧΕΙ ΥΠΑΡΞΕΙ ΠΡΟΕΙΔΟΠΟΙΗΣΗ ΓΙΑ ΤΗΝ ΠΙΘΑΝΟΤΗΤΑ ΥΠΑΡΞΗΣ "
-"ΤΕΤΟΙΩΝ ΖΗΜΙΩΝ."
+"Ο ΔΗΜΙΟΥΡΓΟΣ, Ο ΑΡΧΙΚΟΣ ΣΥΓΓΡΑΦΕΑΣ, ΟΙ ΣΥΝΤΕΛΕΣΤΕΣ Ή ΟΙ ΔΙΑΝΟΜΕΙΣ ΤΟΥ "
+"ΕΓΓΡΑΦΟΥ Ή ΤΡΟΠΟΠΟΙΗΜΕΝΗΣ ΕΚΔΟΣΗΣ ΑΥΤΟΥ, ΚΑΘΩΣ ΚΑΙ ΟΙ ΠΡΟΜΗΘΕΥΤΕΣ "
+"ΟΠΟΙΩΝΔΗΠΟΤΕ ΕΚ ΤΩΝ ΠΡΟΑΝΑΦΕΡΟΜΕΝΩΝ ΜΕΡΩΝ, ΔΕΝ ΕΥΘΥΝΟΝΤΑΙ ΕΝΑΝΤΙ ΟΙΟΥΔΗΠΟΤΕ, "
+"ΣΕ ΚΑΜΙΑ ΠΕΡΙΠΤΩΣΗ ΚΑΙ ΥΠΟ ΚΑΜΙΑ ΕΡΜΗΝΕΙΑ ΝΟΜΟΥ, ΕΙΤΕ ΕΞ ΑΔΙΚΟΠΡΑΞΙΑΣ "
+"(ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΗΣ ΤΗΣ ΑΜΕΛΕΙΑΣ) ΕΙΤΕ ΣΤΟ ΠΛΑΙΣΙΟ ΣΥΜΒΑΤΙΚΗΣ Ή ΑΛΛΗΣ "
+"ΥΠΟΧΡΕΩΣΗΣ, ΓΙΑ ΤΥΧΟΝ ΑΜΕΣΕΣ, ΕΜΜΕΣΕΣ, ΕΙΔΙΚΕΣ, ΤΥΧΑΙΕΣ Ή ΣΥΝΕΠΑΚΟΛΟΥΘΕΣ "
+"ΖΗΜΙΕΣ ΟΠΟΙΑΣΔΗΠΟΤΕ ΜΟΡΦΗΣ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΩΝ, ΧΩΡΙΣ ΠΕΡΙΟΡΙΣΜΟ, ΖΗΜΙΩΝ "
+"ΛΟΓΩ ΑΠΩΛΕΙΑΣ ΦΗΜΗΣ ΚΑΙ ΠΕΛΑΤΕΙΑΣ, ΔΙΑΚΟΠΗΣ ΕΡΓΑΣΙΩΝ, ΔΥΣΛΕΙΤΟΥΡΓΙΑΣ Ή "
+"ΒΛΑΒΗΣ ΗΛΕΚΤΡΟΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ, Ή ΚΑΘΕ ΑΛΛΗΣ ΖΗΜΙΑΣ Ή ΑΠΩΛΕΙΑΣ ΠΟΥ "
+"ΟΦΕΙΛΕΤΑΙ Ή ΣΧΕΤΙΖΕΤΑΙ ΜΕ ΤΗΝ ΧΡΗΣΗ ΤΟΥ ΕΓΓΡΑΦΟΥ ΚΑΙ ΤΩΝ ΤΡΟΠΟΠΟΙΗΜΕΝΩΝ "
+"ΕΚΔΟΣΕΩΝ ΑΥΤΟΥ, ΑΚΟΜΑ ΚΑΙ ΑΝ ΤΑ ΩΣ ΑΝΩ ΜΕΡΗ ΕΙΧΑΝ ΛΑΒΕΙ ΓΝΩΣΗ ΤΗΣ "
+"ΠΙΘΑΝΟΤΗΤΑΣ ΠΡΟΚΛΗΣΗΣ ΤΕΤΟΙΩΝ ΖΗΜΙΩΝ."
 
 #: C/mahjongg.xml:28(para)
 msgid ""
@@ -178,9 +177,9 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<placeholder-1/>"
 msgstr ""
-"ΤΟ ΈΓΓΡΑΦΟ ΚΑΙ ΤΡΟΠΟΠΟΙΗΜΕΝΕΣ ΕΚΔΟΣΕΙΣ ΑΥΤΟΥ ΠΑΡΕΧΟΝΤΑΙ ΥΠΟ ΤΟΥΣ ΟΡΟΥΣ ΤΗΣ "
-"GNU FREE DOCUMENTATION LICENSE ΜΕ ΤΗΝ ΠΕΡΑΙΤΕΡΩ ΔΙΕΥΚΡΙΝΙΣΗ ΟΤΙ: "
-"<placeholder-1/>"
+"ΤΟ ΠΑΡΟΝ ΕΓΓΡΑΦΟ ΚΑΙ ΟΙ ΤΡΟΠΟΙΗΜΕΝΕΣ ΕΚΔΟΣΕΙΣ ΑΥΤΟΥ ΠΑΡΕΧΟΝΤΑΙ ΥΠΟ ΤΟΥΣ "
+"ΟΡΟΥΣ ΤΗΣ ΕΛΕΥΘΕΡΗΣ ΑΔΕΙΑΣ ΤΕΚΜΗΡΙΩΣΗΣ GNU (GFDL) ΚΑΙ ΜΕ ΤΗΝ ΠΕΡΑΙΤΕΡΩ "
+"ΔΙΕΥΚΡΙΝΙΣΗ ΟΤΙ: <placeholder-1/>"
 
 #: C/mahjongg.xml:67(firstname)
 msgid "Eric"
@@ -203,7 +202,6 @@ msgid "Szymanski"
 msgstr "Szymanski"
 
 #: C/mahjongg.xml:80(firstname)
-#| msgid "Pause"
 msgid "Paul"
 msgstr "Paul"
 
@@ -216,10 +214,9 @@ msgid "pcutler@gnome.org"
 msgstr "pcutler@gnome.org"
 
 #: C/mahjongg.xml:110(revnumber) C/mahjongg.xml:118(revnumber)
-#, fuzzy
 #| msgid "Mahjongg Manual V2.10"
 msgid "Mahjongg Manual V 2.26"
-msgstr "Τεκμηρίωση Mahjongg V2.10"
+msgstr "Εγχειρίδιο Mahjongg V2.26"
 
 #: C/mahjongg.xml:111(date) C/mahjongg.xml:119(date)
 msgid "2009-06-16"
@@ -234,10 +231,9 @@ msgid "Artur Szymanski"
 msgstr "Artur Szymanski"
 
 #: C/mahjongg.xml:125(revnumber)
-#, fuzzy
 #| msgid "Mahjongg Manual V2.10"
 msgid "Mahjongg Manual V2.10;"
-msgstr "Τεκμηρίωση Mahjongg V2.10"
+msgstr "Εγχειρίδιο Mahjongg V2.10·"
 
 #: C/mahjongg.xml:126(date)
 msgid "June 2005"
@@ -248,10 +244,9 @@ msgid "Eric Baudais <email>baudais@okstate.edu</email>"
 msgstr "Eric Baudais <email>baudais@okstate.edu</email>"
 
 #: C/mahjongg.xml:136(releaseinfo)
-#, fuzzy
 #| msgid "This manual describes version 2.12 of Mahjongg."
 msgid "This manual describes version 2.26 of Mahjongg."
-msgstr "Αυτή η τεκμηρίωση καλύπτει την έκδοση 2.12 του Mahjongg."
+msgstr "Αυτό το εγχειρίδιο καλύπτει την έκδοση 2.26 του Mahjongg."
 
 #: C/mahjongg.xml:143(title)
 msgid "Feedback"
@@ -265,9 +260,9 @@ msgid ""
 "ulink>."
 msgstr ""
 "Για να αναφέρετε ένα σφάλμα ή να κάνετε μια πρόταση σχετικά με το "
-"<application>Mahjongg</application> ή την τεκμηρίωση του, ακολουθήστε τις "
-"οδηγίες στη <ulink url=\"ghelp:user-guide?feedback-bugs\" type=\"help"
-"\">σελίδα ανάδρασης GNOME</ulink>."
+"<application>Mahjongg</application> ή το εγχειρίδιό του, ακολουθήστε τις "
+"οδηγίες στη <ulink "
+"url=\"ghelp:user-guide?feedback-bugs\" type=\"help\">σελίδα ανάδρασης GNOME</ulink>."
 
 #: C/mahjongg.xml:154(primary)
 msgid "GNOME Mahjongg"
@@ -278,7 +273,6 @@ msgid "Introduction"
 msgstr "Εισαγωγή"
 
 #: C/mahjongg.xml:162(para)
-#, fuzzy
 #| msgid ""
 #| "<application>GNOME Mahjongg</application>, or Mahjongg for short, is a "
 #| "solitaire (one player) version of the classic Eastern tile game, "
@@ -298,15 +292,14 @@ msgid ""
 "linkend=\"pause\"><guibutton>Pause </guibutton> button</link>, make the game "
 "more competitive when you play against the clock."
 msgstr ""
-"Το <application>GNOME Mahjongg</application>, ή Ματζόγκ για συντομία, είναι "
+"Το <application>Ματζόγκ </application> είναι "
 "μία εκδοχή για έναν παίκτη του κλασικού ανατολικού παιχνιδιού με τα "
 "πλακίδια. Διαθέτει όλες τις αναμενόμενες λειτουργίες ενός παιχνιδιού με "
 "πλακίδια ή χαρτιά. Μπορείτε να αλλάξετε, μεταξύ άλλων, την εμφάνιση των "
-"πλακιδίων, το φόντο και το επίπεδο δυσκολίας στο διάλογο των<link linkend="
-"\"prefs\">προτιμήσεων</link>. Άλλα χαρακτηριστικά, όπως το κουμπί <link "
-"linkend=\"pause\"><guibutton>παύσης </guibutton></link>, κάνουν το παιχνίδι "
-"ακόμη πιο ανταγωνιστικό όταν προσπαθείτε να βελτιώσετε το χρόνο σας. Αυτό το "
-"έγγραφο περιγράφει το <application>Ματζόγκ</application>."
+"πλακιδίων, το παρασκήνιο και το επίπεδο δυσκολίας από το διάλογο <link linkend="
+"\"prefs\">Προτιμήσεις</link>. Άλλα χαρακτηριστικά, όπως το <link "
+"linkend=\"pause\">κουμπί <guibutton>Παύση</guibutton></link>, κάνουν το παιχνίδι "
+"ακόμη πιο ανταγωνιστικό όταν προσπαθείτε να βελτιώσετε το χρόνο σας."
 
 #: C/mahjongg.xml:174(title)
 msgid "A Brief History of Mahjongg"
@@ -322,12 +315,11 @@ msgid ""
 msgstr ""
 "Τα πλακίδια του Ματζόγκ χρησιμοποιούνται για τη δημιουργία πολλών παραλλαγών "
 "του αρχικού παιχνιδιού. Αυτή η εκδοχή του Ματζόγκ είναι για έναν παίκτη. "
-"Κάθε πλακίδιο αντιστοιχεί και σε μία ξεχωριστή <ulink type=\"http\" url="
-"\"http://www.xs4all.nl/~korntner/mahjong/fortune/index.html\">σημασία</"
+"Κάθε πλακίδιο αντιστοιχεί και σε μία ξεχωριστή <ulink type=\"http\" url=\"http://www.xs4all.nl/~korntner/mahjong/fortune/"
+"index.html\">σημασία</"
 "ulink>."
 
 #: C/mahjongg.xml:185(para)
-#, fuzzy
 #| msgid ""
 #| "Mahjongg's origins are not fully known, but many theories have been put "
 #| "forth. One such theory says that Noah played Mahjongg on the ark because "
@@ -362,11 +354,11 @@ msgid ""
 msgstr ""
 "Η προέλευση του Ματζόγκ δεν είναι απολύτως εξακριβωμένη, αν και υπάρχουν "
 "πολλές σχετικές θεωρίες. Σύμφωνα με μια θεωρία, ο Νώε έπαιζε Ματζόγκ στην "
-"Κιβωτό, γιατί η Ανατολή έχει κυρίαρχη θέση στο παιχνίδι (ίσως η βροχή στον "
+"Κιβωτό, γιατί η Ανατολή υπερισχύει στο παιχνίδι (ίσως η βροχή στον "
 "κατακλυσμό να ήρθε από την Ανατολή). Μια άλλη εκδοχή υποστηρίζει ότι το "
 "παιχνίδι το εφηύρε ο Κινέζος φιλόσοφος Κομφούκιος. Τα τρία <quote>Θεμελιώδη</"
 "quote> πλακίδια έχουν το ίδιο όνομα με τις τρεις Θεμελιώδεις αρετές του. "
-"Πρόκειται για το Κόκκινο Chung (κέντρο), το Πράσινο Fa (ευημερία)  και το "
+"Πρόκειται για το Κόκκινο Chung (κέντρο), το Πράσινο Fa (ευημερία) και το "
 "Λευκό Po (λευκό), που αντιστοιχούν στην Καλοσύνη, την Ειλικρίνεια και την "
 "Υϊκή Ευσέβεια. Άλλη μία θεωρία αναφέρει ότι το Ματζόγκ προήλθε από άλλα "
 "κινέζικα παιχνίδια. Το <quote>Ya Pei</quote> παίζεται με 32 κάρτες από ξύλο "
@@ -399,7 +391,7 @@ msgid ""
 "Portions of this text were adapted from the <ulink type=\"http\" url="
 "\"http://www.mahjongmuseum.com/\">Mah Jong Museum.</ulink>"
 msgstr ""
-"Τμήματα αυτού του κειμένου έχουν προσαρμοστεί από το <ulink type=\"http\" "
+"Τμήματα αυτού του κειμένου έχουν προσαρμοστεί από τις ιστοσελίδες του <ulink type=\"http\" "
 "url=\"http://www.mahjongmuseum.com/\">Mah Jong Museum</ulink>."
 
 #: C/mahjongg.xml:211(para)
@@ -430,7 +422,6 @@ msgid "Playing Mahjongg"
 msgstr "Παίζοντας Ματζόγκ"
 
 #: C/mahjongg.xml:236(para)
-#, fuzzy
 #| msgid ""
 #| "You start with five levels of tiles which are stacked so some are covered "
 #| "up by the tiles on top. The harder the level you set in the <link linkend="
@@ -452,15 +443,14 @@ msgid ""
 msgstr ""
 "Ξεκινάτε με πέντε επίπεδα πλακιδίων, τοποθετημένα έτσι ώστε κάποια να "
 "καλύπτονται από τα πλακίδια που βρίσκονται από πάνω τους. Όσο πιο δύσκολο "
-"επίπεδο επιλέξετε στο <link linkend=\"prefs\">διάλογο <interface> "
-"προτιμήσεων</interface></link>, τόσο πιο πολλά πλακίδια θα είναι καλυμμένα "
+"επίπεδο επιλέξετε στο <link linkend=\"prefs\">διάλογο <interface>"
+"Προτιμήσεις</interface></link>, τόσο πιο πολλά πλακίδια θα είναι καλυμμένα "
 "κατά την έναρξη του παιχνιδιού. Ο στόχος του<application> Ματζόγκ</"
 "application> είναι η απομάκρυνση όλων των πλακιδίων. Για να απομακρύνετε "
 "πλακίδια θα πρέπει να βρείτε τα ταίρια τους. Συνήθως, το ταίρι ενός "
 "πλακιδίου έχει είτε τον ίδιο αριθμό κύκλων ή γραμμών, είτε παρόμοιο σχέδιο."
 
 #: C/mahjongg.xml:247(para)
-#, fuzzy
 #| msgid ""
 #| "As an example, the highlighted tile, in the <link linkend=\"mahjongg-fig"
 #| "\"> figure below</link>, has six buttons. The matching tile is the one "
@@ -499,7 +489,7 @@ msgstr ""
 "πλακίδιο της κορυφής. Δύο βρίσκονται στη δεξιά πλευρά (το ένα στη μέση και "
 "το άλλο χαμηλότερα). Το τρίτο είναι στην πρώτη γραμμή, αλλά προς το παρόν "
 "δεν μπορείτε να το απομακρύνετε, γιατί δεν είναι σε κάποια από τις "
-"εξωτερικές πλευρές. Στη συνέχεια θα εξηγήσουμε λεπτομερώς ποια πλακίδια "
+"εξωτερικές πλευρές. Στη συνέχεια θα μάθετε ακριβώς ποια πλακίδια "
 "μπορούν να απομακρύνονται και ποια όχι. Τώρα, προσπαθήστε να βρείτε μόνοι "
 "σας άλλο ένα ζευγάρι πλακιδίων."
 
@@ -512,7 +502,6 @@ msgid "Main window."
 msgstr "Κύριο παράθυρο."
 
 #: C/mahjongg.xml:276(para)
-#, fuzzy
 #| msgid ""
 #| "<application>Mahongg</application> is played by clicking on two matching "
 #| "tiles that are then removed. Play continues until all the tiles are "
@@ -542,7 +531,6 @@ msgstr ""
 "ταίρι του."
 
 #: C/mahjongg.xml:291(para)
-#, fuzzy
 #| msgid ""
 #| "If you can't match any more tiles, a dialog will appear telling you no "
 #| "more tiles can be matched and giving you the option of shuffling the "
@@ -557,7 +545,7 @@ msgid ""
 msgstr ""
 "Αν δεν απομένουν άλλα διαθέσιμα ζευγάρια, θα εμφανιστεί ένας διάλογος που θα "
 "σας πληροφορεί ότι δεν υπάρχουν άλλες κινήσεις και θα σας δίνει τη "
-"δυνατότητα να ανακατέψετε τα πλακίδια ή να αναιρέσετε την προηγούμενή σας "
+"δυνατότητα να ανακατέψετε τα πλακίδια (θα προστεθούν 60 δευτερόλεπτα στο χρόνο σας), ή να αναιρέσετε την προηγούμενή σας "
 "κίνηση (αν και μπορεί να χρειαστεί να αναιρέσετε πολλές κινήσεις μέχρι να "
 "βρείτε πού είχατε κάνει λάθος)."
 
@@ -574,12 +562,11 @@ msgid "Toolbar"
 msgstr "Εργαλειοθήκη"
 
 #: C/mahjongg.xml:317(para)
-#, fuzzy
 #| msgid "The <interface>toolbar</interface> contains the following buttons:"
 msgid ""
 "The <interface>toolbar</interface>, located below the <interface>Menu Bar</"
 "interface>, contains the following buttons:"
-msgstr "Η <interface>εργαλειοθήκη<</interface> περιέχει τα ακόλουθα πλήκτρα:"
+msgstr "Η <interface>εργαλειοθήκη<</interface> βρίσκεται ακριβώς από κάτω από τη <interface>γραμμή μενού</interface> και περιέχει τα ακόλουθα πλήκτρα:"
 
 #: C/mahjongg.xml:324(guibutton)
 msgid "New"
@@ -597,8 +584,7 @@ msgstr "Επανεκκίνηση"
 msgid ""
 "This button restarts the current game to the beginning without shuffling the "
 "tiles."
-msgstr ""
-"Ξαναρχίζει το ίδιο παιχνίδι από την αρχή, χωρίς ανακάτεμα των πλακιδίων."
+msgstr "Ξαναρχίζει το ίδιο παιχνίδι από την αρχή, χωρίς ανακάτεμα των πλακιδίων."
 
 #: C/mahjongg.xml:341(guibutton)
 msgid "Pause"
@@ -611,14 +597,13 @@ msgid ""
 "cannot see any of the tile's faces."
 msgstr ""
 "Παύει το παιχνίδι. Όσο διαρκεί η παύση, το ρολόι στην κάτω δεξιά γωνία στο "
-"<interface> κύριο παράθυρο</interface> σταματά να τρέχει, ενώ δεν είναι "
+"<interface>κύριο παράθυρο</interface> σταματά να τρέχει, ενώ δεν είναι "
 "πλέον ορατές οι όψεις των πλακιδίων."
 
 #: C/mahjongg.xml:351(guibutton)
-#, fuzzy
 #| msgid "Undo"
 msgid "Undo Move"
-msgstr "Αναίρεση"
+msgstr "Αναίρεση κίνησης"
 
 #: C/mahjongg.xml:353(para)
 msgid ""
@@ -629,13 +614,11 @@ msgstr ""
 "αρκετές φορές, θα επιστρέψετε στην αρχή του παιχνιδιού."
 
 #: C/mahjongg.xml:360(guibutton)
-#, fuzzy
 #| msgid "Redo"
 msgid "Redo Move"
-msgstr "Επανάληψη"
+msgstr "Επανάληψη κίνησης"
 
 #: C/mahjongg.xml:362(para)
-#, fuzzy
 #| msgid ""
 #| "This button replays your previous move, the <guibutton>Undo</guibutton> "
 #| "button took back."
@@ -644,19 +627,18 @@ msgid ""
 "button took back."
 msgstr ""
 "Με αυτή την επιλογή επαναλαμβάνεται η προηγούμενή σας κίνηση, δηλαδή αυτή "
-"που είχε αναιρεθεί με το πάτημα στο κουμπί <guibutton> αναίρεση</guibutton>."
+"που είχε αναιρεθεί με το πάτημα στο κουμπί <guibutton>Αναίρεση κίνησης</guibutton>."
 
 #: C/mahjongg.xml:369(guibutton)
 msgid "Hint"
 msgstr "Συμβουλή"
 
 #: C/mahjongg.xml:371(para)
-#, fuzzy
 #| msgid "This button gives you a pair of matching tiles to remove."
 msgid ""
 "This button gives you a pair of matching tiles to remove. Each time you use "
 "it, 30 seconds penalty will be added to the game clock."
-msgstr "Υποδεικνύει ένα ζευγάρι πλακιδίων που μπορούν να απομακρυνθούν."
+msgstr "Υποδεικνύει ένα ζευγάρι πλακιδίων που μπορούν να απομακρυνθούν. Κάθε φορά που πατάτε αυτό το κουμπι, προστίθενται 30 δευτερόλεπτα στο χρόνο σας."
 
 #: C/mahjongg.xml:378(para)
 msgid ""
@@ -679,7 +661,6 @@ msgid "Moves Left:"
 msgstr "Κινήσεις που απομένουν:"
 
 #: C/mahjongg.xml:395(para)
-#, fuzzy
 #| msgid "This number of possible matches you can make."
 msgid "This shows the number of possible matches you can make."
 msgstr "Εμφανίζει τον αριθμό των διαθέσιμων ζευγαριών."
@@ -709,7 +690,7 @@ msgid ""
 "The menu bar, located at the top of the <interface>Main Window</interface>, "
 "contains the following menus:"
 msgstr ""
-"Η γραμμή μενού, που βρίσκεται στην κορυφή του <interface>Βασικού παραθύρου</"
+"Η γραμμή μενού, που βρίσκεται στην κορυφή του <interface>Κύριου παραθύρου</"
 "interface>, περιέχει τα ακόλουθα μενού:"
 
 #: C/mahjongg.xml:437(guimenu)
@@ -717,7 +698,6 @@ msgid "Game"
 msgstr "Παιχνίδι"
 
 #: C/mahjongg.xml:443(para)
-#, fuzzy
 #| msgid ""
 #| "<menuchoice><shortcut><keysym>Ctrl-N</keysym></shortcut><guimenuitem>New</"
 #| "guimenuitem></menuchoice> — This item starts a new game."
@@ -725,7 +705,7 @@ msgid ""
 "<menuchoice><shortcut><keycap>Ctrl-N</keycap></shortcut><guimenuitem>New</"
 "guimenuitem></menuchoice> — This item starts a new game."
 msgstr ""
-"<menuchoice><shortcut><keysym>Ctrl+Ν</keysym></shortcut><guimenuitem> Νέο</"
+"<menuchoice><shortcut><keycap>Ctrl+Ν</keycap></shortcut><guimenuitem> Νέο</"
 "guimenuitem></menuchoice> — Ξεκινάει νέο παιχνίδι."
 
 #: C/mahjongg.xml:454(para)
@@ -745,7 +725,6 @@ msgstr ""
 "παιχνίδι. Σταματάει το ρολόι και κρύβει τα πλακίδια."
 
 #: C/mahjongg.xml:471(para)
-#, fuzzy
 #| msgid ""
 #| "<menuchoice><shortcut><keysym>Ctrl-Z</keysym></shortcut><guimenuitem>Undo "
 #| "move</guimenuitem></menuchoice> — This item takes back two tiles you "
@@ -755,13 +734,12 @@ msgid ""
 "move</guimenuitem></menuchoice> — This item takes back two tiles you removed "
 "until you reach the beginning of the game."
 msgstr ""
-"<menuchoice><shortcut><keysym>Ctrl-Z</keysym></"
+"<menuchoice><shortcut><keycap>Ctrl-Z</keycap></"
 "shortcut><guimenuitem>Αναίρεση κίνησης</guimenuitem></menuchoice> — "
 "Επαναφέρει τα δύο τελευταία πλακίδια που είχαν απομακρυνθεί. Αν επαναλάβετε "
 "αρκετές φορές, θα επιστρέψετε στην αρχή του παιχνιδιού."
 
 #: C/mahjongg.xml:483(para)
-#, fuzzy
 #| msgid ""
 #| "<menuchoice><shortcut><keysym>Ctrl-R</keysym></shortcut><guimenuitem>Redo "
 #| "move</guimenuitem></menuchoice> — This item replays your previous move "
@@ -776,10 +754,10 @@ msgid ""
 "started undoing the message <quote>No more redo!</quote> appears at the "
 "bottom left corner of the <interface>Main Window</interface>."
 msgstr ""
-"<menuchoice><shortcut><keysym>Ctrl-R</keysym></"
+"<menuchoice><shortcut><keycap>Ctrl-R</keycap></"
 "shortcut><guimenuitem>Επανάληψη κίνησης</guimenuitem></menuchoice> — "
 "Επαναλαμβάνει την προηγούμενη κίνηση, δηλαδή αυτή που είχε αναιρεθεί με το "
-"πάτημα στο <guibutton> Αναίρεση</guibutton>. Όταν φτάσετε στο σημείο από "
+"πάτημα στο <guibutton> Αναίρεση κίνησης</guibutton>. Όταν φτάσετε στο σημείο από "
 "όπου είχατε ξεκινήσει να αναιρείτε, το μήνυμα <quote>Αδυναμία επανάληψης!</"
 "quote> εμφανίζεται στην κάτω αριστερή γωνία του <interface>κύριου παραθύρου</"
 "interface>."
@@ -803,7 +781,6 @@ msgstr ""
 "παίκτη, καθώς και ο χρόνος του."
 
 #: C/mahjongg.xml:515(para)
-#, fuzzy
 #| msgid ""
 #| "<menuchoice><shortcut><keysym>Ctrl-Q</keysym></"
 #| "shortcut><guimenuitem>Exit</guimenuitem></menuchoice> — This item allows "
@@ -812,7 +789,7 @@ msgid ""
 "<menuchoice><shortcut><keycap>Ctrl-Q</keycap></shortcut><guimenuitem>Quit</"
 "guimenuitem></menuchoice> — This item allows you to quit the game."
 msgstr ""
-"<menuchoice><shortcut><keysym>Ctrl-Q</keysym></shortcut><guimenuitem>Έξοδος</"
+"<menuchoice><shortcut><keycap>Ctrl-Q</keycap></shortcut><guimenuitem>Έξοδος</"
 "guimenuitem></menuchoice> — Επιτρέπει την έξοδο από το παιχνίδι."
 
 #: C/mahjongg.xml:439(para) C/mahjongg.xml:533(para) C/mahjongg.xml:579(para)
@@ -831,6 +808,9 @@ msgid ""
 "<keycap>F11</keycap> or click <guibutton>Leave Fullscreen</guibutton> button "
 "on <interface>toolbar</interface>."
 msgstr ""
+"<menuchoice><shortcut><keycap>F11</keycap></"
+"shortcut><guimenuitem>Πλήρης οθόνη</guimenuitem></menuchoice> — Σας επιτρέπει να παίξετε το παιχνίδι σε όλη την επιφάνεια της οθόνης του υπολογιστή. Για να τερματίσετε τη λειτουργία πλήρης οθόνης, πατήστε ξανά "
+"<keycap>F11</keycap> ή κάντε κλικ στο κουμπί <guibutton>Έξοδος από πλήρη οθόνη</guibutton> της <interface>εργαλειοθήκης</interface>."
 
 #: C/mahjongg.xml:551(para)
 msgid ""
@@ -841,7 +821,7 @@ msgid ""
 "item is unchecked, the <interface>toolbar</interface> is not shown."
 msgstr ""
 "<menuchoice><guimenuitem>Εργαλειοθήκη</guimenuitem></menuchoice> — Καθορίζει "
-"το αν εμφανίζεται ή όχι η <link linkend=\"toolbar\"><interface>εργαλειοθήκη</"
+"το αν θα εμφανίζεται η <link linkend=\"toolbar\"><interface>εργαλειοθήκη</"
 "interface></link>. Αν είναι επιλεγμένο, η <interface> εργαλειοθήκη</"
 "interface> εμφανίζεται στη θέση που την είχατε τοποθετήσει την τελευταία "
 "φορά. Αν δεν είναι επιλεγμένο, η<interface> εργαλειοθήκη</interface> δεν "
@@ -853,14 +833,13 @@ msgid ""
 "brings up the <link linkend=\"prefs\">Preferences </link> dialog."
 msgstr ""
 "<menuchoice><guimenuitem> Προτιμήσεις</guimenuitem></menuchoice> — Εμφανίζει "
-"τον διάλογο με τις<link linkend=\"prefs\"> προτιμήσεις</link>."
+"το διάλογο με τις <link linkend=\"prefs\">προτιμήσεις</link>."
 
 #: C/mahjongg.xml:577(guimenu)
 msgid "Help"
 msgstr "Βοήθεια"
 
 #: C/mahjongg.xml:583(para)
-#, fuzzy
 #| msgid ""
 #| "<menuchoice><shortcut><keysym>F1</keysym></"
 #| "shortcut><guimenuitem>Contents</guimenuitem></menuchoice> — This item "
@@ -869,8 +848,8 @@ msgid ""
 "<menuchoice><shortcut><keycap>F1</keycap></shortcut><guimenuitem>Contents</"
 "guimenuitem></menuchoice> — This item shows this manual."
 msgstr ""
-"<menuchoice><shortcut><keysym> F1</keysym></shortcut><guimenuitem> "
-"Περιεχόμενα</guimenuitem></menuchoice> — Εμφανίζει αυτή την τεκμηρίωση."
+"<menuchoice><shortcut><keycap>F1</keycap></shortcut><guimenuitem> "
+"Περιεχόμενα</guimenuitem></menuchoice> — Εμφανίζει αυτό το εγχειρίδιο."
 
 #: C/mahjongg.xml:594(para)
 msgid ""
@@ -879,7 +858,7 @@ msgid ""
 "such as the author's names and the application version number."
 msgstr ""
 "<menuchoice><guimenuitem>Περί</guimenuitem></menuchoice> — Παρέχει βασικές "
-"πληροφορίες για το <application> GNOME Ματζόγκ</application>, όπως τα "
+"πληροφορίες για το <application>Ματζόγκ</application>, όπως τα "
 "ονόματα των δημιουργών και τον αριθμό έκδοσης της εφαρμογής."
 
 #: C/mahjongg.xml:615(title)
@@ -894,9 +873,8 @@ msgid ""
 "link>."
 msgstr ""
 "Για να αλλάξετε τις ρυθμίσεις της εφαρμογής, επιλέξτε<guimenuitem> "
-"προτιμήσεις</guimenuitem> από το μενού<guimenu> ρυθμίσεις</guimenu>. Θα "
-"ανοίξει ο <link linkend=\"preferences-fig\">διάλογος των<interface> "
-"προτιμήσεων</interface></link>."
+"Προτιμήσεις</guimenuitem> από το μενού<guimenu> Ρυθμίσεις</guimenu>. Θα "
+"ανοίξει ο <link linkend=\"preferences-fig\">διάλογος <interface>Προτιμήσεις</interface></link>."
 
 #. ALAN: looks correct like version 2.10 to me
 #: C/mahjongg.xml:627(title)
@@ -914,12 +892,11 @@ msgstr "Όλες οι επιλογές εφαρμόζονται και αποθ�
 #: C/mahjongg.xml:645(para)
 msgid "The properties in the <interface>Preferences</interface> dialog are:"
 msgstr ""
-"Οι ιδιότητες που εμφανίζονται στο διάλογο<interface> προτιμήσεων</interface> "
+"Οι ιδιότητες που εμφανίζονται στο διάλογο <interface>Προτιμήσεις</interface> "
 "είναι:"
 
 #: C/mahjongg.xml:651(para)
-msgid ""
-"<guilabel>Tile Set:</guilabel> — Select the look of the tiles from this list."
+msgid "<guilabel>Tile Set:</guilabel> — Select the look of the tiles from this list."
 msgstr ""
 "<guilabel>Σετ πλακιδίων</guilabel> — Από αυτή τη λίστα επιλέγετε την "
 "επιθυμητή εμφάνιση των πλακιδίων."
@@ -931,10 +908,10 @@ msgid ""
 "you see more of the tiles while the more compact (hard) version does not let "
 "you see many tiles."
 msgstr ""
-"<guilabel> Επιλογή χάρτη</guilabel> — Αλλάξτε τη δυσκολία του παιχνιδιού "
+"<guilabel>Επιλογή χάρτη</guilabel> — Αλλάξτε τη δυσκολία του παιχνιδιού "
 "μεταβάλλοντας τη διάταξη των πλακιδίων. Οι πιο απλωμένες (εύκολες) εκδοχές "
 "σας επιτρέπουν να βλέπετε περισσότερα πλακίδια, ενώ οι πιο πυκνές (δύσκολες) "
-"δεν σας επιτρέπουν να βλέπετε πολλά."
+"δε σας επιτρέπουν να βλέπετε πολλά."
 
 #: C/mahjongg.xml:666(para)
 msgid ""
@@ -942,7 +919,7 @@ msgid ""
 "by bringing up a <interface> color picker</interface> to let you select a "
 "new color."
 msgstr ""
-"<guilabel>Χρώμα φόντου</guilabel> — Αλλάξτε το χρώμα του φόντου, "
+"<guilabel>Χρώμα παρασκηνίου</guilabel> — Αλλάξτε το χρώμα του παρασκηνίου, "
 "χρησιμοποιώντας <interface> επιλογέα χρωμάτων</interface>."
 
 #: C/mahjongg.xml:675(para)
@@ -958,7 +935,6 @@ msgid "Authors"
 msgstr "Δημιουργοί"
 
 #: C/mahjongg.xml:694(para)
-#, fuzzy
 #| msgid ""
 #| "<application>GNOME Mahjongg</application> was written by Francisco "
 #| "Bustamante (<email>pancho@nuclecu.unam.mx</email>), Michael Meeks "
@@ -979,14 +955,14 @@ msgid ""
 "this manual, follow the directions in this <ulink url=\"ghelp:user-guide?"
 "feedback-bugs\" type=\"help\">document</ulink>."
 msgstr ""
-"Το <application>GNOME Ματζόγκ</application> γράφτηκε από τους Francisco "
+"Το <application>Ματζόγκ</application> γράφτηκε από τους Francisco "
 "Bustamante (<email>pancho@nuclecu.unam.mx</email>), Michael Meeks "
 "(<email>mmeeks@gnu.org</email>), Max Watson, Heinz Hempe, και Philippe "
-"Chavin. Τα πλακίδια του <application>GNOME Ματζόγκ</application> "
-"σχεδιάστηκαν από τους Jonathan Buzzard και Max Watson. Αυτή η τεκμηρίωση "
+"Chavin. Τα πλακίδια του <application>Ματζόγκ</application> "
+"σχεδιάστηκαν από τους Jonathan Buzzard και Max Watson. Αυτό το εγχειρίδιο "
 "γράφτηκε από τον Eric Baudais (<email>baudais@okstate.edu</email>). Για να "
 "αναφέρετε ένα σφάλμα ή να κάνετε μια πρόταση σχετικά με την εφαρμογή αυτή ή "
-"την τεκμηρίωση της, ακολουθήστε τις οδηγίες σε αυτό το <ulink url=\"ghelp:"
+"το εγχειρίδιό της, ακολουθήστε τις οδηγίες σε αυτό το <ulink url=\"ghelp:"
 "user-guide?feedback-bugs\" type=\"help\">έγγραφο</ulink>."
 
 #: C/mahjongg.xml:722(title)
@@ -1000,11 +976,11 @@ msgid ""
 "citetitle> as published by the Free Software Foundation; either version 2 of "
 "the License, or (at your option) any later version."
 msgstr ""
-"Tο πρόγραμμα και τα γραφικά των πλακιδίων αποτελούν ελεύθερο λογισμικό. "
-"Είναι ελεύθερη η αναδιανομή ή/και η τροποποίησή τους υπό τους όρους της "
-"<citetitle>GNU General Public License</citetitle> που έχει δημοσιευτεί από "
-"το Ίδρυμα Ελεύθερου λογισμικού· είτε της δεύτερη έκδοσης της άδειας χρήσης, "
-"είτε (κατ' επιλογή σας) οποιασδήποτε νεότερης έκδοσης."
+"Tο πρόγραμμα και τα γραφικά των πλακιδίων είναι ελεύθερο λογισμικό· επιτρέπεται η αναδιανομή ή/και "
+"τροποποίησή τους υπό τους όρους της <citetitle>Γενικής Άδειας Δημόσιας Χρήσης "
+"GNU (GPL)</citetitle>, όπως αυτή έχει δημοσιευτεί από το Ίδρυμα Ελεύθερου "
+"Λογισμικού (FSF) — είτε της έκδοσης 2 της Άδειας, είτε (κατ' επιλογήν σας) "
+"οποιασδήποτε μεταγενέστερης έκδοσης."
 
 #: C/mahjongg.xml:730(para)
 msgid ""
@@ -1013,10 +989,11 @@ msgid ""
 "FITNESS FOR A PARTICULAR PURPOSE. See the <citetitle>GNU General Public "
 "License</citetitle> for more details."
 msgstr ""
-"Αυτό το πρόγραμμα διανέμεται με την ελπίδα οτι θα είναι χρήσιμο, αλλά ΧΩΡΙΣ "
-"ΚΑΜΙΑ ΑΠΟΛΥΤΩΣ ΕΓΓΥΗΣΗ - χωρίς ακόμη και την έμμεση εγγύηση ΕΜΠΟΡΕΥΣΙΜΟΤΗΤΑΣ "
-"ή ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΓΙΑ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ. Για περισσότερες λεπτομέρειες δείτε "
-"τη <citetitle>GNU General Public License</citetitle>."
+"Το πρόγραμμα αυτό διανέμεται με την ελπίδα ότι θα αποδειχθεί χρήσιμο, παρόλα "
+"αυτά ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ — χωρίς ούτε και την σιωπηρή εγγύηση "
+"ΕΜΠΟΡΕΥΣΙΜΟΤΗΤΑΣ ή ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΓΙΑ ΕΙΔΙΚΟ ΣΚΟΠΟ. Για περισσότερες "
+"λεπτομέρειες ανατρέξτε στη <citetitle>Γενική Άδεια Δημόσιας Χρήσης GNU (GPL)"
+"</citetitle>."
 
 #: C/mahjongg.xml:736(para)
 msgid ""
@@ -1029,41 +1006,23 @@ msgid ""
 "street><city>Boston</city>, <state>MA</state><postcode>02110-1301</"
 "postcode><country>USA</country></address>"
 msgstr ""
-"Ένα αντίγραφο της <citetitle>GNU General Public License</citetitle> "
-"συμπεριλαμβάνεται ως παράρτημα στον  <citetitle>Οδηγό Χρηστών GNOME </"
-"citetitle>. Μπορείτε επίσης να αποκτήσετε ένα αντίγραφο της <citetitle>GNU "
-"General Public License</citetitle> από το Ίδρυμα Ελεύθερου Λογισμικού "
-"επισκεπτόμενοι <ulink url=\"http://www.fsf.org\" type=\"http\"> την "
-"ιστοσελίδα τους</ulink> ή γράφωντας τους στη διεύθυνση <address> Free "
-"Software Foundation, Inc. <street>51 Franklin Street, Fifth Floor</street> "
-"<city>Boston</city>, <state>MA</state><postcode>02110-1301</"
-"postcode><country>USA</country></address>"
+"Αντίγραφο της <citetitle>Γενικής Άδειας Δημόσιας Χρήσης GNU (GPL)</"
+"citetitle> περιλαμβάνεται ως παράρτημα στον <citetitle>Οδηγό χρήστη GNOME</"
+"citetitle>. Επίσης, αντίγραφο της <citetitle>Γενικής Άδειας Δημόσιας Χρήσης "
+"GNU (GPL)</citetitle> μπορείτε να παραλάβετε από το Ίδρυμα Ελεύθερου "
+"Λογισμικού (FSF), είτε επισκεπτόμενοι τον <ulink type=\"http\" url=\"http://"
+"www.fsf.org\">ιστοχώρο</ulink> του, είτε γράφοντας στη διεύθυνση <address> "
+"Free Software Foundation, Inc. <street>51 Franklin Street, Fifth Floor</"
+"street> <city>Boston</city>, <state>MA</state><postcode>02110-1301</"
+"postcode><country>USA</country></address>."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: C/mahjongg.xml:0(None)
 msgid "translator-credits"
 msgstr ""
 "Ελληνική μεταφραστική ομάδα GNOME\n"
-" Τζένη Πετούμενου <epetoumenou@gmail.com>\n "
-"Τουρνάρης Παύλος <p.tournaris@gmail.com>\n"
+" Τζένη Πετούμενου <epetoumenou@gmail.com>\n"
+" Τουρνάρης Παύλος <p.tournaris@gmail.com>\n"
 "\n"
 "Για περισσότερα, δείτε http://www.gnome.gr/"
 
-#~ msgid ""
-#~ "The <interface>toolbar</interface> can be moved around the "
-#~ "<interface>desktop</interface>. If you click on the far left side of it, "
-#~ "you will be able to drag it any place on the <interface>desktop</"
-#~ "interface> you wish. The <interface>toolbar</interface> also snaps into "
-#~ "place at the top and left side of the <interface>Main Window </interface> "
-#~ "in <application>GNOME Mahjongg</application>, but the default place the "
-#~ "toolbar is located, and the best in my opinion, is under the "
-#~ "<interface>menubar</interface>."
-#~ msgstr ""
-#~ "Η <interface>εργαλειοθήκη</interface> μπορεί να μετακινηθεί οπουδήποτε "
-#~ "στην<interface> επιφάνεια εργασίας</interface>. Κάντε κλικ στην αριστερή "
-#~ "της άκρη και σύρετέ την στην επιθυμητή θέση στην <interface> επιφάνεια "
-#~ "εργασίας</interface>. Επίσης, η <interface>εργαλειοθήκη</interface> "
-#~ "μπορεί να τοποθετηθεί στην πάνω αριστερή άκρη στο <interface> κύριο "
-#~ "παράθυρο</interface> του <application> GNOME Mahjongg</application>, αλλά "
-#~ "η προεπιλεγμένη θέση, και ενδεχομένως η καλύτερη, είναι κάτω από "
-#~ "τη<interface> γραμμή μενού</interface>."
