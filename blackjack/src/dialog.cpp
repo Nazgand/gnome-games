@@ -424,7 +424,7 @@ show_preferences_dialog (void)
                                   G_CALLBACK (gtk_widget_hide), NULL);
         }
         
-        if (pref_dialog && !GTK_WIDGET_VISIBLE (pref_dialog)) {
+        if (pref_dialog && !gtk_widget_get_visible (pref_dialog)) {
                 // Set card style?
 
                 gtk_widget_show_all (pref_dialog);
