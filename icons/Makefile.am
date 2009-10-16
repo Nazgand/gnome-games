@@ -42,17 +42,6 @@ endif # HAVE_HILDON
 
 endif # BUILD_AISLERIOT
 
-if BUILD_BLACKJACK
-dist_noinst_DATA += \
-	hicolor_apps_16x16_gnome-blackjack.png \
-	hicolor_apps_22x22_gnome-blackjack.png \
-	hicolor_apps_24x24_gnome-blackjack.png \
-	hicolor_apps_32x32_gnome-blackjack.png \
-	hicolor_apps_48x48_gnome-blackjack.png \
-	hicolor_apps_scalable_gnome-blackjack.svg \
-	$(NULL)
-endif
-
 if BUILD_GLCHESS
 dist_noinst_DATA += \
 	hicolor_apps_16x16_gnome-glchess.png \
