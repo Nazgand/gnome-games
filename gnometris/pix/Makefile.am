@@ -5,3 +5,5 @@ pixmap_DATA = \
 	7blocks-gw.png
 
 EXTRA_DIST = $(pixmap_DATA)
+
+-include $(top_srcdir)/git.mk

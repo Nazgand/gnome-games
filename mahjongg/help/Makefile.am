@@ -14,3 +14,5 @@ DOC_FIGURES = \
 	figures/toolbar.png
 
 dist-hook: doc-dist-hook
+
+-include $(top_srcdir)/git.mk

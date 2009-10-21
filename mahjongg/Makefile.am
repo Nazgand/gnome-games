@@ -108,3 +108,5 @@ install-data-local: install-schemas-local install-scorefiles-local
 
 @INTLTOOL_DESKTOP_RULE@
 @INTLTOOL_SCHEMAS_RULE@
+
+-include $(top_srcdir)/git.mk

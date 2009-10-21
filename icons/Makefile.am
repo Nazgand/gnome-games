@@ -301,3 +301,5 @@ update-icon-cache:
 			echo "***   $(gtk_update_icon_cache) $(datadir)/icons/$$theme"; \
 		done; \
 	fi
+
+-include $(top_srcdir)/git.mk

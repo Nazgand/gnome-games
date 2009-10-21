@@ -30,3 +30,5 @@ if WITH_GTHREAD
 test_libgames_support_CFLAGS += $(GHTREAD_CFLAGS)
 test_libgames_support_LDADD += $(GTHREAD_LIBS)
 endif
+
+-include $(top_srcdir)/git.mk

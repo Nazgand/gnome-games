@@ -58,3 +58,5 @@ endif
 install-data-local: install-schemas-local
 
 @INTLTOOL_SCHEMAS_RULE@
+
+-include $(top_srcdir)/git.mk
