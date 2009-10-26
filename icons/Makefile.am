@@ -191,7 +191,7 @@ dist_noinst_DATA += \
 	$(NULL)
 endif
 
-if BUILD_SAME_GNOME
+if BUILD_SWELL_FOOP
 dist_noinst_DATA += \
 	hicolor_apps_16x16_gnome-samegnome.png \
 	hicolor_apps_22x22_gnome-samegnome.png \
