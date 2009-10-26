@@ -108,7 +108,7 @@ dist_noinst_DATA += \
 	$(NULL)
 endif
 
-if BUILD_GNOMETRIS
+if BUILD_QUADRAPASSEL
 dist_noinst_DATA += \
 	hicolor_apps_16x16_gnome-gnometris.png \
 	hicolor_apps_22x22_gnome-gnometris.png \
