@@ -110,12 +110,12 @@ endif
 
 if BUILD_QUADRAPASSEL
 dist_noinst_DATA += \
-	hicolor_apps_16x16_gnome-gnometris.png \
-	hicolor_apps_22x22_gnome-gnometris.png \
-	hicolor_apps_24x24_gnome-gnometris.png \
-	hicolor_apps_32x32_gnome-gnometris.png \
-	hicolor_apps_48x48_gnome-gnometris.png \
-	hicolor_apps_scalable_gnome-gnometris.svg \
+	hicolor_apps_16x16_gnome-quadrapassel.png \
+	hicolor_apps_22x22_gnome-quadrapassel.png \
+	hicolor_apps_24x24_gnome-quadrapassel.png \
+	hicolor_apps_32x32_gnome-quadrapassel.png \
+	hicolor_apps_48x48_gnome-quadrapassel.png \
+	hicolor_apps_scalable_gnome-quadrapassel.svg \
 	$(NULL)
 endif
 
@@ -193,12 +193,12 @@ endif
 
 if BUILD_SWELL_FOOP
 dist_noinst_DATA += \
-	hicolor_apps_16x16_gnome-samegnome.png \
-	hicolor_apps_22x22_gnome-samegnome.png \
-	hicolor_apps_24x24_gnome-samegnome.png \
-	hicolor_apps_32x32_gnome-samegnome.png \
-	hicolor_apps_48x48_gnome-samegnome.png \
-	hicolor_apps_scalable_gnome-samegnome.svg \
+	hicolor_apps_16x16_gnome-swell-foop.png \
+	hicolor_apps_22x22_gnome-swell-foop.png \
+	hicolor_apps_24x24_gnome-swell-foop.png \
+	hicolor_apps_32x32_gnome-swell-foop.png \
+	hicolor_apps_48x48_gnome-swell-foop.png \
+	hicolor_apps_scalable_gnome-swell-foop.svg \
 	$(NULL)
 endif
 
