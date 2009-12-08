@@ -432,7 +432,7 @@ GtkWidget *
 create_mahjongg_board (void)
 {
   board = gtk_drawing_area_new ();
-  GTK_WIDGET_SET_FLAGS (board, GTK_CAN_FOCUS);
+  gtk_widget_set_can_focus (board, TRUE);
 
   gtk_widget_set_size_request (board, MINWIDTH, MINHEIGHT);
 
