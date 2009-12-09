@@ -399,13 +399,14 @@ configure_board (GtkWidget * w, GdkEventConfigure * e, gpointer data)
 }
 
 /* Handle exposes by dumping out the backing pixmap. */
-static void
+static gboolean
 expose_board (GtkWidget * w, GdkEventExpose * e, gpointer data)
 {
   gdk_draw_drawable (gtk_widget_get_window (w),
                      gtk_widget_get_style (w)->black_gc, buffer, e->area.x,
 		     e->area.y, e->area.x, e->area.y, e->area.width,
                      e->area.height);
+  return TRUE;
 }
 
 static void
