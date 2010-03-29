@@ -566,7 +566,7 @@ msgstr "Εργαλειοθήκη"
 msgid ""
 "The <interface>toolbar</interface>, located below the <interface>Menu Bar</"
 "interface>, contains the following buttons:"
-msgstr "Η <interface>εργαλειοθήκη<</interface> βρίσκεται ακριβώς από κάτω από τη <interface>γραμμή μενού</interface> και περιέχει τα ακόλουθα πλήκτρα:"
+msgstr "Η <interface>εργαλειοθήκη</interface> βρίσκεται ακριβώς από κάτω από τη <interface>γραμμή μενού</interface> και περιέχει τα ακόλουθα πλήκτρα:"
 
 #: C/mahjongg.xml:324(guibutton)
 msgid "New"
