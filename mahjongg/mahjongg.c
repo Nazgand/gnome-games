@@ -78,6 +78,7 @@ static GtkAction *restart_action;
 static GtkAction *scores_action;
 static GtkAction *show_toolbar_action;
 static GtkAction *fullscreen_action;
+static GtkAction *leave_fullscreen_action;
 
 /* Available tilsets */
 static GList *tileset_list = NULL;
@@ -1267,6 +1268,7 @@ static const char ui_description[] =
   "    <toolitem action='UndoMove'/>"
   "    <toolitem action='RedoMove'/>"
   "    <toolitem action='Hint'/>"
+  "    <toolitem action='LeaveFullscreen'/>"
   "  </toolbar>"
   "</ui>";
 
@@ -1299,6 +1301,9 @@ create_menus (GtkUIManager * ui_manager)
 
   fullscreen_action = GTK_ACTION (games_fullscreen_action_new ("Fullscreen", GTK_WINDOW (window)));
   gtk_action_group_add_action_with_accel (action_group, fullscreen_action, NULL);
+
+  leave_fullscreen_action = GTK_ACTION (games_fullscreen_action_new ("LeaveFullscreen", GTK_WINDOW (window)));
+  gtk_action_group_add_action_with_accel (action_group, leave_fullscreen_action, NULL);
 
   gtk_toggle_action_set_active (GTK_TOGGLE_ACTION (show_toolbar_action),
                                 games_conf_get_boolean (NULL, KEY_SHOW_TOOLBAR, NULL));
@@ -1461,6 +1466,7 @@ main (int argc, char *argv[])
    * window knows how big to make the tiles. */
   gtk_widget_show_all (window);
 
+  games_fullscreen_action_set_visible_policy (GAMES_FULLSCREEN_ACTION (leave_fullscreen_action), GAMES_FULLSCREEN_ACTION_VISIBLE_ON_FULLSCREEN);
   if (!games_conf_get_boolean (NULL, KEY_SHOW_TOOLBAR, NULL))
     gtk_widget_hide (toolbar);
 
