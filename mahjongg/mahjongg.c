@@ -33,6 +33,8 @@
 #include <libgames-support/games-scores.h>
 #include <libgames-support/games-scores-dialog.h>
 #include <libgames-support/games-runtime.h>
+#include <libgames-support/games-fullscreen-action.h>
+#include <libgames-support/games-pause-action.h>
     
 #include "mahjongg.h"
 #include "drawing.h"
@@ -69,7 +71,6 @@ static GtkWidget *colour_well = NULL;
 static GtkWidget *pref_dialog = NULL;
 
 static GtkAction *pause_action;
-static GtkAction *resume_action;
 static GtkAction *hint_action;
 static GtkAction *redo_action;
 static GtkAction *undo_action;
@@ -77,7 +78,6 @@ static GtkAction *restart_action;
 static GtkAction *scores_action;
 static GtkAction *show_toolbar_action;
 static GtkAction *fullscreen_action;
-static GtkAction *leavefullscreen_action;
 
 /* Available tilsets */
 static GList *tileset_list = NULL;
@@ -119,7 +119,7 @@ void check_free (void);
 void undo_tile_callback (void);
 void properties_callback (void);
 void shuffle_tiles_callback (void);
-void pause_callback (void);
+void pause_callback (GamesPauseAction *action);
 void new_game (gboolean shuffle);
 
 void
@@ -148,37 +148,6 @@ mahjongg_theme_warning (gchar * message)
   gtk_widget_destroy (dialog);
 }
 
-static void
-set_fullscreen_actions (gboolean is_fullscreen)
-{
-  gtk_action_set_sensitive (leavefullscreen_action, is_fullscreen);
-  gtk_action_set_visible (leavefullscreen_action, is_fullscreen);
-
-  gtk_action_set_sensitive (fullscreen_action, !is_fullscreen);
-  gtk_action_set_visible (fullscreen_action, !is_fullscreen);
-}
-
-static void
-fullscreen_callback (GtkAction * action)
-{
-  if (action == fullscreen_action)
-    gtk_window_fullscreen (GTK_WINDOW (window));
-  else
-    gtk_window_unfullscreen (GTK_WINDOW (window));
-}
-
-static gboolean
-window_state_callback (GtkWidget * widget, GdkEventWindowState * event)
-{
-  if (!(event->changed_mask & GDK_WINDOW_STATE_FULLSCREEN))
-    return FALSE;
-
-  set_fullscreen_actions (event->new_window_state &
-			  GDK_WINDOW_STATE_FULLSCREEN);
-    
-  return FALSE;
-}
-
 /* At the end of the game, hint, shuffle and pause all become unavailable. */
 /* Undo and Redo are handled elsewhere. */
 static void
@@ -193,14 +162,10 @@ update_menu_sensitivities (void)
     gtk_action_set_sensitive (hint_action, FALSE);
     gtk_action_set_sensitive (undo_action, FALSE);
     gtk_action_set_sensitive (redo_action, FALSE);
-    gtk_action_set_visible (pause_action, FALSE);
-    gtk_action_set_visible (resume_action, TRUE);
   } else {
     gtk_action_set_sensitive (hint_action, moves_left > 0);
     gtk_action_set_sensitive (undo_action, undo_state);
     gtk_action_set_sensitive (redo_action, redo_state);
-    gtk_action_set_visible (pause_action, TRUE);
-    gtk_action_set_visible (resume_action, FALSE);
   }
 
   /* This is a workaround to make sure that all toolbar elements are
@@ -480,7 +445,7 @@ void
 tile_event (gint tileno, gint button)
 {
   if (paused) {
-    pause_callback ();
+    pause_callback (NULL);
     return;
   }
 
@@ -957,7 +922,7 @@ about_callback (void)
 }
 
 void
-pause_callback (void)
+pause_callback (GamesPauseAction *action)
 {
   static gboolean noloops = FALSE;
 
@@ -969,7 +934,8 @@ pause_callback (void)
 
   noloops = TRUE;
   stop_hints ();
-  paused = !paused;
+  if (action)
+    paused = games_pause_action_get_is_paused (action);
   draw_all_tiles ();
   update_menu_sensitivities ();
   if (paused) {
@@ -1246,10 +1212,6 @@ static const GtkActionEntry actions[] = {
    G_CALLBACK (new_game_cb)},
   {"RestartGame", GAMES_STOCK_RESTART_GAME, NULL, NULL,
    N_("Restart the current game"), G_CALLBACK (restart_game_cb)},
-  {"PauseGame", GAMES_STOCK_PAUSE_GAME, NULL, NULL, N_("Pause the game"),
-   G_CALLBACK (pause_callback)},
-  {"ResumeGame", GAMES_STOCK_RESUME_GAME, NULL, NULL,
-   N_("Resume the paused game"), G_CALLBACK (pause_callback)},
   {"UndoMove", GAMES_STOCK_UNDO_MOVE, NULL, NULL, N_("Undo the last move"),
    G_CALLBACK (undo_tile_callback)},
   {"RedoMove", GAMES_STOCK_REDO_MOVE, NULL, NULL, N_("Redo the last move"),
@@ -1259,10 +1221,6 @@ static const GtkActionEntry actions[] = {
   {"Scores", GAMES_STOCK_SCORES, NULL, NULL, NULL,
    G_CALLBACK (scores_callback)},
   {"Quit", GTK_STOCK_QUIT, NULL, NULL, NULL, G_CALLBACK (quit_cb)},
-  {"Fullscreen", GAMES_STOCK_FULLSCREEN, NULL, NULL, NULL,
-   G_CALLBACK (fullscreen_callback)},
-  {"LeaveFullscreen", GAMES_STOCK_LEAVE_FULLSCREEN, NULL, NULL, NULL,
-   G_CALLBACK (fullscreen_callback)},
   {"Preferences", GTK_STOCK_PREFERENCES, NULL, NULL, NULL,
    G_CALLBACK (properties_callback)},
   {"Contents", GAMES_STOCK_CONTENTS, NULL, NULL, NULL, G_CALLBACK (help_cb)},
@@ -1281,7 +1239,6 @@ static const char ui_description[] =
   "      <menuitem action='NewGame'/>"
   "      <menuitem action='RestartGame'/>"
   "      <menuitem action='PauseGame'/>"
-  "      <menuitem action='ResumeGame'/>"
   "      <separator/>"
   "      <menuitem action='UndoMove'/>"
   "      <menuitem action='RedoMove'/>"
@@ -1293,7 +1250,6 @@ static const char ui_description[] =
   "    </menu>"
   "    <menu action='SettingsMenu'>"
   "      <menuitem action='Fullscreen'/>"
-  "      <menuitem action='LeaveFullscreen'/>"
   "      <menuitem action='ShowToolbar'/>"
   "      <separator/>"
   "      <menuitem action='Preferences'/>"
@@ -1307,12 +1263,10 @@ static const char ui_description[] =
   "    <toolitem action='NewGame'/>"
   "    <toolitem action='RestartGame'/>"
   "    <toolitem action='PauseGame'/>"
-  "    <toolitem action='ResumeGame'/>"
   "    <separator/>"
   "    <toolitem action='UndoMove'/>"
   "    <toolitem action='RedoMove'/>"
   "    <toolitem action='Hint'/>"
-  "    <toolitem action='LeaveFullscreen'/>"
   "  </toolbar>"
   "</ui>";
 
@@ -1333,8 +1287,9 @@ create_menus (GtkUIManager * ui_manager)
   gtk_ui_manager_insert_action_group (ui_manager, action_group, 0);
   gtk_ui_manager_add_ui_from_string (ui_manager, ui_description, -1, NULL);
   restart_action = gtk_action_group_get_action (action_group, "RestartGame");
-  pause_action = gtk_action_group_get_action (action_group, "PauseGame");
-  resume_action = gtk_action_group_get_action (action_group, "ResumeGame");
+  pause_action = GTK_ACTION (games_pause_action_new ("PauseGame"));
+  g_signal_connect (G_OBJECT (pause_action), "notify::is-paused", G_CALLBACK (pause_callback), NULL);
+  gtk_action_group_add_action_with_accel (action_group, pause_action, NULL);
   hint_action = gtk_action_group_get_action (action_group, "Hint");
   undo_action = gtk_action_group_get_action (action_group, "UndoMove");
   redo_action = gtk_action_group_get_action (action_group, "RedoMove");
@@ -1342,11 +1297,8 @@ create_menus (GtkUIManager * ui_manager)
   show_toolbar_action =
     gtk_action_group_get_action (action_group, "ShowToolbar");
 
-  fullscreen_action =
-    gtk_action_group_get_action (action_group, "Fullscreen");
-  leavefullscreen_action =
-    gtk_action_group_get_action (action_group, "LeaveFullscreen");
-  set_fullscreen_actions (FALSE);
+  fullscreen_action = GTK_ACTION (games_fullscreen_action_new ("Fullscreen", GTK_WINDOW (window)));
+  gtk_action_group_add_action_with_accel (action_group, fullscreen_action, NULL);
 
   gtk_toggle_action_set_active (GTK_TOGGLE_ACTION (show_toolbar_action),
                                 games_conf_get_boolean (NULL, KEY_SHOW_TOOLBAR, NULL));
@@ -1437,9 +1389,6 @@ main (int argc, char *argv[])
 
   load_preferences ();
 
-  g_signal_connect (window, "window-state-event",
-		    G_CALLBACK (window_state_callback), NULL);
-
   /* Statusbar for a chrono, Tiles left and Moves left */
   status_box = gtk_hbox_new (FALSE, 10);
 
@@ -1478,7 +1427,7 @@ main (int argc, char *argv[])
   gtk_statusbar_set_has_resize_grip (GTK_STATUSBAR (statusbar), FALSE);
 
   create_menus (ui_manager);
-  accel_group = gtk_ui_manager_get_accel_group (ui_manager);
+  accel_group = gtk_ui_manager_get_accel_group (ui_manager);  
   gtk_window_add_accel_group (GTK_WINDOW (window), accel_group);
   box = gtk_ui_manager_get_widget (ui_manager, "/MainMenu");
 
