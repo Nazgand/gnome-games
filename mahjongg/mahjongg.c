@@ -1290,7 +1290,7 @@ create_menus (GtkUIManager * ui_manager)
   gtk_ui_manager_add_ui_from_string (ui_manager, ui_description, -1, NULL);
   restart_action = gtk_action_group_get_action (action_group, "RestartGame");
   pause_action = GTK_ACTION (games_pause_action_new ("PauseGame"));
-  g_signal_connect (G_OBJECT (pause_action), "notify::is-paused", G_CALLBACK (pause_callback), NULL);
+  g_signal_connect (G_OBJECT (pause_action), "state-changed", G_CALLBACK (pause_callback), NULL);
   gtk_action_group_add_action_with_accel (action_group, pause_action, NULL);
   hint_action = gtk_action_group_get_action (action_group, "Hint");
   undo_action = gtk_action_group_get_action (action_group, "UndoMove");
