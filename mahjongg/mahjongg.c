@@ -1449,7 +1449,7 @@ main (int argc, char *argv[])
   gtk_box_pack_start (GTK_BOX (vbox), toolbar, FALSE, FALSE, 0);
   gtk_box_pack_start (GTK_BOX (vbox), board, TRUE, TRUE, 0);
 
-  gtk_box_pack_end (GTK_BOX (statusbar), status_box, FALSE, FALSE, 0);
+  gtk_box_pack_end (GTK_BOX (statusbar), status_box, FALSE, FALSE, 6);
   gtk_box_pack_end (GTK_BOX (vbox), statusbar, FALSE, FALSE, 0);
 
   gtk_container_add (GTK_CONTAINER (window), vbox);
