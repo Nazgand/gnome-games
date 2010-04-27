@@ -1262,12 +1262,9 @@ static const char ui_description[] =
   "  </menubar>"
   "  <toolbar name='Toolbar'>"
   "    <toolitem action='NewGame'/>"
-  "    <toolitem action='RestartGame'/>"
-  "    <toolitem action='PauseGame'/>"
-  "    <separator/>"
   "    <toolitem action='UndoMove'/>"
-  "    <toolitem action='RedoMove'/>"
   "    <toolitem action='Hint'/>"
+  "    <toolitem action='PauseGame'/>"
   "    <toolitem action='LeaveFullscreen'/>"
   "  </toolbar>"
   "</ui>";
@@ -1290,10 +1287,13 @@ create_menus (GtkUIManager * ui_manager)
   gtk_ui_manager_add_ui_from_string (ui_manager, ui_description, -1, NULL);
   restart_action = gtk_action_group_get_action (action_group, "RestartGame");
   pause_action = GTK_ACTION (games_pause_action_new ("PauseGame"));
+  gtk_action_set_is_important (pause_action, TRUE);
   g_signal_connect (G_OBJECT (pause_action), "state-changed", G_CALLBACK (pause_callback), NULL);
   gtk_action_group_add_action_with_accel (action_group, pause_action, NULL);
   hint_action = gtk_action_group_get_action (action_group, "Hint");
+  gtk_action_set_is_important (hint_action, TRUE);
   undo_action = gtk_action_group_get_action (action_group, "UndoMove");
+  gtk_action_set_is_important (undo_action, TRUE);
   redo_action = gtk_action_group_get_action (action_group, "RedoMove");
   scores_action = gtk_action_group_get_action (action_group, "Scores");
   show_toolbar_action =
@@ -1306,7 +1306,7 @@ create_menus (GtkUIManager * ui_manager)
   gtk_action_group_add_action_with_accel (action_group, leave_fullscreen_action, NULL);
 
   gtk_toggle_action_set_active (GTK_TOGGLE_ACTION (show_toolbar_action),
-                                games_conf_get_boolean (NULL, KEY_SHOW_TOOLBAR, NULL));
+                                games_conf_get_boolean (NULL, KEY_SHOW_TOOLBAR, NULL));  
 }
 
 static void
