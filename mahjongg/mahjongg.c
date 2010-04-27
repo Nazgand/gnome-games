@@ -861,8 +861,8 @@ hint_callback (void)
   timer = g_timeout_add (250, (GSourceFunc) hint_timeout, NULL);
 
   /* 30s penalty */
-  games_clock_add_seconds (GAMES_CLOCK (chrono), 30);
   clock_start ();
+  games_clock_add_seconds (GAMES_CLOCK (chrono), 30);
 }
 
 static void
