@@ -150,7 +150,6 @@ mahjongg_theme_warning (gchar * message)
 }
 
 /* At the end of the game, hint, shuffle and pause all become unavailable. */
-/* Undo and Redo are handled elsewhere. */
 static void
 update_menu_sensitivities (void)
 {
@@ -165,7 +164,7 @@ update_menu_sensitivities (void)
     gtk_action_set_sensitive (redo_action, FALSE);
   } else {
     gtk_action_set_sensitive (hint_action, moves_left > 0);
-    gtk_action_set_sensitive (undo_action, undo_state);
+    gtk_action_set_sensitive (undo_action, undo_state && game_over != GAME_WON);
     gtk_action_set_sensitive (redo_action, redo_state);
   }
 
