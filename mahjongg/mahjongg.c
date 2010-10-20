@@ -517,7 +517,7 @@ fill_tile_menu (GtkWidget * menu)
     }
       
     tileset_name = g_strsplit (s, ".", -1);
-    gtk_combo_box_append_text (GTK_COMBO_BOX (menu), tileset_name[0]);
+    gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (menu), tileset_name[0]);
     g_strfreev (tileset_name);
 
     tileset_list = g_list_append (tileset_list, s);
@@ -540,7 +540,7 @@ fill_map_menu (GtkWidget * menu)
     const char *display_name;
 
     display_name = g_dpgettext2 (NULL, "mahjongg map name", maps[lp].name);
-    gtk_combo_box_append_text (GTK_COMBO_BOX (menu), display_name);
+    gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (menu), display_name);
   }
   gtk_combo_box_set_active (GTK_COMBO_BOX (menu), mapset);
 }
@@ -700,7 +700,7 @@ properties_callback (void)
   gtk_table_attach (GTK_TABLE (table), label, 0, 1, 0, 1,
 		    (GtkAttachOptions) GTK_FILL, (GtkAttachOptions) 0, 0, 0);
 
-  omenu = gtk_combo_box_new_text ();
+  omenu = gtk_combo_box_text_new ();
   fill_tile_menu (omenu);
   g_signal_connect (G_OBJECT (omenu), "changed",
 		    G_CALLBACK (tileset_callback), NULL);
@@ -721,7 +721,7 @@ properties_callback (void)
   gtk_table_attach (GTK_TABLE (table), label, 0, 1, 0, 1,
 		    (GtkAttachOptions) GTK_FILL, (GtkAttachOptions) 0, 0, 0);
 
-  omenu = gtk_combo_box_new_text ();
+  omenu = gtk_combo_box_text_new ();
   fill_map_menu (omenu);
   g_signal_connect (G_OBJECT (omenu), "changed",
 		    G_CALLBACK (set_map_selection), NULL);
