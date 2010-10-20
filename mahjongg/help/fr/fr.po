@@ -811,7 +811,7 @@ msgstr ""
 "Pour modifier les paramètres de l'application, choisissez "
 "<guimenuitem>Préférences</guimenuitem> dans le menu <guimenu>Préférences</"
 "guimenu>. La <link linkend=\"preferences-fig\">fenêtre des "
-"<interface>Preferences</interface> apparaît."
+"<interface>Préférences</interface></link> apparaît."
 
 #. ALAN: looks correct like version 2.10 to me
 #: C/mahjongg.xml:627(title)
