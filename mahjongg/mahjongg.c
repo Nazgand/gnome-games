@@ -1428,7 +1428,6 @@ main (int argc, char *argv[])
   ui_manager = gtk_ui_manager_new ();
 
   games_stock_prepare_for_statusbar_tooltips (ui_manager, statusbar);
-  gtk_statusbar_set_has_resize_grip (GTK_STATUSBAR (statusbar), FALSE);
 
   create_menus (ui_manager);
   accel_group = gtk_ui_manager_get_accel_group (ui_manager);  
