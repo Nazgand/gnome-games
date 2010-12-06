@@ -287,7 +287,7 @@ recreate_tile_images (void)
 
   if (tilepreimage) {
     if (tileimages)
-       gdk_pixbuf_unref (tileimages);
+       g_object_unref (tileimages);
     tileimages = games_preimage_render (tilepreimage, tilewidth * NUM_PATTERNS,
                                         tileheight * 2);
 
