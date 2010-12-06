@@ -898,11 +898,7 @@ about_callback (void)
   gchar *license = games_get_license (_("Mahjongg"));
 
   gtk_show_about_dialog (GTK_WINDOW (window),
-#if GTK_CHECK_VERSION (2, 11, 0)
                          "program-name", _("Mahjongg"),
-#else
-                         "name", _("Mahjongg"),
-#endif
 			 "version", VERSION,
 			 "comments",
 			 _("A matching game played with Mahjongg tiles.\n\nMahjongg is a part of GNOME Games."),
@@ -1353,10 +1349,7 @@ main (int argc, char *argv[])
 #endif
 
   context = g_option_context_new (NULL);
-#if GLIB_CHECK_VERSION (2, 12, 0)
   g_option_context_set_translation_domain (context, GETTEXT_PACKAGE);
-#endif
-
   g_option_context_add_group (context, gtk_get_option_group (TRUE));
 
   retval = g_option_context_parse (context, &argc, &argv, &error);
