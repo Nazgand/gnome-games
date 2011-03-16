@@ -4,44 +4,6 @@ public_icons_themes = hicolor
 
 dist_noinst_DATA =
 
-if BUILD_AISLERIOT
-dist_noinst_DATA += \
-	hicolor_apps_16x16_gnome-aisleriot.png \
-	$(NULL)
-
-if HAVE_HILDON
-
-# These sizes work for maemo3 at least. The "scalable" icon really
-# is a 64x54 icon, which is the size that apparently is required for
-# the app menu on maemo3.
-#
-# FIXME: check which sizes are required on maemo4 and maemo5
-
-dist_noinst_DATA += \
-	hicolor_apps_34x34_gnome-aisleriot.png \
-	hicolor_apps_26x26_gnome-aisleriot.png \
-	hicolor_apps_40x40_gnome-aisleriot.png \
-	hicolor_apps_50x50_gnome-aisleriot.png \
-	hicolor_apps_scalable_gnome-aisleriot.png \
-	$(NULL)
-else
-dist_noinst_DATA += \
-	hicolor_apps_22x22_gnome-aisleriot.png \
-	hicolor_apps_24x24_gnome-aisleriot.png \
-	hicolor_apps_32x32_gnome-aisleriot.png \
-	hicolor_apps_48x48_gnome-aisleriot.png \
-	hicolor_apps_scalable_gnome-aisleriot.svg \
-	hicolor_apps_16x16_gnome-freecell.png \
-	hicolor_apps_22x22_gnome-freecell.png \
-	hicolor_apps_24x24_gnome-freecell.png \
-	hicolor_apps_32x32_gnome-freecell.png \
-	hicolor_apps_48x48_gnome-freecell.png \
-	hicolor_apps_scalable_gnome-freecell.svg \
-	$(NULL)
-endif # HAVE_HILDON
-
-endif # BUILD_AISLERIOT
-
 if BUILD_GLCHESS
 dist_noinst_DATA += \
 	hicolor_apps_16x16_gnome-glchess.png \
@@ -212,29 +174,20 @@ private_icons = \
 	$(NULL)
 
 if BUILD_GNOBOTS2
-if !HAVE_HILDON
 private_icons += \
 	hicolor_actions_24x24_teleport.png \
 	hicolor_actions_24x24_teleport-random.png \
 	$(NULL)
-endif # !HAVE_HILDON
 endif # BUILD_GNOBOTS2
 
 EXTRA_DIST = \
 	$(private_icons)\
 	$(NULL)
 
-# The extra treatment for Hildon is necessary because hildon only looks for
-# icons in the "hildon" context [https://bugs.maemo.org/show_bug.cgi?id=4766].
-
 install-public-icons:
 	for icon in $(dist_noinst_DATA); do \
 		THEME=`echo $$icon | cut -d_ -f1`; \
-		if test -n "@HAVE_HILDON_TRUE@"; then \
-			CONTEXT=`echo $$icon | cut -d_ -f2`; \
-		else \
-			CONTEXT=hildon; \
-		fi; \
+		CONTEXT=`echo $$icon | cut -d_ -f2`; \
 		SIZE=`echo $$icon | cut -d_ -f3`; \
 		ICONFILE=`echo $$icon | cut -d_ -f4`; \
 		mkdir -p $(DESTDIR)$(datadir)/icons/$$THEME/$$SIZE/$$CONTEXT; \
@@ -244,11 +197,7 @@ install-public-icons:
 install-private-icons:
 	for icon in $(private_icons); do \
 		THEME=`echo $$icon | cut -d_ -f1`; \
-		if test -n "@HAVE_HILDON_TRUE@"; then \
-			CONTEXT=`echo $$icon | cut -d_ -f2`; \
-		else \
-			CONTEXT=hildon; \
-		fi; \
+		CONTEXT=`echo $$icon | cut -d_ -f2`; \
 		SIZE=`echo $$icon | cut -d_ -f3`; \
 		ICONFILE=`echo $$icon | cut -d_ -f4`; \
 		$(mkdir_p) $(DESTDIR)$(pkgdatadir)/icons/$$THEME/$$SIZE/$$CONTEXT; \
@@ -258,11 +207,7 @@ install-private-icons:
 uninstall-public-icons:
 	-for icon in $(dist_noinst_DATA); do \
 		THEME=`echo $$icon | cut -d_ -f1`; \
-		if test -n "@HAVE_HILDON_TRUE@"; then \
-			CONTEXT=`echo $$icon | cut -d_ -f2`; \
-		else \
-			CONTEXT=hildon; \
-		fi; \
+		CONTEXT=`echo $$icon | cut -d_ -f2`; \
 		SIZE=`echo $$icon | cut -d_ -f3`; \
 		ICONFILE=`echo $$icon | cut -d_ -f4`; \
 		rm -f $(DESTDIR)$(datadir)/icons/$$THEME/$$SIZE/$$CONTEXT/$$ICONFILE; \
@@ -271,11 +216,7 @@ uninstall-public-icons:
 uninstall-private-icons:
 	for icon in $(private_icons); do \
 		THEME=`echo $$icon | cut -d_ -f1`; \
-		if test -n "@HAVE_HILDON_TRUE@"; then \
-			CONTEXT=`echo $$icon | cut -d_ -f2`; \
-		else \
-			CONTEXT=hildon; \
-		fi; \
+		CONTEXT=`echo $$icon | cut -d_ -f2`; \
 		SIZE=`echo $$icon | cut -d_ -f3`; \
 		ICONFILE=`echo $$icon | cut -d_ -f4`; \
 		rm -f $(DESTDIR)$(pkgdatadir)/icons/$$THEME/$$SIZE/$$CONTEXT/$$ICONFILE; \
