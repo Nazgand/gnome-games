@@ -81,17 +81,6 @@ dist_noinst_DATA += \
 	$(NULL)
 endif
 
-if BUILD_GNOMINE
-dist_noinst_DATA += \
-	hicolor_apps_16x16_gnome-mines.png \
-	hicolor_apps_22x22_gnome-mines.png \
-	hicolor_apps_24x24_gnome-mines.png \
-	hicolor_apps_32x32_gnome-mines.png \
-	hicolor_apps_48x48_gnome-mines.png \
-	hicolor_apps_scalable_gnome-mines.svg \
-	$(NULL)
-endif
-
 if BUILD_GNOTRAVEX
 dist_noinst_DATA += \
 	hicolor_apps_16x16_gnome-tetravex.png \
