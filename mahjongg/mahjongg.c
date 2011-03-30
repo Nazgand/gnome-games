@@ -1429,6 +1429,8 @@ main (int argc, char *argv[])
   board = create_mahjongg_board ();
 
   toolbar = gtk_ui_manager_get_widget (ui_manager, "/Toolbar");
+  gtk_style_context_add_class (gtk_widget_get_style_context (toolbar),
+			       GTK_STYLE_CLASS_PRIMARY_TOOLBAR);
 
   vbox = gtk_vbox_new (FALSE, 0);
 
