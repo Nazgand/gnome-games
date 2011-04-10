@@ -1,6 +1,3 @@
-aisleriot/ar-style-gtk.c
-aisleriot/freecell.desktop.in
-aisleriot/sol.desktop.in
 glchess/glchess.desktop.in
 glchess/src/glchess.c
 glines/glines.desktop.in

@@ -36,7 +36,6 @@ libgames_support_la_SOURCES =		\
 
 nodist_libgames_support_la_SOURCES = $(BUILT_SOURCES)
 
-if !HAVE_HILDON
 libgames_support_la_SOURCES +=		\
 	games-atk-utils.c		\
 	games-atk-utils.h		\
@@ -46,7 +45,6 @@ libgames_support_la_SOURCES +=		\
 	games-preimage.h                \
 	games-preimage-private.h	\
 	$(NULL)
-endif # !HAVE_HILDON
 
 if HAVE_GIO_2_26
 libgames_support_la_SOURCES += \
@@ -143,11 +141,6 @@ endif
 if ENABLE_SOUND
 libgames_support_la_CFLAGS += $(CANBERRA_GTK_CFLAGS)
 libgames_support_la_LIBADD += $(CANBERRA_GTK_LIBS)
-endif
-
-if HAVE_HILDON
-libgames_support_la_CFLAGS += $(HILDON_CFLAGS)
-libgames_support_la_LIBADD += $(HILDON_LIBS)
 endif
 
 gsettingsschema_in_files = org.gnome.Games.WindowState.gschema.xml.in

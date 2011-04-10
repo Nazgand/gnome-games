@@ -23,7 +23,7 @@ AM_MAINTAINER_MODE([enable])
 # we support and which features to check for
 
 # This is the canonical list of all game subdirectories.
-allgames="aisleriot glchess glines gnect gnibbles gnobots2 gnomine gnotravex gnotski gtali iagno lightsoff mahjongg quadrapassel swell-foop"
+allgames="glchess glines gnect gnibbles gnobots2 gnomine gnotravex gnotski gtali iagno lightsoff mahjongg quadrapassel swell-foop"
 AC_SUBST([allgames])
 staginggames="gnome-sudoku"
 AC_SUBST([staginggames])
@@ -112,35 +112,22 @@ need_cxx=no
 need_vala=no
 need_rsvg=no
 need_sqlite=no
-need_guile=no
 need_opengl=no
 need_glx=no
 need_python=no
 need_clutter=no
-need_gio_2_26=no
 want_sound=no
-allow_gtk2=yes
 allow_gnuchess=no
 allow_smclient=no
-disallow_hildon=no
-require_gtk_2_16=no
 require_cairo_1_10=no
 
 for game in $gamelist; do
-  case $game in
-    aisleriot) allow_gtk2=yes ;;
-    *) ;;
-  esac
   case $game in
     quadrapassel) need_cxx=yes ;;
     *) ;;
   esac
   case $game in
     glchess) need_vala=yes ;;
-    *) ;;
-  esac
-  case $game in
-    aisleriot) need_guile=yes ;;
     *) ;;
   esac
   case $game in
@@ -160,15 +147,11 @@ for game in $gamelist; do
     *) ;;
   esac
   case $game in
-    aisleriot|gnect|gnibbles|gnobots2|quadrapassel|iagno) want_sound=yes ;;
+    gnect|gnibbles|gnobots2|quadrapassel|iagno) want_sound=yes ;;
     *) ;;
   esac
   case $game in
-    aisleriot) ;;
-    *) disallow_hildon=yes ;;
-  esac
-  case $game in
-    aisleriot|glchess) ;;
+    glchess) ;;
     *) need_rsvg=yes ;;
   esac
   case $game in
@@ -176,16 +159,12 @@ for game in $gamelist; do
     *) need_sqlite=yes ;;
   esac
   case $game in
-    aisleriot|glines|gnobots2|gnomine|gnotravex|gnotski|iagno) allow_smclient=yes ;;
+    glines|gnobots2|gnomine|gnotravex|gnotski|iagno) allow_smclient=yes ;;
     *) ;;
   esac
   case $game in
     quadrapassel|lightsoff|swell-foop|gnibbles) need_clutter=yes ;;
     *) ;;
-  esac
-  case $game in
-    aisleriot) ;;
-    *) require_gtk_2_16=yes ;;
   esac
 done
 
@@ -198,7 +177,6 @@ for game in $gamelist; do
   eval AS_TR_SH([build_$game])=yes
 done
 
-AM_CONDITIONAL([BUILD_AISLERIOT],[test "$build_aisleriot" = "yes"])
 AM_CONDITIONAL([BUILD_GLCHESS],[test "$build_glchess" = "yes"])
 AM_CONDITIONAL([BUILD_GLINES],[test "$build_glines" = "yes"])
 AM_CONDITIONAL([BUILD_GNECT],[test "$build_gnect" = "yes"])
@@ -283,79 +261,34 @@ AM_PATH_PYTHON([2.4],[have_python=yes],[have_python=no])
 
 AC_MSG_CHECKING([for which platform to build])
 AC_ARG_WITH([platform],
-  [AS_HELP_STRING([--with-platform=gnome|hildon|gtk-only (default: gnome)])],
+  [AS_HELP_STRING([--with-platform=gnome|gtk-only (default: gnome)])],
   [case "$withval" in
-    gnome|hildon|gtk-only) ;;
-    maemo) with_platform=hildon with_platform_variant=maemo3 ;; # compat
+    gnome|gtk-only) ;;
     *) AC_MSG_ERROR([invalid argument "$withval" for --with-platform]) ;;
    esac],
   [with_platform=gnome])
 AC_MSG_RESULT([$with_platform])
 
-if test "$with_platform" = "hildon"; then
-  # "maemo" is Maemo 4.x
-  AC_MSG_CHECKING([for which platform variant to build])
-  AC_ARG_WITH([platform-variant],
-    [AS_HELP_STRING([--with-platform-variant=maemo3|maemo4|maemo5|mid (default: maemo4)])],
-    [case "$withval" in
-       maemo5|maemo4|maemo3|mid) ;;
-       *) with_platform_variant=maemo4 ;;
-     esac],
-    [with_platform_variant=maemo3])
-  AC_MSG_RESULT([$with_platform_variant])
-fi
-
-if test "$with_platform" = "hildon" -a "$disallow_hildon" = "yes"; then
-  AC_MSG_ERROR([Trying to build with Hildon platform, but some of the following games don't support this: $gamelist])
-fi
-
 AM_CONDITIONAL([HAVE_GNOME],[test "$with_platform" = "gnome"])
-AM_CONDITIONAL([HAVE_HILDON],[test "$with_platform" = "hildon"])
-AM_CONDITIONAL([HAVE_MAEMO],[test "$with_platform" = "hildon" -a "$with_platform_variant" != "mid"])
-AM_CONDITIONAL([HAVE_MAEMO_3],[test "$with_platform" = "hildon" -a "$with_platform_variant" = "maemo3"])
-AM_CONDITIONAL([HAVE_MAEMO_4],[test "$with_platform" = "hildon" -a "$with_platform_variant" = "maemo4"])
-AM_CONDITIONAL([HAVE_MAEMO_5],[test "$with_platform" = "hildon" -a "$with_platform_variant" = "maemo5"])
 
 if test "$with_platform" = "gnome"; then
   AC_DEFINE([HAVE_GNOME],[1],[Define if GNOME support is enabled])
-fi
-if test "$with_platform" = "hildon"; then
-  AC_DEFINE([HAVE_HILDON],[1],[Define if Hildon support is enabled])
-
-  if test "$with_platform_variant" != "mid"; then
-    AC_DEFINE([HAVE_MAEMO],[1],[Define if Maemo support is enabled])
-  fi
-  if test "$with_platform_variant" = "maemo3"; then
-    AC_DEFINE([HAVE_MAEMO_3],[1],[Define if Maemo 3.x support is enabled])
-  fi
-  if test "$with_platform_variant" = "maemo4"; then
-    AC_DEFINE([HAVE_MAEMO_4],[1],[Define if Maemo 4.x support is enabled])
-  fi
-  if test "$with_platform_variant" = "maemo5"; then
-    AC_DEFINE([HAVE_MAEMO_5],[1],[Define if Maemo 5.x support is enabled])
-  fi
 fi
 
 # Check which gtk+ major version to use
 
 AC_MSG_CHECKING([which gtk+ version to compile against])
 AC_ARG_WITH([gtk],
-  [AS_HELP_STRING([--with-gtk=2.0|3.0],[which gtk+ version to compile against (default: 3.0)])],
+  [AS_HELP_STRING([--with-gtk=3.0],[which gtk+ version to compile against (default: 3.0)])],
   [case "$with_gtk" in
-     2.0|3.0) ;;
+     3.0) ;;
+     [0-9].0) AC_MSG_ERROR([unsupported gtk version $with_gtk specified]) ;;
      *) AC_MSG_ERROR([invalid gtk version specified]) ;;
    esac],
   [with_gtk=3.0])
 AC_MSG_RESULT([$with_gtk])
 
-if test "$with_gtk" = "2.0" -a "$allow_gtk2" = "no"; then
-  AC_MSG_ERROR([gtk+-2.0 build requested but not all selected games still support this])
-fi
-
 case "$with_gtk" in
-  2.0) GTK_API_VERSION=2.0
-       GTK_API_MAJOR_VERSION=2
-       ;;
   3.0) GTK_API_VERSION=3.0
        GTK_API_MAJOR_VERSION=3
        ;;
@@ -363,9 +296,6 @@ esac
 
 AC_SUBST([GTK_API_VERSION])
 AC_SUBST([GTK_API_MAJOR_VERSION])
-
-AM_CONDITIONAL([HAVE_GTK_2],[test "$GTK_API_VERSION" = "2.0"])
-AM_CONDITIONAL([HAVE_GTK_3],[test "$GTK_API_VERSION" = "3.0"])
 
 # Win32 platform
 
@@ -407,185 +337,11 @@ if test "$want_sound" = "yes"; then
   AC_MSG_CHECKING([whether to enable sound support])
   AC_ARG_ENABLE([sound],
     [AS_HELP_STRING([--enable-sound],[Enable sound using libcanberra])],
-    [],[case "$with_platform" in
-          gnome|gtk-only) enable_sound=yes ;;
-          hildon) case "$with_platform_variant" in
-                    maemo5) enable_sound=yes ;;
-                    *) enable_sound=no ;;
-                  esac
-        esac])
+    [],[enable_sound=yes])
   AC_MSG_RESULT([$enable_sound])
 else
   enable_sound=no
 fi
-
-# *******
-# Clutter
-# *******
-
-# We're using need_guile as a quick way to check whether building aisleriot
-if test "$need_guile" = "yes"; then
-  AC_MSG_CHECKING([whether to enable aisleriot/clutter])
-  AC_ARG_ENABLE([aisleriot-clutter],
-    [AS_HELP_STRING([--enable-aisleriot-clutter],[Whether to enable the clutter version of aisleriot (default: disabled)])],
-    [],[enable_aisleriot_clutter=no])
-  AC_MSG_RESULT([$enable_aisleriot_clutter])
-
-  if test "$enable_aisleriot_clutter" = "yes"; then
-    # Distro packagers: DO NOT ENABLE AISLERIOT/CLUTTER IN YOUR DISTRO PACKAGES, OR ELSE!
-    AC_MSG_NOTICE([Aisleriot/Clutter is experimental; do not enable this for distribution packages!])
-    need_clutter=yes
-  fi
-fi
-
-AM_CONDITIONAL([ENABLE_AISLERIOT_CLUTTER],[test "$enable_aisleriot_clutter" = "yes"])
-
-case "$with_platform" in
-  gnome|gtk-only) ;;
-  hildon) if test "$need_clutter" = "yes"; then
-            AC_MSG_ERROR([Clutter is not supported on hildon; disable Gnometris, Lights Off and Aisleriot/Clutter])
-          fi
-          ;;
-esac
-
-# ******************
-# Card theme formats
-# ******************
-
-AC_MSG_CHECKING([for requested card theme formats])
-AC_ARG_WITH([card-theme-formats],
-  [AS_HELP_STRING([--with-card-theme-formats],[which card theme formats to support (svg,fixed,kde,pysol|default|all)])],
-  [],[with_card_theme_formats=default])
-
-case "$with_card_theme_formats" in
-  default) case "$with_platform" in
-             gnome|gtk-only) with_card_theme_formats="svg" ;;
-             hildon) with_card_theme_formats="fixed" ;;
-           esac
-           ;;
-  all) with_card_theme_formats="svg,kde,fixed,sliced,pysol" ;;
-esac
-
-enable_card_theme_format_svg=no
-enable_card_theme_format_kde=no
-enable_card_theme_format_fixed=no
-enable_card_theme_format_sliced=no
-enable_card_theme_format_pysol=no
-
-IFS="${IFS=	}"; gg_saved_ifs="$IFS"; IFS=","
-for format in $with_card_theme_formats; do
-  case "$format" in
-    svg) enable_card_theme_format_svg=yes ;;
-    kde) enable_card_theme_format_kde=yes ;;
-    fixed) enable_card_theme_format_fixed=yes ;;
-    sliced) enable_card_theme_format_svg=yes ;;
-    pysol) enable_card_theme_format_pysol=yes ;;
-    *) IFS="$gg_saved_ifs" AC_MSG_ERROR([unknown card theme format $format requested]) ;;
-  esac
-done
-IFS="$gg_saved_ifs"
-
-AC_MSG_RESULT([$with_card_theme_formats])
-
-if test "$enable_card_theme_format_svg" = "yes"; then
-  AC_DEFINE([ENABLE_CARD_THEME_FORMAT_SVG],[1],[Define to enable SVG card theme format support])
-  need_rsvg=yes
-fi
-if test "$enable_card_theme_format_kde" = "yes"; then
-  AC_DEFINE([ENABLE_CARD_THEME_FORMAT_KDE],[1],[Define to enable KDE card theme format support])
-  require_cairo_1_10=yes
-  need_rsvg=yes
-fi
-if test "$enable_card_theme_format_fixed" = "yes"; then
-  AC_DEFINE([ENABLE_CARD_THEME_FORMAT_FIXED],[1],[Define to enable prerendered card theme format support])
-fi
-if test "$enable_card_theme_format_sliced" = "yes"; then
-  AC_DEFINE([ENABLE_CARD_THEME_FORMAT_SLICED],[1],[Define to enable pre-2.19 card theme format support])
-fi
-if test "$enable_card_theme_format_pysol" = "yes"; then
-  AC_DEFINE([ENABLE_CARD_THEME_FORMAT_PYSOL],[1],[Define to enable PySol card theme format support])
-fi
-
-AM_CONDITIONAL([ENABLE_CARD_THEME_FORMAT_SVG],[test "$enable_card_theme_format_svg" = "yes"])
-AM_CONDITIONAL([ENABLE_CARD_THEME_FORMAT_KDE],[test "$enable_card_theme_format_kde" = "yes"])
-AM_CONDITIONAL([ENABLE_CARD_THEME_FORMAT_FIXED],[test "$enable_card_theme_format_fixed" = "yes"])
-AM_CONDITIONAL([ENABLE_CARD_THEME_FORMAT_SLICED],[test "$enable_card_theme_format_sliced" = "yes"])
-AM_CONDITIONAL([ENABLE_CARD_THEME_FORMAT_PYSOL],[test "$enable_card_theme_format_pysol" = "yes"])
-
-# Card theme paths
-
-if test "$enable_card_theme_format_kde" = "yes"; then
-  AC_MSG_CHECKING([for KDE card themes base path])
-  AC_ARG_WITH([kde-card-theme-path],
-    [AS_HELP_STRING([--with-kde-card-theme-path],[The base path to the KDE card themes])],
-    [],[case $LSB_DISTRIBUTION in
-          *Debian*|*Fedora*|*RedHat*|*SUSE*|*Ubuntu*) with_kde_card_theme_path="/usr/share/kde4/apps/carddecks" ;;
-          *) AC_MSG_ERROR([When enabling the KDE card theme format, you must specify the KDE card themes base path.]) ;;
-        esac])
-  AC_MSG_RESULT([$with_kde_card_theme_path])
-
-  AC_DEFINE_UNQUOTED([KDE_CARD_THEME_PATH],["$with_kde_card_theme_path"],[The base path to the KDE card themes])
-fi
-
-if test "$enable_card_theme_format_pysol" = "yes"; then
-  AC_MSG_CHECKING([for PySol card themes base path])
-  AC_ARG_WITH([pysol-card-theme-path],
-    [AS_HELP_STRING([--with-pysol-card-theme-path],[The base path to the PySol card themes])],
-    [],[case $LSB_DISTRIBUTION in
-          *Debian*|*Ubuntu*) with_pysol_card_theme_path="/usr/share/games/pysol" ;;
-          *Fedora*|*RedHat*) with_pysol_card_theme_path="/usr/share/PySolFC" ;;
-          *SUSE*)            with_pysol_card_theme_path="/usr/share/games/pysol/data" ;;
-          *) AC_MSG_ERROR([When enabling the PySol card theme format, you must specify the PySol card themes base path.]) ;;
-        esac])
-  AC_MSG_RESULT([$with_pysol_card_theme_path])
-
-  AC_DEFINE_UNQUOTED([PYSOL_CARD_THEME_PATH],["$with_pysol_card_theme_path"],[The base path to the PySol card themes])
-fi
-
-# Default card theme
-
-AC_MSG_CHECKING([which card theme to use by default])
-AC_ARG_WITH([default-card-theme],
-  [AS_HELP_STRING([--with-default-card-theme=NAME],[Which card theme to use by default (default: bonded)])],
-  [],[case "$with_platform" in
-        gnome|gtk-only) with_default_card_theme=bonded.svg ;;
-        hildon) with_default_card_theme=paris.card-theme ;;
-      esac])
-AC_MSG_RESULT([$with_default_card_theme])
-
-AC_DEFINE_UNQUOTED([AR_CARD_THEME_DEFAULT],["$with_default_card_theme"],[The default card theme])
-
-AC_MSG_CHECKING([which card theme format to use by default])
-AC_ARG_WITH([default-card-theme-format],
-  [AS_HELP_STRING([--with-default-card-theme-format=NAME],[Which card theme format to use by default (default: platform dependent)])],
-  [],[case "$with_platform" in
-        gnome|gtk-only) with_default_card_theme_format=svg ;;
-        hildon) with_default_card_theme_format=fixed ;;
-      esac])
-AC_MSG_RESULT([$with_default_card_theme_format])
-
-case "$with_default_card_theme_format" in
-  svg|kde|fixed|sliced|pysol) ;;
-  *) AC_MSG_ERROR([card theme format $with_default_card_theme_format unknown])
-esac
-
-AC_DEFINE_UNQUOTED([AR_CARD_THEME_DEFAULT_FORMAT_STRING],["$with_default_card_theme_format"],[The default card theme format type string])
-
-# ******************
-# Extra Debugging UI
-# ******************
-
-AC_MSG_CHECKING([whether extra debugging UI in Aisleriot is requested])
-AC_ARG_ENABLE([debug-ui],
-  [AS_HELP_STRING([--debug-ui],[Enable extra debugging UI in Aisleriot (default: disabled)])],
-  [],[enable_debug_ui=no])
-AC_MSG_RESULT([$enable_debug_ui])
-
-if test "$enable_debug_ui" = "yes"; then
-  AC_DEFINE([ENABLE_DEBUG_UI],[1],[Define extra debugging UI in Aisleriot is enabled])
-fi
-
-AM_CONDITIONAL([ENABLE_DEBUG_UI],[test "$enable_debug_ui" = "yes"])
 
 # ********************
 # Checks for libraries
@@ -594,17 +350,6 @@ AM_CONDITIONAL([ENABLE_DEBUG_UI],[test "$enable_debug_ui" = "yes"])
 PYGTK_REQUIRED=2.14.0
 
 case "$with_gtk" in
-  2.0) if test "$with_platform" = "hildon" -a "$with_platform_variant" = "maemo3"; then
-         GTK_REQUIRED=2.6.0
-       elif test "$require_gtk_2_16" = "yes"; then
-         GTK_REQUIRED=2.16.0
-       else
-         GTK_REQUIRED=2.8.0
-       fi
-       RSVG_REQUIRED=2.14.0
-       LIBCANBERRA_GTK_REQUIRED=0
-       LIBCANBERRA_GTK_PKGS="libcanberra-gtk >= $LIBCANBERRA_GTK_REQUIRED"
-        ;;
   3.0) GTK_REQUIRED=2.91.7
        RSVG_REQUIRED=2.32.0
        LIBCANBERRA_GTK_REQUIRED=0.26
@@ -615,8 +360,6 @@ esac
 GCONF_REQUIRED=2.0
 GIO_REQUIRED=2.25.7
 GSTREAMER_REQUIRED=0.10.11
-HILDON_LIBS_REQUIRED=0.14
-HILDON_1_REQUIRED=1.00
 
 # Check for common modules
 
@@ -660,24 +403,6 @@ if test "$with_platform" = "gnome"; then
   need_gthread=yes
 fi
 
-# Check for Hildon modules
-
-if test "$with_platform" = "hildon"; then
-  if test "$with_platform_variant" = "maemo3"; then
-    PKG_CHECK_MODULES([HILDON],[
-      libosso
-      hildon-libs >= $HILDON_LIBS_REQUIRED])
-  else
-    PKG_CHECK_MODULES([HILDON],[
-      libosso
-      dbus-1
-      hildon-1 >= $HILDON_1_REQUIRED])
-  fi
-
-  AC_SUBST([HILDON_CFLAGS])
-  AC_SUBST([HILDON_LIBS])
-fi
-
 # Check for librsvg
 
 have_rsvg=no
@@ -699,18 +424,8 @@ if test "$need_rsvg" = "yes"; then
   AC_SUBST([RSVG_LIBS])
 
   AC_DEFINE([HAVE_RSVG],[1],[Refine if librsvg is available])
-
-  # This only existed in some pre-gio rsvg versions
-  if test "$with_gtk" = "2.0"; then
-    rsvg_gnomevfs=$($PKG_CONFIG --variable=gnome_vfs_supported librsvg-2.0)
-    if test "$rsvg_gnomevfs" = "yes"; then
-      AC_DEFINE([HAVE_RSVG_GNOMEVFS],[1],[Define if librsvg has gnome-vfs support])
-
-      need_gthread=yes
-    fi
-  fi
 fi
-  
+
 AM_CONDITIONAL([HAVE_RSVG],[test "$have_rsvg" = "yes"])
 
 # Check for SQLite
@@ -776,9 +491,6 @@ if test "$need_clutter" = "yes"; then
   AC_SUBST([CLUTTER_LIBS])
 
   case "$with_gtk" in
-    2.0) CLUTTER_GTK_API_VERSION=0.10
-         CLUTTER_GTK_REQUIRED=0.10.2
-         ;;
     3.0) CLUTTER_GTK_API_VERSION=1.0
          CLUTTER_GTK_REQUIRED=0.91.6
          ;;
@@ -834,7 +546,6 @@ SMCLIENT_PKGS=
 if test "$allow_smclient" = "yes"; then
   AC_MSG_CHECKING([for GDK target])
   case "$with_gtk" in
-    2.0) GDK_TARGET="$($PKG_CONFIG --variable target gdk-$GTK_API_VERSION)" ;;
     3.0) for target in $($PKG_CONFIG --variable targets gdk-$GTK_API_VERSION); do
            GDK_TARGET="$target"
            break
@@ -859,7 +570,6 @@ if test "$allow_smclient" = "yes"; then
                          *) with_smclient=no ;;
                        esac
                        ;;
-       hildon) with_smclient=no ;;
      esac])
   AC_MSG_RESULT([$with_smclient])
 
@@ -953,63 +663,6 @@ IT_PROG_INTLTOOL([0.35.0])
 # ********************
 # Game specific checks
 # ********************
-
-have_guile=no
-have_guile_1_8=no
-if test "$need_guile" = "yes"; then
-  AC_ARG_VAR([GUILE],[path to guile])
-  if test "$ac_cv_env_GUILE_set" != "set"; then
-    AC_PATH_TOOL([GUILE],[guile])
-  fi
-
-  if test -z "$GUILE" ; then
-    AC_MSG_ERROR([guile not found; install guile development headers or use --enable-omitgames=aisleriot])
-  fi
-
-  AC_ARG_VAR([GUILE_CONFIG],[path to guile-config])
-  if test "$ac_cv_env_GUILE_CONFIG_set" != "set"; then
-    AC_PATH_TOOL([GUILE_CONFIG],[guile-config])
-  fi
-  if test -z "$GUILE_CONFIG"; then
-    AC_MSG_ERROR([guile not found; install guile development headers or use --enable-omitgames=aisleriot])
-  fi
-
-  GUILE_CFLAGS=`$GUILE_CONFIG compile`
-  GUILE_LIBS=`$GUILE_CONFIG link`
-  AC_SUBST([GUILE_CFLAGS])
-  AC_SUBST([GUILE_LIBS])
-
-  # Checking for the header file is basically the only way to find
-  # out if the _development_ files are present. guile-config returns
-  # a value regardless of what is actually installed. The problem
-  # with this is if the header ever gets moved to a non-default location.
-  gg_save_CFLAGS="$CFLAGS"
-  CFLAGS="$GUILE_CFLAGS $CFLAGS"
-  AC_CHECK_HEADER([libguile.h],[have_guile=yes],
-    [AC_MSG_ERROR([guile not found; install guile development headers or use --enable-omitgames=aisleriot])])
-  CFLAGS="$gg_save_CFLAGS"
-
-  # On 64-bit machines guile < 1.6.5 causes a crash in aisleriot
-  if uname -m | grep -q 64 > /dev/null; then
-    GUILE_TARGET="1.6.5"
-  else
-    GUILE_TARGET="1.6.0"
-  fi
-  if test `$GUILE -c '(if (string<? (version) (cadr (command-line))) (display "no") (display "yes")) (newline)' $GUILE_TARGET` != yes ; then
-    AC_MSG_ERROR([Your version of guile is too old, please install a recent guile package (>= $GUILE_TARGET)])
-  fi
-
-  have_guile_1_8=$($GUILE -c '(if (string<? (version) (cadr (command-line))) (display "no") (display "yes")) (newline)' 1.8.0)
-
-  if test "$have_guile_1_8" = "yes"; then
-    AC_DEFINE([HAVE_GUILE_1_8],[1],[Define if guile version is 1.8.0 or above])
-  fi
-fi
-
-AM_CONDITIONAL([HAVE_GUILE],[test "$have_guile" = "yes"])
-AM_CONDITIONAL([HAVE_GUILE_1_8],[test "$have_guile_1_8" = "yes"])
-
-# Possibly disable the included gnuchess
 
 if test "$allow_gnuchess" = "yes"; then
   AC_ARG_ENABLE([gnuchess],
@@ -1113,7 +766,6 @@ AC_ARG_WITH([help-method],
   [AS_HELP_STRING([--with-help-method],[which help method to use (ghelp|file|library; default: ghelp)])],
   [],
   [case "$with_platform" in
-     hildon) with_help_method=file ;;
      *) if test "$platform_win32" = "yes"; then
            with_help_method=file
          else
@@ -1252,17 +904,6 @@ gnobots2/help/Makefile
 gnibbles/Makefile
 gnibbles/help/Makefile
 gnibbles/pix/Makefile
-aisleriot/Makefile
-aisleriot/sol.desktop.in
-aisleriot/freecell.desktop.in
-aisleriot/data/Makefile
-aisleriot/icons/Makefile
-aisleriot/icons/gnome/Makefile
-aisleriot/icons/hildon/Makefile
-aisleriot/lib/Makefile
-aisleriot/smclient/Makefile
-aisleriot/rules/Makefile
-aisleriot/help/Makefile
 glchess/Makefile
 glchess/data/Makefile
 glchess/data/pieces/Makefile

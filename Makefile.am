@@ -19,7 +19,6 @@ DISTCHECK_CONFIGURE_FLAGS = \
 EXTRA_DIST = \
 	autogen.sh \
 	COPYING-DOCS \
-	COPYING.GPL3 \
 	MAINTAINERS	\
 	HACKING		 \
 	gnome-doc-utils.make \
