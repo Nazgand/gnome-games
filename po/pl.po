@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-08 15:25+0200\n"
-"PO-Revision-Date: 2011-04-08 15:28+0200\n"
+"POT-Creation-Date: 2011-04-11 19:19+0200\n"
+"PO-Revision-Date: 2011-04-11 19:20+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -1510,11 +1510,12 @@ msgstr ""
 msgid "translator-credits"
 msgstr "Aviary.pl <gnomepl@aviary.pl>, 2007, 2008, 2009, 2010, 2011"
 
-#: ../aisleriot/window.c:467 ../glines/glines.c:1219 ../gnect/src/main.c:875
-#: ../gnibbles/main.c:211 ../gnobots2/menu.c:263
-#: ../quadrapassel/tetris.cpp:1313 ../gnome-sudoku/src/lib/defaults.py.in:45
-#: ../gnomine/gnomine.c:480 ../gnotravex/gnotravex.c:1616
-#: ../gnotski/gnotski.c:1490 ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
+#: ../aisleriot/window.c:467 ../glchess/src/glchess.vala:1348
+#: ../glines/glines.c:1219 ../gnect/src/main.c:875 ../gnibbles/main.c:211
+#: ../gnobots2/menu.c:263 ../quadrapassel/tetris.cpp:1313
+#: ../gnome-sudoku/src/lib/defaults.py.in:45 ../gnomine/gnomine.c:480
+#: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1490
+#: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
 #: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:911
 #: ../swell-foop/src/About.js:19
 msgid "GNOME Games web site"
@@ -2283,7 +2284,7 @@ msgstr "Zanim przejdziesz przez ulicę rozejrzyj się na obie strony"
 #. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
 #: ../aisleriot/rules/clock.scm.h:16
 msgid "Monitors won't give you Vitamin D -- but sunlight will..."
-msgstr "Monitory nie dadzą ci witaminy D - w przeciwieństwie do słońca ..."
+msgstr "Monitory nie dadzą ci witaminy D - w przeciwieństwie do słońca..."
 
 #. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
 #: ../aisleriot/rules/clock.scm.h:18
@@ -3625,9 +3626,70 @@ msgstr "Czarne wygrywają"
 msgid "Game is drawn"
 msgstr "Remis"
 
+#. Message displayed when the game ends due to a player being checkmated
+#: ../glchess/src/glchess.vala:731
+msgid "Opponent is in check and cannot move (checkmate)"
+msgstr "Przeciwnik jest w szachu i nie może się ruszyć (mat)"
+
+#. Message displayed when the game terminates due to a stalemate
+#: ../glchess/src/glchess.vala:735
+msgid "Opponent cannot move (stalemate)"
+msgstr "Przeciwnik nie może się ruszyć (pat)"
+
+#. Message displayed when the game is drawn due to the fifty move rule
+#: ../glchess/src/glchess.vala:739
+msgid "No piece has been taken or pawn moved in the last fifty moves"
+msgstr ""
+"Żadna figura nie została zbita ani żaden pion nie został przesunięty w "
+"ostatnich pięćdziesięciu ruchach"
+
+#. Message displayed when the game ends due to one player's clock stopping
+#: ../glchess/src/glchess.vala:743
+msgid "Opponent has run out of time"
+msgstr "Przeciwnikowi zabrakło czasu"
+
+#. Message displayed when the game is drawn due to the three-fold-repitition rule
+#: ../glchess/src/glchess.vala:747
+msgid "The same board state has occurred three times (three fold repetition)"
+msgstr ""
+"Ten sam stan szachownicy wystąpił trzy razy (zasada trzykrotnego powtórzenia)"
+
+#. Message displayed when the game is drawn due to the insufficient material rule
+#: ../glchess/src/glchess.vala:751
+msgid "Neither player can cause checkmate (insufficient material)"
+msgstr "Żaden z graczy nie może spowodować mata (niewystarczające materiały)"
+
+#. Message displayed when the game ends due to the black player resigning
+#: ../glchess/src/glchess.vala:757
+msgid "The black player has resigned"
+msgstr "Czarny gracz zrezygnował"
+
+#. Message displayed when the game ends due to the white player resigning
+#: ../glchess/src/glchess.vala:762
+msgid "The white player has resigned"
+msgstr "Biały gracz zrezygnował"
+
+#. Message displayed when a game is abandoned
+#: ../glchess/src/glchess.vala:767
+msgid "The game has been abandoned"
+msgstr "Gra została porzucona"
+
+#. Message displayed when the game ends due to a player dying
+#: ../glchess/src/glchess.vala:772
+msgid "One of the players has died"
+msgstr "Jeden z graczy zginął"
+
 #: ../glchess/src/glchess.vala:820
 msgid "Save this game before starting a new one?"
 msgstr "Zapisać bieżącą grę przed rozpoczęciem nowej?"
+
+#: ../glchess/src/glchess.vala:822 ../gnome-sudoku/src/lib/main.py:442
+msgid "_Abandon game"
+msgstr "P_orzuć grę"
+
+#: ../glchess/src/glchess.vala:823 ../gnome-sudoku/src/lib/main.py:441
+msgid "_Save game for later"
+msgstr "_Zapisz grę"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in seconds
 #: ../glchess/src/glchess.vala:1214
@@ -3653,27 +3715,47 @@ msgstr[0] "godzina"
 msgstr[1] "godziny"
 msgstr[2] "godzin"
 
+#: ../glchess/src/glchess.vala:1343
+msgid ""
+"The 2D/3D chess game for GNOME. \n"
+"\n"
+"glChess is a part of GNOME Games."
+msgstr ""
+"Szachy w 2D/3D dla środowiska GNOME.\n"
+"\n"
+"Gra glChess jest częścią gier GNOME."
+
 #. Title of save game dialog
-#: ../glchess/src/glchess.vala:1414
+#: ../glchess/src/glchess.vala:1402
 msgid "Save Chess Game"
 msgstr "Zapis gry"
 
 #. Save Game Dialog: Name of filter to show only PGN files
 #. Load Game Dialog: Name of filter to show only PGN files
-#: ../glchess/src/glchess.vala:1427 ../glchess/src/glchess.vala:1495
+#: ../glchess/src/glchess.vala:1415 ../glchess/src/glchess.vala:1483
 msgid "PGN files"
 msgstr "Pliki PGN"
 
 #. Save Game Dialog: Name of filter to show all files
 #. Load Game Dialog: Name of filter to show all files
-#: ../glchess/src/glchess.vala:1434 ../glchess/src/glchess.vala:1502
+#: ../glchess/src/glchess.vala:1422 ../glchess/src/glchess.vala:1490
 msgid "All files"
 msgstr "Wszystkie pliki"
 
+#: ../glchess/src/glchess.vala:1446
+#, c-format
+msgid "Failed to save game: %s"
+msgstr "Zapisanie gry się nie powiodło: %s"
+
 #. Title of load game dialog
-#: ../glchess/src/glchess.vala:1482
+#: ../glchess/src/glchess.vala:1470
 msgid "Load Chess Game"
 msgstr "Wczytanie gry"
+
+#: ../glchess/src/glchess.vala:1512
+#, c-format
+msgid "Failed to open game: %s"
+msgstr "Otwarcie gry się nie powiodło: %s"
 
 #: ../glines/glines.c:90 ../gnomine/gnomine.c:101
 msgctxt "board size"
@@ -4338,7 +4420,7 @@ msgid ""
 "\n"
 "Nibbles is a part of GNOME Games."
 msgstr ""
-"Gra w robaki dla GNOME.\n"
+"Gra w robaki dla środowiska GNOME.\n"
 "\n"
 "Gra Robaki jest częścią gier GNOME."
 
@@ -5579,14 +5661,6 @@ msgstr[2] "Wskazano na %(n)s niemożliwości."
 msgid "Save this game before starting new one?"
 msgstr "Zapisać bieżącą grę przed rozpoczęciem nowej?"
 
-#: ../gnome-sudoku/src/lib/main.py:441
-msgid "_Save game for later"
-msgstr "_Zapisz grę"
-
-#: ../gnome-sudoku/src/lib/main.py:442
-msgid "_Abandon game"
-msgstr "P_orzuć grę"
-
 #: ../gnome-sudoku/src/lib/main.py:460
 msgid "Save game before closing?"
 msgstr "Zapisać grę przed zamknięciem?"
@@ -6426,7 +6500,7 @@ msgid ""
 "\n"
 "Klotski is a part of GNOME Games."
 msgstr ""
-"Przesuwana układanka\n"
+"Przesuwana układanka.\n"
 "\n"
 "Gra Klocki jest częścią gier GNOME."
 
@@ -7213,7 +7287,7 @@ msgid ""
 "\n"
 "Lights Off is a part of GNOME Games."
 msgstr ""
-"Wyłączanie wszystkich świateł\n"
+"Wyłączanie wszystkich świateł.\n"
 "\n"
 "Gra Lights Off jest częścią gier GNOME."
 
