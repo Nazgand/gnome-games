@@ -107,7 +107,7 @@ window_state_event_cb (GtkWidget *widget,
   return FALSE;
 }
 
-#if 0 //#ifndef HAVE_HILDON
+#if 0
 
 #define ACCELMAP_EXT "accels"
 
@@ -190,7 +190,7 @@ games_conf_save_accel_map (GamesConf *conf)
   g_free (conf_file);
 }
 
-#endif /* !HAVE_HILDON */
+#endif /* 0 */
 
 typedef struct {
   guint keyval;
