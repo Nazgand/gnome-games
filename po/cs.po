@@ -22,9 +22,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"games&component=general\n"
-"POT-Creation-Date: 2011-03-10 13:57+0000\n"
-"PO-Revision-Date: 2011-03-16 01:02+0100\n"
+"games&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-04-11 14:09+0000\n"
+"PO-Revision-Date: 2011-04-11 23:26+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -32,2724 +32,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-
-#: ../aisleriot/aisleriot.schemas.in.h:1
-msgid "A list of recently played games."
-msgstr "Seznam naposledy hraných her."
-
-#: ../aisleriot/aisleriot.schemas.in.h:2
-msgid ""
-"A list of strings that come in the form of a quintuple: name, wins, total "
-"games played, best time (in seconds) and worst time (also in seconds). "
-"Unplayed games do not need to be represented."
-msgstr ""
-"Seznam řetězců ve tvaru pětic: název, výher, celkem hraných her, nejlepší "
-"čas (v sekundách) a nejhorší čas (také v sekundách). Nehrané hry nemusí být "
-"reprezentovány."
-
-#: ../aisleriot/aisleriot.schemas.in.h:3
-msgid "Animations"
-msgstr "Animace"
-
-#: ../aisleriot/aisleriot.schemas.in.h:4
-msgid "Recently played games"
-msgstr "Naposledy hrané hry"
-
-#: ../aisleriot/aisleriot.schemas.in.h:5 ../gnotravex/gnotravex.schemas.in.h:1
-msgid "Select the style of control"
-msgstr "Zvolte styl ovládání"
-
-#: ../aisleriot/aisleriot.schemas.in.h:6
-msgid ""
-"Select whether to drag the cards or to click on the source then the "
-"destination."
-msgstr "Zvolte, jestli karty přetahovat nebo kliknout na zdroj a pak na cíl."
-
-#: ../aisleriot/aisleriot.schemas.in.h:7 ../gnect/data/gnect.schemas.in.h:11
-#: ../gnobots2/properties.c:483 ../iagno/iagno.schemas.in.h:1
-msgid "Sound"
-msgstr "Zvuk"
-
-#: ../aisleriot/aisleriot.schemas.in.h:8
-msgid "Statistics of games played"
-msgstr "Statistiky odehraných her"
-
-#: ../aisleriot/aisleriot.schemas.in.h:9
-msgid "The game file to use"
-msgstr "Soubor hry, který se má používat"
-
-#: ../aisleriot/aisleriot.schemas.in.h:10
-msgid "The name of the file with the graphics for the cards."
-msgstr "Název souboru s grafikou karet."
-
-#: ../aisleriot/aisleriot.schemas.in.h:11
-msgid "The name of the scheme file containing the solitaire game to play."
-msgstr "Název souboru schématu obsahujícího hru solitér, která se má hrát."
-
-#: ../aisleriot/aisleriot.schemas.in.h:12
-msgid "Theme file name"
-msgstr "Název souboru motivu"
-
-#: ../aisleriot/aisleriot.schemas.in.h:13
-msgid "Whether or not to animate card moves."
-msgstr "Zda animovat nebo neanimovat pohyby karet."
-
-#: ../aisleriot/aisleriot.schemas.in.h:14 ../gnect/data/gnect.schemas.in.h:13
-#: ../iagno/iagno.schemas.in.h:2
-msgid "Whether or not to play event sounds."
-msgstr "Zda přehrávat nebo nepřehrávat zvuky k událostem."
-
-#: ../aisleriot/aisleriot.schemas.in.h:15
-msgid "Whether or not to show the status bar"
-msgstr "Zda zobrazovat nebo nezobrazovat stavovou lištu"
-
-#: ../aisleriot/aisleriot.schemas.in.h:16
-msgid "Whether or not to show the toolbar"
-msgstr "Zda zobrazovat nebo nezobrazovat lištu nástrojů"
-
-#. Now construct the window contents
-#: ../aisleriot/ar-game-chooser.c:238 ../aisleriot/window.c:2560
-msgid "Select Game"
-msgstr "Vybrat hru"
-
-#: ../aisleriot/ar-game-chooser.c:256
-msgid "_Select"
-msgstr "_Vybrat"
-
-#: ../aisleriot/freecell.desktop.in.in.h:1 ../aisleriot/sol.c:323
-#: ../aisleriot/window.c:455 ../aisleriot/window.c:463
-msgid "FreeCell Solitaire"
-msgstr "Solitér FreeCell"
-
-#: ../aisleriot/freecell.desktop.in.in.h:2
-msgid "Play the popular FreeCell card game"
-msgstr "Hrát populární karetní hru FreeCell"
-
-#: ../aisleriot/game.c:1165
-#, c-format
-msgid ""
-"Aisleriot cannot load the file “%s”. Please check your Aisleriot "
-"installation."
-msgstr ""
-"Hra AisleRiot nemůže načíst soubor: „%s“. Zkontrolujte prosím nastavení této "
-"hry."
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1416
-msgctxt "slot type"
-msgid "foundation"
-msgstr "seřadiště"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1420
-msgctxt "slot type"
-msgid "reserve"
-msgstr "odložené"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1424
-msgctxt "slot type"
-msgid "stock"
-msgstr "hromádka"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1428
-msgctxt "slot type"
-msgid "tableau"
-msgstr "rozdané"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1432
-msgctxt "slot type"
-msgid "waste"
-msgstr "otočené"
-
-#. Translators: %s is the name of the card; "foundation" is the name of a type of card slot
-#: ../aisleriot/game.c:1464
-#, c-format
-msgctxt "slot hint"
-msgid "%s on foundation"
-msgstr "%s na seřadišti"
-
-#. Translators: %s is the name of the card; "reserve" is the name of a type of card slot
-#: ../aisleriot/game.c:1468
-#, c-format
-msgctxt "slot hint"
-msgid "%s on reserve"
-msgstr "%s na odložených"
-
-#. Translators: %s is the name of the card; "stock" is the name of a type of card slot
-#: ../aisleriot/game.c:1472
-#, c-format
-msgctxt "slot hint"
-msgid "%s on stock"
-msgstr "%s na hromádce"
-
-#. Translators: %s is the name of the card; "tableau" is the name of a type of card slot
-#: ../aisleriot/game.c:1476
-#, c-format
-msgctxt "slot hint"
-msgid "%s on tableau"
-msgstr "%s na rozdaných"
-
-#. Translators: %s is the name of the card; "waste" is the name of a type of card slot
-#: ../aisleriot/game.c:1480
-#, c-format
-msgctxt "slot hint"
-msgid "%s on waste"
-msgstr "%s na otočených"
-
-#: ../aisleriot/game.c:1721
-msgid "Aisleriot cannot find the last game you played."
-msgstr "Hra AisleRiot nemůže najít poslední hru, kterou jste hráli."
-
-#: ../aisleriot/game.c:1722
-msgid ""
-"This usually occurs when you run an older version of Aisleriot which does "
-"not have the game you last played. The default game, Klondike, is being "
-"started instead."
-msgstr ""
-"To se obvykle stává, když spustíte starší verzi Aisleriot, která nemá hru, "
-"kterou jste naposledy hráli. Místo ní se spouští výchozí hra Klondike."
-
-#: ../aisleriot/game.c:2080
-msgid "This game does not have hint support yet."
-msgstr "Tato hra zatím nepodporuje rady."
-
-#. Both %s are card names
-#. The first %s is a card name, the 2nd %s a sentence fragment.
-#. * Yes, we know this is bad for i18n.
-#.
-#: ../aisleriot/game.c:2114 ../aisleriot/game.c:2142
-#, c-format
-msgid "Move %s onto %s."
-msgstr "Přesunout %s na %s."
-
-#: ../aisleriot/game.c:2164
-#, c-format
-msgid "You are searching for a %s."
-msgstr "Hledáte %s."
-
-#: ../aisleriot/game.c:2169
-msgid "This game is unable to provide a hint."
-msgstr "Tato hra nemůže poskytnout radu."
-
-#. This is a generated file; DO NOT EDIT
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:7
-msgid "Peek"
-msgstr "Vrcholek"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:14
-msgid "Auld Lang Syne"
-msgstr "Auld Lang Syne"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:21
-msgid "Fortunes"
-msgstr "Štěstí"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:28
-msgid "Seahaven"
-msgstr "Přístav na moři"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:35
-msgid "King Albert"
-msgstr "Král Albert"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:42
-msgid "First Law"
-msgstr "První zákon"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:49
-msgid "Straight Up"
-msgstr "Přímo nahoru"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:56
-msgid "Jumbo"
-msgstr "Jumbo"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:63
-msgid "Accordion"
-msgstr "Harmonika"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:70
-msgid "Ten Across"
-msgstr "Deset křížem"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:77
-msgid "Plait"
-msgstr "Cop"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:84
-msgid "Lady Jane"
-msgstr "Lady Jane"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:91
-msgid "Gypsy"
-msgstr "Cikán"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:98
-msgid "Neighbor"
-msgstr "Soused"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:105
-msgid "Jamestown"
-msgstr "Jamestown"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:112
-msgid "Osmosis"
-msgstr "Osmóza"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:119
-msgid "Kings Audience"
-msgstr "Audience králů"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:126
-msgid "Glenwood"
-msgstr "Glenwood"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:133
-msgid "Gay Gordons"
-msgstr "Veselé Gordony"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:140
-msgid "Monte Carlo"
-msgstr "Monte Carlo"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:147
-msgid "Kansas"
-msgstr "Kansas"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:154
-msgid "Camelot"
-msgstr "Kamelot"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:161
-msgid "Fourteen"
-msgstr "Čtrnáct"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:168
-msgid "Scorpion"
-msgstr "Škorpión"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:175
-msgid "Isabel"
-msgstr "Izabela"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:182
-msgid "Escalator"
-msgstr "Eskalátor"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:189
-msgid "Agnes"
-msgstr "Agnes"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:196
-msgid "Bristol"
-msgstr "Bristol"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:203
-msgid "Quatorze"
-msgstr "Quatorze"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:210
-msgid "Bear River"
-msgstr "Medvědí řeka"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:217
-msgid "Gold Mine"
-msgstr "Zlatý důl"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:224
-msgid "Athena"
-msgstr "Atény"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:231
-msgid "Spiderette"
-msgstr "Pavouček"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:238
-msgid "Chessboard"
-msgstr "Šachovnice"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:245
-msgid "Backbone"
-msgstr "Páteř"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:252
-msgid "Yukon"
-msgstr "Yukon"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:259
-msgid "Union Square"
-msgstr "Union square"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:266
-msgid "Eight Off"
-msgstr "Osm pryč"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:273
-msgid "Napoleons Tomb"
-msgstr "Napoleonova hrobka"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:280
-msgid "Forty Thieves"
-msgstr "Čtyřicet loupežníků"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:287
-msgid "Streets And Alleys"
-msgstr "Ulice a aleje"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:294
-msgid "Maze"
-msgstr "Bludiště"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:301
-msgid "Clock"
-msgstr "Hodiny"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:308
-msgid "Pileon"
-msgstr "Pileon"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:315
-msgid "Canfield"
-msgstr "Canfield"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:322
-msgid "Thirteen"
-msgstr "Třináct"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:329
-msgid "Bakers Game"
-msgstr "Pekařova hra"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:336
-msgid "Triple Peaks"
-msgstr "Trojité vrcholy"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:343
-msgid "Easthaven"
-msgstr "Východní přístav"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/game-names.h:350 ../aisleriot/rules/terrace.scm.h:20
-msgid "Terrace"
-msgstr "Terasa"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:357
-msgid "Aunt Mary"
-msgstr "Teta Mary"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:364
-msgid "Carpet"
-msgstr "Koberec"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:371
-msgid "Sir Tommy"
-msgstr "Sir Tommy"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:378
-msgid "Diamond Mine"
-msgstr "Diamantový důl"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:385
-msgid "Yield"
-msgstr "Úroda"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:392
-msgid "Labyrinth"
-msgstr "Labyrint"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:399
-msgid "Thieves"
-msgstr "Zloději"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:406
-msgid "Saratoga"
-msgstr "Saratoga"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:413
-msgid "Cruel"
-msgstr "Kruté"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:420
-msgid "Block Ten"
-msgstr "Blok desíti"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:427
-msgid "Will O The Wisp"
-msgstr "Bludička"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:434
-msgid "Odessa"
-msgstr "Odessa"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:441
-msgid "Eagle Wing"
-msgstr "Orlí křídlo"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:448
-msgid "Treize"
-msgstr "Treize"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:455
-msgid "Zebra"
-msgstr "Zebra"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:462
-msgid "Cover"
-msgstr "Kryt"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:469
-msgid "Elevator"
-msgstr "Výtah"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:476
-msgid "Fortress"
-msgstr "Pevnost"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:483
-msgid "Giant"
-msgstr "Obr"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:490
-msgid "Spider"
-msgstr "Pavouk"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:497
-msgid "Gaps"
-msgstr "Mezery"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:504
-msgid "Bakers Dozen"
-msgstr "Pekařova dvanáctka"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:511
-msgid "Whitehead"
-msgstr "Mazánek"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:518
-msgid "Freecell"
-msgstr "FreeCell"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:525
-msgid "Helsinki"
-msgstr "Helsinky"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:532
-msgid "Spider Three Decks"
-msgstr "Spider Three Decks"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:539
-msgid "Scuffle"
-msgstr "Rvačka"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:546
-msgid "Poker"
-msgstr "Poker"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:553
-msgid "Klondike Three Decks"
-msgstr "Tříbalíčkový Klondike"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:560
-msgid "Valentine"
-msgstr "Valentýna"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:567
-msgid "Royal East"
-msgstr "Královský východ"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:574
-msgid "Thumb And Pouch"
-msgstr "Palec a pytlík"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:581
-msgid "Klondike"
-msgstr "Klondike"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:588
-msgid "Doublets"
-msgstr "Dvojice"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:595
-msgid "Template"
-msgstr "Šablona"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:602
-msgid "Golf"
-msgstr "Golf"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:609
-msgid "Westhaven"
-msgstr "Západní přístav"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:616
-msgid "Beleaguered Castle"
-msgstr "Obležený hrad"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:623
-msgid "Hopscotch"
-msgstr "Skákací panák"
-
-#. String reserve
-#: ../aisleriot/sol.c:69
-msgid "Solitaire"
-msgstr "Solitér"
-
-#: ../aisleriot/sol.c:70
-msgid "GNOME Solitaire"
-msgstr "Solitér GNOME"
-
-#: ../aisleriot/sol.c:71
-msgid "About Solitaire"
-msgstr "O hře Solitér"
-
-#: ../aisleriot/sol.c:210
-msgid "Select the game type to play"
-msgstr "Vybrat typ hry, která se má hrát"
-
-#: ../aisleriot/sol.c:210 ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
-msgid "NAME"
-msgstr "NÁZEV"
-
-#: ../aisleriot/sol.c:212
-msgid "Select the game number"
-msgstr "Vybrat číslo hry"
-
-#: ../aisleriot/sol.c:212 ../gnomine/gnomine.c:929 ../gtali/gyahtzee.c:107
-#: ../gtali/gyahtzee.c:109 ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
-msgid "NUMBER"
-msgstr "ČÍSLO"
-
-#: ../aisleriot/sol.c:323 ../aisleriot/window.c:464 ../aisleriot/window.c:2024
-msgid "AisleRiot"
-msgstr "AisleRiot"
-
-#: ../aisleriot/sol.desktop.in.in.h:1
-msgid "AisleRiot Solitaire"
-msgstr "Solitér AisleRiot"
-
-#
-#: ../aisleriot/sol.desktop.in.in.h:2
-msgid "Play many different solitaire games"
-msgstr "Zahrát si mnoho různých her typu solitér"
-
-#: ../aisleriot/sol.scm.h:1
-msgid "Unknown color"
-msgstr "Neznámá barva"
-
-#: ../aisleriot/sol.scm.h:2
-msgid "Unknown suit"
-msgstr "Neznámá barva"
-
-#: ../aisleriot/sol.scm.h:3
-msgid "Unknown value"
-msgstr "Neznámá hodnota"
-
-#: ../aisleriot/sol.scm.h:4
-msgid "ace"
-msgstr "eso"
-
-#. A black joker.
-#: ../aisleriot/sol.scm.h:5 ../aisleriot/lib/ar-card.c:331
-msgid "black joker"
-msgstr "černý žolík"
-
-#: ../aisleriot/sol.scm.h:6
-msgid "clubs"
-msgstr "kříže"
-
-#: ../aisleriot/sol.scm.h:7
-msgid "diamonds"
-msgstr "káry"
-
-#: ../aisleriot/sol.scm.h:8
-msgid "eight"
-msgstr "osmička"
-
-#: ../aisleriot/sol.scm.h:9
-msgid "five"
-msgstr "pětka"
-
-#: ../aisleriot/sol.scm.h:10
-msgid "four"
-msgstr "čtyřka"
-
-#: ../aisleriot/sol.scm.h:11
-msgid "hearts"
-msgstr "srdce"
-
-#: ../aisleriot/sol.scm.h:12
-msgid "jack"
-msgstr "spodek"
-
-#: ../aisleriot/sol.scm.h:13
-msgid "king"
-msgstr "král"
-
-#: ../aisleriot/sol.scm.h:14
-msgid "nine"
-msgstr "devítka"
-
-#: ../aisleriot/sol.scm.h:15
-msgid "queen"
-msgstr "dáma"
-
-#. A red joker.
-#: ../aisleriot/sol.scm.h:16 ../aisleriot/lib/ar-card.c:334
-msgid "red joker"
-msgstr "červený žolík"
-
-#: ../aisleriot/sol.scm.h:17
-msgid "seven"
-msgstr "sedmička"
-
-#: ../aisleriot/sol.scm.h:18
-msgid "six"
-msgstr "šestka"
-
-#: ../aisleriot/sol.scm.h:19
-msgid "spades"
-msgstr "piky"
-
-#: ../aisleriot/sol.scm.h:20
-msgid "ten"
-msgstr "desítka"
-
-#: ../aisleriot/sol.scm.h:21
-msgid "the ace of clubs"
-msgstr "křížové eso"
-
-#: ../aisleriot/sol.scm.h:22
-msgid "the ace of diamonds"
-msgstr "kárové eso"
-
-#: ../aisleriot/sol.scm.h:23
-msgid "the ace of hearts"
-msgstr "srdcové eso"
-
-#: ../aisleriot/sol.scm.h:24
-msgid "the ace of spades"
-msgstr "pikové eso"
-
-#: ../aisleriot/sol.scm.h:25
-msgid "the eight of clubs"
-msgstr "křížová osmička"
-
-#: ../aisleriot/sol.scm.h:26
-msgid "the eight of diamonds"
-msgstr "kárová osmička"
-
-#: ../aisleriot/sol.scm.h:27
-msgid "the eight of hearts"
-msgstr "srdcová osmička"
-
-#: ../aisleriot/sol.scm.h:28
-msgid "the eight of spades"
-msgstr "piková osmička"
-
-#: ../aisleriot/sol.scm.h:29
-msgid "the five of clubs"
-msgstr "křížová pětka"
-
-#: ../aisleriot/sol.scm.h:30
-msgid "the five of diamonds"
-msgstr "kárová pětka"
-
-#: ../aisleriot/sol.scm.h:31
-msgid "the five of hearts"
-msgstr "srdcová pětka"
-
-#: ../aisleriot/sol.scm.h:32
-msgid "the five of spades"
-msgstr "piková pětka"
-
-#: ../aisleriot/sol.scm.h:33
-msgid "the four of clubs"
-msgstr "křížová čtyřka"
-
-#: ../aisleriot/sol.scm.h:34
-msgid "the four of diamonds"
-msgstr "kárová čtyřka"
-
-#: ../aisleriot/sol.scm.h:35
-msgid "the four of hearts"
-msgstr "srdcová čtyřka"
-
-#: ../aisleriot/sol.scm.h:36
-msgid "the four of spades"
-msgstr "piková čtyřka"
-
-#: ../aisleriot/sol.scm.h:37
-msgid "the jack of clubs"
-msgstr "křížový spodek"
-
-#: ../aisleriot/sol.scm.h:38
-msgid "the jack of diamonds"
-msgstr "kárový spodek"
-
-#: ../aisleriot/sol.scm.h:39
-msgid "the jack of hearts"
-msgstr "srdcový spodek"
-
-#: ../aisleriot/sol.scm.h:40
-msgid "the jack of spades"
-msgstr "pikový spodek"
-
-#: ../aisleriot/sol.scm.h:41
-msgid "the king of clubs"
-msgstr "křížový král"
-
-#: ../aisleriot/sol.scm.h:42
-msgid "the king of diamonds"
-msgstr "kárový král"
-
-#: ../aisleriot/sol.scm.h:43
-msgid "the king of hearts"
-msgstr "srdcový král"
-
-#: ../aisleriot/sol.scm.h:44
-msgid "the king of spades"
-msgstr "pikový král"
-
-#: ../aisleriot/sol.scm.h:45
-msgid "the nine of clubs"
-msgstr "křížová devítka"
-
-#: ../aisleriot/sol.scm.h:46
-msgid "the nine of diamonds"
-msgstr "kárová devítka"
-
-#: ../aisleriot/sol.scm.h:47
-msgid "the nine of hearts"
-msgstr "srdcová devítka"
-
-#: ../aisleriot/sol.scm.h:48
-msgid "the nine of spades"
-msgstr "piková devítka"
-
-#: ../aisleriot/sol.scm.h:49
-msgid "the queen of clubs"
-msgstr "křížová dáma"
-
-#: ../aisleriot/sol.scm.h:50
-msgid "the queen of diamonds"
-msgstr "kárová dáma"
-
-#: ../aisleriot/sol.scm.h:51
-msgid "the queen of hearts"
-msgstr "srdcová dáma"
-
-#: ../aisleriot/sol.scm.h:52
-msgid "the queen of spades"
-msgstr "piková dáma"
-
-#: ../aisleriot/sol.scm.h:53
-msgid "the seven of clubs"
-msgstr "křížová sedmička"
-
-#: ../aisleriot/sol.scm.h:54
-msgid "the seven of diamonds"
-msgstr "kárová sedmička"
-
-#: ../aisleriot/sol.scm.h:55
-msgid "the seven of hearts"
-msgstr "srdcová sedmička"
-
-#: ../aisleriot/sol.scm.h:56
-msgid "the seven of spades"
-msgstr "piková sedmička"
-
-#: ../aisleriot/sol.scm.h:57
-msgid "the six of clubs"
-msgstr "křížová šestka"
-
-#: ../aisleriot/sol.scm.h:58
-msgid "the six of diamonds"
-msgstr "kárová šestka"
-
-#: ../aisleriot/sol.scm.h:59
-msgid "the six of hearts"
-msgstr "srdcová šestka"
-
-#: ../aisleriot/sol.scm.h:60
-msgid "the six of spades"
-msgstr "piková šestka"
-
-#: ../aisleriot/sol.scm.h:61
-msgid "the ten of clubs"
-msgstr "křížová desítka"
-
-#: ../aisleriot/sol.scm.h:62
-msgid "the ten of diamonds"
-msgstr "kárová desítka"
-
-#: ../aisleriot/sol.scm.h:63
-msgid "the ten of hearts"
-msgstr "srdcová desítka"
-
-#: ../aisleriot/sol.scm.h:64
-msgid "the ten of spades"
-msgstr "piková desítka"
-
-#: ../aisleriot/sol.scm.h:65
-msgid "the three of clubs"
-msgstr "křížová trojka"
-
-#: ../aisleriot/sol.scm.h:66
-msgid "the three of diamonds"
-msgstr "kárová trojka"
-
-#: ../aisleriot/sol.scm.h:67
-msgid "the three of hearts"
-msgstr "srdcová trojka"
-
-#: ../aisleriot/sol.scm.h:68
-msgid "the three of spades"
-msgstr "piková trojka"
-
-#: ../aisleriot/sol.scm.h:69
-msgid "the two of clubs"
-msgstr "křížová dvojka"
-
-#: ../aisleriot/sol.scm.h:70
-msgid "the two of diamonds"
-msgstr "kárová dvojka"
-
-#: ../aisleriot/sol.scm.h:71
-msgid "the two of hearts"
-msgstr "srdcová dvojka"
-
-#: ../aisleriot/sol.scm.h:72
-msgid "the two of spades"
-msgstr "piková dvojka"
-
-#: ../aisleriot/sol.scm.h:73
-msgid "the unknown card"
-msgstr "neznámá karta"
-
-#: ../aisleriot/sol.scm.h:74
-msgid "three"
-msgstr "trojka"
-
-#: ../aisleriot/sol.scm.h:75
-msgid "two"
-msgstr "dvojka"
-
-#. Translators: this is the total number of won games
-#: ../aisleriot/stats-dialog.c:155
-msgid "Wins:"
-msgstr "Výhry:"
-
-#. Translators: this is the number of games played
-#: ../aisleriot/stats-dialog.c:157
-msgid "Total:"
-msgstr "Celkem:"
-
-#. Translators: this is the percentage of games won out of all games played
-#: ../aisleriot/stats-dialog.c:159
-msgid "Percentage:"
-msgstr "Procenta:"
-
-#. Translators: this is the section title of a section which contains the n
-#. * number of games played, number of games won, and the ratio of these 2 numbers.
-#.
-#: ../aisleriot/stats-dialog.c:163
-msgid "Wins"
-msgstr "Hry"
-
-#. Translators: this is the best time of all wins
-#: ../aisleriot/stats-dialog.c:170
-msgid "Best:"
-msgstr "Nejlepší:"
-
-#. Translators: this is the worst time of all wins
-#: ../aisleriot/stats-dialog.c:172
-msgid "Worst:"
-msgstr "Nejhorší:"
-
-#. Translators: this is the section title of a section containing the
-#. * best and worst time taken to win a game.
-#.
-#: ../aisleriot/stats-dialog.c:176
-#: ../libgames-support/games-scores-dialog.c:136
-msgid "Time"
-msgstr "Čas"
-
-#: ../aisleriot/stats-dialog.c:208
-msgid "Statistics"
-msgstr "Statistiky"
-
-#. Translators: Translate this to "%Id" if you want to use localised digits,
-#. * and to "%d" otherwise. Do not translate it to anything else!
-#.
-#: ../aisleriot/stats-dialog.c:222 ../aisleriot/stats-dialog.c:228
-#, c-format
-msgid "%d"
-msgstr "%d"
-
-#. Translators: Translate the "%d" in this string this to "%Id" if you
-#. * want to use localised digits, and to "%d" otherwise.
-#. * Do not translate the "%d" part to anything else!
-#. * You may translate the "%%" part to use any other percent character(s)
-#. * instead, or leave it as "%%". If you chose a character other than
-#. * "%" (U+0025 PERCENT SIGN) you do NOT need to escape it with another "%"!
-#.
-#: ../aisleriot/stats-dialog.c:239
-#, c-format
-msgid "%d%%"
-msgstr "%d%%"
-
-#. For translators: N/A means "Not Applicable", use whatever
-#. * abbreviation you have for a value that has no meaning.
-#: ../aisleriot/stats-dialog.c:245 ../aisleriot/stats-dialog.c:254
-#: ../aisleriot/stats-dialog.c:262
-msgid "N/A"
-msgstr "Neurčeno"
-
-#. Translators: this represents minutes:seconds.
-#: ../aisleriot/stats-dialog.c:249 ../aisleriot/stats-dialog.c:257
-#, c-format
-msgid "%d:%02d"
-msgstr "%d:%02d"
-
-#: ../aisleriot/util.c:86 ../aisleriot/util.c:90
-#: ../libgames-support/games-help.c:152
-#, c-format
-msgid "Could not show help for “%s”"
-msgstr "Nelze zobrazit nápovědu pro „%s“"
-
-#: ../aisleriot/window.c:261
-msgid "Congratulations, you have won!"
-msgstr "Gratulace, vyhráli jste!"
-
-#: ../aisleriot/window.c:265
-msgid "There are no more moves"
-msgstr "Nejsou možné žádné další tahy"
-
-#. Empty title shows up as "<unnamed>" on maemo
-#: ../aisleriot/window.c:278 ../quadrapassel/blockops.cpp:788
-msgid "Game Over"
-msgstr "Konec hry"
-
-#: ../aisleriot/window.c:412 ../gnomine/gnomine.c:437
-#: ../mahjongg/mahjongg.c:867
-msgid "Main game:"
-msgstr "Hlavní hra:"
-
-#: ../aisleriot/window.c:420
-msgid "Card games:"
-msgstr "Karetní hry:"
-
-#: ../aisleriot/window.c:434
-msgid "Card themes:"
-msgstr "Motivy karet:"
-
-#: ../aisleriot/window.c:466
-msgid "About FreeCell Solitaire"
-msgstr "O hře Solitér FreeCell"
-
-#: ../aisleriot/window.c:467
-msgid "About AisleRiot"
-msgstr "O hře AisleRiot"
-
-#: ../aisleriot/window.c:473
-msgid ""
-"AisleRiot provides a rule-based solitaire card engine that allows many "
-"different games to be played.\n"
-"AisleRiot is a part of GNOME Games."
-msgstr ""
-"AisleRiot poskytuje herní jádro založené na pravidlech karetních her "
-"solitér, který umožňuje hrát mnoho různých her tohoto typu.\n"
-"AisleRiot je součástí her GNOME."
-
-#. this doesn't work for anyone
-#: ../aisleriot/window.c:484 ../glines/glines.c:1216 ../gnect/src/main.c:878
-#: ../gnibbles/main.c:208 ../gnobots2/menu.c:267
-#: ../quadrapassel/tetris.cpp:1303 ../gnome-sudoku/src/lib/main.py:709
-#: ../gnomine/gnomine.c:477 ../gnotravex/gnotravex.c:1613
-#: ../gnotski/gnotski.c:1487 ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:270
-#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:908
-#: ../swell-foop/src/About.js:20
-msgid "translator-credits"
-msgstr ""
-"Jirka Lébl\n"
-"Michal Bukovjan <bukm@centrum.cz>\n"
-"Miloslav Trmač <mitr@volny.cz>\n"
-"Petr Tomeš <ptomes@gmail.com>\n"
-"Lukáš Novotný <lukasnov@cvs.gnome.org>\n"
-"Jakub Friedl <jfriedl@suse.cz>\n"
-"Jan Parkman <parkmaj@users.sourceforge.net>\n"
-"Petr Kovář <pknbe@volny.cz>\n"
-"Lucas Lommer <llommer@svn.gnome.org>\n"
-"Kamil Páral <ripper42@gmail.com>\n"
-"Marek Lisý <marek.lisy@centrum.cz>\n"
-"Petr Pulc <petrpulc@gmail.com>\n"
-"Marek Černocký <marek@manet.cz>"
-
-#: ../aisleriot/window.c:488 ../glines/glines.c:1219 ../gnect/src/main.c:875
-#: ../gnibbles/main.c:211 ../gnobots2/menu.c:263
-#: ../quadrapassel/tetris.cpp:1300 ../gnome-sudoku/src/lib/defaults.py.in:45
-#: ../gnomine/gnomine.c:480 ../gnotravex/gnotravex.c:1616
-#: ../gnotski/gnotski.c:1490 ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
-#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:911
-#: ../swell-foop/src/About.js:19
-msgid "GNOME Games web site"
-msgstr "Webové stránky her GNOME"
-
-#: ../aisleriot/window.c:1360
-#, c-format
-msgid "Play “%s”"
-msgstr "Hrát „%s“"
-
-#: ../aisleriot/window.c:1531
-#, c-format
-msgid "Display cards with “%s” card theme"
-msgstr "Použít motiv karet „%s“"
-
-#. Translators: if you want to use localised digits for the game score,
-#. * then translate this string to "%I6d", else to "%6d".
-#. * Do not translate it to anything else!
-#.
-#: ../aisleriot/window.c:1626
-#, c-format
-msgctxt "score"
-msgid "%6d"
-msgstr "%6d"
-
-#: ../aisleriot/window.c:1893
-msgid "A scheme exception occurred"
-msgstr "Nastala výjimka ve schématu"
-
-#: ../aisleriot/window.c:1896
-msgid "Please report this bug to the developers."
-msgstr "Nahlaste prosím chybu vývojářům."
-
-#. Empty title shows up as "<unnamed>" on maemo
-#: ../aisleriot/window.c:1900 ../libgames-support/games-show.c:151
-msgid "Error"
-msgstr "Chyba"
-
-#: ../aisleriot/window.c:1908
-msgid "_Don't report"
-msgstr "_Nehlásit"
-
-#: ../aisleriot/window.c:1909
-msgid "_Report"
-msgstr "Na_hlásit"
-
-#: ../aisleriot/window.c:2022
-msgid "Freecell Solitaire"
-msgstr "Solitér Freecell"
-
-#. Menu actions
-#. Game menu name
-#: ../aisleriot/window.c:2187 ../glchess/data/glchess.ui.h:22
-#: ../glines/glines.c:1640 ../gnect/src/main.c:1242 ../gnibbles/main.c:687
-#: ../gnobots2/menu.c:66 ../quadrapassel/tetris.cpp:108
-#: ../gnome-sudoku/src/lib/main.py:231 ../gnomine/gnomine.c:769
-#: ../gnotravex/gnotravex.c:1707 ../gnotski/gnotski.c:409
-#: ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:847
-#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1200
-#: ../swell-foop/data/swell-foop.ui.h:2
-msgid "_Game"
-msgstr "_Hra"
-
-#: ../aisleriot/window.c:2188 ../gnect/src/main.c:1243 ../gnibbles/main.c:688
-#: ../gnobots2/menu.c:67 ../gnotski/gnotski.c:410
-msgid "_View"
-msgstr "_Zobrazit"
-
-#: ../aisleriot/window.c:2189
-msgid "_Control"
-msgstr "_Ovládání"
-
-#. Help menu item
-#: ../aisleriot/window.c:2191 ../glchess/data/glchess.ui.h:24
-#: ../glines/glines.c:1642 ../gnect/src/main.c:1245 ../gnibbles/main.c:690
-#: ../gnobots2/menu.c:70 ../quadrapassel/tetris.cpp:110
-#: ../gnome-sudoku/src/lib/main.py:254 ../gnomine/gnomine.c:771
-#: ../gnotravex/gnotravex.c:1711 ../gnotski/gnotski.c:411
-#: ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:849
-#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1202
-#: ../swell-foop/data/swell-foop.ui.h:3
-msgid "_Help"
-msgstr "_Nápověda"
-
-#. Tooltip for start new game toolbar button
-#: ../aisleriot/window.c:2196 ../glchess/data/glchess.ui.h:16
-#: ../gnobots2/menu.c:71 ../libgames-support/games-stock.c:59
-#: ../mahjongg/mahjongg.c:1203
-msgid "Start a new game"
-msgstr "Začít novou hru"
-
-#: ../aisleriot/window.c:2199 ../libgames-support/games-stock.c:63
-msgid "Restart the game"
-msgstr "Začít hru znovu"
-
-#: ../aisleriot/window.c:2201
-msgid "_Select Game..."
-msgstr "_Vybrat hru…"
-
-#: ../aisleriot/window.c:2203
-msgid "Play a different game"
-msgstr "Hrát jinou hru"
-
-#: ../aisleriot/window.c:2205
-msgid "_Recently Played"
-msgstr "Naposledy _hrané"
-
-#: ../aisleriot/window.c:2206
-msgid "S_tatistics"
-msgstr "_Statistiky"
-
-#: ../aisleriot/window.c:2207
-msgid "Show gameplay statistics"
-msgstr "Zobrazit statistiky o hraní"
-
-#: ../aisleriot/window.c:2210 ../libgames-support/games-stock.c:68
-msgid "Close this window"
-msgstr "Zavřít toto okno"
-
-#: ../aisleriot/window.c:2213 ../libgames-support/games-stock.c:66
-#: ../mahjongg/mahjongg.c:1207
-msgid "Undo the last move"
-msgstr "Vrátit poslední tah"
-
-#: ../aisleriot/window.c:2216 ../libgames-support/games-stock.c:62
-msgid "Redo the undone move"
-msgstr "Zopakovat vrácený tah"
-
-#: ../aisleriot/window.c:2219
-msgid "Deal next card or cards"
-msgstr "Rozdat další kartu nebo karty"
-
-#: ../aisleriot/window.c:2222 ../libgames-support/games-stock.c:55
-msgid "Get a hint for your next move"
-msgstr "Získat radu pro váš další tah"
-
-#: ../aisleriot/window.c:2225
-msgid "View help for Aisleriot"
-msgstr "Zobrazit nápovědu ke hře Aisleriot"
-
-#: ../aisleriot/window.c:2229 ../libgames-support/games-stock.c:52
-msgid "View help for this game"
-msgstr "Zobrazit nápovědu k této hře"
-
-#: ../aisleriot/window.c:2232 ../libgames-support/games-stock.c:67
-msgid "About this game"
-msgstr "O této hře"
-
-#: ../aisleriot/window.c:2235
-msgid "Install card themes…"
-msgstr "Instalovat motivy karet…"
-
-#: ../aisleriot/window.c:2236
-msgid "Install new card themes from the distribution packages repositories"
-msgstr "Nové motivy karet nainstalujte z repozitáře své distribuce"
-
-#: ../aisleriot/window.c:2244
-msgid "_Card Style"
-msgstr "Styl _karet"
-
-#: ../aisleriot/window.c:2285 ../gnobots2/menu.c:90
-#: ../mahjongg/mahjongg.c:1223
-msgid "_Toolbar"
-msgstr "_Lišta nástrojů"
-
-#: ../aisleriot/window.c:2286 ../gnobots2/menu.c:90
-#: ../mahjongg/mahjongg.c:1223
-msgid "Show or hide the toolbar"
-msgstr "Zobrazit nebo skrýt lištu nástrojů"
-
-#: ../aisleriot/window.c:2291
-msgid "_Statusbar"
-msgstr "_Stavová lišta"
-
-#: ../aisleriot/window.c:2292
-msgid "Show or hide statusbar"
-msgstr "Zobrazit nebo skrýt lištu nástrojů"
-
-#: ../aisleriot/window.c:2297 ../gnotravex/gnotravex.c:1731
-msgid "_Click to Move"
-msgstr "_Přesouvat kliknutími"
-
-#: ../aisleriot/window.c:2298
-msgid "Pick up and drop cards by clicking"
-msgstr "Přesouvat karty klikáním"
-
-#: ../aisleriot/window.c:2302
-msgid "_Sound"
-msgstr "_Zvuk"
-
-#: ../aisleriot/window.c:2303
-msgid "Whether or not to play event sounds"
-msgstr "Zda přehrávat zvuky k událostem"
-
-#: ../aisleriot/window.c:2308
-msgid "_Animations"
-msgstr "_Animace"
-
-#: ../aisleriot/window.c:2309
-msgid "Whether or not to animate card moves"
-msgstr "Zda animovat pohyby karet"
-
-#: ../aisleriot/window.c:2616 ../glines/glines.c:1841
-#: ../gnobots2/statusbar.c:67 ../quadrapassel/scoreframe.cpp:47
-#: ../gnomine/gnomine.c:440
-msgid "Score:"
-msgstr "Skóre:"
-
-#: ../aisleriot/window.c:2628 ../gnotravex/gnotravex.c:1402
-#: ../mahjongg/mahjongg.c:1407
-msgid "Time:"
-msgstr "Čas:"
-
-#: ../aisleriot/window.c:2977
-#, c-format
-msgid "Cannot start the game “%s”"
-msgstr "Nelze začít hru „%s“"
-
-#. Translators: this is the symbol that's on a Joker card
-#: ../aisleriot/lib/ar-card.c:182
-msgctxt "card symbol"
-msgid "JOKER"
-msgstr "ŽOLÍK"
-
-#. Translators: this is the symbol that's on an Ace card
-#: ../aisleriot/lib/ar-card.c:184 ../aisleriot/lib/ar-card.c:208
-msgctxt "card symbol"
-msgid "A"
-msgstr "A"
-
-#. Translators: this is the symbol that's on a 2 card
-#: ../aisleriot/lib/ar-card.c:186
-msgctxt "card symbol"
-msgid "2"
-msgstr "2"
-
-#. Translators: this is the symbol that's on a 3 card
-#: ../aisleriot/lib/ar-card.c:188
-msgctxt "card symbol"
-msgid "3"
-msgstr "3"
-
-#. Translators: this is the symbol that's on a 4 card
-#: ../aisleriot/lib/ar-card.c:190
-msgctxt "card symbol"
-msgid "4"
-msgstr "4"
-
-#. Translators: this is the symbol that's on a 5 card
-#: ../aisleriot/lib/ar-card.c:192
-msgctxt "card symbol"
-msgid "5"
-msgstr "5"
-
-#. Translators: this is the symbol that's on a 6 card
-#: ../aisleriot/lib/ar-card.c:194
-msgctxt "card symbol"
-msgid "6"
-msgstr "6"
-
-#. Translators: this is the symbol that's on a 7 card
-#: ../aisleriot/lib/ar-card.c:196
-msgctxt "card symbol"
-msgid "7"
-msgstr "7"
-
-#. Translators: this is the symbol that's on a 8 card
-#: ../aisleriot/lib/ar-card.c:198
-msgctxt "card symbol"
-msgid "8"
-msgstr "8"
-
-#. Translators: this is the symbol that's on a 9 card
-#: ../aisleriot/lib/ar-card.c:200
-msgctxt "card symbol"
-msgid "9"
-msgstr "9"
-
-#. Translators: this is the symbol that's on a Jack card
-#: ../aisleriot/lib/ar-card.c:202
-msgctxt "card symbol"
-msgid "J"
-msgstr "J"
-
-#. Translators: this is the symbol that's on a Queen card
-#: ../aisleriot/lib/ar-card.c:204
-msgctxt "card symbol"
-msgid "Q"
-msgstr "Q"
-
-#. Translators: this is the symbol that's on a King card
-#: ../aisleriot/lib/ar-card.c:206
-msgctxt "card symbol"
-msgid "K"
-msgstr "K"
-
-#. Translators: this is the symbol that's on a 1 card
-#: ../aisleriot/lib/ar-card.c:210
-msgctxt "card symbol"
-msgid "1"
-msgstr "1"
-
-#: ../aisleriot/lib/ar-card.c:252
-msgid "ace of clubs"
-msgstr "křížové eso"
-
-#: ../aisleriot/lib/ar-card.c:253
-msgid "two of clubs"
-msgstr "křížová dvojka"
-
-#: ../aisleriot/lib/ar-card.c:254
-msgid "three of clubs"
-msgstr "křížová trojka"
-
-#: ../aisleriot/lib/ar-card.c:255
-msgid "four of clubs"
-msgstr "křížová čtyřka"
-
-#: ../aisleriot/lib/ar-card.c:256
-msgid "five of clubs"
-msgstr "křížová pětka"
-
-#: ../aisleriot/lib/ar-card.c:257
-msgid "six of clubs"
-msgstr "křížová šestka"
-
-#: ../aisleriot/lib/ar-card.c:258
-msgid "seven of clubs"
-msgstr "křížová sedmička"
-
-#: ../aisleriot/lib/ar-card.c:259
-msgid "eight of clubs"
-msgstr "křížová osmička"
-
-#: ../aisleriot/lib/ar-card.c:260
-msgid "nine of clubs"
-msgstr "křížová devítka"
-
-#: ../aisleriot/lib/ar-card.c:261
-msgid "ten of clubs"
-msgstr "křížová desítka"
-
-#: ../aisleriot/lib/ar-card.c:262
-msgid "jack of clubs"
-msgstr "křížový spodek"
-
-#: ../aisleriot/lib/ar-card.c:263
-msgid "queen of clubs"
-msgstr "křížová dáma"
-
-#: ../aisleriot/lib/ar-card.c:264
-msgid "king of clubs"
-msgstr "křížový král"
-
-#: ../aisleriot/lib/ar-card.c:265
-msgid "ace of diamonds"
-msgstr "kárové eso"
-
-#: ../aisleriot/lib/ar-card.c:266
-msgid "two of diamonds"
-msgstr "kárová dvojka"
-
-#: ../aisleriot/lib/ar-card.c:267
-msgid "three of diamonds"
-msgstr "kárová trojka"
-
-#: ../aisleriot/lib/ar-card.c:268
-msgid "four of diamonds"
-msgstr "kárová čtyřka"
-
-#: ../aisleriot/lib/ar-card.c:269
-msgid "five of diamonds"
-msgstr "kárová pětka"
-
-#: ../aisleriot/lib/ar-card.c:270
-msgid "six of diamonds"
-msgstr "kárová šestka"
-
-#: ../aisleriot/lib/ar-card.c:271
-msgid "seven of diamonds"
-msgstr "kárová sedmička"
-
-#: ../aisleriot/lib/ar-card.c:272
-msgid "eight of diamonds"
-msgstr "kárová osmička"
-
-#: ../aisleriot/lib/ar-card.c:273
-msgid "nine of diamonds"
-msgstr "kárová devítka"
-
-#: ../aisleriot/lib/ar-card.c:274
-msgid "ten of diamonds"
-msgstr "kárová desítka"
-
-#: ../aisleriot/lib/ar-card.c:275
-msgid "jack of diamonds"
-msgstr "kárový spodek"
-
-#: ../aisleriot/lib/ar-card.c:276
-msgid "queen of diamonds"
-msgstr "kárová dáma"
-
-#: ../aisleriot/lib/ar-card.c:277
-msgid "king of diamonds"
-msgstr "kárový král"
-
-#: ../aisleriot/lib/ar-card.c:278
-msgid "ace of hearts"
-msgstr "srdcové eso"
-
-#: ../aisleriot/lib/ar-card.c:279
-msgid "two of hearts"
-msgstr "srdcová dvojka"
-
-#: ../aisleriot/lib/ar-card.c:280
-msgid "three of hearts"
-msgstr "srdcová trojka"
-
-#: ../aisleriot/lib/ar-card.c:281
-msgid "four of hearts"
-msgstr "srdcová čtyřka"
-
-#: ../aisleriot/lib/ar-card.c:282
-msgid "five of hearts"
-msgstr "srdcová pětka"
-
-#: ../aisleriot/lib/ar-card.c:283
-msgid "six of hearts"
-msgstr "srdcová šestka"
-
-#: ../aisleriot/lib/ar-card.c:284
-msgid "seven of hearts"
-msgstr "srdcová sedmička"
-
-#: ../aisleriot/lib/ar-card.c:285
-msgid "eight of hearts"
-msgstr "srdcová osmička"
-
-#: ../aisleriot/lib/ar-card.c:286
-msgid "nine of hearts"
-msgstr "srdcová devítka"
-
-#: ../aisleriot/lib/ar-card.c:287
-msgid "ten of hearts"
-msgstr "srdcová desítka"
-
-#: ../aisleriot/lib/ar-card.c:288
-msgid "jack of hearts"
-msgstr "srdcový spodek"
-
-#: ../aisleriot/lib/ar-card.c:289
-msgid "queen of hearts"
-msgstr "srdcová dáma"
-
-#: ../aisleriot/lib/ar-card.c:290
-msgid "king of hearts"
-msgstr "srdcový král"
-
-#: ../aisleriot/lib/ar-card.c:291
-msgid "ace of spades"
-msgstr "pikové eso"
-
-#: ../aisleriot/lib/ar-card.c:292
-msgid "two of spades"
-msgstr "piková dvojka"
-
-#: ../aisleriot/lib/ar-card.c:293
-msgid "three of spades"
-msgstr "piková trojka"
-
-#: ../aisleriot/lib/ar-card.c:294
-msgid "four of spades"
-msgstr "piková čtyřka"
-
-#: ../aisleriot/lib/ar-card.c:295
-msgid "five of spades"
-msgstr "piková pětka"
-
-#: ../aisleriot/lib/ar-card.c:296
-msgid "six of spades"
-msgstr "piková šestka"
-
-#: ../aisleriot/lib/ar-card.c:297
-msgid "seven of spades"
-msgstr "piková sedmička"
-
-#: ../aisleriot/lib/ar-card.c:298
-msgid "eight of spades"
-msgstr "piková osmička"
-
-#: ../aisleriot/lib/ar-card.c:299
-msgid "nine of spades"
-msgstr "piková devítka"
-
-#: ../aisleriot/lib/ar-card.c:300
-msgid "ten of spades"
-msgstr "piková desítka"
-
-#: ../aisleriot/lib/ar-card.c:301
-msgid "jack of spades"
-msgstr "pikový spodek"
-
-#: ../aisleriot/lib/ar-card.c:302
-msgid "queen of spades"
-msgstr "piková dáma"
-
-#: ../aisleriot/lib/ar-card.c:303
-msgid "king of spades"
-msgstr "pikový král"
-
-#: ../aisleriot/lib/ar-card.c:320
-msgid "face-down card"
-msgstr "neotočená karta"
-
-#: ../aisleriot/rules/agnes.scm.h:1 ../aisleriot/rules/bear_river.scm.h:2
-#: ../aisleriot/rules/canfield.scm.h:2 ../aisleriot/rules/chessboard.scm.h:2
-#: ../aisleriot/rules/eagle_wing.scm.h:2 ../aisleriot/rules/glenwood.scm.h:2
-#: ../aisleriot/rules/kansas.scm.h:2 ../aisleriot/rules/lady_jane.scm.h:2
-#: ../aisleriot/rules/plait.scm.h:2 ../aisleriot/rules/royal_east.scm.h:2
-#: ../aisleriot/rules/terrace.scm.h:1
-msgid "Base Card: Ace"
-msgstr "Základní karta: Eso"
-
-#: ../aisleriot/rules/agnes.scm.h:2 ../aisleriot/rules/bear_river.scm.h:3
-#: ../aisleriot/rules/canfield.scm.h:3 ../aisleriot/rules/chessboard.scm.h:3
-#: ../aisleriot/rules/eagle_wing.scm.h:3 ../aisleriot/rules/glenwood.scm.h:3
-#: ../aisleriot/rules/kansas.scm.h:3 ../aisleriot/rules/lady_jane.scm.h:3
-#: ../aisleriot/rules/plait.scm.h:3 ../aisleriot/rules/royal_east.scm.h:3
-#: ../aisleriot/rules/terrace.scm.h:2
-msgid "Base Card: Jack"
-msgstr "Základní karta: Spodek"
-
-#: ../aisleriot/rules/agnes.scm.h:3 ../aisleriot/rules/bear_river.scm.h:4
-#: ../aisleriot/rules/canfield.scm.h:4 ../aisleriot/rules/chessboard.scm.h:4
-#: ../aisleriot/rules/eagle_wing.scm.h:4 ../aisleriot/rules/glenwood.scm.h:4
-#: ../aisleriot/rules/kansas.scm.h:4 ../aisleriot/rules/lady_jane.scm.h:4
-#: ../aisleriot/rules/plait.scm.h:4 ../aisleriot/rules/royal_east.scm.h:4
-#: ../aisleriot/rules/terrace.scm.h:3
-msgid "Base Card: King"
-msgstr "Základní karta: Král"
-
-#: ../aisleriot/rules/agnes.scm.h:4 ../aisleriot/rules/bear_river.scm.h:5
-#: ../aisleriot/rules/canfield.scm.h:5 ../aisleriot/rules/chessboard.scm.h:5
-#: ../aisleriot/rules/eagle_wing.scm.h:5 ../aisleriot/rules/glenwood.scm.h:5
-#: ../aisleriot/rules/kansas.scm.h:5 ../aisleriot/rules/lady_jane.scm.h:5
-#: ../aisleriot/rules/plait.scm.h:5 ../aisleriot/rules/royal_east.scm.h:5
-#: ../aisleriot/rules/terrace.scm.h:4
-msgid "Base Card: Queen"
-msgstr "Základní karta: Dáma"
-
-#: ../aisleriot/rules/agnes.scm.h:5 ../aisleriot/rules/terrace.scm.h:5
-msgid "Base Card: ~a"
-msgstr "Základní karta: ~a"
-
-#: ../aisleriot/rules/agnes.scm.h:6 ../aisleriot/rules/easthaven.scm.h:1
-#: ../aisleriot/rules/labyrinth.scm.h:1 ../aisleriot/rules/monte_carlo.scm.h:1
-#: ../aisleriot/rules/valentine.scm.h:1
-msgid "Deal more cards"
-msgstr "Rozdat více karet"
-
-#: ../aisleriot/rules/agnes.scm.h:7 ../aisleriot/rules/auld_lang_syne.scm.h:2
-#: ../aisleriot/rules/backbone.scm.h:3 ../aisleriot/rules/block_ten.scm.h:1
-#: ../aisleriot/rules/bristol.scm.h:2 ../aisleriot/rules/camelot.scm.h:2
-#: ../aisleriot/rules/canfield.scm.h:9 ../aisleriot/rules/carpet.scm.h:2
-#: ../aisleriot/rules/cover.scm.h:1 ../aisleriot/rules/doublets.scm.h:2
-#: ../aisleriot/rules/eagle_wing.scm.h:11 ../aisleriot/rules/easthaven.scm.h:4
-#: ../aisleriot/rules/elevator.scm.h:2 ../aisleriot/rules/escalator.scm.h:2
-#: ../aisleriot/rules/first_law.scm.h:17 ../aisleriot/rules/fortunes.scm.h:4
-#: ../aisleriot/rules/forty_thieves.scm.h:3
-#: ../aisleriot/rules/glenwood.scm.h:11 ../aisleriot/rules/gypsy.scm.h:3
-#: ../aisleriot/rules/helsinki.scm.h:1 ../aisleriot/rules/hopscotch.scm.h:3
-#: ../aisleriot/rules/jamestown.scm.h:1 ../aisleriot/rules/jumbo.scm.h:4
-#: ../aisleriot/rules/kansas.scm.h:8 ../aisleriot/rules/klondike.scm.h:7
-#: ../aisleriot/rules/labyrinth.scm.h:2 ../aisleriot/rules/lady_jane.scm.h:7
-#: ../aisleriot/rules/monte_carlo.scm.h:2 ../aisleriot/rules/neighbor.scm.h:1
-#: ../aisleriot/rules/plait.scm.h:11 ../aisleriot/rules/quatorze.scm.h:1
-#: ../aisleriot/rules/royal_east.scm.h:7 ../aisleriot/rules/scuffle.scm.h:4
-#: ../aisleriot/rules/sir_tommy.scm.h:3 ../aisleriot/rules/straight_up.scm.h:5
-#: ../aisleriot/rules/terrace.scm.h:18 ../aisleriot/rules/thieves.scm.h:2
-#: ../aisleriot/rules/thirteen.scm.h:3
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:4
-#: ../aisleriot/rules/treize.scm.h:2 ../aisleriot/rules/triple_peaks.scm.h:4
-#: ../aisleriot/rules/union_square.scm.h:2
-#: ../aisleriot/rules/westhaven.scm.h:2 ../aisleriot/rules/whitehead.scm.h:3
-#: ../aisleriot/rules/yield.scm.h:2 ../aisleriot/rules/zebra.scm.h:4
-msgid "Stock left:"
-msgstr "V hromádce zbývá:"
-
-#: ../aisleriot/rules/agnes.scm.h:8 ../aisleriot/rules/lady_jane.scm.h:8
-msgid "Stock left: 0"
-msgstr "V hromádce zbývá: 0"
-
-#: ../aisleriot/rules/agnes.scm.h:9 ../aisleriot/rules/backbone.scm.h:4
-#: ../aisleriot/rules/bakers_dozen.scm.h:1
-#: ../aisleriot/rules/beleaguered_castle.scm.h:1
-#: ../aisleriot/rules/canfield.scm.h:10 ../aisleriot/rules/jumbo.scm.h:5
-#: ../aisleriot/rules/king_albert.scm.h:1 ../aisleriot/rules/lady_jane.scm.h:9
-#: ../aisleriot/rules/streets_and_alleys.scm.h:1
-msgid "Try rearranging the cards"
-msgstr "Zkuste znovu srovnat karty"
-
-#: ../aisleriot/rules/agnes.scm.h:10 ../aisleriot/rules/bristol.scm.h:3
-#: ../aisleriot/rules/lady_jane.scm.h:10 ../aisleriot/rules/royal_east.scm.h:8
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:5
-msgid "an empty foundation pile"
-msgstr "prázdná hromádka seřadiště"
-
-#: ../aisleriot/rules/athena.scm.h:1 ../aisleriot/rules/klondike.scm.h:8
-#: ../aisleriot/rules/osmosis.scm.h:5 ../aisleriot/rules/saratoga.scm.h:1
-msgid "Three card deals"
-msgstr "Rozdání tří karet"
-
-#: ../aisleriot/rules/auld_lang_syne.scm.h:1
-#: ../aisleriot/rules/bristol.scm.h:1 ../aisleriot/rules/first_law.scm.h:1
-#: ../aisleriot/rules/fortunes.scm.h:2 ../aisleriot/rules/lady_jane.scm.h:6
-#: ../aisleriot/rules/scuffle.scm.h:1 ../aisleriot/rules/spider.scm.h:1
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:1 ../aisleriot/rules/zebra.scm.h:1
-msgid "Deal another round"
-msgstr "Rozdat další kolo"
-
-#: ../aisleriot/rules/backbone.scm.h:1 ../aisleriot/rules/camelot.scm.h:1
-#: ../aisleriot/rules/canfield.scm.h:6 ../aisleriot/rules/carpet.scm.h:1
-#: ../aisleriot/rules/glenwood.scm.h:6 ../aisleriot/rules/klondike.scm.h:2
-#: ../aisleriot/rules/osmosis.scm.h:1 ../aisleriot/rules/plait.scm.h:6
-#: ../aisleriot/rules/straight_up.scm.h:1 ../aisleriot/rules/terrace.scm.h:8
-msgid "Deal a new card from the deck"
-msgstr "Lízněte si novou kartu z balíčku"
-
-#: ../aisleriot/rules/backbone.scm.h:2 ../aisleriot/rules/doublets.scm.h:1
-#: ../aisleriot/rules/eagle_wing.scm.h:9 ../aisleriot/rules/gaps.scm.h:7
-#: ../aisleriot/rules/glenwood.scm.h:9 ../aisleriot/rules/jumbo.scm.h:3
-#: ../aisleriot/rules/klondike.scm.h:5 ../aisleriot/rules/plait.scm.h:10
-#: ../aisleriot/rules/scuffle.scm.h:2 ../aisleriot/rules/straight_up.scm.h:3
-#: ../aisleriot/rules/terrace.scm.h:13
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:3 ../aisleriot/rules/zebra.scm.h:3
-msgid "Redeals left:"
-msgstr "Zbylá rozdání:"
-
-#: ../aisleriot/rules/backbone.scm.h:5 ../aisleriot/rules/terrace.scm.h:23
-msgid "an empty slot on the foundation"
-msgstr "prázdná pozice na seřadišti"
-
-#: ../aisleriot/rules/backbone.scm.h:6 ../aisleriot/rules/terrace.scm.h:24
-msgid "an empty slot on the tableau"
-msgstr "prázdná pozice v rozdaných"
-
-#: ../aisleriot/rules/bakers_dozen.scm.h:2
-#: ../aisleriot/rules/chessboard.scm.h:8 ../aisleriot/rules/easthaven.scm.h:5
-#: ../aisleriot/rules/eight_off.scm.h:2 ../aisleriot/rules/fortress.scm.h:2
-#: ../aisleriot/rules/forty_thieves.scm.h:4 ../aisleriot/rules/gypsy.scm.h:4
-#: ../aisleriot/rules/jumbo.scm.h:6 ../aisleriot/rules/kansas.scm.h:9
-#: ../aisleriot/rules/king_albert.scm.h:2 ../aisleriot/rules/seahaven.scm.h:2
-#: ../aisleriot/rules/streets_and_alleys.scm.h:2
-#: ../aisleriot/rules/westhaven.scm.h:3 ../aisleriot/rules/whitehead.scm.h:4
-#: ../aisleriot/rules/yukon.scm.h:1
-msgid "an empty foundation"
-msgstr "prázdné seřadiště"
-
-#: ../aisleriot/rules/bear_river.scm.h:1 ../aisleriot/rules/canfield.scm.h:1
-#: ../aisleriot/rules/chessboard.scm.h:1 ../aisleriot/rules/eagle_wing.scm.h:1
-#: ../aisleriot/rules/glenwood.scm.h:1 ../aisleriot/rules/kansas.scm.h:1
-#: ../aisleriot/rules/plait.scm.h:1
-msgid "Base Card: "
-msgstr "Základní karta: "
-
-#: ../aisleriot/rules/bear_river.scm.h:6
-msgid "Move something onto an empty right-hand tableau slot"
-msgstr "Přesunout něco na prázdnou pozici po pravé ruce v rozdaných"
-
-#: ../aisleriot/rules/bear_river.scm.h:7
-msgid "an empty foundation slot"
-msgstr "prázdná pozice seřadiště"
-
-#: ../aisleriot/rules/camelot.scm.h:3
-msgid "an empty bottom slot"
-msgstr "prázdná dolní pozice"
-
-#: ../aisleriot/rules/camelot.scm.h:4
-msgid "an empty corner slot"
-msgstr "prázdná rohová pozice"
-
-#: ../aisleriot/rules/camelot.scm.h:5
-msgid "an empty left slot"
-msgstr "prázdná levá pozice"
-
-#: ../aisleriot/rules/camelot.scm.h:6
-msgid "an empty right slot"
-msgstr "prázdná pravá pozice"
-
-#: ../aisleriot/rules/camelot.scm.h:7 ../aisleriot/rules/diamond_mine.scm.h:1
-#: ../aisleriot/rules/klondike.scm.h:10 ../aisleriot/rules/odessa.scm.h:1
-#: ../aisleriot/rules/osmosis.scm.h:6 ../aisleriot/rules/pileon.scm.h:1
-#: ../aisleriot/rules/scorpion.scm.h:2 ../aisleriot/rules/ten_across.scm.h:4
-#: ../aisleriot/rules/union_square.scm.h:3 ../aisleriot/rules/yukon.scm.h:2
-msgid "an empty slot"
-msgstr "prázdná pozice"
-
-#: ../aisleriot/rules/camelot.scm.h:8
-msgid "an empty top slot"
-msgstr "prázdná horní pozice"
-
-#: ../aisleriot/rules/camelot.scm.h:9 ../aisleriot/rules/helsinki.scm.h:2
-#: ../aisleriot/rules/neighbor.scm.h:2 ../aisleriot/rules/thirteen.scm.h:4
-#: ../aisleriot/rules/treize.scm.h:3 ../aisleriot/rules/yield.scm.h:3
-msgid "itself"
-msgstr "sebe"
-
-#: ../aisleriot/rules/canfield.scm.h:7 ../aisleriot/rules/eagle_wing.scm.h:7
-#: ../aisleriot/rules/glenwood.scm.h:8 ../aisleriot/rules/plait.scm.h:7
-#: ../aisleriot/rules/straight_up.scm.h:2
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:2 ../aisleriot/rules/zebra.scm.h:2
-msgid "Move waste back to stock"
-msgstr "Přesunout otočené zpátky do balíčku"
-
-#: ../aisleriot/rules/canfield.scm.h:8 ../aisleriot/rules/eagle_wing.scm.h:10
-#: ../aisleriot/rules/kansas.scm.h:7 ../aisleriot/rules/straight_up.scm.h:4
-msgid "Reserve left:"
-msgstr "V odložených zbývá:"
-
-#: ../aisleriot/rules/canfield.scm.h:11 ../aisleriot/rules/glenwood.scm.h:12
-msgid "empty slot on foundation"
-msgstr "prázdná pozice na seřadišti"
-
-#: ../aisleriot/rules/canfield.scm.h:12
-msgid "empty space on tableau"
-msgstr "prázdné místo v rozdaných"
-
-#: ../aisleriot/rules/chessboard.scm.h:6
-msgid "Move a card to the Foundation"
-msgstr "Přesunout kartu na seřadiště"
-
-#: ../aisleriot/rules/chessboard.scm.h:7 ../aisleriot/rules/fortress.scm.h:1
-msgid "Move something into the empty Tableau slot"
-msgstr "Přesunout něco na prázdnou pozici v rozdaných"
-
-#: ../aisleriot/rules/clock.scm.h:1
-msgid "Consistency is key"
-msgstr "Konzistence je klíčová"
-
-#: ../aisleriot/rules/clock.scm.h:2
-msgid "Fishing wire makes bad dental floss"
-msgstr "Rybářský vlasec není dobrý na čištění zubů"
-
-#: ../aisleriot/rules/clock.scm.h:3
-msgid "Have you read the help file?"
-msgstr "Četli jste nápovědu?"
-
-#: ../aisleriot/rules/clock.scm.h:4
-msgid "I could sure use a backrub right about now..."
-msgstr "Docela by se teď hodila jemná masáž zad…"
-
-#: ../aisleriot/rules/clock.scm.h:5
-msgid "If you're ever lost and alone in the woods, hug a tree"
-msgstr "Pokud se ocitneš v lese sám a opuštěný, obejmi strom"
-
-#: ../aisleriot/rules/clock.scm.h:6
-msgid ""
-"Just because a crosswalk looks like a hopscotch board doesn't mean it is one"
-msgstr ""
-"To, že přechod pro chodce vypadá jako skákací panák, ještě neznamená, že to "
-"je skákací panák"
-
-#: ../aisleriot/rules/clock.scm.h:7
-msgid "Look both ways before you cross the street"
-msgstr "Než přejdete ulici, podívejte se na obě strany"
-
-#: ../aisleriot/rules/clock.scm.h:8
-msgid "Monitors won't give you Vitamin D -- but sunlight will..."
-msgstr "Z monitoru nezískáte vitamín D -- ale ze sluníčka ano…"
-
-#: ../aisleriot/rules/clock.scm.h:9
-msgid "Never blow in a dog's ear"
-msgstr "Nikdy nefoukejte psovi do ucha"
-
-#: ../aisleriot/rules/clock.scm.h:10
-msgid "Odessa is a better game.  Really."
-msgstr "Odessa je lepší hra. Opravdu."
-
-#: ../aisleriot/rules/clock.scm.h:11
-msgid "Tourniquets are not recommended unless in the direst emergency"
-msgstr "Turnikety nejsou doporučovány, leda v případech nejvyšší nouze"
-
-#: ../aisleriot/rules/clock.scm.h:12
-msgid "When without a stapler, a staple and a ruler will work"
-msgstr "Pokud nemáte sešívačku, můžete použít sponku a pravítko"
-
-#: ../aisleriot/rules/cruel.scm.h:1
-msgid "Cards remaining: ~a"
-msgstr "Zbývající karty: ~a"
-
-#: ../aisleriot/rules/cruel.scm.h:2
-msgid "Redeal."
-msgstr "Znovu rozdat."
-
-#: ../aisleriot/rules/diamond_mine.scm.h:2
-msgid "the foundation pile"
-msgstr "hromádka seřadiště"
-
-#: ../aisleriot/rules/eagle_wing.scm.h:6 ../aisleriot/rules/elevator.scm.h:1
-#: ../aisleriot/rules/escalator.scm.h:1 ../aisleriot/rules/royal_east.scm.h:6
-#: ../aisleriot/rules/thirteen.scm.h:1 ../aisleriot/rules/treize.scm.h:1
-#: ../aisleriot/rules/triple_peaks.scm.h:1
-#: ../aisleriot/rules/union_square.scm.h:1
-#: ../aisleriot/rules/westhaven.scm.h:1 ../aisleriot/rules/yield.scm.h:1
-msgid "Deal a card"
-msgstr "Lízněte si"
-
-#: ../aisleriot/rules/eagle_wing.scm.h:8
-msgid "Move ~a to an empty foundation"
-msgstr "Přesunut ~a na prázdné seřadiště"
-
-#: ../aisleriot/rules/eagle_wing.scm.h:12
-msgid "an empty slot on tableau"
-msgstr "prázdná pozice v rozdaných"
-
-#: ../aisleriot/rules/easthaven.scm.h:2
-msgid "Move a King on to the empty tableau slot"
-msgstr "Přesunout krále na prázdnou pozici v rozdaných"
-
-#: ../aisleriot/rules/easthaven.scm.h:3 ../aisleriot/rules/klondike.scm.h:3
-msgid "No hint available right now"
-msgstr "Momentálně není k dispozici žádná rada"
-
-#: ../aisleriot/rules/eight_off.scm.h:1 ../aisleriot/rules/seahaven.scm.h:1
-msgid "Move something on to an empty reserve"
-msgstr "Přesunout něco na prázdné odložené"
-
-#: ../aisleriot/rules/eight_off.scm.h:3 ../aisleriot/rules/seahaven.scm.h:3
-msgid "an empty tableau"
-msgstr "prázdné rozdané"
-
-#: ../aisleriot/rules/first_law.scm.h:2
-msgid "I'm not sure"
-msgstr "Nejsem si jist(á)"
-
-#: ../aisleriot/rules/first_law.scm.h:3
-msgid "Remove the aces"
-msgstr "Odstranit esa"
-
-#: ../aisleriot/rules/first_law.scm.h:4
-msgid "Remove the eights"
-msgstr "Odstranit osmičky"
-
-#: ../aisleriot/rules/first_law.scm.h:5
-msgid "Remove the fives"
-msgstr "Odstranit pětky"
-
-#: ../aisleriot/rules/first_law.scm.h:6
-msgid "Remove the fours"
-msgstr "Odstranit čtyřky"
-
-#: ../aisleriot/rules/first_law.scm.h:7
-msgid "Remove the jacks"
-msgstr "Odstranit spodky"
-
-#: ../aisleriot/rules/first_law.scm.h:8
-msgid "Remove the kings"
-msgstr "Odstranit krále"
-
-#: ../aisleriot/rules/first_law.scm.h:9
-msgid "Remove the nines"
-msgstr "Odstranit devítky"
-
-#: ../aisleriot/rules/first_law.scm.h:10
-msgid "Remove the queens"
-msgstr "Odstranit dámy"
-
-#: ../aisleriot/rules/first_law.scm.h:11
-msgid "Remove the sevens"
-msgstr "Odstranit sedmičky"
-
-#: ../aisleriot/rules/first_law.scm.h:12
-msgid "Remove the sixes"
-msgstr "Odstranit šestky"
-
-#: ../aisleriot/rules/first_law.scm.h:13
-msgid "Remove the tens"
-msgstr "Odstranit desítky"
-
-#: ../aisleriot/rules/first_law.scm.h:14
-msgid "Remove the threes"
-msgstr "Odstranit trojky"
-
-#: ../aisleriot/rules/first_law.scm.h:15
-msgid "Remove the twos"
-msgstr "Odstranit dvojky"
-
-#: ../aisleriot/rules/first_law.scm.h:16
-msgid "Return cards to stock"
-msgstr "Vrátit karty do balíčku"
-
-#: ../aisleriot/rules/fortunes.scm.h:1 ../aisleriot/rules/klondike.scm.h:1
-msgid "Consider moving something into an empty slot"
-msgstr "Zvažte přesun něčeho na prázdnou pozici"
-
-#: ../aisleriot/rules/fortunes.scm.h:3
-msgid "Move ~a off the board"
-msgstr "Přesunout ~a mimo stůl"
-
-#: ../aisleriot/rules/forty_thieves.scm.h:1
-msgid "Bug! make-hint called on false move."
-msgstr "Chyba! make-hint zavoláno na špatném tahu."
-
-#: ../aisleriot/rules/forty_thieves.scm.h:2
-msgid "Deal a card from stock"
-msgstr "Líznout kartu z balíčku"
-
-#: ../aisleriot/rules/forty_thieves.scm.h:5
-msgid "an empty space"
-msgstr "prázdné místo"
-
-#: ../aisleriot/rules/freecell.scm.h:1
-msgid "No moves are possible. Undo or start again."
-msgstr "Nejsou možné žádné další tahy. Vraťte tah nebo hrajte novou hru."
-
-#: ../aisleriot/rules/freecell.scm.h:2
-msgid "The game has no solution. Undo or start again."
-msgstr "Hra nemá řešení. Vraťte se zpět nebo začněte znovu."
-
-#: ../aisleriot/rules/freecell.scm.h:3
-msgid "an empty reserve"
-msgstr "prázdné odložené"
-
-#: ../aisleriot/rules/freecell.scm.h:4
-msgid "an open tableau"
-msgstr "otevřené rozdané"
-
-#: ../aisleriot/rules/freecell.scm.h:5 ../aisleriot/rules/terrace.scm.h:26
-msgid "the foundation"
-msgstr "seřadiště"
-
-#: ../aisleriot/rules/gaps.scm.h:1
-msgid "Add to the sequence in row ~a."
-msgstr "Přidat do sekvence v řádku ~a."
-
-#: ../aisleriot/rules/gaps.scm.h:2
-msgid "Double click any card to redeal."
-msgstr "Znovu rozdejte dvojitým kliknutím na libovolnou kartu."
-
-#: ../aisleriot/rules/gaps.scm.h:3
-msgid "No hint available."
-msgstr "Žádná rada není k dispozici."
-
-#: ../aisleriot/rules/gaps.scm.h:4
-msgid "Place a two in the leftmost slot of row ~a."
-msgstr "Umístit dvojku do řádku ~a na pozici nejvíce vlevo."
-
-#: ../aisleriot/rules/gaps.scm.h:5
-msgid "Place the ~a next to ~a."
-msgstr "Umístit ~a vedle ~a."
-
-#: ../aisleriot/rules/gaps.scm.h:6
-msgid "Randomly Placed Gaps on Redeal"
-msgstr "Náhodně umístěné mezery při rozdávání"
-
-#: ../aisleriot/rules/giant.scm.h:1
-msgid "Alternating colors"
-msgstr "Střídající se barvy"
-
-#: ../aisleriot/rules/giant.scm.h:2
-msgid "Deal a row"
-msgstr "Rozdat řadu"
-
-#: ../aisleriot/rules/giant.scm.h:3
-msgid "Deals left: ~a"
-msgstr "Zbylá rozdání: ~a"
-
-#: ../aisleriot/rules/giant.scm.h:4
-msgid "Same suit"
-msgstr "Stejná barva"
-
-#: ../aisleriot/rules/giant.scm.h:5
-msgid "Try dealing a row of cards"
-msgstr "Zkuste rozdat řadu karet"
-
-#: ../aisleriot/rules/giant.scm.h:6
-msgid "Try moving a card to the reserve"
-msgstr "Zkusit přesunout kartu do odložených"
-
-#: ../aisleriot/rules/giant.scm.h:7 ../aisleriot/rules/spider.scm.h:7
-msgid "Try moving card piles around"
-msgstr "Zkuste přesouvat balíky karet"
-
-#: ../aisleriot/rules/giant.scm.h:8
-msgid "an empty foundation place"
-msgstr "prázdné místo seřadiště"
-
-#: ../aisleriot/rules/giant.scm.h:9
-msgid "an empty tableau place"
-msgstr "prázdné místo v rozdaných"
-
-#: ../aisleriot/rules/glenwood.scm.h:7
-msgid "Move a card from the reserve on to the empty tableau slot"
-msgstr "Přesunout kartu z odložených na prázdnou pozici v rozdaných"
-
-#: ../aisleriot/rules/glenwood.scm.h:10
-msgid "Select a card from the reserve for first foundation pile"
-msgstr "Vybrat kartu z odložených pro první hromádku seřadiště"
-
-#: ../aisleriot/rules/glenwood.scm.h:13
-msgid "on to the empty tableau slot"
-msgstr "na prázdnou pozici v rozdaných"
-
-#: ../aisleriot/rules/golf.scm.h:1 ../aisleriot/rules/hopscotch.scm.h:1
-#: ../aisleriot/rules/jumbo.scm.h:1 ../aisleriot/rules/kansas.scm.h:6
-#: ../aisleriot/rules/sir_tommy.scm.h:1 ../aisleriot/rules/whitehead.scm.h:1
-msgid "Deal another card"
-msgstr "Lízněte si další kartu"
-
-#: ../aisleriot/rules/golf.scm.h:2 ../aisleriot/rules/osmosis.scm.h:4
-#: ../aisleriot/rules/spider.scm.h:6
-msgid "Stock left: ~a"
-msgstr "Na hromádce zbývá: ~a"
-
-#: ../aisleriot/rules/gypsy.scm.h:1
-msgid "Deal another hand"
-msgstr "Rozdat další sadu"
-
-#: ../aisleriot/rules/gypsy.scm.h:2
-msgid "Move a card or build of cards on to the empty slot"
-msgstr "Přesunout kartu nebo sadu karet na prázdné pozici"
-
-#: ../aisleriot/rules/hopscotch.scm.h:2
-msgid "Move card from waste"
-msgstr "Přesunout kartu z otočených"
-
-#: ../aisleriot/rules/jumbo.scm.h:2
-msgid "Move waste to stock"
-msgstr "Přesunout otočené do balíčku"
-
-#: ../aisleriot/rules/jumbo.scm.h:7 ../aisleriot/rules/kansas.scm.h:10
-#: ../aisleriot/rules/king_albert.scm.h:3
-#: ../aisleriot/rules/lady_jane.scm.h:11
-#: ../aisleriot/rules/straight_up.scm.h:6
-msgid "an empty tableau slot"
-msgstr "prázdná pozice v rozdaných"
-
-#: ../aisleriot/rules/kings_audience.scm.h:1
-msgid "Deal a new card"
-msgstr "Rozdat novou kartu"
-
-#: ../aisleriot/rules/kings_audience.scm.h:2
-msgid "Stock remaining: ~a"
-msgstr "V balíčku zbývá: ~a"
-
-#: ../aisleriot/rules/klondike.scm.h:4
-msgid "No redeals"
-msgstr "Žádná rozdání"
-
-#: ../aisleriot/rules/klondike.scm.h:6
-msgid "Single card deals"
-msgstr "Rozdání jednotlivých karet"
-
-#: ../aisleriot/rules/klondike.scm.h:9
-msgid "Try moving cards down from the foundation"
-msgstr "Zkusit přesunout karty dolů ze seřadiště"
-
-#: ../aisleriot/rules/lady_jane.scm.h:1 ../aisleriot/rules/royal_east.scm.h:1
-msgid "Base Card:"
-msgstr "Základní karta:"
-
-#: ../aisleriot/rules/maze.scm.h:1
-msgid ""
-"Aim to place the suits in the order which fits the current layout most "
-"naturally."
-msgstr ""
-"Snažte se umístit barvy v pořadí, které nejpřirozeněji odpovídá aktuálnímu "
-"rozložení."
-
-#: ../aisleriot/rules/osmosis.scm.h:2
-msgid "Deal new cards from the deck"
-msgstr "Lízněte si novou kartu z balíku"
-
-#: ../aisleriot/rules/osmosis.scm.h:3
-msgid "Redeals left: ~a"
-msgstr "Zbylá rozdání: ~a"
-
-#: ../aisleriot/rules/pileon.scm.h:2 ../aisleriot/rules/terrace.scm.h:25
-msgid "something"
-msgstr "něco"
-
-#: ../aisleriot/rules/plait.scm.h:8
-msgid "Move ~a from the stock to an empty edge or tableau slot"
-msgstr "Přesunout ~a z balíčku do prázdného okraje nebo pozice v rozdaných"
-
-#: ../aisleriot/rules/plait.scm.h:9
-msgid "Move ~a to an empty field"
-msgstr "Přesunout kartu ~a na prázdné pole"
-
-#: ../aisleriot/rules/poker.scm.h:1
-msgid "Place cards on to the Tableau to form poker hands"
-msgstr "Umístěte karty na rozdané, tak aby tvořily pokerové kombinace"
-
-#: ../aisleriot/rules/poker.scm.h:2
-msgid "Shuffle mode"
-msgstr "Režim míchání"
-
-#: ../aisleriot/rules/royal_east.scm.h:9
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:6
-#: ../aisleriot/rules/westhaven.scm.h:4
-msgid "an empty tableau pile"
-msgstr "prázdná hromádka v rozdaných"
-
-#: ../aisleriot/rules/scorpion.scm.h:1
-msgid "Deal the cards"
-msgstr "Rozdat karty"
-
-#: ../aisleriot/rules/scuffle.scm.h:3
-msgid "Reshuffle cards"
-msgstr "Znovu zamíchat karty"
-
-#: ../aisleriot/rules/sir_tommy.scm.h:2
-msgid "Move waste on to a reserve slot"
-msgstr "Přesunout otočenou na pozici v odložených"
-
-#: ../aisleriot/rules/sir_tommy.scm.h:4
-msgid "empty foundation"
-msgstr "prázdné seřadiště"
-
-#: ../aisleriot/rules/spider.scm.h:2
-msgid "Four Suits"
-msgstr "Čtyři barvy"
-
-#: ../aisleriot/rules/spider.scm.h:3
-msgid "One Suit"
-msgstr "Jedna barva"
-
-#: ../aisleriot/rules/spider.scm.h:4
-msgid "Place something on empty slot"
-msgstr "Dejte něco na prázdnou pozici"
-
-#: ../aisleriot/rules/spider.scm.h:5
-msgid "Please fill in empty pile first."
-msgstr "Naplňte prosím nejprve prázdnou hromádku."
-
-#: ../aisleriot/rules/spider.scm.h:8
-msgid "Two Suits"
-msgstr "Dvě barvy"
-
-#: ../aisleriot/rules/spider.scm.h:9
-msgid "Undo until there are enough cards to fill all tableau piles"
-msgstr "Vracet tahy, než bude možné vyplnit všechny hromádky v rozdaných"
-
-#: ../aisleriot/rules/ten_across.scm.h:1
-msgid "Allow temporary spots use"
-msgstr "Povolit použití dočasných míst"
-
-#: ../aisleriot/rules/ten_across.scm.h:2
-msgid "Move a card to an empty temporary slot"
-msgstr "Přesunout kartu na prázdnou dočasnou pozici"
-
-#: ../aisleriot/rules/ten_across.scm.h:3
-msgid "No hint available"
-msgstr "Žádná rada není k dispozici"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:7
-msgid "Blondes and Brunettes"
-msgstr "Blondýny a brunety"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:10
-msgid "Falling Stars"
-msgstr "Padající hvězdy"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:12
-msgid "General's Patience"
-msgstr "Generálova trpělivost"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:15
-msgid "Redheads"
-msgstr "Rusovlásky"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:17
-msgid "Signora"
-msgstr "Slečna"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:22
-msgid "Wood"
-msgstr "Dřevo"
-
-#: ../aisleriot/rules/thieves.scm.h:1
-msgid "Deal a card from the deck"
-msgstr "Lízněte si kartu z balíku"
-
-#: ../aisleriot/rules/thirteen.scm.h:2
-msgid "Match the top two cards of the waste."
-msgstr "Spárovat dvě nejvrchnější karty z otočených."
-
-#: ../aisleriot/rules/triple_peaks.scm.h:2
-msgid "Multiplier Scoring"
-msgstr "Vícenásobné skórování"
-
-#: ../aisleriot/rules/triple_peaks.scm.h:3
-msgid "Progressive Rounds"
-msgstr "Progresivní kola"
-
-#: ../aisleriot/rules/union_square.scm.h:4
-msgid "appropriate foundation pile"
-msgstr "odpovídající hromádka seřadiště"
-
-#: ../aisleriot/rules/whitehead.scm.h:2
-msgid "Move a build of cards on to the empty Tableau slot"
-msgstr "Přesunout sestavu karet na prázdnou pozici v rozdaných"
-
-#: ../aisleriot/rules/zebra.scm.h:5
-msgid "the appropriate Foundation pile"
-msgstr "odpovídající hromádka seřadiště"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:1
 msgid "A flag to enable 3D mode"
@@ -2821,12 +103,10 @@ msgid "The height of the window"
 msgstr "Výška okna"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:17
-#| msgid "The puzzle in play"
 msgid "The opponent player"
 msgstr "Protihráč"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:18
-#| msgid "The piece style to use"
 msgid "The piece theme to use"
 msgstr "Vzhled figur, který se má použít"
 
@@ -2835,9 +115,6 @@ msgid "The piece to promote pawns to"
 msgstr "Na kterou figuru povýšit pěšce"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:20
-#| msgid ""
-#| "The piece to promote to when a human player moves a pawn to the far rank. "
-#| "Can be one of: 'queen', 'knight', 'rook', 'bishop'."
 msgid ""
 "The piece to promote to when a human player moves a pawn to the far rank"
 msgstr ""
@@ -2867,7 +144,7 @@ msgstr "Požá_dat o remízu"
 
 #. The New Game toolbar button
 #: ../glchess/data/glchess.ui.h:4
-#: ../libgames-support/games-scores-dialog.c:460
+#: ../libgames-support/games-scores-dialog.c:459
 msgid "New Game"
 msgstr "Nová hra"
 
@@ -2896,16 +173,44 @@ msgstr "Zobrazit následující tah"
 msgid "Show the previous move"
 msgstr "Zobrazit předchozí tah"
 
+#. Tooltip for start new game toolbar button
+#: ../glchess/data/glchess.ui.h:16 ../gnobots2/menu.c:71
+#: ../libgames-support/games-stock.c:50 ../mahjongg/mahjongg.c:1203
+msgid "Start a new game"
+msgstr "Začít novou hru"
+
 #. The undo move toolbar button
 #: ../glchess/data/glchess.ui.h:18
 msgid "Undo Move"
 msgstr "Vrátit tah"
 
 #. Help contents menu item
-#: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:255
-#: ../libgames-support/games-stock.c:294
+#: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:250
+#: ../libgames-support/games-stock.c:252
 msgid "_Contents"
 msgstr "_Obsah"
+
+#. Game menu name
+#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1639
+#: ../gnect/src/main.c:1241 ../gnibbles/main.c:687 ../gnobots2/menu.c:66
+#: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:226
+#: ../gnomine/gnomine.c:768 ../gnotravex/gnotravex.c:1706
+#: ../gnotski/gnotski.c:409 ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:847
+#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1200
+#: ../swell-foop/data/swell-foop.ui.h:2
+msgid "_Game"
+msgstr "_Hra"
+
+#. Help menu item
+#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1641
+#: ../gnect/src/main.c:1244 ../gnibbles/main.c:690 ../gnobots2/menu.c:70
+#: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:249
+#: ../gnomine/gnomine.c:770 ../gnotravex/gnotravex.c:1710
+#: ../gnotski/gnotski.c:411 ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:849
+#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1202
+#: ../swell-foop/data/swell-foop.ui.h:3
+msgid "_Help"
+msgstr "_Nápověda"
 
 #. Save menu item
 #: ../glchess/data/glchess.ui.h:26
@@ -2913,17 +218,17 @@ msgid "_Resign"
 msgstr "Ods_toupit"
 
 #. Settings menu item
-#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1641
-#: ../gnect/src/main.c:1244 ../gnibbles/main.c:689 ../gnobots2/menu.c:69
-#: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:245
-#: ../gnomine/gnomine.c:770 ../gnotravex/gnotravex.c:1709
+#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1640
+#: ../gnect/src/main.c:1243 ../gnibbles/main.c:689 ../gnobots2/menu.c:69
+#: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:240
+#: ../gnomine/gnomine.c:769 ../gnotravex/gnotravex.c:1708
 #: ../gtali/gyahtzee.c:712 ../iagno/gnothello.c:848
 #: ../mahjongg/mahjongg.c:1201
 msgid "_Settings"
 msgstr "_Nastavení"
 
 #. Undo move menu item
-#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:306
+#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:264
 msgid "_Undo Move"
 msgstr "Tah _zpět"
 
@@ -2968,9 +273,9 @@ msgid "Five minutes"
 msgstr "Pět minut"
 
 #. Preferences Dialog: Tab title for game preferences
-#: ../glchess/data/preferences.ui.h:18 ../gnect/src/prefs.c:302
+#: ../glchess/data/preferences.ui.h:18 ../gnect/src/prefs.c:301
 #: ../gnibbles/preferences.c:254 ../gnobots2/properties.c:496
-#: ../quadrapassel/tetris.cpp:590 ../iagno/properties.c:415
+#: ../quadrapassel/tetris.cpp:596 ../iagno/properties.c:415
 msgid "Game"
 msgstr "Hra"
 
@@ -3015,7 +320,7 @@ msgid "Play as:"
 msgstr "Hraje jako:"
 
 #. Title for preferences dialog
-#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:197
+#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:196
 #: ../mahjongg/mahjongg.c:141
 msgid "Preferences"
 msgstr "Předvolby"
@@ -3031,7 +336,7 @@ msgid "Show _History"
 msgstr "Zobrazit _historii"
 
 #. Preferences Dialog: Check box for selecting if toolbar is visible
-#: ../glchess/data/preferences.ui.h:42 ../gnome-sudoku/src/lib/main.py:275
+#: ../glchess/data/preferences.ui.h:42 ../gnome-sudoku/src/lib/main.py:270
 msgid "Show _Toolbar"
 msgstr "Zobrazi_t lištu nástrojů"
 
@@ -3175,7 +480,7 @@ msgid "Normal"
 msgstr "Normální"
 
 #. Title of the main window
-#: ../glchess/glchess.desktop.in.in.h:1 ../glchess/src/glchess.vala:218
+#: ../glchess/glchess.desktop.in.in.h:1 ../glchess/src/glchess.vala:221
 msgid "Chess"
 msgstr "Šachy"
 
@@ -3186,470 +491,531 @@ msgstr "Hrát klasickou šachovou hru pro dva hráče"
 #. Title of the window when explicitly loaded a file. The first argument is the
 #. * base name of the file (e.g. test.pgn), the second argument is the directory
 #. * (e.g. /home/fred)
-#: ../glchess/src/glchess.vala:226
+#: ../glchess/src/glchess.vala:229
 #, c-format
 msgid "%1$s (%2$s) - Chess"
 msgstr "%1$s (%2$s) - Šachy"
 
 #. Move History Combo: Go to the start of the game
-#: ../glchess/src/glchess.vala:235
+#: ../glchess/src/glchess.vala:238
 msgid "Game Start"
 msgstr "Začátek hry"
 
 #. Note there are no move formats for pieces taking kings and this is not allowed in Chess rules
 #. Human Move String: Description of a white pawn moving from %1$s to %2s, e.g. 'c2 to c4'
-#: ../glchess/src/glchess.vala:444
+#: ../glchess/src/glchess.vala:447
 #, c-format
 msgid "White pawn moves from %1$s to %2$s"
 msgstr "Bílý pěšák táhne z %1$s na %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:446
+#: ../glchess/src/glchess.vala:449
 #, c-format
 msgid "White pawn at %1$s takes the black pawn at %2$s"
 msgstr "Bílý pěšák z %1$s bere černého pěšáka na %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:448
+#: ../glchess/src/glchess.vala:451
 #, c-format
 msgid "White pawn at %1$s takes the black rook at %2$s"
 msgstr "Bílý pěšák z %1$s bere černou věž na %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:450
+#: ../glchess/src/glchess.vala:453
 #, c-format
 msgid "White pawn at %1$s takes the black knight at %2$s"
 msgstr "Bílý pěšák z %1$s bere černého koně na %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:452
+#: ../glchess/src/glchess.vala:455
 #, c-format
 msgid "White pawn at %1$s takes the black bishop at %2$s"
 msgstr "Bílý pěšák z %1$s bere černého střelce na %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:454
+#: ../glchess/src/glchess.vala:457
 #, c-format
 msgid "White pawn at %1$s takes the black queen at %2$s"
 msgstr "Bílý pěšák z %1$s bere černou dámu na %2$s"
 
 #. Human Move String: Description of a white rook moving from %1$s to %2$s, e.g. 'a1 to a5'
-#: ../glchess/src/glchess.vala:456
+#: ../glchess/src/glchess.vala:459
 #, c-format
 msgid "White rook moves from %1$s to %2$s"
 msgstr "Bílá věž táhne z %1$s na %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:458
+#: ../glchess/src/glchess.vala:461
 #, c-format
 msgid "White rook at %1$s takes the black pawn at %2$s"
 msgstr "Bílá věž z %1$s bere černého pěšáka na %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:460
+#: ../glchess/src/glchess.vala:463
 #, c-format
 msgid "White rook at %1$s takes the black rook at %2$s"
 msgstr "Bílá věž z %1$s bere černou věž na %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:462
+#: ../glchess/src/glchess.vala:465
 #, c-format
 msgid "White rook at %1$s takes the black knight at %2$s"
 msgstr "Bílá věž z %1$s bere černého koně na %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:464
+#: ../glchess/src/glchess.vala:467
 #, c-format
 msgid "White rook at %1$s takes the black bishop at %2$s"
 msgstr "Bílá věž z %1$s bere černého střelce na %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a queen at %2$s"
-#: ../glchess/src/glchess.vala:466
+#: ../glchess/src/glchess.vala:469
 #, c-format
 msgid "White rook at %1$s takes the black queen at %2$s"
 msgstr "Bílá věž z %1$s bere černou dámu na %2$s"
 
 #. Human Move String: Description of a white knight moving from %1$s to %2$s, e.g. 'b1 to c3'
-#: ../glchess/src/glchess.vala:468
+#: ../glchess/src/glchess.vala:471
 #, c-format
 msgid "White knight moves from %1$s to %2$s"
 msgstr "Bílý kůň táhne z %1$s na %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:470
+#: ../glchess/src/glchess.vala:473
 #, c-format
 msgid "White knight at %1$s takes the black pawn at %2$s"
 msgstr "Bílý kůň z %1$s bere černého pěšáka na %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:472
+#: ../glchess/src/glchess.vala:475
 #, c-format
 msgid "White knight at %1$s takes the black rook at %2$s"
 msgstr "Bílý kůň z %1$s bere černou věž na %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:474
+#: ../glchess/src/glchess.vala:477
 #, c-format
 msgid "White knight at %1$s takes the black knight at %2$s"
 msgstr "Bílý kůň z %1$s bere černého koně na %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:476
+#: ../glchess/src/glchess.vala:479
 #, c-format
 msgid "White knight at %1$s takes the black bishop at %2$s"
 msgstr "Bílý kůň z %1$s bere černého střelce na %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:478
+#: ../glchess/src/glchess.vala:481
 #, c-format
 msgid "White knight at %1$s takes the black queen at %2$s"
 msgstr "Bílý kůň z %1$s bere černou dámu na %2$s"
 
 #. Human Move String: Description of a white bishop moving from %1$s to %2$s, e.g. 'f1 to b5'
-#: ../glchess/src/glchess.vala:480
+#: ../glchess/src/glchess.vala:483
 #, c-format
 msgid "White bishop moves from %1$s to %2$s"
 msgstr "Bílý střelec táhne z %1$s na %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:482
+#: ../glchess/src/glchess.vala:485
 #, c-format
 msgid "White bishop at %1$s takes the black pawn at %2$s"
 msgstr "Bílý střelec z %1$s bere černého pěšáka na %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:484
+#: ../glchess/src/glchess.vala:487
 #, c-format
 msgid "White bishop at %1$s takes the black rook at %2$s"
 msgstr "Bílý střelec z %1$s bere černou věž na %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:486
+#: ../glchess/src/glchess.vala:489
 #, c-format
 msgid "White bishop at %1$s takes the black knight at %2$s"
 msgstr "Bílý střelec z %1$s bere černého koně na %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:488
+#: ../glchess/src/glchess.vala:491
 #, c-format
 msgid "White bishop at %1$s takes the black bishop at %2$s"
 msgstr "Bílý střelec z %1$s bere černého střelce na %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:490
+#: ../glchess/src/glchess.vala:493
 #, c-format
 msgid "White bishop at %1$s takes the black queen at %2$s"
 msgstr "Bílý střelec z %1$s bere černou dámu na %2$s"
 
 #. Human Move String: Description of a white queen moving from %1$s to %2$s, e.g. 'd1 to d4'
-#: ../glchess/src/glchess.vala:492
+#: ../glchess/src/glchess.vala:495
 #, c-format
 msgid "White queen moves from %1$s to %2$s"
 msgstr "Bílá dáma táhne z %1$s na %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:494
+#: ../glchess/src/glchess.vala:497
 #, c-format
 msgid "White queen at %1$s takes the black pawn at %2$s"
 msgstr "Bílá dáma z %1$s bere černého pěšáka na %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:496
+#: ../glchess/src/glchess.vala:499
 #, c-format
 msgid "White queen at %1$s takes the black rook at %2$s"
 msgstr "Bílá dáma z %1$s bere černou věž na %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:498
+#: ../glchess/src/glchess.vala:501
 #, c-format
 msgid "White queen at %1$s takes the black knight at %2$s"
 msgstr "Bílá dáma z %1$s bere černého koně na %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:500
+#: ../glchess/src/glchess.vala:503
 #, c-format
 msgid "White queen at %1$s takes the black bishop at %2$s"
 msgstr "Bílá dáma z %1$s bere černého střelce na %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:502
+#: ../glchess/src/glchess.vala:505
 #, c-format
 msgid "White queen at %1$s takes the black queen at %2$s"
 msgstr "Bílá dáma z %1$s bere černou dámu na %2$s"
 
 #. Human Move String: Description of a white king moving from %1$s to %2$s, e.g. 'e1 to f1'
-#: ../glchess/src/glchess.vala:504
+#: ../glchess/src/glchess.vala:507
 #, c-format
 msgid "White king moves from %1$s to %2$s"
 msgstr "Bílý král táhne z %1$s na %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:506
+#: ../glchess/src/glchess.vala:509
 #, c-format
 msgid "White king at %1$s takes the black pawn at %2$s"
 msgstr "Bílý král z %1$s bere černého pěšáka na %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:508
+#: ../glchess/src/glchess.vala:511
 #, c-format
 msgid "White king at %1$s takes the black rook at %2$s"
 msgstr "Bílý král z %1$s bere černou věž na %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:510
+#: ../glchess/src/glchess.vala:513
 #, c-format
 msgid "White king at %1$s takes the black knight at %2$s"
 msgstr "Bílý král z %1$s bere černého koně na %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:512
+#: ../glchess/src/glchess.vala:515
 #, c-format
 msgid "White king at %1$s takes the black bishop at %2$s"
 msgstr "Bílý král z %1$s bere černého střelce na %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:514
+#: ../glchess/src/glchess.vala:517
 #, c-format
 msgid "White king at %1$s takes the black queen at %2$s"
 msgstr "Bílý král z %1$s bere černou dámu na %2$s"
 
 #. Human Move String: Description of a black pawn moving from %1$s to %2$s, e.g. 'c8 to c6'
-#: ../glchess/src/glchess.vala:516
+#: ../glchess/src/glchess.vala:519
 #, c-format
 msgid "Black pawn moves from %1$s to %2$s"
 msgstr "Černý pěšák táhne z %1$s na %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:518
+#: ../glchess/src/glchess.vala:521
 #, c-format
 msgid "Black pawn at %1$s takes the white pawn at %2$s"
 msgstr "Černý pěšák z %1$s bere bílého pěšáka na %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:520
+#: ../glchess/src/glchess.vala:523
 #, c-format
 msgid "Black pawn at %1$s takes the white rook at %2$s"
 msgstr "Černý pěšák z %1$s bere bílou věž na %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:522
+#: ../glchess/src/glchess.vala:525
 #, c-format
 msgid "Black pawn at %1$s takes the white knight at %2$s"
 msgstr "Černý pěšák z %1$s bere bílého koně na %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:524
+#: ../glchess/src/glchess.vala:527
 #, c-format
 msgid "Black pawn at %1$s takes the white bishop at %2$s"
 msgstr "Černý pěšák z %1$s bere bílého střelce na %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:526
+#: ../glchess/src/glchess.vala:529
 #, c-format
 msgid "Black pawn at %1$s takes the white queen at %2$s"
 msgstr "Černý pěšák z %1$s bere bílou dámu na %2$s"
 
 #. Human Move String: Description of a black rook moving from %1$s to %2$s, e.g. 'a8 to a4'
-#: ../glchess/src/glchess.vala:528
+#: ../glchess/src/glchess.vala:531
 #, c-format
 msgid "Black rook moves from %1$s to %2$s"
 msgstr "Černá věž táhne z %1$s na %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:530
+#: ../glchess/src/glchess.vala:533
 #, c-format
 msgid "Black rook at %1$s takes the white pawn at %2$s"
 msgstr "Černá věž z %1$s bere bílého pěšáka na %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:532
+#: ../glchess/src/glchess.vala:535
 #, c-format
 msgid "Black rook at %1$s takes the white rook at %2$s"
 msgstr "Černá věž z %1$s bere bílou věž na %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:534
+#: ../glchess/src/glchess.vala:537
 #, c-format
 msgid "Black rook at %1$s takes the white knight at %2$s"
 msgstr "Černá věž z %1$s bere bílého koně na %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:536
+#: ../glchess/src/glchess.vala:539
 #, c-format
 msgid "Black rook at %1$s takes the white bishop at %2$s"
 msgstr "Černá věž z %1$s bere bílého střelce na %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:538
+#: ../glchess/src/glchess.vala:541
 #, c-format
 msgid "Black rook at %1$s takes the white queen at %2$s"
 msgstr "Černá věž z %1$s bere bílou dámu na %2$s"
 
 #. Human Move String: Description of a black knight moving from %1$s to %2$s, e.g. 'b8 to c6'
-#: ../glchess/src/glchess.vala:540
+#: ../glchess/src/glchess.vala:543
 #, c-format
 msgid "Black knight moves from %1$s to %2$s"
 msgstr "Černý kůň táhne z %1$s na %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:542
+#: ../glchess/src/glchess.vala:545
 #, c-format
 msgid "Black knight at %1$s takes the white pawn at %2$s"
 msgstr "Černý kůň z %1$s bere bílého pěšáka na %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:544
+#: ../glchess/src/glchess.vala:547
 #, c-format
 msgid "Black knight at %1$s takes the white rook at %2$s"
 msgstr "Černý kůň z %1$s bere bílou věž na %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:546
+#: ../glchess/src/glchess.vala:549
 #, c-format
 msgid "Black knight at %1$s takes the white knight at %2$s"
 msgstr "Černý kůň z %1$s bere bílého koně na %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:548
+#: ../glchess/src/glchess.vala:551
 #, c-format
 msgid "Black knight at %1$s takes the white bishop at %2$s"
 msgstr "Černý kůň z %1$s bere bílého střelce na %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:550
+#: ../glchess/src/glchess.vala:553
 #, c-format
 msgid "Black knight at %1$s takes the white queen at %2$s"
 msgstr "Černý kůň z %1$s bere bílou dámu na %2$s"
 
 #. Human Move String: Description of a black bishop moving from %1$s to %2$s, e.g. 'f8 to b3'
-#: ../glchess/src/glchess.vala:552
+#: ../glchess/src/glchess.vala:555
 #, c-format
 msgid "Black bishop moves from %1$s to %2$s"
 msgstr "Černý střelec táhne z %1$s na %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:554
+#: ../glchess/src/glchess.vala:557
 #, c-format
 msgid "Black bishop at %1$s takes the white pawn at %2$s"
 msgstr "Černý střelec z %1$s bere bílého pěšáka na %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:556
+#: ../glchess/src/glchess.vala:559
 #, c-format
 msgid "Black bishop at %1$s takes the white rook at %2$s"
 msgstr "Černý střelec z %1$s bere bílou věž na %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:558
+#: ../glchess/src/glchess.vala:561
 #, c-format
 msgid "Black bishop at %1$s takes the white knight at %2$s"
 msgstr "Černý střelec z %1$s bere bílého koně na %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:560
+#: ../glchess/src/glchess.vala:563
 #, c-format
 msgid "Black bishop at %1$s takes the white bishop at %2$s"
 msgstr "Černý střelec z %1$s bere bílého střelce na %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:562
+#: ../glchess/src/glchess.vala:565
 #, c-format
 msgid "Black bishop at %1$s takes the white queen at %2$s"
 msgstr "Černý střelec z %1$s bere bílou dámu na %2$s"
 
 #. Human Move String: Description of a black queen moving from %1$s to %2$s, e.g. 'd8 to d5'
-#: ../glchess/src/glchess.vala:564
+#: ../glchess/src/glchess.vala:567
 #, c-format
 msgid "Black queen moves from %1$s to %2$s"
 msgstr "Černá dáma táhne z %1$s na %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:566
+#: ../glchess/src/glchess.vala:569
 #, c-format
 msgid "Black queen at %1$s takes the white pawn at %2$s"
 msgstr "Černá dáma z %1$s bere bílého pěšáka na %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:568
+#: ../glchess/src/glchess.vala:571
 #, c-format
 msgid "Black queen at %1$s takes the white rook at %2$s"
 msgstr "Černá dáma z %1$s bere bílou věž na %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:570
+#: ../glchess/src/glchess.vala:573
 #, c-format
 msgid "Black queen at %1$s takes the white knight at %2$s"
 msgstr "Černá dáma z %1$s bere bílého koně na %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:572
+#: ../glchess/src/glchess.vala:575
 #, c-format
 msgid "Black queen at %1$s takes the white bishop at %2$s"
 msgstr "Černá dáma z %1$s bere bílého střelce na %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:574
+#: ../glchess/src/glchess.vala:577
 #, c-format
 msgid "Black queen at %1$s takes the white queen at %2$s"
 msgstr "Černá dáma z %1$s bere bílou dámu na %2$s"
 
 #. Human Move String: Description of a black king moving from %1$s to %2$s, e.g. 'e8 to f8'
-#: ../glchess/src/glchess.vala:576
+#: ../glchess/src/glchess.vala:579
 #, c-format
 msgid "Black king moves from %1$s to %2$s"
 msgstr "Černý král táhne z %1$s na %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:578
+#: ../glchess/src/glchess.vala:581
 #, c-format
 msgid "Black king at %1$s takes the white pawn at %2$s"
 msgstr "Černý král z %1$s bere bílého pěšáka na %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:580
+#: ../glchess/src/glchess.vala:583
 #, c-format
 msgid "Black king at %1$s takes the white rook at %2$s"
 msgstr "Černý král z %1$s bere bílou věž na %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:582
+#: ../glchess/src/glchess.vala:585
 #, c-format
 msgid "Black king at %1$s takes the white knight at %2$s"
 msgstr "Černý král z %1$s bere bílého koně na %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:584
+#: ../glchess/src/glchess.vala:587
 #, c-format
 msgid "Black king at %1$s takes the white bishop at %2$s"
 msgstr "Černý král z %1$s bere bílého střelce na %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a queen at %2$s"
-#: ../glchess/src/glchess.vala:586
+#: ../glchess/src/glchess.vala:589
 #, c-format
 msgid "Black king at %1$s takes the white queen at %2$s"
 msgstr "Černý král z %1$s bere bílou dámu na %2$s"
 
 #. Message display when the white player wins
-#: ../glchess/src/glchess.vala:706
+#: ../glchess/src/glchess.vala:709
 msgid "White wins"
 msgstr "Bílý vyhrává"
 
 #. Message display when the black player wins
-#: ../glchess/src/glchess.vala:711
+#: ../glchess/src/glchess.vala:714
 msgid "Black wins"
 msgstr "Černý vyhrává"
 
 #. Message display when the game is drawn
-#: ../glchess/src/glchess.vala:716
+#: ../glchess/src/glchess.vala:719
 msgid "Game is drawn"
 msgstr "Hra skončila remízou"
 
-#: ../glchess/src/glchess.vala:817
+#. Message displayed when the game ends due to a player being checkmated
+#: ../glchess/src/glchess.vala:731
+msgid "Opponent is in check and cannot move (checkmate)"
+msgstr "Protivník je v šachu a nemůže táhnout (mat)"
+
+#. Message displayed when the game terminates due to a stalemate
+#: ../glchess/src/glchess.vala:735
+msgid "Opponent cannot move (stalemate)"
+msgstr "Protivník nemůže táhnout (pat)"
+
+#. Message displayed when the game is drawn due to the fifty move rule
+#: ../glchess/src/glchess.vala:739
+msgid "No piece has been taken or pawn moved in the last fifty moves"
+msgstr ""
+"V posledních padesáti tazích nebyl vyhozena ani jedna figura a netáhl ani "
+"jeden pěšák"
+
+#. Message displayed when the game ends due to one player's clock stopping
+#: ../glchess/src/glchess.vala:743
+msgid "Opponent has run out of time"
+msgstr "Protivníkovi vypršel čas"
+
+#. Message displayed when the game is drawn due to the three-fold-repitition rule
+#: ../glchess/src/glchess.vala:747
+msgid "The same board state has occurred three times (three fold repetition)"
+msgstr ""
+"Šachovnice se ocitla třikrát ve stejném stavu (třikrát opakovaná pozice)"
+
+#. Message displayed when the game is drawn due to the insufficient material rule
+#: ../glchess/src/glchess.vala:751
+msgid "Neither player can cause checkmate (insufficient material)"
+msgstr "Žádný hráč nemůže způsobit mat (nedostatek figur)"
+
+#. Message displayed when the game ends due to the black player resigning
+#: ../glchess/src/glchess.vala:757
+msgid "The black player has resigned"
+msgstr "Černý hráč partii vzdal"
+
+#. Message displayed when the game ends due to the white player resigning
+#: ../glchess/src/glchess.vala:762
+msgid "The white player has resigned"
+msgstr "Bílý hráč partii vzdal"
+
+#. Message displayed when a game is abandoned
+#: ../glchess/src/glchess.vala:767
+msgid "The game has been abandoned"
+msgstr "Hra byla opuštěna"
+
+#. Message displayed when the game ends due to a player dying
+#: ../glchess/src/glchess.vala:772
+msgid "One of the players has died"
+msgstr "Jeden z hráčů prohrál"
+
+#: ../glchess/src/glchess.vala:820
 msgid "Save this game before starting a new one?"
 msgstr "Uložit tuto hru před spuštěním nové?"
 
+#: ../glchess/src/glchess.vala:822 ../gnome-sudoku/src/lib/main.py:437
+msgid "_Abandon game"
+msgstr "U_končit hru"
+
+#: ../glchess/src/glchess.vala:823 ../gnome-sudoku/src/lib/main.py:436
+msgid "_Save game for later"
+msgstr "_Uložit hru na později"
+
 #. Preferences Dialog: Combo box entry for a custom game timer set in seconds
-#: ../glchess/src/glchess.vala:1211
+#: ../glchess/src/glchess.vala:1214
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "sekunda"
@@ -3657,7 +1023,7 @@ msgstr[1] "sekundy"
 msgstr[2] "sekund"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in minutes
-#: ../glchess/src/glchess.vala:1215
+#: ../glchess/src/glchess.vala:1218
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "minuta"
@@ -3665,33 +1031,105 @@ msgstr[1] "minuty"
 msgstr[2] "minut"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in hours
-#: ../glchess/src/glchess.vala:1219
+#: ../glchess/src/glchess.vala:1222
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "hodina"
 msgstr[1] "hodiny"
 msgstr[2] "hodin"
 
-#: ../glines/glines.c:90 ../gnomine/gnomine.c:101
+#: ../glchess/src/glchess.vala:1342
+msgid ""
+"The 2D/3D chess game for GNOME. \n"
+"\n"
+"glChess is a part of GNOME Games."
+msgstr ""
+"2D a 3D šachy pro GNOME. \n"
+"\n"
+"glChess je součástí her GNOME."
+
+#: ../glchess/src/glchess.vala:1347 ../glines/glines.c:1218
+#: ../gnect/src/main.c:874 ../gnibbles/main.c:211 ../gnobots2/menu.c:263
+#: ../quadrapassel/tetris.cpp:1313 ../gnome-sudoku/src/lib/defaults.py.in:45
+#: ../gnomine/gnomine.c:479 ../gnotravex/gnotravex.c:1615
+#: ../gnotski/gnotski.c:1490 ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
+#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:911
+#: ../swell-foop/src/About.js:19
+msgid "GNOME Games web site"
+msgstr "Webové stránky her GNOME"
+
+#. Title of save game dialog
+#: ../glchess/src/glchess.vala:1401
+msgid "Save Chess Game"
+msgstr "Uložit šachovou partii"
+
+#. Save Game Dialog: Name of filter to show only PGN files
+#. Load Game Dialog: Name of filter to show only PGN files
+#: ../glchess/src/glchess.vala:1414 ../glchess/src/glchess.vala:1482
+msgid "PGN files"
+msgstr "Soubory PGN"
+
+#. Save Game Dialog: Name of filter to show all files
+#. Load Game Dialog: Name of filter to show all files
+#: ../glchess/src/glchess.vala:1421 ../glchess/src/glchess.vala:1489
+msgid "All files"
+msgstr "Všechny soubory"
+
+#: ../glchess/src/glchess.vala:1445
+#, c-format
+#| msgid "Unabled to save game"
+msgid "Failed to save game: %s"
+msgstr "Selhalo uložení hry: %s"
+
+#. Title of load game dialog
+#: ../glchess/src/glchess.vala:1469
+msgid "Load Chess Game"
+msgstr "Načíst šachovou partii"
+
+#: ../glchess/src/glchess.vala:1511
+#, c-format
+#| msgid "Unabled to load game"
+msgid "Failed to open game: %s"
+msgstr "Selhalo otevření hry: %s"
+
+#. Help string for command line --version flag
+#: ../glchess/src/glchess.vala:1572
+msgid "Show release version"
+msgstr "Zobrazit verzi vydání"
+
+#. Arguments and description for --help text
+#: ../glchess/src/glchess.vala:1587
+msgid "[FILE] - Play Chess"
+msgstr "[SOUBOR] – Hrát šachy"
+
+#. Text printed out when an unknown command-line argument provided
+#: ../glchess/src/glchess.vala:1598
+#, c-format
+msgid "Run '%s --help' to see a full list of available command line options."
+msgstr ""
+"Spuštěním „%s --help“ se zobrazíte úplný přehled dostupných přepínačů "
+"příkazové řádky."
+
+#: ../glines/glines.c:89 ../gnomine/gnomine.c:100
 msgctxt "board size"
 msgid "Small"
 msgstr "Malé"
 
-#: ../glines/glines.c:91 ../gnomine/gnomine.c:102
+#: ../glines/glines.c:90 ../gnomine/gnomine.c:101
 msgctxt "board size"
 msgid "Medium"
 msgstr "Střední"
 
-#: ../glines/glines.c:92 ../gnomine/gnomine.c:103
+#: ../glines/glines.c:91 ../gnomine/gnomine.c:102
 msgctxt "board size"
 msgid "Large"
 msgstr "Velké"
 
-#: ../glines/glines.c:191
+#: ../glines/glines.c:190
 msgid "Could not load theme"
 msgstr "Nelze načíst motiv"
 
-#: ../glines/glines.c:219
+#: ../glines/glines.c:218
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -3704,7 +1142,7 @@ msgstr ""
 "\n"
 "Bude místo něj načten výchozí motiv."
 
-#: ../glines/glines.c:226
+#: ../glines/glines.c:225
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -3717,33 +1155,33 @@ msgstr ""
 "\n"
 "Zkontrolujte prosím, že je hra Pět nebo víc správně nainstalována."
 
-#: ../glines/glines.c:445
+#: ../glines/glines.c:444
 msgid "Match five objects of the same type in a row to score!"
 msgstr "Seřazením pěti objektů stejného typu do řady získáte body!"
 
-#: ../glines/glines.c:507
+#: ../glines/glines.c:506
 msgid "GNOME Five or More"
 msgstr "GNOME Pět nebo víc"
 
-#: ../glines/glines.c:509
+#: ../glines/glines.c:508
 msgid "_Board size:"
 msgstr "Velikost hrací _desky:"
 
-#: ../glines/glines.c:526 ../swell-foop/src/Score.js:109
+#: ../glines/glines.c:525 ../swell-foop/src/Score.js:109
 msgid "Game Over!"
 msgstr "Konec hry!"
 
 #. Can't move there!
-#: ../glines/glines.c:683
+#: ../glines/glines.c:682
 msgid "You can't move there!"
 msgstr "Tam nemůžete táhnout!"
 
-#: ../glines/glines.c:1205 ../glines/glines.c:1208 ../glines/glines.c:1752
-#: ../glines/glines.c:1784 ../glines/glines.desktop.in.in.h:1
+#: ../glines/glines.c:1204 ../glines/glines.c:1207 ../glines/glines.c:1751
+#: ../glines/glines.c:1783 ../glines/glines.desktop.in.in.h:1
 msgid "Five or More"
 msgstr "Pět nebo víc"
 
-#: ../glines/glines.c:1210
+#: ../glines/glines.c:1209
 msgid ""
 "GNOME port of the once-popular Color Lines game.\n"
 "\n"
@@ -3753,40 +1191,69 @@ msgstr ""
 "\n"
 "Pět nebo víc je součástí her GNOME."
 
-#: ../glines/glines.c:1397
+#. this doesn't work for anyone
+#: ../glines/glines.c:1215 ../gnect/src/main.c:877 ../gnibbles/main.c:208
+#: ../gnobots2/menu.c:267 ../quadrapassel/tetris.cpp:1316
+#: ../gnome-sudoku/src/lib/main.py:704 ../gnomine/gnomine.c:476
+#: ../gnotravex/gnotravex.c:1612 ../gnotski/gnotski.c:1487
+#: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:270
+#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:908
+#: ../swell-foop/src/About.js:20
+msgid "translator-credits"
+msgstr ""
+"Jirka Lébl\n"
+"Michal Bukovjan <bukm@centrum.cz>\n"
+"Miloslav Trmač <mitr@volny.cz>\n"
+"Petr Tomeš <ptomes@gmail.com>\n"
+"Lukáš Novotný <lukasnov@cvs.gnome.org>\n"
+"Jakub Friedl <jfriedl@suse.cz>\n"
+"Jan Parkman <parkmaj@users.sourceforge.net>\n"
+"Petr Kovář <pknbe@volny.cz>\n"
+"Lucas Lommer <llommer@svn.gnome.org>\n"
+"Kamil Páral <ripper42@gmail.com>\n"
+"Marek Lisý <marek.lisy@centrum.cz>\n"
+"Petr Pulc <petrpulc@gmail.com>\n"
+"Marek Černocký <marek@manet.cz>"
+
+#: ../glines/glines.c:1396
 msgid "Five or More Preferences"
 msgstr "Předvolby hry Pět nebo víc"
 
-#: ../glines/glines.c:1416 ../gnect/src/prefs.c:334
+#: ../glines/glines.c:1415 ../gnect/src/prefs.c:333
 #: ../gnobots2/properties.c:535 ../iagno/properties.c:527
 #: ../lightsoff/data/settings.ui.h:1 ../swell-foop/data/settings.ui.h:1
 msgid "Appearance"
 msgstr "Vzhled"
 
-#: ../glines/glines.c:1424
+#: ../glines/glines.c:1423
 msgid "_Image:"
 msgstr "_Obrázek:"
 
-#: ../glines/glines.c:1435
+#: ../glines/glines.c:1434
 msgid "B_ackground color:"
 msgstr "Barva _pozadí:"
 
-#: ../glines/glines.c:1450
+#: ../glines/glines.c:1449
 msgid "Board Size"
 msgstr "Velikost hrací desky"
 
-#: ../glines/glines.c:1469
+#: ../glines/glines.c:1468
 msgctxt "preferences"
 msgid "General"
 msgstr "Obecné"
 
-#: ../glines/glines.c:1475
+#: ../glines/glines.c:1474
 msgid "_Use fast moves"
 msgstr "Používat _rychlé tahy"
 
-#: ../glines/glines.c:1811
+#: ../glines/glines.c:1810
 msgid "Next:"
 msgstr "Následující:"
+
+#: ../glines/glines.c:1840 ../gnobots2/statusbar.c:67
+#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:439
+msgid "Score:"
+msgstr "Skóre:"
 
 #: ../glines/glines.desktop.in.in.h:2
 msgid "Remove colored balls from the board by forming lines"
@@ -3867,7 +1334,7 @@ msgstr "Číslo určující preferovaný motiv."
 msgid "Animate"
 msgstr "Animace"
 
-#: ../gnect/data/gnect.schemas.in.h:3 ../gnect/src/prefs.c:373
+#: ../gnect/data/gnect.schemas.in.h:3 ../gnect/src/prefs.c:372
 msgid "Drop marble"
 msgstr "Položení kamene"
 
@@ -3893,21 +1360,30 @@ msgstr "Úroveň Hráče 1"
 msgid "Level of Player Two"
 msgstr "Úroveň Hráče 2"
 
-#: ../gnect/data/gnect.schemas.in.h:9 ../gnect/src/prefs.c:371
+#: ../gnect/data/gnect.schemas.in.h:9 ../gnect/src/prefs.c:370
 #: ../gnibbles/gnibbles.schemas.in.h:16 ../gnibbles/preferences.c:444
-#: ../quadrapassel/quadrapassel.schemas.in.h:13 ../quadrapassel/tetris.cpp:738
+#: ../quadrapassel/quadrapassel.schemas.in.h:13 ../quadrapassel/tetris.cpp:751
 msgid "Move left"
 msgstr "Pohyb doleva"
 
-#: ../gnect/data/gnect.schemas.in.h:10 ../gnect/src/prefs.c:372
+#: ../gnect/data/gnect.schemas.in.h:10 ../gnect/src/prefs.c:371
 #: ../gnibbles/gnibbles.schemas.in.h:17 ../gnibbles/preferences.c:445
-#: ../quadrapassel/quadrapassel.schemas.in.h:14 ../quadrapassel/tetris.cpp:739
+#: ../quadrapassel/quadrapassel.schemas.in.h:14 ../quadrapassel/tetris.cpp:752
 msgid "Move right"
 msgstr "Pohyb doprava"
+
+#: ../gnect/data/gnect.schemas.in.h:11 ../gnobots2/properties.c:483
+#: ../iagno/iagno.schemas.in.h:1
+msgid "Sound"
+msgstr "Zvuk"
 
 #: ../gnect/data/gnect.schemas.in.h:12
 msgid "Theme ID"
 msgstr "ID motivu"
+
+#: ../gnect/data/gnect.schemas.in.h:13 ../iagno/iagno.schemas.in.h:2
+msgid "Whether or not to play event sounds."
+msgstr "Zda přehrávat nebo nepřehrávat zvuky k událostem."
 
 #: ../gnect/data/gnect.schemas.in.h:14
 msgid "Whether or not to use animation."
@@ -3928,58 +1404,58 @@ msgstr ""
 "Nelze načíst obrázek:\n"
 "%s"
 
-#: ../gnect/src/main.c:528
+#: ../gnect/src/main.c:527
 msgid "It's a draw!"
 msgstr "Je to nerozhodně!"
 
-#: ../gnect/src/main.c:537 ../gnome-sudoku/src/lib/main.py:422
+#: ../gnect/src/main.c:536 ../gnome-sudoku/src/lib/main.py:417
 msgid "You win!"
 msgstr "Vyhráli jste!"
 
-#: ../gnect/src/main.c:539 ../gnect/src/main.c:572
+#: ../gnect/src/main.c:538 ../gnect/src/main.c:571
 msgid "It is your move."
 msgstr "Jste na tahu."
 
-#: ../gnect/src/main.c:542
+#: ../gnect/src/main.c:541
 msgid "I win!"
 msgstr "Vyhrál jsem!"
 
-#: ../gnect/src/main.c:544 ../gnect/src/main.c:677
+#: ../gnect/src/main.c:543 ../gnect/src/main.c:676
 msgid "Thinking..."
 msgstr "Přemýšlím…"
 
-#: ../gnect/src/main.c:565 ../gnect/src/main.c:569
+#: ../gnect/src/main.c:564 ../gnect/src/main.c:568
 #, c-format
 msgid "%s wins!"
 msgstr "%s vyhrál!"
 
-#: ../gnect/src/main.c:575
+#: ../gnect/src/main.c:574
 #, c-format
 msgid "Waiting for %s to move."
 msgstr "Na tahu je %s."
 
-#: ../gnect/src/main.c:694
+#: ../gnect/src/main.c:693
 #, c-format
 msgid "Hint: Column %d"
 msgstr "Rada: Sloupec %d"
 
-#: ../gnect/src/main.c:722 ../gnect/src/main.c:726
+#: ../gnect/src/main.c:721 ../gnect/src/main.c:725
 msgid "You:"
 msgstr "Vy:"
 
-#: ../gnect/src/main.c:723 ../gnect/src/main.c:725
+#: ../gnect/src/main.c:722 ../gnect/src/main.c:724
 msgid "Me:"
 msgstr "Já:"
 
-#: ../gnect/src/main.c:771
+#: ../gnect/src/main.c:770
 msgid "Scores"
 msgstr "Skóre"
 
-#: ../gnect/src/main.c:821
+#: ../gnect/src/main.c:820
 msgid "Drawn:"
 msgstr "Nerozhodně:"
 
-#: ../gnect/src/main.c:874
+#: ../gnect/src/main.c:873
 msgid ""
 "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
 "Bertoletti's Velena Engine.\n"
@@ -3991,7 +1467,12 @@ msgstr ""
 "\n"
 "Hra „Čtyři v řadě“ je součástí her GNOME."
 
-#: ../gnect/src/prefs.c:117
+#: ../gnect/src/main.c:1242 ../gnibbles/main.c:688 ../gnobots2/menu.c:67
+#: ../gnotski/gnotski.c:410
+msgid "_View"
+msgstr "_Zobrazit"
+
+#: ../gnect/src/prefs.c:116
 #, c-format
 msgid ""
 "Player One:\n"
@@ -4000,7 +1481,7 @@ msgstr ""
 "Hráč 1:\n"
 "%s"
 
-#: ../gnect/src/prefs.c:121
+#: ../gnect/src/prefs.c:120
 #, c-format
 msgid ""
 "Player Two:\n"
@@ -4009,46 +1490,46 @@ msgstr ""
 "Hráč 2:\n"
 "%s"
 
-#: ../gnect/src/prefs.c:250 ../gtali/gyahtzee.c:998 ../gtali/yahtzee.c:69
+#: ../gnect/src/prefs.c:249 ../gtali/gyahtzee.c:998 ../gtali/yahtzee.c:69
 #: ../iagno/properties.c:448 ../iagno/properties.c:489
 msgid "Human"
 msgstr "Člověk"
 
-#: ../gnect/src/prefs.c:252 ../iagno/properties.c:457
+#: ../gnect/src/prefs.c:251 ../iagno/properties.c:457
 #: ../iagno/properties.c:498
 msgid "Level one"
 msgstr "První úroveň"
 
-#: ../gnect/src/prefs.c:254 ../iagno/properties.c:466
+#: ../gnect/src/prefs.c:253 ../iagno/properties.c:466
 #: ../iagno/properties.c:507
 msgid "Level two"
 msgstr "Druhá úroveň"
 
-#: ../gnect/src/prefs.c:256 ../iagno/properties.c:475
+#: ../gnect/src/prefs.c:255 ../iagno/properties.c:475
 #: ../iagno/properties.c:516
 msgid "Level three"
 msgstr "Třetí úroveň"
 
-#: ../gnect/src/prefs.c:280
+#: ../gnect/src/prefs.c:279
 msgid "Four-in-a-Row Preferences"
 msgstr "Předvolby hry Čtyř-v-řadě"
 
-#: ../gnect/src/prefs.c:343
+#: ../gnect/src/prefs.c:342
 msgid "_Theme:"
 msgstr "_Motiv:"
 
-#: ../gnect/src/prefs.c:358
+#: ../gnect/src/prefs.c:357
 msgid "Enable _animation"
 msgstr "Povolit _animace"
 
-#: ../gnect/src/prefs.c:362 ../gnibbles/preferences.c:338
+#: ../gnect/src/prefs.c:361 ../gnibbles/preferences.c:338
 #: ../iagno/properties.c:436
 msgid "E_nable sounds"
 msgstr "Povolit _zvuky"
 
 #. keyboard tab
-#: ../gnect/src/prefs.c:367 ../gnibbles/preferences.c:434
-#: ../gnobots2/properties.c:542 ../quadrapassel/tetris.cpp:730
+#: ../gnect/src/prefs.c:366 ../gnibbles/preferences.c:434
+#: ../gnobots2/properties.c:542 ../quadrapassel/tetris.cpp:743
 msgid "Keyboard Controls"
 msgstr "Ovládání klávesnicí"
 
@@ -4133,7 +1614,7 @@ msgstr ""
 "\n"
 "Zkontrolujte prosím svou instalaci hry Červíci"
 
-#: ../gnibbles/gnibbles.c:95
+#: ../gnibbles/gnibbles.c:94
 #, c-format
 msgid ""
 "Nibbles couldn't find pixmap file:\n"
@@ -4146,28 +1627,28 @@ msgstr ""
 "\n"
 "Zkontrolujte prosím svou instalaci hry Červíci"
 
-#: ../gnibbles/gnibbles.c:367
+#: ../gnibbles/gnibbles.c:366
 msgid "Nibbles Scores"
 msgstr "Skóre Červíků"
 
-#: ../gnibbles/gnibbles.c:370
+#: ../gnibbles/gnibbles.c:369
 msgid "Speed:"
 msgstr "Rychlost:"
 
-#: ../gnibbles/gnibbles.c:375 ../gnobots2/game.c:179 ../gnomine/gnomine.c:224
-#: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:797
+#: ../gnibbles/gnibbles.c:374 ../gnobots2/game.c:179 ../gnomine/gnomine.c:223
+#: ../gnotravex/gnotravex.c:1089 ../gnotski/gnotski.c:797
 #: ../gtali/gyahtzee.c:197 ../mahjongg/mahjongg.c:630
 msgid "Congratulations!"
 msgstr "Blahopřejeme!"
 
-#: ../gnibbles/gnibbles.c:376 ../gnobots2/game.c:180 ../gnomine/gnomine.c:225
-#: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:798
+#: ../gnibbles/gnibbles.c:375 ../gnobots2/game.c:180 ../gnomine/gnomine.c:224
+#: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:798
 #: ../gtali/gyahtzee.c:198 ../mahjongg/mahjongg.c:631
 msgid "Your score is the best!"
 msgstr "Vaše skóre je nejlepší!"
 
-#: ../gnibbles/gnibbles.c:377 ../gnobots2/game.c:181 ../gnomine/gnomine.c:226
-#: ../gnotravex/gnotravex.c:1092 ../gnotski/gnotski.c:799
+#: ../gnibbles/gnibbles.c:376 ../gnobots2/game.c:181 ../gnomine/gnomine.c:225
+#: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:799
 #: ../gtali/gyahtzee.c:199 ../mahjongg/mahjongg.c:632
 msgid "Your score has made the top ten."
 msgstr "Vaše skóre se dostalo mezi deset nejlepších."
@@ -4178,7 +1659,7 @@ msgstr "Vést červa v bludišti"
 
 #: ../gnibbles/gnibbles.desktop.in.in.h:2 ../gnibbles/main.c:196
 #: ../gnibbles/main.c:199 ../gnibbles/main.c:798 ../gnibbles/main.c:877
-#: ../gnibbles/main.c:1021
+#: ../gnibbles/main.c:1007
 msgid "Nibbles"
 msgstr "Červíci"
 
@@ -4239,7 +1720,7 @@ msgid "Key to use for motion up."
 msgstr "Klávesa, která se má používat pro pohyb nahoru."
 
 #: ../gnibbles/gnibbles.schemas.in.h:15 ../gnibbles/preferences.c:447
-#: ../quadrapassel/quadrapassel.schemas.in.h:12 ../quadrapassel/tetris.cpp:740
+#: ../quadrapassel/quadrapassel.schemas.in.h:12 ../quadrapassel/tetris.cpp:753
 msgid "Move down"
 msgstr "Posunout dolů"
 
@@ -4390,7 +1871,7 @@ msgid "_Enable fake bonuses"
 msgstr "Povolit _falešné bonusy"
 
 #. starting level
-#: ../gnibbles/preferences.c:351 ../quadrapassel/tetris.cpp:637
+#: ../gnibbles/preferences.c:351 ../quadrapassel/tetris.cpp:643
 msgid "_Starting level:"
 msgstr "_Počáteční úroveň:"
 
@@ -4439,15 +1920,15 @@ msgstr "Červ %d:"
 msgid "Game over!"
 msgstr "Konec hry!"
 
-#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:200 ../gnotski/gnotski.c:772
+#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:199 ../gnotski/gnotski.c:772
 msgid "Great work, but unfortunately your score did not make the top ten."
 msgstr ""
 "Dobrá práce, ale vaše skóre se bohužel nedostalo mezi deset nejlepších."
 
 #. Translators: This "_New Game" is for the game-over dialogue
 #: ../gnobots2/game.c:154 ../gnome-sudoku/data/select_game.ui.h:1
-#: ../gnomine/gnomine.c:202 ../gnotski/gnotski.c:774
-#: ../libgames-support/games-stock.c:300
+#: ../gnomine/gnomine.c:201 ../gnotski/gnotski.c:774
+#: ../libgames-support/games-stock.c:258
 msgid "_New Game"
 msgstr "_Nová hra"
 
@@ -4481,6 +1962,10 @@ msgstr "Neexistují bezpečná umístění, kam se teleportovat!!"
 msgid "Set game scenario"
 msgstr "Nastavit scénář hry"
 
+#: ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
+msgid "NAME"
+msgstr "NÁZEV"
+
 #: ../gnobots2/gnobots.c:87
 msgid "Set game configuration"
 msgstr "Nastavit hru"
@@ -4489,14 +1974,14 @@ msgstr "Nastavit hru"
 msgid "Initial window position"
 msgstr "Počáteční poloha okna"
 
-#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:925 ../gnomine/gnomine.c:933
-#: ../gnotravex/gnotravex.c:262 ../gnotski/gnotski.c:457
+#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:924 ../gnomine/gnomine.c:932
+#: ../gnotravex/gnotravex.c:261 ../gnotski/gnotski.c:457
 #: ../iagno/gnothello.c:148
 msgid "X"
 msgstr "X"
 
-#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:927 ../gnomine/gnomine.c:935
-#: ../gnotravex/gnotravex.c:264 ../gnotski/gnotski.c:459
+#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:926 ../gnomine/gnomine.c:934
+#: ../gnotravex/gnotravex.c:263 ../gnotski/gnotski.c:459
 #: ../iagno/gnothello.c:150
 msgid "Y"
 msgstr "Y"
@@ -4795,7 +2280,7 @@ msgstr ""
 msgid "Could not find '%s' pixmap file\n"
 msgstr "Nelze nalézt soubor s bitmapou „%s“\n"
 
-#: ../gnobots2/menu.c:68 ../gnotravex/gnotravex.c:1708
+#: ../gnobots2/menu.c:68 ../gnotravex/gnotravex.c:1707
 msgid "_Move"
 msgstr "_Posunout"
 
@@ -4822,6 +2307,14 @@ msgstr "Č_ekat"
 #: ../gnobots2/menu.c:79
 msgid "Wait for the robots"
 msgstr "Čekat na roboty"
+
+#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1223
+msgid "_Toolbar"
+msgstr "_Lišta nástrojů"
+
+#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1223
+msgid "Show or hide the toolbar"
+msgstr "Zobrazit nebo skrýt lištu nástrojů"
 
 #: ../gnobots2/menu.c:264
 msgid ""
@@ -4906,7 +2399,7 @@ msgstr "Používat _super-bezpečné pohyby"
 msgid "Prevents all moves that result in getting killed."
 msgstr "Bránit všem tahům, které způsobí smrt."
 
-#: ../gnobots2/properties.c:488 ../quadrapassel/tetris.cpp:663
+#: ../gnobots2/properties.c:488 ../quadrapassel/tetris.cpp:669
 msgid "_Enable sounds"
 msgstr "_Povolit zvuky"
 
@@ -4952,12 +2445,12 @@ msgid "Fit falling blocks together"
 msgstr "Skládat padací bloky dohromady"
 
 #: ../quadrapassel/quadrapassel.desktop.in.in.h:2 ../quadrapassel/main.cpp:66
-#: ../quadrapassel/tetris.cpp:158 ../quadrapassel/tetris.cpp:1292
-#: ../quadrapassel/tetris.cpp:1295
+#: ../quadrapassel/tetris.cpp:158 ../quadrapassel/tetris.cpp:1305
+#: ../quadrapassel/tetris.cpp:1308
 msgid "Quadrapassel"
 msgstr "Quadrapassel"
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:1 ../quadrapassel/tetris.cpp:741
+#: ../quadrapassel/quadrapassel.schemas.in.h:1 ../quadrapassel/tetris.cpp:754
 msgid "Drop"
 msgstr "Upustit"
 
@@ -4993,11 +2486,11 @@ msgstr "Počáteční úroveň"
 msgid "Level to start with."
 msgstr "Počáteční úroveň."
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:15 ../quadrapassel/tetris.cpp:743
+#: ../quadrapassel/quadrapassel.schemas.in.h:15 ../quadrapassel/tetris.cpp:756
 msgid "Pause"
 msgstr "Pozastavit"
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:16 ../quadrapassel/tetris.cpp:742
+#: ../quadrapassel/quadrapassel.schemas.in.h:16 ../quadrapassel/tetris.cpp:755
 msgid "Rotate"
 msgstr "Otočit"
 
@@ -5110,61 +2603,61 @@ msgstr "Vyčistit"
 msgid "Lines:"
 msgstr "Řad:"
 
-#: ../quadrapassel/tetris.cpp:570
+#: ../quadrapassel/tetris.cpp:576
 msgid "Quadrapassel Preferences"
 msgstr "Předvolby Quadrapassel"
 
-#: ../quadrapassel/tetris.cpp:593 ../swell-foop/data/settings.ui.h:5
+#: ../quadrapassel/tetris.cpp:599 ../swell-foop/data/settings.ui.h:5
 msgid "Setup"
 msgstr "Nastavení"
 
 #. pre-filled rows
-#: ../quadrapassel/tetris.cpp:599
+#: ../quadrapassel/tetris.cpp:605
 msgid "_Number of pre-filled rows:"
 msgstr "_Počet předvyplněných řad:"
 
 #. pre-filled rows density
-#: ../quadrapassel/tetris.cpp:618
+#: ../quadrapassel/tetris.cpp:624
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Hustota kostek v předvyplněné řadě:"
 
-#: ../quadrapassel/tetris.cpp:658 ../swell-foop/data/settings.ui.h:4
+#: ../quadrapassel/tetris.cpp:664 ../swell-foop/data/settings.ui.h:4
 msgid "Operation"
 msgstr "Operace"
 
-#: ../quadrapassel/tetris.cpp:672
+#: ../quadrapassel/tetris.cpp:678
 msgid "_Preview next block"
 msgstr "_Náhled dalšího bloku"
 
-#: ../quadrapassel/tetris.cpp:681
+#: ../quadrapassel/tetris.cpp:687
 msgid "_Use random block colors"
 msgstr "Používat náhodné _barvy bloků"
 
-#: ../quadrapassel/tetris.cpp:692
+#: ../quadrapassel/tetris.cpp:698
 msgid "Choose difficult _blocks"
 msgstr "Zvolit obtížné _bloky"
 
-#: ../quadrapassel/tetris.cpp:701
+#: ../quadrapassel/tetris.cpp:714
 msgid "_Rotate blocks counterclockwise"
 msgstr "Otáčet bloky p_roti směru hodinových ručiček"
 
-#: ../quadrapassel/tetris.cpp:710
+#: ../quadrapassel/tetris.cpp:723
 msgid "Show _where the block will land"
 msgstr "Zobrazovat, _kam blok dopadne"
 
-#: ../quadrapassel/tetris.cpp:718 ../quadrapassel/tetris.cpp:751
+#: ../quadrapassel/tetris.cpp:731 ../quadrapassel/tetris.cpp:764
 msgid "Theme"
 msgstr "Motiv"
 
-#: ../quadrapassel/tetris.cpp:727
+#: ../quadrapassel/tetris.cpp:740
 msgid "Controls"
 msgstr "Ovládání"
 
-#: ../quadrapassel/tetris.cpp:754
+#: ../quadrapassel/tetris.cpp:767
 msgid "Block Style"
 msgstr "Styl bloků"
 
-#: ../quadrapassel/tetris.cpp:1297
+#: ../quadrapassel/tetris.cpp:1310
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -5181,6 +2674,10 @@ msgstr "Skóre Quadrapassel"
 #: ../quadrapassel/blockops.cpp:786
 msgid "Paused"
 msgstr "Pozastaveno"
+
+#: ../quadrapassel/blockops.cpp:788
+msgid "Game Over"
+msgstr "Konec hry"
 
 #: ../gnome-sudoku/gnome-sudoku.desktop.in.in.h:1
 #: ../gnome-sudoku/src/lib/defaults.py.in:40
@@ -5287,7 +2784,7 @@ msgstr "_Uložené hry"
 msgid "Add a new tracker"
 msgstr "Přidat nové sledování"
 
-#: ../gnome-sudoku/data/tracker.ui.h:2 ../gnome-sudoku/src/lib/main.py:790
+#: ../gnome-sudoku/data/tracker.ui.h:2 ../gnome-sudoku/src/lib/main.py:785
 msgid "H_ide"
 msgstr "_Skrýt"
 
@@ -5349,7 +2846,7 @@ msgstr ""
 "v libovolné novější verzi."
 
 #: ../gnome-sudoku/src/lib/defaults.py.in:55
-#: ../libgames-support/games-stock.c:391
+#: ../libgames-support/games-stock.c:328
 #, c-format, python-format
 msgid ""
 "%s is distributed in the hope that it will be useful, but WITHOUT ANY "
@@ -5362,7 +2859,7 @@ msgstr ""
 "ÚČEL. Více podrobností najdete přímo v licenci GNU General Public License."
 
 #: ../gnome-sudoku/src/lib/defaults.py.in:59
-#: ../libgames-support/games-stock.c:396
+#: ../libgames-support/games-stock.c:333
 #, c-format, python-format
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
@@ -5419,100 +2916,96 @@ msgstr "Nelze označit hru za dokončenou."
 msgid "Sudoku unable to mark game as finished."
 msgstr "Sudoku nemůže označit hru za vyřešenou."
 
-#: ../gnome-sudoku/src/lib/main.py:44
-msgid "Track moves"
-msgstr "Sledovat tahy"
-
-#: ../gnome-sudoku/src/lib/main.py:232
+#: ../gnome-sudoku/src/lib/main.py:227
 msgid "New game"
 msgstr "Nová hra"
 
 #. Translators: this is the "Reset" scores button in a scores dialogue
-#: ../gnome-sudoku/src/lib/main.py:233 ../libgames-support/games-stock.c:303
+#: ../gnome-sudoku/src/lib/main.py:228 ../libgames-support/games-stock.c:261
 msgid "_Reset"
 msgstr "_Vynulovat"
 
-#: ../gnome-sudoku/src/lib/main.py:235
+#: ../gnome-sudoku/src/lib/main.py:230
 msgid "_Undo"
 msgstr "Tah _zpět"
 
-#: ../gnome-sudoku/src/lib/main.py:236
+#: ../gnome-sudoku/src/lib/main.py:231
 msgid "Undo last action"
 msgstr "Vrátit poslední tah"
 
-#: ../gnome-sudoku/src/lib/main.py:237
+#: ../gnome-sudoku/src/lib/main.py:232
 msgid "_Redo"
 msgstr "Z_novu"
 
-#: ../gnome-sudoku/src/lib/main.py:238
+#: ../gnome-sudoku/src/lib/main.py:233
 msgid "Redo last action"
 msgstr "Provést znovu poslední vrácený tah"
 
-#: ../gnome-sudoku/src/lib/main.py:239
+#: ../gnome-sudoku/src/lib/main.py:234
 msgid "Puzzle _Statistics..."
 msgstr "_Statistiky hlavolamu…"
 
-#: ../gnome-sudoku/src/lib/main.py:241
+#: ../gnome-sudoku/src/lib/main.py:236
 msgid "_Print..."
 msgstr "_Tisk…"
 
-#: ../gnome-sudoku/src/lib/main.py:242
+#: ../gnome-sudoku/src/lib/main.py:237
 msgid "Print _Multiple Sudokus..."
 msgstr "Vytisknout ví_ce Sudoku…"
 
-#: ../gnome-sudoku/src/lib/main.py:247
+#: ../gnome-sudoku/src/lib/main.py:242
 msgid "_Tools"
 msgstr "_Nástroje"
 
-#: ../gnome-sudoku/src/lib/main.py:248 ../libgames-support/games-stock.c:296
+#: ../gnome-sudoku/src/lib/main.py:243 ../libgames-support/games-stock.c:254
 msgid "_Hint"
 msgstr "_Rada"
 
-#: ../gnome-sudoku/src/lib/main.py:249
+#: ../gnome-sudoku/src/lib/main.py:244
 msgid "Show a square that is easy to fill."
 msgstr "Ukázat políčka, které jsou snadná na vyplnění."
 
-#: ../gnome-sudoku/src/lib/main.py:250
+#: ../gnome-sudoku/src/lib/main.py:245
 msgid "Clear _Top Notes"
 msgstr "Vymazat _horní poznámky"
 
-#: ../gnome-sudoku/src/lib/main.py:252
+#: ../gnome-sudoku/src/lib/main.py:247
 msgid "Clear _Bottom Notes"
 msgstr "Vymazat _dolní poznámky"
 
-#: ../gnome-sudoku/src/lib/main.py:261
+#: ../gnome-sudoku/src/lib/main.py:256
 msgid "Show _Possible Numbers"
 msgstr "Zobrazovat _možná čísla"
 
-#: ../gnome-sudoku/src/lib/main.py:263
+#: ../gnome-sudoku/src/lib/main.py:258
 msgid "Always show possible numbers in a square"
 msgstr "Vždy zobrazovat možná čísla v políčku"
 
-#: ../gnome-sudoku/src/lib/main.py:267
+#: ../gnome-sudoku/src/lib/main.py:262
 msgid "Warn About _Unfillable Squares"
 msgstr "Va_rovat před nevyplnitelnými poli"
 
-#: ../gnome-sudoku/src/lib/main.py:269
+#: ../gnome-sudoku/src/lib/main.py:264
 msgid "Warn about squares made unfillable by a move"
 msgstr "Varovat před poli, která se tahem stanou nevyplnitelná"
 
-#: ../gnome-sudoku/src/lib/main.py:271
+#: ../gnome-sudoku/src/lib/main.py:266
 msgid "_Track Additions"
 msgstr "Sledova_t vyplněná čísla"
 
-#: ../gnome-sudoku/src/lib/main.py:273
+#: ../gnome-sudoku/src/lib/main.py:268
 msgid "Mark new additions in a separate color so you can keep track of them."
 msgstr "Označit nově vyplněná čísla jinou barvou, takže je můžete sledovat."
 
-#: ../gnome-sudoku/src/lib/main.py:276
+#: ../gnome-sudoku/src/lib/main.py:271
 msgid "_Highlighter"
 msgstr "Zvý_razňovat"
 
-#: ../gnome-sudoku/src/lib/main.py:277
+#: ../gnome-sudoku/src/lib/main.py:272
 msgid "Highlight the current row, column and box"
 msgstr "Zvýrazňovat aktuální řadu, sloupec a čtverec"
 
-#: ../gnome-sudoku/src/lib/main.py:397
+#: ../gnome-sudoku/src/lib/main.py:392
 #, python-format
 msgid "You completed the puzzle in %d second"
 msgid_plural "You completed the puzzle in %d seconds"
@@ -5520,7 +3013,7 @@ msgstr[0] "Dokončili jste hlavolam za %d sekundu."
 msgstr[1] "Dokončili jste hlavolam za %d sekundy."
 msgstr[2] "Dokončili jste hlavolam za %d sekund."
 
-#: ../gnome-sudoku/src/lib/main.py:402 ../gnome-sudoku/src/lib/main.py:410
+#: ../gnome-sudoku/src/lib/main.py:397 ../gnome-sudoku/src/lib/main.py:405
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
@@ -5528,7 +3021,7 @@ msgstr[0] "%d minutu"
 msgstr[1] "%d minuty"
 msgstr[2] "%d minut"
 
-#: ../gnome-sudoku/src/lib/main.py:403 ../gnome-sudoku/src/lib/main.py:411
+#: ../gnome-sudoku/src/lib/main.py:398 ../gnome-sudoku/src/lib/main.py:406
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
@@ -5536,12 +3029,12 @@ msgstr[0] "%d sekundu"
 msgstr[1] "%d sekundy"
 msgstr[2] "%d sekund"
 
-#: ../gnome-sudoku/src/lib/main.py:404
+#: ../gnome-sudoku/src/lib/main.py:399
 #, python-format
 msgid "You completed the puzzle in %(minute)s and %(second)s"
 msgstr "Dokončili jste hlavolam za %(minute)s a %(second)s"
 
-#: ../gnome-sudoku/src/lib/main.py:409
+#: ../gnome-sudoku/src/lib/main.py:404
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
@@ -5549,12 +3042,12 @@ msgstr[0] "%d hodinu"
 msgstr[1] "%d hodiny"
 msgstr[2] "%d hodin"
 
-#: ../gnome-sudoku/src/lib/main.py:412
+#: ../gnome-sudoku/src/lib/main.py:407
 #, python-format
 msgid "You completed the puzzle in %(hour)s, %(minute)s and %(second)s"
 msgstr "Dokončili jste hlavolam za %(hour)s, %(minute)s a %(second)s."
 
-#: ../gnome-sudoku/src/lib/main.py:414
+#: ../gnome-sudoku/src/lib/main.py:409
 #, python-format
 msgid "You got %(n)s hint."
 msgid_plural "You got %(n)s hints."
@@ -5562,7 +3055,7 @@ msgstr[0] "Máte %(n)s nápovědu."
 msgstr[1] "Máte %(n)s nápovědy."
 msgstr[2] "Máte %(n)s nápověd."
 
-#: ../gnome-sudoku/src/lib/main.py:417
+#: ../gnome-sudoku/src/lib/main.py:412
 #, python-format
 msgid "You had %(n)s impossibility pointed out."
 msgid_plural "You had %(n)s impossibilities pointed out."
@@ -5570,112 +3063,104 @@ msgstr[0] "Byli jste upozorněni na %(n)s nemožné řešení."
 msgstr[1] "Byli jste upozorněni na %(n)s nemožná řešení."
 msgstr[2] "Byli jste upozorněni na %(n)s nemožných řešení."
 
-#: ../gnome-sudoku/src/lib/main.py:440
+#: ../gnome-sudoku/src/lib/main.py:435
 msgid "Save this game before starting new one?"
 msgstr "Uložit tuto hru před spuštěním nové?"
 
-#: ../gnome-sudoku/src/lib/main.py:441
-msgid "_Save game for later"
-msgstr "_Uložit hru na později"
-
-#: ../gnome-sudoku/src/lib/main.py:442
-msgid "_Abandon game"
-msgstr "U_končit hru"
-
-#: ../gnome-sudoku/src/lib/main.py:460
+#: ../gnome-sudoku/src/lib/main.py:455
 msgid "Save game before closing?"
 msgstr "Uložit hru před ukončením?"
 
-#: ../gnome-sudoku/src/lib/main.py:658
+#: ../gnome-sudoku/src/lib/main.py:653
 msgid "Puzzle Information"
 msgstr "Informace o hlavolamu"
 
-#: ../gnome-sudoku/src/lib/main.py:659
+#: ../gnome-sudoku/src/lib/main.py:654
 msgid "There is no current puzzle."
 msgstr "Žádný aktuální hlavolam."
 
-#: ../gnome-sudoku/src/lib/main.py:664
+#: ../gnome-sudoku/src/lib/main.py:659
 msgid "Calculated difficulty: "
 msgstr "Vypočítaná obtížnost: "
 
-#: ../gnome-sudoku/src/lib/main.py:666 ../gnome-sudoku/src/lib/printing.py:182
-#: ../gnome-sudoku/src/lib/game_selector.py:122
+#: ../gnome-sudoku/src/lib/main.py:661 ../gnome-sudoku/src/lib/printing.py:182
+#: ../gnome-sudoku/src/lib/game_selector.py:121
 msgid "Easy"
 msgstr "Jednoduché"
 
-#: ../gnome-sudoku/src/lib/main.py:667 ../gnome-sudoku/src/lib/printing.py:183
-#: ../gnome-sudoku/src/lib/game_selector.py:123
+#: ../gnome-sudoku/src/lib/main.py:662 ../gnome-sudoku/src/lib/printing.py:183
+#: ../gnome-sudoku/src/lib/game_selector.py:122
 msgid "Medium"
 msgstr "Střední"
 
-#: ../gnome-sudoku/src/lib/main.py:668 ../gnome-sudoku/src/lib/printing.py:184
-#: ../gnome-sudoku/src/lib/game_selector.py:124
+#: ../gnome-sudoku/src/lib/main.py:663 ../gnome-sudoku/src/lib/printing.py:184
+#: ../gnome-sudoku/src/lib/game_selector.py:123
 msgid "Hard"
 msgstr "Těžké"
 
-#: ../gnome-sudoku/src/lib/main.py:669
+#: ../gnome-sudoku/src/lib/main.py:664
 msgid "Very Hard"
 msgstr "Velmi těžké"
 
-#: ../gnome-sudoku/src/lib/main.py:674
+#: ../gnome-sudoku/src/lib/main.py:669
 msgid "Number of moves instantly fillable by elimination: "
 msgstr "Počet tahů okamžitě vyřešitelných díky eliminaci: "
 
-#: ../gnome-sudoku/src/lib/main.py:677
+#: ../gnome-sudoku/src/lib/main.py:672
 msgid "Number of moves instantly fillable by filling: "
 msgstr "Počet tahů okamžitě vyřešitelných díky vyplňování: "
 
-#: ../gnome-sudoku/src/lib/main.py:680
+#: ../gnome-sudoku/src/lib/main.py:675
 msgid "Amount of trial-and-error required to solve: "
 msgstr "Počet vyžadovaných špatných pokusů k vyřešení: "
 
-#: ../gnome-sudoku/src/lib/main.py:683 ../gnome-sudoku/src/lib/main.py:684
+#: ../gnome-sudoku/src/lib/main.py:678 ../gnome-sudoku/src/lib/main.py:679
 msgid "Puzzle Statistics"
 msgstr "Statistiky hlavolamu"
 
 #. FIXME: This should create a pop-up dialog
-#: ../gnome-sudoku/src/lib/main.py:719
+#: ../gnome-sudoku/src/lib/main.py:714
 #, python-format
 msgid "Unable to display help: %s"
 msgstr "Nelze zobrazit nápovědu: %s"
 
-#: ../gnome-sudoku/src/lib/main.py:775
+#: ../gnome-sudoku/src/lib/main.py:770
 msgid "Untracked"
 msgstr "Nesledováno"
 
-#: ../gnome-sudoku/src/lib/main.py:784
+#: ../gnome-sudoku/src/lib/main.py:779
 msgid "_Remove"
 msgstr "Odst_ranit"
 
-#: ../gnome-sudoku/src/lib/main.py:785
+#: ../gnome-sudoku/src/lib/main.py:780
 msgid "Delete selected tracker."
 msgstr "Vymazat vybrané sledování."
 
-#: ../gnome-sudoku/src/lib/main.py:791
+#: ../gnome-sudoku/src/lib/main.py:786
 msgid "Hide current tracker entries."
 msgstr "Skrýt položky současného sledování."
 
-#: ../gnome-sudoku/src/lib/main.py:796
+#: ../gnome-sudoku/src/lib/main.py:791
 msgid "A_pply"
 msgstr "_Použít"
 
-#: ../gnome-sudoku/src/lib/main.py:797
+#: ../gnome-sudoku/src/lib/main.py:792
 msgid "Apply all tracked values and remove the tracker."
 msgstr "Použít všechny sledované hodnoty a odstranit sledování."
 
-#: ../gnome-sudoku/src/lib/main.py:833
+#: ../gnome-sudoku/src/lib/main.py:831
 #, python-format
 msgid "Tracker %s"
 msgstr "Sledování %s"
 
 #: ../gnome-sudoku/src/lib/printing.py:185
-#: ../gnome-sudoku/src/lib/game_selector.py:125
+#: ../gnome-sudoku/src/lib/game_selector.py:124
 msgid "Very hard"
 msgstr "Velmi těžké"
 
 #. Then we're today
 #. within the minute
-#: ../gnome-sudoku/src/lib/game_selector.py:161
+#: ../gnome-sudoku/src/lib/game_selector.py:160
 #, python-format
 msgid "Last played %(n)s second ago"
 msgid_plural "Last played %(n)s seconds ago"
@@ -5683,7 +3168,7 @@ msgstr[0] "Naposledy hráno před %(n)s sekundou"
 msgstr[1] "Naposledy hráno před %(n)s sekundami"
 msgstr[2] "Naposledy hráno před %(n)s sekundami"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:165
+#: ../gnome-sudoku/src/lib/game_selector.py:164
 #, python-format
 msgid "Last played %(n)s minute ago"
 msgid_plural "Last played %(n)s minutes ago"
@@ -5692,42 +3177,42 @@ msgstr[1] "Naposledy hráno před %(n)s minutami"
 msgstr[2] "Naposledy hráno před %(n)s minutami"
 
 #. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:169
+#: ../gnome-sudoku/src/lib/game_selector.py:168
 msgid "Last played at %I:%M %p"
 msgstr "Naposledy hráno v %H:%M"
 
 #. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:172
+#: ../gnome-sudoku/src/lib/game_selector.py:171
 msgid "Last played yesterday at %I:%M %p"
 msgstr "Naposledy hráno včera v %H:%M"
 
 #. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:175
+#: ../gnome-sudoku/src/lib/game_selector.py:174
 msgid "Last played on %A at %I:%M %p"
 msgstr "Naposledy hráno: %A v %H:%M"
 
 #. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:178
+#: ../gnome-sudoku/src/lib/game_selector.py:177
 msgid "Last played on %B %e %Y"
 msgstr "Naposledy hráno: %e. %B %Y"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:191
+#: ../gnome-sudoku/src/lib/game_selector.py:190
 msgid "Easy puzzle"
 msgstr "Jednoduchý hlavolam"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:192
+#: ../gnome-sudoku/src/lib/game_selector.py:191
 msgid "Medium puzzle"
 msgstr "Středně težký hlavolam"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:193
+#: ../gnome-sudoku/src/lib/game_selector.py:192
 msgid "Hard puzzle"
 msgstr "Těžký hlavolam"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:194
+#: ../gnome-sudoku/src/lib/game_selector.py:193
 msgid "Very hard puzzle"
 msgstr "Velmi těžký hlavolam"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:200
+#: ../gnome-sudoku/src/lib/game_selector.py:199
 #, python-format
 msgid "Played for %d hour"
 msgid_plural "Played for %d hours"
@@ -5735,7 +3220,7 @@ msgstr[0] "Odehrána %d hodina"
 msgstr[1] "Odehrány %d hodiny"
 msgstr[2] "Odehráno %d hodin"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:203
+#: ../gnome-sudoku/src/lib/game_selector.py:202
 #, python-format
 msgid "Played for %d minute"
 msgid_plural "Played for %d minutes"
@@ -5743,7 +3228,7 @@ msgstr[0] "Odehrána %d minuta"
 msgstr[1] "Odehrány %d minuty"
 msgstr[2] "Odehráno %d minut"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:206
+#: ../gnome-sudoku/src/lib/game_selector.py:205
 #, python-format
 msgid "Played for %d second"
 msgid_plural "Played for %d seconds"
@@ -5759,58 +3244,62 @@ msgstr "Jste si jisti?"
 msgid "Don't ask me this again."
 msgstr "Znovu se již neptat."
 
-#: ../gnome-sudoku/src/lib/number_box.py:57
+#: ../gnome-sudoku/src/lib/number_box.py:55
 msgid "_Clear"
 msgstr "Vyči_stit"
 
-#: ../gnomine/gnomine.c:54 ../gnomine/gnomine.desktop.in.in.h:2
+#: ../gnomine/gnomine.c:53 ../gnomine/gnomine.desktop.in.in.h:2
 msgid "Mines"
 msgstr "Miny"
 
-#: ../gnomine/gnomine.c:104
+#: ../gnomine/gnomine.c:103
 msgctxt "board size"
 msgid "Custom"
 msgstr "Vlastní"
 
-#: ../gnomine/gnomine.c:170
+#: ../gnomine/gnomine.c:169
 #, c-format
 msgid "Flags: %d/%d"
 msgstr "Vlaječek: %d/%d"
 
-#: ../gnomine/gnomine.c:198
+#: ../gnomine/gnomine.c:197
 msgid "The Mines Have Been Cleared!"
 msgstr "Miny byly vyčištěny!"
 
-#: ../gnomine/gnomine.c:214
+#: ../gnomine/gnomine.c:213
 msgid "Mines Scores"
 msgstr "Skóre hry Miny"
 
-#: ../gnomine/gnomine.c:217 ../gnotravex/gnotravex.c:1085
+#: ../gnomine/gnomine.c:216 ../gnotravex/gnotravex.c:1084
 #: ../swell-foop/src/Score.js:56
 msgid "Size:"
 msgstr "Velikost:"
 
-#: ../gnomine/gnomine.c:322
+#: ../gnomine/gnomine.c:321
 msgid "Click a square, any square"
 msgstr "Klikněte na libovolné pole"
 
-#: ../gnomine/gnomine.c:324
+#: ../gnomine/gnomine.c:323
 msgid "Maybe they're all mines ..."
 msgstr "Možná jsou to všechno miny…"
 
-#: ../gnomine/gnomine.c:443
+#: ../gnomine/gnomine.c:436 ../mahjongg/mahjongg.c:867
+msgid "Main game:"
+msgstr "Hlavní hra:"
+
+#: ../gnomine/gnomine.c:442
 msgid "Resizing and SVG support:"
 msgstr "Změna velikosti a podpora SVG:"
 
-#: ../gnomine/gnomine.c:450
+#: ../gnomine/gnomine.c:449
 msgid "Faces:"
 msgstr "Tváře:"
 
-#: ../gnomine/gnomine.c:453
+#: ../gnomine/gnomine.c:452
 msgid "Graphics:"
 msgstr "Grafika:"
 
-#: ../gnomine/gnomine.c:469
+#: ../gnomine/gnomine.c:468
 msgid ""
 "The popular logic puzzle minesweeper. Clear mines from a board using hints "
 "from squares you have already uncovered.\n"
@@ -5822,77 +3311,82 @@ msgstr ""
 "\n"
 "Miny jsou součástí her GNOME."
 
-#: ../gnomine/gnomine.c:632
+#: ../gnomine/gnomine.c:631
 msgid "Field Size"
 msgstr "Velikost pole"
 
-#: ../gnomine/gnomine.c:655
+#: ../gnomine/gnomine.c:654
 msgid "Custom Size"
 msgstr "Vlastní velikost"
 
-#: ../gnomine/gnomine.c:662
+#: ../gnomine/gnomine.c:661
 msgid "_Number of mines:"
 msgstr "_Počet min:"
 
-#: ../gnomine/gnomine.c:675
+#: ../gnomine/gnomine.c:674
 msgid "_Horizontal:"
 msgstr "_Vodorovně:"
 
-#: ../gnomine/gnomine.c:687
+#: ../gnomine/gnomine.c:686
 msgid "_Vertical:"
 msgstr "_Svisle:"
 
-#: ../gnomine/gnomine.c:704
+#: ../gnomine/gnomine.c:703
 msgid "Flags"
 msgstr "Vlaječek"
 
-#: ../gnomine/gnomine.c:707
+#: ../gnomine/gnomine.c:706
 msgid "_Use \"I'm not sure\" flags"
 msgstr "Používat vlaječky „_Nejsem si jist(á)“"
 
-#: ../gnomine/gnomine.c:718
+#: ../gnomine/gnomine.c:717
 msgid "Warnings"
 msgstr "Varování"
 
-#: ../gnomine/gnomine.c:721
+#: ../gnomine/gnomine.c:720
 msgid "_Use \"Too many flags\" warning"
 msgstr "Po_užít varování „Příliš mnoho vlaječek“"
 
-#: ../gnomine/gnomine.c:732
+#: ../gnomine/gnomine.c:731
 msgid "Mines Preferences"
 msgstr "Předvolby Min"
 
-#: ../gnomine/gnomine.c:925
+#: ../gnomine/gnomine.c:924
 msgid "Width of grid"
 msgstr "Šířka mřížky"
 
-#: ../gnomine/gnomine.c:926
+#: ../gnomine/gnomine.c:925
 msgid "Height of grid"
 msgstr "Výška mřížky"
 
-#: ../gnomine/gnomine.c:928
+#: ../gnomine/gnomine.c:927
 msgid "Number of mines"
 msgstr "Počet min"
 
-#: ../gnomine/gnomine.c:931 ../gnomine/gnomine.schemas.in.h:8
+#: ../gnomine/gnomine.c:928 ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109
+#: ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
+msgid "NUMBER"
+msgstr "ČÍSLO"
+
+#: ../gnomine/gnomine.c:930 ../gnomine/gnomine.schemas.in.h:8
 msgid "Size of the board (0-2 = small-large, 3=custom)"
 msgstr "Velikost desky (0-2 = malá-velká, 3=vlastní)"
 
-#: ../gnomine/gnomine.c:932 ../gnotravex/gnotravex.c:261
+#: ../gnomine/gnomine.c:931 ../gnotravex/gnotravex.c:260
 #: ../gnotski/gnotski.c:456 ../iagno/gnothello.c:147
 msgid "X location of window"
 msgstr "Umístění X okna"
 
-#: ../gnomine/gnomine.c:934 ../gnotravex/gnotravex.c:263
+#: ../gnomine/gnomine.c:933 ../gnotravex/gnotravex.c:262
 #: ../gnotski/gnotski.c:458 ../iagno/gnothello.c:149
 msgid "Y location of window"
 msgstr "Umístění Y okna"
 
-#: ../gnomine/gnomine.c:1070
+#: ../gnomine/gnomine.c:1069
 msgid "Press to Resume"
 msgstr "Pokračujte stisknutím"
 
-#: ../gnomine/gnomine.c:1104
+#: ../gnomine/gnomine.c:1103
 msgid "Time: "
 msgstr "Čas: "
 
@@ -5946,7 +3440,7 @@ msgstr "Používat vlaječku neznámého"
 msgid "Warning about too many flags"
 msgstr "Varování, když máte příliš mnoho vlaječek"
 
-#: ../gnomine/minefield.c:207
+#: ../gnomine/minefield.c:206
 msgid ""
 "Unable to find required images.\n"
 "\n"
@@ -5956,7 +3450,7 @@ msgstr ""
 "\n"
 "Zkontrolujte prosím vaši instalaci gnome-games."
 
-#: ../gnomine/minefield.c:229
+#: ../gnomine/minefield.c:228
 msgid ""
 "Required images have been found, but refused to load.\n"
 "\n"
@@ -5966,155 +3460,159 @@ msgstr ""
 "\n"
 "Zkontrolujte prosím vaši instalaci gnome-games a příslušných závislostí."
 
-#: ../gnomine/minefield.c:238
+#: ../gnomine/minefield.c:237
 msgid "Could not load images"
 msgstr "Nelze načíst obrázky"
 
-#: ../gnotravex/gnotravex.c:46 ../gnotravex/gnotravex.desktop.in.in.h:2
+#: ../gnotravex/gnotravex.c:45 ../gnotravex/gnotravex.desktop.in.in.h:2
 msgid "Tetravex"
 msgstr "Tetravex"
 
-#: ../gnotravex/gnotravex.c:115
+#: ../gnotravex/gnotravex.c:114
 msgid "2×2"
 msgstr "2×2"
 
-#: ../gnotravex/gnotravex.c:116
+#: ../gnotravex/gnotravex.c:115
 msgid "3×3"
 msgstr "3×3"
 
-#: ../gnotravex/gnotravex.c:117
+#: ../gnotravex/gnotravex.c:116
 msgid "4×4"
 msgstr "4×4"
 
-#: ../gnotravex/gnotravex.c:118
+#: ../gnotravex/gnotravex.c:117
 msgid "5×5"
 msgstr "5×5"
 
-#: ../gnotravex/gnotravex.c:119
+#: ../gnotravex/gnotravex.c:118
 msgid "6×6"
 msgstr "6×6"
 
-#: ../gnotravex/gnotravex.c:198
+#: ../gnotravex/gnotravex.c:197
 msgid "_2×2"
 msgstr "_2×2"
 
-#: ../gnotravex/gnotravex.c:198
+#: ../gnotravex/gnotravex.c:197
 msgid "Play on a 2×2 board"
 msgstr "Hrát na desce o rozměrech 2×2"
 
-#: ../gnotravex/gnotravex.c:200
+#: ../gnotravex/gnotravex.c:199
 msgid "_3×3"
 msgstr "_3×3"
 
-#: ../gnotravex/gnotravex.c:200
+#: ../gnotravex/gnotravex.c:199
 msgid "Play on a 3×3 board"
 msgstr "Hrát na desce o rozměrech 3×3"
 
-#: ../gnotravex/gnotravex.c:202
+#: ../gnotravex/gnotravex.c:201
 msgid "_4×4"
 msgstr "_4×4"
 
-#: ../gnotravex/gnotravex.c:202
+#: ../gnotravex/gnotravex.c:201
 msgid "Play on a 4×4 board"
 msgstr "Hrát na desce o rozměrech 4×4"
 
-#: ../gnotravex/gnotravex.c:204
+#: ../gnotravex/gnotravex.c:203
 msgid "_5×5"
 msgstr "_5×5"
 
-#: ../gnotravex/gnotravex.c:204
+#: ../gnotravex/gnotravex.c:203
 msgid "Play on a 5×5 board"
 msgstr "Hrát na desce o rozměrech 5×5"
 
-#: ../gnotravex/gnotravex.c:206
+#: ../gnotravex/gnotravex.c:205
 msgid "_6×6"
 msgstr "_6×6"
 
-#: ../gnotravex/gnotravex.c:206
+#: ../gnotravex/gnotravex.c:205
 msgid "Play on a 6×6 board"
 msgstr "Hrát na desce o rozměrech 6×6"
 
-#: ../gnotravex/gnotravex.c:265
+#: ../gnotravex/gnotravex.c:264
 msgid "Size of board (2-6)"
 msgstr "Velikost desky (2-6)"
 
-#: ../gnotravex/gnotravex.c:266
+#: ../gnotravex/gnotravex.c:265
 msgid "SIZE"
 msgstr "VELIKOST"
 
 #. Translators: in-game numbers, replaceable with single-character local ideograms
-#: ../gnotravex/gnotravex.c:460
+#: ../gnotravex/gnotravex.c:459
 msgctxt "number"
 msgid "0"
 msgstr "0"
 
-#: ../gnotravex/gnotravex.c:461
+#: ../gnotravex/gnotravex.c:460
 msgctxt "number"
 msgid "1"
 msgstr "1"
 
-#: ../gnotravex/gnotravex.c:462
+#: ../gnotravex/gnotravex.c:461
 msgctxt "number"
 msgid "2"
 msgstr "2"
 
-#: ../gnotravex/gnotravex.c:463
+#: ../gnotravex/gnotravex.c:462
 msgctxt "number"
 msgid "3"
 msgstr "3"
 
-#: ../gnotravex/gnotravex.c:464
+#: ../gnotravex/gnotravex.c:463
 msgctxt "number"
 msgid "4"
 msgstr "4"
 
-#: ../gnotravex/gnotravex.c:465
+#: ../gnotravex/gnotravex.c:464
 msgctxt "number"
 msgid "5"
 msgstr "5"
 
-#: ../gnotravex/gnotravex.c:466
+#: ../gnotravex/gnotravex.c:465
 msgctxt "number"
 msgid "6"
 msgstr "6"
 
-#: ../gnotravex/gnotravex.c:467
+#: ../gnotravex/gnotravex.c:466
 msgctxt "number"
 msgid "7"
 msgstr "7"
 
-#: ../gnotravex/gnotravex.c:468
+#: ../gnotravex/gnotravex.c:467
 msgctxt "number"
 msgid "8"
 msgstr "8"
 
-#: ../gnotravex/gnotravex.c:469
+#: ../gnotravex/gnotravex.c:468
 msgctxt "number"
 msgid "9"
 msgstr "9"
 
-#: ../gnotravex/gnotravex.c:913 ../mahjongg/mahjongg.c:935
+#: ../gnotravex/gnotravex.c:912 ../mahjongg/mahjongg.c:935
 msgid "Game paused"
 msgstr "Hra pozastavena"
 
-#: ../gnotravex/gnotravex.c:975
+#: ../gnotravex/gnotravex.c:974
 #, c-format
 msgid "Playing %d×%d board"
 msgstr "Hraje se na desce %d×%d"
 
-#: ../gnotravex/gnotravex.c:1083
+#: ../gnotravex/gnotravex.c:1082
 msgid "Tetravex Scores"
 msgstr "Skóre Tetravex"
 
-#: ../gnotravex/gnotravex.c:1145
+#: ../gnotravex/gnotravex.c:1144
 msgid "Puzzle solved! Well done!"
 msgstr "Hlavolam vyřešen! Výborně!"
 
-#: ../gnotravex/gnotravex.c:1147
+#: ../gnotravex/gnotravex.c:1146
 msgid "Puzzle solved!"
 msgstr "Hlavolam vyřešen!"
 
-#: ../gnotravex/gnotravex.c:1603
+#: ../gnotravex/gnotravex.c:1401 ../mahjongg/mahjongg.c:1407
+msgid "Time:"
+msgstr "Čas:"
+
+#: ../gnotravex/gnotravex.c:1602
 msgid ""
 "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
 "the same numbers are touching each other.\n"
@@ -6126,53 +3624,61 @@ msgstr ""
 "\n"
 "Tetravex je součást Her pro GNOME."
 
-#: ../gnotravex/gnotravex.c:1710
+#: ../gnotravex/gnotravex.c:1709
 msgid "_Size"
 msgstr "_Velikost"
 
-#: ../gnotravex/gnotravex.c:1715
+#: ../gnotravex/gnotravex.c:1714
 msgid "Sol_ve"
 msgstr "_Vyřešit"
 
-#: ../gnotravex/gnotravex.c:1715
+#: ../gnotravex/gnotravex.c:1714
 msgid "Solve the game"
 msgstr "Vyřešit hru"
 
-#: ../gnotravex/gnotravex.c:1719
+#: ../gnotravex/gnotravex.c:1718
 msgid "_Up"
 msgstr "Na_horu"
 
-#: ../gnotravex/gnotravex.c:1720
+#: ../gnotravex/gnotravex.c:1719
 msgid "Move the pieces up"
 msgstr "Posunout díly nahoru"
 
-#: ../gnotravex/gnotravex.c:1721
+#: ../gnotravex/gnotravex.c:1720
 msgid "_Left"
 msgstr "Do_leva"
 
-#: ../gnotravex/gnotravex.c:1722
+#: ../gnotravex/gnotravex.c:1721
 msgid "Move the pieces left"
 msgstr "Posunout díly doleva"
 
-#: ../gnotravex/gnotravex.c:1723
+#: ../gnotravex/gnotravex.c:1722
 msgid "_Right"
 msgstr "Do_prava"
 
-#: ../gnotravex/gnotravex.c:1724
+#: ../gnotravex/gnotravex.c:1723
 msgid "Move the pieces right"
 msgstr "Posunout díly doprava"
 
-#: ../gnotravex/gnotravex.c:1725
+#: ../gnotravex/gnotravex.c:1724
 msgid "_Down"
 msgstr "_Dolů"
 
-#: ../gnotravex/gnotravex.c:1726
+#: ../gnotravex/gnotravex.c:1725
 msgid "Move the pieces down"
 msgstr "Posunout díly dolů"
+
+#: ../gnotravex/gnotravex.c:1730
+msgid "_Click to Move"
+msgstr "_Přesouvat kliknutími"
 
 #: ../gnotravex/gnotravex.desktop.in.in.h:1
 msgid "Complete the puzzle by matching numbered tiles"
 msgstr "Vyřešte skládačku spojováním očíslovaných dlaždic"
+
+#: ../gnotravex/gnotravex.schemas.in.h:1
+msgid "Select the style of control"
+msgstr "Zvolte styl ovládání"
 
 #: ../gnotravex/gnotravex.schemas.in.h:2
 msgid ""
@@ -6936,195 +4442,165 @@ msgstr "Zobrazit volby správy sezení"
 msgid "Unknown Command"
 msgstr "Neznámý příkaz"
 
-#: ../libgames-support/games-gridframe.c:224
-#: ../libgames-support/games-gridframe.c:232
-msgid "X Padding"
-msgstr "Mezera X"
-
-#: ../libgames-support/games-gridframe.c:226
-msgid "Extra space to add to the width allocation."
-msgstr "Další místo, které přidat k alokaci šířky."
-
-#: ../libgames-support/games-gridframe.c:234
-msgid "Extra space to add to the height allocation."
-msgstr "Další místo, které přidat k alokaci výšky."
-
-#: ../libgames-support/games-gridframe.c:240
-msgid "Width Multiple"
-msgstr "Násobek šířky"
-
-#: ../libgames-support/games-gridframe.c:242
-msgid "What multiple to constrain the width to."
-msgstr "Na jaké násobky omezit šířku."
-
-#: ../libgames-support/games-gridframe.c:248
-msgid "Height Multiple"
-msgstr "Násobek výšky"
-
-#: ../libgames-support/games-gridframe.c:250
-msgid "What multiple to constrain the height to."
-msgstr "Na jaké násobky omezit výšku."
-
-#: ../libgames-support/games-gridframe.c:255
-msgid "X align"
-msgstr "Zarovnání X"
-
-#: ../libgames-support/games-gridframe.c:257
-msgid "The horizontal alignment, from 0 (left) to 1 (right)"
-msgstr "Vodorovné zarovnání od 0 (levé) do 1 (pravé)"
-
-#: ../libgames-support/games-gridframe.c:262
-msgid "Y align"
-msgstr "Zarovnání Y"
-
-#: ../libgames-support/games-gridframe.c:264
-msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
-msgstr "Svislé zarovnání od 0 (levé) do 1 (pravé)"
-
 #. %s.%s is the game name + the extension HTML or XHTML, e.g. Klondike.html"
-#: ../libgames-support/games-help.c:114
+#: ../libgames-support/games-help.c:109
 #, c-format
 msgid "Help file “%s.%s” not found"
 msgstr "Soubor nápovědy „%s.%s“ nenalezen"
 
-#: ../libgames-support/games-runtime.c:273
-msgid "Could not show link"
-msgstr "Nelze zobrazit odkaz"
+#: ../libgames-support/games-help.c:147
+#, c-format
+msgid "Could not show help for “%s”"
+msgstr "Nelze zobrazit nápovědu pro „%s“"
+
+#: ../libgames-support/games-scores-dialog.c:135
+msgid "Time"
+msgstr "Čas"
 
 #. Note that this assumes the default style is plain.
-#: ../libgames-support/games-scores-dialog.c:141
-#: ../libgames-support/games-scores-dialog.c:566
+#: ../libgames-support/games-scores-dialog.c:140
+#: ../libgames-support/games-scores-dialog.c:565
 msgid "Score"
 msgstr "Skóre"
 
 #. Translators: this is for a minutes, seconds time display.
-#: ../libgames-support/games-scores-dialog.c:299
+#: ../libgames-support/games-scores-dialog.c:298
 #, c-format
 msgid "%dm %ds"
 msgstr "%dm %ds"
 
-#: ../libgames-support/games-scores-dialog.c:558
+#: ../libgames-support/games-scores-dialog.c:557
 msgid "Name"
 msgstr "Název"
 
-#: ../libgames-support/games-stock.c:53
+#: ../libgames-support/games-stock.c:43
+msgid "View help for this game"
+msgstr "Zobrazit nápovědu k této hře"
+
+#: ../libgames-support/games-stock.c:44
 msgid "End the current game"
 msgstr "Ukončit aktuální hru"
 
-#: ../libgames-support/games-stock.c:54
+#: ../libgames-support/games-stock.c:45
 msgid "Toggle fullscreen mode"
 msgstr "Přepnout režim celé obrazovky"
 
-#: ../libgames-support/games-stock.c:56
+#: ../libgames-support/games-stock.c:46
+msgid "Get a hint for your next move"
+msgstr "Získat radu pro váš další tah"
+
+#: ../libgames-support/games-stock.c:47
 msgid "Leave fullscreen mode"
 msgstr "Opustit režim celé obrazovky"
 
-#: ../libgames-support/games-stock.c:57
+#: ../libgames-support/games-stock.c:48
 msgid "Start a new multiplayer network game"
 msgstr "Začít novou síťovou hru pro více hráčů"
 
-#: ../libgames-support/games-stock.c:58
+#: ../libgames-support/games-stock.c:49
 msgid "End the current network game and return to network server"
 msgstr "Ukončit současnou síťovou hru"
 
-#: ../libgames-support/games-stock.c:60
+#: ../libgames-support/games-stock.c:51
 msgid "Pause the game"
 msgstr "Pozastavit hru"
 
-#: ../libgames-support/games-stock.c:61
+#: ../libgames-support/games-stock.c:52
 msgid "Show a list of players in the network game"
 msgstr "Zobrazit seznam hráčů síťové hry"
 
-#: ../libgames-support/games-stock.c:64
+#: ../libgames-support/games-stock.c:53
+msgid "Redo the undone move"
+msgstr "Zopakovat vrácený tah"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Restart the game"
+msgstr "Začít hru znovu"
+
+#: ../libgames-support/games-stock.c:55
 msgid "Resume the paused game"
 msgstr "Pokračovat pozastavenou hru"
 
-#: ../libgames-support/games-stock.c:65
+#: ../libgames-support/games-stock.c:56
 msgid "View the scores"
 msgstr "Zobrazit skóre"
 
-#: ../libgames-support/games-stock.c:69
+#: ../libgames-support/games-stock.c:57 ../mahjongg/mahjongg.c:1207
+msgid "Undo the last move"
+msgstr "Vrátit poslední tah"
+
+#: ../libgames-support/games-stock.c:58
+msgid "About this game"
+msgstr "O této hře"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Close this window"
+msgstr "Zavřít toto okno"
+
+#: ../libgames-support/games-stock.c:60
 msgid "Configure the game"
 msgstr "Nastavit hru"
 
-#: ../libgames-support/games-stock.c:70
+#: ../libgames-support/games-stock.c:61
 msgid "Quit this game"
 msgstr "Ukončit tuto hru"
 
-#: ../libgames-support/games-stock.c:295
+#: ../libgames-support/games-stock.c:253
 msgid "_Fullscreen"
 msgstr "_Celá obrazovka"
 
 #. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
-#: ../libgames-support/games-stock.c:298
+#: ../libgames-support/games-stock.c:256
 msgid "_New"
 msgstr "_Nová"
 
-#: ../libgames-support/games-stock.c:301
+#: ../libgames-support/games-stock.c:259
 msgid "_Redo Move"
 msgstr "Tah zn_ovu"
 
 #. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
-#: ../libgames-support/games-stock.c:305
+#: ../libgames-support/games-stock.c:263
 msgid "_Restart"
 msgstr "_Restartovat"
 
-#: ../libgames-support/games-stock.c:307
+#: ../libgames-support/games-stock.c:265
 msgid "_Deal"
 msgstr "_Rozdat"
 
-#: ../libgames-support/games-stock.c:309
+#: ../libgames-support/games-stock.c:266
 msgid "_Leave Fullscreen"
 msgstr "_Opustit celou obrazovku"
 
-#: ../libgames-support/games-stock.c:310
+#: ../libgames-support/games-stock.c:267
 msgid "Network _Game"
 msgstr "Síťová _hra"
 
-#: ../libgames-support/games-stock.c:311
+#: ../libgames-support/games-stock.c:268
 msgid "L_eave Game"
 msgstr "O_pustit hru"
 
-#: ../libgames-support/games-stock.c:312
+#: ../libgames-support/games-stock.c:269
 msgid "Player _List"
 msgstr "Seznam _hráčů"
 
-#: ../libgames-support/games-stock.c:313
+#: ../libgames-support/games-stock.c:270
 msgid "_Pause"
 msgstr "_Pozastavit"
 
-#: ../libgames-support/games-stock.c:314
+#: ../libgames-support/games-stock.c:271
 msgid "Res_ume"
 msgstr "_Pokračovat"
 
-#: ../libgames-support/games-stock.c:315
+#: ../libgames-support/games-stock.c:272
 msgid "_Scores"
 msgstr "_Skóre"
 
-#: ../libgames-support/games-stock.c:316
+#: ../libgames-support/games-stock.c:273
 msgid "_End Game"
 msgstr "U_končit hru"
 
-#. Work around maemo brokenness wrt. stock item translations.
-#. * See https://bugs.maemo.org/show_bug.cgi?id=1449 .
-#: ../libgames-support/games-stock.c:322
-msgid "_About"
-msgstr "O _aplikaci"
-
-#: ../libgames-support/games-stock.c:323
-msgid "_Cancel"
-msgstr "Z_rušit"
-
-#: ../libgames-support/games-stock.c:324
-msgid "_Close"
-msgstr "_Zavřít"
-
-#: ../libgames-support/games-stock.c:325
-msgid "_OK"
-msgstr "_Budiž"
-
 #. %s is replaced with the name of the game in gnome-games.
-#: ../libgames-support/games-stock.c:386
+#: ../libgames-support/games-stock.c:323
 #, c-format
 msgid ""
 "%s is free software; you can redistribute it and/or modify it under the "
@@ -7137,7 +4613,7 @@ msgstr ""
 "Foundation, a to buď ve verzi %d této licence nebo (dle vaší volby) v "
 "libovolné novější verzi."
 
-#: ../libgames-support/games-stock.c:400
+#: ../libgames-support/games-stock.c:337
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -7208,7 +4684,7 @@ msgstr ""
 msgid "Copyright  2009 Tim Horton"
 msgstr "Copyright 2009 Tim Horton"
 
-#: ../mahjongg/drawing.c:300
+#: ../mahjongg/drawing.c:299
 msgid ""
 "The selected theme failed to render.\n"
 "\n"
@@ -7218,7 +4694,7 @@ msgstr ""
 "\n"
 "Zkontrolujte prosím, že je hra Mahjongg správně nainstalována."
 
-#: ../mahjongg/drawing.c:429 ../mahjongg/drawing.c:442
+#: ../mahjongg/drawing.c:428 ../mahjongg/drawing.c:441
 #, c-format
 msgid ""
 "Unable to render file:\n"
@@ -7477,635 +4953,3 @@ msgstr "Normální"
 msgid "Large"
 msgstr "Velká"
 
-#~ msgid "Qua"
-#~ msgstr "Qua"
-
-#~ msgid "%s: option `%s' is ambiguous\n"
-#~ msgstr "%s: volba „%s“ je nejednoznačná\n"
-
-#~ msgid "%s: option `--%s' doesn't allow an argument\n"
-#~ msgstr "%s: volba „--%s“ nepovoluje parametr\n"
-
-#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
-#~ msgstr "%s: volba „%c%s“ nepovoluje parametr\n"
-
-#~ msgid "%s: option `%s' requires an argument\n"
-#~ msgstr "%s: volba „%s“ vyžaduje parametr\n"
-
-#~ msgid "%s: unrecognized option `--%s'\n"
-#~ msgstr "%s: nerozpoznaná volba „--%s“\n"
-
-#~ msgid "%s: unrecognized option `%c%s'\n"
-#~ msgstr "%s: nerozpoznaná volba „%c%s“\n"
-
-#~ msgid "%s: illegal option -- %c\n"
-#~ msgstr "%s: zakázaná volba -- %c\n"
-
-#~ msgid "%s: invalid option -- %c\n"
-#~ msgstr "%s: neplatná volba -- %c\n"
-
-#~ msgid "%s: option requires an argument -- %c\n"
-#~ msgstr "%s: volba vyžaduje argument -- %c\n"
-
-#~ msgid "%s: option `-W %s' is ambiguous\n"
-#~ msgstr "%s: volba „-W %s“ je nejednoznačná\n"
-
-#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
-#~ msgstr "%s: volba „-W %s“ nepovoluje parametr\n"
-
-#~ msgid "A flag to allow remote players to watch new games"
-#~ msgstr "Povolení vzdálených diváků"
-
-#~ msgid "A flag to enable network game support"
-#~ msgstr "Povolit podporu síťových her"
-
-#~ msgid "A flag to show move comments"
-#~ msgstr "Povolení zobrazení komentářů tahů"
-
-#~ msgid "The amount of time each player has to move in new games"
-#~ msgstr "Množství času přidělené každému hráči na začátku nové hry"
-
-#~ msgid "The board side to display"
-#~ msgstr "Zobrazená strana šachovnice"
-
-#~ msgid "The default player difficulty for black in new games"
-#~ msgstr "Výchozí obtížnost pro černého v nových hrách"
-
-#~ msgid "The default player difficulty for white in new games"
-#~ msgstr "Výchozí obtížnost pro bílého v nových hrách"
-
-#~ msgid "The default player type for black in new games"
-#~ msgstr "Výchozí typ hráče pro černého v nových hrách"
-
-#~ msgid "The default player type for white in new games"
-#~ msgstr "Výchozí typ hráče pro bílého v nových hrách"
-
-#~ msgid ""
-#~ "The format to display moves in, can be either 'human' (human readable), "
-#~ "'lan' (long algebraic notation) or 'san' (standard algebraic notation)"
-#~ msgstr ""
-#~ "Formát zobrazení pohybů, může být buď „human“ (lidsky čitelný), "
-#~ "„lan“ (dlouhý algebraický zápis) nebo „san“ (standardní algebraická "
-#~ "notace)"
-
-#~ msgid "The piece style to use. Can be one of: 'simple' or 'fancy'"
-#~ msgstr ""
-#~ "Vzhled figur, který se má použít. Lze použít jedno z následujících: "
-#~ "„simple“ (jednoduché) nebo „fancy“ (zdobené)"
-
-#~ msgid ""
-#~ "The side of the board that is in the foreground, either 'white', 'black', "
-#~ "'current' (the current player), 'human' (the side of the current human "
-#~ "player) or 'facetoface' (suitable for players on each side of screen, e."
-#~ "g. handhelds)"
-#~ msgstr ""
-#~ "Strana desky, která je v popředí. Může to být „white“ (bílý), "
-#~ "„black“ (černý), „current“ (současný hráč), „human“ (strana současného "
-#~ "lidského hráče) nebo „facetoface“ (vhodné při hraní po obou stranách "
-#~ "obrazovky, např. na kapesních počítačích)"
-
-#~ msgid "Logs"
-#~ msgstr "Záznamy"
-
-#~ msgid "Show _Logs"
-#~ msgstr "Zob_razit záznamy"
-
-#~ msgid "There are no active logs."
-#~ msgstr "Nejsou k dispozici žádné aktivní záznamy."
-
-#~ msgid "Load Chess Game"
-#~ msgstr "Načíst šachovou partii"
-
-#~ msgid "Communication:"
-#~ msgstr "Komunikace:"
-
-#~ msgid "Executable:"
-#~ msgstr "Spustitelný soubor:"
-
-#~ msgid "<b>Game</b>"
-#~ msgstr "<b>Hra</b>"
-
-#~ msgid "<b>Rooms</b>"
-#~ msgstr "<b>Místnosti</b>"
-
-#~ msgid "<b>Server</b>"
-#~ msgstr "<b>Server</b>"
-
-#~ msgid "<b>Status/_Chat</b>"
-#~ msgstr "<b>Stav/_Diskuze</b>"
-
-#~ msgid "Join Game"
-#~ msgstr "Připojit se ke hře"
-
-#~ msgid "_Join"
-#~ msgstr "_Připojit"
-
-#~ msgid "_Leave"
-#~ msgstr "_Odpojit"
-
-#~ msgid "_Profile:"
-#~ msgstr "Pro_fil:"
-
-#~ msgid "Add Account"
-#~ msgstr "Přidat účet"
-
-#~ msgid "User _Name:"
-#~ msgstr "Uživatelské jmé_no:"
-
-#~ msgid "_Add Account"
-#~ msgstr "Přid_at účet"
-
-#~ msgid "_Host:"
-#~ msgstr "_Hostitel:"
-
-#~ msgid "_Port:"
-#~ msgstr "_Port:"
-
-#~ msgid "_Server:"
-#~ msgstr "_Server:"
-
-#~ msgid "<b>Difficulty</b>"
-#~ msgstr "<b>Obtížnost</b>"
-
-#~ msgid "<b>Game Properties</b>"
-#~ msgstr "<b>Vlastnosti hry</b>"
-
-#~ msgid "<b>Players</b>"
-#~ msgstr "<b>Hráči</b>"
-
-#~ msgid "B_lack:"
-#~ msgstr "Če_rný:"
-
-#~ msgid "Enter the title for this game"
-#~ msgstr "Zadejte název této hry"
-
-#~ msgid "Move _Time:"
-#~ msgstr "Maximální doba _tahu:"
-
-#~ msgid "Start the game. The game can be started once all fields are complete"
-#~ msgstr ""
-#~ "Začít hru. Hra může být započata, jakmile jsou všechna políčka kompletní"
-
-#~ msgid "W_hite:"
-#~ msgstr "Bí_lý:"
-
-#~ msgid "_Black:"
-#~ msgstr "Če_rný:"
-
-#~ msgid "_Game name:"
-#~ msgstr "_Název hry:"
-
-#~ msgid "_Start"
-#~ msgstr "_Začít"
-
-#~ msgid "_White:"
-#~ msgstr "Bí_lý:"
-
-#~ msgid "Show _Captured Pieces"
-#~ msgstr "Zobrazovat vy_hozené figurky"
-
-#~ msgid "Show or hide captured pieces"
-#~ msgstr "Zobrazit nebo skrýt vyhozené figurky"
-
-#~ msgid "Show or hide numbering on the chess board"
-#~ msgstr "Zobrazit nebo skrýt číslování políček šachovnice"
-
-#~ msgid "Show or hide the game history panel"
-#~ msgstr "Zobrazit nebo skrýt panel historie"
-
-#~ msgid "Shows hints during chess games"
-#~ msgstr "Zobrazovat typy/rady během hry"
-
-#~ msgid "Smooth edges of the 3D elements (anti-alias)"
-#~ msgstr "Vyhladit hrany prostorových prvků (antialiasing)"
-
-#~ msgid ""
-#~ "View the chess board by default in 2D mode, or optionally in 3D mode "
-#~ "using OpenGL."
-#~ msgstr ""
-#~ "Zobrazit šachovnici ve výchozím režimu 2D, nebo využít režim 3D pomocí "
-#~ "OpenGL."
-
-#~ msgid "Save Chess Game"
-#~ msgstr "Uložit šachovou partii"
-
-#~ msgid "Chess incorrectly installed"
-#~ msgstr "Nekorektně nainstalováno"
-
-#~ msgid ""
-#~ "Chess is not able to start because required application files are not "
-#~ "installed. If you are currently upgrading your system please wait until "
-#~ "the upgrade has completed."
-#~ msgstr ""
-#~ "Šachy nelze spustit, protože vyžadované soubory nejsou nainstalovány. "
-#~ "Pokud právě aktualizujete svůj systém, vyčkejte na dokončení instalace."
-
-#~ msgid "Unlimited"
-#~ msgstr "Neomezený"
-
-#~ msgid "Unable to find %s engine"
-#~ msgstr "Nelze nalézt výpočetní jádro %s"
-
-#~ msgid "Configure loaded game (%i moves)"
-#~ msgstr "Nastavit načtenou partii (%i tahů)"
-
-#~ msgid "Game settings changed"
-#~ msgstr "Nastavení hry bylo změněno"
-
-#~ msgid "%(white)s versus %(black)s"
-#~ msgstr "%(white)s proti %(black)s"
-
-#~ msgid "PGN files"
-#~ msgstr "Soubory PGN"
-
-#~ msgid "All files"
-#~ msgstr "Všechny soubory"
-
-#~ msgid "Please select a file to load"
-#~ msgstr "Vyberte prosím soubor, který chcete nahrát"
-
-#~ msgid "Unabled to load game"
-#~ msgstr "Nelze načíst partii"
-
-#~ msgid "Please enter a file name"
-#~ msgstr "Prosím zadejte název souboru"
-
-#~ msgid "Unabled to save game"
-#~ msgstr "Nelze uložit hru"
-
-#~ msgid "Chess - *%(game_name)s"
-#~ msgstr "Šachy - *%(game_name)s"
-
-#~ msgid "Chess - %(game_name)s"
-#~ msgstr "Šachy - %(game_name)s"
-
-#~ msgid "∞"
-#~ msgstr "∞"
-
-#~ msgid "If you don't save the changes to this game will be permanently lost"
-#~ msgstr "Pokud hru neuložíte, všechny změny budou trvale ztraceny"
-
-#~ msgid "Close _without saving"
-#~ msgstr "Zavřít bez u_kládání"
-
-#~ msgid "Unable to enable 3D mode"
-#~ msgstr "Nelze spustit režim 3D"
-
-#~ msgid ""
-#~ "You are unable to play in 3D mode due to the following problems:\n"
-#~ "%(errors)s\n"
-#~ "\n"
-#~ "Please contact your system administrator to resolve these problems, until "
-#~ "then you will be able to play chess in 2D mode."
-#~ msgstr ""
-#~ "Není možné hrát v režimu 3D z následujících důvodů:\n"
-#~ "%(errors)s\n"
-#~ "\n"
-#~ "Kontaktujte správce systému za účelem vyřešení problémů, do té doby "
-#~ "můžete hrát šachy v režimu 2D."
-
-#~ msgid "Unable to claim draw"
-#~ msgstr "Nelze remizovat"
-
-#~ msgid ""
-#~ "You may claim a draw when:\n"
-#~ "a) The board has been in the same state three times (Three fold "
-#~ "repetition)\n"
-#~ "b) Fifty moves have occurred where no pawn has moved and no piece has "
-#~ "been captured (50 move rule)"
-#~ msgstr ""
-#~ "Remízy dosáhnete pokud:\n"
-#~ "a) Šachovnice byla třikrát ve stejném stavu (třikrát opakovaná pozice)\n"
-#~ "b) Proběhlo padesát tahů bez jediného pohybu pěšáka a vyhození jakékoli "
-#~ "figurky (pravidlo 50 tahů)"
-
-#~ msgid "No Python OpenGL support"
-#~ msgstr "Chybí podpora OpenGL pro jazyk Python"
-
-#~ msgid "No Python GTKGLExt support"
-#~ msgstr "Chybí podpora GTKGLExt pro jazyk Python"
-
-#~ msgid "OpenGL libraries do not support required display mode"
-#~ msgstr "Knihovny OpenGL nepodporují požadovaný režim zobrazení"
-
-#~ msgid "White castles long"
-#~ msgstr "Velká rošáda bílého"
-
-#~ msgid "Black castles long"
-#~ msgstr "Velká rošáda černého"
-
-#~ msgid "White castles short"
-#~ msgstr "Malá rošáda bílého"
-
-#~ msgid "Black castles short"
-#~ msgstr "Malá rošáda černého"
-
-#~ msgid "%(movenum)2iw. %(description)s (Check)"
-#~ msgstr "%(movenum)2ib. %(description)s (šach)"
-
-#~ msgid "%(movenum)2iw. %(description)s (Checkmate)"
-#~ msgstr "%(movenum)2ib. %(description)s (šachmat)"
-
-#~ msgid "%(movenum)2iw. %(description)s (Stalemate)"
-#~ msgstr "%(movenum)2ib. %(description)s (pat)"
-
-#~ msgid "%(movenum)2iw. %(description)s"
-#~ msgstr "%(movenum)2ib. %(description)s"
-
-#~ msgid "%(movenum)2ib. %(description)s (Check)"
-#~ msgstr "%(movenum)2ič. %(description)s (šach)"
-
-#~ msgid "%(movenum)2ib. %(description)s (Checkmate)"
-#~ msgstr "%(movenum)2ič. %(description)s (šachmat)"
-
-#~ msgid "%(movenum)2ib. %(description)s (Stalemate)"
-#~ msgstr "%(movenum)2ič. %(description)s (pat)"
-
-#~ msgid "%(movenum)2ib. %(description)s"
-#~ msgstr "%(movenum)2ič. %(description)s"
-
-#~ msgid "%s wins"
-#~ msgstr "Vyhrává %s"
-
-#~ msgid "Opponent is in check and cannot move (checkmate)"
-#~ msgstr "Protivník je v šachu a nemůže táhnout (mat)"
-
-#~ msgid "Opponent cannot move (stalemate)"
-#~ msgstr "Protivník nemůže táhnout (pat)"
-
-#~ msgid "No piece has been taken or pawn moved in the last fifty moves"
-#~ msgstr ""
-#~ "V posledních padesáti tazích nebyl vyhozena ani jedna figura a netáhl ani "
-#~ "jeden pěšák"
-
-#~ msgid "Opponent has run out of time"
-#~ msgstr "Protivníkovi vypršel čas"
-
-#~ msgid ""
-#~ "The same board state has occurred three times (three fold repetition)"
-#~ msgstr ""
-#~ "Šachovnice se ocitla třikrát ve stejném stavu (třikrát opakovaná pozice)"
-
-#~ msgid "Neither player can cause checkmate (insufficient material)"
-#~ msgstr "Žádný hráč nemůže způsobit mat (nedostatek figur)"
-
-#~ msgid "The black player has resigned"
-#~ msgstr "Černý hráč partii vzdal"
-
-#~ msgid "The white player has resigned"
-#~ msgstr "Bílý hráč partii vzdal"
-
-#~ msgid "The game has been abandoned"
-#~ msgstr "Hra byla opuštěna"
-
-#~ msgid "One of the players has died"
-#~ msgstr "Jeden z hráčů prohrál"
-
-#~ msgid "GGZ Gaming Zone"
-#~ msgstr "Herní zóna GGZ"
-
-#~ msgid "Disconnected"
-#~ msgstr "Odpojeno"
-
-#~ msgid "New profile..."
-#~ msgstr "Nový profil…"
-
-#~ msgid "Table"
-#~ msgstr "Stůl"
-
-#~ msgid "Seats"
-#~ msgstr "Místa"
-
-#~ msgid "Description"
-#~ msgstr "Popis"
-
-#~ msgid "Seat"
-#~ msgstr "Místo"
-
-#~ msgid "Player"
-#~ msgstr "Hráč"
-
-#~ msgid "Spectator"
-#~ msgstr "Divák"
-
-#~ msgid "Reserved for %s"
-#~ msgstr "Vyhrazeno pro %s"
-
-#~ msgid "Seat empty"
-#~ msgstr "Místo volné"
-
-#~ msgid "AI (%s)"
-#~ msgstr "AI (%s)"
-
-#~ msgctxt "chess-file"
-#~ msgid "a"
-#~ msgstr "a"
-
-#~ msgctxt "chess-file"
-#~ msgid "b"
-#~ msgstr "b"
-
-#~ msgctxt "chess-file"
-#~ msgid "c"
-#~ msgstr "c"
-
-#~ msgctxt "chess-file"
-#~ msgid "d"
-#~ msgstr "d"
-
-#~ msgctxt "chess-file"
-#~ msgid "e"
-#~ msgstr "e"
-
-#~ msgctxt "chess-file"
-#~ msgid "f"
-#~ msgstr "f"
-
-#~ msgctxt "chess-file"
-#~ msgid "g"
-#~ msgstr "g"
-
-#~ msgctxt "chess-file"
-#~ msgid "h"
-#~ msgstr "h"
-
-#~ msgctxt "chess-rank"
-#~ msgid "1"
-#~ msgstr "1"
-
-#~ msgctxt "chess-rank"
-#~ msgid "2"
-#~ msgstr "2"
-
-#~ msgctxt "chess-rank"
-#~ msgid "3"
-#~ msgstr "3"
-
-#~ msgctxt "chess-rank"
-#~ msgid "4"
-#~ msgstr "4"
-
-#~ msgctxt "chess-rank"
-#~ msgid "5"
-#~ msgstr "5"
-
-#~ msgctxt "chess-rank"
-#~ msgid "6"
-#~ msgstr "6"
-
-#~ msgctxt "chess-rank"
-#~ msgid "7"
-#~ msgstr "7"
-
-#~ msgctxt "chess-rank"
-#~ msgid "8"
-#~ msgstr "8"
-
-#~ msgctxt "chess-notation"
-#~ msgid "P"
-#~ msgstr "p"
-
-#~ msgctxt "chess-notation"
-#~ msgid "N"
-#~ msgstr "J"
-
-#~ msgctxt "chess-notation"
-#~ msgid "B"
-#~ msgstr "S"
-
-#~ msgctxt "chess-notation"
-#~ msgid "R"
-#~ msgstr "V"
-
-#~ msgctxt "chess-notation"
-#~ msgid "Q"
-#~ msgstr "D"
-
-#~ msgctxt "chess-notation"
-#~ msgid "K"
-#~ msgstr "K"
-
-#~ msgid "'%(name)s' in '%(game)s'"
-#~ msgstr "„%(name)s“ v „%(game)s“"
-
-#~ msgid "Application Log"
-#~ msgstr "Záznam aplikace"
-
-#~ msgid "Usage: %s [game]"
-#~ msgstr "Použití: %s [hra]"
-
-#~ msgid "Human versus %s"
-#~ msgstr "Člověk proti %s"
-
-#~ msgid ""
-#~ "glChess has crashed. Please report this bug to http://bugzilla.gnome.org\n"
-#~ "Debug output:"
-#~ msgstr ""
-#~ "Došlo k pádu glChess. Oznamte prosím tuto chybu na http://bugzilla.gnome."
-#~ "org\n"
-#~ "Výpis chyby:"
-
-#~ msgid "glChess"
-#~ msgstr "glChess"
-
-#~ msgid "Copyright 2005-2008 Robert Ancell (and contributors)"
-#~ msgstr "Copyright 2005-2008 Robert Ancell (a přispěvatelé)"
-
-#~ msgid ""
-#~ "The 2D/3D chess game for GNOME. \n"
-#~ "\n"
-#~ "glChess is a part of GNOME Games."
-#~ msgstr ""
-#~ "2D a 3D šachy pro GNOME. \n"
-#~ "\n"
-#~ "glChess je součástí her GNOME."
-
-#~ msgid "Incorrect password"
-#~ msgstr "Nesprávné heslo"
-
-#~ msgid "Account in use"
-#~ msgstr "Účet je již používán"
-
-#~ msgid "Connection closed: %s"
-#~ msgstr "Spojení ukončeno: %s"
-
-#~ msgid "A password is required"
-#~ msgstr "Je vyžadováno heslo"
-
-#~ msgid "Disconnected from server"
-#~ msgstr "Odpojeno od serveru"
-
-#~ msgid "No description"
-#~ msgstr "Bez popisu"
-
-#~ msgid "Sudoku unable to save game."
-#~ msgstr "Sudoku nemůže uložit hru."
-
-#~ msgid "Reset current grid(do-over)"
-#~ msgstr "Vrátit stávající mřížku do počátečního stavu (vymazat všechny tahy)"
-
-#~ msgid "Show statistics about current puzzle"
-#~ msgstr "Zobrazit statistiky současné hry"
-
-#~ msgid "Print current game"
-#~ msgstr "Vytisknout současnou hru"
-
-#~ msgid "Print more than one sudoku at a time."
-#~ msgstr "Vytisknout více sudoku najednou."
-
-#~ msgid "Close Sudoku"
-#~ msgstr "Zavřít Sudoku"
-
-#~ msgid "Clear all of the top notes"
-#~ msgstr "Vymazat všechny poznámky v horní části políček"
-
-#~ msgid "Clear all of the bottom notes"
-#~ msgstr "Vymazat všechny poznámky v dolní části políček"
-
-#~ msgid "You completed the puzzle in %(totalTime)s (%(activeTime)s active)."
-#~ msgstr "Dokončili jste hlavolam za %(totalTime)s (%(activeTime)s aktivní)."
-
-#~ msgid "%(level)s puzzle"
-#~ msgstr "%(level)s hlavolam"
-
-#~ msgid "%(n)s year"
-#~ msgid_plural "%(n)s years"
-#~ msgstr[0] "%(n)s rok"
-#~ msgstr[1] "%(n)s roky"
-#~ msgstr[2] "%(n)s let"
-
-#~ msgid "%(n)s month"
-#~ msgid_plural "%(n)s months"
-#~ msgstr[0] "%(n)s měsíc"
-#~ msgstr[1] "%(n)s měsíce"
-#~ msgstr[2] "%(n)s měsíců"
-
-#~ msgid "%(n)s week"
-#~ msgid_plural "%(n)s weeks"
-#~ msgstr[0] "%(n)s týden"
-#~ msgstr[1] "%(n)s týdny"
-#~ msgstr[2] "%(n)s týdnů"
-
-#~ msgid "%(n)s day"
-#~ msgid_plural "%(n)s days"
-#~ msgstr[0] "%(n)s den"
-#~ msgstr[1] "%(n)s dny"
-#~ msgstr[2] "%(n)s dnů"
-
-#~ msgid " and "
-#~ msgstr " a "
-
-#~ msgid ", "
-#~ msgstr ", "
-
-#~ msgid " "
-#~ msgstr " "
-
-#~ msgid "at %I:%M %p"
-#~ msgstr "v %H:%M"
-
-#~ msgid "%A %I:%M %p"
-#~ msgstr "%A, %H:%M"
-
-#~ msgid "%B %e"
-#~ msgstr "%B %e"
