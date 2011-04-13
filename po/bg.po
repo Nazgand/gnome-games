@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games gnome-3-0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-13 07:55+0300\n"
-"PO-Revision-Date: 2011-04-13 07:54+0300\n"
+"POT-Creation-Date: 2011-04-13 07:56+0300\n"
+"PO-Revision-Date: 2011-04-13 07:57+0300\n"
 "Last-Translator:  Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "Language: bg\n"
@@ -21,2729 +21,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#: ../aisleriot/aisleriot.schemas.in.h:1
-msgid "A list of recently played games."
-msgstr "Списък със скоро играни игри."
-
-#: ../aisleriot/aisleriot.schemas.in.h:2
-msgid ""
-"A list of strings that come in the form of a quintuple: name, wins, total "
-"games played, best time (in seconds) and worst time (also in seconds). "
-"Unplayed games do not need to be represented."
-msgstr ""
-"Списък от низове, който идва под формата на наредени петорки: име, победи, "
-"общ брой играни игри, най-добро време (в секунди) и най-лошо време (отново в "
-"секунди). Неиграните игри не е нужно да бъдат представяни."
-
-#: ../aisleriot/aisleriot.schemas.in.h:3
-msgid "Animations"
-msgstr "Анимации"
-
-#: ../aisleriot/aisleriot.schemas.in.h:4
-msgid "Recently played games"
-msgstr "Скоро играни игри"
-
-#: ../aisleriot/aisleriot.schemas.in.h:5 ../gnotravex/gnotravex.schemas.in.h:1
-msgid "Select the style of control"
-msgstr "Избор на вид на управлението"
-
-#: ../aisleriot/aisleriot.schemas.in.h:6
-msgid ""
-"Select whether to drag the cards or to click on the source then the "
-"destination."
-msgstr ""
-"Избор дали да се влачат картите или да се натиска върху източника и след "
-"това върху целта."
-
-#: ../aisleriot/aisleriot.schemas.in.h:7 ../gnect/data/gnect.schemas.in.h:11
-#: ../gnobots2/properties.c:483 ../iagno/iagno.schemas.in.h:1
-msgid "Sound"
-msgstr "Звук"
-
-#: ../aisleriot/aisleriot.schemas.in.h:8
-msgid "Statistics of games played"
-msgstr "Статистика за играните игри"
-
-#: ../aisleriot/aisleriot.schemas.in.h:9
-msgid "The game file to use"
-msgstr "Използван файл с игра"
-
-#: ../aisleriot/aisleriot.schemas.in.h:10
-msgid "The name of the file with the graphics for the cards."
-msgstr "Името на файла с графиките за картите."
-
-#: ../aisleriot/aisleriot.schemas.in.h:11
-msgid "The name of the scheme file containing the solitaire game to play."
-msgstr "Името на файл на Scheme съдържащ пасиансите."
-
-#: ../aisleriot/aisleriot.schemas.in.h:12
-msgid "Theme file name"
-msgstr "Име на файла с темата"
-
-#: ../aisleriot/aisleriot.schemas.in.h:13
-msgid "Whether or not to animate card moves."
-msgstr "Дали движенията на картите да са анимирани."
-
-#: ../aisleriot/aisleriot.schemas.in.h:14 ../gnect/data/gnect.schemas.in.h:13
-#: ../iagno/iagno.schemas.in.h:2
-msgid "Whether or not to play event sounds."
-msgstr "Дали да се изпълняват звуци при събития."
-
-#: ../aisleriot/aisleriot.schemas.in.h:15
-msgid "Whether or not to show the status bar"
-msgstr "Дали да бъде показана лентата за състоянието"
-
-#: ../aisleriot/aisleriot.schemas.in.h:16
-msgid "Whether or not to show the toolbar"
-msgstr "Дали да бъде показана лентата с инструменти"
-
-#. Now construct the window contents
-#: ../aisleriot/ar-game-chooser.c:238 ../aisleriot/window.c:2456
-msgid "Select Game"
-msgstr "Избор на игра"
-
-#: ../aisleriot/ar-game-chooser.c:256
-msgid "_Select"
-msgstr "_Избор"
-
-#: ../aisleriot/freecell.desktop.in.in.h:1 ../aisleriot/sol.c:295
-#: ../aisleriot/window.c:434 ../aisleriot/window.c:442
-msgid "FreeCell Solitaire"
-msgstr "Пасианс „Свободна клетка“"
-
-#: ../aisleriot/freecell.desktop.in.in.h:2
-msgid "Play the popular FreeCell card game"
-msgstr "Популярната игра „Свободна клетка“"
-
-#: ../aisleriot/game.c:1148
-#, c-format
-msgid ""
-"Aisleriot cannot load the file “%s”. Please check your Aisleriot "
-"installation."
-msgstr ""
-"Играта „Пасианси“ не може да зареди файла „%s“. Проверете инсталацията на "
-"програмата."
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1399
-msgctxt "slot type"
-msgid "foundation"
-msgstr "основа"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1403
-msgctxt "slot type"
-msgid "reserve"
-msgstr "запазени"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1407
-msgctxt "slot type"
-msgid "stock"
-msgstr "куп"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1411
-msgctxt "slot type"
-msgid "tableau"
-msgstr "маса"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1415
-msgctxt "slot type"
-msgid "waste"
-msgstr "боклук"
-
-#. Translators: %s is the name of the card; "foundation" is the name of a type of card slot
-#: ../aisleriot/game.c:1447
-#, c-format
-msgctxt "slot hint"
-msgid "%s on foundation"
-msgstr "%s от основата"
-
-#. Translators: %s is the name of the card; "reserve" is the name of a type of card slot
-#: ../aisleriot/game.c:1451
-#, c-format
-msgctxt "slot hint"
-msgid "%s on reserve"
-msgstr "%s от запазените"
-
-#. Translators: %s is the name of the card; "stock" is the name of a type of card slot
-#: ../aisleriot/game.c:1455
-#, c-format
-msgctxt "slot hint"
-msgid "%s on stock"
-msgstr "%s от купа"
-
-#. Translators: %s is the name of the card; "tableau" is the name of a type of card slot
-#: ../aisleriot/game.c:1459
-#, c-format
-msgctxt "slot hint"
-msgid "%s on tableau"
-msgstr "%s от масата"
-
-#. Translators: %s is the name of the card; "waste" is the name of a type of card slot
-#: ../aisleriot/game.c:1463
-#, c-format
-msgctxt "slot hint"
-msgid "%s on waste"
-msgstr "%s от боклука"
-
-#: ../aisleriot/game.c:1704
-msgid "Aisleriot cannot find the last game you played."
-msgstr ""
-"Програмата „Пасианси“ не може да открие последната игра, която сте играли."
-
-#: ../aisleriot/game.c:1705
-msgid ""
-"This usually occurs when you run an older version of Aisleriot which does "
-"not have the game you last played. The default game, Klondike, is being "
-"started instead."
-msgstr ""
-"Това обикновено се случва, когато пуснете по-стара версия на „Пасианси“, в "
-"която я няма играта, която последно сте играли. Вместо това ще бъде заредена "
-"стандартната игра — „Клондайк“."
-
-#: ../aisleriot/game.c:2063
-msgid "This game does not have hint support yet."
-msgstr "Играта все още не поддържа съвети."
-
-#. Both %s are card names
-#. The first %s is a card name, the 2nd %s a sentence fragment.
-#. * Yes, we know this is bad for i18n.
-#.
-#: ../aisleriot/game.c:2097 ../aisleriot/game.c:2125
-#, c-format
-msgid "Move %s onto %s."
-msgstr "Преместване на %s върху %s."
-
-#: ../aisleriot/game.c:2147
-#, c-format
-msgid "You are searching for a %s."
-msgstr "Търсене на %s."
-
-#: ../aisleriot/game.c:2152
-msgid "This game is unable to provide a hint."
-msgstr "Играта няма съвети."
-
-#. This is a generated file; DO NOT EDIT
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:7
-msgid "Peek"
-msgstr "Поглед"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:14
-msgid "Auld Lang Syne"
-msgstr "Доброто старо време"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:21
-msgid "Fortunes"
-msgstr "Съдби"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:28
-msgid "Seahaven"
-msgstr "Сийхевън"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:35
-msgid "King Albert"
-msgstr "Крал Албърт"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:42
-msgid "First Law"
-msgstr "Първи закон"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:49
-msgid "Straight Up"
-msgstr "Право нагоре"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:56
-msgid "Jumbo"
-msgstr "Джъмбо"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:63
-msgid "Accordion"
-msgstr "Акордеон"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:70
-msgid "Ten Across"
-msgstr "10 по дължина"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:77
-msgid "Plait"
-msgstr "Плитка"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:84
-msgid "Lady Jane"
-msgstr "Лейди Джейн"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:91
-msgid "Gypsy"
-msgstr "Циганин"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:98
-msgid "Neighbor"
-msgstr "Съсед"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:105
-msgid "Jamestown"
-msgstr "Джеймстаун"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:112
-msgid "Osmosis"
-msgstr "Осмоза"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:119
-msgid "Kings Audience"
-msgstr "Кралска публика"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:126
-msgid "Glenwood"
-msgstr "Гленуд"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:133
-msgid "Gay Gordons"
-msgstr "Гей Гордънс"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:140
-msgid "Monte Carlo"
-msgstr "Монте Карло"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:147
-msgid "Kansas"
-msgstr "Канзас"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:154
-msgid "Camelot"
-msgstr "Камелот"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:161
-msgid "Fourteen"
-msgstr "Четиринадесет"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:168
-msgid "Scorpion"
-msgstr "Скорпион"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:175
-msgid "Isabel"
-msgstr "Изабел"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:182
-msgid "Escalator"
-msgstr "Ескалатор"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:189
-msgid "Agnes"
-msgstr "Агнес"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:196
-msgid "Bristol"
-msgstr "Бристол"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:203
-msgid "Quatorze"
-msgstr "Четиринадесет (фр.)"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:210
-msgid "Bear River"
-msgstr "Меча река"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:217
-msgid "Gold Mine"
-msgstr "Златна мина"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:224
-msgid "Athena"
-msgstr "Атина"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:231
-msgid "Spiderette"
-msgstr "Паячка"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:238
-msgid "Chessboard"
-msgstr "Шахматна дъска"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:245
-msgid "Backbone"
-msgstr "Гръбнак"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:252
-msgid "Yukon"
-msgstr "Юкон"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:259
-msgid "Union Square"
-msgstr "Площад „Единство“"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:266
-msgid "Eight Off"
-msgstr "8 вън"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:273
-msgid "Napoleons Tomb"
-msgstr "Гробницата на Наполеон"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:280
-msgid "Forty Thieves"
-msgstr "Четиридесет крадци"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:287
-msgid "Streets And Alleys"
-msgstr "Улици и алеи"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:294
-msgid "Maze"
-msgstr "Плетеница"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:301
-msgid "Clock"
-msgstr "Часовник"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:308
-msgid "Pileon"
-msgstr "Пайлън"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:315
-msgid "Canfield"
-msgstr "Кенфийлд"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:322
-msgid "Thirteen"
-msgstr "Тринадесет"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:329
-msgid "Bakers Game"
-msgstr "Играта на Бейкър"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:336
-msgid "Triple Peaks"
-msgstr "Тройни върхове"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:343
-msgid "Easthaven"
-msgstr "Ийстхевън"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/game-names.h:350 ../aisleriot/rules/terrace.scm.h:20
-msgid "Terrace"
-msgstr "Тераса"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:357
-msgid "Aunt Mary"
-msgstr "Леля Мери"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:364
-msgid "Carpet"
-msgstr "Килим"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:371
-msgid "Sir Tommy"
-msgstr "Сър Томи"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:378
-msgid "Diamond Mine"
-msgstr "Диамантена мина"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:385
-msgid "Yield"
-msgstr "Печалба"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:392
-msgid "Labyrinth"
-msgstr "Лабиринт"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:399
-msgid "Thieves"
-msgstr "Крадци"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:406
-msgid "Saratoga"
-msgstr "Саратога"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:413
-msgid "Cruel"
-msgstr "Жестоко"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:420
-msgid "Block Ten"
-msgstr "Блокирай 10"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:427
-msgid "Will O The Wisp"
-msgstr "Уил О Дъ Уисп"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:434
-msgid "Odessa"
-msgstr "Одеса"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:441
-msgid "Eagle Wing"
-msgstr "Орлово крило"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:448
-msgid "Treize"
-msgstr "Тринадесет (фр.)"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:455
-msgid "Zebra"
-msgstr "Зебра"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:462
-msgid "Cover"
-msgstr "Покривало"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:469
-msgid "Elevator"
-msgstr "Асансьор"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:476
-msgid "Fortress"
-msgstr "Укрепление"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:483
-msgid "Giant"
-msgstr "Гигант"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:490
-msgid "Spider"
-msgstr "Паяк"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:497
-msgid "Gaps"
-msgstr "Празнини"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:504
-msgid "Bakers Dozen"
-msgstr "Дузината на Бейкър"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:511
-msgid "Whitehead"
-msgstr "Уайтхед"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:518
-msgid "Freecell"
-msgstr "Свободна клетка"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:525
-msgid "Helsinki"
-msgstr "Хелзинки"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:532
-msgid "Spider Three Decks"
-msgstr "Паяк с три тестета"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:539
-msgid "Scuffle"
-msgstr "Схватка"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:546
-msgid "Poker"
-msgstr "Покер"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:553
-msgid "Klondike Three Decks"
-msgstr "Клондайк с три тестета"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:560
-msgid "Valentine"
-msgstr "Валентина"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:567
-msgid "Royal East"
-msgstr "Кралски изток"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:574
-msgid "Thumb And Pouch"
-msgstr "Палец и кесия"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:581
-msgid "Klondike"
-msgstr "Клондайк"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:588
-msgid "Doublets"
-msgstr "Чифтове"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:595
-msgid "Template"
-msgstr "Шаблон"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:602
-msgid "Golf"
-msgstr "Голф"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:609
-msgid "Westhaven"
-msgstr "Уестхевън"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:616
-msgid "Beleaguered Castle"
-msgstr "Обсаденият замък"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:623
-msgid "Hopscotch"
-msgstr "Дама"
-
-#. String reserve
-#: ../aisleriot/sol.c:59
-msgid "Solitaire"
-msgstr "Пасианс"
-
-#: ../aisleriot/sol.c:60
-msgid "GNOME Solitaire"
-msgstr "Пасианс за GNOME"
-
-#: ../aisleriot/sol.c:61
-msgid "About Solitaire"
-msgstr "Относно пасианса"
-
-#: ../aisleriot/sol.c:200
-msgid "Select the game type to play"
-msgstr "Избор на вида игра"
-
-#: ../aisleriot/sol.c:200 ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
-msgid "NAME"
-msgstr "ИМЕ"
-
-#: ../aisleriot/sol.c:202
-msgid "Select the game number"
-msgstr "Избор на брой игри"
-
-#: ../aisleriot/sol.c:202 ../gnomine/gnomine.c:929 ../gtali/gyahtzee.c:107
-#: ../gtali/gyahtzee.c:109 ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
-msgid "NUMBER"
-msgstr "БРОЙ"
-
-#: ../aisleriot/sol.c:295 ../aisleriot/window.c:443 ../aisleriot/window.c:1986
-msgid "AisleRiot"
-msgstr "Пасианси"
-
-#: ../aisleriot/sol.desktop.in.in.h:1
-msgid "AisleRiot Solitaire"
-msgstr "Пасианси"
-
-#: ../aisleriot/sol.desktop.in.in.h:2
-msgid "Play many different solitaire games"
-msgstr "Игра с голям набор от пасианси"
-
-#: ../aisleriot/sol.scm.h:1
-msgid "Unknown color"
-msgstr "Непознат цвят"
-
-#: ../aisleriot/sol.scm.h:2
-msgid "Unknown suit"
-msgstr "Непозната боя"
-
-#: ../aisleriot/sol.scm.h:3
-msgid "Unknown value"
-msgstr "Непозната стойност"
-
-#: ../aisleriot/sol.scm.h:4
-msgid "ace"
-msgstr "асо"
-
-#. A black joker.
-#: ../aisleriot/sol.scm.h:5 ../aisleriot/lib/ar-card.c:331
-msgid "black joker"
-msgstr "черен джокер"
-
-#: ../aisleriot/sol.scm.h:6
-msgid "clubs"
-msgstr "спатии"
-
-#: ../aisleriot/sol.scm.h:7
-msgid "diamonds"
-msgstr "кари"
-
-#: ../aisleriot/sol.scm.h:8
-msgid "eight"
-msgstr "осмица"
-
-#: ../aisleriot/sol.scm.h:9
-msgid "five"
-msgstr "петица"
-
-#: ../aisleriot/sol.scm.h:10
-msgid "four"
-msgstr "четворка"
-
-#: ../aisleriot/sol.scm.h:11
-msgid "hearts"
-msgstr "купи"
-
-#: ../aisleriot/sol.scm.h:12
-msgid "jack"
-msgstr "вале"
-
-#: ../aisleriot/sol.scm.h:13
-msgid "king"
-msgstr "поп"
-
-#: ../aisleriot/sol.scm.h:14
-msgid "nine"
-msgstr "деветка"
-
-#: ../aisleriot/sol.scm.h:15
-msgid "queen"
-msgstr "дама"
-
-#. A red joker.
-#: ../aisleriot/sol.scm.h:16 ../aisleriot/lib/ar-card.c:334
-msgid "red joker"
-msgstr "червен джокер"
-
-#: ../aisleriot/sol.scm.h:17
-msgid "seven"
-msgstr "седмица"
-
-#: ../aisleriot/sol.scm.h:18
-msgid "six"
-msgstr "шестица"
-
-#: ../aisleriot/sol.scm.h:19
-msgid "spades"
-msgstr "пики"
-
-#: ../aisleriot/sol.scm.h:20
-msgid "ten"
-msgstr "десетка"
-
-#: ../aisleriot/sol.scm.h:21
-msgid "the ace of clubs"
-msgstr "асо спатия"
-
-#: ../aisleriot/sol.scm.h:22
-msgid "the ace of diamonds"
-msgstr "асо каро"
-
-#: ../aisleriot/sol.scm.h:23
-msgid "the ace of hearts"
-msgstr "асо купа"
-
-#: ../aisleriot/sol.scm.h:24
-msgid "the ace of spades"
-msgstr "асо пика"
-
-#: ../aisleriot/sol.scm.h:25
-msgid "the eight of clubs"
-msgstr "осмица спатия"
-
-#: ../aisleriot/sol.scm.h:26
-msgid "the eight of diamonds"
-msgstr "осмица каро"
-
-#: ../aisleriot/sol.scm.h:27
-msgid "the eight of hearts"
-msgstr "осмица купа"
-
-#: ../aisleriot/sol.scm.h:28
-msgid "the eight of spades"
-msgstr "осмица пика"
-
-#: ../aisleriot/sol.scm.h:29
-msgid "the five of clubs"
-msgstr "петица спатия"
-
-#: ../aisleriot/sol.scm.h:30
-msgid "the five of diamonds"
-msgstr "петица каро"
-
-#: ../aisleriot/sol.scm.h:31
-msgid "the five of hearts"
-msgstr "петица купа"
-
-#: ../aisleriot/sol.scm.h:32
-msgid "the five of spades"
-msgstr "петица пика"
-
-#: ../aisleriot/sol.scm.h:33
-msgid "the four of clubs"
-msgstr "четворка спатия"
-
-#: ../aisleriot/sol.scm.h:34
-msgid "the four of diamonds"
-msgstr "четворка каро"
-
-#: ../aisleriot/sol.scm.h:35
-msgid "the four of hearts"
-msgstr "четворка купа"
-
-#: ../aisleriot/sol.scm.h:36
-msgid "the four of spades"
-msgstr "четворка пика"
-
-#: ../aisleriot/sol.scm.h:37
-msgid "the jack of clubs"
-msgstr "вале спатия"
-
-#: ../aisleriot/sol.scm.h:38
-msgid "the jack of diamonds"
-msgstr "вале каро"
-
-#: ../aisleriot/sol.scm.h:39
-msgid "the jack of hearts"
-msgstr "вале купа"
-
-#: ../aisleriot/sol.scm.h:40
-msgid "the jack of spades"
-msgstr "вале пика"
-
-#: ../aisleriot/sol.scm.h:41
-msgid "the king of clubs"
-msgstr "поп спатия"
-
-#: ../aisleriot/sol.scm.h:42
-msgid "the king of diamonds"
-msgstr "поп каро"
-
-#: ../aisleriot/sol.scm.h:43
-msgid "the king of hearts"
-msgstr "поп купа"
-
-#: ../aisleriot/sol.scm.h:44
-msgid "the king of spades"
-msgstr "поп пика"
-
-#: ../aisleriot/sol.scm.h:45
-msgid "the nine of clubs"
-msgstr "деветка спатия"
-
-#: ../aisleriot/sol.scm.h:46
-msgid "the nine of diamonds"
-msgstr "деветка каро"
-
-#: ../aisleriot/sol.scm.h:47
-msgid "the nine of hearts"
-msgstr "деветка купа"
-
-#: ../aisleriot/sol.scm.h:48
-msgid "the nine of spades"
-msgstr "деветка пика"
-
-#: ../aisleriot/sol.scm.h:49
-msgid "the queen of clubs"
-msgstr "дама спатия"
-
-#: ../aisleriot/sol.scm.h:50
-msgid "the queen of diamonds"
-msgstr "дама каро"
-
-#: ../aisleriot/sol.scm.h:51
-msgid "the queen of hearts"
-msgstr "дама купа"
-
-#: ../aisleriot/sol.scm.h:52
-msgid "the queen of spades"
-msgstr "дама пика"
-
-#: ../aisleriot/sol.scm.h:53
-msgid "the seven of clubs"
-msgstr "седмица спатия"
-
-#: ../aisleriot/sol.scm.h:54
-msgid "the seven of diamonds"
-msgstr "седмица каро"
-
-#: ../aisleriot/sol.scm.h:55
-msgid "the seven of hearts"
-msgstr "седмица купа"
-
-#: ../aisleriot/sol.scm.h:56
-msgid "the seven of spades"
-msgstr "седмица пика"
-
-#: ../aisleriot/sol.scm.h:57
-msgid "the six of clubs"
-msgstr "шестица спатия"
-
-#: ../aisleriot/sol.scm.h:58
-msgid "the six of diamonds"
-msgstr "шестица каро"
-
-#: ../aisleriot/sol.scm.h:59
-msgid "the six of hearts"
-msgstr "шестица купа"
-
-#: ../aisleriot/sol.scm.h:60
-msgid "the six of spades"
-msgstr "шестица пика"
-
-#: ../aisleriot/sol.scm.h:61
-msgid "the ten of clubs"
-msgstr "десетка спатия"
-
-#: ../aisleriot/sol.scm.h:62
-msgid "the ten of diamonds"
-msgstr "десетка каро"
-
-#: ../aisleriot/sol.scm.h:63
-msgid "the ten of hearts"
-msgstr "десетка купа"
-
-#: ../aisleriot/sol.scm.h:64
-msgid "the ten of spades"
-msgstr "десетка пика"
-
-#: ../aisleriot/sol.scm.h:65
-msgid "the three of clubs"
-msgstr "тройка спатия"
-
-#: ../aisleriot/sol.scm.h:66
-msgid "the three of diamonds"
-msgstr "тройка каро"
-
-#: ../aisleriot/sol.scm.h:67
-msgid "the three of hearts"
-msgstr "тройка купа"
-
-#: ../aisleriot/sol.scm.h:68
-msgid "the three of spades"
-msgstr "тройка пика"
-
-#: ../aisleriot/sol.scm.h:69
-msgid "the two of clubs"
-msgstr "двойка спатия"
-
-#: ../aisleriot/sol.scm.h:70
-msgid "the two of diamonds"
-msgstr "двойка каро"
-
-#: ../aisleriot/sol.scm.h:71
-msgid "the two of hearts"
-msgstr "двойка купа"
-
-#: ../aisleriot/sol.scm.h:72
-msgid "the two of spades"
-msgstr "двойка пика"
-
-#: ../aisleriot/sol.scm.h:73
-msgid "the unknown card"
-msgstr "неизвестната карта"
-
-#: ../aisleriot/sol.scm.h:74
-msgid "three"
-msgstr "тройка"
-
-#: ../aisleriot/sol.scm.h:75
-msgid "two"
-msgstr "двойка"
-
-#. Translators: this is the total number of won games
-#: ../aisleriot/stats-dialog.c:155
-msgid "Wins:"
-msgstr "Победи:"
-
-#. Translators: this is the number of games played
-#: ../aisleriot/stats-dialog.c:157
-msgid "Total:"
-msgstr "Общо:"
-
-#. Translators: this is the percentage of games won out of all games played
-#: ../aisleriot/stats-dialog.c:159
-msgid "Percentage:"
-msgstr "Процент:"
-
-#. Translators: this is the section title of a section which contains the n
-#. * number of games played, number of games won, and the ratio of these 2 numbers.
-#.
-#: ../aisleriot/stats-dialog.c:163
-msgid "Wins"
-msgstr "Победи"
-
-#. Translators: this is the best time of all wins
-#: ../aisleriot/stats-dialog.c:170
-msgid "Best:"
-msgstr "Най-добре:"
-
-#. Translators: this is the worst time of all wins
-#: ../aisleriot/stats-dialog.c:172
-msgid "Worst:"
-msgstr "Най-зле:"
-
-#. Translators: this is the section title of a section containing the
-#. * best and worst time taken to win a game.
-#.
-#: ../aisleriot/stats-dialog.c:176
-#: ../libgames-support/games-scores-dialog.c:136
-msgid "Time"
-msgstr "Време"
-
-#: ../aisleriot/stats-dialog.c:208
-msgid "Statistics"
-msgstr "Статистика"
-
-#. Translators: Translate this to "%Id" if you want to use localised digits,
-#. * and to "%d" otherwise. Do not translate it to anything else!
-#.
-#: ../aisleriot/stats-dialog.c:222 ../aisleriot/stats-dialog.c:228
-#, c-format
-msgid "%d"
-msgstr "%d"
-
-#. Translators: Translate the "%d" in this string this to "%Id" if you
-#. * want to use localised digits, and to "%d" otherwise.
-#. * Do not translate the "%d" part to anything else!
-#. * You may translate the "%%" part to use any other percent character(s)
-#. * instead, or leave it as "%%". If you chose a character other than
-#. * "%" (U+0025 PERCENT SIGN) you do NOT need to escape it with another "%"!
-#.
-#: ../aisleriot/stats-dialog.c:239
-#, c-format
-msgid "%d%%"
-msgstr "%d %%"
-
-#. For translators: N/A means "Not Applicable", use whatever
-#. * abbreviation you have for a value that has no meaning.
-#: ../aisleriot/stats-dialog.c:245 ../aisleriot/stats-dialog.c:254
-#: ../aisleriot/stats-dialog.c:262
-msgid "N/A"
-msgstr "няма"
-
-#. Translators: this represents minutes:seconds.
-#: ../aisleriot/stats-dialog.c:249 ../aisleriot/stats-dialog.c:257
-#, c-format
-msgid "%d:%02d"
-msgstr "%d:%02d"
-
-#: ../aisleriot/util.c:86 ../aisleriot/util.c:90
-#: ../libgames-support/games-help.c:152
-#, c-format
-msgid "Could not show help for “%s”"
-msgstr "Помощта за „%s“ не може да бъде показана"
-
-#: ../aisleriot/window.c:248
-msgid "Congratulations, you have won!"
-msgstr "Поздравления, спечелихте!"
-
-#: ../aisleriot/window.c:252
-msgid "There are no more moves"
-msgstr "Няма повече ходове"
-
-#. Empty title shows up as "<unnamed>" on maemo
-#: ../aisleriot/window.c:265 ../quadrapassel/blockops.cpp:788
-msgid "Game Over"
-msgstr "Край на играта"
-
-#: ../aisleriot/window.c:391 ../gnomine/gnomine.c:437
-#: ../mahjongg/mahjongg.c:867
-msgid "Main game:"
-msgstr "Основната игра:"
-
-#: ../aisleriot/window.c:399
-msgid "Card games:"
-msgstr "Игри с карти:"
-
-#: ../aisleriot/window.c:413
-msgid "Card themes:"
-msgstr "Теми на картите:"
-
-#: ../aisleriot/window.c:445
-msgid "About FreeCell Solitaire"
-msgstr "Относно пасианса „Свободна клетка“"
-
-#: ../aisleriot/window.c:446
-msgid "About AisleRiot"
-msgstr "Относно „Пасианси“"
-
-#: ../aisleriot/window.c:452
-msgid ""
-"AisleRiot provides a rule-based solitaire card engine that allows many "
-"different games to be played.\n"
-"AisleRiot is a part of GNOME Games."
-msgstr ""
-"Играта „Пасианси“ предоставя ядро за пасианси, което позволява множество "
-"игри с карти.\n"
-"Играта „Пасианси“ е част от игрите на GNOME."
-
-#. this doesn't work for anyone
-#: ../aisleriot/window.c:463 ../glines/glines.c:1216 ../gnect/src/main.c:878
-#: ../gnibbles/main.c:208 ../gnobots2/menu.c:267
-#: ../quadrapassel/tetris.cpp:1316 ../gnome-sudoku/src/lib/main.py:709
-#: ../gnomine/gnomine.c:477 ../gnotravex/gnotravex.c:1613
-#: ../gnotski/gnotski.c:1487 ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:270
-#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:908
-#: ../swell-foop/src/About.js:20
-msgid "translator-credits"
-msgstr ""
-"Ростислав „zbrox“ Райков <zbrox@i-space.org>\n"
-"Евгени Боевски <e_boevski@abv.bg>\n"
-"Александър Шопов <ash@kambanaria.org>\n"
-"Красимир „bfaf“ Чонов <mk2616@abv.bg>\n"
-"\n"
-"Проектът за превод на GNOME има нужда от подкрепа.\n"
-"Научете повече за нас на http://gnome.cult.bg\n"
-"Докладвайте за грешки на http://gnome.cult.bg/bugs"
-
-#: ../aisleriot/window.c:467 ../glchess/src/glchess.vala:1348
-#: ../glines/glines.c:1219 ../gnect/src/main.c:875 ../gnibbles/main.c:211
-#: ../gnobots2/menu.c:263 ../quadrapassel/tetris.cpp:1313
-#: ../gnome-sudoku/src/lib/defaults.py.in:45 ../gnomine/gnomine.c:480
-#: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1490
-#: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
-#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:911
-#: ../swell-foop/src/About.js:19
-msgid "GNOME Games web site"
-msgstr "Уеб сайт на игрите на GNOME"
-
-#: ../aisleriot/window.c:1339
-#, c-format
-msgid "Play “%s”"
-msgstr "Започване на „%s“"
-
-#: ../aisleriot/window.c:1510
-#, c-format
-msgid "Display cards with “%s” card theme"
-msgstr "Показване на картите с тема „%s“"
-
-#. Translators: if you want to use localised digits for the game score,
-#. * then translate this string to "%I6d", else to "%6d".
-#. * Do not translate it to anything else!
-#.
-#: ../aisleriot/window.c:1605
-#, c-format
-msgctxt "score"
-msgid "%6d"
-msgstr "%6d"
-
-#: ../aisleriot/window.c:1872
-msgid "A scheme exception occurred"
-msgstr "Възникна изключение на Scheme"
-
-#: ../aisleriot/window.c:1875
-msgid "Please report this bug to the developers."
-msgstr "Моля, докладвайте тази грешка на разработчиците."
-
-#. Empty title shows up as "<unnamed>" on maemo
-#: ../aisleriot/window.c:1879 ../libgames-support/games-show.c:151
-msgid "Error"
-msgstr "Грешка"
-
-#: ../aisleriot/window.c:1887
-msgid "_Don't report"
-msgstr "_Без докладване"
-
-#: ../aisleriot/window.c:1888
-msgid "_Report"
-msgstr "_Докладване"
-
-#: ../aisleriot/window.c:1984
-msgid "Freecell Solitaire"
-msgstr "Пасианс „Свободна клетка“"
-
-#. Menu actions
-#. Game menu name
-#: ../aisleriot/window.c:2118 ../glchess/data/glchess.ui.h:22
-#: ../glines/glines.c:1640 ../gnect/src/main.c:1242 ../gnibbles/main.c:687
-#: ../gnobots2/menu.c:66 ../quadrapassel/tetris.cpp:108
-#: ../gnome-sudoku/src/lib/main.py:231 ../gnomine/gnomine.c:769
-#: ../gnotravex/gnotravex.c:1707 ../gnotski/gnotski.c:409
-#: ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:847
-#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1200
-#: ../swell-foop/data/swell-foop.ui.h:2
-msgid "_Game"
-msgstr "_Игра"
-
-#: ../aisleriot/window.c:2119 ../gnect/src/main.c:1243 ../gnibbles/main.c:688
-#: ../gnobots2/menu.c:67 ../gnotski/gnotski.c:410
-msgid "_View"
-msgstr "Пре_глед"
-
-#: ../aisleriot/window.c:2120
-msgid "_Control"
-msgstr "_Управление"
-
-#. Help menu item
-#: ../aisleriot/window.c:2122 ../glchess/data/glchess.ui.h:24
-#: ../glines/glines.c:1642 ../gnect/src/main.c:1245 ../gnibbles/main.c:690
-#: ../gnobots2/menu.c:70 ../quadrapassel/tetris.cpp:110
-#: ../gnome-sudoku/src/lib/main.py:254 ../gnomine/gnomine.c:771
-#: ../gnotravex/gnotravex.c:1711 ../gnotski/gnotski.c:411
-#: ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:849
-#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1202
-#: ../swell-foop/data/swell-foop.ui.h:3
-msgid "_Help"
-msgstr "Помо_щ"
-
-#. Tooltip for start new game toolbar button
-#: ../aisleriot/window.c:2127 ../glchess/data/glchess.ui.h:16
-#: ../gnobots2/menu.c:71 ../libgames-support/games-stock.c:59
-#: ../mahjongg/mahjongg.c:1203
-msgid "Start a new game"
-msgstr "Започване на нова игра"
-
-#: ../aisleriot/window.c:2130 ../libgames-support/games-stock.c:63
-msgid "Restart the game"
-msgstr "Започване на тази игра отначало"
-
-#: ../aisleriot/window.c:2132
-msgid "_Select Game..."
-msgstr "_Избор на игра…"
-
-#: ../aisleriot/window.c:2134
-msgid "Play a different game"
-msgstr "Започване на друга игра"
-
-#: ../aisleriot/window.c:2136
-msgid "_Recently Played"
-msgstr "С_коро играна"
-
-#: ../aisleriot/window.c:2137
-msgid "S_tatistics"
-msgstr "_Статистика"
-
-#: ../aisleriot/window.c:2138
-msgid "Show gameplay statistics"
-msgstr "Показване на статистиката"
-
-#: ../aisleriot/window.c:2141 ../libgames-support/games-stock.c:68
-msgid "Close this window"
-msgstr "Затваряне на този прозорец"
-
-#: ../aisleriot/window.c:2144 ../libgames-support/games-stock.c:66
-#: ../mahjongg/mahjongg.c:1207
-msgid "Undo the last move"
-msgstr "Отмяна на последния ход"
-
-#: ../aisleriot/window.c:2147 ../libgames-support/games-stock.c:62
-msgid "Redo the undone move"
-msgstr "Връщане на отменения ход"
-
-#: ../aisleriot/window.c:2150
-msgid "Deal next card or cards"
-msgstr "Раздаване на още карти"
-
-#: ../aisleriot/window.c:2153 ../libgames-support/games-stock.c:55
-msgid "Get a hint for your next move"
-msgstr "Съвет за следващия ход"
-
-#: ../aisleriot/window.c:2156
-msgid "View help for Aisleriot"
-msgstr "Показване на помощта"
-
-#: ../aisleriot/window.c:2160 ../libgames-support/games-stock.c:52
-msgid "View help for this game"
-msgstr "Показване на помощта за тази игра"
-
-#: ../aisleriot/window.c:2163 ../libgames-support/games-stock.c:67
-msgid "About this game"
-msgstr "Относно тази игра"
-
-#: ../aisleriot/window.c:2166
-msgid "Install card themes…"
-msgstr "Инсталиране на теми за картите…"
-
-#: ../aisleriot/window.c:2167
-msgid "Install new card themes from the distribution packages repositories"
-msgstr ""
-"Инсталиране на нови теми на картите от хранилищата с пакети на дистрибуцията"
-
-#: ../aisleriot/window.c:2175
-msgid "_Card Style"
-msgstr "_Стил на картите"
-
-#: ../aisleriot/window.c:2218 ../gnobots2/menu.c:90
-#: ../mahjongg/mahjongg.c:1223
-msgid "_Toolbar"
-msgstr "Лента с инс_трументи"
-
-#: ../aisleriot/window.c:2219 ../gnobots2/menu.c:90
-#: ../mahjongg/mahjongg.c:1223
-msgid "Show or hide the toolbar"
-msgstr "Показване или скриване на лентата с инструменти"
-
-#: ../aisleriot/window.c:2224
-msgid "_Statusbar"
-msgstr "Лента за _състоянието"
-
-#: ../aisleriot/window.c:2225
-msgid "Show or hide statusbar"
-msgstr "Показване или скриване на лентата за състоянието"
-
-#: ../aisleriot/window.c:2230 ../gnotravex/gnotravex.c:1731
-msgid "_Click to Move"
-msgstr "_Без задържане на бутона на мишката"
-
-#: ../aisleriot/window.c:2231
-msgid "Pick up and drop cards by clicking"
-msgstr "Захващане и пускане на карта само с еднократно натискане"
-
-#: ../aisleriot/window.c:2235
-msgid "_Sound"
-msgstr "_Звук"
-
-#: ../aisleriot/window.c:2236
-msgid "Whether or not to play event sounds"
-msgstr "Дали да се изпълняват звуци при събития"
-
-#: ../aisleriot/window.c:2507 ../glines/glines.c:1841
-#: ../gnobots2/statusbar.c:67 ../quadrapassel/scoreframe.cpp:47
-#: ../gnomine/gnomine.c:440
-msgid "Score:"
-msgstr "Резултат:"
-
-#: ../aisleriot/window.c:2519 ../gnotravex/gnotravex.c:1402
-#: ../mahjongg/mahjongg.c:1407
-msgid "Time:"
-msgstr "Време:"
-
-#: ../aisleriot/window.c:2856
-#, c-format
-msgid "Cannot start the game “%s”"
-msgstr "Не може да се започне игра „%s“"
-
-#. Translators: this is the symbol that's on a Joker card
-#: ../aisleriot/lib/ar-card.c:182
-msgctxt "card symbol"
-msgid "JOKER"
-msgstr "ЖОКЕР"
-
-#. Translators: this is the symbol that's on an Ace card
-#: ../aisleriot/lib/ar-card.c:184 ../aisleriot/lib/ar-card.c:208
-msgctxt "card symbol"
-msgid "A"
-msgstr "A"
-
-#. Translators: this is the symbol that's on a 2 card
-#: ../aisleriot/lib/ar-card.c:186
-msgctxt "card symbol"
-msgid "2"
-msgstr "2"
-
-#. Translators: this is the symbol that's on a 3 card
-#: ../aisleriot/lib/ar-card.c:188
-msgctxt "card symbol"
-msgid "3"
-msgstr "3"
-
-#. Translators: this is the symbol that's on a 4 card
-#: ../aisleriot/lib/ar-card.c:190
-msgctxt "card symbol"
-msgid "4"
-msgstr "4"
-
-#. Translators: this is the symbol that's on a 5 card
-#: ../aisleriot/lib/ar-card.c:192
-msgctxt "card symbol"
-msgid "5"
-msgstr "5"
-
-#. Translators: this is the symbol that's on a 6 card
-#: ../aisleriot/lib/ar-card.c:194
-msgctxt "card symbol"
-msgid "6"
-msgstr "6"
-
-#. Translators: this is the symbol that's on a 7 card
-#: ../aisleriot/lib/ar-card.c:196
-msgctxt "card symbol"
-msgid "7"
-msgstr "7"
-
-#. Translators: this is the symbol that's on a 8 card
-#: ../aisleriot/lib/ar-card.c:198
-msgctxt "card symbol"
-msgid "8"
-msgstr "8"
-
-#. Translators: this is the symbol that's on a 9 card
-#: ../aisleriot/lib/ar-card.c:200
-msgctxt "card symbol"
-msgid "9"
-msgstr "9"
-
-#. Translators: this is the symbol that's on a Jack card
-#: ../aisleriot/lib/ar-card.c:202
-msgctxt "card symbol"
-msgid "J"
-msgstr "J"
-
-#. Translators: this is the symbol that's on a Queen card
-#: ../aisleriot/lib/ar-card.c:204
-msgctxt "card symbol"
-msgid "Q"
-msgstr "Q"
-
-#. Translators: this is the symbol that's on a King card
-#: ../aisleriot/lib/ar-card.c:206
-msgctxt "card symbol"
-msgid "K"
-msgstr "K"
-
-#. Translators: this is the symbol that's on a 1 card
-#: ../aisleriot/lib/ar-card.c:210
-msgctxt "card symbol"
-msgid "1"
-msgstr "1"
-
-#: ../aisleriot/lib/ar-card.c:252
-msgid "ace of clubs"
-msgstr "асо спатия"
-
-#: ../aisleriot/lib/ar-card.c:253
-msgid "two of clubs"
-msgstr "двойка спатия"
-
-#: ../aisleriot/lib/ar-card.c:254
-msgid "three of clubs"
-msgstr "тройка спатия"
-
-#: ../aisleriot/lib/ar-card.c:255
-msgid "four of clubs"
-msgstr "четворка спатия"
-
-#: ../aisleriot/lib/ar-card.c:256
-msgid "five of clubs"
-msgstr "петица спатия"
-
-#: ../aisleriot/lib/ar-card.c:257
-msgid "six of clubs"
-msgstr "шестица спатия"
-
-#: ../aisleriot/lib/ar-card.c:258
-msgid "seven of clubs"
-msgstr "седмица спатия"
-
-#: ../aisleriot/lib/ar-card.c:259
-msgid "eight of clubs"
-msgstr "осмица спатия"
-
-#: ../aisleriot/lib/ar-card.c:260
-msgid "nine of clubs"
-msgstr "деветка спатия"
-
-#: ../aisleriot/lib/ar-card.c:261
-msgid "ten of clubs"
-msgstr "десетка спатия"
-
-#: ../aisleriot/lib/ar-card.c:262
-msgid "jack of clubs"
-msgstr "вале спатия"
-
-#: ../aisleriot/lib/ar-card.c:263
-msgid "queen of clubs"
-msgstr "дама спатия"
-
-#: ../aisleriot/lib/ar-card.c:264
-msgid "king of clubs"
-msgstr "поп спатия"
-
-#: ../aisleriot/lib/ar-card.c:265
-msgid "ace of diamonds"
-msgstr "асо каро"
-
-#: ../aisleriot/lib/ar-card.c:266
-msgid "two of diamonds"
-msgstr "двойка каро"
-
-#: ../aisleriot/lib/ar-card.c:267
-msgid "three of diamonds"
-msgstr "тройка каро"
-
-#: ../aisleriot/lib/ar-card.c:268
-msgid "four of diamonds"
-msgstr "четворка каро"
-
-#: ../aisleriot/lib/ar-card.c:269
-msgid "five of diamonds"
-msgstr "петица каро"
-
-#: ../aisleriot/lib/ar-card.c:270
-msgid "six of diamonds"
-msgstr "шестица каро"
-
-#: ../aisleriot/lib/ar-card.c:271
-msgid "seven of diamonds"
-msgstr "седмица каро"
-
-#: ../aisleriot/lib/ar-card.c:272
-msgid "eight of diamonds"
-msgstr "осмица каро"
-
-#: ../aisleriot/lib/ar-card.c:273
-msgid "nine of diamonds"
-msgstr "деветка каро"
-
-#: ../aisleriot/lib/ar-card.c:274
-msgid "ten of diamonds"
-msgstr "десетка каро"
-
-#: ../aisleriot/lib/ar-card.c:275
-msgid "jack of diamonds"
-msgstr "вале каро"
-
-#: ../aisleriot/lib/ar-card.c:276
-msgid "queen of diamonds"
-msgstr "дама каро"
-
-#: ../aisleriot/lib/ar-card.c:277
-msgid "king of diamonds"
-msgstr "поп каро"
-
-#: ../aisleriot/lib/ar-card.c:278
-msgid "ace of hearts"
-msgstr "асо купа"
-
-#: ../aisleriot/lib/ar-card.c:279
-msgid "two of hearts"
-msgstr "двойка купа"
-
-#: ../aisleriot/lib/ar-card.c:280
-msgid "three of hearts"
-msgstr "тройка купа"
-
-#: ../aisleriot/lib/ar-card.c:281
-msgid "four of hearts"
-msgstr "четворка купа"
-
-#: ../aisleriot/lib/ar-card.c:282
-msgid "five of hearts"
-msgstr "петица купа"
-
-#: ../aisleriot/lib/ar-card.c:283
-msgid "six of hearts"
-msgstr "шестица купа"
-
-#: ../aisleriot/lib/ar-card.c:284
-msgid "seven of hearts"
-msgstr "седмица купа"
-
-#: ../aisleriot/lib/ar-card.c:285
-msgid "eight of hearts"
-msgstr "осмица купа"
-
-#: ../aisleriot/lib/ar-card.c:286
-msgid "nine of hearts"
-msgstr "деветка купа"
-
-#: ../aisleriot/lib/ar-card.c:287
-msgid "ten of hearts"
-msgstr "десетка купа"
-
-#: ../aisleriot/lib/ar-card.c:288
-msgid "jack of hearts"
-msgstr "вале купа"
-
-#: ../aisleriot/lib/ar-card.c:289
-msgid "queen of hearts"
-msgstr "дама купа"
-
-#: ../aisleriot/lib/ar-card.c:290
-msgid "king of hearts"
-msgstr "поп купа"
-
-#: ../aisleriot/lib/ar-card.c:291
-msgid "ace of spades"
-msgstr "асо пика"
-
-#: ../aisleriot/lib/ar-card.c:292
-msgid "two of spades"
-msgstr "двойка пика"
-
-#: ../aisleriot/lib/ar-card.c:293
-msgid "three of spades"
-msgstr "тройка пика"
-
-#: ../aisleriot/lib/ar-card.c:294
-msgid "four of spades"
-msgstr "четворка пика"
-
-#: ../aisleriot/lib/ar-card.c:295
-msgid "five of spades"
-msgstr "петица пика"
-
-#: ../aisleriot/lib/ar-card.c:296
-msgid "six of spades"
-msgstr "шестица пика"
-
-#: ../aisleriot/lib/ar-card.c:297
-msgid "seven of spades"
-msgstr "седмица пика"
-
-#: ../aisleriot/lib/ar-card.c:298
-msgid "eight of spades"
-msgstr "осмица пика"
-
-#: ../aisleriot/lib/ar-card.c:299
-msgid "nine of spades"
-msgstr "деветка пика"
-
-#: ../aisleriot/lib/ar-card.c:300
-msgid "ten of spades"
-msgstr "десетка пика"
-
-#: ../aisleriot/lib/ar-card.c:301
-msgid "jack of spades"
-msgstr "вале пика"
-
-#: ../aisleriot/lib/ar-card.c:302
-msgid "queen of spades"
-msgstr "дама пика"
-
-#: ../aisleriot/lib/ar-card.c:303
-msgid "king of spades"
-msgstr "поп пика"
-
-#: ../aisleriot/lib/ar-card.c:320
-msgid "face-down card"
-msgstr "неизвестната карта"
-
-#: ../aisleriot/rules/agnes.scm.h:1 ../aisleriot/rules/bear_river.scm.h:2
-#: ../aisleriot/rules/canfield.scm.h:2 ../aisleriot/rules/chessboard.scm.h:2
-#: ../aisleriot/rules/eagle_wing.scm.h:2 ../aisleriot/rules/glenwood.scm.h:2
-#: ../aisleriot/rules/kansas.scm.h:2 ../aisleriot/rules/lady_jane.scm.h:2
-#: ../aisleriot/rules/plait.scm.h:2 ../aisleriot/rules/royal_east.scm.h:2
-#: ../aisleriot/rules/terrace.scm.h:1
-msgid "Base Card: Ace"
-msgstr "Базова карта: Асо"
-
-#: ../aisleriot/rules/agnes.scm.h:2 ../aisleriot/rules/bear_river.scm.h:3
-#: ../aisleriot/rules/canfield.scm.h:3 ../aisleriot/rules/chessboard.scm.h:3
-#: ../aisleriot/rules/eagle_wing.scm.h:3 ../aisleriot/rules/glenwood.scm.h:3
-#: ../aisleriot/rules/kansas.scm.h:3 ../aisleriot/rules/lady_jane.scm.h:3
-#: ../aisleriot/rules/plait.scm.h:3 ../aisleriot/rules/royal_east.scm.h:3
-#: ../aisleriot/rules/terrace.scm.h:2
-msgid "Base Card: Jack"
-msgstr "Базова карта: Вале"
-
-#: ../aisleriot/rules/agnes.scm.h:3 ../aisleriot/rules/bear_river.scm.h:4
-#: ../aisleriot/rules/canfield.scm.h:4 ../aisleriot/rules/chessboard.scm.h:4
-#: ../aisleriot/rules/eagle_wing.scm.h:4 ../aisleriot/rules/glenwood.scm.h:4
-#: ../aisleriot/rules/kansas.scm.h:4 ../aisleriot/rules/lady_jane.scm.h:4
-#: ../aisleriot/rules/plait.scm.h:4 ../aisleriot/rules/royal_east.scm.h:4
-#: ../aisleriot/rules/terrace.scm.h:3
-msgid "Base Card: King"
-msgstr "Базова карта: Поп"
-
-#: ../aisleriot/rules/agnes.scm.h:4 ../aisleriot/rules/bear_river.scm.h:5
-#: ../aisleriot/rules/canfield.scm.h:5 ../aisleriot/rules/chessboard.scm.h:5
-#: ../aisleriot/rules/eagle_wing.scm.h:5 ../aisleriot/rules/glenwood.scm.h:5
-#: ../aisleriot/rules/kansas.scm.h:5 ../aisleriot/rules/lady_jane.scm.h:5
-#: ../aisleriot/rules/plait.scm.h:5 ../aisleriot/rules/royal_east.scm.h:5
-#: ../aisleriot/rules/terrace.scm.h:4
-msgid "Base Card: Queen"
-msgstr "Базова карта: Дама"
-
-#: ../aisleriot/rules/agnes.scm.h:5 ../aisleriot/rules/terrace.scm.h:5
-msgid "Base Card: ~a"
-msgstr "Базова карта: ~a"
-
-#: ../aisleriot/rules/agnes.scm.h:6 ../aisleriot/rules/easthaven.scm.h:1
-#: ../aisleriot/rules/labyrinth.scm.h:1 ../aisleriot/rules/monte_carlo.scm.h:1
-#: ../aisleriot/rules/valentine.scm.h:1
-msgid "Deal more cards"
-msgstr "Раздаване на още карти"
-
-#: ../aisleriot/rules/agnes.scm.h:7 ../aisleriot/rules/auld_lang_syne.scm.h:2
-#: ../aisleriot/rules/backbone.scm.h:3 ../aisleriot/rules/block_ten.scm.h:1
-#: ../aisleriot/rules/bristol.scm.h:2 ../aisleriot/rules/camelot.scm.h:2
-#: ../aisleriot/rules/canfield.scm.h:9 ../aisleriot/rules/carpet.scm.h:2
-#: ../aisleriot/rules/cover.scm.h:1 ../aisleriot/rules/doublets.scm.h:2
-#: ../aisleriot/rules/eagle_wing.scm.h:11 ../aisleriot/rules/easthaven.scm.h:4
-#: ../aisleriot/rules/elevator.scm.h:2 ../aisleriot/rules/escalator.scm.h:2
-#: ../aisleriot/rules/first_law.scm.h:17 ../aisleriot/rules/fortunes.scm.h:4
-#: ../aisleriot/rules/forty_thieves.scm.h:3
-#: ../aisleriot/rules/glenwood.scm.h:11 ../aisleriot/rules/gypsy.scm.h:3
-#: ../aisleriot/rules/helsinki.scm.h:1 ../aisleriot/rules/hopscotch.scm.h:3
-#: ../aisleriot/rules/jamestown.scm.h:1 ../aisleriot/rules/jumbo.scm.h:4
-#: ../aisleriot/rules/kansas.scm.h:8 ../aisleriot/rules/klondike.scm.h:7
-#: ../aisleriot/rules/labyrinth.scm.h:2 ../aisleriot/rules/lady_jane.scm.h:7
-#: ../aisleriot/rules/monte_carlo.scm.h:2 ../aisleriot/rules/neighbor.scm.h:1
-#: ../aisleriot/rules/plait.scm.h:11 ../aisleriot/rules/quatorze.scm.h:1
-#: ../aisleriot/rules/royal_east.scm.h:7 ../aisleriot/rules/scuffle.scm.h:4
-#: ../aisleriot/rules/sir_tommy.scm.h:3 ../aisleriot/rules/straight_up.scm.h:5
-#: ../aisleriot/rules/terrace.scm.h:18 ../aisleriot/rules/thieves.scm.h:2
-#: ../aisleriot/rules/thirteen.scm.h:3
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:4
-#: ../aisleriot/rules/treize.scm.h:2 ../aisleriot/rules/triple_peaks.scm.h:4
-#: ../aisleriot/rules/union_square.scm.h:2
-#: ../aisleriot/rules/westhaven.scm.h:2 ../aisleriot/rules/whitehead.scm.h:3
-#: ../aisleriot/rules/yield.scm.h:2 ../aisleriot/rules/zebra.scm.h:4
-msgid "Stock left:"
-msgstr "Оставащи в пазара:"
-
-#: ../aisleriot/rules/agnes.scm.h:8 ../aisleriot/rules/lady_jane.scm.h:8
-msgid "Stock left: 0"
-msgstr "Оставащи в пазара: 0"
-
-#: ../aisleriot/rules/agnes.scm.h:9 ../aisleriot/rules/backbone.scm.h:4
-#: ../aisleriot/rules/bakers_dozen.scm.h:1
-#: ../aisleriot/rules/beleaguered_castle.scm.h:1
-#: ../aisleriot/rules/canfield.scm.h:10 ../aisleriot/rules/jumbo.scm.h:5
-#: ../aisleriot/rules/king_albert.scm.h:1 ../aisleriot/rules/lady_jane.scm.h:9
-#: ../aisleriot/rules/streets_and_alleys.scm.h:1
-msgid "Try rearranging the cards"
-msgstr "Опитайте да пренаредите картите"
-
-#: ../aisleriot/rules/agnes.scm.h:10 ../aisleriot/rules/bristol.scm.h:3
-#: ../aisleriot/rules/lady_jane.scm.h:10 ../aisleriot/rules/royal_east.scm.h:8
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:5
-msgid "an empty foundation pile"
-msgstr "празен куп"
-
-#: ../aisleriot/rules/athena.scm.h:1 ../aisleriot/rules/klondike.scm.h:8
-#: ../aisleriot/rules/osmosis.scm.h:5 ../aisleriot/rules/saratoga.scm.h:1
-msgid "Three card deals"
-msgstr "Обръщане по 1 карта"
-
-#: ../aisleriot/rules/auld_lang_syne.scm.h:1
-#: ../aisleriot/rules/bristol.scm.h:1 ../aisleriot/rules/first_law.scm.h:1
-#: ../aisleriot/rules/fortunes.scm.h:2 ../aisleriot/rules/lady_jane.scm.h:6
-#: ../aisleriot/rules/scuffle.scm.h:1 ../aisleriot/rules/spider.scm.h:1
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:1 ../aisleriot/rules/zebra.scm.h:1
-msgid "Deal another round"
-msgstr "Ново раздаване"
-
-#: ../aisleriot/rules/backbone.scm.h:1 ../aisleriot/rules/camelot.scm.h:1
-#: ../aisleriot/rules/canfield.scm.h:6 ../aisleriot/rules/carpet.scm.h:1
-#: ../aisleriot/rules/glenwood.scm.h:6 ../aisleriot/rules/klondike.scm.h:2
-#: ../aisleriot/rules/osmosis.scm.h:1 ../aisleriot/rules/plait.scm.h:6
-#: ../aisleriot/rules/straight_up.scm.h:1 ../aisleriot/rules/terrace.scm.h:8
-msgid "Deal a new card from the deck"
-msgstr "Раздаване на нова карта от тестето"
-
-#: ../aisleriot/rules/backbone.scm.h:2 ../aisleriot/rules/doublets.scm.h:1
-#: ../aisleriot/rules/eagle_wing.scm.h:9 ../aisleriot/rules/gaps.scm.h:7
-#: ../aisleriot/rules/glenwood.scm.h:9 ../aisleriot/rules/jumbo.scm.h:3
-#: ../aisleriot/rules/klondike.scm.h:5 ../aisleriot/rules/plait.scm.h:10
-#: ../aisleriot/rules/scuffle.scm.h:2 ../aisleriot/rules/straight_up.scm.h:3
-#: ../aisleriot/rules/terrace.scm.h:13
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:3 ../aisleriot/rules/zebra.scm.h:3
-msgid "Redeals left:"
-msgstr "Оставащи раздавания:"
-
-#: ../aisleriot/rules/backbone.scm.h:5 ../aisleriot/rules/terrace.scm.h:23
-msgid "an empty slot on the foundation"
-msgstr "празно място в основата"
-
-#: ../aisleriot/rules/backbone.scm.h:6 ../aisleriot/rules/terrace.scm.h:24
-msgid "an empty slot on the tableau"
-msgstr "празно място на таблото"
-
-#: ../aisleriot/rules/bakers_dozen.scm.h:2
-#: ../aisleriot/rules/chessboard.scm.h:8 ../aisleriot/rules/easthaven.scm.h:5
-#: ../aisleriot/rules/eight_off.scm.h:2 ../aisleriot/rules/fortress.scm.h:2
-#: ../aisleriot/rules/forty_thieves.scm.h:4 ../aisleriot/rules/gypsy.scm.h:4
-#: ../aisleriot/rules/jumbo.scm.h:6 ../aisleriot/rules/kansas.scm.h:9
-#: ../aisleriot/rules/king_albert.scm.h:2 ../aisleriot/rules/seahaven.scm.h:2
-#: ../aisleriot/rules/streets_and_alleys.scm.h:2
-#: ../aisleriot/rules/westhaven.scm.h:3 ../aisleriot/rules/whitehead.scm.h:4
-#: ../aisleriot/rules/yukon.scm.h:1
-msgid "an empty foundation"
-msgstr "празна основа"
-
-#: ../aisleriot/rules/bear_river.scm.h:1 ../aisleriot/rules/canfield.scm.h:1
-#: ../aisleriot/rules/chessboard.scm.h:1 ../aisleriot/rules/eagle_wing.scm.h:1
-#: ../aisleriot/rules/glenwood.scm.h:1 ../aisleriot/rules/kansas.scm.h:1
-#: ../aisleriot/rules/plait.scm.h:1
-msgid "Base Card: "
-msgstr "Базова карта: "
-
-#: ../aisleriot/rules/bear_river.scm.h:6
-msgid "Move something onto an empty right-hand tableau slot"
-msgstr "Поставете нещо на празно място в дясната част на таблото"
-
-#: ../aisleriot/rules/bear_river.scm.h:7
-msgid "an empty foundation slot"
-msgstr "празна основа"
-
-#: ../aisleriot/rules/camelot.scm.h:3
-msgid "an empty bottom slot"
-msgstr "празно най-долно място "
-
-#: ../aisleriot/rules/camelot.scm.h:4
-msgid "an empty corner slot"
-msgstr "празно ъглово място"
-
-#: ../aisleriot/rules/camelot.scm.h:5
-msgid "an empty left slot"
-msgstr "празно ляво място"
-
-#: ../aisleriot/rules/camelot.scm.h:6
-msgid "an empty right slot"
-msgstr "празно дясно място"
-
-#: ../aisleriot/rules/camelot.scm.h:7 ../aisleriot/rules/diamond_mine.scm.h:1
-#: ../aisleriot/rules/klondike.scm.h:10 ../aisleriot/rules/odessa.scm.h:1
-#: ../aisleriot/rules/osmosis.scm.h:6 ../aisleriot/rules/pileon.scm.h:1
-#: ../aisleriot/rules/scorpion.scm.h:2 ../aisleriot/rules/ten_across.scm.h:4
-#: ../aisleriot/rules/union_square.scm.h:3 ../aisleriot/rules/yukon.scm.h:2
-msgid "an empty slot"
-msgstr "празно място"
-
-#: ../aisleriot/rules/camelot.scm.h:8
-msgid "an empty top slot"
-msgstr "празно горно място"
-
-#: ../aisleriot/rules/camelot.scm.h:9 ../aisleriot/rules/helsinki.scm.h:2
-#: ../aisleriot/rules/neighbor.scm.h:2 ../aisleriot/rules/thirteen.scm.h:4
-#: ../aisleriot/rules/treize.scm.h:3 ../aisleriot/rules/yield.scm.h:3
-msgid "itself"
-msgstr "себе си"
-
-#: ../aisleriot/rules/canfield.scm.h:7 ../aisleriot/rules/eagle_wing.scm.h:7
-#: ../aisleriot/rules/glenwood.scm.h:8 ../aisleriot/rules/plait.scm.h:7
-#: ../aisleriot/rules/straight_up.scm.h:2
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:2 ../aisleriot/rules/zebra.scm.h:2
-msgid "Move waste back to stock"
-msgstr "Преместване на боклука обратно на пазара"
-
-#: ../aisleriot/rules/canfield.scm.h:8 ../aisleriot/rules/eagle_wing.scm.h:10
-#: ../aisleriot/rules/kansas.scm.h:7 ../aisleriot/rules/straight_up.scm.h:4
-msgid "Reserve left:"
-msgstr "Остатъчен резерв:"
-
-#: ../aisleriot/rules/canfield.scm.h:11 ../aisleriot/rules/glenwood.scm.h:12
-msgid "empty slot on foundation"
-msgstr "празно място на основата"
-
-#: ../aisleriot/rules/canfield.scm.h:12
-msgid "empty space on tableau"
-msgstr "празно място на таблото"
-
-#: ../aisleriot/rules/chessboard.scm.h:6
-msgid "Move a card to the Foundation"
-msgstr "Преместване на карта на основата"
-
-#: ../aisleriot/rules/chessboard.scm.h:7 ../aisleriot/rules/fortress.scm.h:1
-msgid "Move something into the empty Tableau slot"
-msgstr "Поставете нещо на празно място на таблото"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:2
-msgid "Consistency is key"
-msgstr "Ключът е в постоянството"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:4
-msgid "Fishing wire makes bad dental floss"
-msgstr "Рибарската корда не заменя конеца за зъби"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:6
-msgid "Have you read the help file?"
-msgstr "Прочетохте ли помощния файл?"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:8
-msgid "I could sure use a backrub right about now..."
-msgstr "Търся някой да ми изтърка гърба…"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:10
-msgid "If you're ever lost and alone in the woods, hug a tree"
-msgstr "Ако се изгубите сам в гората, прегърнете някое дърво"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:12
-msgid ""
-"Just because a crosswalk looks like a hopscotch board doesn't mean it is one"
-msgstr "Въпреки че пешеходната пътека прилича на Дама, не значи че е"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:14
-msgid "Look both ways before you cross the street"
-msgstr "Огледайте се на двете страни преди да пресечете улицата"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:16
-msgid "Monitors won't give you Vitamin D -- but sunlight will..."
-msgstr "Мониторът няма да ви осигури витамин D, но слънцето — да…"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:18
-msgid "Never blow in a dog's ear"
-msgstr "Никога не духайте в ухото на куче"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:20
-msgid "Odessa is a better game.  Really."
-msgstr "„Одеса“ е по-добра игра. Наистина."
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:22
-msgid "Tourniquets are not recommended unless in the direst emergency"
-msgstr "Турникетите не се препоръчват освен в крайно спешни случаи"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:24
-msgid "When without a stapler, a staple and a ruler will work"
-msgstr "Ако нямате телбод, скоба и линия ще свършат работа"
-
-#: ../aisleriot/rules/cruel.scm.h:1
-msgid "Cards remaining: ~a"
-msgstr "Оставащи карти: ~a"
-
-#: ../aisleriot/rules/cruel.scm.h:2
-msgid "Redeal."
-msgstr "Ново раздаване"
-
-#: ../aisleriot/rules/diamond_mine.scm.h:2
-msgid "the foundation pile"
-msgstr "празен куп"
-
-#: ../aisleriot/rules/eagle_wing.scm.h:6 ../aisleriot/rules/elevator.scm.h:1
-#: ../aisleriot/rules/escalator.scm.h:1 ../aisleriot/rules/royal_east.scm.h:6
-#: ../aisleriot/rules/thirteen.scm.h:1 ../aisleriot/rules/treize.scm.h:1
-#: ../aisleriot/rules/triple_peaks.scm.h:1
-#: ../aisleriot/rules/union_square.scm.h:1
-#: ../aisleriot/rules/westhaven.scm.h:1 ../aisleriot/rules/yield.scm.h:1
-msgid "Deal a card"
-msgstr "Раздаване на карта"
-
-#: ../aisleriot/rules/eagle_wing.scm.h:8
-msgid "Move ~a to an empty foundation"
-msgstr "Преместване на ~a към празна основа"
-
-#: ../aisleriot/rules/eagle_wing.scm.h:12
-msgid "an empty slot on tableau"
-msgstr "празно място на таблото"
-
-#: ../aisleriot/rules/easthaven.scm.h:2
-msgid "Move a King on to the empty tableau slot"
-msgstr "Преместете поп на празно място на таблото"
-
-#: ../aisleriot/rules/easthaven.scm.h:3 ../aisleriot/rules/klondike.scm.h:3
-msgid "No hint available right now"
-msgstr "В момента няма наличен съвет"
-
-#: ../aisleriot/rules/eight_off.scm.h:1 ../aisleriot/rules/seahaven.scm.h:1
-msgid "Move something on to an empty reserve"
-msgstr "Поставете нещо на празно резервно място"
-
-#: ../aisleriot/rules/eight_off.scm.h:3 ../aisleriot/rules/seahaven.scm.h:3
-msgid "an empty tableau"
-msgstr "празно табло"
-
-#: ../aisleriot/rules/first_law.scm.h:2
-msgid "I'm not sure"
-msgstr "Не съм сигурен"
-
-#: ../aisleriot/rules/first_law.scm.h:3
-msgid "Remove the aces"
-msgstr "Премахване на асата"
-
-#: ../aisleriot/rules/first_law.scm.h:4
-msgid "Remove the eights"
-msgstr "Премахване на осмиците"
-
-#: ../aisleriot/rules/first_law.scm.h:5
-msgid "Remove the fives"
-msgstr "Премахване на петиците"
-
-#: ../aisleriot/rules/first_law.scm.h:6
-msgid "Remove the fours"
-msgstr "Премахване на четворките"
-
-#: ../aisleriot/rules/first_law.scm.h:7
-msgid "Remove the jacks"
-msgstr "Премахване на валетата"
-
-#: ../aisleriot/rules/first_law.scm.h:8
-msgid "Remove the kings"
-msgstr "Премахване на поповете"
-
-#: ../aisleriot/rules/first_law.scm.h:9
-msgid "Remove the nines"
-msgstr "Премахване на деветките"
-
-#: ../aisleriot/rules/first_law.scm.h:10
-msgid "Remove the queens"
-msgstr "Премахване на дамите"
-
-#: ../aisleriot/rules/first_law.scm.h:11
-msgid "Remove the sevens"
-msgstr "Премахване на седмиците"
-
-#: ../aisleriot/rules/first_law.scm.h:12
-msgid "Remove the sixes"
-msgstr "Премахване на шестиците"
-
-#: ../aisleriot/rules/first_law.scm.h:13
-msgid "Remove the tens"
-msgstr "Премахване на десетките"
-
-#: ../aisleriot/rules/first_law.scm.h:14
-msgid "Remove the threes"
-msgstr "Премахване на тройките"
-
-#: ../aisleriot/rules/first_law.scm.h:15
-msgid "Remove the twos"
-msgstr "Премахване на двойките"
-
-#: ../aisleriot/rules/first_law.scm.h:16
-msgid "Return cards to stock"
-msgstr "Връщане на карти на пазара"
-
-#: ../aisleriot/rules/fortunes.scm.h:1 ../aisleriot/rules/klondike.scm.h:1
-msgid "Consider moving something into an empty slot"
-msgstr "Пробвайте да преместите карта на празно място"
-
-#: ../aisleriot/rules/fortunes.scm.h:3
-msgid "Move ~a off the board"
-msgstr "Преместване на ~a извън дъската"
-
-#: ../aisleriot/rules/forty_thieves.scm.h:1
-msgid "Bug! make-hint called on false move."
-msgstr ""
-"Грешка в програмата! Функцията „make-hint“ е изпълнена при невалиден ход."
-
-#: ../aisleriot/rules/forty_thieves.scm.h:2
-msgid "Deal a card from stock"
-msgstr "Раздаване на карта от тестето"
-
-#: ../aisleriot/rules/forty_thieves.scm.h:5
-msgid "an empty space"
-msgstr "празно място"
-
-#: ../aisleriot/rules/freecell.scm.h:1
-msgid "No moves are possible. Undo or start again."
-msgstr "Няма възможни ходове. Отменете ход или започнете отначало."
-
-#: ../aisleriot/rules/freecell.scm.h:2
-msgid "The game has no solution. Undo or start again."
-msgstr "Играта няма решение. Отменете ход или започнете отначало."
-
-#: ../aisleriot/rules/freecell.scm.h:3
-msgid "an empty reserve"
-msgstr "празен резерв"
-
-#: ../aisleriot/rules/freecell.scm.h:4
-msgid "an open tableau"
-msgstr "празно място за карти"
-
-#: ../aisleriot/rules/freecell.scm.h:5 ../aisleriot/rules/terrace.scm.h:26
-msgid "the foundation"
-msgstr "основата"
-
-#: ../aisleriot/rules/gaps.scm.h:1
-msgid "Add to the sequence in row ~a."
-msgstr "Добавяне към последователността на ред ~a."
-
-#: ../aisleriot/rules/gaps.scm.h:2
-msgid "Double click any card to redeal."
-msgstr "Натиснете два пъти, върху която и да е карта, за ново раздаване."
-
-#: ../aisleriot/rules/gaps.scm.h:3
-msgid "No hint available."
-msgstr "Няма наличен съвет."
-
-#: ../aisleriot/rules/gaps.scm.h:4
-msgid "Place a two in the leftmost slot of row ~a."
-msgstr "Поставяне на двойка в ляво от ред ~a."
-
-#: ../aisleriot/rules/gaps.scm.h:5
-msgid "Place the ~a next to ~a."
-msgstr "Поставяне на ~a до ~a."
-
-#: ../aisleriot/rules/gaps.scm.h:6
-msgid "Randomly Placed Gaps on Redeal"
-msgstr "При ново раздаване празнините да са на случайни места"
-
-#: ../aisleriot/rules/giant.scm.h:1
-msgid "Alternating colors"
-msgstr "Редуващи се цветове"
-
-#: ../aisleriot/rules/giant.scm.h:2
-msgid "Deal a row"
-msgstr "Раздаване на ред"
-
-#: ../aisleriot/rules/giant.scm.h:3
-msgid "Deals left: ~a"
-msgstr "Оставащи раздавания: ~a"
-
-#: ../aisleriot/rules/giant.scm.h:4
-msgid "Same suit"
-msgstr "Същия цвят"
-
-#: ../aisleriot/rules/giant.scm.h:5
-msgid "Try dealing a row of cards"
-msgstr "Опитайте да раздадете ред карти"
-
-#: ../aisleriot/rules/giant.scm.h:6
-msgid "Try moving a card to the reserve"
-msgstr "Опитайте да преместите карта на резервното място"
-
-#: ../aisleriot/rules/giant.scm.h:7 ../aisleriot/rules/spider.scm.h:7
-msgid "Try moving card piles around"
-msgstr "Опитайте да разместите куповете с карти"
-
-#: ../aisleriot/rules/giant.scm.h:8
-msgid "an empty foundation place"
-msgstr "празен куп"
-
-#: ../aisleriot/rules/giant.scm.h:9
-msgid "an empty tableau place"
-msgstr "празен куп на таблото"
-
-#: ../aisleriot/rules/glenwood.scm.h:7
-msgid "Move a card from the reserve on to the empty tableau slot"
-msgstr "Преместване на карта от резервно на празно място от таблото"
-
-#: ../aisleriot/rules/glenwood.scm.h:10
-msgid "Select a card from the reserve for first foundation pile"
-msgstr "Изберете карта от резервното място на първи куп"
-
-#: ../aisleriot/rules/glenwood.scm.h:13
-msgid "on to the empty tableau slot"
-msgstr "на празно място от таблото"
-
-#: ../aisleriot/rules/golf.scm.h:1 ../aisleriot/rules/hopscotch.scm.h:1
-#: ../aisleriot/rules/jumbo.scm.h:1 ../aisleriot/rules/kansas.scm.h:6
-#: ../aisleriot/rules/sir_tommy.scm.h:1 ../aisleriot/rules/whitehead.scm.h:1
-msgid "Deal another card"
-msgstr "Раздаване на още една карта"
-
-#: ../aisleriot/rules/golf.scm.h:2 ../aisleriot/rules/osmosis.scm.h:4
-#: ../aisleriot/rules/spider.scm.h:6
-msgid "Stock left: ~a"
-msgstr "Оставащи на пазара: ~a"
-
-#: ../aisleriot/rules/gypsy.scm.h:1
-msgid "Deal another hand"
-msgstr "Раздаване на още една ръка"
-
-#: ../aisleriot/rules/gypsy.scm.h:2
-msgid "Move a card or build of cards on to the empty slot"
-msgstr "Преместване на една или няколко карти на празното място"
-
-#: ../aisleriot/rules/hopscotch.scm.h:2
-msgid "Move card from waste"
-msgstr "Преместване на карта от боклука"
-
-#: ../aisleriot/rules/jumbo.scm.h:2
-msgid "Move waste to stock"
-msgstr "Преместване на боклука на пазара"
-
-#: ../aisleriot/rules/jumbo.scm.h:7 ../aisleriot/rules/kansas.scm.h:10
-#: ../aisleriot/rules/king_albert.scm.h:3
-#: ../aisleriot/rules/lady_jane.scm.h:11
-#: ../aisleriot/rules/straight_up.scm.h:6
-msgid "an empty tableau slot"
-msgstr "празно място на таблото"
-
-#: ../aisleriot/rules/kings_audience.scm.h:1
-msgid "Deal a new card"
-msgstr "Нова карта"
-
-#: ../aisleriot/rules/kings_audience.scm.h:2
-msgid "Stock remaining: ~a"
-msgstr "Оставащи на пазара: ~a"
-
-#: ../aisleriot/rules/klondike.scm.h:4
-msgid "No redeals"
-msgstr "Без ново раздаване"
-
-#: ../aisleriot/rules/klondike.scm.h:6
-msgid "Single card deals"
-msgstr "Обръщане на 3 карти"
-
-#: ../aisleriot/rules/klondike.scm.h:9
-msgid "Try moving cards down from the foundation"
-msgstr "Пробвайте да преместите картите от основата"
-
-#: ../aisleriot/rules/lady_jane.scm.h:1 ../aisleriot/rules/royal_east.scm.h:1
-msgid "Base Card:"
-msgstr "Базова карта:"
-
-#: ../aisleriot/rules/maze.scm.h:1
-msgid ""
-"Aim to place the suits in the order which fits the current layout most "
-"naturally."
-msgstr ""
-"Стремете се да поставяте цветовете в такъв ред, който да съответства най-"
-"точно на сегашното положение."
-
-#: ../aisleriot/rules/osmosis.scm.h:2
-msgid "Deal new cards from the deck"
-msgstr "Нова карта от тестето"
-
-#: ../aisleriot/rules/osmosis.scm.h:3
-msgid "Redeals left: ~a"
-msgstr "Оставащи раздавания: ~a"
-
-#: ../aisleriot/rules/pileon.scm.h:2 ../aisleriot/rules/terrace.scm.h:25
-msgid "something"
-msgstr "нещо"
-
-#: ../aisleriot/rules/plait.scm.h:8
-msgid "Move ~a from the stock to an empty edge or tableau slot"
-msgstr "Преместване на ~a от купа на празно място"
-
-#: ../aisleriot/rules/plait.scm.h:9
-msgid "Move ~a to an empty field"
-msgstr "Преместване на ~a на празно поле"
-
-#: ../aisleriot/rules/poker.scm.h:1
-msgid "Place cards on to the Tableau to form poker hands"
-msgstr "Поставяне на картите на масата, за да се образуват ръце на покер"
-
-#: ../aisleriot/rules/poker.scm.h:2
-msgid "Shuffle mode"
-msgstr "Режим „Случаен ред“"
-
-#: ../aisleriot/rules/royal_east.scm.h:9
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:6
-#: ../aisleriot/rules/westhaven.scm.h:4
-msgid "an empty tableau pile"
-msgstr "празен куп на таблото"
-
-#: ../aisleriot/rules/scorpion.scm.h:1
-msgid "Deal the cards"
-msgstr "Раздаване на картите"
-
-#: ../aisleriot/rules/scuffle.scm.h:3
-msgid "Reshuffle cards"
-msgstr "Разбъркване на картите"
-
-#: ../aisleriot/rules/sir_tommy.scm.h:2
-msgid "Move waste on to a reserve slot"
-msgstr "Преместване на боклука на резервно място"
-
-#: ../aisleriot/rules/sir_tommy.scm.h:4
-msgid "empty foundation"
-msgstr "празна основа"
-
-#: ../aisleriot/rules/spider.scm.h:2
-msgid "Four Suits"
-msgstr "Четири бои"
-
-#: ../aisleriot/rules/spider.scm.h:3
-msgid "One Suit"
-msgstr "Една боя"
-
-#: ../aisleriot/rules/spider.scm.h:4
-msgid "Place something on empty slot"
-msgstr "Поставяне на нещо на празно място"
-
-#: ../aisleriot/rules/spider.scm.h:5
-msgid "Please fill in empty pile first."
-msgstr "Първо запълнете празен куп."
-
-#: ../aisleriot/rules/spider.scm.h:8
-msgid "Two Suits"
-msgstr "Две бои"
-
-#: ../aisleriot/rules/spider.scm.h:9
-msgid "Undo until there are enough cards to fill all tableau piles"
-msgstr ""
-"Отмяна на ходове докато на таблото се появят достатъчно карти за всички "
-"купове на таблото"
-
-#: ../aisleriot/rules/ten_across.scm.h:1
-msgid "Allow temporary spots use"
-msgstr "Позволяване на използването на временните места"
-
-#: ../aisleriot/rules/ten_across.scm.h:2
-msgid "Move a card to an empty temporary slot"
-msgstr "Преместване на карта на празно временно място"
-
-#: ../aisleriot/rules/ten_across.scm.h:3
-msgid "No hint available"
-msgstr "Няма съвет"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:7
-msgid "Blondes and Brunettes"
-msgstr "Блондинки и брюнетки"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:10
-msgid "Falling Stars"
-msgstr "Метеори"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:12
-msgid "General's Patience"
-msgstr "Генералски"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:15
-msgid "Redheads"
-msgstr "Червенокоски"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:17
-msgid "Signora"
-msgstr "Сеньора"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:22
-msgid "Wood"
-msgstr "Гора"
-
-#: ../aisleriot/rules/thieves.scm.h:1
-msgid "Deal a card from the deck"
-msgstr "Раздаване на карта от тестето"
-
-#: ../aisleriot/rules/thirteen.scm.h:2
-msgid "Match the top two cards of the waste."
-msgstr "Съвпадане с горните две карти от боклука."
-
-#: ../aisleriot/rules/triple_peaks.scm.h:2
-msgid "Multiplier Scoring"
-msgstr "Оценяване на точки с умножение"
-
-#: ../aisleriot/rules/triple_peaks.scm.h:3
-msgid "Progressive Rounds"
-msgstr "Последователни пъти"
-
-#: ../aisleriot/rules/union_square.scm.h:4
-msgid "appropriate foundation pile"
-msgstr "съответен основен куп"
-
-#: ../aisleriot/rules/whitehead.scm.h:2
-msgid "Move a build of cards on to the empty Tableau slot"
-msgstr "Преместване на колона от карти на празното място от таблото"
-
-#: ../aisleriot/rules/zebra.scm.h:5
-msgid "the appropriate Foundation pile"
-msgstr "подходящият куп"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:1
 msgid "A flag to enable 3D mode"
@@ -2856,7 +133,7 @@ msgstr "Деклариране на _реми"
 
 #. The New Game toolbar button
 #: ../glchess/data/glchess.ui.h:4
-#: ../libgames-support/games-scores-dialog.c:460
+#: ../libgames-support/games-scores-dialog.c:459
 msgid "New Game"
 msgstr "Нова игра"
 
@@ -2885,16 +162,44 @@ msgstr "Показване на следващия ход"
 msgid "Show the previous move"
 msgstr "Показване на предишния ход"
 
+#. Tooltip for start new game toolbar button
+#: ../glchess/data/glchess.ui.h:16 ../gnobots2/menu.c:71
+#: ../libgames-support/games-stock.c:50 ../mahjongg/mahjongg.c:1203
+msgid "Start a new game"
+msgstr "Започване на нова игра"
+
 #. The undo move toolbar button
 #: ../glchess/data/glchess.ui.h:18
 msgid "Undo Move"
 msgstr "Отмяна на ход"
 
 #. Help contents menu item
-#: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:255
-#: ../libgames-support/games-stock.c:296
+#: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:250
+#: ../libgames-support/games-stock.c:252
 msgid "_Contents"
 msgstr "_Ръководство"
+
+#. Game menu name
+#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1639
+#: ../gnect/src/main.c:1241 ../gnibbles/main.c:687 ../gnobots2/menu.c:66
+#: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:226
+#: ../gnomine/gnomine.c:768 ../gnotravex/gnotravex.c:1706
+#: ../gnotski/gnotski.c:409 ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:847
+#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1200
+#: ../swell-foop/data/swell-foop.ui.h:2
+msgid "_Game"
+msgstr "_Игра"
+
+#. Help menu item
+#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1641
+#: ../gnect/src/main.c:1244 ../gnibbles/main.c:690 ../gnobots2/menu.c:70
+#: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:249
+#: ../gnomine/gnomine.c:770 ../gnotravex/gnotravex.c:1710
+#: ../gnotski/gnotski.c:411 ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:849
+#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1202
+#: ../swell-foop/data/swell-foop.ui.h:3
+msgid "_Help"
+msgstr "Помо_щ"
 
 #. Save menu item
 #: ../glchess/data/glchess.ui.h:26
@@ -2902,17 +207,17 @@ msgid "_Resign"
 msgstr "_Предаване"
 
 #. Settings menu item
-#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1641
-#: ../gnect/src/main.c:1244 ../gnibbles/main.c:689 ../gnobots2/menu.c:69
-#: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:245
-#: ../gnomine/gnomine.c:770 ../gnotravex/gnotravex.c:1709
+#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1640
+#: ../gnect/src/main.c:1243 ../gnibbles/main.c:689 ../gnobots2/menu.c:69
+#: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:240
+#: ../gnomine/gnomine.c:769 ../gnotravex/gnotravex.c:1708
 #: ../gtali/gyahtzee.c:712 ../iagno/gnothello.c:848
 #: ../mahjongg/mahjongg.c:1201
 msgid "_Settings"
 msgstr "_Настройки"
 
 #. Undo move menu item
-#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:308
+#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:264
 msgid "_Undo Move"
 msgstr "_Отмяна на ход"
 
@@ -2957,7 +262,7 @@ msgid "Five minutes"
 msgstr "5 минути"
 
 #. Preferences Dialog: Tab title for game preferences
-#: ../glchess/data/preferences.ui.h:18 ../gnect/src/prefs.c:302
+#: ../glchess/data/preferences.ui.h:18 ../gnect/src/prefs.c:301
 #: ../gnibbles/preferences.c:254 ../gnobots2/properties.c:496
 #: ../quadrapassel/tetris.cpp:596 ../iagno/properties.c:415
 msgid "Game"
@@ -3004,7 +309,7 @@ msgid "Play as:"
 msgstr "Игра с:"
 
 #. Title for preferences dialog
-#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:197
+#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:196
 #: ../mahjongg/mahjongg.c:141
 msgid "Preferences"
 msgstr "Настройки"
@@ -3020,7 +325,7 @@ msgid "Show _History"
 msgstr "_История"
 
 #. Preferences Dialog: Check box for selecting if toolbar is visible
-#: ../glchess/data/preferences.ui.h:42 ../gnome-sudoku/src/lib/main.py:275
+#: ../glchess/data/preferences.ui.h:42 ../gnome-sudoku/src/lib/main.py:270
 msgid "Show _Toolbar"
 msgstr "_Лента с инструменти"
 
@@ -3687,11 +992,11 @@ msgstr "Един от играчите умря"
 msgid "Save this game before starting a new one?"
 msgstr "Запазване на тази игра преди започване на нова?"
 
-#: ../glchess/src/glchess.vala:822 ../gnome-sudoku/src/lib/main.py:442
+#: ../glchess/src/glchess.vala:822 ../gnome-sudoku/src/lib/main.py:437
 msgid "_Abandon game"
 msgstr "_Изоставяне на играта"
 
-#: ../glchess/src/glchess.vala:823 ../gnome-sudoku/src/lib/main.py:441
+#: ../glchess/src/glchess.vala:823 ../gnome-sudoku/src/lib/main.py:436
 msgid "_Save game for later"
 msgstr "_Запазване на играта"
 
@@ -3716,7 +1021,7 @@ msgid_plural "hours"
 msgstr[0] "часа"
 msgstr[1] "часове"
 
-#: ../glchess/src/glchess.vala:1343
+#: ../glchess/src/glchess.vala:1342
 msgid ""
 "The 2D/3D chess game for GNOME. \n"
 "\n"
@@ -3726,58 +1031,84 @@ msgstr ""
 "\n"
 "„Шах“ е част от игрите на GNOME."
 
+#: ../glchess/src/glchess.vala:1347 ../glines/glines.c:1218
+#: ../gnect/src/main.c:874 ../gnibbles/main.c:211 ../gnobots2/menu.c:263
+#: ../quadrapassel/tetris.cpp:1313 ../gnome-sudoku/src/lib/defaults.py.in:45
+#: ../gnomine/gnomine.c:479 ../gnotravex/gnotravex.c:1615
+#: ../gnotski/gnotski.c:1490 ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
+#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:911
+#: ../swell-foop/src/About.js:19
+msgid "GNOME Games web site"
+msgstr "Уеб сайт на игрите на GNOME"
+
 #. Title of save game dialog
-#: ../glchess/src/glchess.vala:1402
+#: ../glchess/src/glchess.vala:1401
 msgid "Save Chess Game"
 msgstr "Запазване на играта шах"
 
 #. Save Game Dialog: Name of filter to show only PGN files
 #. Load Game Dialog: Name of filter to show only PGN files
-#: ../glchess/src/glchess.vala:1415 ../glchess/src/glchess.vala:1483
+#: ../glchess/src/glchess.vala:1414 ../glchess/src/glchess.vala:1482
 msgid "PGN files"
 msgstr "Файлове PGN"
 
 #. Save Game Dialog: Name of filter to show all files
 #. Load Game Dialog: Name of filter to show all files
-#: ../glchess/src/glchess.vala:1422 ../glchess/src/glchess.vala:1490
+#: ../glchess/src/glchess.vala:1421 ../glchess/src/glchess.vala:1489
 msgid "All files"
 msgstr "Всички файлове"
 
-#: ../glchess/src/glchess.vala:1446
+#: ../glchess/src/glchess.vala:1445
 #, c-format
 msgid "Failed to save game: %s"
 msgstr "Играта не може да бъде запазена: %s"
 
 #. Title of load game dialog
-#: ../glchess/src/glchess.vala:1470
+#: ../glchess/src/glchess.vala:1469
 msgid "Load Chess Game"
 msgstr "Зареждане на игра шах"
 
-#: ../glchess/src/glchess.vala:1512
+#: ../glchess/src/glchess.vala:1511
 #, c-format
 msgid "Failed to open game: %s"
 msgstr "Играта не може да се зареди: %s"
 
-#: ../glines/glines.c:90 ../gnomine/gnomine.c:101
+#. Help string for command line --version flag
+#: ../glchess/src/glchess.vala:1572
+msgid "Show release version"
+msgstr "Показване на версията"
+
+#. Arguments and description for --help text
+#: ../glchess/src/glchess.vala:1587
+msgid "[FILE] - Play Chess"
+msgstr "[ФАЙЛ] — игра на шах"
+
+#. Text printed out when an unknown command-line argument provided
+#: ../glchess/src/glchess.vala:1598
+#, c-format
+msgid "Run '%s --help' to see a full list of available command line options."
+msgstr "Изпълнете „%s --help“, за да видите списък с всички опции на командния ред."
+
+#: ../glines/glines.c:89 ../gnomine/gnomine.c:100
 msgctxt "board size"
 msgid "Small"
 msgstr "Малка"
 
-#: ../glines/glines.c:91 ../gnomine/gnomine.c:102
+#: ../glines/glines.c:90 ../gnomine/gnomine.c:101
 msgctxt "board size"
 msgid "Medium"
 msgstr "Средна"
 
-#: ../glines/glines.c:92 ../gnomine/gnomine.c:103
+#: ../glines/glines.c:91 ../gnomine/gnomine.c:102
 msgctxt "board size"
 msgid "Large"
 msgstr "Голяма"
 
-#: ../glines/glines.c:191
+#: ../glines/glines.c:190
 msgid "Could not load theme"
 msgstr "Темата не може да се зареди"
 
-#: ../glines/glines.c:219
+#: ../glines/glines.c:218
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -3790,7 +1121,7 @@ msgstr ""
 "\n"
 "Вместо това ще бъде зареден стандартният набор плочки."
 
-#: ../glines/glines.c:226
+#: ../glines/glines.c:225
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -3803,33 +1134,33 @@ msgstr ""
 "\n"
 "Проверете инсталацията на „Пет или повече“"
 
-#: ../glines/glines.c:445
+#: ../glines/glines.c:444
 msgid "Match five objects of the same type in a row to score!"
 msgstr "Подреждане на пет топчета от един цвят в редица!"
 
-#: ../glines/glines.c:507
+#: ../glines/glines.c:506
 msgid "GNOME Five or More"
 msgstr "Пет или повече"
 
-#: ../glines/glines.c:509
+#: ../glines/glines.c:508
 msgid "_Board size:"
 msgstr "_Размер на дъската:"
 
-#: ../glines/glines.c:526 ../swell-foop/src/Score.js:109
+#: ../glines/glines.c:525 ../swell-foop/src/Score.js:109
 msgid "Game Over!"
 msgstr "Край на Играта!"
 
 #. Can't move there!
-#: ../glines/glines.c:683
+#: ../glines/glines.c:682
 msgid "You can't move there!"
 msgstr "Непозволен ход!"
 
-#: ../glines/glines.c:1205 ../glines/glines.c:1208 ../glines/glines.c:1752
-#: ../glines/glines.c:1784 ../glines/glines.desktop.in.in.h:1
+#: ../glines/glines.c:1204 ../glines/glines.c:1207 ../glines/glines.c:1751
+#: ../glines/glines.c:1783 ../glines/glines.desktop.in.in.h:1
 msgid "Five or More"
 msgstr "Пет или повече"
 
-#: ../glines/glines.c:1210
+#: ../glines/glines.c:1209
 msgid ""
 "GNOME port of the once-popular Color Lines game.\n"
 "\n"
@@ -3839,40 +1170,64 @@ msgstr ""
 "\n"
 "Играта „Пет или повече“ е част от игрите на GNOME."
 
-#: ../glines/glines.c:1397
+#. this doesn't work for anyone
+#: ../glines/glines.c:1215 ../gnect/src/main.c:877 ../gnibbles/main.c:208
+#: ../gnobots2/menu.c:267 ../quadrapassel/tetris.cpp:1316
+#: ../gnome-sudoku/src/lib/main.py:704 ../gnomine/gnomine.c:476
+#: ../gnotravex/gnotravex.c:1612 ../gnotski/gnotski.c:1487
+#: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:270
+#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:908
+#: ../swell-foop/src/About.js:20
+msgid "translator-credits"
+msgstr ""
+"Ростислав „zbrox“ Райков <zbrox@i-space.org>\n"
+"Евгени Боевски <e_boevski@abv.bg>\n"
+"Александър Шопов <ash@kambanaria.org>\n"
+"Красимир „bfaf“ Чонов <mk2616@abv.bg>\n"
+"\n"
+"Проектът за превод на GNOME има нужда от подкрепа.\n"
+"Научете повече за нас на http://gnome.cult.bg\n"
+"Докладвайте за грешки на http://gnome.cult.bg/bugs"
+
+#: ../glines/glines.c:1396
 msgid "Five or More Preferences"
 msgstr "Настройки на „Пет или повече“"
 
-#: ../glines/glines.c:1416 ../gnect/src/prefs.c:334
+#: ../glines/glines.c:1415 ../gnect/src/prefs.c:333
 #: ../gnobots2/properties.c:535 ../iagno/properties.c:527
 #: ../lightsoff/data/settings.ui.h:1 ../swell-foop/data/settings.ui.h:1
 msgid "Appearance"
 msgstr "Изглед"
 
-#: ../glines/glines.c:1424
+#: ../glines/glines.c:1423
 msgid "_Image:"
 msgstr "_Изображение:"
 
-#: ../glines/glines.c:1435
+#: ../glines/glines.c:1434
 msgid "B_ackground color:"
 msgstr "Цвят на _фона:"
 
-#: ../glines/glines.c:1450
+#: ../glines/glines.c:1449
 msgid "Board Size"
 msgstr "Размер на дъската"
 
-#: ../glines/glines.c:1469
+#: ../glines/glines.c:1468
 msgctxt "preferences"
 msgid "General"
 msgstr "Общи"
 
-#: ../glines/glines.c:1475
+#: ../glines/glines.c:1474
 msgid "_Use fast moves"
 msgstr "_Използване на бързи ходове"
 
-#: ../glines/glines.c:1811
+#: ../glines/glines.c:1810
 msgid "Next:"
 msgstr "Следващ:"
+
+#: ../glines/glines.c:1840 ../gnobots2/statusbar.c:67
+#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:439
+msgid "Score:"
+msgstr "Резултат:"
 
 #: ../glines/glines.desktop.in.in.h:2
 msgid "Remove colored balls from the board by forming lines"
@@ -3955,7 +1310,7 @@ msgstr "Число определящо предпочитаната тема."
 msgid "Animate"
 msgstr "Анимация"
 
-#: ../gnect/data/gnect.schemas.in.h:3 ../gnect/src/prefs.c:373
+#: ../gnect/data/gnect.schemas.in.h:3 ../gnect/src/prefs.c:372
 msgid "Drop marble"
 msgstr "Пускане на топче"
 
@@ -3981,21 +1336,30 @@ msgstr "Ниво на играч № 1"
 msgid "Level of Player Two"
 msgstr "Ниво на играч № 2"
 
-#: ../gnect/data/gnect.schemas.in.h:9 ../gnect/src/prefs.c:371
+#: ../gnect/data/gnect.schemas.in.h:9 ../gnect/src/prefs.c:370
 #: ../gnibbles/gnibbles.schemas.in.h:16 ../gnibbles/preferences.c:444
 #: ../quadrapassel/quadrapassel.schemas.in.h:13 ../quadrapassel/tetris.cpp:751
 msgid "Move left"
 msgstr "Движение наляво"
 
-#: ../gnect/data/gnect.schemas.in.h:10 ../gnect/src/prefs.c:372
+#: ../gnect/data/gnect.schemas.in.h:10 ../gnect/src/prefs.c:371
 #: ../gnibbles/gnibbles.schemas.in.h:17 ../gnibbles/preferences.c:445
 #: ../quadrapassel/quadrapassel.schemas.in.h:14 ../quadrapassel/tetris.cpp:752
 msgid "Move right"
 msgstr "Движение надясно"
 
+#: ../gnect/data/gnect.schemas.in.h:11 ../gnobots2/properties.c:483
+#: ../iagno/iagno.schemas.in.h:1
+msgid "Sound"
+msgstr "Звук"
+
 #: ../gnect/data/gnect.schemas.in.h:12
 msgid "Theme ID"
 msgstr "Тема"
+
+#: ../gnect/data/gnect.schemas.in.h:13 ../iagno/iagno.schemas.in.h:2
+msgid "Whether or not to play event sounds."
+msgstr "Дали да се изпълняват звуци при събития."
 
 #: ../gnect/data/gnect.schemas.in.h:14
 msgid "Whether or not to use animation."
@@ -4016,58 +1380,58 @@ msgstr ""
 "Не може да се зареди изображение:\n"
 "%s"
 
-#: ../gnect/src/main.c:528
+#: ../gnect/src/main.c:527
 msgid "It's a draw!"
 msgstr "Равенство!"
 
-#: ../gnect/src/main.c:537 ../gnome-sudoku/src/lib/main.py:422
+#: ../gnect/src/main.c:536 ../gnome-sudoku/src/lib/main.py:417
 msgid "You win!"
 msgstr "Вие печелите!"
 
-#: ../gnect/src/main.c:539 ../gnect/src/main.c:572
+#: ../gnect/src/main.c:538 ../gnect/src/main.c:571
 msgid "It is your move."
 msgstr "Вие сте на ход."
 
-#: ../gnect/src/main.c:542
+#: ../gnect/src/main.c:541
 msgid "I win!"
 msgstr "Аз печеля!"
 
-#: ../gnect/src/main.c:544 ../gnect/src/main.c:677
+#: ../gnect/src/main.c:543 ../gnect/src/main.c:676
 msgid "Thinking..."
 msgstr "Мисля…"
 
-#: ../gnect/src/main.c:565 ../gnect/src/main.c:569
+#: ../gnect/src/main.c:564 ../gnect/src/main.c:568
 #, c-format
 msgid "%s wins!"
 msgstr " %s победи!"
 
-#: ../gnect/src/main.c:575
+#: ../gnect/src/main.c:574
 #, c-format
 msgid "Waiting for %s to move."
 msgstr "Изчакване на хода на %s."
 
-#: ../gnect/src/main.c:694
+#: ../gnect/src/main.c:693
 #, c-format
 msgid "Hint: Column %d"
 msgstr "Съвет: Колона %d"
 
-#: ../gnect/src/main.c:722 ../gnect/src/main.c:726
+#: ../gnect/src/main.c:721 ../gnect/src/main.c:725
 msgid "You:"
 msgstr "Вие:"
 
-#: ../gnect/src/main.c:723 ../gnect/src/main.c:725
+#: ../gnect/src/main.c:722 ../gnect/src/main.c:724
 msgid "Me:"
 msgstr "Аз:"
 
-#: ../gnect/src/main.c:771
+#: ../gnect/src/main.c:770
 msgid "Scores"
 msgstr "Резултати"
 
-#: ../gnect/src/main.c:821
+#: ../gnect/src/main.c:820
 msgid "Drawn:"
 msgstr "Изтеглени:"
 
-#: ../gnect/src/main.c:874
+#: ../gnect/src/main.c:873
 msgid ""
 "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
 "Bertoletti's Velena Engine.\n"
@@ -4079,7 +1443,12 @@ msgstr ""
 "\n"
 "Играта „Четири в линия“ е част от игрите на GNOME."
 
-#: ../gnect/src/prefs.c:117
+#: ../gnect/src/main.c:1242 ../gnibbles/main.c:688 ../gnobots2/menu.c:67
+#: ../gnotski/gnotski.c:410
+msgid "_View"
+msgstr "Пре_глед"
+
+#: ../gnect/src/prefs.c:116
 #, c-format
 msgid ""
 "Player One:\n"
@@ -4088,7 +1457,7 @@ msgstr ""
 "Играч 1:\n"
 "%s"
 
-#: ../gnect/src/prefs.c:121
+#: ../gnect/src/prefs.c:120
 #, c-format
 msgid ""
 "Player Two:\n"
@@ -4097,45 +1466,45 @@ msgstr ""
 "Играч 2:\n"
 "%s"
 
-#: ../gnect/src/prefs.c:250 ../gtali/gyahtzee.c:998 ../gtali/yahtzee.c:69
+#: ../gnect/src/prefs.c:249 ../gtali/gyahtzee.c:998 ../gtali/yahtzee.c:69
 #: ../iagno/properties.c:448 ../iagno/properties.c:489
 msgid "Human"
 msgstr "Човек"
 
-#: ../gnect/src/prefs.c:252 ../iagno/properties.c:457
+#: ../gnect/src/prefs.c:251 ../iagno/properties.c:457
 #: ../iagno/properties.c:498
 msgid "Level one"
 msgstr "Първо ниво"
 
-#: ../gnect/src/prefs.c:254 ../iagno/properties.c:466
+#: ../gnect/src/prefs.c:253 ../iagno/properties.c:466
 #: ../iagno/properties.c:507
 msgid "Level two"
 msgstr "Второ ниво"
 
-#: ../gnect/src/prefs.c:256 ../iagno/properties.c:475
+#: ../gnect/src/prefs.c:255 ../iagno/properties.c:475
 #: ../iagno/properties.c:516
 msgid "Level three"
 msgstr "Трето ниво"
 
-#: ../gnect/src/prefs.c:280
+#: ../gnect/src/prefs.c:279
 msgid "Four-in-a-Row Preferences"
 msgstr "Настройки на „Четири в линия“"
 
-#: ../gnect/src/prefs.c:343
+#: ../gnect/src/prefs.c:342
 msgid "_Theme:"
 msgstr "_Тема:"
 
-#: ../gnect/src/prefs.c:358
+#: ../gnect/src/prefs.c:357
 msgid "Enable _animation"
 msgstr "Включване на _анимациите"
 
-#: ../gnect/src/prefs.c:362 ../gnibbles/preferences.c:338
+#: ../gnect/src/prefs.c:361 ../gnibbles/preferences.c:338
 #: ../iagno/properties.c:436
 msgid "E_nable sounds"
 msgstr "_Включване на звуците"
 
 #. keyboard tab
-#: ../gnect/src/prefs.c:367 ../gnibbles/preferences.c:434
+#: ../gnect/src/prefs.c:366 ../gnibbles/preferences.c:434
 #: ../gnobots2/properties.c:542 ../quadrapassel/tetris.cpp:743
 msgid "Keyboard Controls"
 msgstr "Управление с клавиатура"
@@ -4221,7 +1590,7 @@ msgstr ""
 "\n"
 "Проверете инсталацията на „Nibbles“"
 
-#: ../gnibbles/gnibbles.c:95
+#: ../gnibbles/gnibbles.c:94
 #, c-format
 msgid ""
 "Nibbles couldn't find pixmap file:\n"
@@ -4234,28 +1603,28 @@ msgstr ""
 "\n"
 "Проверете инсталацията на „Nibbles“"
 
-#: ../gnibbles/gnibbles.c:367
+#: ../gnibbles/gnibbles.c:366
 msgid "Nibbles Scores"
 msgstr "Резултати от „Nibbles“"
 
-#: ../gnibbles/gnibbles.c:370
+#: ../gnibbles/gnibbles.c:369
 msgid "Speed:"
 msgstr "Скорост:"
 
-#: ../gnibbles/gnibbles.c:375 ../gnobots2/game.c:179 ../gnomine/gnomine.c:224
-#: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:797
+#: ../gnibbles/gnibbles.c:374 ../gnobots2/game.c:179 ../gnomine/gnomine.c:223
+#: ../gnotravex/gnotravex.c:1089 ../gnotski/gnotski.c:797
 #: ../gtali/gyahtzee.c:197 ../mahjongg/mahjongg.c:630
 msgid "Congratulations!"
 msgstr "Поздравления!"
 
-#: ../gnibbles/gnibbles.c:376 ../gnobots2/game.c:180 ../gnomine/gnomine.c:225
-#: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:798
+#: ../gnibbles/gnibbles.c:375 ../gnobots2/game.c:180 ../gnomine/gnomine.c:224
+#: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:798
 #: ../gtali/gyahtzee.c:198 ../mahjongg/mahjongg.c:631
 msgid "Your score is the best!"
 msgstr "Вашият резултат е най-добрият!"
 
-#: ../gnibbles/gnibbles.c:377 ../gnobots2/game.c:181 ../gnomine/gnomine.c:226
-#: ../gnotravex/gnotravex.c:1092 ../gnotski/gnotski.c:799
+#: ../gnibbles/gnibbles.c:376 ../gnobots2/game.c:181 ../gnomine/gnomine.c:225
+#: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:799
 #: ../gtali/gyahtzee.c:199 ../mahjongg/mahjongg.c:632
 msgid "Your score has made the top ten."
 msgstr "Вашият резултат е в челната десетка!"
@@ -4527,14 +1896,14 @@ msgstr "Червей %d:"
 msgid "Game over!"
 msgstr "Край на играта!"
 
-#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:200 ../gnotski/gnotski.c:772
+#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:199 ../gnotski/gnotski.c:772
 msgid "Great work, but unfortunately your score did not make the top ten."
 msgstr "За съжаление вашият резултат не е челната десетка."
 
 #. Translators: This "_New Game" is for the game-over dialogue
 #: ../gnobots2/game.c:154 ../gnome-sudoku/data/select_game.ui.h:1
-#: ../gnomine/gnomine.c:202 ../gnotski/gnotski.c:774
-#: ../libgames-support/games-stock.c:302
+#: ../gnomine/gnomine.c:201 ../gnotski/gnotski.c:774
+#: ../libgames-support/games-stock.c:258
 msgid "_New Game"
 msgstr "_Нова игра"
 
@@ -4568,6 +1937,10 @@ msgstr "Вече няма безопасни места за телепорти�
 msgid "Set game scenario"
 msgstr "Установяване на сценария на играта"
 
+#: ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
+msgid "NAME"
+msgstr "ИМЕ"
+
 #: ../gnobots2/gnobots.c:87
 msgid "Set game configuration"
 msgstr "Установяване на настройките на играта"
@@ -4576,14 +1949,14 @@ msgstr "Установяване на настройките на играта"
 msgid "Initial window position"
 msgstr "Начална позиция на прозореца"
 
-#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:925 ../gnomine/gnomine.c:933
-#: ../gnotravex/gnotravex.c:262 ../gnotski/gnotski.c:457
+#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:924 ../gnomine/gnomine.c:932
+#: ../gnotravex/gnotravex.c:261 ../gnotski/gnotski.c:457
 #: ../iagno/gnothello.c:148
 msgid "X"
 msgstr "X"
 
-#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:927 ../gnomine/gnomine.c:935
-#: ../gnotravex/gnotravex.c:264 ../gnotski/gnotski.c:459
+#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:926 ../gnomine/gnomine.c:934
+#: ../gnotravex/gnotravex.c:263 ../gnotski/gnotski.c:459
 #: ../iagno/gnothello.c:150
 msgid "Y"
 msgstr "Y"
@@ -4882,7 +2255,7 @@ msgstr ""
 msgid "Could not find '%s' pixmap file\n"
 msgstr "Липсва графичен файл „%s“\n"
 
-#: ../gnobots2/menu.c:68 ../gnotravex/gnotravex.c:1708
+#: ../gnobots2/menu.c:68 ../gnotravex/gnotravex.c:1707
 msgid "_Move"
 msgstr "Пре_местване"
 
@@ -4909,6 +2282,14 @@ msgstr "_Изчакване"
 #: ../gnobots2/menu.c:79
 msgid "Wait for the robots"
 msgstr "Изчакване за роботите"
+
+#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1223
+msgid "_Toolbar"
+msgstr "Лента с инс_трументи"
+
+#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1223
+msgid "Show or hide the toolbar"
+msgstr "Показване или скриване на лентата с инструменти"
 
 #: ../gnobots2/menu.c:264
 msgid ""
@@ -5269,6 +2650,10 @@ msgstr "Резултати на Четрис"
 msgid "Paused"
 msgstr "На пауза"
 
+#: ../quadrapassel/blockops.cpp:788
+msgid "Game Over"
+msgstr "Край на играта"
+
 #: ../gnome-sudoku/gnome-sudoku.desktop.in.in.h:1
 #: ../gnome-sudoku/src/lib/defaults.py.in:40
 msgid "Sudoku"
@@ -5377,7 +2762,7 @@ msgstr "_Запазени игри"
 msgid "Add a new tracker"
 msgstr "Добавяне на проследяване"
 
-#: ../gnome-sudoku/data/tracker.ui.h:2 ../gnome-sudoku/src/lib/main.py:790
+#: ../gnome-sudoku/data/tracker.ui.h:2 ../gnome-sudoku/src/lib/main.py:785
 msgid "H_ide"
 msgstr "_Скриване"
 
@@ -5440,7 +2825,7 @@ msgstr ""
 
 # Смешно, колкото и да се мъча да стандартизирам низовете, все накой ще си напише някаква щуротия в лиценза.
 #: ../gnome-sudoku/src/lib/defaults.py.in:55
-#: ../libgames-support/games-stock.c:393
+#: ../libgames-support/games-stock.c:328
 #, c-format, python-format
 msgid ""
 "%s is distributed in the hope that it will be useful, but WITHOUT ANY "
@@ -5453,7 +2838,7 @@ msgstr ""
 "ДА Е УПОТРЕБА. За подробности погледнете Общия публичен лиценз на GNU."
 
 #: ../gnome-sudoku/src/lib/defaults.py.in:59
-#: ../libgames-support/games-stock.c:398
+#: ../libgames-support/games-stock.c:333
 #, c-format, python-format
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
@@ -5510,257 +2895,253 @@ msgstr "„Судоку“ не може да отбележи играта ка
 msgid "Sudoku unable to mark game as finished."
 msgstr "„Судоку“ не може да отбележи играта като завършена."
 
-#: ../gnome-sudoku/src/lib/main.py:44
-msgid "Track moves"
-msgstr "Проследяване на ходовете"
-
-#: ../gnome-sudoku/src/lib/main.py:232
+#: ../gnome-sudoku/src/lib/main.py:227
 msgid "New game"
 msgstr "Нова игра"
 
 #. Translators: this is the "Reset" scores button in a scores dialogue
-#: ../gnome-sudoku/src/lib/main.py:233 ../libgames-support/games-stock.c:305
+#: ../gnome-sudoku/src/lib/main.py:228 ../libgames-support/games-stock.c:261
 msgid "_Reset"
 msgstr "_Рестартиране"
 
-#: ../gnome-sudoku/src/lib/main.py:235
+#: ../gnome-sudoku/src/lib/main.py:230
 msgid "_Undo"
 msgstr "_Отмяна на ход"
 
-#: ../gnome-sudoku/src/lib/main.py:236
+#: ../gnome-sudoku/src/lib/main.py:231
 msgid "Undo last action"
 msgstr "Отмяна на последния ход"
 
-#: ../gnome-sudoku/src/lib/main.py:237
+#: ../gnome-sudoku/src/lib/main.py:232
 msgid "_Redo"
 msgstr "_Повтаряне"
 
-#: ../gnome-sudoku/src/lib/main.py:238
+#: ../gnome-sudoku/src/lib/main.py:233
 msgid "Redo last action"
 msgstr "Повтаряне на последния ход"
 
-#: ../gnome-sudoku/src/lib/main.py:239
+#: ../gnome-sudoku/src/lib/main.py:234
 msgid "Puzzle _Statistics..."
 msgstr "_Статистика…"
 
-#: ../gnome-sudoku/src/lib/main.py:241
+#: ../gnome-sudoku/src/lib/main.py:236
 msgid "_Print..."
 msgstr "_Отпечатване…"
 
-#: ../gnome-sudoku/src/lib/main.py:242
+#: ../gnome-sudoku/src/lib/main.py:237
 msgid "Print _Multiple Sudokus..."
 msgstr "Отпечатване на _множество главоблъсканици…"
 
-#: ../gnome-sudoku/src/lib/main.py:247
+#: ../gnome-sudoku/src/lib/main.py:242
 msgid "_Tools"
 msgstr "И_нструменти"
 
-#: ../gnome-sudoku/src/lib/main.py:248 ../libgames-support/games-stock.c:298
+#: ../gnome-sudoku/src/lib/main.py:243 ../libgames-support/games-stock.c:254
 msgid "_Hint"
 msgstr "_Съвет"
 
-#: ../gnome-sudoku/src/lib/main.py:249
+#: ../gnome-sudoku/src/lib/main.py:244
 msgid "Show a square that is easy to fill."
 msgstr "Лесни за запълване квадратчета."
 
-#: ../gnome-sudoku/src/lib/main.py:250
+#: ../gnome-sudoku/src/lib/main.py:245
 msgid "Clear _Top Notes"
 msgstr "Изчистване на _горните бележки"
 
-#: ../gnome-sudoku/src/lib/main.py:252
+#: ../gnome-sudoku/src/lib/main.py:247
 msgid "Clear _Bottom Notes"
 msgstr "Изчистване на _долните бележки"
 
-#: ../gnome-sudoku/src/lib/main.py:261
+#: ../gnome-sudoku/src/lib/main.py:256
 msgid "Show _Possible Numbers"
 msgstr "Показване на _възможните числа"
 
-#: ../gnome-sudoku/src/lib/main.py:263
+#: ../gnome-sudoku/src/lib/main.py:258
 msgid "Always show possible numbers in a square"
 msgstr "Винаги показване на възможните числа в квадратчетата"
 
-#: ../gnome-sudoku/src/lib/main.py:267
+#: ../gnome-sudoku/src/lib/main.py:262
 msgid "Warn About _Unfillable Squares"
 msgstr "Предупреждаване за _непопълними квадратчета"
 
-#: ../gnome-sudoku/src/lib/main.py:269
+#: ../gnome-sudoku/src/lib/main.py:264
 msgid "Warn about squares made unfillable by a move"
 msgstr ""
 "Предупреждаване за квадратчета, които поредният ход е направил непопълними"
 
-#: ../gnome-sudoku/src/lib/main.py:271
+#: ../gnome-sudoku/src/lib/main.py:266
 msgid "_Track Additions"
 msgstr "_Проследяване на добавените"
 
-#: ../gnome-sudoku/src/lib/main.py:273
+#: ../gnome-sudoku/src/lib/main.py:268
 msgid "Mark new additions in a separate color so you can keep track of them."
 msgstr "Новодобавените да са с различен цвят за по-лесно проследяване."
 
-#: ../gnome-sudoku/src/lib/main.py:276
+#: ../gnome-sudoku/src/lib/main.py:271
 msgid "_Highlighter"
 msgstr "_Осветяване"
 
-#: ../gnome-sudoku/src/lib/main.py:277
+#: ../gnome-sudoku/src/lib/main.py:272
 msgid "Highlight the current row, column and box"
 msgstr "Осветяване на текущия ред, колона, кутия"
 
-#: ../gnome-sudoku/src/lib/main.py:397
+#: ../gnome-sudoku/src/lib/main.py:392
 #, python-format
 msgid "You completed the puzzle in %d second"
 msgid_plural "You completed the puzzle in %d seconds"
 msgstr[0] "Завършихте главоблъсканицата за %d секунда."
 msgstr[1] "Завършихте главоблъсканицата за %d секунди."
 
-#: ../gnome-sudoku/src/lib/main.py:402 ../gnome-sudoku/src/lib/main.py:410
+#: ../gnome-sudoku/src/lib/main.py:397 ../gnome-sudoku/src/lib/main.py:405
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d минута"
 msgstr[1] "%d минути"
 
-#: ../gnome-sudoku/src/lib/main.py:403 ../gnome-sudoku/src/lib/main.py:411
+#: ../gnome-sudoku/src/lib/main.py:398 ../gnome-sudoku/src/lib/main.py:406
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d секунда"
 msgstr[1] "%d секунди"
 
-#: ../gnome-sudoku/src/lib/main.py:404
+#: ../gnome-sudoku/src/lib/main.py:399
 #, python-format
 msgid "You completed the puzzle in %(minute)s and %(second)s"
 msgstr "Завършихте главоблъсканицата за %(minute)s и %(second)s"
 
-#: ../gnome-sudoku/src/lib/main.py:409
+#: ../gnome-sudoku/src/lib/main.py:404
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d час"
 msgstr[1] "%d часа"
 
-#: ../gnome-sudoku/src/lib/main.py:412
+#: ../gnome-sudoku/src/lib/main.py:407
 #, python-format
 msgid "You completed the puzzle in %(hour)s, %(minute)s and %(second)s"
 msgstr "Завършихте главоблъсканицата за %(hour)s, %(minute)s и %(second)s"
 
-#: ../gnome-sudoku/src/lib/main.py:414
+#: ../gnome-sudoku/src/lib/main.py:409
 #, python-format
 msgid "You got %(n)s hint."
 msgid_plural "You got %(n)s hints."
 msgstr[0] "Получихте %(n)s съвет"
 msgstr[1] "Получихте %(n)s съвета"
 
-#: ../gnome-sudoku/src/lib/main.py:417
+#: ../gnome-sudoku/src/lib/main.py:412
 #, python-format
 msgid "You had %(n)s impossibility pointed out."
 msgid_plural "You had %(n)s impossibilities pointed out."
 msgstr[0] "Беше ви показано %(n)s невъзможен ход."
 msgstr[1] "Бяха ви показани %(n)s невъзможни хода."
 
-#: ../gnome-sudoku/src/lib/main.py:440
+#: ../gnome-sudoku/src/lib/main.py:435
 msgid "Save this game before starting new one?"
 msgstr "Запазване на тази игра преди започване на нова?"
 
-#: ../gnome-sudoku/src/lib/main.py:460
+#: ../gnome-sudoku/src/lib/main.py:455
 msgid "Save game before closing?"
 msgstr "Запазване на играта преди затваряне?"
 
-#: ../gnome-sudoku/src/lib/main.py:658
+#: ../gnome-sudoku/src/lib/main.py:653
 msgid "Puzzle Information"
 msgstr "Информация"
 
-#: ../gnome-sudoku/src/lib/main.py:659
+#: ../gnome-sudoku/src/lib/main.py:654
 msgid "There is no current puzzle."
 msgstr "Няма текуща главоблъсканица."
 
-#: ../gnome-sudoku/src/lib/main.py:664
+#: ../gnome-sudoku/src/lib/main.py:659
 msgid "Calculated difficulty: "
 msgstr "Изчислена трудност: "
 
-#: ../gnome-sudoku/src/lib/main.py:666 ../gnome-sudoku/src/lib/printing.py:182
-#: ../gnome-sudoku/src/lib/game_selector.py:122
+#: ../gnome-sudoku/src/lib/main.py:661 ../gnome-sudoku/src/lib/printing.py:182
+#: ../gnome-sudoku/src/lib/game_selector.py:121
 msgid "Easy"
 msgstr "Лесна"
 
-#: ../gnome-sudoku/src/lib/main.py:667 ../gnome-sudoku/src/lib/printing.py:183
-#: ../gnome-sudoku/src/lib/game_selector.py:123
+#: ../gnome-sudoku/src/lib/main.py:662 ../gnome-sudoku/src/lib/printing.py:183
+#: ../gnome-sudoku/src/lib/game_selector.py:122
 msgid "Medium"
 msgstr "Средна"
 
-#: ../gnome-sudoku/src/lib/main.py:668 ../gnome-sudoku/src/lib/printing.py:184
-#: ../gnome-sudoku/src/lib/game_selector.py:124
+#: ../gnome-sudoku/src/lib/main.py:663 ../gnome-sudoku/src/lib/printing.py:184
+#: ../gnome-sudoku/src/lib/game_selector.py:123
 msgid "Hard"
 msgstr "Трудна"
 
-#: ../gnome-sudoku/src/lib/main.py:669
+#: ../gnome-sudoku/src/lib/main.py:664
 msgid "Very Hard"
 msgstr "Много трудна"
 
-#: ../gnome-sudoku/src/lib/main.py:674
+#: ../gnome-sudoku/src/lib/main.py:669
 msgid "Number of moves instantly fillable by elimination: "
 msgstr "Ходове, които могат да се решат чрез елиминиране:"
 
-#: ../gnome-sudoku/src/lib/main.py:677
+#: ../gnome-sudoku/src/lib/main.py:672
 msgid "Number of moves instantly fillable by filling: "
 msgstr "Ходове, които могат да се решат чрез попълване: "
 
-#: ../gnome-sudoku/src/lib/main.py:680
+#: ../gnome-sudoku/src/lib/main.py:675
 msgid "Amount of trial-and-error required to solve: "
 msgstr "Брой на необходимите проби и грешки за решаването:"
 
-#: ../gnome-sudoku/src/lib/main.py:683 ../gnome-sudoku/src/lib/main.py:684
+#: ../gnome-sudoku/src/lib/main.py:678 ../gnome-sudoku/src/lib/main.py:679
 msgid "Puzzle Statistics"
 msgstr "Статистика на главоблъсканицата"
 
 #. FIXME: This should create a pop-up dialog
-#: ../gnome-sudoku/src/lib/main.py:719
+#: ../gnome-sudoku/src/lib/main.py:714
 #, python-format
 msgid "Unable to display help: %s"
 msgstr "Помощта не може да бъде показана: %s"
 
-#: ../gnome-sudoku/src/lib/main.py:775
+#: ../gnome-sudoku/src/lib/main.py:770
 msgid "Untracked"
 msgstr "Непроследено"
 
-#: ../gnome-sudoku/src/lib/main.py:784
+#: ../gnome-sudoku/src/lib/main.py:779
 msgid "_Remove"
 msgstr "_Премахване"
 
-#: ../gnome-sudoku/src/lib/main.py:785
+#: ../gnome-sudoku/src/lib/main.py:780
 msgid "Delete selected tracker."
 msgstr "Премахване на това проследяване."
 
-#: ../gnome-sudoku/src/lib/main.py:791
+#: ../gnome-sudoku/src/lib/main.py:786
 msgid "Hide current tracker entries."
 msgstr "Скриване на данните на текущото проследяване."
 
-#: ../gnome-sudoku/src/lib/main.py:796
+#: ../gnome-sudoku/src/lib/main.py:791
 msgid "A_pply"
 msgstr "_Прилагане"
 
-#: ../gnome-sudoku/src/lib/main.py:797
+#: ../gnome-sudoku/src/lib/main.py:792
 msgid "Apply all tracked values and remove the tracker."
 msgstr "Изчистване на всички ходове свързани с това проследяване."
 
-#: ../gnome-sudoku/src/lib/main.py:833
+#: ../gnome-sudoku/src/lib/main.py:831
 #, python-format
 msgid "Tracker %s"
 msgstr "Проследяване %s"
 
 #: ../gnome-sudoku/src/lib/printing.py:185
-#: ../gnome-sudoku/src/lib/game_selector.py:125
+#: ../gnome-sudoku/src/lib/game_selector.py:124
 msgid "Very hard"
 msgstr "Много трудна"
 
 #. Then we're today
 #. within the minute
-#: ../gnome-sudoku/src/lib/game_selector.py:161
+#: ../gnome-sudoku/src/lib/game_selector.py:160
 #, python-format
 msgid "Last played %(n)s second ago"
 msgid_plural "Last played %(n)s seconds ago"
 msgstr[0] "Последно играна преди %(n)s секунда"
 msgstr[1] "Последно играна преди %(n)s секунди"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:165
+#: ../gnome-sudoku/src/lib/game_selector.py:164
 #, python-format
 msgid "Last played %(n)s minute ago"
 msgid_plural "Last played %(n)s minutes ago"
@@ -5768,56 +3149,56 @@ msgstr[0] "Последно играна преди %(n)s минута"
 msgstr[1] "Последно играна преди %(n)s минути"
 
 #. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:169
+#: ../gnome-sudoku/src/lib/game_selector.py:168
 msgid "Last played at %I:%M %p"
 msgstr "Последно играна в %H:%M"
 
 #. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:172
+#: ../gnome-sudoku/src/lib/game_selector.py:171
 msgid "Last played yesterday at %I:%M %p"
 msgstr "Последно играна вчера в %H:%M"
 
 #. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:175
+#: ../gnome-sudoku/src/lib/game_selector.py:174
 msgid "Last played on %A at %I:%M %p"
 msgstr "Последно играна %A в %H:%M"
 
 #. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:178
+#: ../gnome-sudoku/src/lib/game_selector.py:177
 msgid "Last played on %B %e %Y"
 msgstr "Последно играна на %e %B %Y"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:191
+#: ../gnome-sudoku/src/lib/game_selector.py:190
 msgid "Easy puzzle"
 msgstr "Лесна"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:192
+#: ../gnome-sudoku/src/lib/game_selector.py:191
 msgid "Medium puzzle"
 msgstr "Нормална"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:193
+#: ../gnome-sudoku/src/lib/game_selector.py:192
 msgid "Hard puzzle"
 msgstr "Трудна"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:194
+#: ../gnome-sudoku/src/lib/game_selector.py:193
 msgid "Very hard puzzle"
 msgstr "Много трудна"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:200
+#: ../gnome-sudoku/src/lib/game_selector.py:199
 #, python-format
 msgid "Played for %d hour"
 msgid_plural "Played for %d hours"
 msgstr[0] "Играна %d час"
 msgstr[1] "Играна %d часа"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:203
+#: ../gnome-sudoku/src/lib/game_selector.py:202
 #, python-format
 msgid "Played for %d minute"
 msgid_plural "Played for %d minutes"
 msgstr[0] "Играна %d минута"
 msgstr[1] "Играна %d минути"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:206
+#: ../gnome-sudoku/src/lib/game_selector.py:205
 #, python-format
 msgid "Played for %d second"
 msgid_plural "Played for %d seconds"
@@ -5832,58 +3213,62 @@ msgstr "Наистина ли искате да направите това?"
 msgid "Don't ask me this again."
 msgstr "Да не се пита повече."
 
-#: ../gnome-sudoku/src/lib/number_box.py:57
+#: ../gnome-sudoku/src/lib/number_box.py:55
 msgid "_Clear"
 msgstr "_Изчистване"
 
-#: ../gnomine/gnomine.c:54 ../gnomine/gnomine.desktop.in.in.h:2
+#: ../gnomine/gnomine.c:53 ../gnomine/gnomine.desktop.in.in.h:2
 msgid "Mines"
 msgstr "Мини"
 
-#: ../gnomine/gnomine.c:104
+#: ../gnomine/gnomine.c:103
 msgctxt "board size"
 msgid "Custom"
 msgstr "Друга"
 
-#: ../gnomine/gnomine.c:170
+#: ../gnomine/gnomine.c:169
 #, c-format
 msgid "Flags: %d/%d"
 msgstr "Флагчета: %d/%d"
 
-#: ../gnomine/gnomine.c:198
+#: ../gnomine/gnomine.c:197
 msgid "The Mines Have Been Cleared!"
 msgstr "Всички мини са изчистени!"
 
-#: ../gnomine/gnomine.c:214
+#: ../gnomine/gnomine.c:213
 msgid "Mines Scores"
 msgstr "Мини — резултати"
 
-#: ../gnomine/gnomine.c:217 ../gnotravex/gnotravex.c:1085
+#: ../gnomine/gnomine.c:216 ../gnotravex/gnotravex.c:1084
 #: ../swell-foop/src/Score.js:56
 msgid "Size:"
 msgstr "Размер:"
 
-#: ../gnomine/gnomine.c:322
+#: ../gnomine/gnomine.c:321
 msgid "Click a square, any square"
 msgstr "Натиснете произволно квадратче"
 
-#: ../gnomine/gnomine.c:324
+#: ../gnomine/gnomine.c:323
 msgid "Maybe they're all mines ..."
 msgstr "Може би всички са мини…"
 
-#: ../gnomine/gnomine.c:443
+#: ../gnomine/gnomine.c:436 ../mahjongg/mahjongg.c:867
+msgid "Main game:"
+msgstr "Основната игра:"
+
+#: ../gnomine/gnomine.c:442
 msgid "Resizing and SVG support:"
 msgstr "Оразмеряване и поддръжка на SVG:"
 
-#: ../gnomine/gnomine.c:450
+#: ../gnomine/gnomine.c:449
 msgid "Faces:"
 msgstr "Тема:"
 
-#: ../gnomine/gnomine.c:453
+#: ../gnomine/gnomine.c:452
 msgid "Graphics:"
 msgstr "Графика:"
 
-#: ../gnomine/gnomine.c:469
+#: ../gnomine/gnomine.c:468
 msgid ""
 "The popular logic puzzle minesweeper. Clear mines from a board using hints "
 "from squares you have already uncovered.\n"
@@ -5895,78 +3280,83 @@ msgstr ""
 "\n"
 "Мините са част от игрите на GNOME."
 
-#: ../gnomine/gnomine.c:632
+#: ../gnomine/gnomine.c:631
 msgid "Field Size"
 msgstr "Размер на дъската"
 
-#: ../gnomine/gnomine.c:655
+#: ../gnomine/gnomine.c:654
 msgid "Custom Size"
 msgstr "Произволен размер"
 
-#: ../gnomine/gnomine.c:662
+#: ../gnomine/gnomine.c:661
 msgid "_Number of mines:"
 msgstr "_Брой мини:"
 
-#: ../gnomine/gnomine.c:675
+#: ../gnomine/gnomine.c:674
 msgid "_Horizontal:"
 msgstr "_Хоризонтално:"
 
-#: ../gnomine/gnomine.c:687
+#: ../gnomine/gnomine.c:686
 msgid "_Vertical:"
 msgstr "В_ертикално:"
 
-#: ../gnomine/gnomine.c:704
+#: ../gnomine/gnomine.c:703
 msgid "Flags"
 msgstr "Флагчета"
 
-#: ../gnomine/gnomine.c:707
+#: ../gnomine/gnomine.c:706
 msgid "_Use \"I'm not sure\" flags"
 msgstr "Използване на _флагчета, когато не сте сигурни"
 
-#: ../gnomine/gnomine.c:718
+#: ../gnomine/gnomine.c:717
 msgid "Warnings"
 msgstr "Предупреждения"
 
-#: ../gnomine/gnomine.c:721
+#: ../gnomine/gnomine.c:720
 msgid "_Use \"Too many flags\" warning"
 msgstr "Използване на _предупреждения за прекалено много флагчета"
 
-#: ../gnomine/gnomine.c:732
+#: ../gnomine/gnomine.c:731
 msgid "Mines Preferences"
 msgstr "Настройки на Мините"
 
-#: ../gnomine/gnomine.c:925
+#: ../gnomine/gnomine.c:924
 msgid "Width of grid"
 msgstr "Широчина на решетката"
 
-#: ../gnomine/gnomine.c:926
+#: ../gnomine/gnomine.c:925
 msgid "Height of grid"
 msgstr "Височина на решетката"
 
-#: ../gnomine/gnomine.c:928
+#: ../gnomine/gnomine.c:927
 msgid "Number of mines"
 msgstr "Брой мини"
 
-#: ../gnomine/gnomine.c:931 ../gnomine/gnomine.schemas.in.h:8
+#: ../gnomine/gnomine.c:928 ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109
+#: ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
+msgid "NUMBER"
+msgstr "БРОЙ"
+
+#: ../gnomine/gnomine.c:930 ../gnomine/gnomine.schemas.in.h:8
 msgid "Size of the board (0-2 = small-large, 3=custom)"
 msgstr ""
 "Размер на дъската „0“ (малка), „1“ (средна), „2“ (голяма), „3“ (произволна)"
 
-#: ../gnomine/gnomine.c:932 ../gnotravex/gnotravex.c:261
+#: ../gnomine/gnomine.c:931 ../gnotravex/gnotravex.c:260
 #: ../gnotski/gnotski.c:456 ../iagno/gnothello.c:147
 msgid "X location of window"
 msgstr "Позиция по X на прозореца"
 
-#: ../gnomine/gnomine.c:934 ../gnotravex/gnotravex.c:263
+#: ../gnomine/gnomine.c:933 ../gnotravex/gnotravex.c:262
 #: ../gnotski/gnotski.c:458 ../iagno/gnothello.c:149
 msgid "Y location of window"
 msgstr "Позиция по Y на прозореца"
 
-#: ../gnomine/gnomine.c:1070
+#: ../gnomine/gnomine.c:1069
 msgid "Press to Resume"
 msgstr "Натиснете, за да продължите"
 
-#: ../gnomine/gnomine.c:1104
+#: ../gnomine/gnomine.c:1103
 msgid "Time: "
 msgstr "Време: "
 
@@ -6022,7 +3412,7 @@ msgstr "Използване на флагчета за непознато"
 msgid "Warning about too many flags"
 msgstr "Предупреждения за прекалено много флагчета"
 
-#: ../gnomine/minefield.c:207
+#: ../gnomine/minefield.c:206
 msgid ""
 "Unable to find required images.\n"
 "\n"
@@ -6032,7 +3422,7 @@ msgstr ""
 "\n"
 "Проверете инсталацията на игрите на GNOME."
 
-#: ../gnomine/minefield.c:229
+#: ../gnomine/minefield.c:228
 msgid ""
 "Required images have been found, but refused to load.\n"
 "\n"
@@ -6042,155 +3432,159 @@ msgstr ""
 "\n"
 "Проверете инсталацията на игрите на GNOME и зависимостите."
 
-#: ../gnomine/minefield.c:238
+#: ../gnomine/minefield.c:237
 msgid "Could not load images"
 msgstr "Изображенията не могат да се заредят"
 
-#: ../gnotravex/gnotravex.c:46 ../gnotravex/gnotravex.desktop.in.in.h:2
+#: ../gnotravex/gnotravex.c:45 ../gnotravex/gnotravex.desktop.in.in.h:2
 msgid "Tetravex"
 msgstr "Tetravex"
 
-#: ../gnotravex/gnotravex.c:115
+#: ../gnotravex/gnotravex.c:114
 msgid "2×2"
 msgstr "2×2"
 
-#: ../gnotravex/gnotravex.c:116
+#: ../gnotravex/gnotravex.c:115
 msgid "3×3"
 msgstr "3×3"
 
-#: ../gnotravex/gnotravex.c:117
+#: ../gnotravex/gnotravex.c:116
 msgid "4×4"
 msgstr "4×4"
 
-#: ../gnotravex/gnotravex.c:118
+#: ../gnotravex/gnotravex.c:117
 msgid "5×5"
 msgstr "5×5"
 
-#: ../gnotravex/gnotravex.c:119
+#: ../gnotravex/gnotravex.c:118
 msgid "6×6"
 msgstr "6×6"
 
-#: ../gnotravex/gnotravex.c:198
+#: ../gnotravex/gnotravex.c:197
 msgid "_2×2"
 msgstr "_2х2"
 
-#: ../gnotravex/gnotravex.c:198
+#: ../gnotravex/gnotravex.c:197
 msgid "Play on a 2×2 board"
 msgstr "Игра на дъска 2х2"
 
-#: ../gnotravex/gnotravex.c:200
+#: ../gnotravex/gnotravex.c:199
 msgid "_3×3"
 msgstr "_3×3"
 
-#: ../gnotravex/gnotravex.c:200
+#: ../gnotravex/gnotravex.c:199
 msgid "Play on a 3×3 board"
 msgstr "Игра на дъска 3х3"
 
-#: ../gnotravex/gnotravex.c:202
+#: ../gnotravex/gnotravex.c:201
 msgid "_4×4"
 msgstr "_4×4"
 
-#: ../gnotravex/gnotravex.c:202
+#: ../gnotravex/gnotravex.c:201
 msgid "Play on a 4×4 board"
 msgstr "Игра на дъска 4х4"
 
-#: ../gnotravex/gnotravex.c:204
+#: ../gnotravex/gnotravex.c:203
 msgid "_5×5"
 msgstr "_5×5"
 
-#: ../gnotravex/gnotravex.c:204
+#: ../gnotravex/gnotravex.c:203
 msgid "Play on a 5×5 board"
 msgstr "Игра на дъска 5х5"
 
-#: ../gnotravex/gnotravex.c:206
+#: ../gnotravex/gnotravex.c:205
 msgid "_6×6"
 msgstr "_6×6"
 
-#: ../gnotravex/gnotravex.c:206
+#: ../gnotravex/gnotravex.c:205
 msgid "Play on a 6×6 board"
 msgstr "Игра на дъска 6х6"
 
-#: ../gnotravex/gnotravex.c:265
+#: ../gnotravex/gnotravex.c:264
 msgid "Size of board (2-6)"
 msgstr "Размер на дъската (2÷6)"
 
-#: ../gnotravex/gnotravex.c:266
+#: ../gnotravex/gnotravex.c:265
 msgid "SIZE"
 msgstr "РАЗМЕР"
 
 #. Translators: in-game numbers, replaceable with single-character local ideograms
-#: ../gnotravex/gnotravex.c:460
+#: ../gnotravex/gnotravex.c:459
 msgctxt "number"
 msgid "0"
 msgstr "0"
 
-#: ../gnotravex/gnotravex.c:461
+#: ../gnotravex/gnotravex.c:460
 msgctxt "number"
 msgid "1"
 msgstr "1"
 
-#: ../gnotravex/gnotravex.c:462
+#: ../gnotravex/gnotravex.c:461
 msgctxt "number"
 msgid "2"
 msgstr "2"
 
-#: ../gnotravex/gnotravex.c:463
+#: ../gnotravex/gnotravex.c:462
 msgctxt "number"
 msgid "3"
 msgstr "3"
 
-#: ../gnotravex/gnotravex.c:464
+#: ../gnotravex/gnotravex.c:463
 msgctxt "number"
 msgid "4"
 msgstr "4"
 
-#: ../gnotravex/gnotravex.c:465
+#: ../gnotravex/gnotravex.c:464
 msgctxt "number"
 msgid "5"
 msgstr "5"
 
-#: ../gnotravex/gnotravex.c:466
+#: ../gnotravex/gnotravex.c:465
 msgctxt "number"
 msgid "6"
 msgstr "6"
 
-#: ../gnotravex/gnotravex.c:467
+#: ../gnotravex/gnotravex.c:466
 msgctxt "number"
 msgid "7"
 msgstr "7"
 
-#: ../gnotravex/gnotravex.c:468
+#: ../gnotravex/gnotravex.c:467
 msgctxt "number"
 msgid "8"
 msgstr "8"
 
-#: ../gnotravex/gnotravex.c:469
+#: ../gnotravex/gnotravex.c:468
 msgctxt "number"
 msgid "9"
 msgstr "9"
 
-#: ../gnotravex/gnotravex.c:913 ../mahjongg/mahjongg.c:935
+#: ../gnotravex/gnotravex.c:912 ../mahjongg/mahjongg.c:935
 msgid "Game paused"
 msgstr "Играта е на пауза"
 
-#: ../gnotravex/gnotravex.c:975
+#: ../gnotravex/gnotravex.c:974
 #, c-format
 msgid "Playing %d×%d board"
 msgstr "Дъската е %d×%d"
 
-#: ../gnotravex/gnotravex.c:1083
+#: ../gnotravex/gnotravex.c:1082
 msgid "Tetravex Scores"
 msgstr "Резултати от „Tetravex“"
 
-#: ../gnotravex/gnotravex.c:1145
+#: ../gnotravex/gnotravex.c:1144
 msgid "Puzzle solved! Well done!"
 msgstr "Наредихте главоблъсканицата! Браво!"
 
-#: ../gnotravex/gnotravex.c:1147
+#: ../gnotravex/gnotravex.c:1146
 msgid "Puzzle solved!"
 msgstr "Наредихте главоблъсканицата!"
 
-#: ../gnotravex/gnotravex.c:1603
+#: ../gnotravex/gnotravex.c:1401 ../mahjongg/mahjongg.c:1407
+msgid "Time:"
+msgstr "Време:"
+
+#: ../gnotravex/gnotravex.c:1602
 msgid ""
 "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
 "the same numbers are touching each other.\n"
@@ -6202,54 +3596,62 @@ msgstr ""
 "\n"
 "„Tetravex“ е част от игрите на GNOME."
 
-#: ../gnotravex/gnotravex.c:1710
+#: ../gnotravex/gnotravex.c:1709
 msgid "_Size"
 msgstr "_Дъска"
 
-#: ../gnotravex/gnotravex.c:1715
+#: ../gnotravex/gnotravex.c:1714
 msgid "Sol_ve"
 msgstr "_Решаване"
 
-#: ../gnotravex/gnotravex.c:1715
+#: ../gnotravex/gnotravex.c:1714
 msgid "Solve the game"
 msgstr "Решаване на играта"
 
-#: ../gnotravex/gnotravex.c:1719
+#: ../gnotravex/gnotravex.c:1718
 msgid "_Up"
 msgstr "На_горе"
 
-#: ../gnotravex/gnotravex.c:1720
+#: ../gnotravex/gnotravex.c:1719
 msgid "Move the pieces up"
 msgstr "Преместване на пуловете нагоре"
 
-#: ../gnotravex/gnotravex.c:1721
+#: ../gnotravex/gnotravex.c:1720
 msgid "_Left"
 msgstr "На_ляво"
 
-#: ../gnotravex/gnotravex.c:1722
+#: ../gnotravex/gnotravex.c:1721
 msgid "Move the pieces left"
 msgstr "Преместване на пуловете наляво"
 
-#: ../gnotravex/gnotravex.c:1723
+#: ../gnotravex/gnotravex.c:1722
 msgid "_Right"
 msgstr "На_дясно"
 
-#: ../gnotravex/gnotravex.c:1724
+#: ../gnotravex/gnotravex.c:1723
 msgid "Move the pieces right"
 msgstr "Преместване на пуловете надясно"
 
-#: ../gnotravex/gnotravex.c:1725
+#: ../gnotravex/gnotravex.c:1724
 msgid "_Down"
 msgstr "Над_олу"
 
-#: ../gnotravex/gnotravex.c:1726
+#: ../gnotravex/gnotravex.c:1725
 msgid "Move the pieces down"
 msgstr "Преместване на пуловете надолу"
+
+#: ../gnotravex/gnotravex.c:1730
+msgid "_Click to Move"
+msgstr "_Без задържане на бутона на мишката"
 
 #: ../gnotravex/gnotravex.desktop.in.in.h:1
 msgid "Complete the puzzle by matching numbered tiles"
 msgstr ""
 "Главоблъсканицата се решава като плочките се наредят и числата съвпаднат"
+
+#: ../gnotravex/gnotravex.schemas.in.h:1
+msgid "Select the style of control"
+msgstr "Избор на вид на управлението"
 
 #: ../gnotravex/gnotravex.schemas.in.h:2
 msgid ""
@@ -7017,197 +4419,165 @@ msgstr "Показване на настройките за управление
 msgid "Unknown Command"
 msgstr "Непозната команда"
 
-#: ../libgames-support/games-gridframe.c:224
-#: ../libgames-support/games-gridframe.c:232
-msgid "X Padding"
-msgstr "Отместване по X"
-
-#: ../libgames-support/games-gridframe.c:226
-msgid "Extra space to add to the width allocation."
-msgstr ""
-"Допълнително пространство, което да се добави към отместването по широчина"
-
-#: ../libgames-support/games-gridframe.c:234
-msgid "Extra space to add to the height allocation."
-msgstr ""
-"Допълнително пространство, което да се добави към отместването по височина"
-
-#: ../libgames-support/games-gridframe.c:240
-msgid "Width Multiple"
-msgstr "Множител на широчината"
-
-#: ../libgames-support/games-gridframe.c:242
-msgid "What multiple to constrain the width to."
-msgstr "Към какъв множител да се придържа широчината"
-
-#: ../libgames-support/games-gridframe.c:248
-msgid "Height Multiple"
-msgstr "Множител на височината"
-
-#: ../libgames-support/games-gridframe.c:250
-msgid "What multiple to constrain the height to."
-msgstr "Към какъв множител да се придържа височината"
-
-#: ../libgames-support/games-gridframe.c:255
-msgid "X align"
-msgstr "Подравняване по X"
-
-#: ../libgames-support/games-gridframe.c:257
-msgid "The horizontal alignment, from 0 (left) to 1 (right)"
-msgstr "Хоризонталното подравняване, от 0 (ляво) до 1 (дясно)"
-
-#: ../libgames-support/games-gridframe.c:262
-msgid "Y align"
-msgstr "Подравняване по Y"
-
-#: ../libgames-support/games-gridframe.c:264
-msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
-msgstr "Вертикалното подравняване, от 0 (горе) до 1 (долу)"
-
 #. %s.%s is the game name + the extension HTML or XHTML, e.g. Klondike.html"
-#: ../libgames-support/games-help.c:114
+#: ../libgames-support/games-help.c:109
 #, c-format
 msgid "Help file “%s.%s” not found"
 msgstr "Файлът с помощта „%s.%s“ не е открит"
 
-#: ../libgames-support/games-runtime.c:273
-msgid "Could not show link"
-msgstr "Връзката не може да бъде показана"
+#: ../libgames-support/games-help.c:147
+#, c-format
+msgid "Could not show help for “%s”"
+msgstr "Помощта за „%s“ не може да бъде показана"
+
+#: ../libgames-support/games-scores-dialog.c:135
+msgid "Time"
+msgstr "Време"
 
 #. Note that this assumes the default style is plain.
-#: ../libgames-support/games-scores-dialog.c:141
-#: ../libgames-support/games-scores-dialog.c:566
+#: ../libgames-support/games-scores-dialog.c:140
+#: ../libgames-support/games-scores-dialog.c:565
 msgid "Score"
 msgstr "Резултат"
 
 #. Translators: this is for a minutes, seconds time display.
-#: ../libgames-support/games-scores-dialog.c:299
+#: ../libgames-support/games-scores-dialog.c:298
 #, c-format
 msgid "%dm %ds"
 msgstr "%dm:%ds"
 
-#: ../libgames-support/games-scores-dialog.c:558
+#: ../libgames-support/games-scores-dialog.c:557
 msgid "Name"
 msgstr "Име"
 
-#: ../libgames-support/games-stock.c:53
+#: ../libgames-support/games-stock.c:43
+msgid "View help for this game"
+msgstr "Показване на помощта за тази игра"
+
+#: ../libgames-support/games-stock.c:44
 msgid "End the current game"
 msgstr "Край на текущата игра"
 
-#: ../libgames-support/games-stock.c:54
+#: ../libgames-support/games-stock.c:45
 msgid "Toggle fullscreen mode"
 msgstr "Режим на цял екран"
 
-#: ../libgames-support/games-stock.c:56
+#: ../libgames-support/games-stock.c:46
+msgid "Get a hint for your next move"
+msgstr "Съвет за следващия ход"
+
+#: ../libgames-support/games-stock.c:47
 msgid "Leave fullscreen mode"
 msgstr "Изход от цял екран"
 
-#: ../libgames-support/games-stock.c:57
+#: ../libgames-support/games-stock.c:48
 msgid "Start a new multiplayer network game"
 msgstr "Започване на нова игра в мрежа"
 
-#: ../libgames-support/games-stock.c:58
+#: ../libgames-support/games-stock.c:49
 msgid "End the current network game and return to network server"
 msgstr "Спиране на текущата игра и връщане към мрежови сървър"
 
-#: ../libgames-support/games-stock.c:60
+#: ../libgames-support/games-stock.c:51
 msgid "Pause the game"
 msgstr "Пауза"
 
-#: ../libgames-support/games-stock.c:61
+#: ../libgames-support/games-stock.c:52
 msgid "Show a list of players in the network game"
 msgstr "Показване на списък с играчите в мрежова игра"
 
-#: ../libgames-support/games-stock.c:64
+#: ../libgames-support/games-stock.c:53
+msgid "Redo the undone move"
+msgstr "Връщане на отменения ход"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Restart the game"
+msgstr "Започване на тази игра отначало"
+
+#: ../libgames-support/games-stock.c:55
 msgid "Resume the paused game"
 msgstr "Продължаване на временно спряна игра"
 
-#: ../libgames-support/games-stock.c:65
+#: ../libgames-support/games-stock.c:56
 msgid "View the scores"
 msgstr "Преглед на резултатите"
 
-#: ../libgames-support/games-stock.c:69
+#: ../libgames-support/games-stock.c:57 ../mahjongg/mahjongg.c:1207
+msgid "Undo the last move"
+msgstr "Отмяна на последния ход"
+
+#: ../libgames-support/games-stock.c:58
+msgid "About this game"
+msgstr "Относно тази игра"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Close this window"
+msgstr "Затваряне на този прозорец"
+
+#: ../libgames-support/games-stock.c:60
 msgid "Configure the game"
 msgstr "Настройване на играта"
 
-#: ../libgames-support/games-stock.c:70
+#: ../libgames-support/games-stock.c:61
 msgid "Quit this game"
 msgstr "Изход от тази игра"
 
-#: ../libgames-support/games-stock.c:297
+#: ../libgames-support/games-stock.c:253
 msgid "_Fullscreen"
 msgstr "На цял _екран"
 
 #. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
-#: ../libgames-support/games-stock.c:300
+#: ../libgames-support/games-stock.c:256
 msgid "_New"
 msgstr "_Нова игра"
 
-#: ../libgames-support/games-stock.c:303
+#: ../libgames-support/games-stock.c:259
 msgid "_Redo Move"
 msgstr "_Отмяна на връщането"
 
 #. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
-#: ../libgames-support/games-stock.c:307
+#: ../libgames-support/games-stock.c:263
 msgid "_Restart"
 msgstr "_Отначало"
 
-#: ../libgames-support/games-stock.c:309
+#: ../libgames-support/games-stock.c:265
 msgid "_Deal"
 msgstr "Р_аздаване"
 
-#: ../libgames-support/games-stock.c:311
+#: ../libgames-support/games-stock.c:266
 msgid "_Leave Fullscreen"
 msgstr "_Изход от цял екран"
 
-#: ../libgames-support/games-stock.c:312
+#: ../libgames-support/games-stock.c:267
 msgid "Network _Game"
 msgstr "Игра в _мрежа"
 
-#: ../libgames-support/games-stock.c:313
+#: ../libgames-support/games-stock.c:268
 msgid "L_eave Game"
 msgstr "_Напускане на играта"
 
-#: ../libgames-support/games-stock.c:314
+#: ../libgames-support/games-stock.c:269
 msgid "Player _List"
 msgstr "_Списък с играчи"
 
-#: ../libgames-support/games-stock.c:315
+#: ../libgames-support/games-stock.c:270
 msgid "_Pause"
 msgstr "_Пауза"
 
-#: ../libgames-support/games-stock.c:316
+#: ../libgames-support/games-stock.c:271
 msgid "Res_ume"
 msgstr "Про_дължаване"
 
-#: ../libgames-support/games-stock.c:317
+#: ../libgames-support/games-stock.c:272
 msgid "_Scores"
 msgstr "_Резултати"
 
-#: ../libgames-support/games-stock.c:318
+#: ../libgames-support/games-stock.c:273
 msgid "_End Game"
 msgstr "_Край на играта"
 
-#. Work around maemo brokenness wrt. stock item translations.
-#. * See https://bugs.maemo.org/show_bug.cgi?id=1449 .
-#: ../libgames-support/games-stock.c:324
-msgid "_About"
-msgstr "_Относно"
-
-#: ../libgames-support/games-stock.c:325
-msgid "_Cancel"
-msgstr "_Отказване"
-
-#: ../libgames-support/games-stock.c:326
-msgid "_Close"
-msgstr "Зат_варяне"
-
-#: ../libgames-support/games-stock.c:327
-msgid "_OK"
-msgstr "_Добре"
-
 #. %s is replaced with the name of the game in gnome-games.
-#: ../libgames-support/games-stock.c:388
+#: ../libgames-support/games-stock.c:323
 #, c-format
 msgid ""
 "%s is free software; you can redistribute it and/or modify it under the "
@@ -7220,7 +4590,7 @@ msgstr ""
 "публикуван от Фондацията за свободен софтуер — версия %d на лиценза или (по "
 "ваше решение) по-късна версия."
 
-#: ../libgames-support/games-stock.c:402
+#: ../libgames-support/games-stock.c:337
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -7290,7 +4660,7 @@ msgstr ""
 msgid "Copyright  2009 Tim Horton"
 msgstr "Авторски права: 2009 Tim Horton"
 
-#: ../mahjongg/drawing.c:300
+#: ../mahjongg/drawing.c:299
 msgid ""
 "The selected theme failed to render.\n"
 "\n"
@@ -7300,7 +4670,7 @@ msgstr ""
 "\n"
 "Проверете, дали играта „Mahjongg“ е инсталирана правилно."
 
-#: ../mahjongg/drawing.c:429 ../mahjongg/drawing.c:442
+#: ../mahjongg/drawing.c:428 ../mahjongg/drawing.c:441
 #, c-format
 msgid ""
 "Unable to render file:\n"
