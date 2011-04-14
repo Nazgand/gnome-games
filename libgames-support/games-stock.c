@@ -215,27 +215,24 @@ games_stock_init (void)
 {
   /* These stocks have a gtk stock icon */
   const char *stock_icon_aliases[][2] = {
-    { GAMES_STOCK_CONTENTS,         GTK_STOCK_HELP },
-    { GAMES_STOCK_HINT,             GTK_STOCK_DIALOG_INFO },
-    { GAMES_STOCK_NEW_GAME,         GTK_STOCK_NEW },
-    { GAMES_STOCK_START_NEW_GAME,   GTK_STOCK_NEW },
-    { GAMES_STOCK_RESET,            GTK_STOCK_CLEAR },
-    { GAMES_STOCK_RESTART_GAME,     GTK_STOCK_REFRESH },
-    /* This is used on hildon too, but only exists since 2.8 */
-    { GAMES_STOCK_FULLSCREEN,       GTK_STOCK_FULLSCREEN },
-    /* This is used on maemo 5 */
-    { GAMES_STOCK_LEAVE_FULLSCREEN, GTK_STOCK_LEAVE_FULLSCREEN },
-    { GAMES_STOCK_NETWORK_GAME,     GTK_STOCK_NETWORK },
-    { GAMES_STOCK_NETWORK_LEAVE,    GTK_STOCK_STOP },
-    { GAMES_STOCK_PLAYER_LIST,      GTK_STOCK_INFO },
-
-    { GAMES_STOCK_PAUSE_GAME,       GTK_STOCK_MEDIA_PAUSE },
+    { GAMES_STOCK_CONTENTS,         "help-contents" },
+    { GAMES_STOCK_HINT,             "dialog-information" },
+    { GAMES_STOCK_NEW_GAME,         "document-new" },
+    { GAMES_STOCK_START_NEW_GAME,   "document-new" },
+    { GAMES_STOCK_RESET,            "edit-clear" },
+    { GAMES_STOCK_RESTART_GAME,     "view-refresh" },
+    { GAMES_STOCK_FULLSCREEN,       "view-fullscreen" },
+    { GAMES_STOCK_LEAVE_FULLSCREEN, "view-restore" },
+    { GAMES_STOCK_NETWORK_GAME,     "network-idle" },
+    { GAMES_STOCK_NETWORK_LEAVE,    "process-stop" },
+    { GAMES_STOCK_PLAYER_LIST,      "dialog-information" },
+    { GAMES_STOCK_PAUSE_GAME,       "media-playback-pause" },
   };
 
   const char *stock_icon_aliases_bidi[][3] = {
-    { GAMES_STOCK_REDO_MOVE, GTK_STOCK_REDO "-ltr", GTK_STOCK_REDO "-rtl" },
-    { GAMES_STOCK_UNDO_MOVE, GTK_STOCK_UNDO "-ltr", GTK_STOCK_UNDO "-rtl" },
-    { GAMES_STOCK_RESUME_GAME, GTK_STOCK_MEDIA_PLAY "-ltr", GTK_STOCK_MEDIA_PLAY "-rtl" },
+    { GAMES_STOCK_REDO_MOVE, "edit-redo", "edit-undo" },
+    { GAMES_STOCK_UNDO_MOVE, "edit-undo", "edit-redo" },
+    { GAMES_STOCK_RESUME_GAME, "media-playback-start", "media-playback-start" },
   };
 
   /* Private icon names */
