@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-16 17:30+0000\n"
-"PO-Revision-Date: 2011-03-16 17:34+0100\n"
+"POT-Creation-Date: 2011-04-20 13:12+0100\n"
+"PO-Revision-Date: 2011-04-20 13:13+0100\n"
 "Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
 "Language-Team: British English <en@li.org>\n"
 "Language: en_GB\n"
@@ -96,7 +96,7 @@ msgid "Whether or not to show the toolbar"
 msgstr "Whether to show the toolbar"
 
 #. Now construct the window contents
-#: ../aisleriot/ar-game-chooser.c:238 ../aisleriot/window.c:2560
+#: ../aisleriot/ar-game-chooser.c:238 ../aisleriot/window.c:2455
 msgid "Select Game"
 msgstr "Select Game"
 
@@ -104,8 +104,8 @@ msgstr "Select Game"
 msgid "_Select"
 msgstr "_Select"
 
-#: ../aisleriot/freecell.desktop.in.in.h:1 ../aisleriot/sol.c:323
-#: ../aisleriot/window.c:455 ../aisleriot/window.c:463
+#: ../aisleriot/freecell.desktop.in.in.h:1 ../aisleriot/sol.c:295
+#: ../aisleriot/window.c:434 ../aisleriot/window.c:442
 msgid "FreeCell Solitaire"
 msgstr "FreeCell Solitaire"
 
@@ -113,7 +113,7 @@ msgstr "FreeCell Solitaire"
 msgid "Play the popular FreeCell card game"
 msgstr "Play the popular FreeCell card game"
 
-#: ../aisleriot/game.c:1165
+#: ../aisleriot/game.c:1148
 #, c-format
 msgid ""
 "Aisleriot cannot load the file “%s”. Please check your Aisleriot "
@@ -123,75 +123,75 @@ msgstr ""
 "installation."
 
 #. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1416
+#: ../aisleriot/game.c:1399
 msgctxt "slot type"
 msgid "foundation"
 msgstr "foundation"
 
 #. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1420
+#: ../aisleriot/game.c:1403
 msgctxt "slot type"
 msgid "reserve"
 msgstr "reserve"
 
 #. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1424
+#: ../aisleriot/game.c:1407
 msgctxt "slot type"
 msgid "stock"
 msgstr "stock"
 
 #. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1428
+#: ../aisleriot/game.c:1411
 msgctxt "slot type"
 msgid "tableau"
 msgstr "tableau"
 
 #. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1432
+#: ../aisleriot/game.c:1415
 msgctxt "slot type"
 msgid "waste"
 msgstr "waste"
 
 #. Translators: %s is the name of the card; "foundation" is the name of a type of card slot
-#: ../aisleriot/game.c:1464
+#: ../aisleriot/game.c:1447
 #, c-format
 msgctxt "slot hint"
 msgid "%s on foundation"
 msgstr "%s on foundation"
 
 #. Translators: %s is the name of the card; "reserve" is the name of a type of card slot
-#: ../aisleriot/game.c:1468
+#: ../aisleriot/game.c:1451
 #, c-format
 msgctxt "slot hint"
 msgid "%s on reserve"
 msgstr "%s on reserve"
 
 #. Translators: %s is the name of the card; "stock" is the name of a type of card slot
-#: ../aisleriot/game.c:1472
+#: ../aisleriot/game.c:1455
 #, c-format
 msgctxt "slot hint"
 msgid "%s on stock"
 msgstr "%s on stock"
 
 #. Translators: %s is the name of the card; "tableau" is the name of a type of card slot
-#: ../aisleriot/game.c:1476
+#: ../aisleriot/game.c:1459
 #, c-format
 msgctxt "slot hint"
 msgid "%s on tableau"
 msgstr "%s on tableau"
 
 #. Translators: %s is the name of the card; "waste" is the name of a type of card slot
-#: ../aisleriot/game.c:1480
+#: ../aisleriot/game.c:1463
 #, c-format
 msgctxt "slot hint"
 msgid "%s on waste"
 msgstr "%s on waste"
 
-#: ../aisleriot/game.c:1721
+#: ../aisleriot/game.c:1704
 msgid "Aisleriot cannot find the last game you played."
 msgstr "AisleRiot cannot find the last game you played."
 
-#: ../aisleriot/game.c:1722
+#: ../aisleriot/game.c:1705
 msgid ""
 "This usually occurs when you run an older version of Aisleriot which does "
 "not have the game you last played. The default game, Klondike, is being "
@@ -201,7 +201,7 @@ msgstr ""
 "not have the game you last played. The default game, Canfield, is being "
 "started instead."
 
-#: ../aisleriot/game.c:2080
+#: ../aisleriot/game.c:2063
 msgid "This game does not have hint support yet."
 msgstr "This game does not have hint support yet."
 
@@ -209,17 +209,17 @@ msgstr "This game does not have hint support yet."
 #. The first %s is a card name, the 2nd %s a sentence fragment.
 #. * Yes, we know this is bad for i18n.
 #.
-#: ../aisleriot/game.c:2114 ../aisleriot/game.c:2142
+#: ../aisleriot/game.c:2097 ../aisleriot/game.c:2125
 #, c-format
 msgid "Move %s onto %s."
 msgstr "Move %s onto %s."
 
-#: ../aisleriot/game.c:2164
+#: ../aisleriot/game.c:2147
 #, c-format
 msgid "You are searching for a %s."
 msgstr "You are searching for a %s."
 
-#: ../aisleriot/game.c:2169
+#: ../aisleriot/game.c:2152
 msgid "This game is unable to provide a hint."
 msgstr "This game is unable to provide a hint."
 
@@ -1027,36 +1027,36 @@ msgid "Hopscotch"
 msgstr "Hopscotch"
 
 #. String reserve
-#: ../aisleriot/sol.c:69
+#: ../aisleriot/sol.c:59
 msgid "Solitaire"
 msgstr "Solitaire"
 
-#: ../aisleriot/sol.c:70
+#: ../aisleriot/sol.c:60
 msgid "GNOME Solitaire"
 msgstr "GNOME Solitaire"
 
-#: ../aisleriot/sol.c:71
+#: ../aisleriot/sol.c:61
 msgid "About Solitaire"
 msgstr "About Solitaire"
 
-#: ../aisleriot/sol.c:210
+#: ../aisleriot/sol.c:200
 msgid "Select the game type to play"
 msgstr "Select the game type to play"
 
-#: ../aisleriot/sol.c:210 ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
+#: ../aisleriot/sol.c:200 ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
 msgid "NAME"
 msgstr "NAME"
 
-#: ../aisleriot/sol.c:212
+#: ../aisleriot/sol.c:202
 msgid "Select the game number"
 msgstr "Select the game number"
 
-#: ../aisleriot/sol.c:212 ../gnomine/gnomine.c:929 ../gtali/gyahtzee.c:107
+#: ../aisleriot/sol.c:202 ../gnomine/gnomine.c:929 ../gtali/gyahtzee.c:107
 #: ../gtali/gyahtzee.c:109 ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
 msgid "NUMBER"
 msgstr "NUMBER"
 
-#: ../aisleriot/sol.c:323 ../aisleriot/window.c:464 ../aisleriot/window.c:2024
+#: ../aisleriot/sol.c:295 ../aisleriot/window.c:443 ../aisleriot/window.c:1985
 msgid "AisleRiot"
 msgstr "AisleRiot"
 
@@ -1453,41 +1453,41 @@ msgstr "%d:%02d"
 msgid "Could not show help for “%s”"
 msgstr "Could not show help for “%s”"
 
-#: ../aisleriot/window.c:261
+#: ../aisleriot/window.c:248
 msgid "Congratulations, you have won!"
 msgstr "Congratulations, you have won!"
 
-#: ../aisleriot/window.c:265
+#: ../aisleriot/window.c:252
 msgid "There are no more moves"
 msgstr "There are no more moves"
 
 #. Empty title shows up as "<unnamed>" on maemo
-#: ../aisleriot/window.c:278 ../quadrapassel/blockops.cpp:788
+#: ../aisleriot/window.c:265 ../quadrapassel/blockops.cpp:788
 msgid "Game Over"
 msgstr "Game Over"
 
-#: ../aisleriot/window.c:412 ../gnomine/gnomine.c:437
+#: ../aisleriot/window.c:391 ../gnomine/gnomine.c:437
 #: ../mahjongg/mahjongg.c:867
 msgid "Main game:"
 msgstr "Main game:"
 
-#: ../aisleriot/window.c:420
+#: ../aisleriot/window.c:399
 msgid "Card games:"
 msgstr "Card games:"
 
-#: ../aisleriot/window.c:434
+#: ../aisleriot/window.c:413
 msgid "Card themes:"
 msgstr "Card themes:"
 
-#: ../aisleriot/window.c:466
+#: ../aisleriot/window.c:445
 msgid "About FreeCell Solitaire"
 msgstr "About FreeCell Solitaire"
 
-#: ../aisleriot/window.c:467
+#: ../aisleriot/window.c:446
 msgid "About AisleRiot"
 msgstr "About AisleRiot"
 
-#: ../aisleriot/window.c:473
+#: ../aisleriot/window.c:452
 msgid ""
 "AisleRiot provides a rule-based solitaire card engine that allows many "
 "different games to be played.\n"
@@ -1498,9 +1498,9 @@ msgstr ""
 "AisleRiot is a part of GNOME Games."
 
 #. this doesn't work for anyone
-#: ../aisleriot/window.c:484 ../glines/glines.c:1216 ../gnect/src/main.c:878
+#: ../aisleriot/window.c:463 ../glines/glines.c:1216 ../gnect/src/main.c:878
 #: ../gnibbles/main.c:208 ../gnobots2/menu.c:267
-#: ../quadrapassel/tetris.cpp:1303 ../gnome-sudoku/src/lib/main.py:709
+#: ../quadrapassel/tetris.cpp:1316 ../gnome-sudoku/src/lib/main.py:709
 #: ../gnomine/gnomine.c:477 ../gnotravex/gnotravex.c:1613
 #: ../gnotski/gnotski.c:1487 ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:270
 #: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:908
@@ -1515,22 +1515,23 @@ msgstr ""
 "Philip Withnall <philip@tecnocode.co.uk>\n"
 "Bruce Cowan <bruce@bcowan.me.uk>"
 
-#: ../aisleriot/window.c:488 ../glines/glines.c:1219 ../gnect/src/main.c:875
-#: ../gnibbles/main.c:211 ../gnobots2/menu.c:263
-#: ../quadrapassel/tetris.cpp:1300 ../gnome-sudoku/src/lib/defaults.py.in:45
-#: ../gnomine/gnomine.c:480 ../gnotravex/gnotravex.c:1616
-#: ../gnotski/gnotski.c:1490 ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
+#: ../aisleriot/window.c:467 ../glchess/src/glchess.vala:1348
+#: ../glines/glines.c:1219 ../gnect/src/main.c:875 ../gnibbles/main.c:211
+#: ../gnobots2/menu.c:263 ../quadrapassel/tetris.cpp:1313
+#: ../gnome-sudoku/src/lib/defaults.py.in:45 ../gnomine/gnomine.c:480
+#: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1490
+#: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
 #: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:911
 #: ../swell-foop/src/About.js:19
 msgid "GNOME Games web site"
 msgstr "GNOME Games web site"
 
-#: ../aisleriot/window.c:1360
+#: ../aisleriot/window.c:1339
 #, c-format
 msgid "Play “%s”"
 msgstr "Play “%s”"
 
-#: ../aisleriot/window.c:1531
+#: ../aisleriot/window.c:1510
 #, c-format
 msgid "Display cards with “%s” card theme"
 msgstr "Display cards with “%s” card theme"
@@ -1539,40 +1540,40 @@ msgstr "Display cards with “%s” card theme"
 #. * then translate this string to "%I6d", else to "%6d".
 #. * Do not translate it to anything else!
 #.
-#: ../aisleriot/window.c:1626
+#: ../aisleriot/window.c:1605
 #, c-format
 msgctxt "score"
 msgid "%6d"
 msgstr "%6d"
 
-#: ../aisleriot/window.c:1893
+#: ../aisleriot/window.c:1871
 msgid "A scheme exception occurred"
 msgstr "A scheme exception occurred"
 
-#: ../aisleriot/window.c:1896
+#: ../aisleriot/window.c:1874
 msgid "Please report this bug to the developers."
 msgstr "Please report this bug to the developers."
 
 #. Empty title shows up as "<unnamed>" on maemo
-#: ../aisleriot/window.c:1900 ../libgames-support/games-show.c:151
+#: ../aisleriot/window.c:1878 ../libgames-support/games-show.c:151
 msgid "Error"
 msgstr "Error"
 
-#: ../aisleriot/window.c:1908
+#: ../aisleriot/window.c:1886
 msgid "_Don't report"
 msgstr "_Don't report"
 
-#: ../aisleriot/window.c:1909
+#: ../aisleriot/window.c:1887
 msgid "_Report"
 msgstr "_Report"
 
-#: ../aisleriot/window.c:2022
+#: ../aisleriot/window.c:1983
 msgid "Freecell Solitaire"
 msgstr "Freecell Solitaire"
 
 #. Menu actions
 #. Game menu name
-#: ../aisleriot/window.c:2187 ../glchess/data/glchess.ui.h:22
+#: ../aisleriot/window.c:2117 ../glchess/data/glchess.ui.h:22
 #: ../glines/glines.c:1640 ../gnect/src/main.c:1242 ../gnibbles/main.c:687
 #: ../gnobots2/menu.c:66 ../quadrapassel/tetris.cpp:108
 #: ../gnome-sudoku/src/lib/main.py:231 ../gnomine/gnomine.c:769
@@ -1583,17 +1584,17 @@ msgstr "Freecell Solitaire"
 msgid "_Game"
 msgstr "_Game"
 
-#: ../aisleriot/window.c:2188 ../gnect/src/main.c:1243 ../gnibbles/main.c:688
+#: ../aisleriot/window.c:2118 ../gnect/src/main.c:1243 ../gnibbles/main.c:688
 #: ../gnobots2/menu.c:67 ../gnotski/gnotski.c:410
 msgid "_View"
 msgstr "_View"
 
-#: ../aisleriot/window.c:2189
+#: ../aisleriot/window.c:2119
 msgid "_Control"
 msgstr "_Control"
 
 #. Help menu item
-#: ../aisleriot/window.c:2191 ../glchess/data/glchess.ui.h:24
+#: ../aisleriot/window.c:2121 ../glchess/data/glchess.ui.h:24
 #: ../glines/glines.c:1642 ../gnect/src/main.c:1245 ../gnibbles/main.c:690
 #: ../gnobots2/menu.c:70 ../quadrapassel/tetris.cpp:110
 #: ../gnome-sudoku/src/lib/main.py:254 ../gnomine/gnomine.c:771
@@ -1605,135 +1606,127 @@ msgid "_Help"
 msgstr "_Help"
 
 #. Tooltip for start new game toolbar button
-#: ../aisleriot/window.c:2196 ../glchess/data/glchess.ui.h:16
+#: ../aisleriot/window.c:2126 ../glchess/data/glchess.ui.h:16
 #: ../gnobots2/menu.c:71 ../libgames-support/games-stock.c:59
 #: ../mahjongg/mahjongg.c:1203
 msgid "Start a new game"
 msgstr "Start a new game"
 
-#: ../aisleriot/window.c:2199 ../libgames-support/games-stock.c:63
+#: ../aisleriot/window.c:2129 ../libgames-support/games-stock.c:63
 msgid "Restart the game"
 msgstr "Restart the game"
 
-#: ../aisleriot/window.c:2201
+#: ../aisleriot/window.c:2131
 msgid "_Select Game..."
 msgstr "_Select Game…"
 
-#: ../aisleriot/window.c:2203
+#: ../aisleriot/window.c:2133
 msgid "Play a different game"
 msgstr "Play a different game"
 
-#: ../aisleriot/window.c:2205
+#: ../aisleriot/window.c:2135
 msgid "_Recently Played"
 msgstr "_Recently Played"
 
-#: ../aisleriot/window.c:2206
+#: ../aisleriot/window.c:2136
 msgid "S_tatistics"
 msgstr "S_tatistics"
 
-#: ../aisleriot/window.c:2207
+#: ../aisleriot/window.c:2137
 msgid "Show gameplay statistics"
 msgstr "Show gameplay statistics"
 
-#: ../aisleriot/window.c:2210 ../libgames-support/games-stock.c:68
+#: ../aisleriot/window.c:2140 ../libgames-support/games-stock.c:68
 msgid "Close this window"
 msgstr "Close this window"
 
-#: ../aisleriot/window.c:2213 ../libgames-support/games-stock.c:66
+#: ../aisleriot/window.c:2143 ../libgames-support/games-stock.c:66
 #: ../mahjongg/mahjongg.c:1207
 msgid "Undo the last move"
 msgstr "Undo the last move"
 
-#: ../aisleriot/window.c:2216 ../libgames-support/games-stock.c:62
+#: ../aisleriot/window.c:2146 ../libgames-support/games-stock.c:62
 msgid "Redo the undone move"
 msgstr "Redo the undone move"
 
-#: ../aisleriot/window.c:2219
+#: ../aisleriot/window.c:2149
 msgid "Deal next card or cards"
 msgstr "Deal next card or cards"
 
-#: ../aisleriot/window.c:2222 ../libgames-support/games-stock.c:55
+#: ../aisleriot/window.c:2152 ../libgames-support/games-stock.c:55
 msgid "Get a hint for your next move"
 msgstr "Get a hint for your next move"
 
-#: ../aisleriot/window.c:2225
+#: ../aisleriot/window.c:2155
 msgid "View help for Aisleriot"
 msgstr "View help for AisleRiot"
 
-#: ../aisleriot/window.c:2229 ../libgames-support/games-stock.c:52
+#: ../aisleriot/window.c:2159 ../libgames-support/games-stock.c:52
 msgid "View help for this game"
 msgstr "View help for this game"
 
-#: ../aisleriot/window.c:2232 ../libgames-support/games-stock.c:67
+#: ../aisleriot/window.c:2162 ../libgames-support/games-stock.c:67
 msgid "About this game"
 msgstr "About this game"
 
-#: ../aisleriot/window.c:2235
+#: ../aisleriot/window.c:2165
 msgid "Install card themes…"
 msgstr "Install card themes…"
 
-#: ../aisleriot/window.c:2236
+#: ../aisleriot/window.c:2166
 msgid "Install new card themes from the distribution packages repositories"
 msgstr "Install new card themes from the distribution's package repositories"
 
-#: ../aisleriot/window.c:2244
+#: ../aisleriot/window.c:2174
 msgid "_Card Style"
 msgstr "_Card Style"
 
-#: ../aisleriot/window.c:2285 ../gnobots2/menu.c:90
+#: ../aisleriot/window.c:2217 ../gnobots2/menu.c:90
 #: ../mahjongg/mahjongg.c:1223
 msgid "_Toolbar"
 msgstr "_Toolbar"
 
-#: ../aisleriot/window.c:2286 ../gnobots2/menu.c:90
+#: ../aisleriot/window.c:2218 ../gnobots2/menu.c:90
 #: ../mahjongg/mahjongg.c:1223
 msgid "Show or hide the toolbar"
 msgstr "Show or hide the toolbar"
 
-#: ../aisleriot/window.c:2291
+#: ../aisleriot/window.c:2223
 msgid "_Statusbar"
 msgstr "_Statusbar"
 
-#: ../aisleriot/window.c:2292
+#: ../aisleriot/window.c:2224
 msgid "Show or hide statusbar"
 msgstr "Show or hide statusbar"
 
-#: ../aisleriot/window.c:2297 ../gnotravex/gnotravex.c:1731
+#: ../aisleriot/window.c:2229 ../gnotravex/gnotravex.c:1731
 msgid "_Click to Move"
 msgstr "_Click to Move"
 
-#: ../aisleriot/window.c:2298
+#: ../aisleriot/window.c:2230
 msgid "Pick up and drop cards by clicking"
 msgstr "Pick up and drop cards by clicking"
 
-#: ../aisleriot/window.c:2302
+#: ../aisleriot/window.c:2234
 msgid "_Sound"
 msgstr "_Sound"
 
-#: ../aisleriot/window.c:2303
+#: ../aisleriot/window.c:2235
 msgid "Whether or not to play event sounds"
 msgstr "Whether to play event sounds"
 
-#: ../aisleriot/window.c:2308
-msgid "_Animations"
-msgstr "_Animations"
-
-#: ../aisleriot/window.c:2309
-msgid "Whether or not to animate card moves"
-msgstr "Whether to animate card moves"
-
-#: ../aisleriot/window.c:2616 ../glines/glines.c:1841
+#: ../aisleriot/window.c:2506 ../glines/glines.c:1841
 #: ../gnobots2/statusbar.c:67 ../quadrapassel/scoreframe.cpp:47
 #: ../gnomine/gnomine.c:440
 msgid "Score:"
 msgstr "Score:"
 
-#: ../aisleriot/window.c:2628 ../gnotravex/gnotravex.c:1402
+#: ../aisleriot/window.c:2518 ../gnotravex/gnotravex.c:1402
 #: ../mahjongg/mahjongg.c:1407
 msgid "Time:"
 msgstr "Time:"
 
-#: ../aisleriot/window.c:2977
+#: ../aisleriot/window.c:2855
 #, c-format
 msgid "Cannot start the game “%s”"
 msgstr "Cannot start the game “%s”"
@@ -2255,53 +2248,65 @@ msgstr "Move a card to the Foundation"
 msgid "Move something into the empty Tableau slot"
 msgstr "Move something into the empty Tableau slot"
 
-#: ../aisleriot/rules/clock.scm.h:1
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:2
 msgid "Consistency is key"
 msgstr "Consistency is key"
 
-#: ../aisleriot/rules/clock.scm.h:2
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:4
 msgid "Fishing wire makes bad dental floss"
 msgstr "Fishing wire makes bad dental floss"
 
-#: ../aisleriot/rules/clock.scm.h:3
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:6
 msgid "Have you read the help file?"
 msgstr "Have you read the help file?"
 
-#: ../aisleriot/rules/clock.scm.h:4
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:8
 msgid "I could sure use a backrub right about now..."
 msgstr "I could really use a backrub right about now…"
 
-#: ../aisleriot/rules/clock.scm.h:5
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:10
 msgid "If you're ever lost and alone in the woods, hug a tree"
 msgstr "If you're ever lost and alone in the woods, hug a tree"
 
-#: ../aisleriot/rules/clock.scm.h:6
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:12
 msgid ""
 "Just because a crosswalk looks like a hopscotch board doesn't mean it is one"
 msgstr ""
 "Just because a crosswalk looks like a hopscotch board doesn't mean it is one"
 
-#: ../aisleriot/rules/clock.scm.h:7
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:14
 msgid "Look both ways before you cross the street"
 msgstr "Look both ways before you cross the street"
 
-#: ../aisleriot/rules/clock.scm.h:8
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:16
 msgid "Monitors won't give you Vitamin D -- but sunlight will..."
 msgstr "Monitors won't give you Vitamin D — but sunlight will…"
 
-#: ../aisleriot/rules/clock.scm.h:9
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:18
 msgid "Never blow in a dog's ear"
 msgstr "Never blow in a dog's ear"
 
-#: ../aisleriot/rules/clock.scm.h:10
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:20
 msgid "Odessa is a better game.  Really."
 msgstr "Odessa is a better game.  Really."
 
-#: ../aisleriot/rules/clock.scm.h:11
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:22
 msgid "Tourniquets are not recommended unless in the direst emergency"
 msgstr "Tourniquets are not recommended unless in the direst emergency"
 
-#: ../aisleriot/rules/clock.scm.h:12
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:24
 msgid "When without a stapler, a staple and a ruler will work"
 msgstr "When without a stapler, a staple and a ruler will work"
 
@@ -2877,7 +2882,7 @@ msgstr "Undo Move"
 
 #. Help contents menu item
 #: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:255
-#: ../libgames-support/games-stock.c:294
+#: ../libgames-support/games-stock.c:296
 msgid "_Contents"
 msgstr "_Contents"
 
@@ -2897,7 +2902,7 @@ msgid "_Settings"
 msgstr "_Settings"
 
 #. Undo move menu item
-#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:306
+#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:308
 msgid "_Undo Move"
 msgstr "_Undo Move"
 
@@ -2944,7 +2949,7 @@ msgstr "Five minutes"
 #. Preferences Dialog: Tab title for game preferences
 #: ../glchess/data/preferences.ui.h:18 ../gnect/src/prefs.c:302
 #: ../gnibbles/preferences.c:254 ../gnobots2/properties.c:496
-#: ../quadrapassel/tetris.cpp:590 ../iagno/properties.c:415
+#: ../quadrapassel/tetris.cpp:596 ../iagno/properties.c:415
 msgid "Game"
 msgstr "Game"
 
@@ -3149,7 +3154,7 @@ msgid "Normal"
 msgstr "Normal"
 
 #. Title of the main window
-#: ../glchess/glchess.desktop.in.in.h:1 ../glchess/src/glchess.vala:218
+#: ../glchess/glchess.desktop.in.in.h:1 ../glchess/src/glchess.vala:221
 msgid "Chess"
 msgstr "Chess"
 
@@ -3160,488 +3165,588 @@ msgstr "Play the classic two-player boardgame of chess"
 #. Title of the window when explicitly loaded a file. The first argument is the
 #. * base name of the file (e.g. test.pgn), the second argument is the directory
 #. * (e.g. /home/fred)
-#: ../glchess/src/glchess.vala:226
-#, c-format, 
+#: ../glchess/src/glchess.vala:229
+#, c-format
 msgid "%1$s (%2$s) - Chess"
 msgstr "%1$s (%2$s) - Chess"
 
 #. Move History Combo: Go to the start of the game
-#: ../glchess/src/glchess.vala:235
+#: ../glchess/src/glchess.vala:238
 msgid "Game Start"
 msgstr "Game Start"
 
 #. Note there are no move formats for pieces taking kings and this is not allowed in Chess rules
 #. Human Move String: Description of a white pawn moving from %1$s to %2s, e.g. 'c2 to c4'
-#: ../glchess/src/glchess.vala:444
+#: ../glchess/src/glchess.vala:447
 #, c-format
 msgid "White pawn moves from %1$s to %2$s"
 msgstr "White pawn moves from %1$s to %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:446
+#: ../glchess/src/glchess.vala:449
 #, c-format
 msgid "White pawn at %1$s takes the black pawn at %2$s"
 msgstr "White pawn at %1$s takes the black pawn at %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:448
+#: ../glchess/src/glchess.vala:451
 #, c-format
 msgid "White pawn at %1$s takes the black rook at %2$s"
 msgstr "White pawn at %1$s takes the black rook at %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:450
+#: ../glchess/src/glchess.vala:453
 #, c-format
 msgid "White pawn at %1$s takes the black knight at %2$s"
 msgstr "White pawn at %1$s takes the black knight at %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:452
+#: ../glchess/src/glchess.vala:455
 #, c-format
 msgid "White pawn at %1$s takes the black bishop at %2$s"
 msgstr "White pawn at %1$s takes the black bishop at %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:454
+#: ../glchess/src/glchess.vala:457
 #, c-format
 msgid "White pawn at %1$s takes the black queen at %2$s"
 msgstr "White pawn at %1$s takes the black queen at %2$s"
 
 #. Human Move String: Description of a white rook moving from %1$s to %2$s, e.g. 'a1 to a5'
-#: ../glchess/src/glchess.vala:456
+#: ../glchess/src/glchess.vala:459
 #, c-format
 msgid "White rook moves from %1$s to %2$s"
 msgstr "White rook moves from %1$s to %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:458
+#: ../glchess/src/glchess.vala:461
 #, c-format
 msgid "White rook at %1$s takes the black pawn at %2$s"
 msgstr "White rook at %1$s takes the black pawn at %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:460
+#: ../glchess/src/glchess.vala:463
 #, c-format
 msgid "White rook at %1$s takes the black rook at %2$s"
 msgstr "White rook at %1$s takes the black rook at %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:462
+#: ../glchess/src/glchess.vala:465
 #, c-format
 msgid "White rook at %1$s takes the black knight at %2$s"
 msgstr "White rook at %1$s takes the black knight at %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:464
+#: ../glchess/src/glchess.vala:467
 #, c-format
 msgid "White rook at %1$s takes the black bishop at %2$s"
 msgstr "White rook at %1$s takes the black bishop at %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a queen at %2$s"
-#: ../glchess/src/glchess.vala:466
+#: ../glchess/src/glchess.vala:469
 #, c-format
 msgid "White rook at %1$s takes the black queen at %2$s"
 msgstr "White rook at %1$s takes the black queen at %2$s"
 
 #. Human Move String: Description of a white knight moving from %1$s to %2$s, e.g. 'b1 to c3'
-#: ../glchess/src/glchess.vala:468
+#: ../glchess/src/glchess.vala:471
 #, c-format
 msgid "White knight moves from %1$s to %2$s"
 msgstr "White knight moves from %1$s to %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:470
+#: ../glchess/src/glchess.vala:473
 #, c-format
 msgid "White knight at %1$s takes the black pawn at %2$s"
 msgstr "White knight at %1$s takes the black pawn at %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:472
+#: ../glchess/src/glchess.vala:475
 #, c-format
 msgid "White knight at %1$s takes the black rook at %2$s"
 msgstr "White knight at %1$s takes the black rook at %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:474
+#: ../glchess/src/glchess.vala:477
 #, c-format
 msgid "White knight at %1$s takes the black knight at %2$s"
 msgstr "White knight at %1$s takes the black knight at %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:476
+#: ../glchess/src/glchess.vala:479
 #, c-format
 msgid "White knight at %1$s takes the black bishop at %2$s"
 msgstr "White knight at %1$s takes the black bishop at %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:478
+#: ../glchess/src/glchess.vala:481
 #, c-format
 msgid "White knight at %1$s takes the black queen at %2$s"
 msgstr "White knight at %1$s takes the black queen at %2$s"
 
 #. Human Move String: Description of a white bishop moving from %1$s to %2$s, e.g. 'f1 to b5'
-#: ../glchess/src/glchess.vala:480
+#: ../glchess/src/glchess.vala:483
 #, c-format
 msgid "White bishop moves from %1$s to %2$s"
 msgstr "White bishop moves from %1$s to %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:482
+#: ../glchess/src/glchess.vala:485
 #, c-format
 msgid "White bishop at %1$s takes the black pawn at %2$s"
 msgstr "White bishop at %1$s takes the black pawn at %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:484
+#: ../glchess/src/glchess.vala:487
 #, c-format
 msgid "White bishop at %1$s takes the black rook at %2$s"
 msgstr "White bishop at %1$s takes the black rook at %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:486
+#: ../glchess/src/glchess.vala:489
 #, c-format
 msgid "White bishop at %1$s takes the black knight at %2$s"
 msgstr "White bishop at %1$s takes the black knight at %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:488
+#: ../glchess/src/glchess.vala:491
 #, c-format
 msgid "White bishop at %1$s takes the black bishop at %2$s"
 msgstr "White bishop at %1$s takes the black bishop at %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:490
+#: ../glchess/src/glchess.vala:493
 #, c-format
 msgid "White bishop at %1$s takes the black queen at %2$s"
 msgstr "White bishop at %1$s takes the black queen at %2$s"
 
 #. Human Move String: Description of a white queen moving from %1$s to %2$s, e.g. 'd1 to d4'
-#: ../glchess/src/glchess.vala:492
+#: ../glchess/src/glchess.vala:495
 #, c-format
 msgid "White queen moves from %1$s to %2$s"
 msgstr "White queen moves from %1$s to %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:494
+#: ../glchess/src/glchess.vala:497
 #, c-format
 msgid "White queen at %1$s takes the black pawn at %2$s"
 msgstr "White queen at %1$s takes the black pawn at %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:496
+#: ../glchess/src/glchess.vala:499
 #, c-format
 msgid "White queen at %1$s takes the black rook at %2$s"
 msgstr "White queen at %1$s takes the black rook at %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:498
+#: ../glchess/src/glchess.vala:501
 #, c-format
 msgid "White queen at %1$s takes the black knight at %2$s"
 msgstr "White queen at %1$s takes the black knight at %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:500
+#: ../glchess/src/glchess.vala:503
 #, c-format
 msgid "White queen at %1$s takes the black bishop at %2$s"
 msgstr "White queen at %1$s takes the black bishop at %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:502
+#: ../glchess/src/glchess.vala:505
 #, c-format
 msgid "White queen at %1$s takes the black queen at %2$s"
 msgstr "White queen at %1$s takes the black queen at %2$s"
 
 #. Human Move String: Description of a white king moving from %1$s to %2$s, e.g. 'e1 to f1'
-#: ../glchess/src/glchess.vala:504
+#: ../glchess/src/glchess.vala:507
 #, c-format
 msgid "White king moves from %1$s to %2$s"
 msgstr "White king moves from %1$s to %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:506
+#: ../glchess/src/glchess.vala:509
 #, c-format
 msgid "White king at %1$s takes the black pawn at %2$s"
 msgstr "White king at %1$s takes the black pawn at %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:508
+#: ../glchess/src/glchess.vala:511
 #, c-format
 msgid "White king at %1$s takes the black rook at %2$s"
 msgstr "White king at %1$s takes the black rook at %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:510
+#: ../glchess/src/glchess.vala:513
 #, c-format
 msgid "White king at %1$s takes the black knight at %2$s"
 msgstr "White king at %1$s takes the black knight at %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:512
+#: ../glchess/src/glchess.vala:515
 #, c-format
 msgid "White king at %1$s takes the black bishop at %2$s"
 msgstr "White king at %1$s takes the black bishop at %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:514
+#: ../glchess/src/glchess.vala:517
 #, c-format
 msgid "White king at %1$s takes the black queen at %2$s"
 msgstr "White king at %1$s takes the black queen at %2$s"
 
 #. Human Move String: Description of a black pawn moving from %1$s to %2$s, e.g. 'c8 to c6'
-#: ../glchess/src/glchess.vala:516
+#: ../glchess/src/glchess.vala:519
 #, c-format
 msgid "Black pawn moves from %1$s to %2$s"
 msgstr "Black pawn moves from %1$s to %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:518
+#: ../glchess/src/glchess.vala:521
 #, c-format
 msgid "Black pawn at %1$s takes the white pawn at %2$s"
 msgstr "Black pawn at %1$s takes the white pawn at %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:520
+#: ../glchess/src/glchess.vala:523
 #, c-format
 msgid "Black pawn at %1$s takes the white rook at %2$s"
 msgstr "Black pawn at %1$s takes the white rook at %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:522
+#: ../glchess/src/glchess.vala:525
 #, c-format
 msgid "Black pawn at %1$s takes the white knight at %2$s"
 msgstr "Black pawn at %1$s takes the white knight at %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:524
+#: ../glchess/src/glchess.vala:527
 #, c-format
 msgid "Black pawn at %1$s takes the white bishop at %2$s"
 msgstr "Black pawn at %1$s takes the white bishop at %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:526
+#: ../glchess/src/glchess.vala:529
 #, c-format
 msgid "Black pawn at %1$s takes the white queen at %2$s"
 msgstr "Black pawn at %1$s takes the white queen at %2$s"
 
 #. Human Move String: Description of a black rook moving from %1$s to %2$s, e.g. 'a8 to a4'
-#: ../glchess/src/glchess.vala:528
+#: ../glchess/src/glchess.vala:531
 #, c-format
 msgid "Black rook moves from %1$s to %2$s"
 msgstr "Black rook moves from %1$s to %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:530
+#: ../glchess/src/glchess.vala:533
 #, c-format
 msgid "Black rook at %1$s takes the white pawn at %2$s"
 msgstr "Black rook at %1$s takes the white pawn at %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:532
+#: ../glchess/src/glchess.vala:535
 #, c-format
 msgid "Black rook at %1$s takes the white rook at %2$s"
 msgstr "Black rook at %1$s takes the white rook at %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:534
+#: ../glchess/src/glchess.vala:537
 #, c-format
 msgid "Black rook at %1$s takes the white knight at %2$s"
 msgstr "Black rook at %1$s takes the white knight at %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:536
+#: ../glchess/src/glchess.vala:539
 #, c-format
 msgid "Black rook at %1$s takes the white bishop at %2$s"
 msgstr "Black rook at %1$s takes the white bishop at %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:538
+#: ../glchess/src/glchess.vala:541
 #, c-format
 msgid "Black rook at %1$s takes the white queen at %2$s"
 msgstr "Black rook at %1$s takes the white queen at %2$s"
 
 #. Human Move String: Description of a black knight moving from %1$s to %2$s, e.g. 'b8 to c6'
-#: ../glchess/src/glchess.vala:540
+#: ../glchess/src/glchess.vala:543
 #, c-format
 msgid "Black knight moves from %1$s to %2$s"
 msgstr "Black knight moves from %1$s to %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:542
+#: ../glchess/src/glchess.vala:545
 #, c-format
 msgid "Black knight at %1$s takes the white pawn at %2$s"
 msgstr "Black knight at %1$s takes the white pawn at %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:544
+#: ../glchess/src/glchess.vala:547
 #, c-format
 msgid "Black knight at %1$s takes the white rook at %2$s"
 msgstr "Black knight at %1$s takes the white rook at %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:546
+#: ../glchess/src/glchess.vala:549
 #, c-format
 msgid "Black knight at %1$s takes the white knight at %2$s"
 msgstr "Black knight at %1$s takes the white knight at %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:548
+#: ../glchess/src/glchess.vala:551
 #, c-format
 msgid "Black knight at %1$s takes the white bishop at %2$s"
 msgstr "Black knight at %1$s takes the white bishop at %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:550
+#: ../glchess/src/glchess.vala:553
 #, c-format
 msgid "Black knight at %1$s takes the white queen at %2$s"
 msgstr "Black knight at %1$s takes the white queen at %2$s"
 
 #. Human Move String: Description of a black bishop moving from %1$s to %2$s, e.g. 'f8 to b3'
-#: ../glchess/src/glchess.vala:552
+#: ../glchess/src/glchess.vala:555
 #, c-format
 msgid "Black bishop moves from %1$s to %2$s"
 msgstr "Black bishop moves from %1$s to %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:554
+#: ../glchess/src/glchess.vala:557
 #, c-format
 msgid "Black bishop at %1$s takes the white pawn at %2$s"
 msgstr "Black bishop at %1$s takes the white pawn at %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:556
+#: ../glchess/src/glchess.vala:559
 #, c-format
 msgid "Black bishop at %1$s takes the white rook at %2$s"
 msgstr "Black bishop at %1$s takes the white rook at %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:558
+#: ../glchess/src/glchess.vala:561
 #, c-format
 msgid "Black bishop at %1$s takes the white knight at %2$s"
 msgstr "Black bishop at %1$s takes the white knight at %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:560
+#: ../glchess/src/glchess.vala:563
 #, c-format
 msgid "Black bishop at %1$s takes the white bishop at %2$s"
 msgstr "Black bishop at %1$s takes the white bishop at %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:562
+#: ../glchess/src/glchess.vala:565
 #, c-format
 msgid "Black bishop at %1$s takes the white queen at %2$s"
 msgstr "Black bishop at %1$s takes the white queen at %2$s"
 
 #. Human Move String: Description of a black queen moving from %1$s to %2$s, e.g. 'd8 to d5'
-#: ../glchess/src/glchess.vala:564
+#: ../glchess/src/glchess.vala:567
 #, c-format
 msgid "Black queen moves from %1$s to %2$s"
 msgstr "Black queen moves from %1$s to %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:566
+#: ../glchess/src/glchess.vala:569
 #, c-format
 msgid "Black queen at %1$s takes the white pawn at %2$s"
 msgstr "Black queen at %1$s takes the white pawn at %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:568
+#: ../glchess/src/glchess.vala:571
 #, c-format
 msgid "Black queen at %1$s takes the white rook at %2$s"
 msgstr "Black queen at %1$s takes the white rook at %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:570
+#: ../glchess/src/glchess.vala:573
 #, c-format
 msgid "Black queen at %1$s takes the white knight at %2$s"
 msgstr "Black queen at %1$s takes the white knight at %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:572
+#: ../glchess/src/glchess.vala:575
 #, c-format
 msgid "Black queen at %1$s takes the white bishop at %2$s"
 msgstr "Black queen at %1$s takes the white bishop at %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:574
+#: ../glchess/src/glchess.vala:577
 #, c-format
 msgid "Black queen at %1$s takes the white queen at %2$s"
 msgstr "Black queen at %1$s takes the white queen at %2$s"
 
 #. Human Move String: Description of a black king moving from %1$s to %2$s, e.g. 'e8 to f8'
-#: ../glchess/src/glchess.vala:576
+#: ../glchess/src/glchess.vala:579
 #, c-format
 msgid "Black king moves from %1$s to %2$s"
 msgstr "Black king moves from %1$s to %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:578
+#: ../glchess/src/glchess.vala:581
 #, c-format
 msgid "Black king at %1$s takes the white pawn at %2$s"
 msgstr "Black king at %1$s takes the white pawn at %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:580
+#: ../glchess/src/glchess.vala:583
 #, c-format
 msgid "Black king at %1$s takes the white rook at %2$s"
 msgstr "Black king at %1$s takes the white rook at %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:582
+#: ../glchess/src/glchess.vala:585
 #, c-format
 msgid "Black king at %1$s takes the white knight at %2$s"
 msgstr "Black king at %1$s takes the white knight at %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:584
+#: ../glchess/src/glchess.vala:587
 #, c-format
 msgid "Black king at %1$s takes the white bishop at %2$s"
 msgstr "Black king at %1$s takes the white bishop at %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a queen at %2$s"
-#: ../glchess/src/glchess.vala:586
+#: ../glchess/src/glchess.vala:589
 #, c-format
 msgid "Black king at %1$s takes the white queen at %2$s"
 msgstr "Black king at %1$s takes the white queen at %2$s"
 
 #. Message display when the white player wins
-#: ../glchess/src/glchess.vala:706
+#: ../glchess/src/glchess.vala:709
 msgid "White wins"
 msgstr "White wins"
 
 #. Message display when the black player wins
-#: ../glchess/src/glchess.vala:711
+#: ../glchess/src/glchess.vala:714
 msgid "Black wins"
 msgstr "Black wins"
 
 #. Message display when the game is drawn
-#: ../glchess/src/glchess.vala:716
+#: ../glchess/src/glchess.vala:719
 msgid "Game is drawn"
 msgstr "Game is drawn"
 
-#: ../glchess/src/glchess.vala:817
+#. Message displayed when the game ends due to a player being checkmated
+#: ../glchess/src/glchess.vala:731
+msgid "Opponent is in check and cannot move (checkmate)"
+msgstr "Opponent is in check and cannot move (checkmate)"
+
+#. Message displayed when the game terminates due to a stalemate
+#: ../glchess/src/glchess.vala:735
+msgid "Opponent cannot move (stalemate)"
+msgstr "Opponent cannot move (stalemate)"
+
+#. Message displayed when the game is drawn due to the fifty move rule
+#: ../glchess/src/glchess.vala:739
+msgid "No piece has been taken or pawn moved in the last fifty moves"
+msgstr "No piece has been taken or pawn moved in the last fifty moves"
+
+#. Message displayed when the game ends due to one player's clock stopping
+#: ../glchess/src/glchess.vala:743
+msgid "Opponent has run out of time"
+msgstr "Opponent has run out of time"
+
+#. Message displayed when the game is drawn due to the three-fold-repitition rule
+#: ../glchess/src/glchess.vala:747
+msgid "The same board state has occurred three times (three fold repetition)"
+msgstr "The same board state has occurred three times (three fold repetition)"
+
+#. Message displayed when the game is drawn due to the insufficient material rule
+#: ../glchess/src/glchess.vala:751
+msgid "Neither player can cause checkmate (insufficient material)"
+msgstr "Neither player can cause checkmate (insufficient material)"
+
+#. Message displayed when the game ends due to the black player resigning
+#: ../glchess/src/glchess.vala:757
+msgid "The black player has resigned"
+msgstr "The black player has resigned"
+
+#. Message displayed when the game ends due to the white player resigning
+#: ../glchess/src/glchess.vala:762
+msgid "The white player has resigned"
+msgstr "The white player has resigned"
+
+#. Message displayed when a game is abandoned
+#: ../glchess/src/glchess.vala:767
+msgid "The game has been abandoned"
+msgstr "The game has been abandoned"
+
+#. Message displayed when the game ends due to a player dying
+#: ../glchess/src/glchess.vala:772
+msgid "One of the players has died"
+msgstr "One of the players has died"
+
+#: ../glchess/src/glchess.vala:820
 msgid "Save this game before starting a new one?"
 msgstr "Save this game before starting a new one?"
 
+#: ../glchess/src/glchess.vala:822 ../gnome-sudoku/src/lib/main.py:442
+msgid "_Abandon game"
+msgstr "_Abandon game"
+
+#: ../glchess/src/glchess.vala:823 ../gnome-sudoku/src/lib/main.py:441
+msgid "_Save game for later"
+msgstr "_Save game for later"
+
 #. Preferences Dialog: Combo box entry for a custom game timer set in seconds
-#: ../glchess/src/glchess.vala:1211
+#: ../glchess/src/glchess.vala:1214
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "second"
 msgstr[1] "seconds"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in minutes
-#: ../glchess/src/glchess.vala:1215
+#: ../glchess/src/glchess.vala:1218
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "minute"
 msgstr[1] "minutes"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in hours
-#: ../glchess/src/glchess.vala:1219
+#: ../glchess/src/glchess.vala:1222
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "hour"
 msgstr[1] "hours"
+
+#: ../glchess/src/glchess.vala:1343
+msgid ""
+"The 2D/3D chess game for GNOME. \n"
+"\n"
+"glChess is a part of GNOME Games."
+msgstr ""
+"The 2D/3D chess game for GNOME. \n"
+"\n"
+"glChess is a part of GNOME Games."
+
+#. Title of save game dialog
+#: ../glchess/src/glchess.vala:1402
+msgid "Save Chess Game"
+msgstr "Save Chess Game"
+
+#. Save Game Dialog: Name of filter to show only PGN files
+#. Load Game Dialog: Name of filter to show only PGN files
+#: ../glchess/src/glchess.vala:1415 ../glchess/src/glchess.vala:1483
+msgid "PGN files"
+msgstr "PGN files"
+
+#. Save Game Dialog: Name of filter to show all files
+#. Load Game Dialog: Name of filter to show all files
+#: ../glchess/src/glchess.vala:1422 ../glchess/src/glchess.vala:1490
+msgid "All files"
+msgstr "All files"
+
+#: ../glchess/src/glchess.vala:1446
+#, c-format
+msgid "Failed to save game: %s"
+msgstr "Failed to save game: %s"
+
+#. Title of load game dialog
+#: ../glchess/src/glchess.vala:1470
+msgid "Load Chess Game"
+msgstr "Load Chess Game"
+
+#: ../glchess/src/glchess.vala:1512
+#, c-format
+msgid "Failed to open game: %s"
+msgstr "Failed to open game: %s"
 
 #: ../glines/glines.c:90 ../gnomine/gnomine.c:101
 msgctxt "board size"
@@ -3865,13 +3970,13 @@ msgstr "Level of Player Two"
 
 #: ../gnect/data/gnect.schemas.in.h:9 ../gnect/src/prefs.c:371
 #: ../gnibbles/gnibbles.schemas.in.h:16 ../gnibbles/preferences.c:444
-#: ../quadrapassel/quadrapassel.schemas.in.h:13 ../quadrapassel/tetris.cpp:738
+#: ../quadrapassel/quadrapassel.schemas.in.h:13 ../quadrapassel/tetris.cpp:751
 msgid "Move left"
 msgstr "Move left"
 
 #: ../gnect/data/gnect.schemas.in.h:10 ../gnect/src/prefs.c:372
 #: ../gnibbles/gnibbles.schemas.in.h:17 ../gnibbles/preferences.c:445
-#: ../quadrapassel/quadrapassel.schemas.in.h:14 ../quadrapassel/tetris.cpp:739
+#: ../quadrapassel/quadrapassel.schemas.in.h:14 ../quadrapassel/tetris.cpp:752
 msgid "Move right"
 msgstr "Move right"
 
@@ -4020,7 +4125,7 @@ msgstr "E_nable sounds"
 
 #. keyboard tab
 #: ../gnect/src/prefs.c:367 ../gnibbles/preferences.c:434
-#: ../gnobots2/properties.c:542 ../quadrapassel/tetris.cpp:730
+#: ../gnobots2/properties.c:542 ../quadrapassel/tetris.cpp:743
 msgid "Keyboard Controls"
 msgstr "Keyboard Controls"
 
@@ -4150,7 +4255,7 @@ msgstr "Guide a worm around a maze"
 
 #: ../gnibbles/gnibbles.desktop.in.in.h:2 ../gnibbles/main.c:196
 #: ../gnibbles/main.c:199 ../gnibbles/main.c:798 ../gnibbles/main.c:877
-#: ../gnibbles/main.c:1021
+#: ../gnibbles/main.c:1007
 msgid "Nibbles"
 msgstr "Nibbles"
 
@@ -4211,7 +4316,7 @@ msgid "Key to use for motion up."
 msgstr "Key to use for motion up."
 
 #: ../gnibbles/gnibbles.schemas.in.h:15 ../gnibbles/preferences.c:447
-#: ../quadrapassel/quadrapassel.schemas.in.h:12 ../quadrapassel/tetris.cpp:740
+#: ../quadrapassel/quadrapassel.schemas.in.h:12 ../quadrapassel/tetris.cpp:753
 msgid "Move down"
 msgstr "Move down"
 
@@ -4362,7 +4467,7 @@ msgid "_Enable fake bonuses"
 msgstr "_Enable fake bonuses"
 
 #. starting level
-#: ../gnibbles/preferences.c:351 ../quadrapassel/tetris.cpp:637
+#: ../gnibbles/preferences.c:351 ../quadrapassel/tetris.cpp:643
 msgid "_Starting level:"
 msgstr "_Starting level:"
 
@@ -4418,7 +4523,7 @@ msgstr "Great work, but unfortunately your score did not make the top ten."
 #. Translators: This "_New Game" is for the game-over dialogue
 #: ../gnobots2/game.c:154 ../gnome-sudoku/data/select_game.ui.h:1
 #: ../gnomine/gnomine.c:202 ../gnotski/gnotski.c:774
-#: ../libgames-support/games-stock.c:300
+#: ../libgames-support/games-stock.c:302
 msgid "_New Game"
 msgstr "_New Game"
 
@@ -4872,7 +4977,7 @@ msgstr "U_se super safe moves"
 msgid "Prevents all moves that result in getting killed."
 msgstr "Prevents all moves that result in getting killed."
 
-#: ../gnobots2/properties.c:488 ../quadrapassel/tetris.cpp:663
+#: ../gnobots2/properties.c:488 ../quadrapassel/tetris.cpp:669
 msgid "_Enable sounds"
 msgstr "_Enable sounds"
 
@@ -4918,12 +5023,12 @@ msgid "Fit falling blocks together"
 msgstr "Fit falling blocks together"
 
 #: ../quadrapassel/quadrapassel.desktop.in.in.h:2 ../quadrapassel/main.cpp:66
-#: ../quadrapassel/tetris.cpp:158 ../quadrapassel/tetris.cpp:1292
-#: ../quadrapassel/tetris.cpp:1295
+#: ../quadrapassel/tetris.cpp:158 ../quadrapassel/tetris.cpp:1305
+#: ../quadrapassel/tetris.cpp:1308
 msgid "Quadrapassel"
 msgstr "Quadrapassel"
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:1 ../quadrapassel/tetris.cpp:741
+#: ../quadrapassel/quadrapassel.schemas.in.h:1 ../quadrapassel/tetris.cpp:754
 msgid "Drop"
 msgstr "Drop"
 
@@ -4959,11 +5064,11 @@ msgstr "Level to start with"
 msgid "Level to start with."
 msgstr "Level to start with."
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:15 ../quadrapassel/tetris.cpp:743
+#: ../quadrapassel/quadrapassel.schemas.in.h:15 ../quadrapassel/tetris.cpp:756
 msgid "Pause"
 msgstr "Pause"
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:16 ../quadrapassel/tetris.cpp:742
+#: ../quadrapassel/quadrapassel.schemas.in.h:16 ../quadrapassel/tetris.cpp:755
 msgid "Rotate"
 msgstr "Rotate"
 
@@ -5081,61 +5186,61 @@ msgstr "Clean"
 msgid "Lines:"
 msgstr "Lines:"
 
-#: ../quadrapassel/tetris.cpp:570
+#: ../quadrapassel/tetris.cpp:576
 msgid "Quadrapassel Preferences"
 msgstr "Quadrapassel Preferences"
 
-#: ../quadrapassel/tetris.cpp:593 ../swell-foop/data/settings.ui.h:5
+#: ../quadrapassel/tetris.cpp:599 ../swell-foop/data/settings.ui.h:5
 msgid "Setup"
 msgstr "Setup"
 
 #. pre-filled rows
-#: ../quadrapassel/tetris.cpp:599
+#: ../quadrapassel/tetris.cpp:605
 msgid "_Number of pre-filled rows:"
 msgstr "_Number of pre-filled rows:"
 
 #. pre-filled rows density
-#: ../quadrapassel/tetris.cpp:618
+#: ../quadrapassel/tetris.cpp:624
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Density of blocks in a pre-filled row:"
 
-#: ../quadrapassel/tetris.cpp:658 ../swell-foop/data/settings.ui.h:4
+#: ../quadrapassel/tetris.cpp:664 ../swell-foop/data/settings.ui.h:4
 msgid "Operation"
 msgstr "Operation"
 
-#: ../quadrapassel/tetris.cpp:672
+#: ../quadrapassel/tetris.cpp:678
 msgid "_Preview next block"
 msgstr "_Preview next block"
 
-#: ../quadrapassel/tetris.cpp:681
+#: ../quadrapassel/tetris.cpp:687
 msgid "_Use random block colors"
 msgstr "_Use random block colours"
 
-#: ../quadrapassel/tetris.cpp:692
+#: ../quadrapassel/tetris.cpp:698
 msgid "Choose difficult _blocks"
 msgstr "Choose difficult _blocks"
 
-#: ../quadrapassel/tetris.cpp:701
+#: ../quadrapassel/tetris.cpp:714
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Rotate blocks anti-clockwise"
 
-#: ../quadrapassel/tetris.cpp:710
+#: ../quadrapassel/tetris.cpp:723
 msgid "Show _where the block will land"
 msgstr "Show _where the block will land"
 
-#: ../quadrapassel/tetris.cpp:718 ../quadrapassel/tetris.cpp:751
+#: ../quadrapassel/tetris.cpp:731 ../quadrapassel/tetris.cpp:764
 msgid "Theme"
 msgstr "Theme"
 
-#: ../quadrapassel/tetris.cpp:727
+#: ../quadrapassel/tetris.cpp:740
 msgid "Controls"
 msgstr "Controls"
 
-#: ../quadrapassel/tetris.cpp:754
+#: ../quadrapassel/tetris.cpp:767
 msgid "Block Style"
 msgstr "Block Style"
 
-#: ../quadrapassel/tetris.cpp:1297
+#: ../quadrapassel/tetris.cpp:1310
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -5320,7 +5425,7 @@ msgstr ""
 "version."
 
 #: ../gnome-sudoku/src/lib/defaults.py.in:55
-#: ../libgames-support/games-stock.c:391
+#: ../libgames-support/games-stock.c:393
 #, c-format, python-format
 msgid ""
 "%s is distributed in the hope that it will be useful, but WITHOUT ANY "
@@ -5334,7 +5439,7 @@ msgstr ""
 "details."
 
 #: ../gnome-sudoku/src/lib/defaults.py.in:59
-#: ../libgames-support/games-stock.c:396
+#: ../libgames-support/games-stock.c:398
 #, c-format, python-format
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
@@ -5400,7 +5505,7 @@ msgid "New game"
 msgstr "New game"
 
 #. Translators: this is the "Reset" scores button in a scores dialogue
-#: ../gnome-sudoku/src/lib/main.py:233 ../libgames-support/games-stock.c:303
+#: ../gnome-sudoku/src/lib/main.py:233 ../libgames-support/games-stock.c:305
 msgid "_Reset"
 msgstr "_Reset"
 
@@ -5436,7 +5541,7 @@ msgstr "Print _Multiple Sudokus…"
 msgid "_Tools"
 msgstr "_Tools"
 
-#: ../gnome-sudoku/src/lib/main.py:248 ../libgames-support/games-stock.c:296
+#: ../gnome-sudoku/src/lib/main.py:248 ../libgames-support/games-stock.c:298
 msgid "_Hint"
 msgstr "_Hint"
 
@@ -5539,14 +5644,6 @@ msgstr[1] "You had %(n)s impossibilities pointed out."
 #: ../gnome-sudoku/src/lib/main.py:440
 msgid "Save this game before starting new one?"
 msgstr "Save this game before starting new one?"
-
-#: ../gnome-sudoku/src/lib/main.py:441
-msgid "_Save game for later"
-msgstr "_Save game for later"
-
-#: ../gnome-sudoku/src/lib/main.py:442
-msgid "_Abandon game"
-msgstr "_Abandon game"
 
 #: ../gnome-sudoku/src/lib/main.py:460
 msgid "Save game before closing?"
@@ -7011,80 +7108,80 @@ msgstr "Configure the game"
 msgid "Quit this game"
 msgstr "Quit this game"
 
-#: ../libgames-support/games-stock.c:295
+#: ../libgames-support/games-stock.c:297
 msgid "_Fullscreen"
 msgstr "_Fullscreen"
 
 #. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
-#: ../libgames-support/games-stock.c:298
+#: ../libgames-support/games-stock.c:300
 msgid "_New"
 msgstr "_New"
 
-#: ../libgames-support/games-stock.c:301
+#: ../libgames-support/games-stock.c:303
 msgid "_Redo Move"
 msgstr "_Redo Move"
 
 #. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
-#: ../libgames-support/games-stock.c:305
+#: ../libgames-support/games-stock.c:307
 msgid "_Restart"
 msgstr "_Restart"
 
-#: ../libgames-support/games-stock.c:307
+#: ../libgames-support/games-stock.c:309
 msgid "_Deal"
 msgstr "_Deal"
 
-#: ../libgames-support/games-stock.c:309
+#: ../libgames-support/games-stock.c:311
 msgid "_Leave Fullscreen"
 msgstr "_Leave Fullscreen"
 
-#: ../libgames-support/games-stock.c:310
+#: ../libgames-support/games-stock.c:312
 msgid "Network _Game"
 msgstr "Network _Game"
 
-#: ../libgames-support/games-stock.c:311
+#: ../libgames-support/games-stock.c:313
 msgid "L_eave Game"
 msgstr "L_eave Game"
 
-#: ../libgames-support/games-stock.c:312
+#: ../libgames-support/games-stock.c:314
 msgid "Player _List"
 msgstr "Player _List"
 
-#: ../libgames-support/games-stock.c:313
+#: ../libgames-support/games-stock.c:315
 msgid "_Pause"
 msgstr "_Pause"
 
-#: ../libgames-support/games-stock.c:314
+#: ../libgames-support/games-stock.c:316
 msgid "Res_ume"
 msgstr "Res_ume"
 
-#: ../libgames-support/games-stock.c:315
+#: ../libgames-support/games-stock.c:317
 msgid "_Scores"
 msgstr "_Scores"
 
-#: ../libgames-support/games-stock.c:316
+#: ../libgames-support/games-stock.c:318
 msgid "_End Game"
 msgstr "_End Game"
 
 #. Work around maemo brokenness wrt. stock item translations.
 #. * See https://bugs.maemo.org/show_bug.cgi?id=1449 .
-#: ../libgames-support/games-stock.c:322
+#: ../libgames-support/games-stock.c:324
 msgid "_About"
 msgstr "_About"
 
-#: ../libgames-support/games-stock.c:323
+#: ../libgames-support/games-stock.c:325
 msgid "_Cancel"
 msgstr "_Cancel"
 
-#: ../libgames-support/games-stock.c:324
+#: ../libgames-support/games-stock.c:326
 msgid "_Close"
 msgstr "_Close"
 
-#: ../libgames-support/games-stock.c:325
+#: ../libgames-support/games-stock.c:327
 msgid "_OK"
 msgstr "_OK"
 
 #. %s is replaced with the name of the game in gnome-games.
-#: ../libgames-support/games-stock.c:386
+#: ../libgames-support/games-stock.c:388
 #, c-format
 msgid ""
 "%s is free software; you can redistribute it and/or modify it under the "
@@ -7097,7 +7194,7 @@ msgstr ""
 "Foundation; either version %d of the Licence, or (at your option) any later "
 "version."
 
-#: ../libgames-support/games-stock.c:400
+#: ../libgames-support/games-stock.c:402
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -7433,6 +7530,12 @@ msgstr "Normal"
 msgid "Large"
 msgstr "Large"
 
+#~ msgid "_Animations"
+#~ msgstr "_Animations"
+
+#~ msgid "Whether or not to animate card moves"
+#~ msgstr "Whether to animate card moves"
+
 #~ msgid "%s: option `%s' is ambiguous\n"
 #~ msgstr "%s: option `%s' is ambiguous\n"
 
@@ -7522,9 +7625,6 @@ msgstr "Large"
 
 #~ msgid "There are no active logs."
 #~ msgstr "There are no active logs."
-
-#~ msgid "Load Chess Game"
-#~ msgstr "Load Chess Game"
 
 #~ msgid "Communication:"
 #~ msgstr "Communication:"
@@ -7630,9 +7730,6 @@ msgstr "Large"
 #~ "View the chess board by default in 2D mode, or optionally in 3D mode "
 #~ "using OpenGL."
 
-#~ msgid "Save Chess Game"
-#~ msgstr "Save Chess Game"
-
 #~ msgid "Chess incorrectly installed"
 #~ msgstr "Chess incorrectly installed"
 
@@ -7660,17 +7757,8 @@ msgstr "Large"
 #~ msgid "%(white)s versus %(black)s"
 #~ msgstr "%(white)s versus %(black)s"
 
-#~ msgid "PGN files"
-#~ msgstr "PGN files"
-
-#~ msgid "All files"
-#~ msgstr "All files"
-
 #~ msgid "Please select a file to load"
 #~ msgstr "Please select a file to load"
-
-#~ msgid "Unabled to load game"
-#~ msgstr "Unable to load game"
 
 #~ msgid "Please enter a file name"
 #~ msgstr "Please enter a file name"
@@ -7769,38 +7857,6 @@ msgstr "Large"
 
 #~ msgid "%s wins"
 #~ msgstr "%s wins"
-
-#~ msgid "Opponent is in check and cannot move (checkmate)"
-#~ msgstr "Opponent is in check and cannot move (checkmate)"
-
-#~ msgid "Opponent cannot move (stalemate)"
-#~ msgstr "Opponent cannot move (stalemate)"
-
-#~ msgid "No piece has been taken or pawn moved in the last fifty moves"
-#~ msgstr "No piece has been taken or pawn moved in the last fifty moves"
-
-#~ msgid "Opponent has run out of time"
-#~ msgstr "Opponent has run out of time"
-
-#~ msgid ""
-#~ "The same board state has occurred three times (three fold repetition)"
-#~ msgstr ""
-#~ "The same board state has occurred three times (three fold repetition)"
-
-#~ msgid "Neither player can cause checkmate (insufficient material)"
-#~ msgstr "Neither player can cause checkmate (insufficient material)"
-
-#~ msgid "The black player has resigned"
-#~ msgstr "The black player has resigned"
-
-#~ msgid "The white player has resigned"
-#~ msgstr "The white player has resigned"
-
-#~ msgid "The game has been abandoned"
-#~ msgstr "The game has been abandoned"
-
-#~ msgid "One of the players has died"
-#~ msgstr "One of the players has died"
 
 #~ msgid "GGZ Gaming Zone"
 #~ msgstr "GGZ Gaming Zone"
@@ -7950,15 +8006,6 @@ msgstr "Large"
 
 #~ msgid "Copyright 2005-2008 Robert Ancell (and contributors)"
 #~ msgstr "Copyright 2005-2008 Robert Ancell (and contributors)"
-
-#~ msgid ""
-#~ "The 2D/3D chess game for GNOME. \n"
-#~ "\n"
-#~ "glChess is a part of GNOME Games."
-#~ msgstr ""
-#~ "The 2D/3D chess game for GNOME. \n"
-#~ "\n"
-#~ "glChess is a part of GNOME Games."
 
 #~ msgid "Incorrect password"
 #~ msgstr "Incorrect password"
