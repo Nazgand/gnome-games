@@ -23,15 +23,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-games&component=general\n"
-"POT-Creation-Date: 2011-02-27 03:11+0900\n"
-"PO-Revision-Date: 2011-02-27 03:37+0900\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"games&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-04-11 04:25+0000\n"
+"PO-Revision-Date: 2011-04-23 13:20+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
-"Language: Korean\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: Korean\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../aisleriot/aisleriot.schemas.in.h:1
@@ -109,7 +110,7 @@ msgid "Whether or not to show the toolbar"
 msgstr "도구 모음을 표시할 지 여부"
 
 #. Now construct the window contents
-#: ../aisleriot/ar-game-chooser.c:238 ../aisleriot/window.c:2560
+#: ../aisleriot/ar-game-chooser.c:238 ../aisleriot/window.c:2456
 msgid "Select Game"
 msgstr "게임 선택"
 
@@ -117,8 +118,8 @@ msgstr "게임 선택"
 msgid "_Select"
 msgstr "선택(_S)"
 
-#: ../aisleriot/freecell.desktop.in.in.h:1 ../aisleriot/sol.c:323
-#: ../aisleriot/window.c:455 ../aisleriot/window.c:463
+#: ../aisleriot/freecell.desktop.in.in.h:1 ../aisleriot/sol.c:295
+#: ../aisleriot/window.c:434 ../aisleriot/window.c:442
 msgid "FreeCell Solitaire"
 msgstr "프리셀 솔리테어"
 
@@ -126,7 +127,7 @@ msgstr "프리셀 솔리테어"
 msgid "Play the popular FreeCell card game"
 msgstr "유명한 프리셀 카드 게임"
 
-#: ../aisleriot/game.c:1165
+#: ../aisleriot/game.c:1148
 #, c-format
 msgid ""
 "Aisleriot cannot load the file “%s”. Please check your Aisleriot "
@@ -136,75 +137,75 @@ msgstr ""
 "했는지 확인하십시오."
 
 #. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1416
+#: ../aisleriot/game.c:1399
 msgctxt "slot type"
 msgid "foundation"
 msgstr "파운데이션"
 
 #. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1420
+#: ../aisleriot/game.c:1403
 msgctxt "slot type"
 msgid "reserve"
 msgstr "예약"
 
 #. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1424
+#: ../aisleriot/game.c:1407
 msgctxt "slot type"
 msgid "stock"
 msgstr "스톡"
 
 #. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1428
+#: ../aisleriot/game.c:1411
 msgctxt "slot type"
 msgid "tableau"
 msgstr "타블로"
 
 #. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1432
+#: ../aisleriot/game.c:1415
 msgctxt "slot type"
 msgid "waste"
 msgstr "쓰레기"
 
 #. Translators: %s is the name of the card; "foundation" is the name of a type of card slot
-#: ../aisleriot/game.c:1464
+#: ../aisleriot/game.c:1447
 #, c-format
 msgctxt "slot hint"
 msgid "%s on foundation"
 msgstr "파운데이션의 %s"
 
 #. Translators: %s is the name of the card; "reserve" is the name of a type of card slot
-#: ../aisleriot/game.c:1468
+#: ../aisleriot/game.c:1451
 #, c-format
 msgctxt "slot hint"
 msgid "%s on reserve"
 msgstr "예약의 %s"
 
 #. Translators: %s is the name of the card; "stock" is the name of a type of card slot
-#: ../aisleriot/game.c:1472
+#: ../aisleriot/game.c:1455
 #, c-format
 msgctxt "slot hint"
 msgid "%s on stock"
 msgstr "스톡의 %s"
 
 #. Translators: %s is the name of the card; "tableau" is the name of a type of card slot
-#: ../aisleriot/game.c:1476
+#: ../aisleriot/game.c:1459
 #, c-format
 msgctxt "slot hint"
 msgid "%s on tableau"
 msgstr "타블로의 %s"
 
 #. Translators: %s is the name of the card; "waste" is the name of a type of card slot
-#: ../aisleriot/game.c:1480
+#: ../aisleriot/game.c:1463
 #, c-format
 msgctxt "slot hint"
 msgid "%s on waste"
 msgstr "쓰레기의 %s"
 
-#: ../aisleriot/game.c:1721
+#: ../aisleriot/game.c:1704
 msgid "Aisleriot cannot find the last game you played."
 msgstr "아일라이어트에서 플레이한 마지막 게임을 찾지 못했습니다."
 
-#: ../aisleriot/game.c:1722
+#: ../aisleriot/game.c:1705
 msgid ""
 "This usually occurs when you run an older version of Aisleriot which does "
 "not have the game you last played. The default game, Klondike, is being "
@@ -213,7 +214,7 @@ msgstr ""
 "마지막으로 플레이한 게임이 들어 있지 않은 아일라이어트 옛날 버전을 실행하는 "
 "경우 일어납니다. 기본 게임인 클론다이크를 대신 실행합니다."
 
-#: ../aisleriot/game.c:2080
+#: ../aisleriot/game.c:2063
 msgid "This game does not have hint support yet."
 msgstr "이 게임은 아직 힌트가 지원되지 않습니다."
 
@@ -221,17 +222,17 @@ msgstr "이 게임은 아직 힌트가 지원되지 않습니다."
 #. The first %s is a card name, the 2nd %s a sentence fragment.
 #. * Yes, we know this is bad for i18n.
 #.
-#: ../aisleriot/game.c:2114 ../aisleriot/game.c:2142
+#: ../aisleriot/game.c:2097 ../aisleriot/game.c:2125
 #, c-format
 msgid "Move %s onto %s."
 msgstr "%2$s에 있는 %1$s을(를) 움직이십시오."
 
-#: ../aisleriot/game.c:2164
+#: ../aisleriot/game.c:2147
 #, c-format
 msgid "You are searching for a %s."
 msgstr "%s을(를) 찾고 있습니다."
 
-#: ../aisleriot/game.c:2169
+#: ../aisleriot/game.c:2152
 msgid "This game is unable to provide a hint."
 msgstr "이 게임은 힌트를 제공할 수 없습니다."
 
@@ -1039,36 +1040,36 @@ msgid "Hopscotch"
 msgstr "홉스카치"
 
 #. String reserve
-#: ../aisleriot/sol.c:69
+#: ../aisleriot/sol.c:59
 msgid "Solitaire"
 msgstr "솔리테어"
 
-#: ../aisleriot/sol.c:70
+#: ../aisleriot/sol.c:60
 msgid "GNOME Solitaire"
 msgstr "그놈 솔리테어"
 
-#: ../aisleriot/sol.c:71
+#: ../aisleriot/sol.c:61
 msgid "About Solitaire"
 msgstr "솔리테어 정보"
 
-#: ../aisleriot/sol.c:210
+#: ../aisleriot/sol.c:200
 msgid "Select the game type to play"
 msgstr "플레이할 게임 종류를 선택하십시오"
 
-#: ../aisleriot/sol.c:210 ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
+#: ../aisleriot/sol.c:200 ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
 msgid "NAME"
 msgstr "<이름>"
 
-#: ../aisleriot/sol.c:212
+#: ../aisleriot/sol.c:202
 msgid "Select the game number"
 msgstr "게임 번호를 선택하십시오"
 
-#: ../aisleriot/sol.c:212 ../gnomine/gnomine.c:929 ../gtali/gyahtzee.c:107
+#: ../aisleriot/sol.c:202 ../gnomine/gnomine.c:929 ../gtali/gyahtzee.c:107
 #: ../gtali/gyahtzee.c:109 ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
 msgid "NUMBER"
 msgstr "<숫자>"
 
-#: ../aisleriot/sol.c:323 ../aisleriot/window.c:464 ../aisleriot/window.c:2024
+#: ../aisleriot/sol.c:295 ../aisleriot/window.c:443 ../aisleriot/window.c:1986
 msgid "AisleRiot"
 msgstr "아일라이어트"
 
@@ -1465,41 +1466,41 @@ msgstr "%d:%02d"
 msgid "Could not show help for “%s”"
 msgstr "“%s”의 도움말을 표시할 수 없습니다"
 
-#: ../aisleriot/window.c:261
+#: ../aisleriot/window.c:248
 msgid "Congratulations, you have won!"
 msgstr "축하합니다. 이겼습니다!"
 
-#: ../aisleriot/window.c:265
+#: ../aisleriot/window.c:252
 msgid "There are no more moves"
 msgstr "더 이상 움직일 수 없습니다"
 
 #. Empty title shows up as "<unnamed>" on maemo
-#: ../aisleriot/window.c:278 ../quadrapassel/blockops.cpp:788
+#: ../aisleriot/window.c:265 ../quadrapassel/blockops.cpp:788
 msgid "Game Over"
 msgstr "게임 끝"
 
-#: ../aisleriot/window.c:412 ../gnomine/gnomine.c:437
+#: ../aisleriot/window.c:391 ../gnomine/gnomine.c:437
 #: ../mahjongg/mahjongg.c:867
 msgid "Main game:"
 msgstr "주 게임:"
 
-#: ../aisleriot/window.c:420
+#: ../aisleriot/window.c:399
 msgid "Card games:"
 msgstr "카드 게임:"
 
-#: ../aisleriot/window.c:434
+#: ../aisleriot/window.c:413
 msgid "Card themes:"
 msgstr "카드 테마:"
 
-#: ../aisleriot/window.c:466
+#: ../aisleriot/window.c:445
 msgid "About FreeCell Solitaire"
 msgstr "프리셀 솔리테어 정보"
 
-#: ../aisleriot/window.c:467
+#: ../aisleriot/window.c:446
 msgid "About AisleRiot"
 msgstr "아일라이어트 정보"
 
-#: ../aisleriot/window.c:473
+#: ../aisleriot/window.c:452
 msgid ""
 "AisleRiot provides a rule-based solitaire card engine that allows many "
 "different games to be played.\n"
@@ -1510,9 +1511,9 @@ msgstr ""
 "아일라이어트는 그놈 게임의 일부입니다."
 
 #. this doesn't work for anyone
-#: ../aisleriot/window.c:484 ../glines/glines.c:1216 ../gnect/src/main.c:878
+#: ../aisleriot/window.c:463 ../glines/glines.c:1216 ../gnect/src/main.c:878
 #: ../gnibbles/main.c:208 ../gnobots2/menu.c:267
-#: ../quadrapassel/tetris.cpp:1303 ../gnome-sudoku/src/lib/main.py:709
+#: ../quadrapassel/tetris.cpp:1316 ../gnome-sudoku/src/lib/main.py:709
 #: ../gnomine/gnomine.c:477 ../gnotravex/gnotravex.c:1613
 #: ../gnotski/gnotski.c:1487 ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:270
 #: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:908
@@ -1520,22 +1521,23 @@ msgstr ""
 msgid "translator-credits"
 msgstr "류창우 <cwryu@debian.org>"
 
-#: ../aisleriot/window.c:488 ../glines/glines.c:1219 ../gnect/src/main.c:875
-#: ../gnibbles/main.c:211 ../gnobots2/menu.c:263
-#: ../quadrapassel/tetris.cpp:1300 ../gnome-sudoku/src/lib/defaults.py.in:45
-#: ../gnomine/gnomine.c:480 ../gnotravex/gnotravex.c:1616
-#: ../gnotski/gnotski.c:1490 ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
+#: ../aisleriot/window.c:467 ../glchess/src/glchess.vala:1348
+#: ../glines/glines.c:1219 ../gnect/src/main.c:875 ../gnibbles/main.c:211
+#: ../gnobots2/menu.c:263 ../quadrapassel/tetris.cpp:1313
+#: ../gnome-sudoku/src/lib/defaults.py.in:45 ../gnomine/gnomine.c:480
+#: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1490
+#: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
 #: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:911
 #: ../swell-foop/src/About.js:19
 msgid "GNOME Games web site"
 msgstr "그놈 게임 웹사이트"
 
-#: ../aisleriot/window.c:1360
+#: ../aisleriot/window.c:1339
 #, c-format
 msgid "Play “%s”"
 msgstr "“%s” 플레이"
 
-#: ../aisleriot/window.c:1531
+#: ../aisleriot/window.c:1510
 #, c-format
 msgid "Display cards with “%s” card theme"
 msgstr "“%s” 카드 테마로 카드를 표시합니다"
@@ -1544,40 +1546,40 @@ msgstr "“%s” 카드 테마로 카드를 표시합니다"
 #. * then translate this string to "%I6d", else to "%6d".
 #. * Do not translate it to anything else!
 #.
-#: ../aisleriot/window.c:1626
+#: ../aisleriot/window.c:1605
 #, c-format
 msgctxt "score"
 msgid "%6d"
 msgstr "%6d"
 
-#: ../aisleriot/window.c:1893
+#: ../aisleriot/window.c:1872
 msgid "A scheme exception occurred"
 msgstr "스킴 예외가 발생했습니다"
 
-#: ../aisleriot/window.c:1896
+#: ../aisleriot/window.c:1875
 msgid "Please report this bug to the developers."
 msgstr "이 버그를 개발자에게 보고해 주십시오."
 
 #. Empty title shows up as "<unnamed>" on maemo
-#: ../aisleriot/window.c:1900 ../libgames-support/games-show.c:151
+#: ../aisleriot/window.c:1879 ../libgames-support/games-show.c:151
 msgid "Error"
 msgstr "오류"
 
-#: ../aisleriot/window.c:1908
+#: ../aisleriot/window.c:1887
 msgid "_Don't report"
 msgstr "보고하지 않기(_D)"
 
-#: ../aisleriot/window.c:1909
+#: ../aisleriot/window.c:1888
 msgid "_Report"
 msgstr "보고(_R)"
 
-#: ../aisleriot/window.c:2022
+#: ../aisleriot/window.c:1984
 msgid "Freecell Solitaire"
 msgstr "프리셀 솔리테어"
 
 #. Menu actions
 #. Game menu name
-#: ../aisleriot/window.c:2187 ../glchess/data/glchess.ui.h:22
+#: ../aisleriot/window.c:2118 ../glchess/data/glchess.ui.h:22
 #: ../glines/glines.c:1640 ../gnect/src/main.c:1242 ../gnibbles/main.c:687
 #: ../gnobots2/menu.c:66 ../quadrapassel/tetris.cpp:108
 #: ../gnome-sudoku/src/lib/main.py:231 ../gnomine/gnomine.c:769
@@ -1588,17 +1590,17 @@ msgstr "프리셀 솔리테어"
 msgid "_Game"
 msgstr "게임(_G)"
 
-#: ../aisleriot/window.c:2188 ../gnect/src/main.c:1243 ../gnibbles/main.c:688
+#: ../aisleriot/window.c:2119 ../gnect/src/main.c:1243 ../gnibbles/main.c:688
 #: ../gnobots2/menu.c:67 ../gnotski/gnotski.c:410
 msgid "_View"
 msgstr "보기(_V)"
 
-#: ../aisleriot/window.c:2189
+#: ../aisleriot/window.c:2120
 msgid "_Control"
 msgstr "컨트롤(_C)"
 
 #. Help menu item
-#: ../aisleriot/window.c:2191 ../glchess/data/glchess.ui.h:24
+#: ../aisleriot/window.c:2122 ../glchess/data/glchess.ui.h:24
 #: ../glines/glines.c:1642 ../gnect/src/main.c:1245 ../gnibbles/main.c:690
 #: ../gnobots2/menu.c:70 ../quadrapassel/tetris.cpp:110
 #: ../gnome-sudoku/src/lib/main.py:254 ../gnomine/gnomine.c:771
@@ -1610,135 +1612,127 @@ msgid "_Help"
 msgstr "도움말(_H)"
 
 #. Tooltip for start new game toolbar button
-#: ../aisleriot/window.c:2196 ../glchess/data/glchess.ui.h:16
+#: ../aisleriot/window.c:2127 ../glchess/data/glchess.ui.h:16
 #: ../gnobots2/menu.c:71 ../libgames-support/games-stock.c:59
 #: ../mahjongg/mahjongg.c:1203
 msgid "Start a new game"
 msgstr "새 게임을 시작합니다"
 
-#: ../aisleriot/window.c:2199 ../libgames-support/games-stock.c:63
+#: ../aisleriot/window.c:2130 ../libgames-support/games-stock.c:63
 msgid "Restart the game"
 msgstr "게임을 다시 시작합니다"
 
-#: ../aisleriot/window.c:2201
+#: ../aisleriot/window.c:2132
 msgid "_Select Game..."
 msgstr "게임 선택(_S)..."
 
-#: ../aisleriot/window.c:2203
+#: ../aisleriot/window.c:2134
 msgid "Play a different game"
 msgstr "다른 게임을 플레이합니다"
 
-#: ../aisleriot/window.c:2205
+#: ../aisleriot/window.c:2136
 msgid "_Recently Played"
 msgstr "최근 플레이(_R)"
 
-#: ../aisleriot/window.c:2206
+#: ../aisleriot/window.c:2137
 msgid "S_tatistics"
 msgstr "통계(_T)"
 
-#: ../aisleriot/window.c:2207
+#: ../aisleriot/window.c:2138
 msgid "Show gameplay statistics"
 msgstr "게임 플레이 통계 보기"
 
-#: ../aisleriot/window.c:2210 ../libgames-support/games-stock.c:68
+#: ../aisleriot/window.c:2141 ../libgames-support/games-stock.c:68
 msgid "Close this window"
 msgstr "이 창을 닫습니다"
 
-#: ../aisleriot/window.c:2213 ../libgames-support/games-stock.c:66
+#: ../aisleriot/window.c:2144 ../libgames-support/games-stock.c:66
 #: ../mahjongg/mahjongg.c:1207
 msgid "Undo the last move"
 msgstr "마지막 움직임을 취소합니다"
 
-#: ../aisleriot/window.c:2216 ../libgames-support/games-stock.c:62
+#: ../aisleriot/window.c:2147 ../libgames-support/games-stock.c:62
 msgid "Redo the undone move"
 msgstr "마지막 움직임을 되돌립니다"
 
-#: ../aisleriot/window.c:2219
+#: ../aisleriot/window.c:2150
 msgid "Deal next card or cards"
 msgstr "다음 카드를 돌립니다"
 
-#: ../aisleriot/window.c:2222 ../libgames-support/games-stock.c:55
+#: ../aisleriot/window.c:2153 ../libgames-support/games-stock.c:55
 msgid "Get a hint for your next move"
 msgstr "다음 움직임에 대한 힌트를 얻습니다"
 
-#: ../aisleriot/window.c:2225
+#: ../aisleriot/window.c:2156
 msgid "View help for Aisleriot"
 msgstr "아일라이어트 도움말 보기"
 
-#: ../aisleriot/window.c:2229 ../libgames-support/games-stock.c:52
+#: ../aisleriot/window.c:2160 ../libgames-support/games-stock.c:52
 msgid "View help for this game"
 msgstr "이 게임의 도움말을 봅니다"
 
-#: ../aisleriot/window.c:2232 ../libgames-support/games-stock.c:67
+#: ../aisleriot/window.c:2163 ../libgames-support/games-stock.c:67
 msgid "About this game"
 msgstr "이 게임 정보"
 
-#: ../aisleriot/window.c:2235
+#: ../aisleriot/window.c:2166
 msgid "Install card themes…"
 msgstr "새 카드 테마 설치…"
 
-#: ../aisleriot/window.c:2236
+#: ../aisleriot/window.c:2167
 msgid "Install new card themes from the distribution packages repositories"
 msgstr "배포판의 패키지 저장소에서 새 카드 테마를 설치합니다"
 
-#: ../aisleriot/window.c:2244
+#: ../aisleriot/window.c:2175
 msgid "_Card Style"
 msgstr "카드 모양새(_C)"
 
-#: ../aisleriot/window.c:2285 ../gnobots2/menu.c:90
+#: ../aisleriot/window.c:2218 ../gnobots2/menu.c:90
 #: ../mahjongg/mahjongg.c:1223
 msgid "_Toolbar"
 msgstr "도구 모음(_T)"
 
-#: ../aisleriot/window.c:2286 ../gnobots2/menu.c:90
+#: ../aisleriot/window.c:2219 ../gnobots2/menu.c:90
 #: ../mahjongg/mahjongg.c:1223
 msgid "Show or hide the toolbar"
 msgstr "도구 모음 보이기 혹은 감추기"
 
-#: ../aisleriot/window.c:2291
+#: ../aisleriot/window.c:2224
 msgid "_Statusbar"
 msgstr "상태 표시줄(_S)"
 
-#: ../aisleriot/window.c:2292
+#: ../aisleriot/window.c:2225
 msgid "Show or hide statusbar"
 msgstr "상태 표시줄 보이기 혹은 감추기"
 
-#: ../aisleriot/window.c:2297 ../gnotravex/gnotravex.c:1731
+#: ../aisleriot/window.c:2230 ../gnotravex/gnotravex.c:1731
 msgid "_Click to Move"
 msgstr "누르면 움직임(_C)"
 
-#: ../aisleriot/window.c:2298
+#: ../aisleriot/window.c:2231
 msgid "Pick up and drop cards by clicking"
 msgstr "카드를 눌러서 집어들거나 놓기"
 
-#: ../aisleriot/window.c:2302
+#: ../aisleriot/window.c:2235
 msgid "_Sound"
 msgstr "소리(_S)"
 
-#: ../aisleriot/window.c:2303
+#: ../aisleriot/window.c:2236
 msgid "Whether or not to play event sounds"
 msgstr "이벤트 사운드를 재생할 지 여부"
 
-#: ../aisleriot/window.c:2308
-msgid "_Animations"
-msgstr "애니메이션(_A)"
-
-#: ../aisleriot/window.c:2309
-msgid "Whether or not to animate card moves"
-msgstr "카드 움직임에 애니메이션을 사용할 지 여부"
-
-#: ../aisleriot/window.c:2616 ../glines/glines.c:1841
+#: ../aisleriot/window.c:2507 ../glines/glines.c:1841
 #: ../gnobots2/statusbar.c:67 ../quadrapassel/scoreframe.cpp:47
 #: ../gnomine/gnomine.c:440
 msgid "Score:"
 msgstr "점수:"
 
-#: ../aisleriot/window.c:2628 ../gnotravex/gnotravex.c:1402
+#: ../aisleriot/window.c:2519 ../gnotravex/gnotravex.c:1402
 #: ../mahjongg/mahjongg.c:1407
 msgid "Time:"
 msgstr "시간:"
 
-#: ../aisleriot/window.c:2977
+#: ../aisleriot/window.c:2856
 #, c-format
 msgid "Cannot start the game “%s”"
 msgstr "“%s” 게임을 시작할 수 없습니다"
@@ -2260,55 +2254,67 @@ msgstr "파운데이션으로 카드를 옮기십시오"
 msgid "Move something into the empty Tableau slot"
 msgstr "빈 타블로 슬롯에 어떤 것이든지 옮기십시오"
 
-#: ../aisleriot/rules/clock.scm.h:1
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:2
 msgid "Consistency is key"
 msgstr "일관성이 핵심입니다"
 
-#: ../aisleriot/rules/clock.scm.h:2
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:4
 msgid "Fishing wire makes bad dental floss"
 msgstr "낚시줄은 나쁜 이쑤시개 실을 만듭니다"
 
-#: ../aisleriot/rules/clock.scm.h:3
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:6
 msgid "Have you read the help file?"
 msgstr "도움말 파일을 읽어 보셨습니까?"
 
-#: ../aisleriot/rules/clock.scm.h:4
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:8
 msgid "I could sure use a backrub right about now..."
 msgstr "지금 바로 백럽을 사용해야 한다고 확신합니다..."
 
-#: ../aisleriot/rules/clock.scm.h:5
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:10
 msgid "If you're ever lost and alone in the woods, hug a tree"
 msgstr "계속 잃고 숲속에 홀로 남았다면 나무에 메달리십시오"
 
-#: ../aisleriot/rules/clock.scm.h:6
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:12
 msgid ""
 "Just because a crosswalk looks like a hopscotch board doesn't mean it is one"
 msgstr ""
 "단지 횡단보도가 돌차기 놀이판처럼 보인다고 해서 놀이판이 횡단보도라는 뜻은 아"
 "닙니다"
 
-#: ../aisleriot/rules/clock.scm.h:7
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:14
 msgid "Look both ways before you cross the street"
 msgstr "길을 건너기 전에 좌우를 살피십시오"
 
-#: ../aisleriot/rules/clock.scm.h:8
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:16
 msgid "Monitors won't give you Vitamin D -- but sunlight will..."
 msgstr ""
 "모니터가 당신에게 비타민 D를 주지는 않습니다 -- 그러나 햇볕은 그렇지요..."
 
-#: ../aisleriot/rules/clock.scm.h:9
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:18
 msgid "Never blow in a dog's ear"
 msgstr "절대로 개의 귀에 바람을 불지 마세요"
 
-#: ../aisleriot/rules/clock.scm.h:10
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:20
 msgid "Odessa is a better game.  Really."
 msgstr "Odessa가 더 좋은 게임입니다. 정말로."
 
-#: ../aisleriot/rules/clock.scm.h:11
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:22
 msgid "Tourniquets are not recommended unless in the direst emergency"
 msgstr "긴급 상황일지라도 지혈대는 권하지 않습니다"
 
-#: ../aisleriot/rules/clock.scm.h:12
+#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
+#: ../aisleriot/rules/clock.scm.h:24
 msgid "When without a stapler, a staple and a ruler will work"
 msgstr "호치키스가 없을 때는 꺾쇠하고 자로 작업합니다"
 
@@ -2773,7 +2779,9 @@ msgstr "3차원 화면을 부드럽게 하는 (안티알리아싱) 플래그"
 msgid ""
 "Can be 'human' (play against another human player), '' (use the first "
 "available chess engine) or the name of a specific engine to play against"
-msgstr "가능한 값은 'human' (다른 사람 플레이어와 플레이), '' (처음 체스 엔진 사용), 또는 플레이할 엔진의 이름."
+msgstr ""
+"가능한 값은 'human' (다른 사람 플레이어와 플레이), '' (처음 체스 엔진 사용), "
+"또는 플레이할 엔진의 이름."
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:10
 msgid "Difficulty of the opponent chess engine"
@@ -2879,7 +2887,7 @@ msgstr "이동 취소"
 
 #. Help contents menu item
 #: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:255
-#: ../libgames-support/games-stock.c:294
+#: ../libgames-support/games-stock.c:296
 msgid "_Contents"
 msgstr "차례(_C)"
 
@@ -2899,7 +2907,7 @@ msgid "_Settings"
 msgstr "설정(_S)"
 
 #. Undo move menu item
-#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:306
+#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:308
 msgid "_Undo Move"
 msgstr "이동 취소(_U)"
 
@@ -2946,7 +2954,7 @@ msgstr "5분"
 #. Preferences Dialog: Tab title for game preferences
 #: ../glchess/data/preferences.ui.h:18 ../gnect/src/prefs.c:302
 #: ../gnibbles/preferences.c:254 ../gnobots2/properties.c:496
-#: ../quadrapassel/tetris.cpp:590 ../iagno/properties.c:415
+#: ../quadrapassel/tetris.cpp:596 ../iagno/properties.c:415
 msgid "Game"
 msgstr "게임"
 
@@ -3153,7 +3161,7 @@ msgid "Normal"
 msgstr "보통"
 
 #. Title of the main window
-#: ../glchess/glchess.desktop.in.in.h:1 ../glchess/src/glchess.vala:218
+#: ../glchess/glchess.desktop.in.in.h:1 ../glchess/src/glchess.vala:221
 msgid "Chess"
 msgstr "체스"
 
@@ -3164,485 +3172,586 @@ msgstr "전통적인 2인 체스 보드 게임을 플레이합니다"
 #. Title of the window when explicitly loaded a file. The first argument is the
 #. * base name of the file (e.g. test.pgn), the second argument is the directory
 #. * (e.g. /home/fred)
-#: ../glchess/src/glchess.vala:226
+#: ../glchess/src/glchess.vala:229
 #, c-format
 msgid "%1$s (%2$s) - Chess"
 msgstr "%1$s (%2$s) - 체스"
 
 #. Move History Combo: Go to the start of the game
-#: ../glchess/src/glchess.vala:235
+#: ../glchess/src/glchess.vala:238
 msgid "Game Start"
 msgstr "게임 시작"
 
 #. Note there are no move formats for pieces taking kings and this is not allowed in Chess rules
 #. Human Move String: Description of a white pawn moving from %1$s to %2s, e.g. 'c2 to c4'
-#: ../glchess/src/glchess.vala:444
+#: ../glchess/src/glchess.vala:447
 #, c-format
 msgid "White pawn moves from %1$s to %2$s"
 msgstr "흰색 폰이 %1$s에서 %2$s 위치로 이동"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:446
+#: ../glchess/src/glchess.vala:449
 #, c-format
 msgid "White pawn at %1$s takes the black pawn at %2$s"
 msgstr "흰색 폰이 (위치 %1$s) 검은색 폰을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:448
+#: ../glchess/src/glchess.vala:451
 #, c-format
 msgid "White pawn at %1$s takes the black rook at %2$s"
 msgstr "흰색 폰이 (위치 %1$s) 검은색 루크를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:450
+#: ../glchess/src/glchess.vala:453
 #, c-format
 msgid "White pawn at %1$s takes the black knight at %2$s"
 msgstr "흰색 폰이 (위치 %1$s) 검은색 나이트를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:452
+#: ../glchess/src/glchess.vala:455
 #, c-format
 msgid "White pawn at %1$s takes the black bishop at %2$s"
 msgstr "흰색 폰이 (위치 %1$s) 검은색 비숍을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:454
+#: ../glchess/src/glchess.vala:457
 #, c-format
 msgid "White pawn at %1$s takes the black queen at %2$s"
 msgstr "흰색 폰이 (위치 %1$s) 검은색 퀸을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white rook moving from %1$s to %2$s, e.g. 'a1 to a5'
-#: ../glchess/src/glchess.vala:456
+#: ../glchess/src/glchess.vala:459
 #, c-format
 msgid "White rook moves from %1$s to %2$s"
 msgstr "흰색 루크가 %1$s에서 %2$s 위치로 이동"
 
 #. Human Move String: Description of a white rook at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:458
+#: ../glchess/src/glchess.vala:461
 #, c-format
 msgid "White rook at %1$s takes the black pawn at %2$s"
 msgstr "흰색 루크가 (위치 %1$s) 검은색 폰을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white rook at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:460
+#: ../glchess/src/glchess.vala:463
 #, c-format
 msgid "White rook at %1$s takes the black rook at %2$s"
 msgstr "흰색 루크가 (위치 %1$s) 검은색 루크를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white rook at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:462
+#: ../glchess/src/glchess.vala:465
 #, c-format
 msgid "White rook at %1$s takes the black knight at %2$s"
 msgstr "흰색 루크가 (위치 %1$s) 검은색 나이트를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white rook at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:464
+#: ../glchess/src/glchess.vala:467
 #, c-format
 msgid "White rook at %1$s takes the black bishop at %2$s"
 msgstr "흰색 루크가 (위치 %1$s) 검은색 비숍을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white rook at %1$s capturing a queen at %2$s"
-#: ../glchess/src/glchess.vala:466
+#: ../glchess/src/glchess.vala:469
 #, c-format
 msgid "White rook at %1$s takes the black queen at %2$s"
 msgstr "흰색 루크가 (위치 %1$s) 검은색 퀸을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white knight moving from %1$s to %2$s, e.g. 'b1 to c3'
-#: ../glchess/src/glchess.vala:468
+#: ../glchess/src/glchess.vala:471
 #, c-format
 msgid "White knight moves from %1$s to %2$s"
 msgstr "흰색 나이트가 %1$s에서 %2$s 위치로 이동"
 
 #. Human Move String: Description of a white knight at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:470
+#: ../glchess/src/glchess.vala:473
 #, c-format
 msgid "White knight at %1$s takes the black pawn at %2$s"
 msgstr "흰색 나이트가 (위치 %1$s) 검은색 폰을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white knight at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:472
+#: ../glchess/src/glchess.vala:475
 #, c-format
 msgid "White knight at %1$s takes the black rook at %2$s"
 msgstr "흰색 나이트가 (위치 %1$s) 검은색 루크를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white knight at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:474
+#: ../glchess/src/glchess.vala:477
 #, c-format
 msgid "White knight at %1$s takes the black knight at %2$s"
 msgstr "흰색 나이트가 (위치 %1$s) 검은색 나이트를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white knight at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:476
+#: ../glchess/src/glchess.vala:479
 #, c-format
 msgid "White knight at %1$s takes the black bishop at %2$s"
 msgstr "흰색 나이트가 (위치 %1$s) 검은색 비숍을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white knight at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:478
+#: ../glchess/src/glchess.vala:481
 #, c-format
 msgid "White knight at %1$s takes the black queen at %2$s"
 msgstr "흰색 나이트가 (위치 %1$s) 검은색 퀸을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white bishop moving from %1$s to %2$s, e.g. 'f1 to b5'
-#: ../glchess/src/glchess.vala:480
+#: ../glchess/src/glchess.vala:483
 #, c-format
 msgid "White bishop moves from %1$s to %2$s"
 msgstr "흰색 비숍이 %1$s에서 %2$s 위치로 이동"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:482
+#: ../glchess/src/glchess.vala:485
 #, c-format
 msgid "White bishop at %1$s takes the black pawn at %2$s"
 msgstr "흰색 비숍이 (위치 %1$s) 검은색 폰을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:484
+#: ../glchess/src/glchess.vala:487
 #, c-format
 msgid "White bishop at %1$s takes the black rook at %2$s"
 msgstr "흰색 비숍이 (위치 %1$s) 검은색 루크를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:486
+#: ../glchess/src/glchess.vala:489
 #, c-format
 msgid "White bishop at %1$s takes the black knight at %2$s"
 msgstr "흰색 비숍이 (위치 %1$s) 검은색 나이트를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:488
+#: ../glchess/src/glchess.vala:491
 #, c-format
 msgid "White bishop at %1$s takes the black bishop at %2$s"
 msgstr "흰색 비숍이 (위치 %1$s) 검은색 비숍을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:490
+#: ../glchess/src/glchess.vala:493
 #, c-format
 msgid "White bishop at %1$s takes the black queen at %2$s"
 msgstr "흰색 비숍이 (위치 %1$s) 검은색 퀸을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white queen moving from %1$s to %2$s, e.g. 'd1 to d4'
-#: ../glchess/src/glchess.vala:492
+#: ../glchess/src/glchess.vala:495
 #, c-format
 msgid "White queen moves from %1$s to %2$s"
 msgstr "흰색 퀸이 %1$s에서 %2$s 위치로 이동"
 
 #. Human Move String: Description of a white queen at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:494
+#: ../glchess/src/glchess.vala:497
 #, c-format
 msgid "White queen at %1$s takes the black pawn at %2$s"
 msgstr "흰색 퀸이 (위치 %1$s) 검은색 폰을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white queen at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:496
+#: ../glchess/src/glchess.vala:499
 #, c-format
 msgid "White queen at %1$s takes the black rook at %2$s"
 msgstr "흰색 퀸이 (위치 %1$s) 검은색 루크를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white queen at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:498
+#: ../glchess/src/glchess.vala:501
 #, c-format
 msgid "White queen at %1$s takes the black knight at %2$s"
 msgstr "흰색 퀸이 (위치 %1$s) 검은색 나이트를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white queen at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:500
+#: ../glchess/src/glchess.vala:503
 #, c-format
 msgid "White queen at %1$s takes the black bishop at %2$s"
 msgstr "흰색 퀸이 (위치 %1$s) 검은색 비숍을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white queen at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:502
+#: ../glchess/src/glchess.vala:505
 #, c-format
 msgid "White queen at %1$s takes the black queen at %2$s"
 msgstr "흰색 퀸이 (위치 %1$s) 검은색 퀸을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white king moving from %1$s to %2$s, e.g. 'e1 to f1'
-#: ../glchess/src/glchess.vala:504
+#: ../glchess/src/glchess.vala:507
 #, c-format
 msgid "White king moves from %1$s to %2$s"
 msgstr "흰색 킹이 %1$s에서 %2$s 위치로 이동"
 
 #. Human Move String: Description of a white king at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:506
+#: ../glchess/src/glchess.vala:509
 #, c-format
 msgid "White king at %1$s takes the black pawn at %2$s"
 msgstr "흰색 킹이 (위치 %1$s) 검은색 폰을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white king at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:508
+#: ../glchess/src/glchess.vala:511
 #, c-format
 msgid "White king at %1$s takes the black rook at %2$s"
 msgstr "흰색 킹이 (위치 %1$s) 검은색 루크를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white king at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:510
+#: ../glchess/src/glchess.vala:513
 #, c-format
 msgid "White king at %1$s takes the black knight at %2$s"
 msgstr "흰색 킹이 (위치 %1$s) 검은색 나이트를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white king at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:512
+#: ../glchess/src/glchess.vala:515
 #, c-format
 msgid "White king at %1$s takes the black bishop at %2$s"
 msgstr "흰색 킹이 (위치 %1$s) 검은색 비숍을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a white king at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:514
+#: ../glchess/src/glchess.vala:517
 #, c-format
 msgid "White king at %1$s takes the black queen at %2$s"
 msgstr "흰색 킹이 (위치 %1$s) 검은색 퀸을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black pawn moving from %1$s to %2$s, e.g. 'c8 to c6'
-#: ../glchess/src/glchess.vala:516
+#: ../glchess/src/glchess.vala:519
 #, c-format
 msgid "Black pawn moves from %1$s to %2$s"
 msgstr "검은색 폰이 %1$s에서 %2$s 위치로 이동"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:518
+#: ../glchess/src/glchess.vala:521
 #, c-format
 msgid "Black pawn at %1$s takes the white pawn at %2$s"
 msgstr "검은색 폰이 (위치 %1$s) 흰색 폰을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:520
+#: ../glchess/src/glchess.vala:523
 #, c-format
 msgid "Black pawn at %1$s takes the white rook at %2$s"
 msgstr "검은색 폰이 (위치 %1$s) 흰색 루크를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:522
+#: ../glchess/src/glchess.vala:525
 #, c-format
 msgid "Black pawn at %1$s takes the white knight at %2$s"
 msgstr "검은색 폰이 (위치 %1$s) 흰색 나이트를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:524
+#: ../glchess/src/glchess.vala:527
 #, c-format
 msgid "Black pawn at %1$s takes the white bishop at %2$s"
 msgstr "검은색 폰이 (위치 %1$s) 흰색 비숍을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:526
+#: ../glchess/src/glchess.vala:529
 #, c-format
 msgid "Black pawn at %1$s takes the white queen at %2$s"
 msgstr "검은색 폰이 (위치 %1$s) 흰색 퀸을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black rook moving from %1$s to %2$s, e.g. 'a8 to a4'
-#: ../glchess/src/glchess.vala:528
+#: ../glchess/src/glchess.vala:531
 #, c-format
 msgid "Black rook moves from %1$s to %2$s"
 msgstr "검은색 루크가 %1$s에서 %2$s 위치로 이동"
 
 #. Human Move String: Description of a black rook at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:530
+#: ../glchess/src/glchess.vala:533
 #, c-format
 msgid "Black rook at %1$s takes the white pawn at %2$s"
 msgstr "검은색 루크가 (위치 %1$s) 흰색 폰을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black rook at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:532
+#: ../glchess/src/glchess.vala:535
 #, c-format
 msgid "Black rook at %1$s takes the white rook at %2$s"
 msgstr "검은색 루크가 (위치 %1$s) 흰색 루크를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black rook at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:534
+#: ../glchess/src/glchess.vala:537
 #, c-format
 msgid "Black rook at %1$s takes the white knight at %2$s"
 msgstr "검은색 루크가 (위치 %1$s) 흰색 나이트를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black rook at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:536
+#: ../glchess/src/glchess.vala:539
 #, c-format
 msgid "Black rook at %1$s takes the white bishop at %2$s"
 msgstr "검은색 루크가 (위치 %1$s) 흰색 비숍을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black rook at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:538
+#: ../glchess/src/glchess.vala:541
 #, c-format
 msgid "Black rook at %1$s takes the white queen at %2$s"
 msgstr "검은색 루크가 (위치 %1$s) 흰색 퀸을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black knight moving from %1$s to %2$s, e.g. 'b8 to c6'
-#: ../glchess/src/glchess.vala:540
+#: ../glchess/src/glchess.vala:543
 #, c-format
 msgid "Black knight moves from %1$s to %2$s"
 msgstr "검은색 나이트가 %1$s에서 %2$s 위치로 이동"
 
 #. Human Move String: Description of a black knight at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:542
+#: ../glchess/src/glchess.vala:545
 #, c-format
 msgid "Black knight at %1$s takes the white pawn at %2$s"
 msgstr "검은색 나이트가 (위치 %1$s) 흰색 폰을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black knight at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:544
+#: ../glchess/src/glchess.vala:547
 #, c-format
 msgid "Black knight at %1$s takes the white rook at %2$s"
 msgstr "검은색 나이트가 (위치 %1$s) 흰색 루크를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black knight at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:546
+#: ../glchess/src/glchess.vala:549
 #, c-format
 msgid "Black knight at %1$s takes the white knight at %2$s"
 msgstr "검은색 나이트가 (위치 %1$s) 흰색 나이트를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black knight at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:548
+#: ../glchess/src/glchess.vala:551
 #, c-format
 msgid "Black knight at %1$s takes the white bishop at %2$s"
 msgstr "검은색 나이트가 (위치 %1$s) 흰색 비숍을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black knight at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:550
+#: ../glchess/src/glchess.vala:553
 #, c-format
 msgid "Black knight at %1$s takes the white queen at %2$s"
 msgstr "검은색 나이트가 (위치 %1$s) 흰색 퀸을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black bishop moving from %1$s to %2$s, e.g. 'f8 to b3'
-#: ../glchess/src/glchess.vala:552
+#: ../glchess/src/glchess.vala:555
 #, c-format
 msgid "Black bishop moves from %1$s to %2$s"
 msgstr "검은색 비숍이 %1$s에서 %2$s 위치로 이동"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:554
+#: ../glchess/src/glchess.vala:557
 #, c-format
 msgid "Black bishop at %1$s takes the white pawn at %2$s"
 msgstr "검은색 비숍이 (위치 %1$s) 흰색 폰을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:556
+#: ../glchess/src/glchess.vala:559
 #, c-format
 msgid "Black bishop at %1$s takes the white rook at %2$s"
 msgstr "검은색 비숍이 (위치 %1$s) 흰색 루크를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:558
+#: ../glchess/src/glchess.vala:561
 #, c-format
 msgid "Black bishop at %1$s takes the white knight at %2$s"
 msgstr "검은색 비숍이 (위치 %1$s) 흰색 나이트를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:560
+#: ../glchess/src/glchess.vala:563
 #, c-format
 msgid "Black bishop at %1$s takes the white bishop at %2$s"
 msgstr "검은색 비숍이 (위치 %1$s) 흰색 비숍을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:562
+#: ../glchess/src/glchess.vala:565
 #, c-format
 msgid "Black bishop at %1$s takes the white queen at %2$s"
 msgstr "검은색 비숍이 (위치 %1$s) 흰색 퀸을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black queen moving from %1$s to %2$s, e.g. 'd8 to d5'
-#: ../glchess/src/glchess.vala:564
+#: ../glchess/src/glchess.vala:567
 #, c-format
 msgid "Black queen moves from %1$s to %2$s"
 msgstr "검은색 퀸이 %1$s에서 %2$s 위치로 이동"
 
 #. Human Move String: Description of a black queen at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:566
+#: ../glchess/src/glchess.vala:569
 #, c-format
 msgid "Black queen at %1$s takes the white pawn at %2$s"
 msgstr "검은색 퀸이 (위치 %1$s) 흰색 폰을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black queen at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:568
+#: ../glchess/src/glchess.vala:571
 #, c-format
 msgid "Black queen at %1$s takes the white rook at %2$s"
 msgstr "검은색 퀸이 (위치 %1$s) 흰색 루크를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black queen at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:570
+#: ../glchess/src/glchess.vala:573
 #, c-format
 msgid "Black queen at %1$s takes the white knight at %2$s"
 msgstr "검은색 퀸이 (위치 %1$s) 흰색 나이트를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black queen at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:572
+#: ../glchess/src/glchess.vala:575
 #, c-format
 msgid "Black queen at %1$s takes the white bishop at %2$s"
 msgstr "검은색 퀸이 (위치 %1$s) 흰색 비숍을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black queen at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:574
+#: ../glchess/src/glchess.vala:577
 #, c-format
 msgid "Black queen at %1$s takes the white queen at %2$s"
 msgstr "검은색 퀸이 (위치 %1$s) 흰색 퀸을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black king moving from %1$s to %2$s, e.g. 'e8 to f8'
-#: ../glchess/src/glchess.vala:576
+#: ../glchess/src/glchess.vala:579
 #, c-format
 msgid "Black king moves from %1$s to %2$s"
 msgstr "검은색 킹이 %1$s에서 %2$s 위치로 이동"
 
 #. Human Move String: Description of a black king at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:578
+#: ../glchess/src/glchess.vala:581
 #, c-format
 msgid "Black king at %1$s takes the white pawn at %2$s"
 msgstr "검은색 킹이 (위치 %1$s) 흰색 폰을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black king at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:580
+#: ../glchess/src/glchess.vala:583
 #, c-format
 msgid "Black king at %1$s takes the white rook at %2$s"
 msgstr "검은색 킹이 (위치 %1$s) 흰색 루크를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black king at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:582
+#: ../glchess/src/glchess.vala:585
 #, c-format
 msgid "Black king at %1$s takes the white knight at %2$s"
 msgstr "검은색 킹이 (위치 %1$s) 흰색 나이트를 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black king at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:584
+#: ../glchess/src/glchess.vala:587
 #, c-format
 msgid "Black king at %1$s takes the white bishop at %2$s"
 msgstr "검은색 킹이 (위치 %1$s) 흰색 비숍을 (위치 %2$s) 먹음"
 
 #. Human Move String: Description of a black king at %1$s capturing a queen at %2$s"
-#: ../glchess/src/glchess.vala:586
+#: ../glchess/src/glchess.vala:589
 #, c-format
 msgid "Black king at %1$s takes the white queen at %2$s"
 msgstr "검은색 킹이 (위치 %1$s) 흰색 퀸을 (위치 %2$s) 먹음"
 
 #. Message display when the white player wins
-#: ../glchess/src/glchess.vala:704
+#: ../glchess/src/glchess.vala:709
 msgid "White wins"
 msgstr "흰색 승리"
 
 #. Message display when the black player wins
-#: ../glchess/src/glchess.vala:709
+#: ../glchess/src/glchess.vala:714
 msgid "Black wins"
 msgstr "검정 승리"
 
 #. Message display when the game is drawn
-#: ../glchess/src/glchess.vala:714
+#: ../glchess/src/glchess.vala:719
 msgid "Game is drawn"
 msgstr "게임이 무승부입니다"
 
-#: ../glchess/src/glchess.vala:815
+#. Message displayed when the game ends due to a player being checkmated
+#: ../glchess/src/glchess.vala:731
+msgid "Opponent is in check and cannot move (checkmate)"
+msgstr "상대편이 체크 상태이고 움직일 수 없습니다 (체크메이트)"
+
+# 체스 용어
+#. Message displayed when the game terminates due to a stalemate
+#: ../glchess/src/glchess.vala:735
+msgid "Opponent cannot move (stalemate)"
+msgstr "상대편이 움직일 수 없습니다 (스테일메이트)"
+
+#. Message displayed when the game is drawn due to the fifty move rule
+#: ../glchess/src/glchess.vala:739
+msgid "No piece has been taken or pawn moved in the last fifty moves"
+msgstr "잡은 말이 없거나 폰이 마지막 15번째 칸까지 이동했습니다"
+
+#. Message displayed when the game ends due to one player's clock stopping
+#: ../glchess/src/glchess.vala:743
+msgid "Opponent has run out of time"
+msgstr "상대편이 제한 시간이 지났습니다"
+
+#. Message displayed when the game is drawn due to the three-fold-repitition rule
+#: ../glchess/src/glchess.vala:747
+msgid "The same board state has occurred three times (three fold repetition)"
+msgstr "같은 보드 상태가 세 번 발생했습니다  (3수 반복 규칙)"
+
+#. Message displayed when the game is drawn due to the insufficient material rule
+#: ../glchess/src/glchess.vala:751
+msgid "Neither player can cause checkmate (insufficient material)"
+msgstr "어느쪽의 플레이어도 체크메이트를 할 수 없습니다 (경우의 수 부족)"
+
+#. Message displayed when the game ends due to the black player resigning
+#: ../glchess/src/glchess.vala:757
+msgid "The black player has resigned"
+msgstr "검은 플레이어가 항복했습니다"
+
+#. Message displayed when the game ends due to the white player resigning
+#: ../glchess/src/glchess.vala:762
+msgid "The white player has resigned"
+msgstr "흰색 플레이어가 항복했습니다"
+
+#. Message displayed when a game is abandoned
+#: ../glchess/src/glchess.vala:767
+msgid "The game has been abandoned"
+msgstr "게임을 버립니다"
+
+#. Message displayed when the game ends due to a player dying
+#: ../glchess/src/glchess.vala:772
+msgid "One of the players has died"
+msgstr "플레이어가 죽었습니다"
+
+#: ../glchess/src/glchess.vala:820
 msgid "Save this game before starting a new one?"
 msgstr "새로 시작하기 전에 이 게임을 저장하시겠습니까?"
 
+#: ../glchess/src/glchess.vala:822 ../gnome-sudoku/src/lib/main.py:442
+msgid "_Abandon game"
+msgstr "게임 버리기(_A)"
+
+#: ../glchess/src/glchess.vala:823 ../gnome-sudoku/src/lib/main.py:441
+msgid "_Save game for later"
+msgstr "다음을 위해 게임 저장(_S)"
+
 #. Preferences Dialog: Combo box entry for a custom game timer set in seconds
-#: ../glchess/src/glchess.vala:1209
+#: ../glchess/src/glchess.vala:1214
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "초"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in minutes
-#: ../glchess/src/glchess.vala:1213
+#: ../glchess/src/glchess.vala:1218
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "분"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in hours
-#: ../glchess/src/glchess.vala:1217
+#: ../glchess/src/glchess.vala:1222
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "시간"
+
+#: ../glchess/src/glchess.vala:1343
+msgid ""
+"The 2D/3D chess game for GNOME. \n"
+"\n"
+"glChess is a part of GNOME Games."
+msgstr ""
+"그놈 2D/3D 체스.\n"
+"\n"
+"GL체스는 그놈 게임의 일부입니다."
+
+#. Title of save game dialog
+#: ../glchess/src/glchess.vala:1402
+msgid "Save Chess Game"
+msgstr "체스 게임 저장"
+
+#. Save Game Dialog: Name of filter to show only PGN files
+#. Load Game Dialog: Name of filter to show only PGN files
+#: ../glchess/src/glchess.vala:1415 ../glchess/src/glchess.vala:1483
+msgid "PGN files"
+msgstr "PGN 파일"
+
+#. Save Game Dialog: Name of filter to show all files
+#. Load Game Dialog: Name of filter to show all files
+#: ../glchess/src/glchess.vala:1422 ../glchess/src/glchess.vala:1490
+msgid "All files"
+msgstr "모든 파일"
+
+#: ../glchess/src/glchess.vala:1446
+#, c-format
+msgid "Failed to save game: %s"
+msgstr "게임 저장에 실패했습니다: %s"
+
+#. Title of load game dialog
+#: ../glchess/src/glchess.vala:1470
+msgid "Load Chess Game"
+msgstr "체스 게임 읽어들이기"
+
+#: ../glchess/src/glchess.vala:1512
+#, c-format
+msgid "Failed to open game: %s"
+msgstr "게임 열기에 실패했습니다: %s"
 
 #: ../glines/glines.c:90 ../gnomine/gnomine.c:101
 msgctxt "board size"
@@ -3865,13 +3974,13 @@ msgstr "플레이어 2의 수준"
 
 #: ../gnect/data/gnect.schemas.in.h:9 ../gnect/src/prefs.c:371
 #: ../gnibbles/gnibbles.schemas.in.h:16 ../gnibbles/preferences.c:444
-#: ../quadrapassel/quadrapassel.schemas.in.h:13 ../quadrapassel/tetris.cpp:738
+#: ../quadrapassel/quadrapassel.schemas.in.h:13 ../quadrapassel/tetris.cpp:751
 msgid "Move left"
 msgstr "왼쪽으로 이동"
 
 #: ../gnect/data/gnect.schemas.in.h:10 ../gnect/src/prefs.c:372
 #: ../gnibbles/gnibbles.schemas.in.h:17 ../gnibbles/preferences.c:445
-#: ../quadrapassel/quadrapassel.schemas.in.h:14 ../quadrapassel/tetris.cpp:739
+#: ../quadrapassel/quadrapassel.schemas.in.h:14 ../quadrapassel/tetris.cpp:752
 msgid "Move right"
 msgstr "오른쪽으로 이동"
 
@@ -4018,7 +4127,7 @@ msgstr "사운드 사용(_N)"
 
 #. keyboard tab
 #: ../gnect/src/prefs.c:367 ../gnibbles/preferences.c:434
-#: ../gnobots2/properties.c:542 ../quadrapassel/tetris.cpp:730
+#: ../gnobots2/properties.c:542 ../quadrapassel/tetris.cpp:743
 msgid "Keyboard Controls"
 msgstr "키보드 조작"
 
@@ -4148,7 +4257,7 @@ msgstr "벌레를 조종해 미로를 통과합니다"
 
 #: ../gnibbles/gnibbles.desktop.in.in.h:2 ../gnibbles/main.c:196
 #: ../gnibbles/main.c:199 ../gnibbles/main.c:798 ../gnibbles/main.c:877
-#: ../gnibbles/main.c:1021
+#: ../gnibbles/main.c:1007
 msgid "Nibbles"
 msgstr "니블즈"
 
@@ -4209,7 +4318,7 @@ msgid "Key to use for motion up."
 msgstr "위로 이동할 때 사용할 키."
 
 #: ../gnibbles/gnibbles.schemas.in.h:15 ../gnibbles/preferences.c:447
-#: ../quadrapassel/quadrapassel.schemas.in.h:12 ../quadrapassel/tetris.cpp:740
+#: ../quadrapassel/quadrapassel.schemas.in.h:12 ../quadrapassel/tetris.cpp:753
 msgid "Move down"
 msgstr "아래로 옮기기"
 
@@ -4360,7 +4469,7 @@ msgid "_Enable fake bonuses"
 msgstr "가짜 보너스 사용(_E)"
 
 #. starting level
-#: ../gnibbles/preferences.c:351 ../quadrapassel/tetris.cpp:637
+#: ../gnibbles/preferences.c:351 ../quadrapassel/tetris.cpp:643
 msgid "_Starting level:"
 msgstr "시작 단계(_S):"
 
@@ -4416,7 +4525,7 @@ msgstr "잘 했지만 아쉽게도 점수가 10위 안에 들지 못했습니다
 #. Translators: This "_New Game" is for the game-over dialogue
 #: ../gnobots2/game.c:154 ../gnome-sudoku/data/select_game.ui.h:1
 #: ../gnomine/gnomine.c:202 ../gnotski/gnotski.c:774
-#: ../libgames-support/games-stock.c:300
+#: ../libgames-support/games-stock.c:302
 msgid "_New Game"
 msgstr "새 게임(_N)"
 
@@ -4856,7 +4965,7 @@ msgstr "수퍼 안전한 움직임 사용(_S)"
 msgid "Prevents all moves that result in getting killed."
 msgstr "죽게 되는 움직임을 무엇이든 하지 못하도록 막습니다."
 
-#: ../gnobots2/properties.c:488 ../quadrapassel/tetris.cpp:663
+#: ../gnobots2/properties.c:488 ../quadrapassel/tetris.cpp:669
 msgid "_Enable sounds"
 msgstr "사운드 사용(_E)"
 
@@ -4902,12 +5011,12 @@ msgid "Fit falling blocks together"
 msgstr "떨어지는 블록을 맞춥니다"
 
 #: ../quadrapassel/quadrapassel.desktop.in.in.h:2 ../quadrapassel/main.cpp:66
-#: ../quadrapassel/tetris.cpp:158 ../quadrapassel/tetris.cpp:1292
-#: ../quadrapassel/tetris.cpp:1295
+#: ../quadrapassel/tetris.cpp:158 ../quadrapassel/tetris.cpp:1305
+#: ../quadrapassel/tetris.cpp:1308
 msgid "Quadrapassel"
 msgstr "쿼드러패셀"
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:1 ../quadrapassel/tetris.cpp:741
+#: ../quadrapassel/quadrapassel.schemas.in.h:1 ../quadrapassel/tetris.cpp:754
 msgid "Drop"
 msgstr "떨어뜨리기"
 
@@ -4943,11 +5052,11 @@ msgstr "시작할 단계"
 msgid "Level to start with."
 msgstr "시작할 단계."
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:15 ../quadrapassel/tetris.cpp:743
+#: ../quadrapassel/quadrapassel.schemas.in.h:15 ../quadrapassel/tetris.cpp:756
 msgid "Pause"
 msgstr "일시 중지"
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:16 ../quadrapassel/tetris.cpp:742
+#: ../quadrapassel/quadrapassel.schemas.in.h:16 ../quadrapassel/tetris.cpp:755
 msgid "Rotate"
 msgstr "돌리기"
 
@@ -5060,61 +5169,61 @@ msgstr "지우기"
 msgid "Lines:"
 msgstr "줄 개수:"
 
-#: ../quadrapassel/tetris.cpp:570
+#: ../quadrapassel/tetris.cpp:576
 msgid "Quadrapassel Preferences"
 msgstr "쿼드러패셀 기본 설정"
 
-#: ../quadrapassel/tetris.cpp:593 ../swell-foop/data/settings.ui.h:5
+#: ../quadrapassel/tetris.cpp:599 ../swell-foop/data/settings.ui.h:5
 msgid "Setup"
 msgstr "설정"
 
 #. pre-filled rows
-#: ../quadrapassel/tetris.cpp:599
+#: ../quadrapassel/tetris.cpp:605
 msgid "_Number of pre-filled rows:"
 msgstr "미리 채워진 열의 갯수(_N):"
 
 #. pre-filled rows density
-#: ../quadrapassel/tetris.cpp:618
+#: ../quadrapassel/tetris.cpp:624
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "미리 채워진 열에서 블록의 밀도(_D):"
 
-#: ../quadrapassel/tetris.cpp:658 ../swell-foop/data/settings.ui.h:4
+#: ../quadrapassel/tetris.cpp:664 ../swell-foop/data/settings.ui.h:4
 msgid "Operation"
 msgstr "동작"
 
-#: ../quadrapassel/tetris.cpp:672
+#: ../quadrapassel/tetris.cpp:678
 msgid "_Preview next block"
 msgstr "다음 블록 미리 보기(_P)"
 
-#: ../quadrapassel/tetris.cpp:681
+#: ../quadrapassel/tetris.cpp:687
 msgid "_Use random block colors"
 msgstr "임의의 블록 색상(_U)"
 
-#: ../quadrapassel/tetris.cpp:692
+#: ../quadrapassel/tetris.cpp:698
 msgid "Choose difficult _blocks"
 msgstr "어려운 블럭 선택(_B)"
 
-#: ../quadrapassel/tetris.cpp:701
+#: ../quadrapassel/tetris.cpp:714
 msgid "_Rotate blocks counterclockwise"
 msgstr "시계반대 방향으로 회전(_R)"
 
-#: ../quadrapassel/tetris.cpp:710
+#: ../quadrapassel/tetris.cpp:723
 msgid "Show _where the block will land"
 msgstr "블록이 어디로 떨어질 지 보이기(_W)"
 
-#: ../quadrapassel/tetris.cpp:718 ../quadrapassel/tetris.cpp:751
+#: ../quadrapassel/tetris.cpp:731 ../quadrapassel/tetris.cpp:764
 msgid "Theme"
 msgstr "테마"
 
-#: ../quadrapassel/tetris.cpp:727
+#: ../quadrapassel/tetris.cpp:740
 msgid "Controls"
 msgstr "조작"
 
-#: ../quadrapassel/tetris.cpp:754
+#: ../quadrapassel/tetris.cpp:767
 msgid "Block Style"
 msgstr "블록 모양새"
 
-#: ../quadrapassel/tetris.cpp:1297
+#: ../quadrapassel/tetris.cpp:1310
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -5298,7 +5407,7 @@ msgstr ""
 "version."
 
 #: ../gnome-sudoku/src/lib/defaults.py.in:55
-#: ../libgames-support/games-stock.c:391
+#: ../libgames-support/games-stock.c:393
 #, c-format, python-format
 msgid ""
 "%s is distributed in the hope that it will be useful, but WITHOUT ANY "
@@ -5312,7 +5421,7 @@ msgstr ""
 "details."
 
 #: ../gnome-sudoku/src/lib/defaults.py.in:59
-#: ../libgames-support/games-stock.c:396
+#: ../libgames-support/games-stock.c:398
 #, c-format, python-format
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
@@ -5378,7 +5487,7 @@ msgid "New game"
 msgstr "새 게임"
 
 #. Translators: this is the "Reset" scores button in a scores dialogue
-#: ../gnome-sudoku/src/lib/main.py:233 ../libgames-support/games-stock.c:303
+#: ../gnome-sudoku/src/lib/main.py:233 ../libgames-support/games-stock.c:305
 msgid "_Reset"
 msgstr "리셋(_R)"
 
@@ -5414,7 +5523,7 @@ msgstr "스도쿠 여러개 인쇄(_M)..."
 msgid "_Tools"
 msgstr "도구(_T)"
 
-#: ../gnome-sudoku/src/lib/main.py:248 ../libgames-support/games-stock.c:296
+#: ../gnome-sudoku/src/lib/main.py:248 ../libgames-support/games-stock.c:298
 msgid "_Hint"
 msgstr "힌트(_H)"
 
@@ -5511,14 +5620,6 @@ msgstr[0] "불가능 힌트 %(n)s번 사용."
 #: ../gnome-sudoku/src/lib/main.py:440
 msgid "Save this game before starting new one?"
 msgstr "새로 시작하기 전에 이 게임을 저장하시겠습니까?"
-
-#: ../gnome-sudoku/src/lib/main.py:441
-msgid "_Save game for later"
-msgstr "다음을 위해 게임 저장(_S)"
-
-#: ../gnome-sudoku/src/lib/main.py:442
-msgid "_Abandon game"
-msgstr "게임 버리기(_A)"
 
 #: ../gnome-sudoku/src/lib/main.py:460
 msgid "Save game before closing?"
@@ -6975,80 +7076,80 @@ msgstr "게임을 설정합니다"
 msgid "Quit this game"
 msgstr "이 게임을 끝냅니다"
 
-#: ../libgames-support/games-stock.c:295
+#: ../libgames-support/games-stock.c:297
 msgid "_Fullscreen"
 msgstr "전체 화면(_F)"
 
 #. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
-#: ../libgames-support/games-stock.c:298
+#: ../libgames-support/games-stock.c:300
 msgid "_New"
 msgstr "새 게임(_N)"
 
-#: ../libgames-support/games-stock.c:301
+#: ../libgames-support/games-stock.c:303
 msgid "_Redo Move"
 msgstr "다시 이동(_R)"
 
 #. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
-#: ../libgames-support/games-stock.c:305
+#: ../libgames-support/games-stock.c:307
 msgid "_Restart"
 msgstr "게임 다시(_R)"
 
-#: ../libgames-support/games-stock.c:307
+#: ../libgames-support/games-stock.c:309
 msgid "_Deal"
 msgstr "패 돌리기(_D)"
 
-#: ../libgames-support/games-stock.c:309
+#: ../libgames-support/games-stock.c:311
 msgid "_Leave Fullscreen"
 msgstr "전체 화면 나가기(_L)"
 
-#: ../libgames-support/games-stock.c:310
+#: ../libgames-support/games-stock.c:312
 msgid "Network _Game"
 msgstr "네트워크 게임(_G)"
 
-#: ../libgames-support/games-stock.c:311
+#: ../libgames-support/games-stock.c:313
 msgid "L_eave Game"
 msgstr "게임 떠나기(_E)"
 
-#: ../libgames-support/games-stock.c:312
+#: ../libgames-support/games-stock.c:314
 msgid "Player _List"
 msgstr "플레이어 목록(_L)"
 
-#: ../libgames-support/games-stock.c:313
+#: ../libgames-support/games-stock.c:315
 msgid "_Pause"
 msgstr "일시 중지(_P)"
 
-#: ../libgames-support/games-stock.c:314
+#: ../libgames-support/games-stock.c:316
 msgid "Res_ume"
 msgstr "다시 시작(_U)"
 
-#: ../libgames-support/games-stock.c:315
+#: ../libgames-support/games-stock.c:317
 msgid "_Scores"
 msgstr "점수(_S)"
 
-#: ../libgames-support/games-stock.c:316
+#: ../libgames-support/games-stock.c:318
 msgid "_End Game"
 msgstr "게임 끝내기(_E)"
 
 #. Work around maemo brokenness wrt. stock item translations.
 #. * See https://bugs.maemo.org/show_bug.cgi?id=1449 .
-#: ../libgames-support/games-stock.c:322
+#: ../libgames-support/games-stock.c:324
 msgid "_About"
 msgstr "정보(_A)"
 
-#: ../libgames-support/games-stock.c:323
+#: ../libgames-support/games-stock.c:325
 msgid "_Cancel"
 msgstr "취소(_C)"
 
-#: ../libgames-support/games-stock.c:324
+#: ../libgames-support/games-stock.c:326
 msgid "_Close"
 msgstr "닫기(_C)"
 
-#: ../libgames-support/games-stock.c:325
+#: ../libgames-support/games-stock.c:327
 msgid "_OK"
 msgstr "확인(_O)"
 
 #. %s is replaced with the name of the game in gnome-games.
-#: ../libgames-support/games-stock.c:386
+#: ../libgames-support/games-stock.c:388
 #, c-format
 msgid ""
 "%s is free software; you can redistribute it and/or modify it under the "
@@ -7061,7 +7162,7 @@ msgstr ""
 "Foundation; either version %d of the License, or (at your option) any later "
 "version."
 
-#: ../libgames-support/games-stock.c:400
+#: ../libgames-support/games-stock.c:402
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -7394,6 +7495,12 @@ msgstr "보통"
 msgid "Large"
 msgstr "크게"
 
+#~ msgid "_Animations"
+#~ msgstr "애니메이션(_A)"
+
+#~ msgid "Whether or not to animate card moves"
+#~ msgstr "카드 움직임에 애니메이션을 사용할 지 여부"
+
 #~ msgid "%s: option `%s' is ambiguous\n"
 #~ msgstr "%s: `%s' 옵션은 불명확합니다\n"
 
@@ -7488,9 +7595,6 @@ msgstr "크게"
 #~ msgid "There are no active logs."
 #~ msgstr "볼 수 있는 기록이 없습니다."
 
-#~ msgid "Load Chess Game"
-#~ msgstr "체스 게임 읽어들이기"
-
 #~ msgid "Communication:"
 #~ msgstr "통신:"
 
@@ -7570,9 +7674,6 @@ msgstr "크게"
 #~ "기본값으로 체스판을 2차원으로 봅니다. 아니면 OpenGL을 사용해 3차원 모드로 "
 #~ "볼 수도 있습니다."
 
-#~ msgid "Save Chess Game"
-#~ msgstr "체스 게임 저장"
-
 #~ msgid "Chess incorrectly installed"
 #~ msgstr "체스를 잘못 설치했습니다"
 
@@ -7599,17 +7700,8 @@ msgstr "크게"
 #~ msgid "%(white)s versus %(black)s"
 #~ msgstr "%(white)s 대 %(black)s"
 
-#~ msgid "PGN files"
-#~ msgstr "PGN 파일"
-
-#~ msgid "All files"
-#~ msgstr "모든 파일"
-
 #~ msgid "Please select a file to load"
 #~ msgstr "읽어들일 파일을 선택하십시오"
-
-#~ msgid "Unabled to load game"
-#~ msgstr "게임을 읽어들일 수 없습니다"
 
 #~ msgid "Please enter a file name"
 #~ msgstr "파일 이름을 입력하십시오"
@@ -7710,38 +7802,6 @@ msgstr "크게"
 
 #~ msgid "%s wins"
 #~ msgstr "%s 승리"
-
-#~ msgid "Opponent is in check and cannot move (checkmate)"
-#~ msgstr "상대편이 체크 상태이고 움직일 수 없습니다 (체크메이트)"
-
-# 체스 용어
-#~ msgid "Opponent cannot move (stalemate)"
-#~ msgstr "상대편이 움직일 수 없습니다 (스테일메이트)"
-
-#~ msgid "No piece has been taken or pawn moved in the last fifty moves"
-#~ msgstr "잡은 말이 없거나 폰이 마지막 15번째 칸까지 이동했습니다"
-
-#~ msgid "Opponent has run out of time"
-#~ msgstr "상대편이 제한 시간이 지났습니다"
-
-#~ msgid ""
-#~ "The same board state has occurred three times (three fold repetition)"
-#~ msgstr "같은 보드 상태가 세 번 발생했습니다  (3수 반복 규칙)"
-
-#~ msgid "Neither player can cause checkmate (insufficient material)"
-#~ msgstr "어느쪽의 플레이어도 체크메이트를 할 수 없습니다 (경우의 수 부족)"
-
-#~ msgid "The black player has resigned"
-#~ msgstr "검은 플레이어가 항복했습니다"
-
-#~ msgid "The white player has resigned"
-#~ msgstr "흰색 플레이어가 항복했습니다"
-
-#~ msgid "The game has been abandoned"
-#~ msgstr "게임을 버립니다"
-
-#~ msgid "One of the players has died"
-#~ msgstr "플레이어가 죽었습니다"
 
 #~ msgid "GGZ Gaming Zone"
 #~ msgstr "GGZ 게임존"
@@ -7889,15 +7949,6 @@ msgstr "크게"
 
 #~ msgid "glChess"
 #~ msgstr "GL체스"
-
-#~ msgid ""
-#~ "The 2D/3D chess game for GNOME. \n"
-#~ "\n"
-#~ "glChess is a part of GNOME Games."
-#~ msgstr ""
-#~ "그놈 2D/3D 체스.\n"
-#~ "\n"
-#~ "GL체스는 그놈 게임의 일부입니다."
 
 #~ msgid "Incorrect password"
 #~ msgstr "암호가 올바르지 않습니다"
