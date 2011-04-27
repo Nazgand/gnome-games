@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: gnome-games.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "games&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-04-11 06:12+0000\n"
-"PO-Revision-Date: 2011-04-11 10:30+0200\n"
+"POT-Creation-Date: 2011-04-23 04:22+0000\n"
+"PO-Revision-Date: 2011-04-27 12:20+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,3042 +21,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
-
-#: ../aisleriot/aisleriot.schemas.in.h:1
-msgid "A list of recently played games."
-msgstr "Una lista de juegos recientemente jugados."
-
-#: ../aisleriot/aisleriot.schemas.in.h:2
-msgid ""
-"A list of strings that come in the form of a quintuple: name, wins, total "
-"games played, best time (in seconds) and worst time (also in seconds). "
-"Unplayed games do not need to be represented."
-msgstr ""
-"Una lista de cadenas en forma de quinteto: nombre, victorias, total de "
-"partidas jugadas, mejor tiempo (en segundos) y peor tiempo (también en "
-"segundos). Los juegos sin partidas no se tienen que representar."
-
-#: ../aisleriot/aisleriot.schemas.in.h:3
-msgid "Animations"
-msgstr "Animaciones"
-
-#: ../aisleriot/aisleriot.schemas.in.h:4
-msgid "Recently played games"
-msgstr "Juegos recientemente jugados"
-
-#: ../aisleriot/aisleriot.schemas.in.h:5 ../gnotravex/gnotravex.schemas.in.h:1
-msgid "Select the style of control"
-msgstr "Seleccione el estilo del control"
-
-#: ../aisleriot/aisleriot.schemas.in.h:6
-msgid ""
-"Select whether to drag the cards or to click on the source then the "
-"destination."
-msgstr ""
-"Seleccione entre arrastrar las cartas o pulsar en el origen y después en el "
-"destino."
-
-#: ../aisleriot/aisleriot.schemas.in.h:7 ../gnect/data/gnect.schemas.in.h:11
-#: ../gnobots2/properties.c:483 ../iagno/iagno.schemas.in.h:1
-msgid "Sound"
-msgstr "Sonido"
-
-#: ../aisleriot/aisleriot.schemas.in.h:8
-msgid "Statistics of games played"
-msgstr "Estadísticas de los juegos jugados"
-
-#: ../aisleriot/aisleriot.schemas.in.h:9
-msgid "The game file to use"
-msgstr "Nombre del archivo del juego"
-
-#: ../aisleriot/aisleriot.schemas.in.h:10
-msgid "The name of the file with the graphics for the cards."
-msgstr "El nombre del archivo con las imágenes para las cartas."
-
-#: ../aisleriot/aisleriot.schemas.in.h:11
-msgid "The name of the scheme file containing the solitaire game to play."
-msgstr ""
-"El nombre del archivo de esquema que contiene el juego de solitario que se "
-"jugará."
-
-#: ../aisleriot/aisleriot.schemas.in.h:12
-msgid "Theme file name"
-msgstr "Nombre del archivo del tema"
-
-#: ../aisleriot/aisleriot.schemas.in.h:13
-msgid "Whether or not to animate card moves."
-msgstr "Indica si se debe usar animación para los movimientos de las cartas."
-
-#: ../aisleriot/aisleriot.schemas.in.h:14 ../gnect/data/gnect.schemas.in.h:13
-#: ../iagno/iagno.schemas.in.h:2
-msgid "Whether or not to play event sounds."
-msgstr "Reproducir sonidos de evento."
-
-#: ../aisleriot/aisleriot.schemas.in.h:15
-msgid "Whether or not to show the status bar"
-msgstr "Indica si se debe mostrar la barra de estado"
-
-#: ../aisleriot/aisleriot.schemas.in.h:16
-msgid "Whether or not to show the toolbar"
-msgstr "Mostrar u ocultar la barra de herramientas"
-
-#. Now construct the window contents
-#: ../aisleriot/ar-game-chooser.c:238 ../aisleriot/window.c:2578
-msgid "Select Game"
-msgstr "Elegir un juego"
-
-#: ../aisleriot/ar-game-chooser.c:256
-msgid "_Select"
-msgstr "_Seleccionar"
-
-#: ../aisleriot/freecell.desktop.in.in.h:1 ../aisleriot/sol.c:323
-#: ../aisleriot/window.c:451 ../aisleriot/window.c:459
-msgid "FreeCell Solitaire"
-msgstr "Solitario FreeCell"
-
-#: ../aisleriot/freecell.desktop.in.in.h:2
-msgid "Play the popular FreeCell card game"
-msgstr "Juegue al popular juego de cartas FreeCell"
-
-#: ../aisleriot/game.c:1165
-#, c-format
-msgid ""
-"Aisleriot cannot load the file “%s”. Please check your Aisleriot "
-"installation."
-msgstr ""
-"Aisleriot no puede cargar el archivo: «%s». Revise su instalación de "
-"Aisleriot."
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1416
-msgctxt "slot type"
-msgid "foundation"
-msgstr "fundación"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1420
-msgctxt "slot type"
-msgid "reserve"
-msgstr "reserva"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1424
-msgctxt "slot type"
-msgid "stock"
-msgstr "montón"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1428
-msgctxt "slot type"
-msgid "tableau"
-msgstr "tablero"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1432
-msgctxt "slot type"
-msgid "waste"
-msgstr "basura"
-
-#. Translators: %s is the name of the card; "foundation" is the name of a type of card slot
-#: ../aisleriot/game.c:1464
-#, c-format
-msgctxt "slot hint"
-msgid "%s on foundation"
-msgstr "%s en la fundación"
-
-#. Translators: %s is the name of the card; "reserve" is the name of a type of card slot
-#: ../aisleriot/game.c:1468
-#, c-format
-msgctxt "slot hint"
-msgid "%s on reserve"
-msgstr "%s en la reserva"
-
-#. Translators: %s is the name of the card; "stock" is the name of a type of card slot
-#: ../aisleriot/game.c:1472
-#, c-format
-msgctxt "slot hint"
-msgid "%s on stock"
-msgstr "%s en el montón"
-
-#. Translators: %s is the name of the card; "tableau" is the name of a type of card slot
-#: ../aisleriot/game.c:1476
-#, c-format
-msgctxt "slot hint"
-msgid "%s on tableau"
-msgstr "%s en el tablero"
-
-#. Translators: %s is the name of the card; "waste" is the name of a type of card slot
-#: ../aisleriot/game.c:1480
-#, c-format
-msgctxt "slot hint"
-msgid "%s on waste"
-msgstr "%s en la basura"
-
-#: ../aisleriot/game.c:1721
-msgid "Aisleriot cannot find the last game you played."
-msgstr "Aisleriot no puede encontrar el último juego que jugó."
-
-#: ../aisleriot/game.c:1722
-msgid ""
-"This usually occurs when you run an older version of Aisleriot which does "
-"not have the game you last played. The default game, Klondike, is being "
-"started instead."
-msgstr ""
-"Esto normalmente ocurre cuando ejecuta una versión más antigua se Aisleriot "
-"que no dispone del último juego que jugó. Se iniciará el juego "
-"predeterminado, Klondike, en su lugar."
-
-#: ../aisleriot/game.c:2080
-msgid "This game does not have hint support yet."
-msgstr "Este juego todavía no tiene soporte para sugerencias."
-
-#. Both %s are card names
-#. The first %s is a card name, the 2nd %s a sentence fragment.
-#. * Yes, we know this is bad for i18n.
-#.
-#: ../aisleriot/game.c:2114 ../aisleriot/game.c:2142
-#, c-format
-msgid "Move %s onto %s."
-msgstr "Mover %s en %s."
-
-#: ../aisleriot/game.c:2164
-#, c-format
-msgid "You are searching for a %s."
-msgstr "Está buscando un %s."
-
-#: ../aisleriot/game.c:2169
-msgid "This game is unable to provide a hint."
-msgstr "Este juego no puede hacer sugerencias."
-
-#. This is a generated file; DO NOT EDIT
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:7
-msgid "Peek"
-msgstr "Vistazo"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:14
-msgid "Auld Lang Syne"
-msgstr "Auld lang syne"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:21
-msgid "Fortunes"
-msgstr "Fortunas"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:28
-msgid "Seahaven"
-msgstr "Puerto de Mar"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:35
-msgid "King Albert"
-msgstr "Rey Alberto"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:42
-msgid "First Law"
-msgstr "Primera ley"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:49
-msgid "Straight Up"
-msgstr "Secuencia completa"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:56
-msgid "Jumbo"
-msgstr "Jumbo"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:63
-msgid "Accordion"
-msgstr "Escorpión"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:70
-msgid "Ten Across"
-msgstr "Diez a través"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:77
-msgid "Plait"
-msgstr "Trenza"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:84
-msgid "Lady Jane"
-msgstr "Dama Jane"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:91
-msgid "Gypsy"
-msgstr "Gitano"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:98
-msgid "Neighbor"
-msgstr "Vecino"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:105
-msgid "Jamestown"
-msgstr "Jamestown"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:112
-msgid "Osmosis"
-msgstr "Osmosis"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:119
-msgid "Kings Audience"
-msgstr "Audiencia real"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:126
-msgid "Glenwood"
-msgstr "Glenwood"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:133
-msgid "Gay Gordons"
-msgstr "Gay gordons"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:140
-msgid "Monte Carlo"
-msgstr "Monte Carlo"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:147
-msgid "Kansas"
-msgstr "Kansas"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:154
-msgid "Camelot"
-msgstr "Camelot"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:161
-msgid "Fourteen"
-msgstr "Catorce"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:168
-msgid "Scorpion"
-msgstr "Escorpión"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:175
-msgid "Isabel"
-msgstr "Isabel"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:182
-msgid "Escalator"
-msgstr "Escalador"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:189
-msgid "Agnes"
-msgstr "Agnes"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:196
-msgid "Bristol"
-msgstr "Bristol"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:203
-msgid "Quatorze"
-msgstr "Quatorze"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:210
-msgid "Bear River"
-msgstr "Río oso"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:217
-msgid "Gold Mine"
-msgstr "Mina de oro"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:224
-msgid "Athena"
-msgstr "Athena"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:231
-msgid "Spiderette"
-msgstr "Spiderette"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:238
-msgid "Chessboard"
-msgstr "Tablero de ajedrez"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:245
-msgid "Backbone"
-msgstr "Dorsal"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:252
-msgid "Yukon"
-msgstr "Yukon"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:259
-msgid "Union Square"
-msgstr "Union square"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:266
-msgid "Eight Off"
-msgstr "Ocho fuera"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:273
-msgid "Napoleons Tomb"
-msgstr "La tumba de Napoleón"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:280
-msgid "Forty Thieves"
-msgstr "Cuarenta ladrones"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:287
-msgid "Streets And Alleys"
-msgstr "Calles y callejones"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:294
-msgid "Maze"
-msgstr "Malla"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:301
-msgid "Clock"
-msgstr "Reloj"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:308
-msgid "Pileon"
-msgstr "Pileon"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:315
-msgid "Canfield"
-msgstr "Canfield"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:322
-msgid "Thirteen"
-msgstr "Trece"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:329
-msgid "Bakers Game"
-msgstr "Juego de panaderos"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:336
-msgid "Triple Peaks"
-msgstr "Triple Peaks"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:343
-msgid "Easthaven"
-msgstr "Puerto Este"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/game-names.h:350 ../aisleriot/rules/terrace.scm.h:20
-msgid "Terrace"
-msgstr "Tetravex"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:357
-msgid "Aunt Mary"
-msgstr "Tía María"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:364
-msgid "Carpet"
-msgstr "Alfombra"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:371
-msgid "Sir Tommy"
-msgstr "Sir Tommy"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:378
-msgid "Diamond Mine"
-msgstr "Mina de diamantes"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:385
-msgid "Yield"
-msgstr "Yield"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:392
-msgid "Labyrinth"
-msgstr "Laberinto"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:399
-msgid "Thieves"
-msgstr "Ladrones"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:406
-msgid "Saratoga"
-msgstr "Saratoga"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:413
-msgid "Cruel"
-msgstr "Cruel"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:420
-msgid "Block Ten"
-msgstr "Bloque diez"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:427
-msgid "Will O The Wisp"
-msgstr "Will o the wisp"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:434
-msgid "Odessa"
-msgstr "Odessa"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:441
-msgid "Eagle Wing"
-msgstr "Ala de águila"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:448
-msgid "Treize"
-msgstr "Trece"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:455
-msgid "Zebra"
-msgstr "Zebra"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:462
-msgid "Cover"
-msgstr "Cubrir"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:469
-msgid "Elevator"
-msgstr "Elevador"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:476
-msgid "Fortress"
-msgstr "Fortaleza"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:483
-msgid "Giant"
-msgstr "Gigante"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:490
-msgid "Spider"
-msgstr "Araña"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:497
-msgid "Gaps"
-msgstr "Gaps"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:504
-msgid "Bakers Dozen"
-msgstr "Docena de panaderos"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:511
-msgid "Whitehead"
-msgstr "Whitehead"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:518
-msgid "Freecell"
-msgstr "Freecell"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:525
-msgid "Helsinki"
-msgstr "Helsinki"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:532
-msgid "Spider Three Decks"
-msgstr "Araña con tres barajas"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:539
-msgid "Scuffle"
-msgstr "Reyerta"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:546
-msgid "Poker"
-msgstr "Póker"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:553
-msgid "Klondike Three Decks"
-msgstr "Araña con tres barajas"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:560
-msgid "Valentine"
-msgstr "Valentine"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:567
-msgid "Royal East"
-msgstr "Este real"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:574
-msgid "Thumb And Pouch"
-msgstr "Thumb and pouch"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:581
-msgid "Klondike"
-msgstr "Klondike"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:588
-msgid "Doublets"
-msgstr "Dobletes"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:595
-msgid "Template"
-msgstr "Plantilla"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:602
-msgid "Golf"
-msgstr "Golf"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:609
-msgid "Westhaven"
-msgstr "Puerto Oeste"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:616
-msgid "Beleaguered Castle"
-msgstr "Castillo sitiado"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:623
-msgid "Hopscotch"
-msgstr "Rayuela"
-
-#. String reserve
-#: ../aisleriot/sol.c:69
-msgid "Solitaire"
-msgstr "Solitario"
-
-#: ../aisleriot/sol.c:70
-msgid "GNOME Solitaire"
-msgstr "Solitario de GNOME"
-
-#: ../aisleriot/sol.c:71
-msgid "About Solitaire"
-msgstr "Acerca del solitario"
-
-#: ../aisleriot/sol.c:210
-msgid "Select the game type to play"
-msgstr "Seleccione el tipo de juego que desea jugar"
-
-#: ../aisleriot/sol.c:210 ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
-msgid "NAME"
-msgstr "NOMBRE"
-
-#: ../aisleriot/sol.c:212
-msgid "Select the game number"
-msgstr "Seleccione el número del juego"
-
-#: ../aisleriot/sol.c:212 ../gnomine/gnomine.c:928 ../gtali/gyahtzee.c:107
-#: ../gtali/gyahtzee.c:109 ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
-msgid "NUMBER"
-msgstr "NÚMERO"
-
-#: ../aisleriot/sol.c:323 ../aisleriot/window.c:460 ../aisleriot/window.c:2038
-msgid "AisleRiot"
-msgstr "AisleRiot"
-
-#: ../aisleriot/sol.desktop.in.in.h:1
-msgid "AisleRiot Solitaire"
-msgstr "Solitario AisleRiot"
-
-#: ../aisleriot/sol.desktop.in.in.h:2
-msgid "Play many different solitaire games"
-msgstr "Juegue a diferentes solitarios"
-
-#: ../aisleriot/sol.scm.h:1
-msgid "Unknown color"
-msgstr "Color desconocido"
-
-#: ../aisleriot/sol.scm.h:2
-msgid "Unknown suit"
-msgstr "Palo desconocido"
-
-#: ../aisleriot/sol.scm.h:3
-msgid "Unknown value"
-msgstr "Valor desconocido"
-
-#: ../aisleriot/sol.scm.h:4
-msgid "ace"
-msgstr "as"
-
-#. A black joker.
-#: ../aisleriot/sol.scm.h:5 ../aisleriot/lib/ar-card.c:331
-msgid "black joker"
-msgstr "comodín negro"
-
-#: ../aisleriot/sol.scm.h:6
-msgid "clubs"
-msgstr "tréboles"
-
-#: ../aisleriot/sol.scm.h:7
-msgid "diamonds"
-msgstr "diamantes"
-
-#: ../aisleriot/sol.scm.h:8
-msgid "eight"
-msgstr "ocho"
-
-#: ../aisleriot/sol.scm.h:9
-msgid "five"
-msgstr "cinco"
-
-#: ../aisleriot/sol.scm.h:10
-msgid "four"
-msgstr "cuatro"
-
-#: ../aisleriot/sol.scm.h:11
-msgid "hearts"
-msgstr "corazones"
-
-#: ../aisleriot/sol.scm.h:12
-msgid "jack"
-msgstr "jota"
-
-#: ../aisleriot/sol.scm.h:13
-msgid "king"
-msgstr "rey"
-
-#: ../aisleriot/sol.scm.h:14
-msgid "nine"
-msgstr "nueve"
-
-#: ../aisleriot/sol.scm.h:15
-msgid "queen"
-msgstr "dama"
-
-#. A red joker.
-#: ../aisleriot/sol.scm.h:16 ../aisleriot/lib/ar-card.c:334
-msgid "red joker"
-msgstr "comodín rojo"
-
-#: ../aisleriot/sol.scm.h:17
-msgid "seven"
-msgstr "siete"
-
-#: ../aisleriot/sol.scm.h:18
-msgid "six"
-msgstr "seis"
-
-#: ../aisleriot/sol.scm.h:19
-msgid "spades"
-msgstr "espadas"
-
-#: ../aisleriot/sol.scm.h:20
-msgid "ten"
-msgstr "diez"
-
-#: ../aisleriot/sol.scm.h:21
-msgid "the ace of clubs"
-msgstr "el as de tréboles"
-
-#: ../aisleriot/sol.scm.h:22
-msgid "the ace of diamonds"
-msgstr "el as de diamantes"
-
-#: ../aisleriot/sol.scm.h:23
-msgid "the ace of hearts"
-msgstr "el as de corazones"
-
-#: ../aisleriot/sol.scm.h:24
-msgid "the ace of spades"
-msgstr "el as de picas"
-
-#: ../aisleriot/sol.scm.h:25
-msgid "the eight of clubs"
-msgstr "el ocho de tréboles"
-
-#: ../aisleriot/sol.scm.h:26
-msgid "the eight of diamonds"
-msgstr "el ocho de diamantes"
-
-#: ../aisleriot/sol.scm.h:27
-msgid "the eight of hearts"
-msgstr "el ocho de corazones"
-
-#: ../aisleriot/sol.scm.h:28
-msgid "the eight of spades"
-msgstr "el ocho de picas"
-
-#: ../aisleriot/sol.scm.h:29
-msgid "the five of clubs"
-msgstr "el cinco de tréboles"
-
-#: ../aisleriot/sol.scm.h:30
-msgid "the five of diamonds"
-msgstr "el cinco de diamantes"
-
-#: ../aisleriot/sol.scm.h:31
-msgid "the five of hearts"
-msgstr "el cinco de corazones"
-
-#: ../aisleriot/sol.scm.h:32
-msgid "the five of spades"
-msgstr "el cinco de picas"
-
-#: ../aisleriot/sol.scm.h:33
-msgid "the four of clubs"
-msgstr "el cuatro de tréboles"
-
-#: ../aisleriot/sol.scm.h:34
-msgid "the four of diamonds"
-msgstr "el cuatro de diamantes"
-
-#: ../aisleriot/sol.scm.h:35
-msgid "the four of hearts"
-msgstr "el cuatro de corazones"
-
-#: ../aisleriot/sol.scm.h:36
-msgid "the four of spades"
-msgstr "el cuatro de picas"
-
-#: ../aisleriot/sol.scm.h:37
-msgid "the jack of clubs"
-msgstr "la jota de tréboles"
-
-#: ../aisleriot/sol.scm.h:38
-msgid "the jack of diamonds"
-msgstr "la jota de diamantes"
-
-#: ../aisleriot/sol.scm.h:39
-msgid "the jack of hearts"
-msgstr "la jota de corazones"
-
-#: ../aisleriot/sol.scm.h:40
-msgid "the jack of spades"
-msgstr "la jota de picas"
-
-#: ../aisleriot/sol.scm.h:41
-msgid "the king of clubs"
-msgstr "el rey de tréboles"
-
-#: ../aisleriot/sol.scm.h:42
-msgid "the king of diamonds"
-msgstr "el rey de diamantes"
-
-#: ../aisleriot/sol.scm.h:43
-msgid "the king of hearts"
-msgstr "el rey de corazones"
-
-#: ../aisleriot/sol.scm.h:44
-msgid "the king of spades"
-msgstr "el rey de picas"
-
-#: ../aisleriot/sol.scm.h:45
-msgid "the nine of clubs"
-msgstr "el nueve de tréboles"
-
-#: ../aisleriot/sol.scm.h:46
-msgid "the nine of diamonds"
-msgstr "el nueve de diamantes"
-
-#: ../aisleriot/sol.scm.h:47
-msgid "the nine of hearts"
-msgstr "el nueve de corazones"
-
-#: ../aisleriot/sol.scm.h:48
-msgid "the nine of spades"
-msgstr "el nueve de picas"
-
-#: ../aisleriot/sol.scm.h:49
-msgid "the queen of clubs"
-msgstr "la reina de tréboles"
-
-#: ../aisleriot/sol.scm.h:50
-msgid "the queen of diamonds"
-msgstr "la reina de diamantes"
-
-#: ../aisleriot/sol.scm.h:51
-msgid "the queen of hearts"
-msgstr "la reina de corazones"
-
-#: ../aisleriot/sol.scm.h:52
-msgid "the queen of spades"
-msgstr "la reina de picas"
-
-#: ../aisleriot/sol.scm.h:53
-msgid "the seven of clubs"
-msgstr "el siete de tréboles"
-
-#: ../aisleriot/sol.scm.h:54
-msgid "the seven of diamonds"
-msgstr "el siete de diamantes"
-
-#: ../aisleriot/sol.scm.h:55
-msgid "the seven of hearts"
-msgstr "el siete de corazones"
-
-#: ../aisleriot/sol.scm.h:56
-msgid "the seven of spades"
-msgstr "el siete de picas"
-
-#: ../aisleriot/sol.scm.h:57
-msgid "the six of clubs"
-msgstr "el seis de tréboles"
-
-#: ../aisleriot/sol.scm.h:58
-msgid "the six of diamonds"
-msgstr "el seis de diamantes"
-
-#: ../aisleriot/sol.scm.h:59
-msgid "the six of hearts"
-msgstr "el seis de corazones"
-
-#: ../aisleriot/sol.scm.h:60
-msgid "the six of spades"
-msgstr "el seis de picas"
-
-#: ../aisleriot/sol.scm.h:61
-msgid "the ten of clubs"
-msgstr "el diez de tréboles"
-
-#: ../aisleriot/sol.scm.h:62
-msgid "the ten of diamonds"
-msgstr "el diez de diamantes"
-
-#: ../aisleriot/sol.scm.h:63
-msgid "the ten of hearts"
-msgstr "el diez de corazones"
-
-#: ../aisleriot/sol.scm.h:64
-msgid "the ten of spades"
-msgstr "el diez de picas"
-
-#: ../aisleriot/sol.scm.h:65
-msgid "the three of clubs"
-msgstr "el tres de tréboles"
-
-#: ../aisleriot/sol.scm.h:66
-msgid "the three of diamonds"
-msgstr "el tres de diamantes"
-
-#: ../aisleriot/sol.scm.h:67
-msgid "the three of hearts"
-msgstr "el tres de corazones"
-
-#: ../aisleriot/sol.scm.h:68
-msgid "the three of spades"
-msgstr "el tres de picas"
-
-#: ../aisleriot/sol.scm.h:69
-msgid "the two of clubs"
-msgstr "el dos de tréboles"
-
-#: ../aisleriot/sol.scm.h:70
-msgid "the two of diamonds"
-msgstr "el dos de diamantes"
-
-#: ../aisleriot/sol.scm.h:71
-msgid "the two of hearts"
-msgstr "el dos de corazones"
-
-#: ../aisleriot/sol.scm.h:72
-msgid "the two of spades"
-msgstr "el dos de picas"
-
-#: ../aisleriot/sol.scm.h:73
-msgid "the unknown card"
-msgstr "la carta desconocida"
-
-#: ../aisleriot/sol.scm.h:74
-msgid "three"
-msgstr "tres"
-
-#: ../aisleriot/sol.scm.h:75
-msgid "two"
-msgstr "dos"
-
-#. Translators: this is the total number of won games
-#: ../aisleriot/stats-dialog.c:153
-msgid "Wins:"
-msgstr "Victorias:"
-
-#. Translators: this is the number of games played
-#: ../aisleriot/stats-dialog.c:155
-msgid "Total:"
-msgstr "Total:"
-
-#. Translators: this is the percentage of games won out of all games played
-#: ../aisleriot/stats-dialog.c:157
-msgid "Percentage:"
-msgstr "Porcentaje:"
-
-#. Translators: this is the section title of a section which contains the n
-#. * number of games played, number of games won, and the ratio of these 2 numbers.
-#.
-#: ../aisleriot/stats-dialog.c:161
-msgid "Wins"
-msgstr "Victorias"
-
-#. Translators: this is the best time of all wins
-#: ../aisleriot/stats-dialog.c:168
-msgid "Best:"
-msgstr "Mejor:"
-
-#. Translators: this is the worst time of all wins
-#: ../aisleriot/stats-dialog.c:170
-msgid "Worst:"
-msgstr "Peor:"
-
-#. Translators: this is the section title of a section containing the
-#. * best and worst time taken to win a game.
-#.
-#: ../aisleriot/stats-dialog.c:174
-#: ../libgames-support/games-scores-dialog.c:135
-msgid "Time"
-msgstr "Tiempo"
-
-#: ../aisleriot/stats-dialog.c:206
-msgid "Statistics"
-msgstr "Estadísticas"
-
-#. Translators: Translate this to "%Id" if you want to use localised digits,
-#. * and to "%d" otherwise. Do not translate it to anything else!
-#.
-#: ../aisleriot/stats-dialog.c:220 ../aisleriot/stats-dialog.c:226
-#, c-format
-msgid "%d"
-msgstr "%d"
-
-#. Translators: Translate the "%d" in this string this to "%Id" if you
-#. * want to use localised digits, and to "%d" otherwise.
-#. * Do not translate the "%d" part to anything else!
-#. * You may translate the "%%" part to use any other percent character(s)
-#. * instead, or leave it as "%%". If you chose a character other than
-#. * "%" (U+0025 PERCENT SIGN) you do NOT need to escape it with another "%"!
-#.
-#: ../aisleriot/stats-dialog.c:237
-#, c-format
-msgid "%d%%"
-msgstr "%d%%"
-
-#. For translators: N/A means "Not Applicable", use whatever
-#. * abbreviation you have for a value that has no meaning.
-#: ../aisleriot/stats-dialog.c:243 ../aisleriot/stats-dialog.c:252
-#: ../aisleriot/stats-dialog.c:260
-msgid "N/A"
-msgstr "N/D"
-
-#. Translators: this represents minutes:seconds.
-#: ../aisleriot/stats-dialog.c:247 ../aisleriot/stats-dialog.c:255
-#, c-format
-msgid "%d:%02d"
-msgstr "%d:%02d"
-
-#: ../aisleriot/util.c:86 ../aisleriot/util.c:90
-#: ../aisleriot/lib/ar-help.c:152 ../libgames-support/games-help.c:147
-#, c-format
-msgid "Could not show help for “%s”"
-msgstr "No se pudo mostrar la ayuda de «%s»"
-
-#: ../aisleriot/window.c:257
-msgid "Congratulations, you have won!"
-msgstr "Enhorabuena, ha ganado."
-
-#: ../aisleriot/window.c:261
-msgid "There are no more moves"
-msgstr "No hay más jugadas"
-
-#. Empty title shows up as "<unnamed>" on maemo
-#: ../aisleriot/window.c:274 ../quadrapassel/blockops.cpp:788
-msgid "Game Over"
-msgstr "Juego terminado"
-
-#: ../aisleriot/window.c:408 ../gnomine/gnomine.c:436
-#: ../mahjongg/mahjongg.c:867
-msgid "Main game:"
-msgstr "Juego principal:"
-
-#: ../aisleriot/window.c:416
-msgid "Card games:"
-msgstr "Juegos de cartas:"
-
-#: ../aisleriot/window.c:430
-msgid "Card themes:"
-msgstr "Temas de cartas:"
-
-#: ../aisleriot/window.c:462
-msgid "About FreeCell Solitaire"
-msgstr "Acerca del solitario FreeCell"
-
-#: ../aisleriot/window.c:463
-msgid "About AisleRiot"
-msgstr "Acerca de AisleRiot"
-
-#: ../aisleriot/window.c:469
-msgid ""
-"AisleRiot provides a rule-based solitaire card engine that allows many "
-"different games to be played.\n"
-"AisleRiot is a part of GNOME Games."
-msgstr ""
-"AisleRiot proporciona un motor de juegos de cartas basado en reglas que "
-"permite jugar a muchos juegos diferentes.\n"
-"AisleRiot es parte de los Juegos de GNOME."
-
-#. this doesn't work for anyone
-#: ../aisleriot/window.c:480 ../glines/glines.c:1215 ../gnect/src/main.c:877
-#: ../gnibbles/main.c:208 ../gnobots2/menu.c:267
-#: ../quadrapassel/tetris.cpp:1316 ../gnome-sudoku/src/lib/main.py:704
-#: ../gnomine/gnomine.c:476 ../gnotravex/gnotravex.c:1612
-#: ../gnotski/gnotski.c:1487 ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:270
-#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:908
-#: ../swell-foop/src/About.js:20
-msgid "translator-credits"
-msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2008-2010\n"
-"Jorge González <jorgegonz@svn.gnome.org>, 2008\n"
-"Lucas Vieites <lucas@asixinformatica.com>, 2002-2008\n"
-"Germán Poo Caamaño <gpoo@ubiobio.cl>\n"
-"Pablo Saratxaga <pablo@mandrakesoft.com>"
-
-#: ../aisleriot/window.c:484 ../glchess/src/glchess.vala:1347
-#: ../glines/glines.c:1218 ../gnect/src/main.c:874 ../gnibbles/main.c:211
-#: ../gnobots2/menu.c:263 ../quadrapassel/tetris.cpp:1313
-#: ../gnome-sudoku/src/lib/defaults.py.in:45 ../gnomine/gnomine.c:479
-#: ../gnotravex/gnotravex.c:1615 ../gnotski/gnotski.c:1490
-#: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
-#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:911
-#: ../swell-foop/src/About.js:19
-msgid "GNOME Games web site"
-msgstr "Sitio web de los juegos de GNOME"
-
-#: ../aisleriot/window.c:1374
-#, c-format
-msgid "Play “%s”"
-msgstr "Jugar a «%s»"
-
-#: ../aisleriot/window.c:1545
-#, c-format
-msgid "Display cards with “%s” card theme"
-msgstr "Mostrar las cartas con el tema «%s»"
-
-#. Translators: if you want to use localised digits for the game score,
-#. * then translate this string to "%I6d", else to "%6d".
-#. * Do not translate it to anything else!
-#.
-#: ../aisleriot/window.c:1640
-#, c-format
-msgctxt "score"
-msgid "%6d"
-msgstr "%6d"
-
-#: ../aisleriot/window.c:1907
-msgid "A scheme exception occurred"
-msgstr "Ha ocurrido una excepción de esquema"
-
-#: ../aisleriot/window.c:1910
-msgid "Please report this bug to the developers."
-msgstr "Por favor, informe de este error a los desarrolladores."
-
-#. Empty title shows up as "<unnamed>" on maemo
-#: ../aisleriot/window.c:1914 ../aisleriot/lib/ar-show.c:151
-#: ../libgames-support/games-show.c:119
-msgid "Error"
-msgstr "Error"
-
-#: ../aisleriot/window.c:1922
-msgid "_Don't report"
-msgstr "_No informar"
-
-#: ../aisleriot/window.c:1923
-msgid "_Report"
-msgstr "_Informar"
-
-#: ../aisleriot/window.c:2036
-msgid "Freecell Solitaire"
-msgstr "Solitario FreeCell"
-
-#. Menu actions
-#. Game menu name
-#: ../aisleriot/window.c:2201 ../glchess/data/glchess.ui.h:22
-#: ../glines/glines.c:1639 ../gnect/src/main.c:1241 ../gnibbles/main.c:687
-#: ../gnobots2/menu.c:66 ../quadrapassel/tetris.cpp:108
-#: ../gnome-sudoku/src/lib/main.py:226 ../gnomine/gnomine.c:768
-#: ../gnotravex/gnotravex.c:1706 ../gnotski/gnotski.c:409
-#: ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:847
-#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1200
-#: ../swell-foop/data/swell-foop.ui.h:2
-msgid "_Game"
-msgstr "_Juego"
-
-#: ../aisleriot/window.c:2202 ../gnect/src/main.c:1242 ../gnibbles/main.c:688
-#: ../gnobots2/menu.c:67 ../gnotski/gnotski.c:410
-msgid "_View"
-msgstr "_Ver"
-
-#: ../aisleriot/window.c:2203
-msgid "_Control"
-msgstr "_Control"
-
-#. Help menu item
-#: ../aisleriot/window.c:2205 ../glchess/data/glchess.ui.h:24
-#: ../glines/glines.c:1641 ../gnect/src/main.c:1244 ../gnibbles/main.c:690
-#: ../gnobots2/menu.c:70 ../quadrapassel/tetris.cpp:110
-#: ../gnome-sudoku/src/lib/main.py:249 ../gnomine/gnomine.c:770
-#: ../gnotravex/gnotravex.c:1710 ../gnotski/gnotski.c:411
-#: ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:849
-#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1202
-#: ../swell-foop/data/swell-foop.ui.h:3
-msgid "_Help"
-msgstr "Ay_uda"
-
-#. Tooltip for start new game toolbar button
-#: ../aisleriot/window.c:2210 ../aisleriot/ar-stock.c:59
-#: ../glchess/data/glchess.ui.h:16 ../gnobots2/menu.c:71
-#: ../libgames-support/games-stock.c:52 ../mahjongg/mahjongg.c:1203
-msgid "Start a new game"
-msgstr "Iniciar un juego nuevo"
-
-#: ../aisleriot/window.c:2213 ../aisleriot/ar-stock.c:63
-#: ../libgames-support/games-stock.c:56
-msgid "Restart the game"
-msgstr "Reiniciar el juego"
-
-#: ../aisleriot/window.c:2215
-msgid "_Select Game..."
-msgstr "_Seleccionar un juego..."
-
-#: ../aisleriot/window.c:2217
-msgid "Play a different game"
-msgstr "Iniciar un juego distinto"
-
-#: ../aisleriot/window.c:2219
-msgid "_Recently Played"
-msgstr "_Recientemente jugados"
-
-#: ../aisleriot/window.c:2220
-msgid "S_tatistics"
-msgstr "Es_tadísticas"
-
-#: ../aisleriot/window.c:2221
-msgid "Show gameplay statistics"
-msgstr "Mostrar estadísticas de juego"
-
-#: ../aisleriot/window.c:2224 ../aisleriot/ar-stock.c:68
-#: ../libgames-support/games-stock.c:61
-msgid "Close this window"
-msgstr "Cerrar esta ventana"
-
-#: ../aisleriot/window.c:2227 ../aisleriot/ar-stock.c:66
-#: ../libgames-support/games-stock.c:59 ../mahjongg/mahjongg.c:1207
-msgid "Undo the last move"
-msgstr "Anular el último movimiento"
-
-#: ../aisleriot/window.c:2230 ../aisleriot/ar-stock.c:62
-#: ../libgames-support/games-stock.c:55
-msgid "Redo the undone move"
-msgstr "Rehacer el movimiento deshecho"
-
-#: ../aisleriot/window.c:2233
-msgid "Deal next card or cards"
-msgstr "Repartir la siguiente carta o cartas"
-
-#: ../aisleriot/window.c:2236 ../aisleriot/ar-stock.c:55
-#: ../libgames-support/games-stock.c:48
-msgid "Get a hint for your next move"
-msgstr "Obtener una pista para el siguiente movimiento"
-
-#: ../aisleriot/window.c:2239
-msgid "View help for Aisleriot"
-msgstr "Mostrar la ayuda para Aisleriot"
-
-#: ../aisleriot/window.c:2243 ../aisleriot/ar-stock.c:52
-#: ../libgames-support/games-stock.c:45
-msgid "View help for this game"
-msgstr "Mostrar la ayuda de este juego"
-
-#: ../aisleriot/window.c:2246 ../aisleriot/ar-stock.c:67
-#: ../libgames-support/games-stock.c:60
-msgid "About this game"
-msgstr "Acerca de este juego"
-
-#: ../aisleriot/window.c:2249
-msgid "Install card themes…"
-msgstr "Instalar temas de las cartas..."
-
-#: ../aisleriot/window.c:2250
-msgid "Install new card themes from the distribution packages repositories"
-msgstr ""
-"Instalar temas de cartas nuevos desde los repositorios de distribución de "
-"paquetes"
-
-#: ../aisleriot/window.c:2258
-msgid "_Card Style"
-msgstr "Estilo de _carta"
-
-#: ../aisleriot/window.c:2301 ../gnobots2/menu.c:90
-#: ../mahjongg/mahjongg.c:1223
-msgid "_Toolbar"
-msgstr "Barra de herramien_tas"
-
-#: ../aisleriot/window.c:2302 ../gnobots2/menu.c:90
-#: ../mahjongg/mahjongg.c:1223
-msgid "Show or hide the toolbar"
-msgstr "Mostrar u ocultar la barra de herramientas"
-
-#: ../aisleriot/window.c:2307
-msgid "_Statusbar"
-msgstr "Barra de _estado"
-
-#: ../aisleriot/window.c:2308
-msgid "Show or hide statusbar"
-msgstr "Mostrar u ocultar la barra de estado"
-
-#: ../aisleriot/window.c:2313 ../gnotravex/gnotravex.c:1730
-msgid "_Click to Move"
-msgstr "_Pulsar para mover"
-
-#: ../aisleriot/window.c:2314
-msgid "Pick up and drop cards by clicking"
-msgstr "Recoge y tira las cartas pulsando con el ratón"
-
-#: ../aisleriot/window.c:2318
-msgid "_Sound"
-msgstr "_Sonido"
-
-#: ../aisleriot/window.c:2319
-msgid "Whether or not to play event sounds"
-msgstr "Indica si se deben reproducir eventos de sonido"
-
-#: ../aisleriot/window.c:2324
-msgid "_Animations"
-msgstr "_Animaciones"
-
-#: ../aisleriot/window.c:2325
-msgid "Whether or not to animate card moves"
-msgstr "Indica si se debe usar animación para los movimientos de las cartas"
-
-#: ../aisleriot/window.c:2634 ../glines/glines.c:1840
-#: ../gnobots2/statusbar.c:67 ../quadrapassel/scoreframe.cpp:47
-#: ../gnomine/gnomine.c:439
-msgid "Score:"
-msgstr "Puntuación:"
-
-#: ../aisleriot/window.c:2646 ../gnotravex/gnotravex.c:1401
-#: ../mahjongg/mahjongg.c:1407
-msgid "Time:"
-msgstr "Tiempo:"
-
-#: ../aisleriot/window.c:3000
-#, c-format
-msgid "Cannot start the game “%s”"
-msgstr "No se puede iniciar el juego «%s»"
-
-#: ../aisleriot/ar-stock.c:53 ../libgames-support/games-stock.c:46
-msgid "End the current game"
-msgstr "Finalizar el juego actual"
-
-#: ../aisleriot/ar-stock.c:54 ../libgames-support/games-stock.c:47
-msgid "Toggle fullscreen mode"
-msgstr "Activar pantalla completa"
-
-#: ../aisleriot/ar-stock.c:56 ../libgames-support/games-stock.c:49
-msgid "Leave fullscreen mode"
-msgstr "Abandonar pantalla completa"
-
-#: ../aisleriot/ar-stock.c:57 ../libgames-support/games-stock.c:50
-msgid "Start a new multiplayer network game"
-msgstr "Iniciar una partida multijugador en red"
-
-#: ../aisleriot/ar-stock.c:58 ../libgames-support/games-stock.c:51
-msgid "End the current network game and return to network server"
-msgstr "Terminar la partida de red actual y volver al servidor de red"
-
-#: ../aisleriot/ar-stock.c:60 ../libgames-support/games-stock.c:53
-msgid "Pause the game"
-msgstr "Pausar el juego"
-
-#: ../aisleriot/ar-stock.c:61 ../libgames-support/games-stock.c:54
-msgid "Show a list of players in the network game"
-msgstr "Mostrar una lista de jugadores en la partida de red"
-
-#: ../aisleriot/ar-stock.c:64 ../libgames-support/games-stock.c:57
-msgid "Resume the paused game"
-msgstr "Reiniciar el juego pausado"
-
-#: ../aisleriot/ar-stock.c:65 ../libgames-support/games-stock.c:58
-msgid "View the scores"
-msgstr "Ver la puntuación"
-
-#: ../aisleriot/ar-stock.c:69 ../libgames-support/games-stock.c:62
-msgid "Configure the game"
-msgstr "Configurar el juego"
-
-#: ../aisleriot/ar-stock.c:70 ../libgames-support/games-stock.c:63
-msgid "Quit this game"
-msgstr "Salir de este juego"
-
-#. Help contents menu item
-#: ../aisleriot/ar-stock.c:296 ../glchess/data/glchess.ui.h:20
-#: ../gnome-sudoku/src/lib/main.py:250 ../libgames-support/games-stock.c:281
-msgid "_Contents"
-msgstr "Índ_ice"
-
-#: ../aisleriot/ar-stock.c:297 ../libgames-support/games-stock.c:282
-msgid "_Fullscreen"
-msgstr "_Pantalla completa"
-
-#: ../aisleriot/ar-stock.c:298 ../gnome-sudoku/src/lib/main.py:243
-#: ../libgames-support/games-stock.c:283
-msgid "_Hint"
-msgstr "_Sugerencia"
-
-#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
-#: ../aisleriot/ar-stock.c:300 ../libgames-support/games-stock.c:285
-msgid "_New"
-msgstr "_Nuevo"
-
-#. Translators: This "_New Game" is for the game-over dialogue
-#: ../aisleriot/ar-stock.c:302 ../gnobots2/game.c:154
-#: ../gnome-sudoku/data/select_game.ui.h:1 ../gnomine/gnomine.c:201
-#: ../gnotski/gnotski.c:774 ../libgames-support/games-stock.c:287
-msgid "_New Game"
-msgstr "Juego _nuevo"
-
-#: ../aisleriot/ar-stock.c:303 ../libgames-support/games-stock.c:288
-msgid "_Redo Move"
-msgstr "_Rehacer movimiento"
-
-#. Translators: this is the "Reset" scores button in a scores dialogue
-#: ../aisleriot/ar-stock.c:305 ../gnome-sudoku/src/lib/main.py:228
-#: ../libgames-support/games-stock.c:290
-msgid "_Reset"
-msgstr "_Reiniciar"
-
-#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
-#: ../aisleriot/ar-stock.c:307 ../libgames-support/games-stock.c:292
-msgid "_Restart"
-msgstr "_Reiniciar"
-
-#. Undo move menu item
-#: ../aisleriot/ar-stock.c:308 ../glchess/data/glchess.ui.h:30
-#: ../libgames-support/games-stock.c:293
-msgid "_Undo Move"
-msgstr "_Deshacer movimiento"
-
-#: ../aisleriot/ar-stock.c:309 ../libgames-support/games-stock.c:294
-msgid "_Deal"
-msgstr "R_epartir"
-
-#: ../aisleriot/ar-stock.c:311 ../libgames-support/games-stock.c:296
-msgid "_Leave Fullscreen"
-msgstr "Abandonar _pantalla completa"
-
-#: ../aisleriot/ar-stock.c:312 ../libgames-support/games-stock.c:297
-msgid "Network _Game"
-msgstr "_Partida en red"
-
-#: ../aisleriot/ar-stock.c:313 ../libgames-support/games-stock.c:298
-msgid "L_eave Game"
-msgstr "_Dejar partida"
-
-#: ../aisleriot/ar-stock.c:314 ../libgames-support/games-stock.c:299
-msgid "Player _List"
-msgstr "_Lista de jugadores"
-
-#: ../aisleriot/ar-stock.c:315 ../libgames-support/games-stock.c:300
-msgid "_Pause"
-msgstr "_Pausa"
-
-#: ../aisleriot/ar-stock.c:316 ../libgames-support/games-stock.c:301
-msgid "Res_ume"
-msgstr "C_ontinuar"
-
-#: ../aisleriot/ar-stock.c:317 ../libgames-support/games-stock.c:302
-msgid "_Scores"
-msgstr "_Puntuación"
-
-#: ../aisleriot/ar-stock.c:318 ../libgames-support/games-stock.c:303
-msgid "_End Game"
-msgstr "Finalizar el ju_ego"
-
-#. Work around maemo brokenness wrt. stock item translations.
-#. * See https://bugs.maemo.org/show_bug.cgi?id=1449 .
-#: ../aisleriot/ar-stock.c:324 ../libgames-support/games-stock.c:309
-msgid "_About"
-msgstr "_Acerca de"
-
-#: ../aisleriot/ar-stock.c:325 ../libgames-support/games-stock.c:310
-msgid "_Cancel"
-msgstr "_Cancelar"
-
-#: ../aisleriot/ar-stock.c:326 ../libgames-support/games-stock.c:311
-msgid "_Close"
-msgstr "_Cerrar"
-
-#: ../aisleriot/ar-stock.c:327 ../libgames-support/games-stock.c:312
-msgid "_OK"
-msgstr "_Aceptar"
-
-#. %s is replaced with the name of the game in gnome-games.
-#: ../aisleriot/ar-stock.c:388 ../libgames-support/games-stock.c:373
-#, c-format
-msgid ""
-"%s is free software; you can redistribute it and/or modify it under the "
-"terms of the GNU General Public License as published by the Free Software "
-"Foundation; either version %d of the License, or (at your option) any later "
-"version."
-msgstr ""
-"%s es software libre; puede redistribuirlo y/o modificarlo bajo los términos "
-"de la Licencia Pública General GNU tal como la publica la Free Software "
-"Foundation; ya sea en la versión %d de la Licencia, como (a su elección) "
-"cualquier otra versión posterior."
-
-#: ../aisleriot/ar-stock.c:393 ../gnome-sudoku/src/lib/defaults.py.in:55
-#: ../libgames-support/games-stock.c:378
-#, c-format, python-format
-msgid ""
-"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
-"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-"details."
-msgstr ""
-"%s se distribuye con el ánimo de que le será útil, pero SIN NINGUNA "
-"GARANTÍA; sin incluso la garantía implícita de MERCANTILIDAD o IDONEIDAD "
-"PARA UN PROPÓSITO DETERMINADO. Vea la Licencia Pública General de GNU para "
-"más detalles."
-
-#: ../aisleriot/ar-stock.c:398 ../gnome-sudoku/src/lib/defaults.py.in:59
-#: ../libgames-support/games-stock.c:383
-#, c-format, python-format
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
-"Fifth Floor, Boston, MA  02110-1301  USA"
-msgstr ""
-"Debería haber recibido una copia de la Licencia Pública General GNU junto "
-"con %s; si no, escriba a la Free Software Foundation, Inc., 51 Franklin "
-"Street, Fifth Floor, Boston, MA 02110-1301 EE. UU."
-
-#: ../aisleriot/ar-stock.c:402 ../libgames-support/games-stock.c:387
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Debería haber recibido una copia de la Licencia Pública General GNU junto "
-"con este programa. De lo contrario, visite <http://www.gnu.org/licenses/>."
-
-#. %s.%s is the game name + the extension HTML or XHTML, e.g. Klondike.html"
-#: ../aisleriot/lib/ar-help.c:114 ../libgames-support/games-help.c:109
-#, c-format
-msgid "Help file “%s.%s” not found"
-msgstr "No se ha encontrado el archivo de ayuda «%s.%s»"
-
-#: ../aisleriot/lib/ar-runtime.c:273
-msgid "Could not show link"
-msgstr "No se ha podido mostrar el enlace"
-
-#: ../aisleriot/lib/org.gnome.Patience.WindowState.gschema.xml.in.h:1
-msgid "Whether the window is fullscreen"
-msgstr "Indica si la ventana está en pantalla completa"
-
-#: ../aisleriot/lib/org.gnome.Patience.WindowState.gschema.xml.in.h:2
-msgid "Whether the window is maximized"
-msgstr "Indica si la ventana está maximizada"
-
-#: ../aisleriot/lib/org.gnome.Patience.WindowState.gschema.xml.in.h:3
-msgid "Window height"
-msgstr "Altura de la ventana"
-
-#: ../aisleriot/lib/org.gnome.Patience.WindowState.gschema.xml.in.h:4
-msgid "Window width"
-msgstr "Anchura de la ventana"
-
-#. Translators: this is the symbol that's on a Joker card
-#: ../aisleriot/lib/ar-card.c:182
-msgctxt "card symbol"
-msgid "JOKER"
-msgstr "COMODÍN"
-
-#. Translators: this is the symbol that's on an Ace card
-#: ../aisleriot/lib/ar-card.c:184 ../aisleriot/lib/ar-card.c:208
-msgctxt "card symbol"
-msgid "A"
-msgstr "A"
-
-#. Translators: this is the symbol that's on a 2 card
-#: ../aisleriot/lib/ar-card.c:186
-msgctxt "card symbol"
-msgid "2"
-msgstr "2"
-
-#. Translators: this is the symbol that's on a 3 card
-#: ../aisleriot/lib/ar-card.c:188
-msgctxt "card symbol"
-msgid "3"
-msgstr "3"
-
-#. Translators: this is the symbol that's on a 4 card
-#: ../aisleriot/lib/ar-card.c:190
-msgctxt "card symbol"
-msgid "4"
-msgstr "4"
-
-#. Translators: this is the symbol that's on a 5 card
-#: ../aisleriot/lib/ar-card.c:192
-msgctxt "card symbol"
-msgid "5"
-msgstr "5"
-
-#. Translators: this is the symbol that's on a 6 card
-#: ../aisleriot/lib/ar-card.c:194
-msgctxt "card symbol"
-msgid "6"
-msgstr "6"
-
-#. Translators: this is the symbol that's on a 7 card
-#: ../aisleriot/lib/ar-card.c:196
-msgctxt "card symbol"
-msgid "7"
-msgstr "7"
-
-#. Translators: this is the symbol that's on a 8 card
-#: ../aisleriot/lib/ar-card.c:198
-msgctxt "card symbol"
-msgid "8"
-msgstr "8"
-
-#. Translators: this is the symbol that's on a 9 card
-#: ../aisleriot/lib/ar-card.c:200
-msgctxt "card symbol"
-msgid "9"
-msgstr "9"
-
-#. Translators: this is the symbol that's on a Jack card
-#: ../aisleriot/lib/ar-card.c:202
-msgctxt "card symbol"
-msgid "J"
-msgstr "J"
-
-#. Translators: this is the symbol that's on a Queen card
-#: ../aisleriot/lib/ar-card.c:204
-msgctxt "card symbol"
-msgid "Q"
-msgstr "Q"
-
-#. Translators: this is the symbol that's on a King card
-#: ../aisleriot/lib/ar-card.c:206
-msgctxt "card symbol"
-msgid "K"
-msgstr "K"
-
-#. Translators: this is the symbol that's on a 1 card
-#: ../aisleriot/lib/ar-card.c:210
-msgctxt "card symbol"
-msgid "1"
-msgstr "1"
-
-#: ../aisleriot/lib/ar-card.c:252
-msgid "ace of clubs"
-msgstr "as de tréboles"
-
-#: ../aisleriot/lib/ar-card.c:253
-msgid "two of clubs"
-msgstr "dos de tréboles"
-
-#: ../aisleriot/lib/ar-card.c:254
-msgid "three of clubs"
-msgstr "tres de tréboles"
-
-#: ../aisleriot/lib/ar-card.c:255
-msgid "four of clubs"
-msgstr "cuatro de tréboles"
-
-#: ../aisleriot/lib/ar-card.c:256
-msgid "five of clubs"
-msgstr "cinco de tréboles"
-
-#: ../aisleriot/lib/ar-card.c:257
-msgid "six of clubs"
-msgstr "seis de tréboles"
-
-#: ../aisleriot/lib/ar-card.c:258
-msgid "seven of clubs"
-msgstr "siete de tréboles"
-
-#: ../aisleriot/lib/ar-card.c:259
-msgid "eight of clubs"
-msgstr "ocho de tréboles"
-
-#: ../aisleriot/lib/ar-card.c:260
-msgid "nine of clubs"
-msgstr "nueve de tréboles"
-
-#: ../aisleriot/lib/ar-card.c:261
-msgid "ten of clubs"
-msgstr "diez de tréboles"
-
-#: ../aisleriot/lib/ar-card.c:262
-msgid "jack of clubs"
-msgstr "jota de tréboles"
-
-#: ../aisleriot/lib/ar-card.c:263
-msgid "queen of clubs"
-msgstr "reina de tréboles"
-
-#: ../aisleriot/lib/ar-card.c:264
-msgid "king of clubs"
-msgstr "rey de tréboles"
-
-#: ../aisleriot/lib/ar-card.c:265
-msgid "ace of diamonds"
-msgstr "as de diamantes"
-
-#: ../aisleriot/lib/ar-card.c:266
-msgid "two of diamonds"
-msgstr "dos de diamantes"
-
-#: ../aisleriot/lib/ar-card.c:267
-msgid "three of diamonds"
-msgstr "tres de diamantes"
-
-#: ../aisleriot/lib/ar-card.c:268
-msgid "four of diamonds"
-msgstr "cuatro de diamantes"
-
-#: ../aisleriot/lib/ar-card.c:269
-msgid "five of diamonds"
-msgstr "cinco de diamantes"
-
-#: ../aisleriot/lib/ar-card.c:270
-msgid "six of diamonds"
-msgstr "seis de diamantes"
-
-#: ../aisleriot/lib/ar-card.c:271
-msgid "seven of diamonds"
-msgstr "siete de diamantes"
-
-#: ../aisleriot/lib/ar-card.c:272
-msgid "eight of diamonds"
-msgstr "ocho de diamantes"
-
-#: ../aisleriot/lib/ar-card.c:273
-msgid "nine of diamonds"
-msgstr "nueve de diamantes"
-
-#: ../aisleriot/lib/ar-card.c:274
-msgid "ten of diamonds"
-msgstr "diez de diamantes"
-
-#: ../aisleriot/lib/ar-card.c:275
-msgid "jack of diamonds"
-msgstr "jota de diamantes"
-
-#: ../aisleriot/lib/ar-card.c:276
-msgid "queen of diamonds"
-msgstr "reina de diamantes"
-
-#: ../aisleriot/lib/ar-card.c:277
-msgid "king of diamonds"
-msgstr "rey de diamantes"
-
-#: ../aisleriot/lib/ar-card.c:278
-msgid "ace of hearts"
-msgstr "as de corazones"
-
-#: ../aisleriot/lib/ar-card.c:279
-msgid "two of hearts"
-msgstr "dos de corazones"
-
-#: ../aisleriot/lib/ar-card.c:280
-msgid "three of hearts"
-msgstr "tres de corazones"
-
-#: ../aisleriot/lib/ar-card.c:281
-msgid "four of hearts"
-msgstr "cuatro de corazones"
-
-#: ../aisleriot/lib/ar-card.c:282
-msgid "five of hearts"
-msgstr "cinco de corazones"
-
-#: ../aisleriot/lib/ar-card.c:283
-msgid "six of hearts"
-msgstr "seis de corazones"
-
-#: ../aisleriot/lib/ar-card.c:284
-msgid "seven of hearts"
-msgstr "siete de corazones"
-
-#: ../aisleriot/lib/ar-card.c:285
-msgid "eight of hearts"
-msgstr "ocho de corazones"
-
-#: ../aisleriot/lib/ar-card.c:286
-msgid "nine of hearts"
-msgstr "nueve de corazones"
-
-#: ../aisleriot/lib/ar-card.c:287
-msgid "ten of hearts"
-msgstr "diez de corazones"
-
-#: ../aisleriot/lib/ar-card.c:288
-msgid "jack of hearts"
-msgstr "jota de corazones"
-
-#: ../aisleriot/lib/ar-card.c:289
-msgid "queen of hearts"
-msgstr "reina de corazones"
-
-#: ../aisleriot/lib/ar-card.c:290
-msgid "king of hearts"
-msgstr "rey de corazones"
-
-#: ../aisleriot/lib/ar-card.c:291
-msgid "ace of spades"
-msgstr "as de picas"
-
-#: ../aisleriot/lib/ar-card.c:292
-msgid "two of spades"
-msgstr "dos de picas"
-
-#: ../aisleriot/lib/ar-card.c:293
-msgid "three of spades"
-msgstr "tres de picas"
-
-#: ../aisleriot/lib/ar-card.c:294
-msgid "four of spades"
-msgstr "cuatro de picas"
-
-#: ../aisleriot/lib/ar-card.c:295
-msgid "five of spades"
-msgstr "cinco de picas"
-
-#: ../aisleriot/lib/ar-card.c:296
-msgid "six of spades"
-msgstr "seis de picas"
-
-#: ../aisleriot/lib/ar-card.c:297
-msgid "seven of spades"
-msgstr "siete de picas"
-
-#: ../aisleriot/lib/ar-card.c:298
-msgid "eight of spades"
-msgstr "ocho de picas"
-
-#: ../aisleriot/lib/ar-card.c:299
-msgid "nine of spades"
-msgstr "nueve de picas"
-
-#: ../aisleriot/lib/ar-card.c:300
-msgid "ten of spades"
-msgstr "diez de picas"
-
-#: ../aisleriot/lib/ar-card.c:301
-msgid "jack of spades"
-msgstr "jota de picas"
-
-#: ../aisleriot/lib/ar-card.c:302
-msgid "queen of spades"
-msgstr "reina de picas"
-
-#: ../aisleriot/lib/ar-card.c:303
-msgid "king of spades"
-msgstr "rey de picas"
-
-#: ../aisleriot/lib/ar-card.c:320
-msgid "face-down card"
-msgstr "carta boca abajo"
-
-#: ../aisleriot/smclient/eggdesktopfile.c:169
-#: ../libgames-support/eggdesktopfile.c:169
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "El archivo no es un archivo .desktop válido"
-
-#: ../aisleriot/smclient/eggdesktopfile.c:192
-#: ../libgames-support/eggdesktopfile.c:192
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "No se reconoce la versión «%s» del archivo desktop"
-
-#: ../aisleriot/smclient/eggdesktopfile.c:966
-#: ../libgames-support/eggdesktopfile.c:966
-#, c-format
-msgid "Starting %s"
-msgstr "Iniciando %s"
-
-#: ../aisleriot/smclient/eggdesktopfile.c:1108
-#: ../libgames-support/eggdesktopfile.c:1108
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "La aplicación no acepta documentos en la línea de comandos"
-
-#: ../aisleriot/smclient/eggdesktopfile.c:1176
-#: ../libgames-support/eggdesktopfile.c:1176
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "Opción de lanzamiento no reconocida: %d"
-
-#: ../aisleriot/smclient/eggdesktopfile.c:1381
-#: ../libgames-support/eggdesktopfile.c:1381
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-"No se pueden pasar los URI de documentos a entradas de escritorio «Type=Link»"
-
-#: ../aisleriot/smclient/eggdesktopfile.c:1402
-#: ../libgames-support/eggdesktopfile.c:1402
-#, c-format
-msgid "Not a launchable item"
-msgstr "No es un elemento lanzable"
-
-#: ../aisleriot/smclient/eggsmclient.c:226
-#: ../libgames-support/eggsmclient.c:226
-msgid "Disable connection to session manager"
-msgstr "Desactivar conexión con el gestor de sesión"
-
-#: ../aisleriot/smclient/eggsmclient.c:229
-#: ../libgames-support/eggsmclient.c:229
-msgid "Specify file containing saved configuration"
-msgstr "Especificar el archivo que contiene la configuración guardada"
-
-#: ../aisleriot/smclient/eggsmclient.c:229
-#: ../libgames-support/eggsmclient.c:229
-msgid "FILE"
-msgstr "ARCHIVO"
-
-#: ../aisleriot/smclient/eggsmclient.c:232
-#: ../libgames-support/eggsmclient.c:232
-msgid "Specify session management ID"
-msgstr "Especificar el ID se gestión de sesión"
-
-#: ../aisleriot/smclient/eggsmclient.c:232
-#: ../libgames-support/eggsmclient.c:232
-msgid "ID"
-msgstr "ID"
-
-#: ../aisleriot/smclient/eggsmclient.c:253
-#: ../libgames-support/eggsmclient.c:253
-msgid "Session management options:"
-msgstr "Opciones de gestión de la sesión:"
-
-#: ../aisleriot/smclient/eggsmclient.c:254
-#: ../libgames-support/eggsmclient.c:254
-msgid "Show session management options"
-msgstr "Mostrar las opciones de gestión de la sesión"
-
-#: ../aisleriot/rules/agnes.scm.h:1 ../aisleriot/rules/bear_river.scm.h:2
-#: ../aisleriot/rules/canfield.scm.h:2 ../aisleriot/rules/chessboard.scm.h:2
-#: ../aisleriot/rules/eagle_wing.scm.h:2 ../aisleriot/rules/glenwood.scm.h:2
-#: ../aisleriot/rules/kansas.scm.h:2 ../aisleriot/rules/lady_jane.scm.h:2
-#: ../aisleriot/rules/plait.scm.h:2 ../aisleriot/rules/royal_east.scm.h:2
-#: ../aisleriot/rules/terrace.scm.h:1
-msgid "Base Card: Ace"
-msgstr "Carta de base: As"
-
-#: ../aisleriot/rules/agnes.scm.h:2 ../aisleriot/rules/bear_river.scm.h:3
-#: ../aisleriot/rules/canfield.scm.h:3 ../aisleriot/rules/chessboard.scm.h:3
-#: ../aisleriot/rules/eagle_wing.scm.h:3 ../aisleriot/rules/glenwood.scm.h:3
-#: ../aisleriot/rules/kansas.scm.h:3 ../aisleriot/rules/lady_jane.scm.h:3
-#: ../aisleriot/rules/plait.scm.h:3 ../aisleriot/rules/royal_east.scm.h:3
-#: ../aisleriot/rules/terrace.scm.h:2
-msgid "Base Card: Jack"
-msgstr "Carta de base: Jota"
-
-#: ../aisleriot/rules/agnes.scm.h:3 ../aisleriot/rules/bear_river.scm.h:4
-#: ../aisleriot/rules/canfield.scm.h:4 ../aisleriot/rules/chessboard.scm.h:4
-#: ../aisleriot/rules/eagle_wing.scm.h:4 ../aisleriot/rules/glenwood.scm.h:4
-#: ../aisleriot/rules/kansas.scm.h:4 ../aisleriot/rules/lady_jane.scm.h:4
-#: ../aisleriot/rules/plait.scm.h:4 ../aisleriot/rules/royal_east.scm.h:4
-#: ../aisleriot/rules/terrace.scm.h:3
-msgid "Base Card: King"
-msgstr "Carta de base: Rey"
-
-#: ../aisleriot/rules/agnes.scm.h:4 ../aisleriot/rules/bear_river.scm.h:5
-#: ../aisleriot/rules/canfield.scm.h:5 ../aisleriot/rules/chessboard.scm.h:5
-#: ../aisleriot/rules/eagle_wing.scm.h:5 ../aisleriot/rules/glenwood.scm.h:5
-#: ../aisleriot/rules/kansas.scm.h:5 ../aisleriot/rules/lady_jane.scm.h:5
-#: ../aisleriot/rules/plait.scm.h:5 ../aisleriot/rules/royal_east.scm.h:5
-#: ../aisleriot/rules/terrace.scm.h:4
-msgid "Base Card: Queen"
-msgstr "Carta de base: Reina"
-
-#: ../aisleriot/rules/agnes.scm.h:5 ../aisleriot/rules/terrace.scm.h:5
-msgid "Base Card: ~a"
-msgstr "Carta de base: ~a"
-
-#: ../aisleriot/rules/agnes.scm.h:6 ../aisleriot/rules/easthaven.scm.h:1
-#: ../aisleriot/rules/labyrinth.scm.h:1 ../aisleriot/rules/monte_carlo.scm.h:1
-#: ../aisleriot/rules/valentine.scm.h:1
-msgid "Deal more cards"
-msgstr "Dar más cartas"
-
-#: ../aisleriot/rules/agnes.scm.h:7 ../aisleriot/rules/auld_lang_syne.scm.h:2
-#: ../aisleriot/rules/backbone.scm.h:3 ../aisleriot/rules/block_ten.scm.h:1
-#: ../aisleriot/rules/bristol.scm.h:2 ../aisleriot/rules/camelot.scm.h:2
-#: ../aisleriot/rules/canfield.scm.h:9 ../aisleriot/rules/carpet.scm.h:2
-#: ../aisleriot/rules/cover.scm.h:1 ../aisleriot/rules/doublets.scm.h:2
-#: ../aisleriot/rules/eagle_wing.scm.h:11 ../aisleriot/rules/easthaven.scm.h:4
-#: ../aisleriot/rules/elevator.scm.h:2 ../aisleriot/rules/escalator.scm.h:2
-#: ../aisleriot/rules/first_law.scm.h:17 ../aisleriot/rules/fortunes.scm.h:4
-#: ../aisleriot/rules/forty_thieves.scm.h:3
-#: ../aisleriot/rules/glenwood.scm.h:11 ../aisleriot/rules/gypsy.scm.h:3
-#: ../aisleriot/rules/helsinki.scm.h:1 ../aisleriot/rules/hopscotch.scm.h:3
-#: ../aisleriot/rules/jamestown.scm.h:1 ../aisleriot/rules/jumbo.scm.h:4
-#: ../aisleriot/rules/kansas.scm.h:8 ../aisleriot/rules/klondike.scm.h:7
-#: ../aisleriot/rules/labyrinth.scm.h:2 ../aisleriot/rules/lady_jane.scm.h:7
-#: ../aisleriot/rules/monte_carlo.scm.h:2 ../aisleriot/rules/neighbor.scm.h:1
-#: ../aisleriot/rules/plait.scm.h:11 ../aisleriot/rules/quatorze.scm.h:1
-#: ../aisleriot/rules/royal_east.scm.h:7 ../aisleriot/rules/scuffle.scm.h:4
-#: ../aisleriot/rules/sir_tommy.scm.h:3 ../aisleriot/rules/straight_up.scm.h:5
-#: ../aisleriot/rules/terrace.scm.h:18 ../aisleriot/rules/thieves.scm.h:2
-#: ../aisleriot/rules/thirteen.scm.h:3
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:4
-#: ../aisleriot/rules/treize.scm.h:2 ../aisleriot/rules/triple_peaks.scm.h:4
-#: ../aisleriot/rules/union_square.scm.h:2
-#: ../aisleriot/rules/westhaven.scm.h:2 ../aisleriot/rules/whitehead.scm.h:3
-#: ../aisleriot/rules/yield.scm.h:2 ../aisleriot/rules/zebra.scm.h:4
-msgid "Stock left:"
-msgstr "Montón restante:"
-
-#: ../aisleriot/rules/agnes.scm.h:8 ../aisleriot/rules/lady_jane.scm.h:8
-msgid "Stock left: 0"
-msgstr "Montón restante: 0"
-
-#: ../aisleriot/rules/agnes.scm.h:9 ../aisleriot/rules/backbone.scm.h:4
-#: ../aisleriot/rules/bakers_dozen.scm.h:1
-#: ../aisleriot/rules/beleaguered_castle.scm.h:1
-#: ../aisleriot/rules/canfield.scm.h:10 ../aisleriot/rules/jumbo.scm.h:5
-#: ../aisleriot/rules/king_albert.scm.h:1 ../aisleriot/rules/lady_jane.scm.h:9
-#: ../aisleriot/rules/streets_and_alleys.scm.h:1
-msgid "Try rearranging the cards"
-msgstr "Inténtelo reorganizando las cartas"
-
-#: ../aisleriot/rules/agnes.scm.h:10 ../aisleriot/rules/bristol.scm.h:3
-#: ../aisleriot/rules/lady_jane.scm.h:10 ../aisleriot/rules/royal_east.scm.h:8
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:5
-msgid "an empty foundation pile"
-msgstr "una pila de fundación vacía"
-
-#: ../aisleriot/rules/athena.scm.h:1 ../aisleriot/rules/klondike.scm.h:8
-#: ../aisleriot/rules/osmosis.scm.h:5 ../aisleriot/rules/saratoga.scm.h:1
-msgid "Three card deals"
-msgstr "Reparto de 3 cartas"
-
-#: ../aisleriot/rules/auld_lang_syne.scm.h:1
-#: ../aisleriot/rules/bristol.scm.h:1 ../aisleriot/rules/first_law.scm.h:1
-#: ../aisleriot/rules/fortunes.scm.h:2 ../aisleriot/rules/lady_jane.scm.h:6
-#: ../aisleriot/rules/scuffle.scm.h:1 ../aisleriot/rules/spider.scm.h:1
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:1 ../aisleriot/rules/zebra.scm.h:1
-msgid "Deal another round"
-msgstr "Dar otra ronda"
-
-#: ../aisleriot/rules/backbone.scm.h:1 ../aisleriot/rules/camelot.scm.h:1
-#: ../aisleriot/rules/canfield.scm.h:6 ../aisleriot/rules/carpet.scm.h:1
-#: ../aisleriot/rules/glenwood.scm.h:6 ../aisleriot/rules/klondike.scm.h:2
-#: ../aisleriot/rules/osmosis.scm.h:1 ../aisleriot/rules/plait.scm.h:6
-#: ../aisleriot/rules/straight_up.scm.h:1 ../aisleriot/rules/terrace.scm.h:8
-msgid "Deal a new card from the deck"
-msgstr "Dar una nueva carta de la mesa"
-
-#: ../aisleriot/rules/backbone.scm.h:2 ../aisleriot/rules/doublets.scm.h:1
-#: ../aisleriot/rules/eagle_wing.scm.h:9 ../aisleriot/rules/gaps.scm.h:7
-#: ../aisleriot/rules/glenwood.scm.h:9 ../aisleriot/rules/jumbo.scm.h:3
-#: ../aisleriot/rules/klondike.scm.h:5 ../aisleriot/rules/plait.scm.h:10
-#: ../aisleriot/rules/scuffle.scm.h:2 ../aisleriot/rules/straight_up.scm.h:3
-#: ../aisleriot/rules/terrace.scm.h:13
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:3 ../aisleriot/rules/zebra.scm.h:3
-msgid "Redeals left:"
-msgstr "Repartos restantes:"
-
-#: ../aisleriot/rules/backbone.scm.h:5 ../aisleriot/rules/terrace.scm.h:23
-msgid "an empty slot on the foundation"
-msgstr "un hueco vacío en fundación"
-
-#: ../aisleriot/rules/backbone.scm.h:6 ../aisleriot/rules/terrace.scm.h:24
-msgid "an empty slot on the tableau"
-msgstr "un un hueco vacío en el tablero"
-
-#: ../aisleriot/rules/bakers_dozen.scm.h:2
-#: ../aisleriot/rules/chessboard.scm.h:8 ../aisleriot/rules/easthaven.scm.h:5
-#: ../aisleriot/rules/eight_off.scm.h:2 ../aisleriot/rules/fortress.scm.h:2
-#: ../aisleriot/rules/forty_thieves.scm.h:4 ../aisleriot/rules/gypsy.scm.h:4
-#: ../aisleriot/rules/jumbo.scm.h:6 ../aisleriot/rules/kansas.scm.h:9
-#: ../aisleriot/rules/king_albert.scm.h:2 ../aisleriot/rules/seahaven.scm.h:2
-#: ../aisleriot/rules/streets_and_alleys.scm.h:2
-#: ../aisleriot/rules/westhaven.scm.h:3 ../aisleriot/rules/whitehead.scm.h:4
-#: ../aisleriot/rules/yukon.scm.h:1
-msgid "an empty foundation"
-msgstr "una fundación vacía"
-
-#: ../aisleriot/rules/bear_river.scm.h:1 ../aisleriot/rules/canfield.scm.h:1
-#: ../aisleriot/rules/chessboard.scm.h:1 ../aisleriot/rules/eagle_wing.scm.h:1
-#: ../aisleriot/rules/glenwood.scm.h:1 ../aisleriot/rules/kansas.scm.h:1
-#: ../aisleriot/rules/plait.scm.h:1
-msgid "Base Card: "
-msgstr "Carta de base: "
-
-#: ../aisleriot/rules/bear_river.scm.h:6
-msgid "Move something onto an empty right-hand tableau slot"
-msgstr "Mueva algo a un hueco vacío a mano derecha del tablero"
-
-#: ../aisleriot/rules/bear_river.scm.h:7
-msgid "an empty foundation slot"
-msgstr "un hueco vacío en fundación"
-
-#: ../aisleriot/rules/camelot.scm.h:3
-msgid "an empty bottom slot"
-msgstr "un hueco inferior vacío"
-
-#: ../aisleriot/rules/camelot.scm.h:4
-msgid "an empty corner slot"
-msgstr "un hueco de esquina vacío"
-
-#: ../aisleriot/rules/camelot.scm.h:5
-msgid "an empty left slot"
-msgstr "un hueco de la izquierda vacío"
-
-#: ../aisleriot/rules/camelot.scm.h:6
-msgid "an empty right slot"
-msgstr "un hueco de la derecha vacío"
-
-#: ../aisleriot/rules/camelot.scm.h:7 ../aisleriot/rules/diamond_mine.scm.h:1
-#: ../aisleriot/rules/klondike.scm.h:10 ../aisleriot/rules/odessa.scm.h:1
-#: ../aisleriot/rules/osmosis.scm.h:6 ../aisleriot/rules/pileon.scm.h:1
-#: ../aisleriot/rules/scorpion.scm.h:2 ../aisleriot/rules/ten_across.scm.h:4
-#: ../aisleriot/rules/union_square.scm.h:3 ../aisleriot/rules/yukon.scm.h:2
-msgid "an empty slot"
-msgstr "un hueco vacío"
-
-#: ../aisleriot/rules/camelot.scm.h:8
-msgid "an empty top slot"
-msgstr "un hueco superior vacío"
-
-#: ../aisleriot/rules/camelot.scm.h:9 ../aisleriot/rules/helsinki.scm.h:2
-#: ../aisleriot/rules/neighbor.scm.h:2 ../aisleriot/rules/thirteen.scm.h:4
-#: ../aisleriot/rules/treize.scm.h:3 ../aisleriot/rules/yield.scm.h:3
-msgid "itself"
-msgstr "si mismo"
-
-#: ../aisleriot/rules/canfield.scm.h:7 ../aisleriot/rules/eagle_wing.scm.h:7
-#: ../aisleriot/rules/glenwood.scm.h:8 ../aisleriot/rules/plait.scm.h:7
-#: ../aisleriot/rules/straight_up.scm.h:2
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:2 ../aisleriot/rules/zebra.scm.h:2
-msgid "Move waste back to stock"
-msgstr "Mover la basura al montón"
-
-#: ../aisleriot/rules/canfield.scm.h:8 ../aisleriot/rules/eagle_wing.scm.h:10
-#: ../aisleriot/rules/kansas.scm.h:7 ../aisleriot/rules/straight_up.scm.h:4
-msgid "Reserve left:"
-msgstr "Queda en reserva:"
-
-#: ../aisleriot/rules/canfield.scm.h:11 ../aisleriot/rules/glenwood.scm.h:12
-msgid "empty slot on foundation"
-msgstr "hueco vacío en fundación"
-
-#: ../aisleriot/rules/canfield.scm.h:12
-msgid "empty space on tableau"
-msgstr "hueco vacío en la mesa"
-
-#: ../aisleriot/rules/chessboard.scm.h:6
-msgid "Move a card to the Foundation"
-msgstr "Mueva una carta a la fundación"
-
-#: ../aisleriot/rules/chessboard.scm.h:7 ../aisleriot/rules/fortress.scm.h:1
-msgid "Move something into the empty Tableau slot"
-msgstr "Ponga algo en el hueco vacío del tablero"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:2
-msgid "Consistency is key"
-msgstr "La consistencia es la clave"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:4
-msgid "Fishing wire makes bad dental floss"
-msgstr "El sedal de pesca no es buen hilo dental"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:6
-msgid "Have you read the help file?"
-msgstr "¿Ha leído el archivo de ayuda?"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:8
-msgid "I could sure use a backrub right about now..."
-msgstr "Me sentaría muy bien un masaje en la espalda..."
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:10
-msgid "If you're ever lost and alone in the woods, hug a tree"
-msgstr "Si alguna vez está perdido y solo en el bosque, abrace un árbol"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:12
-msgid ""
-"Just because a crosswalk looks like a hopscotch board doesn't mean it is one"
-msgstr ""
-"Solo porque un paso de peatones se parece al juego de la rayuela, no quiere "
-"decir que lo sea"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:14
-msgid "Look both ways before you cross the street"
-msgstr "Mire a ambos lados antes de cruzar la calle"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:16
-msgid "Monitors won't give you Vitamin D -- but sunlight will..."
-msgstr "Los monitores no te darán vitamina D -- pero la luz solar sí..."
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:18
-msgid "Never blow in a dog's ear"
-msgstr "Nunca soples en la oreja de un perro"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:20
-msgid "Odessa is a better game.  Really."
-msgstr "Odessa es un juego mejor. De verdad."
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:22
-msgid "Tourniquets are not recommended unless in the direst emergency"
-msgstr "Los torniquetes no se recomiendan a no ser que sea una urgencia grave"
-
-#. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
-#: ../aisleriot/rules/clock.scm.h:24
-msgid "When without a stapler, a staple and a ruler will work"
-msgstr "Cuando no tenga grapadora, una grapa y una regla valdrán"
-
-#: ../aisleriot/rules/cruel.scm.h:1
-msgid "Cards remaining: ~a"
-msgstr "Cartas restantes: ~a"
-
-#: ../aisleriot/rules/cruel.scm.h:2
-msgid "Redeal."
-msgstr "Repartir."
-
-#: ../aisleriot/rules/diamond_mine.scm.h:2
-msgid "the foundation pile"
-msgstr "la pila de fundación"
-
-#: ../aisleriot/rules/eagle_wing.scm.h:6 ../aisleriot/rules/elevator.scm.h:1
-#: ../aisleriot/rules/escalator.scm.h:1 ../aisleriot/rules/royal_east.scm.h:6
-#: ../aisleriot/rules/thirteen.scm.h:1 ../aisleriot/rules/treize.scm.h:1
-#: ../aisleriot/rules/triple_peaks.scm.h:1
-#: ../aisleriot/rules/union_square.scm.h:1
-#: ../aisleriot/rules/westhaven.scm.h:1 ../aisleriot/rules/yield.scm.h:1
-msgid "Deal a card"
-msgstr "Dar una carta"
-
-#: ../aisleriot/rules/eagle_wing.scm.h:8
-msgid "Move ~a to an empty foundation"
-msgstr "Mueva ~a a una fundación vacía"
-
-#: ../aisleriot/rules/eagle_wing.scm.h:12
-msgid "an empty slot on tableau"
-msgstr "un hueco vacío en el tablero"
-
-#: ../aisleriot/rules/easthaven.scm.h:2
-msgid "Move a King on to the empty tableau slot"
-msgstr "Mueva un rey al hueco vacío del tablero"
-
-#: ../aisleriot/rules/easthaven.scm.h:3 ../aisleriot/rules/klondike.scm.h:3
-msgid "No hint available right now"
-msgstr "No hay sugerencias disponibles en este momento"
-
-#: ../aisleriot/rules/eight_off.scm.h:1 ../aisleriot/rules/seahaven.scm.h:1
-msgid "Move something on to an empty reserve"
-msgstr "Mueva algo a una reserva vacía"
-
-#: ../aisleriot/rules/eight_off.scm.h:3 ../aisleriot/rules/seahaven.scm.h:3
-msgid "an empty tableau"
-msgstr "un tablero vacío"
-
-#: ../aisleriot/rules/first_law.scm.h:2
-msgid "I'm not sure"
-msgstr "No estoy seguro"
-
-#: ../aisleriot/rules/first_law.scm.h:3
-msgid "Remove the aces"
-msgstr "Quitar los ases"
-
-#: ../aisleriot/rules/first_law.scm.h:4
-msgid "Remove the eights"
-msgstr "Quitar los ochos"
-
-#: ../aisleriot/rules/first_law.scm.h:5
-msgid "Remove the fives"
-msgstr "Quitar los cincos"
-
-#: ../aisleriot/rules/first_law.scm.h:6
-msgid "Remove the fours"
-msgstr "Quitar los cuatros"
-
-#: ../aisleriot/rules/first_law.scm.h:7
-msgid "Remove the jacks"
-msgstr "Quitar las jotas"
-
-#: ../aisleriot/rules/first_law.scm.h:8
-msgid "Remove the kings"
-msgstr "Quitar los reyes"
-
-#: ../aisleriot/rules/first_law.scm.h:9
-msgid "Remove the nines"
-msgstr "Quitar los nueves"
-
-#: ../aisleriot/rules/first_law.scm.h:10
-msgid "Remove the queens"
-msgstr "Quitar las reinas"
-
-#: ../aisleriot/rules/first_law.scm.h:11
-msgid "Remove the sevens"
-msgstr "Quitar los sietes"
-
-#: ../aisleriot/rules/first_law.scm.h:12
-msgid "Remove the sixes"
-msgstr "Quitar los seises"
-
-#: ../aisleriot/rules/first_law.scm.h:13
-msgid "Remove the tens"
-msgstr "Quitar los dieces"
-
-#: ../aisleriot/rules/first_law.scm.h:14
-msgid "Remove the threes"
-msgstr "Quitar los treses"
-
-#: ../aisleriot/rules/first_law.scm.h:15
-msgid "Remove the twos"
-msgstr "Quitar los doses"
-
-#: ../aisleriot/rules/first_law.scm.h:16
-msgid "Return cards to stock"
-msgstr "Devolver cartas al montón"
-
-#: ../aisleriot/rules/fortunes.scm.h:1 ../aisleriot/rules/klondike.scm.h:1
-msgid "Consider moving something into an empty slot"
-msgstr "Piense en mover algo hacia un lugar vacío"
-
-#: ../aisleriot/rules/fortunes.scm.h:3
-msgid "Move ~a off the board"
-msgstr "Mueva ~a fuera del tablero"
-
-#: ../aisleriot/rules/forty_thieves.scm.h:1
-msgid "Bug! make-hint called on false move."
-msgstr "¡Error! la llamada a la sugerencia resultó en un movimiento falso."
-
-#: ../aisleriot/rules/forty_thieves.scm.h:2
-msgid "Deal a card from stock"
-msgstr "Dar una carta del montón"
-
-#: ../aisleriot/rules/forty_thieves.scm.h:5
-msgid "an empty space"
-msgstr "un hueco vacío"
-
-#: ../aisleriot/rules/freecell.scm.h:1
-msgid "No moves are possible. Undo or start again."
-msgstr "No quedan jugadas posibles. Vuelva atrás o empiece de nuevo."
-
-#: ../aisleriot/rules/freecell.scm.h:2
-msgid "The game has no solution. Undo or start again."
-msgstr "La partida no tiene solución. Vuelva atrás o empiece de nuevo."
-
-#: ../aisleriot/rules/freecell.scm.h:3
-msgid "an empty reserve"
-msgstr "una reserva vacía"
-
-#: ../aisleriot/rules/freecell.scm.h:4
-msgid "an open tableau"
-msgstr "un tablero abierto"
-
-#: ../aisleriot/rules/freecell.scm.h:5 ../aisleriot/rules/terrace.scm.h:26
-msgid "the foundation"
-msgstr "la fundación"
-
-#: ../aisleriot/rules/gaps.scm.h:1
-msgid "Add to the sequence in row ~a."
-msgstr "Añadir a la secuencia en la fila ~a."
-
-#: ../aisleriot/rules/gaps.scm.h:2
-msgid "Double click any card to redeal."
-msgstr "Pulse dos veces en cualquier carta para volver a repartir."
-
-#: ../aisleriot/rules/gaps.scm.h:3
-msgid "No hint available."
-msgstr "No hay sugerencias disponible."
-
-#: ../aisleriot/rules/gaps.scm.h:4
-msgid "Place a two in the leftmost slot of row ~a."
-msgstr "Colocar dos en el hueco más a la izquierda de la fila ~a."
-
-#: ../aisleriot/rules/gaps.scm.h:5
-msgid "Place the ~a next to ~a."
-msgstr "Coloca ~a al lado de ~a."
-
-#: ../aisleriot/rules/gaps.scm.h:6
-msgid "Randomly Placed Gaps on Redeal"
-msgstr "Espacios colocados aleatoriamente en el reparto"
-
-#: ../aisleriot/rules/giant.scm.h:1
-msgid "Alternating colors"
-msgstr "Colores alternativos"
-
-#: ../aisleriot/rules/giant.scm.h:2
-msgid "Deal a row"
-msgstr "Repartir una fila"
-
-#: ../aisleriot/rules/giant.scm.h:3
-msgid "Deals left: ~a"
-msgstr "Repartos restantes: ~a"
-
-#: ../aisleriot/rules/giant.scm.h:4
-msgid "Same suit"
-msgstr "Mismo palo"
-
-#: ../aisleriot/rules/giant.scm.h:5
-msgid "Try dealing a row of cards"
-msgstr "Inténtelo repartiendo una fila de cartas"
-
-#: ../aisleriot/rules/giant.scm.h:6
-msgid "Try moving a card to the reserve"
-msgstr "Intente mover una carta a la reserva"
-
-#: ../aisleriot/rules/giant.scm.h:7 ../aisleriot/rules/spider.scm.h:7
-msgid "Try moving card piles around"
-msgstr "Intente mover montones de cartas de un lado a otro"
-
-#: ../aisleriot/rules/giant.scm.h:8
-msgid "an empty foundation place"
-msgstr "un sitio de fundación vacía"
-
-#: ../aisleriot/rules/giant.scm.h:9
-msgid "an empty tableau place"
-msgstr "un sitio vacío en el tablero"
-
-#: ../aisleriot/rules/glenwood.scm.h:7
-msgid "Move a card from the reserve on to the empty tableau slot"
-msgstr "Mueva una carta de la reserva al hueco vacío del tablero"
-
-#: ../aisleriot/rules/glenwood.scm.h:10
-msgid "Select a card from the reserve for first foundation pile"
-msgstr "Seleccione una carta de la reserva para el primero montón"
-
-#: ../aisleriot/rules/glenwood.scm.h:13
-msgid "on to the empty tableau slot"
-msgstr "al hueco vacío del tablero"
-
-#: ../aisleriot/rules/golf.scm.h:1 ../aisleriot/rules/hopscotch.scm.h:1
-#: ../aisleriot/rules/jumbo.scm.h:1 ../aisleriot/rules/kansas.scm.h:6
-#: ../aisleriot/rules/sir_tommy.scm.h:1 ../aisleriot/rules/whitehead.scm.h:1
-msgid "Deal another card"
-msgstr "Dar otra carta"
-
-#: ../aisleriot/rules/golf.scm.h:2 ../aisleriot/rules/osmosis.scm.h:4
-#: ../aisleriot/rules/spider.scm.h:6
-msgid "Stock left: ~a"
-msgstr "Montón restante: ~a"
-
-#: ../aisleriot/rules/gypsy.scm.h:1
-msgid "Deal another hand"
-msgstr "Dar otra mano"
-
-#: ../aisleriot/rules/gypsy.scm.h:2
-msgid "Move a card or build of cards on to the empty slot"
-msgstr "Mueva una carta o un juego de cartas al hueco vacío"
-
-#: ../aisleriot/rules/hopscotch.scm.h:2
-msgid "Move card from waste"
-msgstr "Mover carta desde el basurero"
-
-#: ../aisleriot/rules/jumbo.scm.h:2
-msgid "Move waste to stock"
-msgstr "Mover la basura al almacén"
-
-#: ../aisleriot/rules/jumbo.scm.h:7 ../aisleriot/rules/kansas.scm.h:10
-#: ../aisleriot/rules/king_albert.scm.h:3
-#: ../aisleriot/rules/lady_jane.scm.h:11
-#: ../aisleriot/rules/straight_up.scm.h:6
-msgid "an empty tableau slot"
-msgstr "un hueco de tablero vacío"
-
-#: ../aisleriot/rules/kings_audience.scm.h:1
-msgid "Deal a new card"
-msgstr "Repartir una carta nueva"
-
-#: ../aisleriot/rules/kings_audience.scm.h:2
-msgid "Stock remaining: ~a"
-msgstr "Montón restante: ~a"
-
-#: ../aisleriot/rules/klondike.scm.h:4
-msgid "No redeals"
-msgstr "No hay más repartos"
-
-#: ../aisleriot/rules/klondike.scm.h:6
-msgid "Single card deals"
-msgstr "Reparto de 1 carta"
-
-#: ../aisleriot/rules/klondike.scm.h:9
-msgid "Try moving cards down from the foundation"
-msgstr "Intente bajar cartas de la fundación"
-
-#: ../aisleriot/rules/lady_jane.scm.h:1 ../aisleriot/rules/royal_east.scm.h:1
-msgid "Base Card:"
-msgstr "Carta de base:"
-
-#: ../aisleriot/rules/maze.scm.h:1
-msgid ""
-"Aim to place the suits in the order which fits the current layout most "
-"naturally."
-msgstr ""
-"Intente colocar los palos en el orden que más se ajuste a la disposición "
-"actual."
-
-#: ../aisleriot/rules/osmosis.scm.h:2
-msgid "Deal new cards from the deck"
-msgstr "Repartir cartas nuevas del montón"
-
-#: ../aisleriot/rules/osmosis.scm.h:3
-msgid "Redeals left: ~a"
-msgstr "Repartos restantes: ~a"
-
-#: ../aisleriot/rules/pileon.scm.h:2 ../aisleriot/rules/terrace.scm.h:25
-msgid "something"
-msgstr "algo"
-
-#: ../aisleriot/rules/plait.scm.h:8
-msgid "Move ~a from the stock to an empty edge or tableau slot"
-msgstr "Mueva ~a de la reserva a un hueco vacío del tablero o del borde"
-
-#: ../aisleriot/rules/plait.scm.h:9
-msgid "Move ~a to an empty field"
-msgstr "Mueva ~a a un campo vacío"
-
-#: ../aisleriot/rules/poker.scm.h:1
-msgid "Place cards on to the Tableau to form poker hands"
-msgstr "Coloque las cartas en el tablero para formar manos de póquer"
-
-#: ../aisleriot/rules/poker.scm.h:2
-msgid "Shuffle mode"
-msgstr "Modo de barajar"
-
-#: ../aisleriot/rules/royal_east.scm.h:9
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:6
-#: ../aisleriot/rules/westhaven.scm.h:4
-msgid "an empty tableau pile"
-msgstr "una pila de tablero vacía"
-
-#: ../aisleriot/rules/scorpion.scm.h:1
-msgid "Deal the cards"
-msgstr "Dar las cartas"
-
-#: ../aisleriot/rules/scuffle.scm.h:3
-msgid "Reshuffle cards"
-msgstr "Barajar las cartas"
-
-#: ../aisleriot/rules/sir_tommy.scm.h:2
-msgid "Move waste on to a reserve slot"
-msgstr "Mover la basura a la reserva"
-
-#: ../aisleriot/rules/sir_tommy.scm.h:4
-msgid "empty foundation"
-msgstr "fundación vacía"
-
-#: ../aisleriot/rules/spider.scm.h:2
-msgid "Four Suits"
-msgstr "Cuatro palos"
-
-#: ../aisleriot/rules/spider.scm.h:3
-msgid "One Suit"
-msgstr "Un palo"
-
-#: ../aisleriot/rules/spider.scm.h:4
-msgid "Place something on empty slot"
-msgstr "Ponga algo en el espacio vacío"
-
-#: ../aisleriot/rules/spider.scm.h:5
-msgid "Please fill in empty pile first."
-msgstr "Llene una pila vacía primero."
-
-#: ../aisleriot/rules/spider.scm.h:8
-msgid "Two Suits"
-msgstr "Dos palos"
-
-#: ../aisleriot/rules/spider.scm.h:9
-msgid "Undo until there are enough cards to fill all tableau piles"
-msgstr ""
-"Deshacer hasta que haya suficientes cartas para llenar todas las pilas del "
-"tablero"
-
-#: ../aisleriot/rules/ten_across.scm.h:1
-msgid "Allow temporary spots use"
-msgstr "Permitir el uso de huecos temporales"
-
-#: ../aisleriot/rules/ten_across.scm.h:2
-msgid "Move a card to an empty temporary slot"
-msgstr "Mueva una carta a un hueco temporal vacío"
-
-#: ../aisleriot/rules/ten_across.scm.h:3
-msgid "No hint available"
-msgstr "No hay una sugerencia disponible"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:7
-msgid "Blondes and Brunettes"
-msgstr "Rubias y morenas"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:10
-msgid "Falling Stars"
-msgstr "Estrellas fugaces"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:12
-msgid "General's Patience"
-msgstr "Paciencia general"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:15
-msgid "Redheads"
-msgstr "Pelirrojas"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:17
-msgid "Signora"
-msgstr "Señora"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:22
-msgid "Wood"
-msgstr "Madera"
-
-#: ../aisleriot/rules/thieves.scm.h:1
-msgid "Deal a card from the deck"
-msgstr "Dar una carta de la mesa"
-
-#: ../aisleriot/rules/thirteen.scm.h:2
-msgid "Match the top two cards of the waste."
-msgstr "Coincidir las dos cartas superiores del descarte."
-
-#: ../aisleriot/rules/triple_peaks.scm.h:2
-msgid "Multiplier Scoring"
-msgstr "Puntuación de multiplicador"
-
-#: ../aisleriot/rules/triple_peaks.scm.h:3
-msgid "Progressive Rounds"
-msgstr "Rondas progresivas"
-
-#: ../aisleriot/rules/union_square.scm.h:4
-msgid "appropriate foundation pile"
-msgstr "pila de fundación apropiada"
-
-#: ../aisleriot/rules/whitehead.scm.h:2
-msgid "Move a build of cards on to the empty Tableau slot"
-msgstr "Mueva una baraja de cartas al hueco vacío de la mesa"
-
-#: ../aisleriot/rules/zebra.scm.h:5
-msgid "the appropriate Foundation pile"
-msgstr "la pila de fundación apropiada"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:1
 msgid "A flag to enable 3D mode"
@@ -3197,10 +161,44 @@ msgstr "Mostrar el movimiento siguiente"
 msgid "Show the previous move"
 msgstr "Mostrar el movimiento anterior"
 
+#. Tooltip for start new game toolbar button
+#: ../glchess/data/glchess.ui.h:16 ../gnobots2/menu.c:71
+#: ../libgames-support/games-stock.c:50 ../mahjongg/mahjongg.c:1203
+msgid "Start a new game"
+msgstr "Iniciar un juego nuevo"
+
 #. The undo move toolbar button
 #: ../glchess/data/glchess.ui.h:18
 msgid "Undo Move"
 msgstr "Deshacer movimiento"
+
+#. Help contents menu item
+#: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:250
+#: ../libgames-support/games-stock.c:249
+msgid "_Contents"
+msgstr "Índ_ice"
+
+#. Game menu name
+#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1639
+#: ../gnect/src/main.c:1241 ../gnibbles/main.c:687 ../gnobots2/menu.c:66
+#: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:226
+#: ../gnomine/gnomine.c:768 ../gnotravex/gnotravex.c:1706
+#: ../gnotski/gnotski.c:409 ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:847
+#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1200
+#: ../swell-foop/data/swell-foop.ui.h:2
+msgid "_Game"
+msgstr "_Juego"
+
+#. Help menu item
+#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1641
+#: ../gnect/src/main.c:1244 ../gnibbles/main.c:690 ../gnobots2/menu.c:70
+#: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:249
+#: ../gnomine/gnomine.c:770 ../gnotravex/gnotravex.c:1710
+#: ../gnotski/gnotski.c:411 ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:849
+#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1202
+#: ../swell-foop/data/swell-foop.ui.h:3
+msgid "_Help"
+msgstr "Ay_uda"
 
 # #: ../glchess/glade/glchess.glade.h:44
 #. Save menu item
@@ -3217,6 +215,11 @@ msgstr "De_recha"
 #: ../mahjongg/mahjongg.c:1201
 msgid "_Settings"
 msgstr "Aju_stes"
+
+#. Undo move menu item
+#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:261
+msgid "_Undo Move"
+msgstr "_Deshacer movimiento"
 
 #. Preferences Dialog: Combo box entry for game timer of thirty minutes
 #: ../glchess/data/preferences.ui.h:2
@@ -4033,6 +1036,16 @@ msgstr ""
 "\n"
 "glChess es parte de los Juegos de GNOME."
 
+#: ../glchess/src/glchess.vala:1347 ../glines/glines.c:1218
+#: ../gnect/src/main.c:874 ../gnibbles/main.c:211 ../gnobots2/menu.c:263
+#: ../quadrapassel/tetris.cpp:1313 ../gnome-sudoku/src/lib/defaults.py.in:45
+#: ../gnomine/gnomine.c:479 ../gnotravex/gnotravex.c:1615
+#: ../gnotski/gnotski.c:1490 ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
+#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:911
+#: ../swell-foop/src/About.js:19
+msgid "GNOME Games web site"
+msgstr "Sitio web de los juegos de GNOME"
+
 #. Title of save game dialog
 #: ../glchess/src/glchess.vala:1401
 msgid "Save Chess Game"
@@ -4052,7 +1065,6 @@ msgstr "Todos los archivos"
 
 #: ../glchess/src/glchess.vala:1445
 #, c-format
-#| msgid "Unabled to save game"
 msgid "Failed to save game: %s"
 msgstr "Falló al guardar la partida: %s"
 
@@ -4063,7 +1075,6 @@ msgstr "Cargar juego de ajedrez"
 
 #: ../glchess/src/glchess.vala:1511
 #, c-format
-#| msgid "Unabled to load game"
 msgid "Failed to open game: %s"
 msgstr "Falló al cargar la partida: %s"
 
@@ -4166,6 +1177,22 @@ msgstr ""
 "\n"
 "Cinco o más es parte de los Juegos de GNOME."
 
+#. this doesn't work for anyone
+#: ../glines/glines.c:1215 ../gnect/src/main.c:877 ../gnibbles/main.c:208
+#: ../gnobots2/menu.c:267 ../quadrapassel/tetris.cpp:1316
+#: ../gnome-sudoku/src/lib/main.py:704 ../gnomine/gnomine.c:476
+#: ../gnotravex/gnotravex.c:1612 ../gnotski/gnotski.c:1487
+#: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:270
+#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:908
+#: ../swell-foop/src/About.js:20
+msgid "translator-credits"
+msgstr ""
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2008-2010\n"
+"Jorge González <jorgegonz@svn.gnome.org>, 2008\n"
+"Lucas Vieites <lucas@asixinformatica.com>, 2002-2008\n"
+"Germán Poo Caamaño <gpoo@ubiobio.cl>\n"
+"Pablo Saratxaga <pablo@mandrakesoft.com>"
+
 #: ../glines/glines.c:1396
 msgid "Five or More Preferences"
 msgstr "Preferencias de Cinco o más"
@@ -4200,6 +1227,11 @@ msgstr "_Usar movimientos rápidos"
 #: ../glines/glines.c:1810
 msgid "Next:"
 msgstr "Siguiente:"
+
+#: ../glines/glines.c:1840 ../gnobots2/statusbar.c:67
+#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:439
+msgid "Score:"
+msgstr "Puntuación:"
 
 #: ../glines/glines.desktop.in.in.h:2
 msgid "Remove colored balls from the board by forming lines"
@@ -4318,9 +1350,18 @@ msgstr "Mover izquierda"
 msgid "Move right"
 msgstr "Mover derecha"
 
+#: ../gnect/data/gnect.schemas.in.h:11 ../gnobots2/properties.c:483
+#: ../iagno/iagno.schemas.in.h:1
+msgid "Sound"
+msgstr "Sonido"
+
 #: ../gnect/data/gnect.schemas.in.h:12
 msgid "Theme ID"
 msgstr "ID de tema"
+
+#: ../gnect/data/gnect.schemas.in.h:13 ../iagno/iagno.schemas.in.h:2
+msgid "Whether or not to play event sounds."
+msgstr "Reproducir sonidos de evento."
 
 #: ../gnect/data/gnect.schemas.in.h:14
 msgid "Whether or not to use animation."
@@ -4404,6 +1445,11 @@ msgstr ""
 "Velena de Giuliano Bertoletti.\n"
 "\n"
 "«Cuatro en raya» es parte de los juegos de GNOME."
+
+#: ../gnect/src/main.c:1242 ../gnibbles/main.c:688 ../gnobots2/menu.c:67
+#: ../gnotski/gnotski.c:410
+msgid "_View"
+msgstr "_Ver"
 
 #: ../gnect/src/prefs.c:116
 #, c-format
@@ -4859,6 +1905,13 @@ msgstr ""
 "¡Buen trabajo! Desafortunadamente su puntuación no alcanzó los 10 mejores "
 "puestos."
 
+#. Translators: This "_New Game" is for the game-over dialogue
+#: ../gnobots2/game.c:154 ../gnome-sudoku/data/select_game.ui.h:1
+#: ../gnomine/gnomine.c:201 ../gnotski/gnotski.c:774
+#: ../libgames-support/games-stock.c:255
+msgid "_New Game"
+msgstr "Juego _nuevo"
+
 #: ../gnobots2/game.c:167
 msgid "Robots Scores"
 msgstr "Puntuación de Robots"
@@ -4888,6 +1941,10 @@ msgstr "No hay ningún lugar seguro hacia el cual teletransportarse"
 #: ../gnobots2/gnobots.c:85
 msgid "Set game scenario"
 msgstr "Seleccione un escenario"
+
+#: ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
+msgid "NAME"
+msgstr "NOMBRE"
 
 #: ../gnobots2/gnobots.c:87
 msgid "Set game configuration"
@@ -5237,6 +2294,14 @@ msgstr "_Esperar"
 #: ../gnobots2/menu.c:79
 msgid "Wait for the robots"
 msgstr "Esperar a los robots"
+
+#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1223
+msgid "_Toolbar"
+msgstr "Barra de herramien_tas"
+
+#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1223
+msgid "Show or hide the toolbar"
+msgstr "Mostrar u ocultar la barra de herramientas"
 
 #: ../gnobots2/menu.c:264
 msgid ""
@@ -5603,6 +2668,10 @@ msgstr "Puntuación de Quadrapassel"
 msgid "Paused"
 msgstr "Detenido"
 
+#: ../quadrapassel/blockops.cpp:788
+msgid "Game Over"
+msgstr "Juego terminado"
+
 #: ../gnome-sudoku/gnome-sudoku.desktop.in.in.h:1
 #: ../gnome-sudoku/src/lib/defaults.py.in:40
 msgid "Sudoku"
@@ -5770,6 +2839,32 @@ msgstr ""
 "Foundation; ya sea en la versión 2 de la Licencia, como (a su elección) "
 "cualquier otra versión posterior."
 
+#: ../gnome-sudoku/src/lib/defaults.py.in:55
+#: ../libgames-support/games-stock.c:325
+#, c-format, python-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"%s se distribuye con el ánimo de que le será útil, pero SIN NINGUNA "
+"GARANTÍA; sin incluso la garantía implícita de MERCANTILIDAD o IDONEIDAD "
+"PARA UN PROPÓSITO DETERMINADO. Vea la Licencia Pública General de GNU para "
+"más detalles."
+
+#: ../gnome-sudoku/src/lib/defaults.py.in:59
+#: ../libgames-support/games-stock.c:330
+#, c-format, python-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"Debería haber recibido una copia de la Licencia Pública General GNU junto "
+"con %s; si no, escriba a la Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301 EE. UU."
+
 #: ../gnome-sudoku/src/lib/defaults.py.in:70
 #, python-format
 msgid "Unable to make data directory %(dir)s: %(error)s"
@@ -5820,6 +2915,11 @@ msgstr "No se puede marcar la partida como terminada."
 msgid "New game"
 msgstr "Partida nueva"
 
+#. Translators: this is the "Reset" scores button in a scores dialogue
+#: ../gnome-sudoku/src/lib/main.py:228 ../libgames-support/games-stock.c:258
+msgid "_Reset"
+msgstr "_Reiniciar"
+
 #: ../gnome-sudoku/src/lib/main.py:230
 msgid "_Undo"
 msgstr "_Deshacer"
@@ -5851,6 +2951,10 @@ msgstr "Imprimir _múltiples sudokus…"
 #: ../gnome-sudoku/src/lib/main.py:242
 msgid "_Tools"
 msgstr "Herramien_tas"
+
+#: ../gnome-sudoku/src/lib/main.py:243 ../libgames-support/games-stock.c:251
+msgid "_Hint"
+msgstr "_Sugerencia"
 
 #: ../gnome-sudoku/src/lib/main.py:244
 msgid "Show a square that is easy to fill."
@@ -6166,6 +3270,10 @@ msgstr "Pulse en un cuadro, cualquier cuadro"
 msgid "Maybe they're all mines ..."
 msgstr "Quizás son todas minas…"
 
+#: ../gnomine/gnomine.c:436 ../mahjongg/mahjongg.c:867
+msgid "Main game:"
+msgstr "Juego principal:"
+
 #: ../gnomine/gnomine.c:442
 msgid "Resizing and SVG support:"
 msgstr "Soporte para redimensionado y SVG:"
@@ -6241,6 +3349,11 @@ msgstr "Alto de la rejilla"
 #: ../gnomine/gnomine.c:927
 msgid "Number of mines"
 msgstr "Número de minas"
+
+#: ../gnomine/gnomine.c:928 ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109
+#: ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
+msgid "NUMBER"
+msgstr "NÚMERO"
 
 #: ../gnomine/gnomine.c:930 ../gnomine/gnomine.schemas.in.h:8
 msgid "Size of the board (0-2 = small-large, 3=custom)"
@@ -6483,6 +3596,10 @@ msgstr "Puzle resuelto. Enhorabuena."
 msgid "Puzzle solved!"
 msgstr "Puzle resuelto."
 
+#: ../gnotravex/gnotravex.c:1401 ../mahjongg/mahjongg.c:1407
+msgid "Time:"
+msgstr "Tiempo:"
+
 #: ../gnotravex/gnotravex.c:1602
 msgid ""
 "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
@@ -6539,9 +3656,17 @@ msgstr "Aba_jo"
 msgid "Move the pieces down"
 msgstr "Mover las piezas hacia abajo"
 
+#: ../gnotravex/gnotravex.c:1730
+msgid "_Click to Move"
+msgstr "_Pulsar para mover"
+
 #: ../gnotravex/gnotravex.desktop.in.in.h:1
 msgid "Complete the puzzle by matching numbered tiles"
 msgstr "Complete el puzle haciendo coincidir las baldosas numeradas"
+
+#: ../gnotravex/gnotravex.schemas.in.h:1
+msgid "Select the style of control"
+msgstr "Seleccione el estilo del control"
 
 #: ../gnotravex/gnotravex.schemas.in.h:2
 msgid ""
@@ -7242,9 +4367,88 @@ msgstr "Invertir resultado _final"
 msgid "_Tile set:"
 msgstr "Juego de _fichas:"
 
+#: ../libgames-support/eggdesktopfile.c:169
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "El archivo no es un archivo .desktop válido"
+
+#: ../libgames-support/eggdesktopfile.c:192
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "No se reconoce la versión «%s» del archivo desktop"
+
+#: ../libgames-support/eggdesktopfile.c:966
+#, c-format
+msgid "Starting %s"
+msgstr "Iniciando %s"
+
+#: ../libgames-support/eggdesktopfile.c:1108
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "La aplicación no acepta documentos en la línea de comandos"
+
+#: ../libgames-support/eggdesktopfile.c:1176
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Opción de lanzamiento no reconocida: %d"
+
+#: ../libgames-support/eggdesktopfile.c:1381
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+"No se pueden pasar los URI de documentos a entradas de escritorio «Type=Link»"
+
+#: ../libgames-support/eggdesktopfile.c:1402
+#, c-format
+msgid "Not a launchable item"
+msgstr "No es un elemento lanzable"
+
+#: ../libgames-support/eggsmclient.c:226
+msgid "Disable connection to session manager"
+msgstr "Desactivar conexión con el gestor de sesión"
+
+#: ../libgames-support/eggsmclient.c:229
+msgid "Specify file containing saved configuration"
+msgstr "Especificar el archivo que contiene la configuración guardada"
+
+#: ../libgames-support/eggsmclient.c:229
+msgid "FILE"
+msgstr "ARCHIVO"
+
+#: ../libgames-support/eggsmclient.c:232
+msgid "Specify session management ID"
+msgstr "Especificar el ID se gestión de sesión"
+
+#: ../libgames-support/eggsmclient.c:232
+msgid "ID"
+msgstr "ID"
+
+#: ../libgames-support/eggsmclient.c:253
+msgid "Session management options:"
+msgstr "Opciones de gestión de la sesión:"
+
+#: ../libgames-support/eggsmclient.c:254
+msgid "Show session management options"
+msgstr "Mostrar las opciones de gestión de la sesión"
+
 #: ../libgames-support/games-controls.c:297
 msgid "Unknown Command"
 msgstr "Comando desconocido"
+
+#. %s.%s is the game name + the extension HTML or XHTML, e.g. Klondike.html"
+#: ../libgames-support/games-help.c:109
+#, c-format
+msgid "Help file “%s.%s” not found"
+msgstr "No se ha encontrado el archivo de ayuda «%s.%s»"
+
+#: ../libgames-support/games-help.c:147
+#, c-format
+msgid "Could not show help for “%s”"
+msgstr "No se pudo mostrar la ayuda de «%s»"
+
+#: ../libgames-support/games-scores-dialog.c:135
+msgid "Time"
+msgstr "Tiempo"
 
 #. Note that this assumes the default style is plain.
 #: ../libgames-support/games-scores-dialog.c:140
@@ -7261,6 +4465,154 @@ msgstr "%dm:%ds"
 #: ../libgames-support/games-scores-dialog.c:557
 msgid "Name"
 msgstr "Nombre"
+
+#: ../libgames-support/games-stock.c:43
+msgid "View help for this game"
+msgstr "Mostrar la ayuda de este juego"
+
+#: ../libgames-support/games-stock.c:44
+msgid "End the current game"
+msgstr "Finalizar el juego actual"
+
+#: ../libgames-support/games-stock.c:45
+msgid "Toggle fullscreen mode"
+msgstr "Activar pantalla completa"
+
+#: ../libgames-support/games-stock.c:46
+msgid "Get a hint for your next move"
+msgstr "Obtener una pista para el siguiente movimiento"
+
+#: ../libgames-support/games-stock.c:47
+msgid "Leave fullscreen mode"
+msgstr "Abandonar pantalla completa"
+
+#: ../libgames-support/games-stock.c:48
+msgid "Start a new multiplayer network game"
+msgstr "Iniciar una partida multijugador en red"
+
+#: ../libgames-support/games-stock.c:49
+msgid "End the current network game and return to network server"
+msgstr "Terminar la partida de red actual y volver al servidor de red"
+
+#: ../libgames-support/games-stock.c:51
+msgid "Pause the game"
+msgstr "Pausar el juego"
+
+#: ../libgames-support/games-stock.c:52
+msgid "Show a list of players in the network game"
+msgstr "Mostrar una lista de jugadores en la partida de red"
+
+#: ../libgames-support/games-stock.c:53
+msgid "Redo the undone move"
+msgstr "Rehacer el movimiento deshecho"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Restart the game"
+msgstr "Reiniciar el juego"
+
+#: ../libgames-support/games-stock.c:55
+msgid "Resume the paused game"
+msgstr "Reiniciar el juego pausado"
+
+#: ../libgames-support/games-stock.c:56
+msgid "View the scores"
+msgstr "Ver la puntuación"
+
+#: ../libgames-support/games-stock.c:57 ../mahjongg/mahjongg.c:1207
+msgid "Undo the last move"
+msgstr "Anular el último movimiento"
+
+#: ../libgames-support/games-stock.c:58
+msgid "About this game"
+msgstr "Acerca de este juego"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Close this window"
+msgstr "Cerrar esta ventana"
+
+#: ../libgames-support/games-stock.c:60
+msgid "Configure the game"
+msgstr "Configurar el juego"
+
+#: ../libgames-support/games-stock.c:61
+msgid "Quit this game"
+msgstr "Salir de este juego"
+
+#: ../libgames-support/games-stock.c:250
+msgid "_Fullscreen"
+msgstr "_Pantalla completa"
+
+#. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
+#: ../libgames-support/games-stock.c:253
+msgid "_New"
+msgstr "_Nuevo"
+
+#: ../libgames-support/games-stock.c:256
+msgid "_Redo Move"
+msgstr "_Rehacer movimiento"
+
+#. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
+#: ../libgames-support/games-stock.c:260
+msgid "_Restart"
+msgstr "_Reiniciar"
+
+#: ../libgames-support/games-stock.c:262
+msgid "_Deal"
+msgstr "R_epartir"
+
+#: ../libgames-support/games-stock.c:263
+msgid "_Leave Fullscreen"
+msgstr "Abandonar _pantalla completa"
+
+#: ../libgames-support/games-stock.c:264
+msgid "Network _Game"
+msgstr "_Partida en red"
+
+#: ../libgames-support/games-stock.c:265
+msgid "L_eave Game"
+msgstr "_Dejar partida"
+
+#: ../libgames-support/games-stock.c:266
+msgid "Player _List"
+msgstr "_Lista de jugadores"
+
+#: ../libgames-support/games-stock.c:267
+msgid "_Pause"
+msgstr "_Pausa"
+
+#: ../libgames-support/games-stock.c:268
+msgid "Res_ume"
+msgstr "C_ontinuar"
+
+#: ../libgames-support/games-stock.c:269
+msgid "_Scores"
+msgstr "_Puntuación"
+
+#: ../libgames-support/games-stock.c:270
+msgid "_End Game"
+msgstr "Finalizar el ju_ego"
+
+#. %s is replaced with the name of the game in gnome-games.
+#: ../libgames-support/games-stock.c:320
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version %d of the License, or (at your option) any later "
+"version."
+msgstr ""
+"%s es software libre; puede redistribuirlo y/o modificarlo bajo los términos "
+"de la Licencia Pública General GNU tal como la publica la Free Software "
+"Foundation; ya sea en la versión %d de la Licencia, como (a su elección) "
+"cualquier otra versión posterior."
+
+#: ../libgames-support/games-stock.c:334
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Debería haber recibido una copia de la Licencia Pública General GNU junto "
+"con este programa. De lo contrario, visite <http://www.gnu.org/licenses/>."
 
 #: ../lightsoff/lightsoff.desktop.in.in.h:1 ../lightsoff/data/lightsoff.ui.h:1
 #: ../lightsoff/data/settings.ui.h:2 ../lightsoff/src/About.js:11
@@ -7552,14 +4904,19 @@ msgid "Zealous animation"
 msgstr "Animación zealous"
 
 #: ../swell-foop/src/About.js:13
+#| msgid ""
+#| "I want to play that game! You know, they all go whirly-round and you "
+#| "click on them and they vanish!\n"
+#| "\n"
+#| "Swell Foop is a part of GNOME Games."
 msgid ""
-"I want to play that game! You know, they all go whirly-round and you click "
-"on them and they vanish!\n"
+"I want to play that game! You know, they all light-up and you click on them "
+"and they vanish!\n"
 "\n"
 "Swell Foop is a part of GNOME Games."
 msgstr ""
-"Yo quiero jugar a ese juego. Ya sabes, giran y giran y pulsas en ellos y "
-"desaparecen.\n"
+"Yo quiero jugar a ese juego. Ya sabes, todos se encienden y pulsas en ellos "
+"y desaparecen.\n"
 "\n"
 "Swell Foop es parte de los Juegos de GNOME."
 
@@ -7589,6 +4946,1495 @@ msgstr "Normal"
 #: ../swell-foop/src/Score.js:146
 msgid "Large"
 msgstr "Grande"
+
+#~ msgid "A list of recently played games."
+#~ msgstr "Una lista de juegos recientemente jugados."
+
+#~ msgid ""
+#~ "A list of strings that come in the form of a quintuple: name, wins, total "
+#~ "games played, best time (in seconds) and worst time (also in seconds). "
+#~ "Unplayed games do not need to be represented."
+#~ msgstr ""
+#~ "Una lista de cadenas en forma de quinteto: nombre, victorias, total de "
+#~ "partidas jugadas, mejor tiempo (en segundos) y peor tiempo (también en "
+#~ "segundos). Los juegos sin partidas no se tienen que representar."
+
+#~ msgid "Animations"
+#~ msgstr "Animaciones"
+
+#~ msgid "Recently played games"
+#~ msgstr "Juegos recientemente jugados"
+
+#~ msgid ""
+#~ "Select whether to drag the cards or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Seleccione entre arrastrar las cartas o pulsar en el origen y después en "
+#~ "el destino."
+
+#~ msgid "Statistics of games played"
+#~ msgstr "Estadísticas de los juegos jugados"
+
+#~ msgid "The game file to use"
+#~ msgstr "Nombre del archivo del juego"
+
+#~ msgid "The name of the file with the graphics for the cards."
+#~ msgstr "El nombre del archivo con las imágenes para las cartas."
+
+#~ msgid "The name of the scheme file containing the solitaire game to play."
+#~ msgstr ""
+#~ "El nombre del archivo de esquema que contiene el juego de solitario que "
+#~ "se jugará."
+
+#~ msgid "Theme file name"
+#~ msgstr "Nombre del archivo del tema"
+
+#~ msgid "Whether or not to animate card moves."
+#~ msgstr ""
+#~ "Indica si se debe usar animación para los movimientos de las cartas."
+
+#~ msgid "Whether or not to show the status bar"
+#~ msgstr "Indica si se debe mostrar la barra de estado"
+
+#~ msgid "Whether or not to show the toolbar"
+#~ msgstr "Mostrar u ocultar la barra de herramientas"
+
+#~ msgid "Select Game"
+#~ msgstr "Elegir un juego"
+
+#~ msgid "_Select"
+#~ msgstr "_Seleccionar"
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "Solitario FreeCell"
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "Juegue al popular juego de cartas FreeCell"
+
+#~ msgid ""
+#~ "Aisleriot cannot load the file “%s”. Please check your Aisleriot "
+#~ "installation."
+#~ msgstr ""
+#~ "Aisleriot no puede cargar el archivo: «%s». Revise su instalación de "
+#~ "Aisleriot."
+
+#~ msgctxt "slot type"
+#~ msgid "foundation"
+#~ msgstr "fundación"
+
+#~ msgctxt "slot type"
+#~ msgid "reserve"
+#~ msgstr "reserva"
+
+#~ msgctxt "slot type"
+#~ msgid "stock"
+#~ msgstr "montón"
+
+#~ msgctxt "slot type"
+#~ msgid "tableau"
+#~ msgstr "tablero"
+
+#~ msgctxt "slot type"
+#~ msgid "waste"
+#~ msgstr "basura"
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on foundation"
+#~ msgstr "%s en la fundación"
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on reserve"
+#~ msgstr "%s en la reserva"
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on stock"
+#~ msgstr "%s en el montón"
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on tableau"
+#~ msgstr "%s en el tablero"
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on waste"
+#~ msgstr "%s en la basura"
+
+#~ msgid "Aisleriot cannot find the last game you played."
+#~ msgstr "Aisleriot no puede encontrar el último juego que jugó."
+
+#~ msgid ""
+#~ "This usually occurs when you run an older version of Aisleriot which does "
+#~ "not have the game you last played. The default game, Klondike, is being "
+#~ "started instead."
+#~ msgstr ""
+#~ "Esto normalmente ocurre cuando ejecuta una versión más antigua se "
+#~ "Aisleriot que no dispone del último juego que jugó. Se iniciará el juego "
+#~ "predeterminado, Klondike, en su lugar."
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "Este juego todavía no tiene soporte para sugerencias."
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "Mover %s en %s."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "Está buscando un %s."
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "Este juego no puede hacer sugerencias."
+
+#~ msgid "Peek"
+#~ msgstr "Vistazo"
+
+#~ msgid "Auld Lang Syne"
+#~ msgstr "Auld lang syne"
+
+#~ msgid "Fortunes"
+#~ msgstr "Fortunas"
+
+#~ msgid "Seahaven"
+#~ msgstr "Puerto de Mar"
+
+#~ msgid "King Albert"
+#~ msgstr "Rey Alberto"
+
+#~ msgid "First Law"
+#~ msgstr "Primera ley"
+
+#~ msgid "Straight Up"
+#~ msgstr "Secuencia completa"
+
+#~ msgid "Jumbo"
+#~ msgstr "Jumbo"
+
+#~ msgid "Accordion"
+#~ msgstr "Escorpión"
+
+#~ msgid "Ten Across"
+#~ msgstr "Diez a través"
+
+#~ msgid "Plait"
+#~ msgstr "Trenza"
+
+#~ msgid "Lady Jane"
+#~ msgstr "Dama Jane"
+
+#~ msgid "Gypsy"
+#~ msgstr "Gitano"
+
+#~ msgid "Neighbor"
+#~ msgstr "Vecino"
+
+#~ msgid "Jamestown"
+#~ msgstr "Jamestown"
+
+#~ msgid "Osmosis"
+#~ msgstr "Osmosis"
+
+#~ msgid "Kings Audience"
+#~ msgstr "Audiencia real"
+
+#~ msgid "Glenwood"
+#~ msgstr "Glenwood"
+
+#~ msgid "Gay Gordons"
+#~ msgstr "Gay gordons"
+
+#~ msgid "Monte Carlo"
+#~ msgstr "Monte Carlo"
+
+#~ msgid "Kansas"
+#~ msgstr "Kansas"
+
+#~ msgid "Camelot"
+#~ msgstr "Camelot"
+
+#~ msgid "Fourteen"
+#~ msgstr "Catorce"
+
+#~ msgid "Scorpion"
+#~ msgstr "Escorpión"
+
+#~ msgid "Isabel"
+#~ msgstr "Isabel"
+
+#~ msgid "Escalator"
+#~ msgstr "Escalador"
+
+#~ msgid "Agnes"
+#~ msgstr "Agnes"
+
+#~ msgid "Bristol"
+#~ msgstr "Bristol"
+
+#~ msgid "Quatorze"
+#~ msgstr "Quatorze"
+
+#~ msgid "Bear River"
+#~ msgstr "Río oso"
+
+#~ msgid "Gold Mine"
+#~ msgstr "Mina de oro"
+
+#~ msgid "Athena"
+#~ msgstr "Athena"
+
+#~ msgid "Spiderette"
+#~ msgstr "Spiderette"
+
+#~ msgid "Chessboard"
+#~ msgstr "Tablero de ajedrez"
+
+#~ msgid "Backbone"
+#~ msgstr "Dorsal"
+
+#~ msgid "Yukon"
+#~ msgstr "Yukon"
+
+#~ msgid "Union Square"
+#~ msgstr "Union square"
+
+#~ msgid "Eight Off"
+#~ msgstr "Ocho fuera"
+
+#~ msgid "Napoleons Tomb"
+#~ msgstr "La tumba de Napoleón"
+
+#~ msgid "Forty Thieves"
+#~ msgstr "Cuarenta ladrones"
+
+#~ msgid "Streets And Alleys"
+#~ msgstr "Calles y callejones"
+
+#~ msgid "Maze"
+#~ msgstr "Malla"
+
+#~ msgid "Clock"
+#~ msgstr "Reloj"
+
+#~ msgid "Pileon"
+#~ msgstr "Pileon"
+
+#~ msgid "Canfield"
+#~ msgstr "Canfield"
+
+#~ msgid "Thirteen"
+#~ msgstr "Trece"
+
+#~ msgid "Bakers Game"
+#~ msgstr "Juego de panaderos"
+
+#~ msgid "Triple Peaks"
+#~ msgstr "Triple Peaks"
+
+#~ msgid "Easthaven"
+#~ msgstr "Puerto Este"
+
+#~ msgid "Terrace"
+#~ msgstr "Tetravex"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "Tía María"
+
+#~ msgid "Carpet"
+#~ msgstr "Alfombra"
+
+#~ msgid "Sir Tommy"
+#~ msgstr "Sir Tommy"
+
+#~ msgid "Diamond Mine"
+#~ msgstr "Mina de diamantes"
+
+#~ msgid "Yield"
+#~ msgstr "Yield"
+
+#~ msgid "Labyrinth"
+#~ msgstr "Laberinto"
+
+#~ msgid "Thieves"
+#~ msgstr "Ladrones"
+
+#~ msgid "Saratoga"
+#~ msgstr "Saratoga"
+
+#~ msgid "Cruel"
+#~ msgstr "Cruel"
+
+#~ msgid "Block Ten"
+#~ msgstr "Bloque diez"
+
+#~ msgid "Will O The Wisp"
+#~ msgstr "Will o the wisp"
+
+#~ msgid "Odessa"
+#~ msgstr "Odessa"
+
+#~ msgid "Eagle Wing"
+#~ msgstr "Ala de águila"
+
+#~ msgid "Treize"
+#~ msgstr "Trece"
+
+#~ msgid "Zebra"
+#~ msgstr "Zebra"
+
+#~ msgid "Cover"
+#~ msgstr "Cubrir"
+
+#~ msgid "Elevator"
+#~ msgstr "Elevador"
+
+#~ msgid "Fortress"
+#~ msgstr "Fortaleza"
+
+#~ msgid "Giant"
+#~ msgstr "Gigante"
+
+#~ msgid "Spider"
+#~ msgstr "Araña"
+
+#~ msgid "Gaps"
+#~ msgstr "Gaps"
+
+#~ msgid "Bakers Dozen"
+#~ msgstr "Docena de panaderos"
+
+#~ msgid "Whitehead"
+#~ msgstr "Whitehead"
+
+#~ msgid "Freecell"
+#~ msgstr "Freecell"
+
+#~ msgid "Helsinki"
+#~ msgstr "Helsinki"
+
+#~ msgid "Spider Three Decks"
+#~ msgstr "Araña con tres barajas"
+
+#~ msgid "Scuffle"
+#~ msgstr "Reyerta"
+
+#~ msgid "Poker"
+#~ msgstr "Póker"
+
+#~ msgid "Klondike Three Decks"
+#~ msgstr "Araña con tres barajas"
+
+#~ msgid "Valentine"
+#~ msgstr "Valentine"
+
+#~ msgid "Royal East"
+#~ msgstr "Este real"
+
+#~ msgid "Thumb And Pouch"
+#~ msgstr "Thumb and pouch"
+
+#~ msgid "Klondike"
+#~ msgstr "Klondike"
+
+#~ msgid "Doublets"
+#~ msgstr "Dobletes"
+
+#~ msgid "Template"
+#~ msgstr "Plantilla"
+
+#~ msgid "Golf"
+#~ msgstr "Golf"
+
+#~ msgid "Westhaven"
+#~ msgstr "Puerto Oeste"
+
+#~ msgid "Beleaguered Castle"
+#~ msgstr "Castillo sitiado"
+
+#~ msgid "Hopscotch"
+#~ msgstr "Rayuela"
+
+#~ msgid "Solitaire"
+#~ msgstr "Solitario"
+
+#~ msgid "GNOME Solitaire"
+#~ msgstr "Solitario de GNOME"
+
+#~ msgid "About Solitaire"
+#~ msgstr "Acerca del solitario"
+
+#~ msgid "Select the game type to play"
+#~ msgstr "Seleccione el tipo de juego que desea jugar"
+
+#~ msgid "Select the game number"
+#~ msgstr "Seleccione el número del juego"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "Solitario AisleRiot"
+
+#~ msgid "Play many different solitaire games"
+#~ msgstr "Juegue a diferentes solitarios"
+
+#~ msgid "Unknown color"
+#~ msgstr "Color desconocido"
+
+#~ msgid "Unknown suit"
+#~ msgstr "Palo desconocido"
+
+#~ msgid "Unknown value"
+#~ msgstr "Valor desconocido"
+
+#~ msgid "ace"
+#~ msgstr "as"
+
+#~ msgid "black joker"
+#~ msgstr "comodín negro"
+
+#~ msgid "clubs"
+#~ msgstr "tréboles"
+
+#~ msgid "diamonds"
+#~ msgstr "diamantes"
+
+#~ msgid "eight"
+#~ msgstr "ocho"
+
+#~ msgid "five"
+#~ msgstr "cinco"
+
+#~ msgid "four"
+#~ msgstr "cuatro"
+
+#~ msgid "hearts"
+#~ msgstr "corazones"
+
+#~ msgid "jack"
+#~ msgstr "jota"
+
+#~ msgid "king"
+#~ msgstr "rey"
+
+#~ msgid "nine"
+#~ msgstr "nueve"
+
+#~ msgid "queen"
+#~ msgstr "dama"
+
+#~ msgid "red joker"
+#~ msgstr "comodín rojo"
+
+#~ msgid "seven"
+#~ msgstr "siete"
+
+#~ msgid "six"
+#~ msgstr "seis"
+
+#~ msgid "spades"
+#~ msgstr "espadas"
+
+#~ msgid "ten"
+#~ msgstr "diez"
+
+#~ msgid "the ace of clubs"
+#~ msgstr "el as de tréboles"
+
+#~ msgid "the ace of diamonds"
+#~ msgstr "el as de diamantes"
+
+#~ msgid "the ace of hearts"
+#~ msgstr "el as de corazones"
+
+#~ msgid "the ace of spades"
+#~ msgstr "el as de picas"
+
+#~ msgid "the eight of clubs"
+#~ msgstr "el ocho de tréboles"
+
+#~ msgid "the eight of diamonds"
+#~ msgstr "el ocho de diamantes"
+
+#~ msgid "the eight of hearts"
+#~ msgstr "el ocho de corazones"
+
+#~ msgid "the eight of spades"
+#~ msgstr "el ocho de picas"
+
+#~ msgid "the five of clubs"
+#~ msgstr "el cinco de tréboles"
+
+#~ msgid "the five of diamonds"
+#~ msgstr "el cinco de diamantes"
+
+#~ msgid "the five of hearts"
+#~ msgstr "el cinco de corazones"
+
+#~ msgid "the five of spades"
+#~ msgstr "el cinco de picas"
+
+#~ msgid "the four of clubs"
+#~ msgstr "el cuatro de tréboles"
+
+#~ msgid "the four of diamonds"
+#~ msgstr "el cuatro de diamantes"
+
+#~ msgid "the four of hearts"
+#~ msgstr "el cuatro de corazones"
+
+#~ msgid "the four of spades"
+#~ msgstr "el cuatro de picas"
+
+#~ msgid "the jack of clubs"
+#~ msgstr "la jota de tréboles"
+
+#~ msgid "the jack of diamonds"
+#~ msgstr "la jota de diamantes"
+
+#~ msgid "the jack of hearts"
+#~ msgstr "la jota de corazones"
+
+#~ msgid "the jack of spades"
+#~ msgstr "la jota de picas"
+
+#~ msgid "the king of clubs"
+#~ msgstr "el rey de tréboles"
+
+#~ msgid "the king of diamonds"
+#~ msgstr "el rey de diamantes"
+
+#~ msgid "the king of hearts"
+#~ msgstr "el rey de corazones"
+
+#~ msgid "the king of spades"
+#~ msgstr "el rey de picas"
+
+#~ msgid "the nine of clubs"
+#~ msgstr "el nueve de tréboles"
+
+#~ msgid "the nine of diamonds"
+#~ msgstr "el nueve de diamantes"
+
+#~ msgid "the nine of hearts"
+#~ msgstr "el nueve de corazones"
+
+#~ msgid "the nine of spades"
+#~ msgstr "el nueve de picas"
+
+#~ msgid "the queen of clubs"
+#~ msgstr "la reina de tréboles"
+
+#~ msgid "the queen of diamonds"
+#~ msgstr "la reina de diamantes"
+
+#~ msgid "the queen of hearts"
+#~ msgstr "la reina de corazones"
+
+#~ msgid "the queen of spades"
+#~ msgstr "la reina de picas"
+
+#~ msgid "the seven of clubs"
+#~ msgstr "el siete de tréboles"
+
+#~ msgid "the seven of diamonds"
+#~ msgstr "el siete de diamantes"
+
+#~ msgid "the seven of hearts"
+#~ msgstr "el siete de corazones"
+
+#~ msgid "the seven of spades"
+#~ msgstr "el siete de picas"
+
+#~ msgid "the six of clubs"
+#~ msgstr "el seis de tréboles"
+
+#~ msgid "the six of diamonds"
+#~ msgstr "el seis de diamantes"
+
+#~ msgid "the six of hearts"
+#~ msgstr "el seis de corazones"
+
+#~ msgid "the six of spades"
+#~ msgstr "el seis de picas"
+
+#~ msgid "the ten of clubs"
+#~ msgstr "el diez de tréboles"
+
+#~ msgid "the ten of diamonds"
+#~ msgstr "el diez de diamantes"
+
+#~ msgid "the ten of hearts"
+#~ msgstr "el diez de corazones"
+
+#~ msgid "the ten of spades"
+#~ msgstr "el diez de picas"
+
+#~ msgid "the three of clubs"
+#~ msgstr "el tres de tréboles"
+
+#~ msgid "the three of diamonds"
+#~ msgstr "el tres de diamantes"
+
+#~ msgid "the three of hearts"
+#~ msgstr "el tres de corazones"
+
+#~ msgid "the three of spades"
+#~ msgstr "el tres de picas"
+
+#~ msgid "the two of clubs"
+#~ msgstr "el dos de tréboles"
+
+#~ msgid "the two of diamonds"
+#~ msgstr "el dos de diamantes"
+
+#~ msgid "the two of hearts"
+#~ msgstr "el dos de corazones"
+
+#~ msgid "the two of spades"
+#~ msgstr "el dos de picas"
+
+#~ msgid "the unknown card"
+#~ msgstr "la carta desconocida"
+
+#~ msgid "three"
+#~ msgstr "tres"
+
+#~ msgid "two"
+#~ msgstr "dos"
+
+#~ msgid "Wins:"
+#~ msgstr "Victorias:"
+
+#~ msgid "Total:"
+#~ msgstr "Total:"
+
+#~ msgid "Percentage:"
+#~ msgstr "Porcentaje:"
+
+#~ msgid "Wins"
+#~ msgstr "Victorias"
+
+#~ msgid "Best:"
+#~ msgstr "Mejor:"
+
+#~ msgid "Worst:"
+#~ msgstr "Peor:"
+
+#~ msgid "Statistics"
+#~ msgstr "Estadísticas"
+
+#~ msgid "%d"
+#~ msgstr "%d"
+
+#~ msgid "%d%%"
+#~ msgstr "%d%%"
+
+#~ msgid "N/A"
+#~ msgstr "N/D"
+
+#~ msgid "%d:%02d"
+#~ msgstr "%d:%02d"
+
+#~ msgid "Congratulations, you have won!"
+#~ msgstr "Enhorabuena, ha ganado."
+
+#~ msgid "There are no more moves"
+#~ msgstr "No hay más jugadas"
+
+#~ msgid "Card games:"
+#~ msgstr "Juegos de cartas:"
+
+#~ msgid "Card themes:"
+#~ msgstr "Temas de cartas:"
+
+#~ msgid "About FreeCell Solitaire"
+#~ msgstr "Acerca del solitario FreeCell"
+
+#~ msgid "About AisleRiot"
+#~ msgstr "Acerca de AisleRiot"
+
+#~ msgid ""
+#~ "AisleRiot provides a rule-based solitaire card engine that allows many "
+#~ "different games to be played.\n"
+#~ "AisleRiot is a part of GNOME Games."
+#~ msgstr ""
+#~ "AisleRiot proporciona un motor de juegos de cartas basado en reglas que "
+#~ "permite jugar a muchos juegos diferentes.\n"
+#~ "AisleRiot es parte de los Juegos de GNOME."
+
+#~ msgid "Play “%s”"
+#~ msgstr "Jugar a «%s»"
+
+#~ msgid "Display cards with “%s” card theme"
+#~ msgstr "Mostrar las cartas con el tema «%s»"
+
+#~ msgctxt "score"
+#~ msgid "%6d"
+#~ msgstr "%6d"
+
+#~ msgid "A scheme exception occurred"
+#~ msgstr "Ha ocurrido una excepción de esquema"
+
+#~ msgid "Please report this bug to the developers."
+#~ msgstr "Por favor, informe de este error a los desarrolladores."
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "_Don't report"
+#~ msgstr "_No informar"
+
+#~ msgid "_Report"
+#~ msgstr "_Informar"
+
+#~ msgid "Freecell Solitaire"
+#~ msgstr "Solitario FreeCell"
+
+#~ msgid "_Control"
+#~ msgstr "_Control"
+
+#~ msgid "_Select Game..."
+#~ msgstr "_Seleccionar un juego..."
+
+#~ msgid "Play a different game"
+#~ msgstr "Iniciar un juego distinto"
+
+#~ msgid "_Recently Played"
+#~ msgstr "_Recientemente jugados"
+
+#~ msgid "S_tatistics"
+#~ msgstr "Es_tadísticas"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "Mostrar estadísticas de juego"
+
+#~ msgid "Deal next card or cards"
+#~ msgstr "Repartir la siguiente carta o cartas"
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "Mostrar la ayuda para Aisleriot"
+
+#~ msgid "Install card themes…"
+#~ msgstr "Instalar temas de las cartas..."
+
+#~ msgid "Install new card themes from the distribution packages repositories"
+#~ msgstr ""
+#~ "Instalar temas de cartas nuevos desde los repositorios de distribución de "
+#~ "paquetes"
+
+#~ msgid "_Card Style"
+#~ msgstr "Estilo de _carta"
+
+#~ msgid "_Statusbar"
+#~ msgstr "Barra de _estado"
+
+#~ msgid "Show or hide statusbar"
+#~ msgstr "Mostrar u ocultar la barra de estado"
+
+#~ msgid "Pick up and drop cards by clicking"
+#~ msgstr "Recoge y tira las cartas pulsando con el ratón"
+
+#~ msgid "_Sound"
+#~ msgstr "_Sonido"
+
+#~ msgid "Whether or not to play event sounds"
+#~ msgstr "Indica si se deben reproducir eventos de sonido"
+
+#~ msgid "_Animations"
+#~ msgstr "_Animaciones"
+
+#~ msgid "Whether or not to animate card moves"
+#~ msgstr "Indica si se debe usar animación para los movimientos de las cartas"
+
+#~ msgid "Cannot start the game “%s”"
+#~ msgstr "No se puede iniciar el juego «%s»"
+
+#~ msgid "_About"
+#~ msgstr "_Acerca de"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Cancelar"
+
+#~ msgid "_Close"
+#~ msgstr "_Cerrar"
+
+#~ msgid "_OK"
+#~ msgstr "_Aceptar"
+
+#~ msgid "Could not show link"
+#~ msgstr "No se ha podido mostrar el enlace"
+
+#~ msgid "Whether the window is fullscreen"
+#~ msgstr "Indica si la ventana está en pantalla completa"
+
+#~ msgid "Whether the window is maximized"
+#~ msgstr "Indica si la ventana está maximizada"
+
+#~ msgid "Window height"
+#~ msgstr "Altura de la ventana"
+
+#~ msgid "Window width"
+#~ msgstr "Anchura de la ventana"
+
+#~ msgctxt "card symbol"
+#~ msgid "JOKER"
+#~ msgstr "COMODÍN"
+
+#~ msgctxt "card symbol"
+#~ msgid "A"
+#~ msgstr "A"
+
+#~ msgctxt "card symbol"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "card symbol"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "card symbol"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "card symbol"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "card symbol"
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgctxt "card symbol"
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgctxt "card symbol"
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgctxt "card symbol"
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgctxt "card symbol"
+#~ msgid "J"
+#~ msgstr "J"
+
+#~ msgctxt "card symbol"
+#~ msgid "Q"
+#~ msgstr "Q"
+
+#~ msgctxt "card symbol"
+#~ msgid "K"
+#~ msgstr "K"
+
+#~ msgctxt "card symbol"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "ace of clubs"
+#~ msgstr "as de tréboles"
+
+#~ msgid "two of clubs"
+#~ msgstr "dos de tréboles"
+
+#~ msgid "three of clubs"
+#~ msgstr "tres de tréboles"
+
+#~ msgid "four of clubs"
+#~ msgstr "cuatro de tréboles"
+
+#~ msgid "five of clubs"
+#~ msgstr "cinco de tréboles"
+
+#~ msgid "six of clubs"
+#~ msgstr "seis de tréboles"
+
+#~ msgid "seven of clubs"
+#~ msgstr "siete de tréboles"
+
+#~ msgid "eight of clubs"
+#~ msgstr "ocho de tréboles"
+
+#~ msgid "nine of clubs"
+#~ msgstr "nueve de tréboles"
+
+#~ msgid "ten of clubs"
+#~ msgstr "diez de tréboles"
+
+#~ msgid "jack of clubs"
+#~ msgstr "jota de tréboles"
+
+#~ msgid "queen of clubs"
+#~ msgstr "reina de tréboles"
+
+#~ msgid "king of clubs"
+#~ msgstr "rey de tréboles"
+
+#~ msgid "ace of diamonds"
+#~ msgstr "as de diamantes"
+
+#~ msgid "two of diamonds"
+#~ msgstr "dos de diamantes"
+
+#~ msgid "three of diamonds"
+#~ msgstr "tres de diamantes"
+
+#~ msgid "four of diamonds"
+#~ msgstr "cuatro de diamantes"
+
+#~ msgid "five of diamonds"
+#~ msgstr "cinco de diamantes"
+
+#~ msgid "six of diamonds"
+#~ msgstr "seis de diamantes"
+
+#~ msgid "seven of diamonds"
+#~ msgstr "siete de diamantes"
+
+#~ msgid "eight of diamonds"
+#~ msgstr "ocho de diamantes"
+
+#~ msgid "nine of diamonds"
+#~ msgstr "nueve de diamantes"
+
+#~ msgid "ten of diamonds"
+#~ msgstr "diez de diamantes"
+
+#~ msgid "jack of diamonds"
+#~ msgstr "jota de diamantes"
+
+#~ msgid "queen of diamonds"
+#~ msgstr "reina de diamantes"
+
+#~ msgid "king of diamonds"
+#~ msgstr "rey de diamantes"
+
+#~ msgid "ace of hearts"
+#~ msgstr "as de corazones"
+
+#~ msgid "two of hearts"
+#~ msgstr "dos de corazones"
+
+#~ msgid "three of hearts"
+#~ msgstr "tres de corazones"
+
+#~ msgid "four of hearts"
+#~ msgstr "cuatro de corazones"
+
+#~ msgid "five of hearts"
+#~ msgstr "cinco de corazones"
+
+#~ msgid "six of hearts"
+#~ msgstr "seis de corazones"
+
+#~ msgid "seven of hearts"
+#~ msgstr "siete de corazones"
+
+#~ msgid "eight of hearts"
+#~ msgstr "ocho de corazones"
+
+#~ msgid "nine of hearts"
+#~ msgstr "nueve de corazones"
+
+#~ msgid "ten of hearts"
+#~ msgstr "diez de corazones"
+
+#~ msgid "jack of hearts"
+#~ msgstr "jota de corazones"
+
+#~ msgid "queen of hearts"
+#~ msgstr "reina de corazones"
+
+#~ msgid "king of hearts"
+#~ msgstr "rey de corazones"
+
+#~ msgid "ace of spades"
+#~ msgstr "as de picas"
+
+#~ msgid "two of spades"
+#~ msgstr "dos de picas"
+
+#~ msgid "three of spades"
+#~ msgstr "tres de picas"
+
+#~ msgid "four of spades"
+#~ msgstr "cuatro de picas"
+
+#~ msgid "five of spades"
+#~ msgstr "cinco de picas"
+
+#~ msgid "six of spades"
+#~ msgstr "seis de picas"
+
+#~ msgid "seven of spades"
+#~ msgstr "siete de picas"
+
+#~ msgid "eight of spades"
+#~ msgstr "ocho de picas"
+
+#~ msgid "nine of spades"
+#~ msgstr "nueve de picas"
+
+#~ msgid "ten of spades"
+#~ msgstr "diez de picas"
+
+#~ msgid "jack of spades"
+#~ msgstr "jota de picas"
+
+#~ msgid "queen of spades"
+#~ msgstr "reina de picas"
+
+#~ msgid "king of spades"
+#~ msgstr "rey de picas"
+
+#~ msgid "face-down card"
+#~ msgstr "carta boca abajo"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "Carta de base: As"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "Carta de base: Jota"
+
+#~ msgid "Base Card: King"
+#~ msgstr "Carta de base: Rey"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "Carta de base: Reina"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "Carta de base: ~a"
+
+#~ msgid "Deal more cards"
+#~ msgstr "Dar más cartas"
+
+#~ msgid "Stock left:"
+#~ msgstr "Montón restante:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "Montón restante: 0"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "Inténtelo reorganizando las cartas"
+
+#~ msgid "an empty foundation pile"
+#~ msgstr "una pila de fundación vacía"
+
+#~ msgid "Three card deals"
+#~ msgstr "Reparto de 3 cartas"
+
+#~ msgid "Deal another round"
+#~ msgstr "Dar otra ronda"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "Dar una nueva carta de la mesa"
+
+#~ msgid "Redeals left:"
+#~ msgstr "Repartos restantes:"
+
+#~ msgid "an empty slot on the foundation"
+#~ msgstr "un hueco vacío en fundación"
+
+#~ msgid "an empty slot on the tableau"
+#~ msgstr "un un hueco vacío en el tablero"
+
+#~ msgid "an empty foundation"
+#~ msgstr "una fundación vacía"
+
+#~ msgid "Base Card: "
+#~ msgstr "Carta de base: "
+
+#~ msgid "Move something onto an empty right-hand tableau slot"
+#~ msgstr "Mueva algo a un hueco vacío a mano derecha del tablero"
+
+#~ msgid "an empty foundation slot"
+#~ msgstr "un hueco vacío en fundación"
+
+#~ msgid "an empty bottom slot"
+#~ msgstr "un hueco inferior vacío"
+
+#~ msgid "an empty corner slot"
+#~ msgstr "un hueco de esquina vacío"
+
+#~ msgid "an empty left slot"
+#~ msgstr "un hueco de la izquierda vacío"
+
+#~ msgid "an empty right slot"
+#~ msgstr "un hueco de la derecha vacío"
+
+#~ msgid "an empty slot"
+#~ msgstr "un hueco vacío"
+
+#~ msgid "an empty top slot"
+#~ msgstr "un hueco superior vacío"
+
+#~ msgid "itself"
+#~ msgstr "si mismo"
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "Mover la basura al montón"
+
+#~ msgid "Reserve left:"
+#~ msgstr "Queda en reserva:"
+
+#~ msgid "empty slot on foundation"
+#~ msgstr "hueco vacío en fundación"
+
+#~ msgid "empty space on tableau"
+#~ msgstr "hueco vacío en la mesa"
+
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "Mueva una carta a la fundación"
+
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "Ponga algo en el hueco vacío del tablero"
+
+#~ msgid "Consistency is key"
+#~ msgstr "La consistencia es la clave"
+
+#~ msgid "Fishing wire makes bad dental floss"
+#~ msgstr "El sedal de pesca no es buen hilo dental"
+
+#~ msgid "Have you read the help file?"
+#~ msgstr "¿Ha leído el archivo de ayuda?"
+
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "Me sentaría muy bien un masaje en la espalda..."
+
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr "Si alguna vez está perdido y solo en el bosque, abrace un árbol"
+
+#~ msgid ""
+#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
+#~ "one"
+#~ msgstr ""
+#~ "Solo porque un paso de peatones se parece al juego de la rayuela, no "
+#~ "quiere decir que lo sea"
+
+#~ msgid "Look both ways before you cross the street"
+#~ msgstr "Mire a ambos lados antes de cruzar la calle"
+
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "Los monitores no te darán vitamina D -- pero la luz solar sí..."
+
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "Nunca soples en la oreja de un perro"
+
+#~ msgid "Odessa is a better game.  Really."
+#~ msgstr "Odessa es un juego mejor. De verdad."
+
+#~ msgid "Tourniquets are not recommended unless in the direst emergency"
+#~ msgstr ""
+#~ "Los torniquetes no se recomiendan a no ser que sea una urgencia grave"
+
+#~ msgid "When without a stapler, a staple and a ruler will work"
+#~ msgstr "Cuando no tenga grapadora, una grapa y una regla valdrán"
+
+#~ msgid "Cards remaining: ~a"
+#~ msgstr "Cartas restantes: ~a"
+
+#~ msgid "Redeal."
+#~ msgstr "Repartir."
+
+#~ msgid "the foundation pile"
+#~ msgstr "la pila de fundación"
+
+#~ msgid "Deal a card"
+#~ msgstr "Dar una carta"
+
+#~ msgid "Move ~a to an empty foundation"
+#~ msgstr "Mueva ~a a una fundación vacía"
+
+#~ msgid "an empty slot on tableau"
+#~ msgstr "un hueco vacío en el tablero"
+
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "Mueva un rey al hueco vacío del tablero"
+
+#~ msgid "No hint available right now"
+#~ msgstr "No hay sugerencias disponibles en este momento"
+
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "Mueva algo a una reserva vacía"
+
+#~ msgid "an empty tableau"
+#~ msgstr "un tablero vacío"
+
+#~ msgid "I'm not sure"
+#~ msgstr "No estoy seguro"
+
+#~ msgid "Remove the aces"
+#~ msgstr "Quitar los ases"
+
+#~ msgid "Remove the eights"
+#~ msgstr "Quitar los ochos"
+
+#~ msgid "Remove the fives"
+#~ msgstr "Quitar los cincos"
+
+#~ msgid "Remove the fours"
+#~ msgstr "Quitar los cuatros"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "Quitar las jotas"
+
+#~ msgid "Remove the kings"
+#~ msgstr "Quitar los reyes"
+
+#~ msgid "Remove the nines"
+#~ msgstr "Quitar los nueves"
+
+#~ msgid "Remove the queens"
+#~ msgstr "Quitar las reinas"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "Quitar los sietes"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "Quitar los seises"
+
+#~ msgid "Remove the tens"
+#~ msgstr "Quitar los dieces"
+
+#~ msgid "Remove the threes"
+#~ msgstr "Quitar los treses"
+
+#~ msgid "Remove the twos"
+#~ msgstr "Quitar los doses"
+
+#~ msgid "Return cards to stock"
+#~ msgstr "Devolver cartas al montón"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "Piense en mover algo hacia un lugar vacío"
+
+#~ msgid "Move ~a off the board"
+#~ msgstr "Mueva ~a fuera del tablero"
+
+#~ msgid "Bug! make-hint called on false move."
+#~ msgstr "¡Error! la llamada a la sugerencia resultó en un movimiento falso."
+
+#~ msgid "Deal a card from stock"
+#~ msgstr "Dar una carta del montón"
+
+#~ msgid "an empty space"
+#~ msgstr "un hueco vacío"
+
+#~ msgid "No moves are possible. Undo or start again."
+#~ msgstr "No quedan jugadas posibles. Vuelva atrás o empiece de nuevo."
+
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr "La partida no tiene solución. Vuelva atrás o empiece de nuevo."
+
+#~ msgid "an empty reserve"
+#~ msgstr "una reserva vacía"
+
+#~ msgid "an open tableau"
+#~ msgstr "un tablero abierto"
+
+#~ msgid "the foundation"
+#~ msgstr "la fundación"
+
+#~ msgid "Add to the sequence in row ~a."
+#~ msgstr "Añadir a la secuencia en la fila ~a."
+
+#~ msgid "Double click any card to redeal."
+#~ msgstr "Pulse dos veces en cualquier carta para volver a repartir."
+
+#~ msgid "No hint available."
+#~ msgstr "No hay sugerencias disponible."
+
+#~ msgid "Place a two in the leftmost slot of row ~a."
+#~ msgstr "Colocar dos en el hueco más a la izquierda de la fila ~a."
+
+#~ msgid "Place the ~a next to ~a."
+#~ msgstr "Coloca ~a al lado de ~a."
+
+#~ msgid "Randomly Placed Gaps on Redeal"
+#~ msgstr "Espacios colocados aleatoriamente en el reparto"
+
+#~ msgid "Alternating colors"
+#~ msgstr "Colores alternativos"
+
+#~ msgid "Deal a row"
+#~ msgstr "Repartir una fila"
+
+#~ msgid "Deals left: ~a"
+#~ msgstr "Repartos restantes: ~a"
+
+#~ msgid "Same suit"
+#~ msgstr "Mismo palo"
+
+#~ msgid "Try dealing a row of cards"
+#~ msgstr "Inténtelo repartiendo una fila de cartas"
+
+#~ msgid "Try moving a card to the reserve"
+#~ msgstr "Intente mover una carta a la reserva"
+
+#~ msgid "Try moving card piles around"
+#~ msgstr "Intente mover montones de cartas de un lado a otro"
+
+#~ msgid "an empty foundation place"
+#~ msgstr "un sitio de fundación vacía"
+
+#~ msgid "an empty tableau place"
+#~ msgstr "un sitio vacío en el tablero"
+
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "Mueva una carta de la reserva al hueco vacío del tablero"
+
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "Seleccione una carta de la reserva para el primero montón"
+
+#~ msgid "on to the empty tableau slot"
+#~ msgstr "al hueco vacío del tablero"
+
+#~ msgid "Deal another card"
+#~ msgstr "Dar otra carta"
+
+#~ msgid "Stock left: ~a"
+#~ msgstr "Montón restante: ~a"
+
+#~ msgid "Deal another hand"
+#~ msgstr "Dar otra mano"
+
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "Mueva una carta o un juego de cartas al hueco vacío"
+
+#~ msgid "Move card from waste"
+#~ msgstr "Mover carta desde el basurero"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "Mover la basura al almacén"
+
+#~ msgid "an empty tableau slot"
+#~ msgstr "un hueco de tablero vacío"
+
+#~ msgid "Deal a new card"
+#~ msgstr "Repartir una carta nueva"
+
+#~ msgid "Stock remaining: ~a"
+#~ msgstr "Montón restante: ~a"
+
+#~ msgid "No redeals"
+#~ msgstr "No hay más repartos"
+
+#~ msgid "Single card deals"
+#~ msgstr "Reparto de 1 carta"
+
+#~ msgid "Try moving cards down from the foundation"
+#~ msgstr "Intente bajar cartas de la fundación"
+
+#~ msgid "Base Card:"
+#~ msgstr "Carta de base:"
+
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr ""
+#~ "Intente colocar los palos en el orden que más se ajuste a la disposición "
+#~ "actual."
+
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "Repartir cartas nuevas del montón"
+
+#~ msgid "Redeals left: ~a"
+#~ msgstr "Repartos restantes: ~a"
+
+#~ msgid "something"
+#~ msgstr "algo"
+
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "Mueva ~a de la reserva a un hueco vacío del tablero o del borde"
+
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "Mueva ~a a un campo vacío"
+
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr "Coloque las cartas en el tablero para formar manos de póquer"
+
+#~ msgid "Shuffle mode"
+#~ msgstr "Modo de barajar"
+
+#~ msgid "an empty tableau pile"
+#~ msgstr "una pila de tablero vacía"
+
+#~ msgid "Deal the cards"
+#~ msgstr "Dar las cartas"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "Barajar las cartas"
+
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "Mover la basura a la reserva"
+
+#~ msgid "empty foundation"
+#~ msgstr "fundación vacía"
+
+#~ msgid "Four Suits"
+#~ msgstr "Cuatro palos"
+
+#~ msgid "One Suit"
+#~ msgstr "Un palo"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "Ponga algo en el espacio vacío"
+
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "Llene una pila vacía primero."
+
+#~ msgid "Two Suits"
+#~ msgstr "Dos palos"
+
+#~ msgid "Undo until there are enough cards to fill all tableau piles"
+#~ msgstr ""
+#~ "Deshacer hasta que haya suficientes cartas para llenar todas las pilas "
+#~ "del tablero"
+
+#~ msgid "Allow temporary spots use"
+#~ msgstr "Permitir el uso de huecos temporales"
+
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "Mueva una carta a un hueco temporal vacío"
+
+#~ msgid "No hint available"
+#~ msgstr "No hay una sugerencia disponible"
+
+#~ msgid "Blondes and Brunettes"
+#~ msgstr "Rubias y morenas"
+
+#~ msgid "Falling Stars"
+#~ msgstr "Estrellas fugaces"
+
+#~ msgid "General's Patience"
+#~ msgstr "Paciencia general"
+
+#~ msgid "Redheads"
+#~ msgstr "Pelirrojas"
+
+#~ msgid "Signora"
+#~ msgstr "Señora"
+
+#~ msgid "Wood"
+#~ msgstr "Madera"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "Dar una carta de la mesa"
+
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "Coincidir las dos cartas superiores del descarte."
+
+#~ msgid "Multiplier Scoring"
+#~ msgstr "Puntuación de multiplicador"
+
+#~ msgid "Progressive Rounds"
+#~ msgstr "Rondas progresivas"
+
+#~ msgid "appropriate foundation pile"
+#~ msgstr "pila de fundación apropiada"
+
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "Mueva una baraja de cartas al hueco vacío de la mesa"
+
+#~ msgid "the appropriate Foundation pile"
+#~ msgstr "la pila de fundación apropiada"
 
 #~ msgid "Track moves"
 #~ msgstr "Seguir movimientos"
