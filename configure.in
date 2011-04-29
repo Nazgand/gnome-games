@@ -347,7 +347,7 @@ fi
 # Checks for libraries
 # ********************
 
-PYGTK_REQUIRED=2.14.0
+PYGOBJECT_REQUIRED=2.28.3
 
 case "$with_gtk" in
   3.0) GTK_REQUIRED=2.91.7
@@ -503,24 +503,21 @@ fi
 
 AM_CONDITIONAL([HAVE_CLUTTER],[test "$need_clutter" = "yes"])
 
-# Check for PyGTK
+# Check for PyGObject
 
 if test "$have_python" = "yes"; then
-  PKG_CHECK_MODULES([PYGTK],[
-    pygtk-2.0 >= $PYGTK_REQUIRED],
+  PKG_CHECK_MODULES([PYGOBJECT],[
+    pygobject-2.0 >= $PYGOBJECT_REQUIRED],
     [have_pygtk=yes],[have_pygtk=no])
 fi
 
 enable_python=no
 if test "$have_python" = "yes" -a "$have_pygtk" = "yes"; then
-  AC_SUBST([PYGTK_CFLAGS])
-  AC_SUBST([PYGTK_LIBS])
-  
   enable_python=yes
 fi
 
 if test "$enable_python" = "no" -a "$need_python" = "yes"; then
-  AC_MSG_ERROR([Some games need python, but python or pygtk packages were not found.])
+  AC_MSG_ERROR([Some games need python, but pygobject packages were not found.])
 fi
 
 AM_CONDITIONAL([HAVE_PYTHON],[test "$enable_python" = "yes"])
