@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "games&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-04-11 14:09+0000\n"
-"PO-Revision-Date: 2011-04-11 23:26+0200\n"
+"POT-Creation-Date: 2011-04-28 19:26+0000\n"
+"PO-Revision-Date: 2011-04-30 11:07+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -186,7 +186,7 @@ msgstr "Vrátit tah"
 
 #. Help contents menu item
 #: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:250
-#: ../libgames-support/games-stock.c:252
+#: ../libgames-support/games-stock.c:249
 msgid "_Contents"
 msgstr "_Obsah"
 
@@ -228,7 +228,7 @@ msgid "_Settings"
 msgstr "_Nastavení"
 
 #. Undo move menu item
-#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:264
+#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:261
 msgid "_Undo Move"
 msgstr "Tah _zpět"
 
@@ -1077,7 +1077,6 @@ msgstr "Všechny soubory"
 
 #: ../glchess/src/glchess.vala:1445
 #, c-format
-#| msgid "Unabled to save game"
 msgid "Failed to save game: %s"
 msgstr "Selhalo uložení hry: %s"
 
@@ -1088,7 +1087,6 @@ msgstr "Načíst šachovou partii"
 
 #: ../glchess/src/glchess.vala:1511
 #, c-format
-#| msgid "Unabled to load game"
 msgid "Failed to open game: %s"
 msgstr "Selhalo otevření hry: %s"
 
@@ -1928,7 +1926,7 @@ msgstr ""
 #. Translators: This "_New Game" is for the game-over dialogue
 #: ../gnobots2/game.c:154 ../gnome-sudoku/data/select_game.ui.h:1
 #: ../gnomine/gnomine.c:201 ../gnotski/gnotski.c:774
-#: ../libgames-support/games-stock.c:258
+#: ../libgames-support/games-stock.c:255
 msgid "_New Game"
 msgstr "_Nová hra"
 
@@ -2846,7 +2844,7 @@ msgstr ""
 "v libovolné novější verzi."
 
 #: ../gnome-sudoku/src/lib/defaults.py.in:55
-#: ../libgames-support/games-stock.c:328
+#: ../libgames-support/games-stock.c:325
 #, c-format, python-format
 msgid ""
 "%s is distributed in the hope that it will be useful, but WITHOUT ANY "
@@ -2859,7 +2857,7 @@ msgstr ""
 "ÚČEL. Více podrobností najdete přímo v licenci GNU General Public License."
 
 #: ../gnome-sudoku/src/lib/defaults.py.in:59
-#: ../libgames-support/games-stock.c:333
+#: ../libgames-support/games-stock.c:330
 #, c-format, python-format
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
@@ -2921,7 +2919,7 @@ msgid "New game"
 msgstr "Nová hra"
 
 #. Translators: this is the "Reset" scores button in a scores dialogue
-#: ../gnome-sudoku/src/lib/main.py:228 ../libgames-support/games-stock.c:261
+#: ../gnome-sudoku/src/lib/main.py:228 ../libgames-support/games-stock.c:258
 msgid "_Reset"
 msgstr "_Vynulovat"
 
@@ -2957,7 +2955,7 @@ msgstr "Vytisknout ví_ce Sudoku…"
 msgid "_Tools"
 msgstr "_Nástroje"
 
-#: ../gnome-sudoku/src/lib/main.py:243 ../libgames-support/games-stock.c:254
+#: ../gnome-sudoku/src/lib/main.py:243 ../libgames-support/games-stock.c:251
 msgid "_Hint"
 msgstr "_Rada"
 
@@ -4545,62 +4543,62 @@ msgstr "Nastavit hru"
 msgid "Quit this game"
 msgstr "Ukončit tuto hru"
 
-#: ../libgames-support/games-stock.c:253
+#: ../libgames-support/games-stock.c:250
 msgid "_Fullscreen"
 msgstr "_Celá obrazovka"
 
 #. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
-#: ../libgames-support/games-stock.c:256
+#: ../libgames-support/games-stock.c:253
 msgid "_New"
 msgstr "_Nová"
 
-#: ../libgames-support/games-stock.c:259
+#: ../libgames-support/games-stock.c:256
 msgid "_Redo Move"
 msgstr "Tah zn_ovu"
 
 #. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
-#: ../libgames-support/games-stock.c:263
+#: ../libgames-support/games-stock.c:260
 msgid "_Restart"
 msgstr "_Restartovat"
 
-#: ../libgames-support/games-stock.c:265
+#: ../libgames-support/games-stock.c:262
 msgid "_Deal"
 msgstr "_Rozdat"
 
-#: ../libgames-support/games-stock.c:266
+#: ../libgames-support/games-stock.c:263
 msgid "_Leave Fullscreen"
 msgstr "_Opustit celou obrazovku"
 
-#: ../libgames-support/games-stock.c:267
+#: ../libgames-support/games-stock.c:264
 msgid "Network _Game"
 msgstr "Síťová _hra"
 
-#: ../libgames-support/games-stock.c:268
+#: ../libgames-support/games-stock.c:265
 msgid "L_eave Game"
 msgstr "O_pustit hru"
 
-#: ../libgames-support/games-stock.c:269
+#: ../libgames-support/games-stock.c:266
 msgid "Player _List"
 msgstr "Seznam _hráčů"
 
-#: ../libgames-support/games-stock.c:270
+#: ../libgames-support/games-stock.c:267
 msgid "_Pause"
 msgstr "_Pozastavit"
 
-#: ../libgames-support/games-stock.c:271
+#: ../libgames-support/games-stock.c:268
 msgid "Res_ume"
 msgstr "_Pokračovat"
 
-#: ../libgames-support/games-stock.c:272
+#: ../libgames-support/games-stock.c:269
 msgid "_Scores"
 msgstr "_Skóre"
 
-#: ../libgames-support/games-stock.c:273
+#: ../libgames-support/games-stock.c:270
 msgid "_End Game"
 msgstr "U_končit hru"
 
 #. %s is replaced with the name of the game in gnome-games.
-#: ../libgames-support/games-stock.c:323
+#: ../libgames-support/games-stock.c:320
 #, c-format
 msgid ""
 "%s is free software; you can redistribute it and/or modify it under the "
@@ -4613,7 +4611,7 @@ msgstr ""
 "Foundation, a to buď ve verzi %d této licence nebo (dle vaší volby) v "
 "libovolné novější verzi."
 
-#: ../libgames-support/games-stock.c:337
+#: ../libgames-support/games-stock.c:334
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -4914,13 +4912,18 @@ msgid "Zealous animation"
 msgstr "Rychlé animace"
 
 #: ../swell-foop/src/About.js:13
+#| msgid ""
+#| "I want to play that game! You know, they all go whirly-round and you "
+#| "click on them and they vanish!\n"
+#| "\n"
+#| "Swell Foop is a part of GNOME Games."
 msgid ""
-"I want to play that game! You know, they all go whirly-round and you click "
-"on them and they vanish!\n"
+"I want to play that game! You know, they all light-up and you click on them "
+"and they vanish!\n"
 "\n"
 "Swell Foop is a part of GNOME Games."
 msgstr ""
-"Chci hrát tuto hru! Však víte, točí se dokola a pokud na ně klepnete, tak "
+"Chci hrát tuto hru! Víte, ony všechny svítí a když na ně klepnete, tak "
 "zmizí!\n"
 "\n"
 "Swell Foop je součástí her GNOME."
@@ -4952,4 +4955,3 @@ msgstr "Normální"
 #: ../swell-foop/src/Score.js:146
 msgid "Large"
 msgstr "Velká"
-
