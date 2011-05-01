@@ -226,27 +226,6 @@ GNOME_COMPILE_WARNINGS([maximum])
 GNOME_CXX_WARNINGS([yes])
 GNOME_MAINTAINER_MODE_DEFINES
 
-# *****************
-# Distribution info
-# *****************
-
-LSB_DISTRIBUTOR=
-LSB_DISTRIBUTION=
-
-AC_PATH_PROG([LSB_RELEASE],[lsb_release],[false])
-if test "$LSB_RELEASE" != "false"; then
-  LSB_DISTRIBUTOR="$($LSB_RELEASE -s -i | sed 's,^\",,;s,\"$,,')"
-  LSB_DISTRIBUTION="$($LSB_RELEASE -s -d | sed 's,^\",,;s,\"$,,')"
-fi
-
-AC_MSG_CHECKING([for LSB distributor])
-AC_MSG_RESULT([$LSB_DISTRIBUTOR])
-AC_MSG_CHECKING([for LSB distribution])
-AC_MSG_RESULT([$LSB_DISTRIBUTION])
-
-AC_DEFINE_UNQUOTED([LSB_DISTRIBUTOR],["$LSB_DISTRIBUTOR"],[The distributor ID])
-AC_DEFINE_UNQUOTED([LSB_DISTRIBUTION],["$LSB_DISTRIBUTION"],[The full distribution description])
-
 dnl ****************************************************************************
 dnl * Python 2.4
 dnl ****************************************************************************
