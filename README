@@ -36,9 +36,6 @@ Here is a list of the games in this compilation along with a brief
 description. The names in brackets are the program names you use from the
 command line.
 
-AisleRiot       A compilation of seventy different solitaire card games.
-                (sol)
-
 Four-in-a-row   The classic game where each player tries to make a line
                 of four disks before their opponent. There is a very
                 popular version of this in the real world called
@@ -257,7 +254,6 @@ To compile glChess without the bundled gnuchess binary, you can
 compile with ./configure --disable-gnuchess 
 
 The games that require additional packages are:
- guile scheme:  	AisleRiot
  C++:         		Gnometris
  Python:		glchess, gnome-sudoku
 
