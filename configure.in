@@ -921,8 +921,8 @@ gnome-sudoku/data/Makefile
 gnome-sudoku/images/Makefile
 gnome-sudoku/help/Makefile
 swell-foop/data/themes/Makefile
-swell-foop/data/themes/tango/Makefile
-swell-foop/data/themes/test/Makefile
+swell-foop/data/themes/colors/Makefile
+swell-foop/data/themes/shapesandcolors/Makefile
 swell-foop/swell-foop.desktop.in
 swell-foop/src/Makefile
 quadrapassel/quadrapassel.desktop.in
