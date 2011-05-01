@@ -333,11 +333,7 @@ games_runtime_init (const char *name)
   retval = TRUE;
 #endif /* ENABLE_BINRELOC */
 
-  if (strcmp (app_name, "aisleriot") == 0) {
-    gpl_version = 3;
-  } else {
-    gpl_version = 2;
-  }
+  gpl_version = 2;
 
   _games_profile_end ("games_runtime_init");
 
