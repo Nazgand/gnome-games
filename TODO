@@ -9,14 +9,6 @@ General :
         - Make session management work.
         - Make the build system cleaner.
 
-AisleRiot:
-	- Freecell hint threading (bug 134798)
-        - Better klondike hint (bug 85712)
-        - Scheme clean-ups (see bug 51016 for suggestions)
-        - Descriptions of games in Select dialog (bug 110730)
-        - Find out what's wrong with block-ten.
-        - Final missing features from stand-alone freecell (bug 124522).
-
 Gnect:
         - Graphics (could we share some with iagno/gataxx)
 
