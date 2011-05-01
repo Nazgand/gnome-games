@@ -155,8 +155,8 @@ for game in $gamelist; do
     *) need_rsvg=yes ;;
   esac
   case $game in
-    glchess) ;;
-    *) need_sqlite=yes ;;
+    glchess) need_sqlite=yes ;;
+    *) ;;
   esac
   case $game in
     glines|gnobots2|gnomine|gnotravex|gnotski|iagno) allow_smclient=yes ;;
