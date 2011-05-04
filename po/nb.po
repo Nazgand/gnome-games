@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games 2.91.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-08 15:08+0100\n"
-"PO-Revision-Date: 2011-03-08 15:13+0100\n"
+"POT-Creation-Date: 2011-05-04 12:57+0200\n"
+"PO-Revision-Date: 2011-05-04 13:15+0200\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: nb\n"
@@ -18,2710 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.1\n"
-
-#: ../aisleriot/aisleriot.schemas.in.h:1
-msgid "A list of recently played games."
-msgstr "En liste med nylig spilte spill."
-
-#: ../aisleriot/aisleriot.schemas.in.h:2
-msgid ""
-"A list of strings that come in the form of a quintuple: name, wins, total "
-"games played, best time (in seconds) and worst time (also in seconds). "
-"Unplayed games do not need to be represented."
-msgstr ""
-"En femdelt liste med strenger delt i: navn, seirer, antall ganger spilt, "
-"beste tid (i sekunder) og dårligste tid (i sekunder). Uspilte spill trenger "
-"ikke å være representerte."
-
-#: ../aisleriot/aisleriot.schemas.in.h:3
-msgid "Animations"
-msgstr "Animasjoner"
-
-#: ../aisleriot/aisleriot.schemas.in.h:4
-msgid "Recently played games"
-msgstr "Nylig spilte spill"
-
-#: ../aisleriot/aisleriot.schemas.in.h:5 ../gnotravex/gnotravex.schemas.in.h:1
-msgid "Select the style of control"
-msgstr "Velg type kontroll"
-
-#: ../aisleriot/aisleriot.schemas.in.h:6
-msgid ""
-"Select whether to drag the cards or to click on the source then the "
-"destination."
-msgstr "Velg om du vil dra kortene eller klikke på kilde og så på mål"
-
-#: ../aisleriot/aisleriot.schemas.in.h:7 ../gnect/data/gnect.schemas.in.h:11
-#: ../gnobots2/properties.c:483 ../iagno/iagno.schemas.in.h:1
-msgid "Sound"
-msgstr "Lyd"
-
-#: ../aisleriot/aisleriot.schemas.in.h:8
-msgid "Statistics of games played"
-msgstr "Statistikk for spill"
-
-#: ../aisleriot/aisleriot.schemas.in.h:9
-msgid "The game file to use"
-msgstr "Spillfil som skal brukes"
-
-#: ../aisleriot/aisleriot.schemas.in.h:10
-msgid "The name of the file with the graphics for the cards."
-msgstr "Navn på grafikkfil for kortene."
-
-#: ../aisleriot/aisleriot.schemas.in.h:11
-msgid "The name of the scheme file containing the solitaire game to play."
-msgstr "Navn på schema-fil som inneholder solitaire-spill som skal spilles."
-
-#: ../aisleriot/aisleriot.schemas.in.h:12
-msgid "Theme file name"
-msgstr "Navn på temafil"
-
-#: ../aisleriot/aisleriot.schemas.in.h:13
-msgid "Whether or not to animate card moves."
-msgstr "Om animasjoner skal brukes for flytting av kort."
-
-#: ../aisleriot/aisleriot.schemas.in.h:14 ../gnect/data/gnect.schemas.in.h:13
-#: ../iagno/iagno.schemas.in.h:2
-msgid "Whether or not to play event sounds."
-msgstr "Om lyder skal spilles av for hendelser."
-
-#: ../aisleriot/aisleriot.schemas.in.h:15
-msgid "Whether or not to show the status bar"
-msgstr "Om statuslinjen skal vises eller ikke"
-
-#: ../aisleriot/aisleriot.schemas.in.h:16
-msgid "Whether or not to show the toolbar"
-msgstr "Om verktøylinjen skal vises eller ikke"
-
-#. Now construct the window contents
-#: ../aisleriot/ar-game-chooser.c:238 ../aisleriot/window.c:2560
-msgid "Select Game"
-msgstr "Velg spill"
-
-#: ../aisleriot/ar-game-chooser.c:256
-msgid "_Select"
-msgstr "_Velg"
-
-#: ../aisleriot/freecell.desktop.in.in.h:1 ../aisleriot/sol.c:323
-#: ../aisleriot/window.c:455 ../aisleriot/window.c:463
-msgid "FreeCell Solitaire"
-msgstr "FreeCell Solitaire"
-
-#: ../aisleriot/freecell.desktop.in.in.h:2
-msgid "Play the popular FreeCell card game"
-msgstr "Spill det populære kortspillet FreeCell"
-
-#: ../aisleriot/game.c:1165
-#, c-format
-msgid ""
-"Aisleriot cannot load the file “%s”. Please check your Aisleriot "
-"installation."
-msgstr "Aisleriot kan ikke laste filen «%s». Sjekk installasjonen."
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1416
-msgctxt "slot type"
-msgid "foundation"
-msgstr "fundament"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1420
-msgctxt "slot type"
-msgid "reserve"
-msgstr "reserve"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1424
-msgctxt "slot type"
-msgid "stock"
-msgstr "stokk"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1428
-msgctxt "slot type"
-msgid "tableau"
-msgstr "tablå"
-
-#. Translators: this is the name of a type of card slot
-#: ../aisleriot/game.c:1432
-msgctxt "slot type"
-msgid "waste"
-msgstr "kast"
-
-#. Translators: %s is the name of the card; "foundation" is the name of a type of card slot
-#: ../aisleriot/game.c:1464
-#, c-format
-msgctxt "slot hint"
-msgid "%s on foundation"
-msgstr "%s på fundamentet"
-
-#. Translators: %s is the name of the card; "reserve" is the name of a type of card slot
-#: ../aisleriot/game.c:1468
-#, c-format
-msgctxt "slot hint"
-msgid "%s on reserve"
-msgstr "%s på reserve"
-
-#. Translators: %s is the name of the card; "stock" is the name of a type of card slot
-#: ../aisleriot/game.c:1472
-#, c-format
-msgctxt "slot hint"
-msgid "%s on stock"
-msgstr "%s i stokken"
-
-#. Translators: %s is the name of the card; "tableau" is the name of a type of card slot
-#: ../aisleriot/game.c:1476
-#, c-format
-msgctxt "slot hint"
-msgid "%s on tableau"
-msgstr "%s på tablå"
-
-#. Translators: %s is the name of the card; "waste" is the name of a type of card slot
-#: ../aisleriot/game.c:1480
-#, c-format
-msgctxt "slot hint"
-msgid "%s on waste"
-msgstr "%s på kast"
-
-#: ../aisleriot/game.c:1721
-msgid "Aisleriot cannot find the last game you played."
-msgstr "Aisleriot kan ikke finne det siste spillet du spilte."
-
-#: ../aisleriot/game.c:1722
-msgid ""
-"This usually occurs when you run an older version of Aisleriot which does "
-"not have the game you last played. The default game, Klondike, is being "
-"started instead."
-msgstr ""
-"Dette skjer vanligvis når du kjører en eldre versjon av Aisleriot som ikke "
-"har det siste spillet du spilte. Forvalgt spill, Klondike, startes i stedet."
-
-#: ../aisleriot/game.c:2080
-msgid "This game does not have hint support yet."
-msgstr "Dette spillet støtter ikke hint ennå"
-
-#. Both %s are card names
-#. The first %s is a card name, the 2nd %s a sentence fragment.
-#. * Yes, we know this is bad for i18n.
-#.
-#: ../aisleriot/game.c:2114 ../aisleriot/game.c:2142
-#, c-format
-msgid "Move %s onto %s."
-msgstr "Flytt %s på %s."
-
-#: ../aisleriot/game.c:2164
-#, c-format
-msgid "You are searching for a %s."
-msgstr "Du søker etter en %s."
-
-#: ../aisleriot/game.c:2169
-msgid "This game is unable to provide a hint."
-msgstr "Dette spillet kan ikke gi deg et hint."
-
-#. This is a generated file; DO NOT EDIT
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:7
-msgid "Peek"
-msgstr "Peek"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:14
-msgid "Auld Lang Syne"
-msgstr "Auld Lang Syne"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:21
-msgid "Fortunes"
-msgstr "Fortunes"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:28
-msgid "Seahaven"
-msgstr "Seahaven"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:35
-msgid "King Albert"
-msgstr "King Albert"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:42
-msgid "First Law"
-msgstr "First Law"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:49
-msgid "Straight Up"
-msgstr "Straight Up"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:56
-msgid "Jumbo"
-msgstr "Jumbo"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:63
-msgid "Accordion"
-msgstr "Trekkspill"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:70
-msgid "Ten Across"
-msgstr "Ten Across"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:77
-msgid "Plait"
-msgstr "Plait"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:84
-msgid "Lady Jane"
-msgstr "Lady Jane"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:91
-msgid "Gypsy"
-msgstr "Gypsy"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:98
-msgid "Neighbor"
-msgstr "Neighbor"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:105
-msgid "Jamestown"
-msgstr "Jamestown"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:112
-msgid "Osmosis"
-msgstr "Osmosis"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:119
-msgid "Kings Audience"
-msgstr "Kongens audiens"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:126
-msgid "Glenwood"
-msgstr "Glenwood"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:133
-msgid "Gay Gordons"
-msgstr "Gay Gordons"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:140
-msgid "Monte Carlo"
-msgstr "Monte Carlo"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:147
-msgid "Kansas"
-msgstr "Kansas"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:154
-msgid "Camelot"
-msgstr "Camelot"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:161
-msgid "Fourteen"
-msgstr "Fourteen"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:168
-msgid "Scorpion"
-msgstr "Scorpion"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:175
-msgid "Isabel"
-msgstr "Isabel"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:182
-msgid "Escalator"
-msgstr "Escalator"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:189
-msgid "Agnes"
-msgstr "Agnes"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:196
-msgid "Bristol"
-msgstr "Bristol"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:203
-msgid "Quatorze"
-msgstr "Quatorze"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:210
-msgid "Bear River"
-msgstr "Bjørneelv"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:217
-msgid "Gold Mine"
-msgstr "Gold Mine"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:224
-msgid "Athena"
-msgstr "Athena"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:231
-msgid "Spiderette"
-msgstr "Spiderette"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:238
-msgid "Chessboard"
-msgstr "Chessboard"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:245
-msgid "Backbone"
-msgstr "Ryggmarg"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:252
-msgid "Yukon"
-msgstr "Yukon"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:259
-msgid "Union Square"
-msgstr "Union Square"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:266
-msgid "Eight Off"
-msgstr "Eight Off"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:273
-msgid "Napoleons Tomb"
-msgstr "Napoleons grav"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:280
-msgid "Forty Thieves"
-msgstr "Førti tyver"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:287
-msgid "Streets And Alleys"
-msgstr "Streets And Alleys"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:294
-msgid "Maze"
-msgstr "Maze"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:301
-msgid "Clock"
-msgstr "Clock"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:308
-msgid "Pileon"
-msgstr "Pileon"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:315
-msgid "Canfield"
-msgstr "Canfield"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:322
-msgid "Thirteen"
-msgstr "Thirteen"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:329
-msgid "Bakers Game"
-msgstr "Bakers Game"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:336
-msgid "Triple Peaks"
-msgstr "Triple Peaks"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:343
-msgid "Easthaven"
-msgstr "Easthaven"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/game-names.h:350 ../aisleriot/rules/terrace.scm.h:20
-msgid "Terrace"
-msgstr "Terrasse"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:357
-msgid "Aunt Mary"
-msgstr "Aunt Mary"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:364
-msgid "Carpet"
-msgstr "Teppe"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:371
-msgid "Sir Tommy"
-msgstr "Sir Tommy"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:378
-msgid "Diamond Mine"
-msgstr "Diamond Mine"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:385
-msgid "Yield"
-msgstr "Yield"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:392
-msgid "Labyrinth"
-msgstr "Labyrinth"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:399
-msgid "Thieves"
-msgstr "Thieves"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:406
-msgid "Saratoga"
-msgstr "Saratoga"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:413
-msgid "Cruel"
-msgstr "Ond"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:420
-msgid "Block Ten"
-msgstr "Block Ten"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:427
-msgid "Will O The Wisp"
-msgstr "Will O The Wisp"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:434
-msgid "Odessa"
-msgstr "Odessa"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:441
-msgid "Eagle Wing"
-msgstr "Eagle Wing"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:448
-msgid "Treize"
-msgstr "Treize"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:455
-msgid "Zebra"
-msgstr "Zebra"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:462
-msgid "Cover"
-msgstr "Cover"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:469
-msgid "Elevator"
-msgstr "Elevator"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:476
-msgid "Fortress"
-msgstr "Fortress"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:483
-msgid "Giant"
-msgstr "Gigant"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:490
-msgid "Spider"
-msgstr "Spider"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:497
-msgid "Gaps"
-msgstr "Gap"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:504
-msgid "Bakers Dozen"
-msgstr "Bakers Dozen"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:511
-msgid "Whitehead"
-msgstr "Whitehead"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:518
-msgid "Freecell"
-msgstr "Freecell"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:525
-msgid "Helsinki"
-msgstr "Helsinki"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:532
-msgid "Spider Three Decks"
-msgstr "Edderkopp med tre kortstokker"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:539
-msgid "Scuffle"
-msgstr "Scuffle"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:546
-msgid "Poker"
-msgstr "Poker"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:553
-msgid "Klondike Three Decks"
-msgstr "Klondike med tre kortstokker"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:560
-msgid "Valentine"
-msgstr "Valentine"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:567
-msgid "Royal East"
-msgstr "Royal East"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:574
-msgid "Thumb And Pouch"
-msgstr "Thumb And Pouch"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:581
-msgid "Klondike"
-msgstr "Klondike"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:588
-msgid "Doublets"
-msgstr "Doublets"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:595
-msgid "Template"
-msgstr "Template"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:602
-msgid "Golf"
-msgstr "Golf"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:609
-msgid "Westhaven"
-msgstr "Westhaven"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:616
-msgid "Beleaguered Castle"
-msgstr "Beleaguered Castle"
-
-#. Translators: this string is the name of a game of patience.
-#. If there is an established standard name for this game in your
-#. locale, use that; otherwise you can translate this string
-#. freely, literally, or not at all, at your option.
-#.
-#: ../aisleriot/game-names.h:623
-msgid "Hopscotch"
-msgstr "Hopscotch"
-
-#. String reserve
-#: ../aisleriot/sol.c:69
-msgid "Solitaire"
-msgstr "Solitaire"
-
-#: ../aisleriot/sol.c:70
-msgid "GNOME Solitaire"
-msgstr "GNOME Solitaire"
-
-#: ../aisleriot/sol.c:71
-msgid "About Solitaire"
-msgstr "Om Solitaire"
-
-#: ../aisleriot/sol.c:210
-msgid "Select the game type to play"
-msgstr "Velg type spill som skal spilles"
-
-#: ../aisleriot/sol.c:210 ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
-msgid "NAME"
-msgstr "NAVN"
-
-#: ../aisleriot/sol.c:212
-msgid "Select the game number"
-msgstr "Velg spillnummer"
-
-#: ../aisleriot/sol.c:212 ../gnomine/gnomine.c:929 ../gtali/gyahtzee.c:107
-#: ../gtali/gyahtzee.c:109 ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
-msgid "NUMBER"
-msgstr "ANTALL"
-
-#: ../aisleriot/sol.c:323 ../aisleriot/window.c:464 ../aisleriot/window.c:2024
-msgid "AisleRiot"
-msgstr "AisleRiot"
-
-#: ../aisleriot/sol.desktop.in.in.h:1
-msgid "AisleRiot Solitaire"
-msgstr "AisleRiot Solitaire"
-
-#: ../aisleriot/sol.desktop.in.in.h:2
-msgid "Play many different solitaire games"
-msgstr "Spill mange forskjellige solitaire-spill"
-
-#: ../aisleriot/sol.scm.h:1
-msgid "Unknown color"
-msgstr "Ukjent farge"
-
-#: ../aisleriot/sol.scm.h:2
-msgid "Unknown suit"
-msgstr "Ukjent stokk"
-
-#: ../aisleriot/sol.scm.h:3
-msgid "Unknown value"
-msgstr "Ukjent verdi"
-
-#: ../aisleriot/sol.scm.h:4
-msgid "ace"
-msgstr "ess"
-
-#. A black joker.
-#: ../aisleriot/sol.scm.h:5 ../aisleriot/lib/ar-card.c:331
-msgid "black joker"
-msgstr "sort joker"
-
-#: ../aisleriot/sol.scm.h:6
-msgid "clubs"
-msgstr "kløver"
-
-#: ../aisleriot/sol.scm.h:7
-msgid "diamonds"
-msgstr "ruter"
-
-#: ../aisleriot/sol.scm.h:8
-msgid "eight"
-msgstr "åtte"
-
-#: ../aisleriot/sol.scm.h:9
-msgid "five"
-msgstr "fem"
-
-#: ../aisleriot/sol.scm.h:10
-msgid "four"
-msgstr "fire"
-
-#: ../aisleriot/sol.scm.h:11
-msgid "hearts"
-msgstr "hjerter"
-
-#: ../aisleriot/sol.scm.h:12
-msgid "jack"
-msgstr "knekt"
-
-#: ../aisleriot/sol.scm.h:13
-msgid "king"
-msgstr "konge"
-
-#: ../aisleriot/sol.scm.h:14
-msgid "nine"
-msgstr "ni"
-
-#: ../aisleriot/sol.scm.h:15
-msgid "queen"
-msgstr "dronning"
-
-#. A red joker.
-#: ../aisleriot/sol.scm.h:16 ../aisleriot/lib/ar-card.c:334
-msgid "red joker"
-msgstr "rød joker"
-
-#: ../aisleriot/sol.scm.h:17
-msgid "seven"
-msgstr "sju"
-
-#: ../aisleriot/sol.scm.h:18
-msgid "six"
-msgstr "seks"
-
-#: ../aisleriot/sol.scm.h:19
-msgid "spades"
-msgstr "spar"
-
-#: ../aisleriot/sol.scm.h:20
-msgid "ten"
-msgstr "ti"
-
-#: ../aisleriot/sol.scm.h:21
-msgid "the ace of clubs"
-msgstr "kløver ess"
-
-#: ../aisleriot/sol.scm.h:22
-msgid "the ace of diamonds"
-msgstr "ruter ess"
-
-#: ../aisleriot/sol.scm.h:23
-msgid "the ace of hearts"
-msgstr "hjerter ess"
-
-#: ../aisleriot/sol.scm.h:24
-msgid "the ace of spades"
-msgstr "spar ess"
-
-#: ../aisleriot/sol.scm.h:25
-msgid "the eight of clubs"
-msgstr "kløver åtte"
-
-#: ../aisleriot/sol.scm.h:26
-msgid "the eight of diamonds"
-msgstr "ruter åtte"
-
-#: ../aisleriot/sol.scm.h:27
-msgid "the eight of hearts"
-msgstr "hjerter åtte"
-
-#: ../aisleriot/sol.scm.h:28
-msgid "the eight of spades"
-msgstr "spar åtte"
-
-#: ../aisleriot/sol.scm.h:29
-msgid "the five of clubs"
-msgstr "kløver fem"
-
-#: ../aisleriot/sol.scm.h:30
-msgid "the five of diamonds"
-msgstr "ruter fem"
-
-#: ../aisleriot/sol.scm.h:31
-msgid "the five of hearts"
-msgstr "hjerter fem"
-
-#: ../aisleriot/sol.scm.h:32
-msgid "the five of spades"
-msgstr "spar fem"
-
-#: ../aisleriot/sol.scm.h:33
-msgid "the four of clubs"
-msgstr "kløver fire"
-
-#: ../aisleriot/sol.scm.h:34
-msgid "the four of diamonds"
-msgstr "ruter fire"
-
-#: ../aisleriot/sol.scm.h:35
-msgid "the four of hearts"
-msgstr "hjerter fire"
-
-#: ../aisleriot/sol.scm.h:36
-msgid "the four of spades"
-msgstr "spar fire"
-
-#: ../aisleriot/sol.scm.h:37
-msgid "the jack of clubs"
-msgstr "kløver knekt"
-
-#: ../aisleriot/sol.scm.h:38
-msgid "the jack of diamonds"
-msgstr "ruter knekt"
-
-#: ../aisleriot/sol.scm.h:39
-msgid "the jack of hearts"
-msgstr "hjerter knekt"
-
-#: ../aisleriot/sol.scm.h:40
-msgid "the jack of spades"
-msgstr "spar knekt"
-
-#: ../aisleriot/sol.scm.h:41
-msgid "the king of clubs"
-msgstr "kløver konge"
-
-#: ../aisleriot/sol.scm.h:42
-msgid "the king of diamonds"
-msgstr "ruter konge"
-
-#: ../aisleriot/sol.scm.h:43
-msgid "the king of hearts"
-msgstr "hjerter konge"
-
-#: ../aisleriot/sol.scm.h:44
-msgid "the king of spades"
-msgstr "spar konge"
-
-#: ../aisleriot/sol.scm.h:45
-msgid "the nine of clubs"
-msgstr "kløver ni"
-
-#: ../aisleriot/sol.scm.h:46
-msgid "the nine of diamonds"
-msgstr "ruter ni"
-
-#: ../aisleriot/sol.scm.h:47
-msgid "the nine of hearts"
-msgstr "hjerter ni"
-
-#: ../aisleriot/sol.scm.h:48
-msgid "the nine of spades"
-msgstr "spar ni"
-
-#: ../aisleriot/sol.scm.h:49
-msgid "the queen of clubs"
-msgstr "kløver dronning"
-
-#: ../aisleriot/sol.scm.h:50
-msgid "the queen of diamonds"
-msgstr "ruter dronning"
-
-#: ../aisleriot/sol.scm.h:51
-msgid "the queen of hearts"
-msgstr "hjerter dronning"
-
-#: ../aisleriot/sol.scm.h:52
-msgid "the queen of spades"
-msgstr "spar dronning"
-
-#: ../aisleriot/sol.scm.h:53
-msgid "the seven of clubs"
-msgstr "kløver sju"
-
-#: ../aisleriot/sol.scm.h:54
-msgid "the seven of diamonds"
-msgstr "ruter sju"
-
-#: ../aisleriot/sol.scm.h:55
-msgid "the seven of hearts"
-msgstr "hjerter sju"
-
-#: ../aisleriot/sol.scm.h:56
-msgid "the seven of spades"
-msgstr "spar sju"
-
-#: ../aisleriot/sol.scm.h:57
-msgid "the six of clubs"
-msgstr "kløver seks"
-
-#: ../aisleriot/sol.scm.h:58
-msgid "the six of diamonds"
-msgstr "ruter seks"
-
-#: ../aisleriot/sol.scm.h:59
-msgid "the six of hearts"
-msgstr "hjerter seks"
-
-#: ../aisleriot/sol.scm.h:60
-msgid "the six of spades"
-msgstr "spar seks"
-
-#: ../aisleriot/sol.scm.h:61
-msgid "the ten of clubs"
-msgstr "kløver ti"
-
-#: ../aisleriot/sol.scm.h:62
-msgid "the ten of diamonds"
-msgstr "ruter ti"
-
-#: ../aisleriot/sol.scm.h:63
-msgid "the ten of hearts"
-msgstr "hjerter ti"
-
-#: ../aisleriot/sol.scm.h:64
-msgid "the ten of spades"
-msgstr "spar ti"
-
-#: ../aisleriot/sol.scm.h:65
-msgid "the three of clubs"
-msgstr "kløver tre"
-
-#: ../aisleriot/sol.scm.h:66
-msgid "the three of diamonds"
-msgstr "ruter tre"
-
-#: ../aisleriot/sol.scm.h:67
-msgid "the three of hearts"
-msgstr "hjerter tre"
-
-#: ../aisleriot/sol.scm.h:68
-msgid "the three of spades"
-msgstr "spar tre"
-
-#: ../aisleriot/sol.scm.h:69
-msgid "the two of clubs"
-msgstr "kløver to"
-
-#: ../aisleriot/sol.scm.h:70
-msgid "the two of diamonds"
-msgstr "ruter to"
-
-#: ../aisleriot/sol.scm.h:71
-msgid "the two of hearts"
-msgstr "hjerter to"
-
-#: ../aisleriot/sol.scm.h:72
-msgid "the two of spades"
-msgstr "spar to"
-
-#: ../aisleriot/sol.scm.h:73
-msgid "the unknown card"
-msgstr "ukjent kort"
-
-#: ../aisleriot/sol.scm.h:74
-msgid "three"
-msgstr "tre"
-
-#: ../aisleriot/sol.scm.h:75
-msgid "two"
-msgstr "to"
-
-#. Translators: this is the total number of won games
-#: ../aisleriot/stats-dialog.c:155
-msgid "Wins:"
-msgstr "Seiere:"
-
-#. Translators: this is the number of games played
-#: ../aisleriot/stats-dialog.c:157
-msgid "Total:"
-msgstr "Totalt:"
-
-#. Translators: this is the percentage of games won out of all games played
-#: ../aisleriot/stats-dialog.c:159
-msgid "Percentage:"
-msgstr "Prosent:"
-
-#. Translators: this is the section title of a section which contains the n
-#. * number of games played, number of games won, and the ratio of these 2 numbers.
-#.
-#: ../aisleriot/stats-dialog.c:163
-msgid "Wins"
-msgstr "Seiere"
-
-#. Translators: this is the best time of all wins
-#: ../aisleriot/stats-dialog.c:170
-msgid "Best:"
-msgstr "Best:"
-
-#. Translators: this is the worst time of all wins
-#: ../aisleriot/stats-dialog.c:172
-msgid "Worst:"
-msgstr "Verst:"
-
-#. Translators: this is the section title of a section containing the
-#. * best and worst time taken to win a game.
-#.
-#: ../aisleriot/stats-dialog.c:176
-#: ../libgames-support/games-scores-dialog.c:136
-msgid "Time"
-msgstr "Tid:"
-
-#: ../aisleriot/stats-dialog.c:208
-msgid "Statistics"
-msgstr "Statistikk"
-
-#. Translators: Translate this to "%Id" if you want to use localised digits,
-#. * and to "%d" otherwise. Do not translate it to anything else!
-#.
-#: ../aisleriot/stats-dialog.c:222 ../aisleriot/stats-dialog.c:228
-#, c-format
-msgid "%d"
-msgstr "%d"
-
-#. Translators: Translate the "%d" in this string this to "%Id" if you
-#. * want to use localised digits, and to "%d" otherwise.
-#. * Do not translate the "%d" part to anything else!
-#. * You may translate the "%%" part to use any other percent character(s)
-#. * instead, or leave it as "%%". If you chose a character other than
-#. * "%" (U+0025 PERCENT SIGN) you do NOT need to escape it with another "%"!
-#.
-#: ../aisleriot/stats-dialog.c:239
-#, c-format
-msgid "%d%%"
-msgstr "%d%%"
-
-#. For translators: N/A means "Not Applicable", use whatever
-#. * abbreviation you have for a value that has no meaning.
-#: ../aisleriot/stats-dialog.c:245 ../aisleriot/stats-dialog.c:254
-#: ../aisleriot/stats-dialog.c:262
-msgid "N/A"
-msgstr "I/T"
-
-#. Translators: this represents minutes:seconds.
-#: ../aisleriot/stats-dialog.c:249 ../aisleriot/stats-dialog.c:257
-#, c-format
-msgid "%d:%02d"
-msgstr "%d:%02d"
-
-#: ../aisleriot/util.c:86 ../aisleriot/util.c:90
-#: ../libgames-support/games-help.c:152
-#, c-format
-msgid "Could not show help for “%s”"
-msgstr "Kunne ikke vise hjelp for «%s»"
-
-#: ../aisleriot/window.c:261
-msgid "Congratulations, you have won!"
-msgstr "Gratulerer. Du har vunnet!"
-
-#: ../aisleriot/window.c:265
-msgid "There are no more moves"
-msgstr "Ingen flere trekk"
-
-#. Empty title shows up as "<unnamed>" on maemo
-#: ../aisleriot/window.c:278 ../quadrapassel/blockops.cpp:788
-msgid "Game Over"
-msgstr "Spillet over"
-
-#: ../aisleriot/window.c:412 ../gnomine/gnomine.c:437
-#: ../mahjongg/mahjongg.c:867
-msgid "Main game:"
-msgstr "Hovedspill:"
-
-#: ../aisleriot/window.c:420
-msgid "Card games:"
-msgstr "Kortspill:"
-
-#: ../aisleriot/window.c:434
-msgid "Card themes:"
-msgstr "Tema for kort:"
-
-#: ../aisleriot/window.c:466
-msgid "About FreeCell Solitaire"
-msgstr "Om FreeCell Solitaire"
-
-#: ../aisleriot/window.c:467
-msgid "About AisleRiot"
-msgstr "Om AisleRiot"
-
-#: ../aisleriot/window.c:473
-msgid ""
-"AisleRiot provides a rule-based solitaire card engine that allows many "
-"different games to be played.\n"
-"AisleRiot is a part of GNOME Games."
-msgstr ""
-"AislerRiot gir deg en regelbasert solitaire-kabalmotor som lar deg spille "
-"mange forskjellige spill.\n"
-"AisleRiot er et av spillene i GNOME Games."
-
-#. this doesn't work for anyone
-#: ../aisleriot/window.c:484 ../glines/glines.c:1216 ../gnect/src/main.c:878
-#: ../gnibbles/main.c:208 ../gnobots2/menu.c:267
-#: ../quadrapassel/tetris.cpp:1303 ../gnome-sudoku/src/lib/main.py:709
-#: ../gnomine/gnomine.c:477 ../gnotravex/gnotravex.c:1613
-#: ../gnotski/gnotski.c:1487 ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:270
-#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:908
-#: ../swell-foop/src/About.js:20
-msgid "translator-credits"
-msgstr ""
-"Kjartan Maraas <kmaraas@gnome.org>\n"
-"Espen Stefansen <espens@svn.gnome.org>\n"
-"Torstein Adolf Winterseth <kvikende@fsfe.org>"
-
-#: ../aisleriot/window.c:488 ../glines/glines.c:1219 ../gnect/src/main.c:875
-#: ../gnibbles/main.c:211 ../gnobots2/menu.c:263
-#: ../quadrapassel/tetris.cpp:1300 ../gnome-sudoku/src/lib/defaults.py.in:45
-#: ../gnomine/gnomine.c:480 ../gnotravex/gnotravex.c:1616
-#: ../gnotski/gnotski.c:1490 ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
-#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:911
-#: ../swell-foop/src/About.js:19
-msgid "GNOME Games web site"
-msgstr "GNOME spill nettsted"
-
-#: ../aisleriot/window.c:1360
-#, c-format
-msgid "Play “%s”"
-msgstr "Spill «%s»"
-
-#: ../aisleriot/window.c:1531
-#, c-format
-msgid "Display cards with “%s” card theme"
-msgstr "Vis kort med korttema «%s»"
-
-#. Translators: if you want to use localised digits for the game score,
-#. * then translate this string to "%I6d", else to "%6d".
-#. * Do not translate it to anything else!
-#.
-#: ../aisleriot/window.c:1626
-#, c-format
-msgctxt "score"
-msgid "%6d"
-msgstr "%6d"
-
-#: ../aisleriot/window.c:1893
-msgid "A scheme exception occurred"
-msgstr "Et unntak oppsto med schema"
-
-#: ../aisleriot/window.c:1896
-msgid "Please report this bug to the developers."
-msgstr "Vennligst rapporter denne feilen til utviklerene."
-
-#. Empty title shows up as "<unnamed>" on maemo
-#: ../aisleriot/window.c:1900 ../libgames-support/games-show.c:151
-msgid "Error"
-msgstr "Feil"
-
-#: ../aisleriot/window.c:1908
-msgid "_Don't report"
-msgstr "_Ikke send rapport"
-
-#: ../aisleriot/window.c:1909
-msgid "_Report"
-msgstr "Send _rapport"
-
-#: ../aisleriot/window.c:2022
-msgid "Freecell Solitaire"
-msgstr "Freecell Solitaire"
-
-#. Menu actions
-#. Game menu name
-#: ../aisleriot/window.c:2187 ../glchess/data/glchess.ui.h:22
-#: ../glines/glines.c:1640 ../gnect/src/main.c:1242 ../gnibbles/main.c:687
-#: ../gnobots2/menu.c:66 ../quadrapassel/tetris.cpp:108
-#: ../gnome-sudoku/src/lib/main.py:231 ../gnomine/gnomine.c:769
-#: ../gnotravex/gnotravex.c:1707 ../gnotski/gnotski.c:409
-#: ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:847
-#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1200
-#: ../swell-foop/data/swell-foop.ui.h:2
-msgid "_Game"
-msgstr "_Spill"
-
-#: ../aisleriot/window.c:2188 ../gnect/src/main.c:1243 ../gnibbles/main.c:688
-#: ../gnobots2/menu.c:67 ../gnotski/gnotski.c:410
-msgid "_View"
-msgstr "_Vis"
-
-#: ../aisleriot/window.c:2189
-msgid "_Control"
-msgstr "_Kontroll"
-
-#. Help menu item
-#: ../aisleriot/window.c:2191 ../glchess/data/glchess.ui.h:24
-#: ../glines/glines.c:1642 ../gnect/src/main.c:1245 ../gnibbles/main.c:690
-#: ../gnobots2/menu.c:70 ../quadrapassel/tetris.cpp:110
-#: ../gnome-sudoku/src/lib/main.py:254 ../gnomine/gnomine.c:771
-#: ../gnotravex/gnotravex.c:1711 ../gnotski/gnotski.c:411
-#: ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:849
-#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1202
-#: ../swell-foop/data/swell-foop.ui.h:3
-msgid "_Help"
-msgstr "_Hjelp"
-
-#. Tooltip for start new game toolbar button
-#: ../aisleriot/window.c:2196 ../glchess/data/glchess.ui.h:16
-#: ../gnobots2/menu.c:71 ../libgames-support/games-stock.c:59
-#: ../mahjongg/mahjongg.c:1203
-msgid "Start a new game"
-msgstr "Start et nytt spill"
-
-#: ../aisleriot/window.c:2199 ../libgames-support/games-stock.c:63
-msgid "Restart the game"
-msgstr "Start spillet på nytt"
-
-#: ../aisleriot/window.c:2201
-msgid "_Select Game..."
-msgstr "_Velg spill"
-
-#: ../aisleriot/window.c:2203
-msgid "Play a different game"
-msgstr "Spill et annet spill"
-
-#: ../aisleriot/window.c:2205
-msgid "_Recently Played"
-msgstr "Sist s_pilt"
-
-#: ../aisleriot/window.c:2206
-msgid "S_tatistics"
-msgstr "S_tatistikk"
-
-#: ../aisleriot/window.c:2207
-msgid "Show gameplay statistics"
-msgstr "Vis spillstatistikk"
-
-#: ../aisleriot/window.c:2210 ../libgames-support/games-stock.c:68
-msgid "Close this window"
-msgstr "Lukk dette vinduet"
-
-#: ../aisleriot/window.c:2213 ../libgames-support/games-stock.c:66
-#: ../mahjongg/mahjongg.c:1207
-msgid "Undo the last move"
-msgstr "Angre forrige trekk"
-
-#: ../aisleriot/window.c:2216 ../libgames-support/games-stock.c:62
-msgid "Redo the undone move"
-msgstr "Gjenopprett angret trekk"
-
-#: ../aisleriot/window.c:2219
-msgid "Deal next card or cards"
-msgstr "Del ut kort"
-
-#: ../aisleriot/window.c:2222 ../libgames-support/games-stock.c:55
-msgid "Get a hint for your next move"
-msgstr "Hint for ditt neste trekk"
-
-#: ../aisleriot/window.c:2225
-msgid "View help for Aisleriot"
-msgstr "Vis hjelp for Aisleriot"
-
-#: ../aisleriot/window.c:2229 ../libgames-support/games-stock.c:52
-msgid "View help for this game"
-msgstr "Vis hjelp for dette spillet"
-
-#: ../aisleriot/window.c:2232 ../libgames-support/games-stock.c:67
-msgid "About this game"
-msgstr "Om dette spillet"
-
-#: ../aisleriot/window.c:2235
-msgid "Install card themes…"
-msgstr "Installer tema for kort …"
-
-#: ../aisleriot/window.c:2236
-msgid "Install new card themes from the distribution packages repositories"
-msgstr "Installer nye tema for kortstokken fra distribusjonens pakkelager"
-
-#: ../aisleriot/window.c:2244
-msgid "_Card Style"
-msgstr "_Kortstil"
-
-#: ../aisleriot/window.c:2285 ../gnobots2/menu.c:90
-#: ../mahjongg/mahjongg.c:1223
-msgid "_Toolbar"
-msgstr "_Verktøylinje"
-
-#: ../aisleriot/window.c:2286 ../gnobots2/menu.c:90
-#: ../mahjongg/mahjongg.c:1223
-msgid "Show or hide the toolbar"
-msgstr "Vis eller skjul verktøylinjen"
-
-#: ../aisleriot/window.c:2291
-msgid "_Statusbar"
-msgstr "_Statuslinje"
-
-#: ../aisleriot/window.c:2292
-msgid "Show or hide statusbar"
-msgstr "Vis eller skjul statuslinjen"
-
-#: ../aisleriot/window.c:2297 ../gnotravex/gnotravex.c:1731
-msgid "_Click to Move"
-msgstr "_Klikk for å flytte"
-
-#: ../aisleriot/window.c:2298
-msgid "Pick up and drop cards by clicking"
-msgstr "Plukk opp og slipp kort ved å klikke"
-
-#: ../aisleriot/window.c:2302
-msgid "_Sound"
-msgstr "_Lyd"
-
-#: ../aisleriot/window.c:2303
-msgid "Whether or not to play event sounds"
-msgstr "Om lyder skal spilles av for hendelser"
-
-#: ../aisleriot/window.c:2308
-msgid "_Animations"
-msgstr "_Animasjon"
-
-#: ../aisleriot/window.c:2309
-msgid "Whether or not to animate card moves"
-msgstr "Om animasjoner skal brukes eller ikke"
-
-#: ../aisleriot/window.c:2616 ../glines/glines.c:1841
-#: ../gnobots2/statusbar.c:67 ../quadrapassel/scoreframe.cpp:47
-#: ../gnomine/gnomine.c:440
-msgid "Score:"
-msgstr "Poeng:"
-
-#: ../aisleriot/window.c:2628 ../gnotravex/gnotravex.c:1402
-#: ../mahjongg/mahjongg.c:1407
-msgid "Time:"
-msgstr "Tid:"
-
-#: ../aisleriot/window.c:2977
-#, c-format
-msgid "Cannot start the game “%s”"
-msgstr "Kan ikke starte spill «%s»"
-
-#. Translators: this is the symbol that's on a Joker card
-#: ../aisleriot/lib/ar-card.c:182
-msgctxt "card symbol"
-msgid "JOKER"
-msgstr "JOKER"
-
-#. Translators: this is the symbol that's on an Ace card
-#: ../aisleriot/lib/ar-card.c:184 ../aisleriot/lib/ar-card.c:208
-msgctxt "card symbol"
-msgid "A"
-msgstr "A"
-
-#. Translators: this is the symbol that's on a 2 card
-#: ../aisleriot/lib/ar-card.c:186
-msgctxt "card symbol"
-msgid "2"
-msgstr "2"
-
-#. Translators: this is the symbol that's on a 3 card
-#: ../aisleriot/lib/ar-card.c:188
-msgctxt "card symbol"
-msgid "3"
-msgstr "3"
-
-#. Translators: this is the symbol that's on a 4 card
-#: ../aisleriot/lib/ar-card.c:190
-msgctxt "card symbol"
-msgid "4"
-msgstr "4"
-
-#. Translators: this is the symbol that's on a 5 card
-#: ../aisleriot/lib/ar-card.c:192
-msgctxt "card symbol"
-msgid "5"
-msgstr "5"
-
-#. Translators: this is the symbol that's on a 6 card
-#: ../aisleriot/lib/ar-card.c:194
-msgctxt "card symbol"
-msgid "6"
-msgstr "6"
-
-#. Translators: this is the symbol that's on a 7 card
-#: ../aisleriot/lib/ar-card.c:196
-msgctxt "card symbol"
-msgid "7"
-msgstr "7"
-
-#. Translators: this is the symbol that's on a 8 card
-#: ../aisleriot/lib/ar-card.c:198
-msgctxt "card symbol"
-msgid "8"
-msgstr "8"
-
-#. Translators: this is the symbol that's on a 9 card
-#: ../aisleriot/lib/ar-card.c:200
-msgctxt "card symbol"
-msgid "9"
-msgstr "9"
-
-#. Translators: this is the symbol that's on a Jack card
-#: ../aisleriot/lib/ar-card.c:202
-msgctxt "card symbol"
-msgid "J"
-msgstr "J"
-
-#. Translators: this is the symbol that's on a Queen card
-#: ../aisleriot/lib/ar-card.c:204
-msgctxt "card symbol"
-msgid "Q"
-msgstr "Q"
-
-#. Translators: this is the symbol that's on a King card
-#: ../aisleriot/lib/ar-card.c:206
-msgctxt "card symbol"
-msgid "K"
-msgstr "K"
-
-#. Translators: this is the symbol that's on a 1 card
-#: ../aisleriot/lib/ar-card.c:210
-msgctxt "card symbol"
-msgid "1"
-msgstr "1"
-
-#: ../aisleriot/lib/ar-card.c:252
-msgid "ace of clubs"
-msgstr "kløver ess"
-
-#: ../aisleriot/lib/ar-card.c:253
-msgid "two of clubs"
-msgstr "kløver to"
-
-#: ../aisleriot/lib/ar-card.c:254
-msgid "three of clubs"
-msgstr "kløver tre"
-
-#: ../aisleriot/lib/ar-card.c:255
-msgid "four of clubs"
-msgstr "kløver fire"
-
-#: ../aisleriot/lib/ar-card.c:256
-msgid "five of clubs"
-msgstr "kløver fem"
-
-#: ../aisleriot/lib/ar-card.c:257
-msgid "six of clubs"
-msgstr "kløver seks"
-
-#: ../aisleriot/lib/ar-card.c:258
-msgid "seven of clubs"
-msgstr "kløver sju"
-
-#: ../aisleriot/lib/ar-card.c:259
-msgid "eight of clubs"
-msgstr "kløver åtte"
-
-#: ../aisleriot/lib/ar-card.c:260
-msgid "nine of clubs"
-msgstr "kløver ni"
-
-#: ../aisleriot/lib/ar-card.c:261
-msgid "ten of clubs"
-msgstr "kløver ti"
-
-#: ../aisleriot/lib/ar-card.c:262
-msgid "jack of clubs"
-msgstr "kløver knekt"
-
-#: ../aisleriot/lib/ar-card.c:263
-msgid "queen of clubs"
-msgstr "kløver dronning"
-
-#: ../aisleriot/lib/ar-card.c:264
-msgid "king of clubs"
-msgstr "kløver konge"
-
-#: ../aisleriot/lib/ar-card.c:265
-msgid "ace of diamonds"
-msgstr "ruter ess"
-
-#: ../aisleriot/lib/ar-card.c:266
-msgid "two of diamonds"
-msgstr "ruter to"
-
-#: ../aisleriot/lib/ar-card.c:267
-msgid "three of diamonds"
-msgstr "ruter tre"
-
-#: ../aisleriot/lib/ar-card.c:268
-msgid "four of diamonds"
-msgstr "ruter fire"
-
-#: ../aisleriot/lib/ar-card.c:269
-msgid "five of diamonds"
-msgstr "ruter fem"
-
-#: ../aisleriot/lib/ar-card.c:270
-msgid "six of diamonds"
-msgstr "ruter seks"
-
-#: ../aisleriot/lib/ar-card.c:271
-msgid "seven of diamonds"
-msgstr "ruter sju"
-
-#: ../aisleriot/lib/ar-card.c:272
-msgid "eight of diamonds"
-msgstr "ruter åtte"
-
-#: ../aisleriot/lib/ar-card.c:273
-msgid "nine of diamonds"
-msgstr "ruter ni"
-
-#: ../aisleriot/lib/ar-card.c:274
-msgid "ten of diamonds"
-msgstr "ruter ti"
-
-#: ../aisleriot/lib/ar-card.c:275
-msgid "jack of diamonds"
-msgstr "ruter knekt"
-
-#: ../aisleriot/lib/ar-card.c:276
-msgid "queen of diamonds"
-msgstr "ruter dronning"
-
-#: ../aisleriot/lib/ar-card.c:277
-msgid "king of diamonds"
-msgstr "ruter konge"
-
-#: ../aisleriot/lib/ar-card.c:278
-msgid "ace of hearts"
-msgstr "hjerter ess"
-
-#: ../aisleriot/lib/ar-card.c:279
-msgid "two of hearts"
-msgstr "hjerter to"
-
-#: ../aisleriot/lib/ar-card.c:280
-msgid "three of hearts"
-msgstr "hjerter tre"
-
-#: ../aisleriot/lib/ar-card.c:281
-msgid "four of hearts"
-msgstr "hjerter fire"
-
-#: ../aisleriot/lib/ar-card.c:282
-msgid "five of hearts"
-msgstr "hjerter fem"
-
-#: ../aisleriot/lib/ar-card.c:283
-msgid "six of hearts"
-msgstr "hjerter seks"
-
-#: ../aisleriot/lib/ar-card.c:284
-msgid "seven of hearts"
-msgstr "hjerter sju"
-
-#: ../aisleriot/lib/ar-card.c:285
-msgid "eight of hearts"
-msgstr "hjerter åtte"
-
-#: ../aisleriot/lib/ar-card.c:286
-msgid "nine of hearts"
-msgstr "hjerter ni"
-
-#: ../aisleriot/lib/ar-card.c:287
-msgid "ten of hearts"
-msgstr "hjerter ti"
-
-#: ../aisleriot/lib/ar-card.c:288
-msgid "jack of hearts"
-msgstr "hjerter knekt"
-
-#: ../aisleriot/lib/ar-card.c:289
-msgid "queen of hearts"
-msgstr "hjerter dronning"
-
-#: ../aisleriot/lib/ar-card.c:290
-msgid "king of hearts"
-msgstr "hjerter konge"
-
-#: ../aisleriot/lib/ar-card.c:291
-msgid "ace of spades"
-msgstr "spar ess"
-
-#: ../aisleriot/lib/ar-card.c:292
-msgid "two of spades"
-msgstr "spar to"
-
-#: ../aisleriot/lib/ar-card.c:293
-msgid "three of spades"
-msgstr "spar tre"
-
-#: ../aisleriot/lib/ar-card.c:294
-msgid "four of spades"
-msgstr "spar fire"
-
-#: ../aisleriot/lib/ar-card.c:295
-msgid "five of spades"
-msgstr "spar fem"
-
-#: ../aisleriot/lib/ar-card.c:296
-msgid "six of spades"
-msgstr "spar seks"
-
-#: ../aisleriot/lib/ar-card.c:297
-msgid "seven of spades"
-msgstr "spar sju"
-
-#: ../aisleriot/lib/ar-card.c:298
-msgid "eight of spades"
-msgstr "spar åtte"
-
-#: ../aisleriot/lib/ar-card.c:299
-msgid "nine of spades"
-msgstr "spar ni"
-
-#: ../aisleriot/lib/ar-card.c:300
-msgid "ten of spades"
-msgstr "spar ti"
-
-#: ../aisleriot/lib/ar-card.c:301
-msgid "jack of spades"
-msgstr "spar knekt"
-
-#: ../aisleriot/lib/ar-card.c:302
-msgid "queen of spades"
-msgstr "spar dronning"
-
-#: ../aisleriot/lib/ar-card.c:303
-msgid "king of spades"
-msgstr "spar konge"
-
-#: ../aisleriot/lib/ar-card.c:320
-msgid "face-down card"
-msgstr "ukjent kort"
-
-#: ../aisleriot/rules/agnes.scm.h:1 ../aisleriot/rules/bear_river.scm.h:2
-#: ../aisleriot/rules/canfield.scm.h:2 ../aisleriot/rules/chessboard.scm.h:2
-#: ../aisleriot/rules/eagle_wing.scm.h:2 ../aisleriot/rules/glenwood.scm.h:2
-#: ../aisleriot/rules/kansas.scm.h:2 ../aisleriot/rules/lady_jane.scm.h:2
-#: ../aisleriot/rules/plait.scm.h:2 ../aisleriot/rules/royal_east.scm.h:2
-#: ../aisleriot/rules/terrace.scm.h:1
-msgid "Base Card: Ace"
-msgstr "Basiskort: Ess"
-
-#: ../aisleriot/rules/agnes.scm.h:2 ../aisleriot/rules/bear_river.scm.h:3
-#: ../aisleriot/rules/canfield.scm.h:3 ../aisleriot/rules/chessboard.scm.h:3
-#: ../aisleriot/rules/eagle_wing.scm.h:3 ../aisleriot/rules/glenwood.scm.h:3
-#: ../aisleriot/rules/kansas.scm.h:3 ../aisleriot/rules/lady_jane.scm.h:3
-#: ../aisleriot/rules/plait.scm.h:3 ../aisleriot/rules/royal_east.scm.h:3
-#: ../aisleriot/rules/terrace.scm.h:2
-msgid "Base Card: Jack"
-msgstr "Basiskort: Knekt"
-
-#: ../aisleriot/rules/agnes.scm.h:3 ../aisleriot/rules/bear_river.scm.h:4
-#: ../aisleriot/rules/canfield.scm.h:4 ../aisleriot/rules/chessboard.scm.h:4
-#: ../aisleriot/rules/eagle_wing.scm.h:4 ../aisleriot/rules/glenwood.scm.h:4
-#: ../aisleriot/rules/kansas.scm.h:4 ../aisleriot/rules/lady_jane.scm.h:4
-#: ../aisleriot/rules/plait.scm.h:4 ../aisleriot/rules/royal_east.scm.h:4
-#: ../aisleriot/rules/terrace.scm.h:3
-msgid "Base Card: King"
-msgstr "Basiskort: Konge"
-
-#: ../aisleriot/rules/agnes.scm.h:4 ../aisleriot/rules/bear_river.scm.h:5
-#: ../aisleriot/rules/canfield.scm.h:5 ../aisleriot/rules/chessboard.scm.h:5
-#: ../aisleriot/rules/eagle_wing.scm.h:5 ../aisleriot/rules/glenwood.scm.h:5
-#: ../aisleriot/rules/kansas.scm.h:5 ../aisleriot/rules/lady_jane.scm.h:5
-#: ../aisleriot/rules/plait.scm.h:5 ../aisleriot/rules/royal_east.scm.h:5
-#: ../aisleriot/rules/terrace.scm.h:4
-msgid "Base Card: Queen"
-msgstr "Basiskort: Dronning"
-
-#: ../aisleriot/rules/agnes.scm.h:5 ../aisleriot/rules/terrace.scm.h:5
-msgid "Base Card: ~a"
-msgstr "Basiskort: ~a"
-
-#: ../aisleriot/rules/agnes.scm.h:6 ../aisleriot/rules/easthaven.scm.h:1
-#: ../aisleriot/rules/labyrinth.scm.h:1 ../aisleriot/rules/monte_carlo.scm.h:1
-#: ../aisleriot/rules/valentine.scm.h:1
-msgid "Deal more cards"
-msgstr "Del ut flere kort"
-
-#: ../aisleriot/rules/agnes.scm.h:7 ../aisleriot/rules/auld_lang_syne.scm.h:2
-#: ../aisleriot/rules/backbone.scm.h:3 ../aisleriot/rules/block_ten.scm.h:1
-#: ../aisleriot/rules/bristol.scm.h:2 ../aisleriot/rules/camelot.scm.h:2
-#: ../aisleriot/rules/canfield.scm.h:9 ../aisleriot/rules/carpet.scm.h:2
-#: ../aisleriot/rules/cover.scm.h:1 ../aisleriot/rules/doublets.scm.h:2
-#: ../aisleriot/rules/eagle_wing.scm.h:11 ../aisleriot/rules/easthaven.scm.h:4
-#: ../aisleriot/rules/elevator.scm.h:2 ../aisleriot/rules/escalator.scm.h:2
-#: ../aisleriot/rules/first_law.scm.h:17 ../aisleriot/rules/fortunes.scm.h:4
-#: ../aisleriot/rules/forty_thieves.scm.h:3
-#: ../aisleriot/rules/glenwood.scm.h:11 ../aisleriot/rules/gypsy.scm.h:3
-#: ../aisleriot/rules/helsinki.scm.h:1 ../aisleriot/rules/hopscotch.scm.h:3
-#: ../aisleriot/rules/jamestown.scm.h:1 ../aisleriot/rules/jumbo.scm.h:4
-#: ../aisleriot/rules/kansas.scm.h:8 ../aisleriot/rules/klondike.scm.h:7
-#: ../aisleriot/rules/labyrinth.scm.h:2 ../aisleriot/rules/lady_jane.scm.h:7
-#: ../aisleriot/rules/monte_carlo.scm.h:2 ../aisleriot/rules/neighbor.scm.h:1
-#: ../aisleriot/rules/plait.scm.h:11 ../aisleriot/rules/quatorze.scm.h:1
-#: ../aisleriot/rules/royal_east.scm.h:7 ../aisleriot/rules/scuffle.scm.h:4
-#: ../aisleriot/rules/sir_tommy.scm.h:3 ../aisleriot/rules/straight_up.scm.h:5
-#: ../aisleriot/rules/terrace.scm.h:18 ../aisleriot/rules/thieves.scm.h:2
-#: ../aisleriot/rules/thirteen.scm.h:3
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:4
-#: ../aisleriot/rules/treize.scm.h:2 ../aisleriot/rules/triple_peaks.scm.h:4
-#: ../aisleriot/rules/union_square.scm.h:2
-#: ../aisleriot/rules/westhaven.scm.h:2 ../aisleriot/rules/whitehead.scm.h:3
-#: ../aisleriot/rules/yield.scm.h:2 ../aisleriot/rules/zebra.scm.h:4
-msgid "Stock left:"
-msgstr "Igjen i stokken:"
-
-#: ../aisleriot/rules/agnes.scm.h:8 ../aisleriot/rules/lady_jane.scm.h:8
-msgid "Stock left: 0"
-msgstr "Igjen i stokken: 0"
-
-#: ../aisleriot/rules/agnes.scm.h:9 ../aisleriot/rules/backbone.scm.h:4
-#: ../aisleriot/rules/bakers_dozen.scm.h:1
-#: ../aisleriot/rules/beleaguered_castle.scm.h:1
-#: ../aisleriot/rules/canfield.scm.h:10 ../aisleriot/rules/jumbo.scm.h:5
-#: ../aisleriot/rules/king_albert.scm.h:1 ../aisleriot/rules/lady_jane.scm.h:9
-#: ../aisleriot/rules/streets_and_alleys.scm.h:1
-msgid "Try rearranging the cards"
-msgstr "Prøv å omarrangere kortene"
-
-#: ../aisleriot/rules/agnes.scm.h:10 ../aisleriot/rules/bristol.scm.h:3
-#: ../aisleriot/rules/lady_jane.scm.h:10 ../aisleriot/rules/royal_east.scm.h:8
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:5
-msgid "an empty foundation pile"
-msgstr "en tom fundamenthaug"
-
-#: ../aisleriot/rules/athena.scm.h:1 ../aisleriot/rules/klondike.scm.h:8
-#: ../aisleriot/rules/osmosis.scm.h:5 ../aisleriot/rules/saratoga.scm.h:1
-msgid "Three card deals"
-msgstr "Del tre kort om gangen"
-
-#: ../aisleriot/rules/auld_lang_syne.scm.h:1
-#: ../aisleriot/rules/bristol.scm.h:1 ../aisleriot/rules/first_law.scm.h:1
-#: ../aisleriot/rules/fortunes.scm.h:2 ../aisleriot/rules/lady_jane.scm.h:6
-#: ../aisleriot/rules/scuffle.scm.h:1 ../aisleriot/rules/spider.scm.h:1
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:1 ../aisleriot/rules/zebra.scm.h:1
-msgid "Deal another round"
-msgstr "Del ut en ny runde"
-
-#: ../aisleriot/rules/backbone.scm.h:1 ../aisleriot/rules/camelot.scm.h:1
-#: ../aisleriot/rules/canfield.scm.h:6 ../aisleriot/rules/carpet.scm.h:1
-#: ../aisleriot/rules/glenwood.scm.h:6 ../aisleriot/rules/klondike.scm.h:2
-#: ../aisleriot/rules/osmosis.scm.h:1 ../aisleriot/rules/plait.scm.h:6
-#: ../aisleriot/rules/straight_up.scm.h:1 ../aisleriot/rules/terrace.scm.h:8
-msgid "Deal a new card from the deck"
-msgstr "Del ut et nytt kort fra stokken"
-
-#: ../aisleriot/rules/backbone.scm.h:2 ../aisleriot/rules/doublets.scm.h:1
-#: ../aisleriot/rules/eagle_wing.scm.h:9 ../aisleriot/rules/gaps.scm.h:7
-#: ../aisleriot/rules/glenwood.scm.h:9 ../aisleriot/rules/jumbo.scm.h:3
-#: ../aisleriot/rules/klondike.scm.h:5 ../aisleriot/rules/plait.scm.h:10
-#: ../aisleriot/rules/scuffle.scm.h:2 ../aisleriot/rules/straight_up.scm.h:3
-#: ../aisleriot/rules/terrace.scm.h:13
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:3 ../aisleriot/rules/zebra.scm.h:3
-msgid "Redeals left:"
-msgstr "Omdelinger igjen:"
-
-#: ../aisleriot/rules/backbone.scm.h:5 ../aisleriot/rules/terrace.scm.h:23
-msgid "an empty slot on the foundation"
-msgstr "en tom plass på fundamentet"
-
-#: ../aisleriot/rules/backbone.scm.h:6 ../aisleriot/rules/terrace.scm.h:24
-msgid "an empty slot on the tableau"
-msgstr "en tom plass på tablået"
-
-#: ../aisleriot/rules/bakers_dozen.scm.h:2
-#: ../aisleriot/rules/chessboard.scm.h:8 ../aisleriot/rules/easthaven.scm.h:5
-#: ../aisleriot/rules/eight_off.scm.h:2 ../aisleriot/rules/fortress.scm.h:2
-#: ../aisleriot/rules/forty_thieves.scm.h:4 ../aisleriot/rules/gypsy.scm.h:4
-#: ../aisleriot/rules/jumbo.scm.h:6 ../aisleriot/rules/kansas.scm.h:9
-#: ../aisleriot/rules/king_albert.scm.h:2 ../aisleriot/rules/seahaven.scm.h:2
-#: ../aisleriot/rules/streets_and_alleys.scm.h:2
-#: ../aisleriot/rules/westhaven.scm.h:3 ../aisleriot/rules/whitehead.scm.h:4
-#: ../aisleriot/rules/yukon.scm.h:1
-msgid "an empty foundation"
-msgstr "et tomt fundament"
-
-#: ../aisleriot/rules/bear_river.scm.h:1 ../aisleriot/rules/canfield.scm.h:1
-#: ../aisleriot/rules/chessboard.scm.h:1 ../aisleriot/rules/eagle_wing.scm.h:1
-#: ../aisleriot/rules/glenwood.scm.h:1 ../aisleriot/rules/kansas.scm.h:1
-#: ../aisleriot/rules/plait.scm.h:1
-msgid "Base Card: "
-msgstr "Basiskort: "
-
-#: ../aisleriot/rules/bear_river.scm.h:6
-msgid "Move something onto an empty right-hand tableau slot"
-msgstr "Plasser noe på den tomme tablåplassen til høyre"
-
-#: ../aisleriot/rules/bear_river.scm.h:7
-msgid "an empty foundation slot"
-msgstr "en tom fundamentplass"
-
-#: ../aisleriot/rules/camelot.scm.h:3
-msgid "an empty bottom slot"
-msgstr "en tom bunnplass"
-
-#: ../aisleriot/rules/camelot.scm.h:4
-msgid "an empty corner slot"
-msgstr "en tom hjørneplass"
-
-#: ../aisleriot/rules/camelot.scm.h:5
-msgid "an empty left slot"
-msgstr "en tom venstre plass"
-
-#: ../aisleriot/rules/camelot.scm.h:6
-msgid "an empty right slot"
-msgstr "en tom høyre plass"
-
-#: ../aisleriot/rules/camelot.scm.h:7 ../aisleriot/rules/diamond_mine.scm.h:1
-#: ../aisleriot/rules/klondike.scm.h:10 ../aisleriot/rules/odessa.scm.h:1
-#: ../aisleriot/rules/osmosis.scm.h:6 ../aisleriot/rules/pileon.scm.h:1
-#: ../aisleriot/rules/scorpion.scm.h:2 ../aisleriot/rules/ten_across.scm.h:4
-#: ../aisleriot/rules/union_square.scm.h:3 ../aisleriot/rules/yukon.scm.h:2
-msgid "an empty slot"
-msgstr "en tom plass"
-
-#: ../aisleriot/rules/camelot.scm.h:8
-msgid "an empty top slot"
-msgstr "en tom topp plass"
-
-#: ../aisleriot/rules/camelot.scm.h:9 ../aisleriot/rules/helsinki.scm.h:2
-#: ../aisleriot/rules/neighbor.scm.h:2 ../aisleriot/rules/thirteen.scm.h:4
-#: ../aisleriot/rules/treize.scm.h:3 ../aisleriot/rules/yield.scm.h:3
-msgid "itself"
-msgstr "selv"
-
-#: ../aisleriot/rules/canfield.scm.h:7 ../aisleriot/rules/eagle_wing.scm.h:7
-#: ../aisleriot/rules/glenwood.scm.h:8 ../aisleriot/rules/plait.scm.h:7
-#: ../aisleriot/rules/straight_up.scm.h:2
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:2 ../aisleriot/rules/zebra.scm.h:2
-msgid "Move waste back to stock"
-msgstr "Flytt kast tilbake til stokken"
-
-#: ../aisleriot/rules/canfield.scm.h:8 ../aisleriot/rules/eagle_wing.scm.h:10
-#: ../aisleriot/rules/kansas.scm.h:7 ../aisleriot/rules/straight_up.scm.h:4
-msgid "Reserve left:"
-msgstr "Reserver venstre:"
-
-#: ../aisleriot/rules/canfield.scm.h:11 ../aisleriot/rules/glenwood.scm.h:12
-msgid "empty slot on foundation"
-msgstr "tom plass på fundamentet"
-
-#: ../aisleriot/rules/canfield.scm.h:12
-msgid "empty space on tableau"
-msgstr "tom plass på tablået"
-
-#: ../aisleriot/rules/chessboard.scm.h:6
-msgid "Move a card to the Foundation"
-msgstr "Flytt et kort til fundamentet"
-
-#: ../aisleriot/rules/chessboard.scm.h:7 ../aisleriot/rules/fortress.scm.h:1
-msgid "Move something into the empty Tableau slot"
-msgstr "Plasser noe på den tomme tablåplassen"
-
-#: ../aisleriot/rules/clock.scm.h:1
-msgid "Consistency is key"
-msgstr "Konsistens er nøkkelen"
-
-#: ../aisleriot/rules/clock.scm.h:2
-msgid "Fishing wire makes bad dental floss"
-msgstr "Fiskeline er dårlig tanntråd"
-
-#: ../aisleriot/rules/clock.scm.h:3
-msgid "Have you read the help file?"
-msgstr "Har du lest hjelpfilen?"
-
-#: ../aisleriot/rules/clock.scm.h:4
-msgid "I could sure use a backrub right about now..."
-msgstr "Jeg kunne virkelig trengt en ryggmassasje nå …"
-
-#: ../aisleriot/rules/clock.scm.h:5
-msgid "If you're ever lost and alone in the woods, hug a tree"
-msgstr "Hvis du noen gang har gått deg vill alene i skogen, klem et tre"
-
-#: ../aisleriot/rules/clock.scm.h:6
-msgid ""
-"Just because a crosswalk looks like a hopscotch board doesn't mean it is one"
-msgstr ""
-"Bare fordi en kryssgange ser ut som et hopscotch brett betyr ikke det at det "
-"er et"
-
-#: ../aisleriot/rules/clock.scm.h:7
-msgid "Look both ways before you cross the street"
-msgstr "Se begge veier før du krysser veien"
-
-#: ../aisleriot/rules/clock.scm.h:8
-msgid "Monitors won't give you Vitamin D -- but sunlight will..."
-msgstr "Monitorer gir deg ikke D-vitamin -- men sollys gjør det …"
-
-#: ../aisleriot/rules/clock.scm.h:9
-msgid "Never blow in a dog's ear"
-msgstr "Blås aldri en hund i øret"
-
-#: ../aisleriot/rules/clock.scm.h:10
-msgid "Odessa is a better game.  Really."
-msgstr "Odessa er et bedre spill. Virkelig."
-
-#: ../aisleriot/rules/clock.scm.h:11
-msgid "Tourniquets are not recommended unless in the direst emergency"
-msgstr "Turnikéer er ikke å anbefale foruten i værste nødstilfelle"
-
-#: ../aisleriot/rules/clock.scm.h:12
-msgid "When without a stapler, a staple and a ruler will work"
-msgstr "Når du ikke har en stiftemaskin vil en stift og en linjal gjøre nytten"
-
-#: ../aisleriot/rules/cruel.scm.h:1
-msgid "Cards remaining: ~a"
-msgstr "Kort som gjenstår: ~a"
-
-#: ../aisleriot/rules/cruel.scm.h:2
-msgid "Redeal."
-msgstr "Del på nytt."
-
-#: ../aisleriot/rules/diamond_mine.scm.h:2
-msgid "the foundation pile"
-msgstr "fundamenthaugen"
-
-#: ../aisleriot/rules/eagle_wing.scm.h:6 ../aisleriot/rules/elevator.scm.h:1
-#: ../aisleriot/rules/escalator.scm.h:1 ../aisleriot/rules/royal_east.scm.h:6
-#: ../aisleriot/rules/thirteen.scm.h:1 ../aisleriot/rules/treize.scm.h:1
-#: ../aisleriot/rules/triple_peaks.scm.h:1
-#: ../aisleriot/rules/union_square.scm.h:1
-#: ../aisleriot/rules/westhaven.scm.h:1 ../aisleriot/rules/yield.scm.h:1
-msgid "Deal a card"
-msgstr "Del ut et kort"
-
-#: ../aisleriot/rules/eagle_wing.scm.h:8
-msgid "Move ~a to an empty foundation"
-msgstr "Flytt ~a til et tomt fundament"
-
-#: ../aisleriot/rules/eagle_wing.scm.h:12
-msgid "an empty slot on tableau"
-msgstr "en tom plass på tablået"
-
-#: ../aisleriot/rules/easthaven.scm.h:2
-msgid "Move a King on to the empty tableau slot"
-msgstr "Flytt en konge til den tomme tablåplassen"
-
-#: ../aisleriot/rules/easthaven.scm.h:3 ../aisleriot/rules/klondike.scm.h:3
-msgid "No hint available right now"
-msgstr "Ingen hint tilgjengelig akkurat nå"
-
-#: ../aisleriot/rules/eight_off.scm.h:1 ../aisleriot/rules/seahaven.scm.h:1
-msgid "Move something on to an empty reserve"
-msgstr "Plasser noe på den tomme plassen"
-
-#: ../aisleriot/rules/eight_off.scm.h:3 ../aisleriot/rules/seahaven.scm.h:3
-msgid "an empty tableau"
-msgstr "en tom tablåhaug"
-
-#: ../aisleriot/rules/first_law.scm.h:2
-msgid "I'm not sure"
-msgstr "Jeg er ikke sikker"
-
-#: ../aisleriot/rules/first_law.scm.h:3
-msgid "Remove the aces"
-msgstr "Fjern essene "
-
-#: ../aisleriot/rules/first_law.scm.h:4
-msgid "Remove the eights"
-msgstr "Fjern åtterene "
-
-#: ../aisleriot/rules/first_law.scm.h:5
-msgid "Remove the fives"
-msgstr "Fjern femmerene"
-
-#: ../aisleriot/rules/first_law.scm.h:6
-msgid "Remove the fours"
-msgstr "Fjern firerene"
-
-#: ../aisleriot/rules/first_law.scm.h:7
-msgid "Remove the jacks"
-msgstr "Fjern knektene"
-
-#: ../aisleriot/rules/first_law.scm.h:8
-msgid "Remove the kings"
-msgstr "Fjern kongene"
-
-#: ../aisleriot/rules/first_law.scm.h:9
-msgid "Remove the nines"
-msgstr "Fjern nierene"
-
-#: ../aisleriot/rules/first_law.scm.h:10
-msgid "Remove the queens"
-msgstr "Fjern dronningene"
-
-#: ../aisleriot/rules/first_law.scm.h:11
-msgid "Remove the sevens"
-msgstr "Fjern syverene"
-
-#: ../aisleriot/rules/first_law.scm.h:12
-msgid "Remove the sixes"
-msgstr "Fjern sekserene"
-
-#: ../aisleriot/rules/first_law.scm.h:13
-msgid "Remove the tens"
-msgstr "Fjern tierene"
-
-#: ../aisleriot/rules/first_law.scm.h:14
-msgid "Remove the threes"
-msgstr "Fjern treerene"
-
-#: ../aisleriot/rules/first_law.scm.h:15
-msgid "Remove the twos"
-msgstr "Fjern toerene"
-
-#: ../aisleriot/rules/first_law.scm.h:16
-msgid "Return cards to stock"
-msgstr "Returner kortene til stokken"
-
-#: ../aisleriot/rules/fortunes.scm.h:1 ../aisleriot/rules/klondike.scm.h:1
-msgid "Consider moving something into an empty slot"
-msgstr "Tenk på å flytte noe til en tom rad"
-
-#: ../aisleriot/rules/fortunes.scm.h:3
-msgid "Move ~a off the board"
-msgstr "Flytt ~a av bordet"
-
-#: ../aisleriot/rules/forty_thieves.scm.h:1
-msgid "Bug! make-hint called on false move."
-msgstr "Feil! make-hint ble kalt på et ugyldig trekk."
-
-#: ../aisleriot/rules/forty_thieves.scm.h:2
-msgid "Deal a card from stock"
-msgstr "Del ut et kort fra stokken"
-
-#: ../aisleriot/rules/forty_thieves.scm.h:5
-msgid "an empty space"
-msgstr "en tom plass"
-
-#: ../aisleriot/rules/freecell.scm.h:1
-msgid "No moves are possible. Undo or start again."
-msgstr "Ingen mulige trekk. Angre eller start på nytt."
-
-#: ../aisleriot/rules/freecell.scm.h:2
-msgid "The game has no solution. Undo or start again."
-msgstr "Spillet har ingen løsning. Angre eller start på nytt."
-
-#: ../aisleriot/rules/freecell.scm.h:3
-msgid "an empty reserve"
-msgstr "en tom plass"
-
-#: ../aisleriot/rules/freecell.scm.h:4
-msgid "an open tableau"
-msgstr "en åpen tablåhaug"
-
-#: ../aisleriot/rules/freecell.scm.h:5 ../aisleriot/rules/terrace.scm.h:26
-msgid "the foundation"
-msgstr "fundamenthaugen"
-
-#: ../aisleriot/rules/gaps.scm.h:1
-msgid "Add to the sequence in row ~a."
-msgstr "Legg til på sekvensen på rad ~a"
-
-#: ../aisleriot/rules/gaps.scm.h:2
-msgid "Double click any card to redeal."
-msgstr "Dobbeltklikk på et kort for å dele ut på nytt."
-
-#: ../aisleriot/rules/gaps.scm.h:3
-msgid "No hint available."
-msgstr "Ingen hint tilgjengelig."
-
-#: ../aisleriot/rules/gaps.scm.h:4
-msgid "Place a two in the leftmost slot of row ~a."
-msgstr "Plasser en toer i plassen lengst til venstre på rad ~a"
-
-#: ../aisleriot/rules/gaps.scm.h:5
-msgid "Place the ~a next to ~a."
-msgstr "Plasser ~a ved siden av ~a."
-
-#: ../aisleriot/rules/gaps.scm.h:6
-msgid "Randomly Placed Gaps on Redeal"
-msgstr "Tilfeldig plasserte hull ved omstokk"
-
-#: ../aisleriot/rules/giant.scm.h:1
-msgid "Alternating colors"
-msgstr "Skiftende farger"
-
-#: ../aisleriot/rules/giant.scm.h:2
-msgid "Deal a row"
-msgstr "Del ut en rad"
-
-#: ../aisleriot/rules/giant.scm.h:3
-msgid "Deals left: ~a"
-msgstr "Utdelinger som gjenstår: ~a"
-
-#: ../aisleriot/rules/giant.scm.h:4
-msgid "Same suit"
-msgstr "Samme stokk"
-
-#: ../aisleriot/rules/giant.scm.h:5
-msgid "Try dealing a row of cards"
-msgstr "Prøv å dele ut en rad med kort"
-
-#: ../aisleriot/rules/giant.scm.h:6
-msgid "Try moving a card to the reserve"
-msgstr "Prøv å flytte et kort til reservehaugen"
-
-#: ../aisleriot/rules/giant.scm.h:7 ../aisleriot/rules/spider.scm.h:7
-msgid "Try moving card piles around"
-msgstr "Prøv å flytte korthaugene rundt"
-
-#: ../aisleriot/rules/giant.scm.h:8
-msgid "an empty foundation place"
-msgstr "en tom fundamentplass"
-
-#: ../aisleriot/rules/giant.scm.h:9
-msgid "an empty tableau place"
-msgstr "en tom tablåplass"
-
-#: ../aisleriot/rules/glenwood.scm.h:7
-msgid "Move a card from the reserve on to the empty tableau slot"
-msgstr "Flytt et kort fra reservehaugen til den tomme tablåplassen"
-
-#: ../aisleriot/rules/glenwood.scm.h:10
-msgid "Select a card from the reserve for first foundation pile"
-msgstr "Velg et kort fra reserven for den første fundamenthaugen"
-
-#: ../aisleriot/rules/glenwood.scm.h:13
-msgid "on to the empty tableau slot"
-msgstr "til den tomme tablåplassen"
-
-#: ../aisleriot/rules/golf.scm.h:1 ../aisleriot/rules/hopscotch.scm.h:1
-#: ../aisleriot/rules/jumbo.scm.h:1 ../aisleriot/rules/kansas.scm.h:6
-#: ../aisleriot/rules/sir_tommy.scm.h:1 ../aisleriot/rules/whitehead.scm.h:1
-msgid "Deal another card"
-msgstr "Del ut et nytt kort"
-
-#: ../aisleriot/rules/golf.scm.h:2 ../aisleriot/rules/osmosis.scm.h:4
-#: ../aisleriot/rules/spider.scm.h:6
-msgid "Stock left: ~a"
-msgstr "Igjen i stokken: ~a"
-
-#: ../aisleriot/rules/gypsy.scm.h:1
-msgid "Deal another hand"
-msgstr "Del ut en ny hånd"
-
-#: ../aisleriot/rules/gypsy.scm.h:2
-msgid "Move a card or build of cards on to the empty slot"
-msgstr "Flytt et kort eller en serie til den tomme plassen"
-
-#: ../aisleriot/rules/hopscotch.scm.h:2
-msgid "Move card from waste"
-msgstr "Flytt kort fra kastet"
-
-#: ../aisleriot/rules/jumbo.scm.h:2
-msgid "Move waste to stock"
-msgstr "Flytt kast tilbake til stokken"
-
-#: ../aisleriot/rules/jumbo.scm.h:7 ../aisleriot/rules/kansas.scm.h:10
-#: ../aisleriot/rules/king_albert.scm.h:3
-#: ../aisleriot/rules/lady_jane.scm.h:11
-#: ../aisleriot/rules/straight_up.scm.h:6
-msgid "an empty tableau slot"
-msgstr "en tom tablåplass"
-
-#: ../aisleriot/rules/kings_audience.scm.h:1
-msgid "Deal a new card"
-msgstr "Del ut et nytt kort"
-
-#: ../aisleriot/rules/kings_audience.scm.h:2
-msgid "Stock remaining: ~a"
-msgstr "Igjen i stokken: ~a"
-
-#: ../aisleriot/rules/klondike.scm.h:4
-msgid "No redeals"
-msgstr "Ingen ny utdeling"
-
-#: ../aisleriot/rules/klondike.scm.h:6
-msgid "Single card deals"
-msgstr "Del ett kort om gangen"
-
-#: ../aisleriot/rules/klondike.scm.h:9
-msgid "Try moving cards down from the foundation"
-msgstr "Prøv å flytte kort ned fra fundamentet"
-
-#: ../aisleriot/rules/lady_jane.scm.h:1 ../aisleriot/rules/royal_east.scm.h:1
-msgid "Base Card:"
-msgstr "Basiskort:"
-
-#: ../aisleriot/rules/maze.scm.h:1
-msgid ""
-"Aim to place the suits in the order which fits the current layout most "
-"naturally."
-msgstr ""
-"Prøv å plassere stokkene i rekkefølgen som passer best for denne utformingen."
-
-#: ../aisleriot/rules/osmosis.scm.h:2
-msgid "Deal new cards from the deck"
-msgstr "Del ut nye kort fra stokken"
-
-#: ../aisleriot/rules/osmosis.scm.h:3
-msgid "Redeals left: ~a"
-msgstr "Utdelinger som gjenstår: ~a"
-
-#: ../aisleriot/rules/pileon.scm.h:2 ../aisleriot/rules/terrace.scm.h:25
-msgid "something"
-msgstr "noe"
-
-#: ../aisleriot/rules/plait.scm.h:8
-msgid "Move ~a from the stock to an empty edge or tableau slot"
-msgstr "Flytt ~a fra stokken til en tom kant eller tablåplass"
-
-#: ../aisleriot/rules/plait.scm.h:9
-msgid "Move ~a to an empty field"
-msgstr "Flytt ~a til en tom plass"
-
-#: ../aisleriot/rules/poker.scm.h:1
-msgid "Place cards on to the Tableau to form poker hands"
-msgstr "Plasser kortene på tablåplassen for å lage pokerhender"
-
-#: ../aisleriot/rules/poker.scm.h:2
-msgid "Shuffle mode"
-msgstr "Stokkemodus"
-
-#: ../aisleriot/rules/royal_east.scm.h:9
-#: ../aisleriot/rules/thumb_and_pouch.scm.h:6
-#: ../aisleriot/rules/westhaven.scm.h:4
-msgid "an empty tableau pile"
-msgstr "en tom tablåhaug"
-
-#: ../aisleriot/rules/scorpion.scm.h:1
-msgid "Deal the cards"
-msgstr "Del ut kortene"
-
-#: ../aisleriot/rules/scuffle.scm.h:3
-msgid "Reshuffle cards"
-msgstr "Stokk kortene på nytt"
-
-#: ../aisleriot/rules/sir_tommy.scm.h:2
-msgid "Move waste on to a reserve slot"
-msgstr "Flytt kast til en reserveplass"
-
-#: ../aisleriot/rules/sir_tommy.scm.h:4
-msgid "empty foundation"
-msgstr "tomt fundament"
-
-#: ../aisleriot/rules/spider.scm.h:2
-msgid "Four Suits"
-msgstr "Fire sorter"
-
-#: ../aisleriot/rules/spider.scm.h:3
-msgid "One Suit"
-msgstr "En sort"
-
-#: ../aisleriot/rules/spider.scm.h:4
-msgid "Place something on empty slot"
-msgstr "Plasser noe på den tomme plassen"
-
-#: ../aisleriot/rules/spider.scm.h:5
-msgid "Please fill in empty pile first."
-msgstr "Vennligst fyll ut den tomme haugen først."
-
-#: ../aisleriot/rules/spider.scm.h:8
-msgid "Two Suits"
-msgstr "To sorter"
-
-#: ../aisleriot/rules/spider.scm.h:9
-msgid "Undo until there are enough cards to fill all tableau piles"
-msgstr "Angre til det er nok kort til å fylle alle tablåhaugene"
-
-#: ../aisleriot/rules/ten_across.scm.h:1
-msgid "Allow temporary spots use"
-msgstr "Tillat bruk av midlertidige plasser"
-
-#: ../aisleriot/rules/ten_across.scm.h:2
-msgid "Move a card to an empty temporary slot"
-msgstr "Flytt et kort til den tomme midlertidige plassen"
-
-#: ../aisleriot/rules/ten_across.scm.h:3
-msgid "No hint available"
-msgstr "Ingen hint tilgjengelig"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:7
-msgid "Blondes and Brunettes"
-msgstr "Blondiner og brunetter"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:10
-msgid "Falling Stars"
-msgstr "Fallende stjerner"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:12
-msgid "General's Patience"
-msgstr "Generalens tålmodighet"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:15
-msgid "Redheads"
-msgstr "Rødtopper"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:17
-msgid "Signora"
-msgstr "Signora"
-
-#. Translators: this string is the name of a variant of this game. If there is an established standard name for this game or game variant in your locale, use that; otherwise you can translate this string freely or literally, at your option.
-#: ../aisleriot/rules/terrace.scm.h:22
-msgid "Wood"
-msgstr "Tre"
-
-#: ../aisleriot/rules/thieves.scm.h:1
-msgid "Deal a card from the deck"
-msgstr "Del ut et kort fra stokken"
-
-#: ../aisleriot/rules/thirteen.scm.h:2
-msgid "Match the top two cards of the waste."
-msgstr "Treff på de to øverste kortene i kastet."
-
-#: ../aisleriot/rules/triple_peaks.scm.h:2
-msgid "Multiplier Scoring"
-msgstr "Poengfaktor"
-
-#: ../aisleriot/rules/triple_peaks.scm.h:3
-msgid "Progressive Rounds"
-msgstr "Progressive runder"
-
-#: ../aisleriot/rules/union_square.scm.h:4
-msgid "appropriate foundation pile"
-msgstr "riktig fundamenthaug"
-
-#: ../aisleriot/rules/whitehead.scm.h:2
-msgid "Move a build of cards on to the empty Tableau slot"
-msgstr "Flytt en rekke med kort til den tomme tablåplassen"
-
-#: ../aisleriot/rules/zebra.scm.h:5
-msgid "the appropriate Foundation pile"
-msgstr "riktig fundamenthaug"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:1
 msgid "A flag to enable 3D mode"
@@ -2759,7 +55,9 @@ msgstr "Et flagg for å jevne ut (anti-alias) 3D-visning"
 msgid ""
 "Can be 'human' (play against another human player), '' (use the first "
 "available chess engine) or the name of a specific engine to play against"
-msgstr "Kan være «human» (spill mot en annen person), '' (bruk første tilgjengelige sjakkmotor) eller navn på en spesifikk motor du vil spille mot"
+msgstr ""
+"Kan være «human» (spill mot en annen person), '' (bruk første tilgjengelige "
+"sjakkmotor) eller navn på en spesifikk motor du vil spille mot"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:10
 msgid "Difficulty of the opponent chess engine"
@@ -2804,7 +102,9 @@ msgstr "Brikken å erstatte bonden med"
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:20
 msgid ""
 "The piece to promote to when a human player moves a pawn to the far rank"
-msgstr "Brikken som promoteres når en menneskelige spiller flytter en bonde til andre siden"
+msgstr ""
+"Brikken som promoteres når en menneskelige spiller flytter en bonde til "
+"andre siden"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:21
 msgid "The side of the board that is in the foreground"
@@ -2829,7 +129,7 @@ msgstr "Krev _remis"
 
 #. The New Game toolbar button
 #: ../glchess/data/glchess.ui.h:4
-#: ../libgames-support/games-scores-dialog.c:460
+#: ../libgames-support/games-scores-dialog.c:459
 msgid "New Game"
 msgstr "Nytt spill"
 
@@ -2858,16 +158,44 @@ msgstr "Vis neste trekk"
 msgid "Show the previous move"
 msgstr "Vis forrige trekk"
 
+#. Tooltip for start new game toolbar button
+#: ../glchess/data/glchess.ui.h:16 ../gnobots2/menu.c:71
+#: ../libgames-support/games-stock.c:50 ../mahjongg/mahjongg.c:1203
+msgid "Start a new game"
+msgstr "Start et nytt spill"
+
 #. The undo move toolbar button
 #: ../glchess/data/glchess.ui.h:18
 msgid "Undo Move"
 msgstr "Angre trekk"
 
 #. Help contents menu item
-#: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:255
-#: ../libgames-support/games-stock.c:294
+#: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:234
+#: ../libgames-support/games-stock.c:249
 msgid "_Contents"
 msgstr "_Innhold"
+
+#. Game menu name
+#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1639
+#: ../gnect/src/main.c:1241 ../gnibbles/main.c:687 ../gnobots2/menu.c:66
+#: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:210
+#: ../gnomine/gnomine.c:768 ../gnotravex/gnotravex.c:1706
+#: ../gnotski/gnotski.c:409 ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:847
+#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1200
+#: ../swell-foop/data/swell-foop.ui.h:2
+msgid "_Game"
+msgstr "_Spill"
+
+#. Help menu item
+#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1641
+#: ../gnect/src/main.c:1244 ../gnibbles/main.c:690 ../gnobots2/menu.c:70
+#: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:233
+#: ../gnomine/gnomine.c:770 ../gnotravex/gnotravex.c:1710
+#: ../gnotski/gnotski.c:411 ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:849
+#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1202
+#: ../swell-foop/data/swell-foop.ui.h:3
+msgid "_Help"
+msgstr "_Hjelp"
 
 #. Save menu item
 #: ../glchess/data/glchess.ui.h:26
@@ -2875,17 +203,17 @@ msgid "_Resign"
 msgstr "_Gi opp"
 
 #. Settings menu item
-#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1641
-#: ../gnect/src/main.c:1244 ../gnibbles/main.c:689 ../gnobots2/menu.c:69
-#: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:245
-#: ../gnomine/gnomine.c:770 ../gnotravex/gnotravex.c:1709
+#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1640
+#: ../gnect/src/main.c:1243 ../gnibbles/main.c:689 ../gnobots2/menu.c:69
+#: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:224
+#: ../gnomine/gnomine.c:769 ../gnotravex/gnotravex.c:1708
 #: ../gtali/gyahtzee.c:712 ../iagno/gnothello.c:848
 #: ../mahjongg/mahjongg.c:1201
 msgid "_Settings"
 msgstr "_Innstillinger"
 
 #. Undo move menu item
-#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:306
+#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:261
 msgid "_Undo Move"
 msgstr "_Angre trekk"
 
@@ -2930,9 +258,9 @@ msgid "Five minutes"
 msgstr "Fem minutter"
 
 #. Preferences Dialog: Tab title for game preferences
-#: ../glchess/data/preferences.ui.h:18 ../gnect/src/prefs.c:302
+#: ../glchess/data/preferences.ui.h:18 ../gnect/src/prefs.c:301
 #: ../gnibbles/preferences.c:254 ../gnobots2/properties.c:496
-#: ../quadrapassel/tetris.cpp:590 ../iagno/properties.c:415
+#: ../quadrapassel/tetris.cpp:596 ../iagno/properties.c:415
 msgid "Game"
 msgstr "Spill"
 
@@ -2977,7 +305,7 @@ msgid "Play as:"
 msgstr "Spill som:"
 
 #. Title for preferences dialog
-#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:197
+#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:196
 #: ../mahjongg/mahjongg.c:141
 msgid "Preferences"
 msgstr "Brukervalg"
@@ -2993,7 +321,7 @@ msgid "Show _History"
 msgstr "Vis _historikk"
 
 #. Preferences Dialog: Check box for selecting if toolbar is visible
-#: ../glchess/data/preferences.ui.h:42 ../gnome-sudoku/src/lib/main.py:275
+#: ../glchess/data/preferences.ui.h:42 ../gnome-sudoku/src/lib/main.py:254
 msgid "Show _Toolbar"
 msgstr "Vis verk_tøylinje"
 
@@ -3137,7 +465,7 @@ msgid "Normal"
 msgstr "Normal"
 
 #. Title of the main window
-#: ../glchess/glchess.desktop.in.in.h:1 ../glchess/src/glchess.vala:218
+#: ../glchess/glchess.desktop.in.in.h:1 ../glchess/src/glchess.vala:221
 msgid "Chess"
 msgstr "Sjakk"
 
@@ -3148,509 +476,635 @@ msgstr "Spill det klassiske tomannsbrettspillet sjakk"
 #. Title of the window when explicitly loaded a file. The first argument is the
 #. * base name of the file (e.g. test.pgn), the second argument is the directory
 #. * (e.g. /home/fred)
-#: ../glchess/src/glchess.vala:226
+#: ../glchess/src/glchess.vala:229
 #, c-format
 msgid "%1$s (%2$s) - Chess"
 msgstr "%1$s (%2$s) - sjakk"
 
 #. Move History Combo: Go to the start of the game
-#: ../glchess/src/glchess.vala:235
+#: ../glchess/src/glchess.vala:238
 msgid "Game Start"
 msgstr "Start av spill"
 
 #. Note there are no move formats for pieces taking kings and this is not allowed in Chess rules
 #. Human Move String: Description of a white pawn moving from %1$s to %2s, e.g. 'c2 to c4'
-#: ../glchess/src/glchess.vala:444
+#: ../glchess/src/glchess.vala:447
 #, c-format
 msgid "White pawn moves from %1$s to %2$s"
 msgstr "Hvit bonde flytter fra %1$s til %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:446
+#: ../glchess/src/glchess.vala:449
 #, c-format
 msgid "White pawn at %1$s takes the black pawn at %2$s"
 msgstr "Hvit bonde på %1$s slår sort sort bonde på %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:448
+#: ../glchess/src/glchess.vala:451
 #, c-format
 msgid "White pawn at %1$s takes the black rook at %2$s"
 msgstr "Hvit bonde på %1$s slår sort tårn på %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:450
+#: ../glchess/src/glchess.vala:453
 #, c-format
 msgid "White pawn at %1$s takes the black knight at %2$s"
 msgstr "Hvit bonde på %1$s slår sort springer på %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:452
+#: ../glchess/src/glchess.vala:455
 #, c-format
 msgid "White pawn at %1$s takes the black bishop at %2$s"
 msgstr "Hvit bonde på %1$s slår sort løper på %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:454
+#: ../glchess/src/glchess.vala:457
 #, c-format
 msgid "White pawn at %1$s takes the black queen at %2$s"
 msgstr "Hvit bonde på %1$s slår sort dronning på %2$s"
 
 #. Human Move String: Description of a white rook moving from %1$s to %2$s, e.g. 'a1 to a5'
-#: ../glchess/src/glchess.vala:456
+#: ../glchess/src/glchess.vala:459
 #, c-format
 msgid "White rook moves from %1$s to %2$s"
 msgstr "Hvitt tårn flytter fra %1$s til %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:458
+#: ../glchess/src/glchess.vala:461
 #, c-format
 msgid "White rook at %1$s takes the black pawn at %2$s"
 msgstr "Hvitt tårn på %1$s slår sort bonde på %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:460
+#: ../glchess/src/glchess.vala:463
 #, c-format
 msgid "White rook at %1$s takes the black rook at %2$s"
 msgstr "Hvitt tårn på %1$s slår sort tårn på %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:462
+#: ../glchess/src/glchess.vala:465
 #, c-format
 msgid "White rook at %1$s takes the black knight at %2$s"
 msgstr "Hvitt tårn på %1$s slår sort springer på %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:464
+#: ../glchess/src/glchess.vala:467
 #, c-format
 msgid "White rook at %1$s takes the black bishop at %2$s"
 msgstr "Hvitt tårn på %1$s slår sort løper på %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a queen at %2$s"
-#: ../glchess/src/glchess.vala:466
+#: ../glchess/src/glchess.vala:469
 #, c-format
 msgid "White rook at %1$s takes the black queen at %2$s"
 msgstr "Hvitt tårn på %1$s slår sort dronning på %2$s"
 
 #. Human Move String: Description of a white knight moving from %1$s to %2$s, e.g. 'b1 to c3'
-#: ../glchess/src/glchess.vala:468
+#: ../glchess/src/glchess.vala:471
 #, c-format
 msgid "White knight moves from %1$s to %2$s"
 msgstr "Hvit springer flytter fra %1$s til %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:470
+#: ../glchess/src/glchess.vala:473
 #, c-format
 msgid "White knight at %1$s takes the black pawn at %2$s"
 msgstr "Hvit springer på %1$s slår sort bonde på %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:472
+#: ../glchess/src/glchess.vala:475
 #, c-format
 msgid "White knight at %1$s takes the black rook at %2$s"
 msgstr "Hvit springer på %1$s slår sort tårn på %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:474
+#: ../glchess/src/glchess.vala:477
 #, c-format
 msgid "White knight at %1$s takes the black knight at %2$s"
 msgstr "Hvit springer på %1$s slår sort springer på %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:476
+#: ../glchess/src/glchess.vala:479
 #, c-format
 msgid "White knight at %1$s takes the black bishop at %2$s"
 msgstr "Hvit springer på %1$s slår sort løper på %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:478
+#: ../glchess/src/glchess.vala:481
 #, c-format
 msgid "White knight at %1$s takes the black queen at %2$s"
 msgstr "Hvit springer på %1$s slår sort dronning på %2$s"
 
 #. Human Move String: Description of a white bishop moving from %1$s to %2$s, e.g. 'f1 to b5'
-#: ../glchess/src/glchess.vala:480
+#: ../glchess/src/glchess.vala:483
 #, c-format
 msgid "White bishop moves from %1$s to %2$s"
 msgstr "Hvit løper flytter fra %1$s til %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:482
+#: ../glchess/src/glchess.vala:485
 #, c-format
 msgid "White bishop at %1$s takes the black pawn at %2$s"
 msgstr "Hvit løper på %1$s slår sort bonde på %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:484
+#: ../glchess/src/glchess.vala:487
 #, c-format
 msgid "White bishop at %1$s takes the black rook at %2$s"
 msgstr "Hvit løper på %1$s slår sort tårn på %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:486
+#: ../glchess/src/glchess.vala:489
 #, c-format
 msgid "White bishop at %1$s takes the black knight at %2$s"
 msgstr "Hvit løper på %1$s slår sort springer på %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:488
+#: ../glchess/src/glchess.vala:491
 #, c-format
 msgid "White bishop at %1$s takes the black bishop at %2$s"
 msgstr "Hvit løper på %1$s slår sort løper på %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:490
+#: ../glchess/src/glchess.vala:493
 #, c-format
 msgid "White bishop at %1$s takes the black queen at %2$s"
 msgstr "Hvit løper på %1$s slår sort dronning på %2$s"
 
 #. Human Move String: Description of a white queen moving from %1$s to %2$s, e.g. 'd1 to d4'
-#: ../glchess/src/glchess.vala:492
+#: ../glchess/src/glchess.vala:495
 #, c-format
 msgid "White queen moves from %1$s to %2$s"
 msgstr "Hvit dronning flytter fra %1$s til %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:494
+#: ../glchess/src/glchess.vala:497
 #, c-format
 msgid "White queen at %1$s takes the black pawn at %2$s"
 msgstr "Hvit dronning på %1$s slår sort bonde på %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:496
+#: ../glchess/src/glchess.vala:499
 #, c-format
 msgid "White queen at %1$s takes the black rook at %2$s"
 msgstr "Hvit dronning på %1$s slår sort tårn på %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:498
+#: ../glchess/src/glchess.vala:501
 #, c-format
 msgid "White queen at %1$s takes the black knight at %2$s"
 msgstr "Hvit dronning på %1$s slår sort springer på %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:500
+#: ../glchess/src/glchess.vala:503
 #, c-format
 msgid "White queen at %1$s takes the black bishop at %2$s"
 msgstr "Hvit dronning på %1$s slår sort løper på %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:502
+#: ../glchess/src/glchess.vala:505
 #, c-format
 msgid "White queen at %1$s takes the black queen at %2$s"
 msgstr "Hvit dronning på %1$s slår sort dronning på %2$s"
 
 #. Human Move String: Description of a white king moving from %1$s to %2$s, e.g. 'e1 to f1'
-#: ../glchess/src/glchess.vala:504
+#: ../glchess/src/glchess.vala:507
 #, c-format
 msgid "White king moves from %1$s to %2$s"
 msgstr "Hvit konge flytter fra %1$s til %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:506
+#: ../glchess/src/glchess.vala:509
 #, c-format
 msgid "White king at %1$s takes the black pawn at %2$s"
 msgstr "Hvit konge på %1$s slår sort bonde på %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:508
+#: ../glchess/src/glchess.vala:511
 #, c-format
 msgid "White king at %1$s takes the black rook at %2$s"
 msgstr "Hvit konge på %1$s slår sort tårn på %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:510
+#: ../glchess/src/glchess.vala:513
 #, c-format
 msgid "White king at %1$s takes the black knight at %2$s"
 msgstr "Hvit konge på %1$s slår sort springer på %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:512
+#: ../glchess/src/glchess.vala:515
 #, c-format
 msgid "White king at %1$s takes the black bishop at %2$s"
 msgstr "Hvit konge på %1$s slår sort løper på %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:514
+#: ../glchess/src/glchess.vala:517
 #, c-format
 msgid "White king at %1$s takes the black queen at %2$s"
 msgstr "Hvit konge på %1$s slår sort dronning på %2$s"
 
 #. Human Move String: Description of a black pawn moving from %1$s to %2$s, e.g. 'c8 to c6'
-#: ../glchess/src/glchess.vala:516
+#: ../glchess/src/glchess.vala:519
 #, c-format
 msgid "Black pawn moves from %1$s to %2$s"
 msgstr "Sort bonde flytter fra %1$s til %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:518
+#: ../glchess/src/glchess.vala:521
 #, c-format
 msgid "Black pawn at %1$s takes the white pawn at %2$s"
 msgstr "Sort bonde på %1$s slår hvit bonde på %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:520
+#: ../glchess/src/glchess.vala:523
 #, c-format
 msgid "Black pawn at %1$s takes the white rook at %2$s"
 msgstr "Sort bonde på %1$s slår hvitt tårn på %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:522
+#: ../glchess/src/glchess.vala:525
 #, c-format
 msgid "Black pawn at %1$s takes the white knight at %2$s"
 msgstr "Sort bonde på %1$s slår hvit springer på %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:524
+#: ../glchess/src/glchess.vala:527
 #, c-format
 msgid "Black pawn at %1$s takes the white bishop at %2$s"
 msgstr "Sort bonde på %1$s slår hvit løper på %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:526
+#: ../glchess/src/glchess.vala:529
 #, c-format
 msgid "Black pawn at %1$s takes the white queen at %2$s"
 msgstr "Sort bonde på %1$s slår hvit dronning på %2$s"
 
 #. Human Move String: Description of a black rook moving from %1$s to %2$s, e.g. 'a8 to a4'
-#: ../glchess/src/glchess.vala:528
+#: ../glchess/src/glchess.vala:531
 #, c-format
 msgid "Black rook moves from %1$s to %2$s"
 msgstr "Sort tårn flytter fra %1$s til %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:530
+#: ../glchess/src/glchess.vala:533
 #, c-format
 msgid "Black rook at %1$s takes the white pawn at %2$s"
 msgstr "Sort tårn på %1$s slår hvit bonde på %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:532
+#: ../glchess/src/glchess.vala:535
 #, c-format
 msgid "Black rook at %1$s takes the white rook at %2$s"
 msgstr "Sort tårn på %1$s slår hvitt tårn på %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:534
+#: ../glchess/src/glchess.vala:537
 #, c-format
 msgid "Black rook at %1$s takes the white knight at %2$s"
 msgstr "Sort tårn på %1$s slår hvit springer på %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:536
+#: ../glchess/src/glchess.vala:539
 #, c-format
 msgid "Black rook at %1$s takes the white bishop at %2$s"
 msgstr "Sort tårn på %1$s slår hvit løper på %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:538
+#: ../glchess/src/glchess.vala:541
 #, c-format
 msgid "Black rook at %1$s takes the white queen at %2$s"
 msgstr "Sort tårn på %1$s slår hvit dronning på %2$s"
 
 #. Human Move String: Description of a black knight moving from %1$s to %2$s, e.g. 'b8 to c6'
-#: ../glchess/src/glchess.vala:540
+#: ../glchess/src/glchess.vala:543
 #, c-format
 msgid "Black knight moves from %1$s to %2$s"
 msgstr "Sort springer flytter fra %1$s til %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:542
+#: ../glchess/src/glchess.vala:545
 #, c-format
 msgid "Black knight at %1$s takes the white pawn at %2$s"
 msgstr "Sort springer på %1$s slår hvit bonde på %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:544
+#: ../glchess/src/glchess.vala:547
 #, c-format
 msgid "Black knight at %1$s takes the white rook at %2$s"
 msgstr "Sort springer på %1$s slår hvitt tårn på %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:546
+#: ../glchess/src/glchess.vala:549
 #, c-format
 msgid "Black knight at %1$s takes the white knight at %2$s"
 msgstr "Sort springer på %1$s slår hvit springer på %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:548
+#: ../glchess/src/glchess.vala:551
 #, c-format
 msgid "Black knight at %1$s takes the white bishop at %2$s"
 msgstr "Sort springer på %1$s slår hvit løper på %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:550
+#: ../glchess/src/glchess.vala:553
 #, c-format
 msgid "Black knight at %1$s takes the white queen at %2$s"
 msgstr "Sort springer på %1$s slår hvit dronning på %2$s"
 
 #. Human Move String: Description of a black bishop moving from %1$s to %2$s, e.g. 'f8 to b3'
-#: ../glchess/src/glchess.vala:552
+#: ../glchess/src/glchess.vala:555
 #, c-format
 msgid "Black bishop moves from %1$s to %2$s"
 msgstr "Sort løper flytter fra %1$s til %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:554
+#: ../glchess/src/glchess.vala:557
 #, c-format
 msgid "Black bishop at %1$s takes the white pawn at %2$s"
 msgstr "Sort løper på %1$s slår hvit bonde på %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:556
+#: ../glchess/src/glchess.vala:559
 #, c-format
 msgid "Black bishop at %1$s takes the white rook at %2$s"
 msgstr "Sort løper på %1$s slår hvitt tårn på %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:558
+#: ../glchess/src/glchess.vala:561
 #, c-format
 msgid "Black bishop at %1$s takes the white knight at %2$s"
 msgstr "Sort løper på %1$s slår hvit springer på %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:560
+#: ../glchess/src/glchess.vala:563
 #, c-format
 msgid "Black bishop at %1$s takes the white bishop at %2$s"
 msgstr "Sort løper på %1$s slår hvit løper på %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:562
+#: ../glchess/src/glchess.vala:565
 #, c-format
 msgid "Black bishop at %1$s takes the white queen at %2$s"
 msgstr "Sort løper på %1$s slår hvit dronning på %2$s"
 
 #. Human Move String: Description of a black queen moving from %1$s to %2$s, e.g. 'd8 to d5'
-#: ../glchess/src/glchess.vala:564
+#: ../glchess/src/glchess.vala:567
 #, c-format
 msgid "Black queen moves from %1$s to %2$s"
 msgstr "Sort dronning flytter fra %1$s til %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:566
+#: ../glchess/src/glchess.vala:569
 #, c-format
 msgid "Black queen at %1$s takes the white pawn at %2$s"
 msgstr "Sort dronning på %1$s slår hvit bonde på %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:568
+#: ../glchess/src/glchess.vala:571
 #, c-format
 msgid "Black queen at %1$s takes the white rook at %2$s"
 msgstr "Sort dronning på %1$s slår hvitt tårn på %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:570
+#: ../glchess/src/glchess.vala:573
 #, c-format
 msgid "Black queen at %1$s takes the white knight at %2$s"
 msgstr "Sort dronning på %1$s slår hvit springer på %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:572
+#: ../glchess/src/glchess.vala:575
 #, c-format
 msgid "Black queen at %1$s takes the white bishop at %2$s"
 msgstr "Sort dronning på %1$s slår hvit løper på %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:574
+#: ../glchess/src/glchess.vala:577
 #, c-format
 msgid "Black queen at %1$s takes the white queen at %2$s"
 msgstr "Sort dronning på %1$s slår hvit dronning på %2$s"
 
 #. Human Move String: Description of a black king moving from %1$s to %2$s, e.g. 'e8 to f8'
-#: ../glchess/src/glchess.vala:576
+#: ../glchess/src/glchess.vala:579
 #, c-format
 msgid "Black king moves from %1$s to %2$s"
 msgstr "Sort konge flytter fra %1$s til %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:578
+#: ../glchess/src/glchess.vala:581
 #, c-format
 msgid "Black king at %1$s takes the white pawn at %2$s"
 msgstr "Sort konge på %1$s slår hvit bonde på %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:580
+#: ../glchess/src/glchess.vala:583
 #, c-format
 msgid "Black king at %1$s takes the white rook at %2$s"
 msgstr "Sort konge på %1$s slår hvitt tårn på %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:582
+#: ../glchess/src/glchess.vala:585
 #, c-format
 msgid "Black king at %1$s takes the white knight at %2$s"
 msgstr "Sort konge på %1$s slår hvit springer på %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:584
+#: ../glchess/src/glchess.vala:587
 #, c-format
 msgid "Black king at %1$s takes the white bishop at %2$s"
 msgstr "Sort konge på %1$s slår hvit løper på %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a queen at %2$s"
-#: ../glchess/src/glchess.vala:586
+#: ../glchess/src/glchess.vala:589
 #, c-format
 msgid "Black king at %1$s takes the white queen at %2$s"
 msgstr "Sort konge på %1$s slår hvit dronning på %2$s"
 
 #. Message display when the white player wins
-#: ../glchess/src/glchess.vala:704
+#: ../glchess/src/glchess.vala:709
 msgid "White wins"
 msgstr "Hvit vinner"
 
 #. Message display when the black player wins
-#: ../glchess/src/glchess.vala:709
+#: ../glchess/src/glchess.vala:714
 msgid "Black wins"
 msgstr "Sort vinner"
 
 #. Message display when the game is drawn
-#: ../glchess/src/glchess.vala:714
+#: ../glchess/src/glchess.vala:719
 msgid "Game is drawn"
 msgstr "Spillet er uavgjort"
 
-#: ../glchess/src/glchess.vala:815
+#. Message displayed when the game ends due to a player being checkmated
+#: ../glchess/src/glchess.vala:731
+msgid "Opponent is in check and cannot move (checkmate)"
+msgstr "Motstander er i sjakk og kan ikke flytte (sjakkmatt)"
+
+#. Message displayed when the game terminates due to a stalemate
+#: ../glchess/src/glchess.vala:735
+msgid "Opponent cannot move (stalemate)"
+msgstr "Motstander kan ikke flytte (remis)"
+
+#. Message displayed when the game is drawn due to the fifty move rule
+#: ../glchess/src/glchess.vala:739
+msgid "No piece has been taken or pawn moved in the last fifty moves"
+msgstr "Ingen brikke har blitt tatt eller ingen bonde er flyttet de siste femti trekkene"
+
+#. Message displayed when the game ends due to one player's clock stopping
+#: ../glchess/src/glchess.vala:743
+msgid "Opponent has run out of time"
+msgstr "Motstanders tid er utløpt"
+
+#. Message displayed when the game is drawn due to the three-fold-repitition rule
+#: ../glchess/src/glchess.vala:747
+msgid "The same board state has occurred three times (three fold repetition)"
+msgstr "Brettet har hatt samme tilstand tre ganger (tre ganger repetisjon)"
+
+#. Message displayed when the game is drawn due to the insufficient material rule
+#: ../glchess/src/glchess.vala:751
+msgid "Neither player can cause checkmate (insufficient material)"
+msgstr "Ingen av spillerene kan forårsake sjakkmatt (ikke nok materiell)"
+
+#. Message displayed when the game ends due to the black player resigning
+#: ../glchess/src/glchess.vala:757
+msgid "The black player has resigned"
+msgstr "Sort spiller har gitt opp"
+
+#. Message displayed when the game ends due to the white player resigning
+#: ../glchess/src/glchess.vala:762
+msgid "The white player has resigned"
+msgstr "Hvit spiller har gitt opp"
+
+#. Message displayed when a game is abandoned
+#: ../glchess/src/glchess.vala:767
+msgid "The game has been abandoned"
+msgstr "Spillet er forlatt"
+
+#. Message displayed when the game ends due to a player dying
+#: ../glchess/src/glchess.vala:772
+msgid "One of the players has died"
+msgstr "En av spillerene er død"
+
+#: ../glchess/src/glchess.vala:820
 msgid "Save this game before starting a new one?"
 msgstr "Lagre dette spillet før et nytt startes?"
 
+#: ../glchess/src/glchess.vala:822 ../gnome-sudoku/src/lib/main.py:422
+msgid "_Abandon game"
+msgstr "_Avbryt spill"
+
+#: ../glchess/src/glchess.vala:823 ../gnome-sudoku/src/lib/main.py:421
+msgid "_Save game for later"
+msgstr "_Lagre spill for senere"
+
 #. Preferences Dialog: Combo box entry for a custom game timer set in seconds
-#: ../glchess/src/glchess.vala:1209
+#: ../glchess/src/glchess.vala:1214
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "sekund"
 msgstr[1] "sekunder"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in minutes
-#: ../glchess/src/glchess.vala:1213
+#: ../glchess/src/glchess.vala:1218
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "minutt"
 msgstr[1] "minutter"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in hours
-#: ../glchess/src/glchess.vala:1217
+#: ../glchess/src/glchess.vala:1222
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "time"
 msgstr[1] "timer"
 
-#: ../glines/glines.c:90 ../gnomine/gnomine.c:101
+#: ../glchess/src/glchess.vala:1342
+msgid ""
+"The 2D/3D chess game for GNOME. \n"
+"\n"
+"glChess is a part of GNOME Games."
+msgstr ""
+"2D/3D sjakkspill for GNOME.\n"
+"\n"
+"glChess er en del av GNOME-spillene."
+
+#: ../glchess/src/glchess.vala:1347 ../glines/glines.c:1218
+#: ../gnect/src/main.c:874 ../gnibbles/main.c:211 ../gnobots2/menu.c:263
+#: ../quadrapassel/tetris.cpp:1313 ../gnome-sudoku/src/lib/defaults.py.in:45
+#: ../gnomine/gnomine.c:479 ../gnotravex/gnotravex.c:1615
+#: ../gnotski/gnotski.c:1490 ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
+#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:911
+#: ../swell-foop/src/About.js:19
+msgid "GNOME Games web site"
+msgstr "GNOME spill nettsted"
+
+#. Title of save game dialog
+#: ../glchess/src/glchess.vala:1401
+msgid "Save Chess Game"
+msgstr "Lagre sjakkspill"
+
+#. Save Game Dialog: Name of filter to show only PGN files
+#. Load Game Dialog: Name of filter to show only PGN files
+#: ../glchess/src/glchess.vala:1414 ../glchess/src/glchess.vala:1482
+msgid "PGN files"
+msgstr "PGN-filer"
+
+#. Save Game Dialog: Name of filter to show all files
+#. Load Game Dialog: Name of filter to show all files
+#: ../glchess/src/glchess.vala:1421 ../glchess/src/glchess.vala:1489
+msgid "All files"
+msgstr "Alle filer"
+
+#: ../glchess/src/glchess.vala:1445
+#, c-format
+msgid "Failed to save game: %s"
+msgstr "Klarte ikke å lagre spillet: %s"
+
+#. Title of load game dialog
+#: ../glchess/src/glchess.vala:1469
+msgid "Load Chess Game"
+msgstr "Last sjakkspill"
+
+#: ../glchess/src/glchess.vala:1511
+#, c-format
+msgid "Failed to open game: %s"
+msgstr "Klarte ikke å åpne spillet: %s"
+
+#. Help string for command line --version flag
+#: ../glchess/src/glchess.vala:1572
+msgid "Show release version"
+msgstr "Vis versjonsnummer"
+
+#. Arguments and description for --help text
+#: ../glchess/src/glchess.vala:1587
+msgid "[FILE] - Play Chess"
+msgstr "[FIL] - spill sjakk"
+
+#. Text printed out when an unknown command-line argument provided
+#: ../glchess/src/glchess.vala:1598
+#, c-format
+msgid "Run '%s --help' to see a full list of available command line options."
+msgstr "Kjør «%s --help» for å se en full liste med tilgjengelige kommandolinjeflagg."
+
+#: ../glines/glines.c:89 ../gnomine/gnomine.c:100
 msgctxt "board size"
 msgid "Small"
 msgstr "Liten"
 
-#: ../glines/glines.c:91 ../gnomine/gnomine.c:102
+#: ../glines/glines.c:90 ../gnomine/gnomine.c:101
 msgctxt "board size"
 msgid "Medium"
 msgstr "Middels"
 
-#: ../glines/glines.c:92 ../gnomine/gnomine.c:103
+#: ../glines/glines.c:91 ../gnomine/gnomine.c:102
 msgctxt "board size"
 msgid "Large"
 msgstr "Stor"
 
-#: ../glines/glines.c:191
+#: ../glines/glines.c:190
 msgid "Could not load theme"
 msgstr "Kunne ikke laste tema"
 
-#: ../glines/glines.c:219
+#: ../glines/glines.c:218
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -3663,7 +1117,7 @@ msgstr ""
 "\n"
 "Forvalgt tema vil bli lastet i stedet."
 
-#: ../glines/glines.c:226
+#: ../glines/glines.c:225
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -3676,33 +1130,33 @@ msgstr ""
 "\n"
 "Vennligst sjekk at Fem eller flere er korrekt installert."
 
-#: ../glines/glines.c:445
+#: ../glines/glines.c:444
 msgid "Match five objects of the same type in a row to score!"
 msgstr "Få fem objekter med samme farge på rad for å vinne!"
 
-#: ../glines/glines.c:507
+#: ../glines/glines.c:506
 msgid "GNOME Five or More"
 msgstr "GNOME Fem eller flere"
 
-#: ../glines/glines.c:509
+#: ../glines/glines.c:508
 msgid "_Board size:"
 msgstr "Størrelse på _brett"
 
-#: ../glines/glines.c:526 ../swell-foop/src/Score.js:109
+#: ../glines/glines.c:525 ../swell-foop/src/Score.js:109
 msgid "Game Over!"
 msgstr "Spillet er over!"
 
 #. Can't move there!
-#: ../glines/glines.c:683
+#: ../glines/glines.c:682
 msgid "You can't move there!"
 msgstr "Kan ikke gå dit!"
 
-#: ../glines/glines.c:1205 ../glines/glines.c:1208 ../glines/glines.c:1752
-#: ../glines/glines.c:1784 ../glines/glines.desktop.in.in.h:1
+#: ../glines/glines.c:1204 ../glines/glines.c:1207 ../glines/glines.c:1751
+#: ../glines/glines.c:1783 ../glines/glines.desktop.in.in.h:1
 msgid "Five or More"
 msgstr "Fem eller flere"
 
-#: ../glines/glines.c:1210
+#: ../glines/glines.c:1209
 msgid ""
 "GNOME port of the once-popular Color Lines game.\n"
 "\n"
@@ -3712,40 +1166,59 @@ msgstr ""
 "\n"
 "Fem eller flere er en del av GNOME spill."
 
-#: ../glines/glines.c:1397
+#. this doesn't work for anyone
+#: ../glines/glines.c:1215 ../gnect/src/main.c:877 ../gnibbles/main.c:208
+#: ../gnobots2/menu.c:267 ../quadrapassel/tetris.cpp:1316
+#: ../gnome-sudoku/src/lib/main.py:689 ../gnomine/gnomine.c:476
+#: ../gnotravex/gnotravex.c:1612 ../gnotski/gnotski.c:1487
+#: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:270
+#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:908
+#: ../swell-foop/src/About.js:20
+msgid "translator-credits"
+msgstr ""
+"Kjartan Maraas <kmaraas@gnome.org>\n"
+"Espen Stefansen <espens@svn.gnome.org>\n"
+"Torstein Adolf Winterseth <kvikende@fsfe.org>"
+
+#: ../glines/glines.c:1396
 msgid "Five or More Preferences"
 msgstr "Brukervalg for fem eller flere"
 
-#: ../glines/glines.c:1416 ../gnect/src/prefs.c:334
+#: ../glines/glines.c:1415 ../gnect/src/prefs.c:333
 #: ../gnobots2/properties.c:535 ../iagno/properties.c:527
 #: ../lightsoff/data/settings.ui.h:1 ../swell-foop/data/settings.ui.h:1
 msgid "Appearance"
 msgstr "Utseende"
 
-#: ../glines/glines.c:1424
+#: ../glines/glines.c:1423
 msgid "_Image:"
 msgstr "B_ilde:"
 
-#: ../glines/glines.c:1435
+#: ../glines/glines.c:1434
 msgid "B_ackground color:"
 msgstr "B_akgrunnsfarge:"
 
-#: ../glines/glines.c:1450
+#: ../glines/glines.c:1449
 msgid "Board Size"
 msgstr "Størrelse på brett"
 
-#: ../glines/glines.c:1469
+#: ../glines/glines.c:1468
 msgctxt "preferences"
 msgid "General"
 msgstr "Generelt"
 
-#: ../glines/glines.c:1475
+#: ../glines/glines.c:1474
 msgid "_Use fast moves"
 msgstr "Br_uk raske trekk"
 
-#: ../glines/glines.c:1811
+#: ../glines/glines.c:1810
 msgid "Next:"
 msgstr "Neste:"
+
+#: ../glines/glines.c:1840 ../gnobots2/statusbar.c:67
+#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:439
+msgid "Score:"
+msgstr "Poeng:"
 
 #: ../glines/glines.desktop.in.in.h:2
 msgid "Remove colored balls from the board by forming lines"
@@ -3826,7 +1299,7 @@ msgstr "Et tall som spesifiserer foretrukket tema."
 msgid "Animate"
 msgstr "Animer"
 
-#: ../gnect/data/gnect.schemas.in.h:3 ../gnect/src/prefs.c:373
+#: ../gnect/data/gnect.schemas.in.h:3 ../gnect/src/prefs.c:372
 msgid "Drop marble"
 msgstr "Slipp klinkekulen"
 
@@ -3852,21 +1325,30 @@ msgstr "Nivå for spiller en"
 msgid "Level of Player Two"
 msgstr "Nivå for spiller to"
 
-#: ../gnect/data/gnect.schemas.in.h:9 ../gnect/src/prefs.c:371
+#: ../gnect/data/gnect.schemas.in.h:9 ../gnect/src/prefs.c:370
 #: ../gnibbles/gnibbles.schemas.in.h:16 ../gnibbles/preferences.c:444
-#: ../quadrapassel/quadrapassel.schemas.in.h:13 ../quadrapassel/tetris.cpp:738
+#: ../quadrapassel/quadrapassel.schemas.in.h:13 ../quadrapassel/tetris.cpp:751
 msgid "Move left"
 msgstr "Flytt til venstre"
 
-#: ../gnect/data/gnect.schemas.in.h:10 ../gnect/src/prefs.c:372
+#: ../gnect/data/gnect.schemas.in.h:10 ../gnect/src/prefs.c:371
 #: ../gnibbles/gnibbles.schemas.in.h:17 ../gnibbles/preferences.c:445
-#: ../quadrapassel/quadrapassel.schemas.in.h:14 ../quadrapassel/tetris.cpp:739
+#: ../quadrapassel/quadrapassel.schemas.in.h:14 ../quadrapassel/tetris.cpp:752
 msgid "Move right"
 msgstr "Flytt til høyre"
+
+#: ../gnect/data/gnect.schemas.in.h:11 ../gnobots2/properties.c:483
+#: ../iagno/iagno.schemas.in.h:1
+msgid "Sound"
+msgstr "Lyd"
 
 #: ../gnect/data/gnect.schemas.in.h:12
 msgid "Theme ID"
 msgstr "Tema-ID"
+
+#: ../gnect/data/gnect.schemas.in.h:13 ../iagno/iagno.schemas.in.h:2
+msgid "Whether or not to play event sounds."
+msgstr "Om lyder skal spilles av for hendelser."
 
 #: ../gnect/data/gnect.schemas.in.h:14
 msgid "Whether or not to use animation."
@@ -3889,58 +1371,58 @@ msgstr ""
 "Kan ikke laste bilde:\n"
 "%s"
 
-#: ../gnect/src/main.c:528
+#: ../gnect/src/main.c:527
 msgid "It's a draw!"
 msgstr "Det er uavgjort!"
 
-#: ../gnect/src/main.c:537 ../gnome-sudoku/src/lib/main.py:422
+#: ../gnect/src/main.c:536 ../gnome-sudoku/src/lib/main.py:402
 msgid "You win!"
 msgstr "Du vinner!"
 
-#: ../gnect/src/main.c:539 ../gnect/src/main.c:572
+#: ../gnect/src/main.c:538 ../gnect/src/main.c:571
 msgid "It is your move."
 msgstr "Det er ditt trekk."
 
-#: ../gnect/src/main.c:542
+#: ../gnect/src/main.c:541
 msgid "I win!"
 msgstr "Jeg vinner!"
 
-#: ../gnect/src/main.c:544 ../gnect/src/main.c:677
+#: ../gnect/src/main.c:543 ../gnect/src/main.c:676
 msgid "Thinking..."
 msgstr "Tenker …"
 
-#: ../gnect/src/main.c:565 ../gnect/src/main.c:569
+#: ../gnect/src/main.c:564 ../gnect/src/main.c:568
 #, c-format
 msgid "%s wins!"
 msgstr "%s vinner!"
 
-#: ../gnect/src/main.c:575
+#: ../gnect/src/main.c:574
 #, c-format
 msgid "Waiting for %s to move."
 msgstr "Venter på %s til å flytte."
 
-#: ../gnect/src/main.c:694
+#: ../gnect/src/main.c:693
 #, c-format
 msgid "Hint: Column %d"
 msgstr " Hint: Kolonne %d"
 
-#: ../gnect/src/main.c:722 ../gnect/src/main.c:726
+#: ../gnect/src/main.c:721 ../gnect/src/main.c:725
 msgid "You:"
 msgstr "Du:"
 
-#: ../gnect/src/main.c:723 ../gnect/src/main.c:725
+#: ../gnect/src/main.c:722 ../gnect/src/main.c:724
 msgid "Me:"
 msgstr "Meg:"
 
-#: ../gnect/src/main.c:771
+#: ../gnect/src/main.c:770
 msgid "Scores"
 msgstr "Poeng"
 
-#: ../gnect/src/main.c:821
+#: ../gnect/src/main.c:820
 msgid "Drawn:"
 msgstr "Trukket:"
 
-#: ../gnect/src/main.c:874
+#: ../gnect/src/main.c:873
 msgid ""
 "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
 "Bertoletti's Velena Engine.\n"
@@ -3952,7 +1434,12 @@ msgstr ""
 "\n"
 "Fire på rad er en del av GNOME spill."
 
-#: ../gnect/src/prefs.c:117
+#: ../gnect/src/main.c:1242 ../gnibbles/main.c:688 ../gnobots2/menu.c:67
+#: ../gnotski/gnotski.c:410
+msgid "_View"
+msgstr "_Vis"
+
+#: ../gnect/src/prefs.c:116
 #, c-format
 msgid ""
 "Player One:\n"
@@ -3961,7 +1448,7 @@ msgstr ""
 "Spiller 1:\n"
 "%s"
 
-#: ../gnect/src/prefs.c:121
+#: ../gnect/src/prefs.c:120
 #, c-format
 msgid ""
 "Player Two:\n"
@@ -3970,46 +1457,46 @@ msgstr ""
 "Spiller 2:\n"
 "%s"
 
-#: ../gnect/src/prefs.c:250 ../gtali/gyahtzee.c:998 ../gtali/yahtzee.c:69
+#: ../gnect/src/prefs.c:249 ../gtali/gyahtzee.c:998 ../gtali/yahtzee.c:69
 #: ../iagno/properties.c:448 ../iagno/properties.c:489
 msgid "Human"
 msgstr "Menneske"
 
-#: ../gnect/src/prefs.c:252 ../iagno/properties.c:457
+#: ../gnect/src/prefs.c:251 ../iagno/properties.c:457
 #: ../iagno/properties.c:498
 msgid "Level one"
 msgstr "Nivå en"
 
-#: ../gnect/src/prefs.c:254 ../iagno/properties.c:466
+#: ../gnect/src/prefs.c:253 ../iagno/properties.c:466
 #: ../iagno/properties.c:507
 msgid "Level two"
 msgstr "Nivå to"
 
-#: ../gnect/src/prefs.c:256 ../iagno/properties.c:475
+#: ../gnect/src/prefs.c:255 ../iagno/properties.c:475
 #: ../iagno/properties.c:516
 msgid "Level three"
 msgstr "Nivå tre"
 
-#: ../gnect/src/prefs.c:280
+#: ../gnect/src/prefs.c:279
 msgid "Four-in-a-Row Preferences"
 msgstr "Brukervalg for fire på rad"
 
-#: ../gnect/src/prefs.c:343
+#: ../gnect/src/prefs.c:342
 msgid "_Theme:"
 msgstr "_Tema:"
 
-#: ../gnect/src/prefs.c:358
+#: ../gnect/src/prefs.c:357
 msgid "Enable _animation"
 msgstr "Aktiver _animasjon"
 
-#: ../gnect/src/prefs.c:362 ../gnibbles/preferences.c:338
+#: ../gnect/src/prefs.c:361 ../gnibbles/preferences.c:338
 #: ../iagno/properties.c:436
 msgid "E_nable sounds"
 msgstr "A_ktiver lyder"
 
 #. keyboard tab
-#: ../gnect/src/prefs.c:367 ../gnibbles/preferences.c:434
-#: ../gnobots2/properties.c:542 ../quadrapassel/tetris.cpp:730
+#: ../gnect/src/prefs.c:366 ../gnibbles/preferences.c:434
+#: ../gnobots2/properties.c:542 ../quadrapassel/tetris.cpp:743
 msgid "Keyboard Controls"
 msgstr "Tastaturkontroller:"
 
@@ -4094,7 +1581,7 @@ msgstr ""
 "\n"
 "Vennligst sjekk din Nibbles-installasjon"
 
-#: ../gnibbles/gnibbles.c:95
+#: ../gnibbles/gnibbles.c:94
 #, c-format
 msgid ""
 "Nibbles couldn't find pixmap file:\n"
@@ -4107,28 +1594,28 @@ msgstr ""
 "\n"
 "Vennligst sjekk din Nibbles-installasjon"
 
-#: ../gnibbles/gnibbles.c:367
+#: ../gnibbles/gnibbles.c:366
 msgid "Nibbles Scores"
 msgstr "Nibbles poeng"
 
-#: ../gnibbles/gnibbles.c:370
+#: ../gnibbles/gnibbles.c:369
 msgid "Speed:"
 msgstr "Hastighet:"
 
-#: ../gnibbles/gnibbles.c:375 ../gnobots2/game.c:179 ../gnomine/gnomine.c:224
-#: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:797
+#: ../gnibbles/gnibbles.c:374 ../gnobots2/game.c:179 ../gnomine/gnomine.c:223
+#: ../gnotravex/gnotravex.c:1089 ../gnotski/gnotski.c:797
 #: ../gtali/gyahtzee.c:197 ../mahjongg/mahjongg.c:630
 msgid "Congratulations!"
 msgstr "Gratulerer!"
 
-#: ../gnibbles/gnibbles.c:376 ../gnobots2/game.c:180 ../gnomine/gnomine.c:225
-#: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:798
+#: ../gnibbles/gnibbles.c:375 ../gnobots2/game.c:180 ../gnomine/gnomine.c:224
+#: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:798
 #: ../gtali/gyahtzee.c:198 ../mahjongg/mahjongg.c:631
 msgid "Your score is the best!"
 msgstr "Din poengsum er den beste!"
 
-#: ../gnibbles/gnibbles.c:377 ../gnobots2/game.c:181 ../gnomine/gnomine.c:226
-#: ../gnotravex/gnotravex.c:1092 ../gnotski/gnotski.c:799
+#: ../gnibbles/gnibbles.c:376 ../gnobots2/game.c:181 ../gnomine/gnomine.c:225
+#: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:799
 #: ../gtali/gyahtzee.c:199 ../mahjongg/mahjongg.c:632
 msgid "Your score has made the top ten."
 msgstr "Din poengsum er blant de ti beste."
@@ -4139,7 +1626,7 @@ msgstr "Led en orm rundt i en labyrint"
 
 #: ../gnibbles/gnibbles.desktop.in.in.h:2 ../gnibbles/main.c:196
 #: ../gnibbles/main.c:199 ../gnibbles/main.c:798 ../gnibbles/main.c:877
-#: ../gnibbles/main.c:1021
+#: ../gnibbles/main.c:1007
 msgid "Nibbles"
 msgstr "Nibbles"
 
@@ -4200,7 +1687,7 @@ msgid "Key to use for motion up."
 msgstr "Tast som brukes for å flytte opp."
 
 #: ../gnibbles/gnibbles.schemas.in.h:15 ../gnibbles/preferences.c:447
-#: ../quadrapassel/quadrapassel.schemas.in.h:12 ../quadrapassel/tetris.cpp:740
+#: ../quadrapassel/quadrapassel.schemas.in.h:12 ../quadrapassel/tetris.cpp:753
 msgid "Move down"
 msgstr "Flytt ned"
 
@@ -4351,7 +1838,7 @@ msgid "_Enable fake bonuses"
 msgstr "Aktiv_er falske bonuser"
 
 #. starting level
-#: ../gnibbles/preferences.c:351 ../quadrapassel/tetris.cpp:637
+#: ../gnibbles/preferences.c:351 ../quadrapassel/tetris.cpp:643
 msgid "_Starting level:"
 msgstr "_Startnivå:"
 
@@ -4400,14 +1887,14 @@ msgstr "Orm %d:"
 msgid "Game over!"
 msgstr "Spillet over!"
 
-#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:200 ../gnotski/gnotski.c:772
+#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:199 ../gnotski/gnotski.c:772
 msgid "Great work, but unfortunately your score did not make the top ten."
 msgstr "Bra jobba, men din poengsum ble desverre ikke med blant de ti beste."
 
 #. Translators: This "_New Game" is for the game-over dialogue
 #: ../gnobots2/game.c:154 ../gnome-sudoku/data/select_game.ui.h:1
-#: ../gnomine/gnomine.c:202 ../gnotski/gnotski.c:774
-#: ../libgames-support/games-stock.c:300
+#: ../gnomine/gnomine.c:201 ../gnotski/gnotski.c:774
+#: ../libgames-support/games-stock.c:255
 msgid "_New Game"
 msgstr "_Nytt spill"
 
@@ -4441,6 +1928,10 @@ msgstr "Ingen trygge steder å teleportere til!!"
 msgid "Set game scenario"
 msgstr "Sett spillscenario"
 
+#: ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
+msgid "NAME"
+msgstr "NAVN"
+
 #: ../gnobots2/gnobots.c:87
 msgid "Set game configuration"
 msgstr "Sett spillscenario"
@@ -4449,14 +1940,14 @@ msgstr "Sett spillscenario"
 msgid "Initial window position"
 msgstr "Posisjon for vinduet"
 
-#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:925 ../gnomine/gnomine.c:933
-#: ../gnotravex/gnotravex.c:262 ../gnotski/gnotski.c:457
+#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:924 ../gnomine/gnomine.c:932
+#: ../gnotravex/gnotravex.c:261 ../gnotski/gnotski.c:457
 #: ../iagno/gnothello.c:148
 msgid "X"
 msgstr "X"
 
-#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:927 ../gnomine/gnomine.c:935
-#: ../gnotravex/gnotravex.c:264 ../gnotski/gnotski.c:459
+#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:926 ../gnomine/gnomine.c:934
+#: ../gnotravex/gnotravex.c:263 ../gnotski/gnotski.c:459
 #: ../iagno/gnothello.c:150
 msgid "Y"
 msgstr "Y"
@@ -4527,11 +2018,11 @@ msgstr "Roboter med trygg teleportering og supertrygge trekk"
 msgid "Robots"
 msgstr "Roboter"
 
-#: ../gnobots2/gnobots.c:318
+#: ../gnobots2/gnobots.c:321
 msgid "No game data could be found."
 msgstr "Spilldata kunne ikke finnes."
 
-#: ../gnobots2/gnobots.c:320
+#: ../gnobots2/gnobots.c:323
 msgid ""
 "The program Robots was unable to find any valid game configuration files. "
 "Please check that the program is installed correctly."
@@ -4539,11 +2030,11 @@ msgstr ""
 "GNOME Robots kunne ikke finne gyldige spillkonfigurasjonsfiler. Vennligst "
 "sjekk at programmet er installert korrekt."
 
-#: ../gnobots2/gnobots.c:336
+#: ../gnobots2/gnobots.c:339
 msgid "Some graphics files are missing or corrupt."
 msgstr "Noen grafikkfiler mangler eller er korrupt."
 
-#: ../gnobots2/gnobots.c:338
+#: ../gnobots2/gnobots.c:341
 msgid ""
 "The program Robots was unable to load all the necessary graphics files. "
 "Please check that the program is installed correctly."
@@ -4756,7 +2247,7 @@ msgstr ""
 msgid "Could not find '%s' pixmap file\n"
 msgstr "Kunne ikke finne bildefilen «%s»\n"
 
-#: ../gnobots2/menu.c:68 ../gnotravex/gnotravex.c:1708
+#: ../gnobots2/menu.c:68 ../gnotravex/gnotravex.c:1707
 msgid "_Move"
 msgstr "_Flytt"
 
@@ -4783,6 +2274,14 @@ msgstr "_Vent"
 #: ../gnobots2/menu.c:79
 msgid "Wait for the robots"
 msgstr "Vent på robotene"
+
+#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1223
+msgid "_Toolbar"
+msgstr "_Verktøylinje"
+
+#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1223
+msgid "Show or hide the toolbar"
+msgstr "Vis eller skjul verktøylinjen"
 
 #: ../gnobots2/menu.c:264
 msgid ""
@@ -4867,7 +2366,7 @@ msgstr "Br_uk super-trygge trekk"
 msgid "Prevents all moves that result in getting killed."
 msgstr "Forhindre alle trekk som resulterer i at spiller blir drept."
 
-#: ../gnobots2/properties.c:488 ../quadrapassel/tetris.cpp:663
+#: ../gnobots2/properties.c:488 ../quadrapassel/tetris.cpp:669
 msgid "_Enable sounds"
 msgstr "A_ktiver lyder"
 
@@ -4913,12 +2412,12 @@ msgid "Fit falling blocks together"
 msgstr "Få fallende blokker til å passe sammen"
 
 #: ../quadrapassel/quadrapassel.desktop.in.in.h:2 ../quadrapassel/main.cpp:66
-#: ../quadrapassel/tetris.cpp:158 ../quadrapassel/tetris.cpp:1292
-#: ../quadrapassel/tetris.cpp:1295
+#: ../quadrapassel/tetris.cpp:158 ../quadrapassel/tetris.cpp:1305
+#: ../quadrapassel/tetris.cpp:1308
 msgid "Quadrapassel"
 msgstr "Quadrapassel"
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:1 ../quadrapassel/tetris.cpp:741
+#: ../quadrapassel/quadrapassel.schemas.in.h:1 ../quadrapassel/tetris.cpp:754
 msgid "Drop"
 msgstr "Slipp"
 
@@ -4954,11 +2453,11 @@ msgstr "Startnivå"
 msgid "Level to start with."
 msgstr "Startnivå."
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:15 ../quadrapassel/tetris.cpp:743
+#: ../quadrapassel/quadrapassel.schemas.in.h:15 ../quadrapassel/tetris.cpp:756
 msgid "Pause"
 msgstr "Pause"
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:16 ../quadrapassel/tetris.cpp:742
+#: ../quadrapassel/quadrapassel.schemas.in.h:16 ../quadrapassel/tetris.cpp:755
 msgid "Rotate"
 msgstr "Roter"
 
@@ -5075,61 +2574,61 @@ msgstr "Tøm"
 msgid "Lines:"
 msgstr "Linjer:"
 
-#: ../quadrapassel/tetris.cpp:570
+#: ../quadrapassel/tetris.cpp:576
 msgid "Quadrapassel Preferences"
 msgstr "Brukervalg for Quadrapassel"
 
-#: ../quadrapassel/tetris.cpp:593 ../swell-foop/data/settings.ui.h:5
+#: ../quadrapassel/tetris.cpp:599 ../swell-foop/data/settings.ui.h:5
 msgid "Setup"
 msgstr "Oppsett"
 
 #. pre-filled rows
-#: ../quadrapassel/tetris.cpp:599
+#: ../quadrapassel/tetris.cpp:605
 msgid "_Number of pre-filled rows:"
 msgstr "A_ntall forhåndsutfylte rader:"
 
 #. pre-filled rows density
-#: ../quadrapassel/tetris.cpp:618
+#: ../quadrapassel/tetris.cpp:624
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_Tetthet for blokker i forhåndsutfylt rad:"
 
-#: ../quadrapassel/tetris.cpp:658 ../swell-foop/data/settings.ui.h:4
+#: ../quadrapassel/tetris.cpp:664 ../swell-foop/data/settings.ui.h:4
 msgid "Operation"
 msgstr "Operasjon"
 
-#: ../quadrapassel/tetris.cpp:672
+#: ../quadrapassel/tetris.cpp:678
 msgid "_Preview next block"
 msgstr "_Forhåndsvis neste blokk"
 
-#: ../quadrapassel/tetris.cpp:681
+#: ../quadrapassel/tetris.cpp:687
 msgid "_Use random block colors"
 msgstr "Br_uk tilfeldige farger på blokker"
 
-#: ../quadrapassel/tetris.cpp:692
+#: ../quadrapassel/tetris.cpp:698
 msgid "Choose difficult _blocks"
 msgstr "Velg vanskelige _blokker"
 
-#: ../quadrapassel/tetris.cpp:701
+#: ../quadrapassel/tetris.cpp:714
 msgid "_Rotate blocks counterclockwise"
 msgstr "_Roter blokker mot klokken"
 
-#: ../quadrapassel/tetris.cpp:710
+#: ../quadrapassel/tetris.cpp:723
 msgid "Show _where the block will land"
 msgstr "Vis h_vor blokken skal lande"
 
-#: ../quadrapassel/tetris.cpp:718 ../quadrapassel/tetris.cpp:751
+#: ../quadrapassel/tetris.cpp:731 ../quadrapassel/tetris.cpp:764
 msgid "Theme"
 msgstr "Tema"
 
-#: ../quadrapassel/tetris.cpp:727
+#: ../quadrapassel/tetris.cpp:740
 msgid "Controls"
 msgstr "Kontroller"
 
-#: ../quadrapassel/tetris.cpp:754
+#: ../quadrapassel/tetris.cpp:767
 msgid "Block Style"
 msgstr "Blokkstil"
 
-#: ../quadrapassel/tetris.cpp:1297
+#: ../quadrapassel/tetris.cpp:1310
 msgid ""
 "A classic game of fitting falling blocks together.\n"
 "\n"
@@ -5146,6 +2645,10 @@ msgstr "Poeng for Quadrapassel"
 #: ../quadrapassel/blockops.cpp:786
 msgid "Paused"
 msgstr "Pause"
+
+#: ../quadrapassel/blockops.cpp:788
+msgid "Game Over"
+msgstr "Spillet over"
 
 #: ../gnome-sudoku/gnome-sudoku.desktop.in.in.h:1
 #: ../gnome-sudoku/src/lib/defaults.py.in:40
@@ -5253,7 +2756,7 @@ msgstr "_Lagrede spill"
 msgid "Add a new tracker"
 msgstr "Legg til en ny sporer"
 
-#: ../gnome-sudoku/data/tracker.ui.h:2 ../gnome-sudoku/src/lib/main.py:790
+#: ../gnome-sudoku/data/tracker.ui.h:2 ../gnome-sudoku/src/lib/main.py:770
 msgid "H_ide"
 msgstr "Sk_jul"
 
@@ -5315,7 +2818,7 @@ msgstr ""
 "senere versjon."
 
 #: ../gnome-sudoku/src/lib/defaults.py.in:55
-#: ../libgames-support/games-stock.c:391
+#: ../libgames-support/games-stock.c:325
 #, c-format, python-format
 msgid ""
 "%s is distributed in the hope that it will be useful, but WITHOUT ANY "
@@ -5328,7 +2831,7 @@ msgstr ""
 "FORMÅL. Se GNU General Public License for detaljer."
 
 #: ../gnome-sudoku/src/lib/defaults.py.in:59
-#: ../libgames-support/games-stock.c:396
+#: ../libgames-support/games-stock.c:330
 #, c-format, python-format
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
@@ -5385,264 +2888,252 @@ msgstr "Kan ikke merke spillet som fullført."
 msgid "Sudoku unable to mark game as finished."
 msgstr "Sudoku kunne ikke merke spillet som fullført."
 
-#: ../gnome-sudoku/src/lib/main.py:44
-msgid "Track moves"
-msgstr "Spor trekk"
-
-#: ../gnome-sudoku/src/lib/main.py:232
+#: ../gnome-sudoku/src/lib/main.py:211
 msgid "New game"
 msgstr "Nytt spill"
 
 #. Translators: this is the "Reset" scores button in a scores dialogue
-#: ../gnome-sudoku/src/lib/main.py:233 ../libgames-support/games-stock.c:303
+#: ../gnome-sudoku/src/lib/main.py:212 ../libgames-support/games-stock.c:258
 msgid "_Reset"
 msgstr "_Nullstill"
 
-#: ../gnome-sudoku/src/lib/main.py:235
+#: ../gnome-sudoku/src/lib/main.py:214
 msgid "_Undo"
 msgstr "_Angre"
 
-#: ../gnome-sudoku/src/lib/main.py:236
+#: ../gnome-sudoku/src/lib/main.py:215
 msgid "Undo last action"
 msgstr "Angre forrige handling"
 
-#: ../gnome-sudoku/src/lib/main.py:237
+#: ../gnome-sudoku/src/lib/main.py:216
 msgid "_Redo"
 msgstr "Gjenopp_rett"
 
-#: ../gnome-sudoku/src/lib/main.py:238
+#: ../gnome-sudoku/src/lib/main.py:217
 msgid "Redo last action"
 msgstr "Gjenta forrige handling"
 
-#: ../gnome-sudoku/src/lib/main.py:239
+#: ../gnome-sudoku/src/lib/main.py:218
 msgid "Puzzle _Statistics..."
 msgstr "_Statistikk for puslespill …"
 
-#: ../gnome-sudoku/src/lib/main.py:241
+#: ../gnome-sudoku/src/lib/main.py:220
 msgid "_Print..."
 msgstr "S_kriv ut …"
 
-#: ../gnome-sudoku/src/lib/main.py:242
+#: ../gnome-sudoku/src/lib/main.py:221
 msgid "Print _Multiple Sudokus..."
 msgstr "Skriv ut _flere Sudoku …"
 
-#: ../gnome-sudoku/src/lib/main.py:247
+#: ../gnome-sudoku/src/lib/main.py:226
 msgid "_Tools"
 msgstr "Verk_tøy"
 
-#: ../gnome-sudoku/src/lib/main.py:248 ../libgames-support/games-stock.c:296
+#: ../gnome-sudoku/src/lib/main.py:227 ../libgames-support/games-stock.c:251
 msgid "_Hint"
 msgstr "_Hint"
 
-#: ../gnome-sudoku/src/lib/main.py:249
+#: ../gnome-sudoku/src/lib/main.py:228
 msgid "Show a square that is easy to fill."
 msgstr "Vis en firkant som er lett å fylle."
 
-#: ../gnome-sudoku/src/lib/main.py:250
+#: ../gnome-sudoku/src/lib/main.py:229
 msgid "Clear _Top Notes"
 msgstr "Tøm øverste _notater"
 
-#: ../gnome-sudoku/src/lib/main.py:252
+#: ../gnome-sudoku/src/lib/main.py:231
 msgid "Clear _Bottom Notes"
 msgstr "Tøm _nederste notater"
 
-#: ../gnome-sudoku/src/lib/main.py:261
+#: ../gnome-sudoku/src/lib/main.py:240
 msgid "Show _Possible Numbers"
 msgstr "Vis _mulige tall"
 
-#: ../gnome-sudoku/src/lib/main.py:263
+#: ../gnome-sudoku/src/lib/main.py:242
 msgid "Always show possible numbers in a square"
 msgstr "Alltid vis mulige tall i en rute"
 
-#: ../gnome-sudoku/src/lib/main.py:267
+#: ../gnome-sudoku/src/lib/main.py:246
 msgid "Warn About _Unfillable Squares"
 msgstr "Varsle om ruter som ikke kan fylles _ut"
 
-#: ../gnome-sudoku/src/lib/main.py:269
+#: ../gnome-sudoku/src/lib/main.py:248
 msgid "Warn about squares made unfillable by a move"
 msgstr "Varsle om ruter som ikke kan fylles ut etter et trekk"
 
-#: ../gnome-sudoku/src/lib/main.py:271
+#: ../gnome-sudoku/src/lib/main.py:250
 msgid "_Track Additions"
 msgstr "_Spor tillegg"
 
-#: ../gnome-sudoku/src/lib/main.py:273
+#: ../gnome-sudoku/src/lib/main.py:252
 msgid "Mark new additions in a separate color so you can keep track of them."
 msgstr "Merk nye tillegg i en egen farge slik at du kan holde orden på dem."
 
-#: ../gnome-sudoku/src/lib/main.py:276
+#: ../gnome-sudoku/src/lib/main.py:255
 msgid "_Highlighter"
 msgstr "_Uthever"
 
-#: ../gnome-sudoku/src/lib/main.py:277
+#: ../gnome-sudoku/src/lib/main.py:256
 msgid "Highlight the current row, column and box"
 msgstr "Uthev aktiv rad, kolonne og boks"
 
-#: ../gnome-sudoku/src/lib/main.py:397
+#: ../gnome-sudoku/src/lib/main.py:377
 #, python-format
 msgid "You completed the puzzle in %d second"
 msgid_plural "You completed the puzzle in %d seconds"
 msgstr[0] "Du fullførte puslespillet på %d sekund"
 msgstr[1] "Du fullførte puslespillet på %d sekunder"
 
-#: ../gnome-sudoku/src/lib/main.py:402 ../gnome-sudoku/src/lib/main.py:410
+#: ../gnome-sudoku/src/lib/main.py:382 ../gnome-sudoku/src/lib/main.py:390
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minutt"
 msgstr[1] "%d minutter"
 
-#: ../gnome-sudoku/src/lib/main.py:403 ../gnome-sudoku/src/lib/main.py:411
+#: ../gnome-sudoku/src/lib/main.py:383 ../gnome-sudoku/src/lib/main.py:391
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d sekund"
 msgstr[1] "%d sekunder"
 
-#: ../gnome-sudoku/src/lib/main.py:404
+#: ../gnome-sudoku/src/lib/main.py:384
 #, python-format
 msgid "You completed the puzzle in %(minute)s and %(second)s"
 msgstr "Du fullførte puslespillet på %(minute)s og %(second)s"
 
-#: ../gnome-sudoku/src/lib/main.py:409
+#: ../gnome-sudoku/src/lib/main.py:389
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d time"
 msgstr[1] "%d timer"
 
-#: ../gnome-sudoku/src/lib/main.py:412
+#: ../gnome-sudoku/src/lib/main.py:392
 #, python-format
 msgid "You completed the puzzle in %(hour)s, %(minute)s and %(second)s"
 msgstr "Du fullførte puslespillet på %(hour)s, %(minute)s og %(second)s"
 
-#: ../gnome-sudoku/src/lib/main.py:414
+#: ../gnome-sudoku/src/lib/main.py:394
 #, python-format
 msgid "You got %(n)s hint."
 msgid_plural "You got %(n)s hints."
 msgstr[0] "Du fikk %(n)s hint."
 msgstr[1] "Du fikk %(n)s hint."
 
-#: ../gnome-sudoku/src/lib/main.py:417
+#: ../gnome-sudoku/src/lib/main.py:397
 #, python-format
 msgid "You had %(n)s impossibility pointed out."
 msgid_plural "You had %(n)s impossibilities pointed out."
 msgstr[0] "Du fikk %(n)s umulig trekk utpekt."
 msgstr[1] "Du fikk %(n)s umulige trekk utpekt"
 
-#: ../gnome-sudoku/src/lib/main.py:440
+#: ../gnome-sudoku/src/lib/main.py:420
 msgid "Save this game before starting new one?"
 msgstr "Lagre dette spillet før et nytt startes?"
 
-#: ../gnome-sudoku/src/lib/main.py:441
-msgid "_Save game for later"
-msgstr "_Lagre spill for senere"
-
-#: ../gnome-sudoku/src/lib/main.py:442
-msgid "_Abandon game"
-msgstr "_Avbryt spill"
-
-#: ../gnome-sudoku/src/lib/main.py:460
+#: ../gnome-sudoku/src/lib/main.py:440
 msgid "Save game before closing?"
 msgstr "Lagre spill før lukking?"
 
-#: ../gnome-sudoku/src/lib/main.py:658
+#: ../gnome-sudoku/src/lib/main.py:638
 msgid "Puzzle Information"
 msgstr "Informasjon om puslespill"
 
-#: ../gnome-sudoku/src/lib/main.py:659
+#: ../gnome-sudoku/src/lib/main.py:639
 msgid "There is no current puzzle."
 msgstr "Ingen aktive puslespill."
 
-#: ../gnome-sudoku/src/lib/main.py:664
+#: ../gnome-sudoku/src/lib/main.py:644
 msgid "Calculated difficulty: "
 msgstr "Kalkulert vanskelighetsgrad:"
 
-#: ../gnome-sudoku/src/lib/main.py:666 ../gnome-sudoku/src/lib/printing.py:182
-#: ../gnome-sudoku/src/lib/game_selector.py:122
+#: ../gnome-sudoku/src/lib/main.py:646 ../gnome-sudoku/src/lib/printing.py:182
+#: ../gnome-sudoku/src/lib/game_selector.py:121
 msgid "Easy"
 msgstr "Lett"
 
-#: ../gnome-sudoku/src/lib/main.py:667 ../gnome-sudoku/src/lib/printing.py:183
-#: ../gnome-sudoku/src/lib/game_selector.py:123
+#: ../gnome-sudoku/src/lib/main.py:647 ../gnome-sudoku/src/lib/printing.py:183
+#: ../gnome-sudoku/src/lib/game_selector.py:122
 msgid "Medium"
 msgstr "Middels"
 
-#: ../gnome-sudoku/src/lib/main.py:668 ../gnome-sudoku/src/lib/printing.py:184
-#: ../gnome-sudoku/src/lib/game_selector.py:124
+#: ../gnome-sudoku/src/lib/main.py:648 ../gnome-sudoku/src/lib/printing.py:184
+#: ../gnome-sudoku/src/lib/game_selector.py:123
 msgid "Hard"
 msgstr "Vanskelig"
 
-#: ../gnome-sudoku/src/lib/main.py:669
+#: ../gnome-sudoku/src/lib/main.py:649
 msgid "Very Hard"
 msgstr "Meget vanskelig"
 
-#: ../gnome-sudoku/src/lib/main.py:674
+#: ../gnome-sudoku/src/lib/main.py:654
 msgid "Number of moves instantly fillable by elimination: "
 msgstr "Antall trekk som kan utføres med en gang på bakgrunn av eliminering: "
 
-#: ../gnome-sudoku/src/lib/main.py:677
+#: ../gnome-sudoku/src/lib/main.py:657
 msgid "Number of moves instantly fillable by filling: "
 msgstr "Antall trekk som kan utføres med en gang ved utfylling: "
 
-#: ../gnome-sudoku/src/lib/main.py:680
+#: ../gnome-sudoku/src/lib/main.py:660
 msgid "Amount of trial-and-error required to solve: "
 msgstr "Mengde prøving og feiling som kreves for å løse: "
 
-#: ../gnome-sudoku/src/lib/main.py:683 ../gnome-sudoku/src/lib/main.py:684
+#: ../gnome-sudoku/src/lib/main.py:663 ../gnome-sudoku/src/lib/main.py:664
 msgid "Puzzle Statistics"
 msgstr "Statistikk for puslespill"
 
 #. FIXME: This should create a pop-up dialog
-#: ../gnome-sudoku/src/lib/main.py:719
+#: ../gnome-sudoku/src/lib/main.py:699
 #, python-format
 msgid "Unable to display help: %s"
 msgstr "Kan ikke vise hjelp: %s"
 
-#: ../gnome-sudoku/src/lib/main.py:775
+#: ../gnome-sudoku/src/lib/main.py:755
 msgid "Untracked"
 msgstr "Ikke sporet"
 
-#: ../gnome-sudoku/src/lib/main.py:784
+#: ../gnome-sudoku/src/lib/main.py:764
 msgid "_Remove"
 msgstr "Fje_rn"
 
-#: ../gnome-sudoku/src/lib/main.py:785
+#: ../gnome-sudoku/src/lib/main.py:765
 msgid "Delete selected tracker."
 msgstr "Slett valgt sporer."
 
-#: ../gnome-sudoku/src/lib/main.py:791
+#: ../gnome-sudoku/src/lib/main.py:771
 msgid "Hide current tracker entries."
 msgstr "Skjul sporingsoppføringer."
 
-#: ../gnome-sudoku/src/lib/main.py:796
+#: ../gnome-sudoku/src/lib/main.py:776
 msgid "A_pply"
 msgstr "_Bruk"
 
-#: ../gnome-sudoku/src/lib/main.py:797
+#: ../gnome-sudoku/src/lib/main.py:777
 msgid "Apply all tracked values and remove the tracker."
 msgstr "Bruk alle sporede verdier og slett valgt sporer."
 
-#: ../gnome-sudoku/src/lib/main.py:833
+#: ../gnome-sudoku/src/lib/main.py:815
 #, python-format
 msgid "Tracker %s"
 msgstr "Sporer %s"
 
 #: ../gnome-sudoku/src/lib/printing.py:185
-#: ../gnome-sudoku/src/lib/game_selector.py:125
+#: ../gnome-sudoku/src/lib/game_selector.py:124
 msgid "Very hard"
 msgstr "Meget vanskelig"
 
 #. Then we're today
 #. within the minute
-#: ../gnome-sudoku/src/lib/game_selector.py:161
+#: ../gnome-sudoku/src/lib/game_selector.py:160
 #, python-format
 msgid "Last played %(n)s second ago"
 msgid_plural "Last played %(n)s seconds ago"
 msgstr[0] "Sist spilt %(n)s sekund siden"
 msgstr[1] "Sist spilt %(n) sekunder siden"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:165
+#: ../gnome-sudoku/src/lib/game_selector.py:164
 #, python-format
 msgid "Last played %(n)s minute ago"
 msgid_plural "Last played %(n)s minutes ago"
@@ -5650,122 +3141,126 @@ msgstr[0] "Sist spilt %(n)s minutt siden"
 msgstr[1] "Sist spilt %(n)s minutter siden"
 
 #. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:169
+#: ../gnome-sudoku/src/lib/game_selector.py:168
 msgid "Last played at %I:%M %p"
 msgstr "Sist spilt %H.%M"
 
 #. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:172
+#: ../gnome-sudoku/src/lib/game_selector.py:171
 msgid "Last played yesterday at %I:%M %p"
 msgstr "Sist spilt i går kl %H.%M"
 
 #. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:175
+#: ../gnome-sudoku/src/lib/game_selector.py:174
 msgid "Last played on %A at %I:%M %p"
 msgstr "Sist spilt på %A kl %H.%M"
 
 #. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:178
+#: ../gnome-sudoku/src/lib/game_selector.py:177
 msgid "Last played on %B %e %Y"
 msgstr "Sist spilt %B %e %Y"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:191
+#: ../gnome-sudoku/src/lib/game_selector.py:190
 msgid "Easy puzzle"
 msgstr "Lett puslespill"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:192
+#: ../gnome-sudoku/src/lib/game_selector.py:191
 msgid "Medium puzzle"
 msgstr "Middels vanskelig puslespill"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:193
+#: ../gnome-sudoku/src/lib/game_selector.py:192
 msgid "Hard puzzle"
 msgstr "Vanskelig puslespill"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:194
+#: ../gnome-sudoku/src/lib/game_selector.py:193
 msgid "Very hard puzzle"
 msgstr "Meget vanskelig puslespill"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:200
+#: ../gnome-sudoku/src/lib/game_selector.py:199
 #, python-format
 msgid "Played for %d hour"
 msgid_plural "Played for %d hours"
 msgstr[0] "Spilt i %d time"
 msgstr[1] "Spilt i %d timer"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:203
+#: ../gnome-sudoku/src/lib/game_selector.py:202
 #, python-format
 msgid "Played for %d minute"
 msgid_plural "Played for %d minutes"
 msgstr[0] "Spilt i %d minutt"
 msgstr[1] "Spilt i %d minutter"
 
-#: ../gnome-sudoku/src/lib/game_selector.py:206
+#: ../gnome-sudoku/src/lib/game_selector.py:205
 #, python-format
 msgid "Played for %d second"
 msgid_plural "Played for %d seconds"
 msgstr[0] "Spilt i %d sekund"
 msgstr[1] "Spilt i %d sekunder"
 
-#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:158
+#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:162
 msgid "Do you really want to do this?"
 msgstr "Er du sikker på at du vil gjøre dette?"
 
-#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:192
+#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:196
 msgid "Don't ask me this again."
 msgstr "Ikke spør om dette igjen."
 
-#: ../gnome-sudoku/src/lib/number_box.py:57
+#: ../gnome-sudoku/src/lib/number_box.py:68
 msgid "_Clear"
 msgstr "_Tøm"
 
-#: ../gnomine/gnomine.c:54 ../gnomine/gnomine.desktop.in.in.h:2
+#: ../gnomine/gnomine.c:53 ../gnomine/gnomine.desktop.in.in.h:2
 msgid "Mines"
 msgstr "Miner"
 
-#: ../gnomine/gnomine.c:104
+#: ../gnomine/gnomine.c:103
 msgctxt "board size"
 msgid "Custom"
 msgstr "Egendefinert"
 
-#: ../gnomine/gnomine.c:170
+#: ../gnomine/gnomine.c:169
 #, c-format
 msgid "Flags: %d/%d"
 msgstr "Flagg: %d/%d"
 
-#: ../gnomine/gnomine.c:198
+#: ../gnomine/gnomine.c:197
 msgid "The Mines Have Been Cleared!"
 msgstr "Minene har blitt ryddet!"
 
-#: ../gnomine/gnomine.c:214
+#: ../gnomine/gnomine.c:213
 msgid "Mines Scores"
 msgstr "Mines poeng"
 
-#: ../gnomine/gnomine.c:217 ../gnotravex/gnotravex.c:1085
+#: ../gnomine/gnomine.c:216 ../gnotravex/gnotravex.c:1084
 #: ../swell-foop/src/Score.js:56
 msgid "Size:"
 msgstr "Størrelse:"
 
-#: ../gnomine/gnomine.c:322
+#: ../gnomine/gnomine.c:321
 msgid "Click a square, any square"
 msgstr "Klikk på en rute, hvilken som helst rute"
 
-#: ../gnomine/gnomine.c:324
+#: ../gnomine/gnomine.c:323
 msgid "Maybe they're all mines ..."
 msgstr "Kanskje de er miner alle sammen …"
 
-#: ../gnomine/gnomine.c:443
+#: ../gnomine/gnomine.c:436 ../mahjongg/mahjongg.c:867
+msgid "Main game:"
+msgstr "Hovedspill:"
+
+#: ../gnomine/gnomine.c:442
 msgid "Resizing and SVG support:"
 msgstr "Endring av størrelse og støtte for SVG:"
 
-#: ../gnomine/gnomine.c:450
+#: ../gnomine/gnomine.c:449
 msgid "Faces:"
 msgstr "Ansikter:"
 
-#: ../gnomine/gnomine.c:453
+#: ../gnomine/gnomine.c:452
 msgid "Graphics:"
 msgstr "Grafikk:"
 
-#: ../gnomine/gnomine.c:469
+#: ../gnomine/gnomine.c:468
 msgid ""
 "The popular logic puzzle minesweeper. Clear mines from a board using hints "
 "from squares you have already uncovered.\n"
@@ -5777,77 +3272,82 @@ msgstr ""
 "\n"
 "Minesveiper er en del av GNOME spill."
 
-#: ../gnomine/gnomine.c:632
+#: ../gnomine/gnomine.c:631
 msgid "Field Size"
 msgstr "Feltstørrelse"
 
-#: ../gnomine/gnomine.c:655
+#: ../gnomine/gnomine.c:654
 msgid "Custom Size"
 msgstr "Tilpasset størrelse"
 
-#: ../gnomine/gnomine.c:662
+#: ../gnomine/gnomine.c:661
 msgid "_Number of mines:"
 msgstr "A_ntall miner:"
 
-#: ../gnomine/gnomine.c:675
+#: ../gnomine/gnomine.c:674
 msgid "_Horizontal:"
 msgstr "_Horisontal:"
 
-#: ../gnomine/gnomine.c:687
+#: ../gnomine/gnomine.c:686
 msgid "_Vertical:"
 msgstr "_Vertikal:"
 
-#: ../gnomine/gnomine.c:704
+#: ../gnomine/gnomine.c:703
 msgid "Flags"
 msgstr "Flagg"
 
-#: ../gnomine/gnomine.c:707
+#: ../gnomine/gnomine.c:706
 msgid "_Use \"I'm not sure\" flags"
 msgstr "Br_uk «Ikke sikker»-flagg."
 
-#: ../gnomine/gnomine.c:718
+#: ../gnomine/gnomine.c:717
 msgid "Warnings"
 msgstr "Advarsler"
 
-#: ../gnomine/gnomine.c:721
+#: ../gnomine/gnomine.c:720
 msgid "_Use \"Too many flags\" warning"
 msgstr "Br_uk advarsel for «For mange flagg»"
 
-#: ../gnomine/gnomine.c:732
+#: ../gnomine/gnomine.c:731
 msgid "Mines Preferences"
 msgstr "Mines instillinger"
 
-#: ../gnomine/gnomine.c:925
+#: ../gnomine/gnomine.c:924
 msgid "Width of grid"
 msgstr "Bredde på rutenett"
 
-#: ../gnomine/gnomine.c:926
+#: ../gnomine/gnomine.c:925
 msgid "Height of grid"
 msgstr "Høyde på rutenett"
 
-#: ../gnomine/gnomine.c:928
+#: ../gnomine/gnomine.c:927
 msgid "Number of mines"
 msgstr "Antall miner"
 
-#: ../gnomine/gnomine.c:931 ../gnomine/gnomine.schemas.in.h:8
+#: ../gnomine/gnomine.c:928 ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109
+#: ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
+msgid "NUMBER"
+msgstr "ANTALL"
+
+#: ../gnomine/gnomine.c:930 ../gnomine/gnomine.schemas.in.h:8
 msgid "Size of the board (0-2 = small-large, 3=custom)"
 msgstr "Størrelse på brettet (0-2 = liten-stor, 3=egendefinert)"
 
-#: ../gnomine/gnomine.c:932 ../gnotravex/gnotravex.c:261
+#: ../gnomine/gnomine.c:931 ../gnotravex/gnotravex.c:260
 #: ../gnotski/gnotski.c:456 ../iagno/gnothello.c:147
 msgid "X location of window"
 msgstr "X-plassering for vinduet"
 
-#: ../gnomine/gnomine.c:934 ../gnotravex/gnotravex.c:263
+#: ../gnomine/gnomine.c:933 ../gnotravex/gnotravex.c:262
 #: ../gnotski/gnotski.c:458 ../iagno/gnothello.c:149
 msgid "Y location of window"
 msgstr "Y-plassering for vinduet"
 
-#: ../gnomine/gnomine.c:1070
+#: ../gnomine/gnomine.c:1069
 msgid "Press to Resume"
 msgstr "Trykk for å starte igjen"
 
-#: ../gnomine/gnomine.c:1104
+#: ../gnomine/gnomine.c:1103
 msgid "Time: "
 msgstr "Tid: "
 
@@ -5901,7 +3401,7 @@ msgstr "Bruk flagg for ukjente"
 msgid "Warning about too many flags"
 msgstr "Advarsel om for mange flagg"
 
-#: ../gnomine/minefield.c:207
+#: ../gnomine/minefield.c:206
 msgid ""
 "Unable to find required images.\n"
 "\n"
@@ -5911,7 +3411,7 @@ msgstr ""
 "\n"
 "Vennligst sjekk din gnome-games installasjon"
 
-#: ../gnomine/minefield.c:229
+#: ../gnomine/minefield.c:228
 msgid ""
 "Required images have been found, but refused to load.\n"
 "\n"
@@ -5921,155 +3421,159 @@ msgstr ""
 "\n"
 "Vennligst sjekk din installasjon av gnome-games med avhengigheter."
 
-#: ../gnomine/minefield.c:238
+#: ../gnomine/minefield.c:237
 msgid "Could not load images"
 msgstr "Kunne ikke laste bilder"
 
-#: ../gnotravex/gnotravex.c:46 ../gnotravex/gnotravex.desktop.in.in.h:2
+#: ../gnotravex/gnotravex.c:45 ../gnotravex/gnotravex.desktop.in.in.h:2
 msgid "Tetravex"
 msgstr "Tetravex"
 
-#: ../gnotravex/gnotravex.c:115
+#: ../gnotravex/gnotravex.c:114
 msgid "2×2"
 msgstr "2x2"
 
-#: ../gnotravex/gnotravex.c:116
+#: ../gnotravex/gnotravex.c:115
 msgid "3×3"
 msgstr "3x3"
 
-#: ../gnotravex/gnotravex.c:117
+#: ../gnotravex/gnotravex.c:116
 msgid "4×4"
 msgstr "4x4"
 
-#: ../gnotravex/gnotravex.c:118
+#: ../gnotravex/gnotravex.c:117
 msgid "5×5"
 msgstr "5x5"
 
-#: ../gnotravex/gnotravex.c:119
+#: ../gnotravex/gnotravex.c:118
 msgid "6×6"
 msgstr "6x6"
 
-#: ../gnotravex/gnotravex.c:198
+#: ../gnotravex/gnotravex.c:197
 msgid "_2×2"
 msgstr "_2x2"
 
-#: ../gnotravex/gnotravex.c:198
+#: ../gnotravex/gnotravex.c:197
 msgid "Play on a 2×2 board"
 msgstr "Spill på et 2x2 brett"
 
-#: ../gnotravex/gnotravex.c:200
+#: ../gnotravex/gnotravex.c:199
 msgid "_3×3"
 msgstr "_3x3"
 
-#: ../gnotravex/gnotravex.c:200
+#: ../gnotravex/gnotravex.c:199
 msgid "Play on a 3×3 board"
 msgstr "Spill på et 3x3 brett"
 
-#: ../gnotravex/gnotravex.c:202
+#: ../gnotravex/gnotravex.c:201
 msgid "_4×4"
 msgstr "_4x4"
 
-#: ../gnotravex/gnotravex.c:202
+#: ../gnotravex/gnotravex.c:201
 msgid "Play on a 4×4 board"
 msgstr "Spill på et 4x4 brett"
 
-#: ../gnotravex/gnotravex.c:204
+#: ../gnotravex/gnotravex.c:203
 msgid "_5×5"
 msgstr "_5x5"
 
-#: ../gnotravex/gnotravex.c:204
+#: ../gnotravex/gnotravex.c:203
 msgid "Play on a 5×5 board"
 msgstr "Spill på et 5x5 brett"
 
-#: ../gnotravex/gnotravex.c:206
+#: ../gnotravex/gnotravex.c:205
 msgid "_6×6"
 msgstr "_6x6"
 
-#: ../gnotravex/gnotravex.c:206
+#: ../gnotravex/gnotravex.c:205
 msgid "Play on a 6×6 board"
 msgstr "Spill på et 6x6 brett"
 
-#: ../gnotravex/gnotravex.c:265
+#: ../gnotravex/gnotravex.c:264
 msgid "Size of board (2-6)"
 msgstr "Størrelsen på brettet (2-6)"
 
-#: ../gnotravex/gnotravex.c:266
+#: ../gnotravex/gnotravex.c:265
 msgid "SIZE"
 msgstr "STØRRELSE"
 
 #. Translators: in-game numbers, replaceable with single-character local ideograms
-#: ../gnotravex/gnotravex.c:460
+#: ../gnotravex/gnotravex.c:459
 msgctxt "number"
 msgid "0"
 msgstr "0"
 
-#: ../gnotravex/gnotravex.c:461
+#: ../gnotravex/gnotravex.c:460
 msgctxt "number"
 msgid "1"
 msgstr "1"
 
-#: ../gnotravex/gnotravex.c:462
+#: ../gnotravex/gnotravex.c:461
 msgctxt "number"
 msgid "2"
 msgstr "2"
 
-#: ../gnotravex/gnotravex.c:463
+#: ../gnotravex/gnotravex.c:462
 msgctxt "number"
 msgid "3"
 msgstr "3"
 
-#: ../gnotravex/gnotravex.c:464
+#: ../gnotravex/gnotravex.c:463
 msgctxt "number"
 msgid "4"
 msgstr "4"
 
-#: ../gnotravex/gnotravex.c:465
+#: ../gnotravex/gnotravex.c:464
 msgctxt "number"
 msgid "5"
 msgstr "5"
 
-#: ../gnotravex/gnotravex.c:466
+#: ../gnotravex/gnotravex.c:465
 msgctxt "number"
 msgid "6"
 msgstr "6"
 
-#: ../gnotravex/gnotravex.c:467
+#: ../gnotravex/gnotravex.c:466
 msgctxt "number"
 msgid "7"
 msgstr "7"
 
-#: ../gnotravex/gnotravex.c:468
+#: ../gnotravex/gnotravex.c:467
 msgctxt "number"
 msgid "8"
 msgstr "8"
 
-#: ../gnotravex/gnotravex.c:469
+#: ../gnotravex/gnotravex.c:468
 msgctxt "number"
 msgid "9"
 msgstr "9"
 
-#: ../gnotravex/gnotravex.c:913 ../mahjongg/mahjongg.c:935
+#: ../gnotravex/gnotravex.c:912 ../mahjongg/mahjongg.c:935
 msgid "Game paused"
 msgstr "Spillet er stoppet"
 
-#: ../gnotravex/gnotravex.c:975
+#: ../gnotravex/gnotravex.c:974
 #, c-format
 msgid "Playing %d×%d board"
 msgstr "Spiller på %dx%d brett"
 
-#: ../gnotravex/gnotravex.c:1083
+#: ../gnotravex/gnotravex.c:1082
 msgid "Tetravex Scores"
 msgstr "Tetravex poeng"
 
-#: ../gnotravex/gnotravex.c:1145
+#: ../gnotravex/gnotravex.c:1144
 msgid "Puzzle solved! Well done!"
 msgstr "Puslespillet løst! Godt gjort!"
 
-#: ../gnotravex/gnotravex.c:1147
+#: ../gnotravex/gnotravex.c:1146
 msgid "Puzzle solved!"
 msgstr "Puslespillet løst!"
 
-#: ../gnotravex/gnotravex.c:1603
+#: ../gnotravex/gnotravex.c:1401 ../mahjongg/mahjongg.c:1407
+msgid "Time:"
+msgstr "Tid:"
+
+#: ../gnotravex/gnotravex.c:1602
 msgid ""
 "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
 "the same numbers are touching each other.\n"
@@ -6081,53 +3585,61 @@ msgstr ""
 "\n"
 "Tetravex er en del av GNOME spill."
 
-#: ../gnotravex/gnotravex.c:1710
+#: ../gnotravex/gnotravex.c:1709
 msgid "_Size"
 msgstr "_Størrelse:"
 
-#: ../gnotravex/gnotravex.c:1715
+#: ../gnotravex/gnotravex.c:1714
 msgid "Sol_ve"
 msgstr "L_øs"
 
-#: ../gnotravex/gnotravex.c:1715
+#: ../gnotravex/gnotravex.c:1714
 msgid "Solve the game"
 msgstr "Løs spillet"
 
-#: ../gnotravex/gnotravex.c:1719
+#: ../gnotravex/gnotravex.c:1718
 msgid "_Up"
 msgstr "_Opp"
 
-#: ../gnotravex/gnotravex.c:1720
+#: ../gnotravex/gnotravex.c:1719
 msgid "Move the pieces up"
 msgstr "Flytt brikkene opp"
 
-#: ../gnotravex/gnotravex.c:1721
+#: ../gnotravex/gnotravex.c:1720
 msgid "_Left"
 msgstr "_Venstre"
 
-#: ../gnotravex/gnotravex.c:1722
+#: ../gnotravex/gnotravex.c:1721
 msgid "Move the pieces left"
 msgstr "Flytt brikkene til venstre"
 
-#: ../gnotravex/gnotravex.c:1723
+#: ../gnotravex/gnotravex.c:1722
 msgid "_Right"
 msgstr "Høy_re"
 
-#: ../gnotravex/gnotravex.c:1724
+#: ../gnotravex/gnotravex.c:1723
 msgid "Move the pieces right"
 msgstr "Flytt brikkene til høyre"
 
-#: ../gnotravex/gnotravex.c:1725
+#: ../gnotravex/gnotravex.c:1724
 msgid "_Down"
 msgstr "_Ned"
 
-#: ../gnotravex/gnotravex.c:1726
+#: ../gnotravex/gnotravex.c:1725
 msgid "Move the pieces down"
 msgstr "Flytt brikkene ned"
+
+#: ../gnotravex/gnotravex.c:1730
+msgid "_Click to Move"
+msgstr "_Klikk for å flytte"
 
 #: ../gnotravex/gnotravex.desktop.in.in.h:1
 msgid "Complete the puzzle by matching numbered tiles"
 msgstr "Fullfør puslespillet ved å flytte på nummererte fliser"
+
+#: ../gnotravex/gnotravex.schemas.in.h:1
+msgid "Select the style of control"
+msgstr "Velg type kontroll"
 
 #: ../gnotravex/gnotravex.schemas.in.h:2
 msgid ""
@@ -6890,195 +4402,165 @@ msgstr "Vis alternativer for økthåndtering"
 msgid "Unknown Command"
 msgstr "Ukjent kommando"
 
-#: ../libgames-support/games-gridframe.c:224
-#: ../libgames-support/games-gridframe.c:232
-msgid "X Padding"
-msgstr "X-fyll"
-
-#: ../libgames-support/games-gridframe.c:226
-msgid "Extra space to add to the width allocation."
-msgstr "Ekstra plass som skal legges til i bredden."
-
-#: ../libgames-support/games-gridframe.c:234
-msgid "Extra space to add to the height allocation."
-msgstr "Ekstra plass som skal legges til i høyden."
-
-#: ../libgames-support/games-gridframe.c:240
-msgid "Width Multiple"
-msgstr "Multipell for bredde"
-
-#: ../libgames-support/games-gridframe.c:242
-msgid "What multiple to constrain the width to."
-msgstr "Hvilken multipell å styre bredden etter."
-
-#: ../libgames-support/games-gridframe.c:248
-msgid "Height Multiple"
-msgstr "Høyde på multipell"
-
-#: ../libgames-support/games-gridframe.c:250
-msgid "What multiple to constrain the height to."
-msgstr "Hvilken multipell å styre høyden etter."
-
-#: ../libgames-support/games-gridframe.c:255
-msgid "X align"
-msgstr "X-justering"
-
-#: ../libgames-support/games-gridframe.c:257
-msgid "The horizontal alignment, from 0 (left) to 1 (right)"
-msgstr "Den horisontale justeringen, fra 0 (venstre) til 1(høyre)"
-
-#: ../libgames-support/games-gridframe.c:262
-msgid "Y align"
-msgstr "Y-justering"
-
-#: ../libgames-support/games-gridframe.c:264
-msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
-msgstr "Den vertikale justeringen, fra 0 (topp) til 1 (bunn)"
-
 #. %s.%s is the game name + the extension HTML or XHTML, e.g. Klondike.html"
-#: ../libgames-support/games-help.c:114
+#: ../libgames-support/games-help.c:109
 #, c-format
 msgid "Help file “%s.%s” not found"
 msgstr "Hjelpfil «%s.%s» ble ikke funnet"
 
-#: ../libgames-support/games-runtime.c:273
-msgid "Could not show link"
-msgstr "Kunne ikke vise lenke"
+#: ../libgames-support/games-help.c:147
+#, c-format
+msgid "Could not show help for “%s”"
+msgstr "Kunne ikke vise hjelp for «%s»"
+
+#: ../libgames-support/games-scores-dialog.c:135
+msgid "Time"
+msgstr "Tid:"
 
 #. Note that this assumes the default style is plain.
-#: ../libgames-support/games-scores-dialog.c:141
-#: ../libgames-support/games-scores-dialog.c:566
+#: ../libgames-support/games-scores-dialog.c:140
+#: ../libgames-support/games-scores-dialog.c:565
 msgid "Score"
 msgstr "Poeng"
 
 #. Translators: this is for a minutes, seconds time display.
-#: ../libgames-support/games-scores-dialog.c:299
+#: ../libgames-support/games-scores-dialog.c:298
 #, c-format
 msgid "%dm %ds"
 msgstr "%dm %ds"
 
-#: ../libgames-support/games-scores-dialog.c:558
+#: ../libgames-support/games-scores-dialog.c:557
 msgid "Name"
 msgstr "Navn"
 
-#: ../libgames-support/games-stock.c:53
+#: ../libgames-support/games-stock.c:43
+msgid "View help for this game"
+msgstr "Vis hjelp for dette spillet"
+
+#: ../libgames-support/games-stock.c:44
 msgid "End the current game"
 msgstr "Avslutt dette spillet"
 
-#: ../libgames-support/games-stock.c:54
+#: ../libgames-support/games-stock.c:45
 msgid "Toggle fullscreen mode"
 msgstr "Slå av/på fullskjermmodus"
 
-#: ../libgames-support/games-stock.c:56
+#: ../libgames-support/games-stock.c:46
+msgid "Get a hint for your next move"
+msgstr "Hint for ditt neste trekk"
+
+#: ../libgames-support/games-stock.c:47
 msgid "Leave fullscreen mode"
 msgstr "Avslutt fullskjerm"
 
-#: ../libgames-support/games-stock.c:57
+#: ../libgames-support/games-stock.c:48
 msgid "Start a new multiplayer network game"
 msgstr "Start et nytt spill med flere spillere over nettverket"
 
-#: ../libgames-support/games-stock.c:58
+#: ../libgames-support/games-stock.c:49
 msgid "End the current network game and return to network server"
 msgstr "Avslutt aktivt nettverksspill og gå tilbake til nettverkstjener"
 
-#: ../libgames-support/games-stock.c:60
+#: ../libgames-support/games-stock.c:51
 msgid "Pause the game"
 msgstr "Paus spillet"
 
-#: ../libgames-support/games-stock.c:61
+#: ../libgames-support/games-stock.c:52
 msgid "Show a list of players in the network game"
 msgstr "Vis en liste over spillere på nettverksspillet"
 
-#: ../libgames-support/games-stock.c:64
+#: ../libgames-support/games-stock.c:53
+msgid "Redo the undone move"
+msgstr "Gjenopprett angret trekk"
+
+#: ../libgames-support/games-stock.c:54
+msgid "Restart the game"
+msgstr "Start spillet på nytt"
+
+#: ../libgames-support/games-stock.c:55
 msgid "Resume the paused game"
 msgstr "Start spillet igjen"
 
-#: ../libgames-support/games-stock.c:65
+#: ../libgames-support/games-stock.c:56
 msgid "View the scores"
 msgstr "Vis poeng"
 
-#: ../libgames-support/games-stock.c:69
+#: ../libgames-support/games-stock.c:57 ../mahjongg/mahjongg.c:1207
+msgid "Undo the last move"
+msgstr "Angre forrige trekk"
+
+#: ../libgames-support/games-stock.c:58
+msgid "About this game"
+msgstr "Om dette spillet"
+
+#: ../libgames-support/games-stock.c:59
+msgid "Close this window"
+msgstr "Lukk dette vinduet"
+
+#: ../libgames-support/games-stock.c:60
 msgid "Configure the game"
 msgstr "Sett opp spillet"
 
-#: ../libgames-support/games-stock.c:70
+#: ../libgames-support/games-stock.c:61
 msgid "Quit this game"
 msgstr "Avslutt spillet"
 
-#: ../libgames-support/games-stock.c:295
+#: ../libgames-support/games-stock.c:250
 msgid "_Fullscreen"
 msgstr "_Fullskjerm"
 
 #. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
-#: ../libgames-support/games-stock.c:298
+#: ../libgames-support/games-stock.c:253
 msgid "_New"
 msgstr "_Nytt"
 
-#: ../libgames-support/games-stock.c:301
+#: ../libgames-support/games-stock.c:256
 msgid "_Redo Move"
 msgstr "_Gjenopprett trekk"
 
 #. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
-#: ../libgames-support/games-stock.c:305
+#: ../libgames-support/games-stock.c:260
 msgid "_Restart"
 msgstr "Sta_rt på nytt"
 
-#: ../libgames-support/games-stock.c:307
+#: ../libgames-support/games-stock.c:262
 msgid "_Deal"
 msgstr "_Del ut"
 
-#: ../libgames-support/games-stock.c:309
+#: ../libgames-support/games-stock.c:263
 msgid "_Leave Fullscreen"
 msgstr "_Forlat fullskjerm"
 
-#: ../libgames-support/games-stock.c:310
+#: ../libgames-support/games-stock.c:264
 msgid "Network _Game"
 msgstr "Nettver_ksspill"
 
-#: ../libgames-support/games-stock.c:311
+#: ../libgames-support/games-stock.c:265
 msgid "L_eave Game"
 msgstr "F_orlat spill"
 
-#: ../libgames-support/games-stock.c:312
+#: ../libgames-support/games-stock.c:266
 msgid "Player _List"
 msgstr "Spiller_liste"
 
-#: ../libgames-support/games-stock.c:313
+#: ../libgames-support/games-stock.c:267
 msgid "_Pause"
 msgstr "_Pause"
 
-#: ../libgames-support/games-stock.c:314
+#: ../libgames-support/games-stock.c:268
 msgid "Res_ume"
 msgstr "Fort_sett"
 
-#: ../libgames-support/games-stock.c:315
+#: ../libgames-support/games-stock.c:269
 msgid "_Scores"
 msgstr "_Poeng"
 
-#: ../libgames-support/games-stock.c:316
+#: ../libgames-support/games-stock.c:270
 msgid "_End Game"
 msgstr "A_vslutt spill"
 
-#. Work around maemo brokenness wrt. stock item translations.
-#. * See https://bugs.maemo.org/show_bug.cgi?id=1449 .
-#: ../libgames-support/games-stock.c:322
-msgid "_About"
-msgstr "_Om"
-
-#: ../libgames-support/games-stock.c:323
-msgid "_Cancel"
-msgstr "A_vbryt"
-
-#: ../libgames-support/games-stock.c:324
-msgid "_Close"
-msgstr "_Lukk"
-
-#: ../libgames-support/games-stock.c:325
-msgid "_OK"
-msgstr "_OK"
-
 #. %s is replaced with the name of the game in gnome-games.
-#: ../libgames-support/games-stock.c:386
+#: ../libgames-support/games-stock.c:320
 #, c-format
 msgid ""
 "%s is free software; you can redistribute it and/or modify it under the "
@@ -7091,7 +4573,7 @@ msgstr ""
 "Foundation; enten versjon %d av lisensen, eller (hvis du ønsker det) enhver "
 "senere versjon."
 
-#: ../libgames-support/games-stock.c:400
+#: ../libgames-support/games-stock.c:334
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -7161,7 +4643,7 @@ msgstr ""
 msgid "Copyright  2009 Tim Horton"
 msgstr "Opphavsrett © 2009 Tim Horton"
 
-#: ../mahjongg/drawing.c:300
+#: ../mahjongg/drawing.c:299
 msgid ""
 "The selected theme failed to render.\n"
 "\n"
@@ -7171,7 +4653,7 @@ msgstr ""
 "\n"
 "Sjekk at Mahjongg er installert riktig."
 
-#: ../mahjongg/drawing.c:429 ../mahjongg/drawing.c:442
+#: ../mahjongg/drawing.c:428 ../mahjongg/drawing.c:441
 #, c-format
 msgid ""
 "Unable to render file:\n"
@@ -7391,13 +4873,12 @@ msgstr "Zealous animasjon"
 
 #: ../swell-foop/src/About.js:13
 msgid ""
-"I want to play that game! You know, they all go whirly-round and you click "
-"on them and they vanish!\n"
+"I want to play that game! You know, they all light-up and you click on them "
+"and they vanish!\n"
 "\n"
 "Swell Foop is a part of GNOME Games."
 msgstr ""
-"Jeg vil spille dette spillet! Du vet, det hvor alle snurrer rundt og du "
-"klikker på dem så forsvinner de!\n"
+"Jeg vil spille dette spillet! Du vet, det hvor alle lyser opp og du klikker på dem så forsvinner de!\n"
 "\n"
 "Swell Foop er en del av GNOME Spill."
 
