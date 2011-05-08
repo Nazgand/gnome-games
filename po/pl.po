@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-11 19:19+0200\n"
-"PO-Revision-Date: 2011-04-11 19:20+0200\n"
+"POT-Creation-Date: 2011-05-08 21:23+0200\n"
+"PO-Revision-Date: 2011-05-08 21:24+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -98,7 +98,7 @@ msgid "Whether or not to show the toolbar"
 msgstr "Określa, czy wyświetlać pasek narzędziowy"
 
 #. Now construct the window contents
-#: ../aisleriot/ar-game-chooser.c:238 ../aisleriot/window.c:2456
+#: ../aisleriot/ar-game-chooser.c:238 ../aisleriot/window.c:2455
 msgid "Select Game"
 msgstr "Wybór gry"
 
@@ -1058,7 +1058,7 @@ msgstr "Wybór numeru gry"
 msgid "NUMBER"
 msgstr "NUMER"
 
-#: ../aisleriot/sol.c:295 ../aisleriot/window.c:443 ../aisleriot/window.c:1986
+#: ../aisleriot/sol.c:295 ../aisleriot/window.c:443 ../aisleriot/window.c:1985
 msgid "AisleRiot"
 msgstr "AisleRiot"
 
@@ -1510,7 +1510,7 @@ msgstr ""
 msgid "translator-credits"
 msgstr "Aviary.pl <gnomepl@aviary.pl>, 2007, 2008, 2009, 2010, 2011"
 
-#: ../aisleriot/window.c:467 ../glchess/src/glchess.vala:1348
+#: ../aisleriot/window.c:467 ../glchess/src/glchess.vala:1368
 #: ../glines/glines.c:1219 ../gnect/src/main.c:875 ../gnibbles/main.c:211
 #: ../gnobots2/menu.c:263 ../quadrapassel/tetris.cpp:1313
 #: ../gnome-sudoku/src/lib/defaults.py.in:45 ../gnomine/gnomine.c:480
@@ -1541,34 +1541,34 @@ msgctxt "score"
 msgid "%6d"
 msgstr "%I6d"
 
-#: ../aisleriot/window.c:1872
+#: ../aisleriot/window.c:1871
 msgid "A scheme exception occurred"
 msgstr "Wystąpił wyjątek schematu"
 
-#: ../aisleriot/window.c:1875
+#: ../aisleriot/window.c:1874
 msgid "Please report this bug to the developers."
 msgstr "Proszę zgłosić ten błąd autorom programu."
 
 #. Empty title shows up as "<unnamed>" on maemo
-#: ../aisleriot/window.c:1879 ../libgames-support/games-show.c:151
+#: ../aisleriot/window.c:1878 ../libgames-support/games-show.c:151
 msgid "Error"
 msgstr "Błąd"
 
-#: ../aisleriot/window.c:1887
+#: ../aisleriot/window.c:1886
 msgid "_Don't report"
 msgstr "_Nie zgłaszaj"
 
-#: ../aisleriot/window.c:1888
+#: ../aisleriot/window.c:1887
 msgid "_Report"
 msgstr "_Zgłoś"
 
-#: ../aisleriot/window.c:1984
+#: ../aisleriot/window.c:1983
 msgid "Freecell Solitaire"
 msgstr "Pasjans FreeCell"
 
 #. Menu actions
 #. Game menu name
-#: ../aisleriot/window.c:2118 ../glchess/data/glchess.ui.h:22
+#: ../aisleriot/window.c:2117 ../glchess/data/glchess.ui.h:22
 #: ../glines/glines.c:1640 ../gnect/src/main.c:1242 ../gnibbles/main.c:687
 #: ../gnobots2/menu.c:66 ../quadrapassel/tetris.cpp:108
 #: ../gnome-sudoku/src/lib/main.py:231 ../gnomine/gnomine.c:769
@@ -1579,17 +1579,17 @@ msgstr "Pasjans FreeCell"
 msgid "_Game"
 msgstr "_Gra"
 
-#: ../aisleriot/window.c:2119 ../gnect/src/main.c:1243 ../gnibbles/main.c:688
+#: ../aisleriot/window.c:2118 ../gnect/src/main.c:1243 ../gnibbles/main.c:688
 #: ../gnobots2/menu.c:67 ../gnotski/gnotski.c:410
 msgid "_View"
 msgstr "_Widok"
 
-#: ../aisleriot/window.c:2120
+#: ../aisleriot/window.c:2119
 msgid "_Control"
 msgstr "_Sterowanie"
 
 #. Help menu item
-#: ../aisleriot/window.c:2122 ../glchess/data/glchess.ui.h:24
+#: ../aisleriot/window.c:2121 ../glchess/data/glchess.ui.h:24
 #: ../glines/glines.c:1642 ../gnect/src/main.c:1245 ../gnibbles/main.c:690
 #: ../gnobots2/menu.c:70 ../quadrapassel/tetris.cpp:110
 #: ../gnome-sudoku/src/lib/main.py:254 ../gnomine/gnomine.c:771
@@ -1601,127 +1601,127 @@ msgid "_Help"
 msgstr "Pomo_c"
 
 #. Tooltip for start new game toolbar button
-#: ../aisleriot/window.c:2127 ../glchess/data/glchess.ui.h:16
+#: ../aisleriot/window.c:2126 ../glchess/data/glchess.ui.h:16
 #: ../gnobots2/menu.c:71 ../libgames-support/games-stock.c:59
 #: ../mahjongg/mahjongg.c:1203
 msgid "Start a new game"
 msgstr "Rozpoczęcie nowej gry"
 
-#: ../aisleriot/window.c:2130 ../libgames-support/games-stock.c:63
+#: ../aisleriot/window.c:2129 ../libgames-support/games-stock.c:63
 msgid "Restart the game"
 msgstr "Rozpoczęcie gry od nowa"
 
-#: ../aisleriot/window.c:2132
+#: ../aisleriot/window.c:2131
 msgid "_Select Game..."
 msgstr "_Wybierz grę..."
 
-#: ../aisleriot/window.c:2134
+#: ../aisleriot/window.c:2133
 msgid "Play a different game"
 msgstr "Wybór innej gry"
 
-#: ../aisleriot/window.c:2136
+#: ../aisleriot/window.c:2135
 msgid "_Recently Played"
 msgstr "O_statnio grane"
 
-#: ../aisleriot/window.c:2137
+#: ../aisleriot/window.c:2136
 msgid "S_tatistics"
 msgstr "S_tatystyki"
 
-#: ../aisleriot/window.c:2138
+#: ../aisleriot/window.c:2137
 msgid "Show gameplay statistics"
 msgstr "Wyświetla statystyki rozgrywki"
 
-#: ../aisleriot/window.c:2141 ../libgames-support/games-stock.c:68
+#: ../aisleriot/window.c:2140 ../libgames-support/games-stock.c:68
 msgid "Close this window"
 msgstr "Zamyka to okno"
 
-#: ../aisleriot/window.c:2144 ../libgames-support/games-stock.c:66
+#: ../aisleriot/window.c:2143 ../libgames-support/games-stock.c:66
 #: ../mahjongg/mahjongg.c:1207
 msgid "Undo the last move"
 msgstr "Cofa ostatni ruch"
 
-#: ../aisleriot/window.c:2147 ../libgames-support/games-stock.c:62
+#: ../aisleriot/window.c:2146 ../libgames-support/games-stock.c:62
 msgid "Redo the undone move"
 msgstr "Powtarza cofnięty ruch"
 
-#: ../aisleriot/window.c:2150
+#: ../aisleriot/window.c:2149
 msgid "Deal next card or cards"
 msgstr "Rozdaje kartę lub karty"
 
-#: ../aisleriot/window.c:2153 ../libgames-support/games-stock.c:55
+#: ../aisleriot/window.c:2152 ../libgames-support/games-stock.c:55
 msgid "Get a hint for your next move"
 msgstr "Wyświetla podpowiedź kolejnego ruchu"
 
-#: ../aisleriot/window.c:2156
+#: ../aisleriot/window.c:2155
 msgid "View help for Aisleriot"
 msgstr "Wyświetla pomoc programu Aisleriot"
 
-#: ../aisleriot/window.c:2160 ../libgames-support/games-stock.c:52
+#: ../aisleriot/window.c:2159 ../libgames-support/games-stock.c:52
 msgid "View help for this game"
 msgstr "Wyświetla pomoc dla bieżącej gry"
 
-#: ../aisleriot/window.c:2163 ../libgames-support/games-stock.c:67
+#: ../aisleriot/window.c:2162 ../libgames-support/games-stock.c:67
 msgid "About this game"
 msgstr "Wyświetla informacje o grze"
 
-#: ../aisleriot/window.c:2166
+#: ../aisleriot/window.c:2165
 msgid "Install card themes…"
 msgstr "Instalacja motywów kart..."
 
-#: ../aisleriot/window.c:2167
+#: ../aisleriot/window.c:2166
 msgid "Install new card themes from the distribution packages repositories"
 msgstr "Instalacja nowych motywów kart z pakietów w repozytoriach dystrybucji"
 
-#: ../aisleriot/window.c:2175
+#: ../aisleriot/window.c:2174
 msgid "_Card Style"
 msgstr "_Wzór kart"
 
-#: ../aisleriot/window.c:2218 ../gnobots2/menu.c:90
+#: ../aisleriot/window.c:2217 ../gnobots2/menu.c:90
 #: ../mahjongg/mahjongg.c:1223
 msgid "_Toolbar"
 msgstr "Pasek _narzędziowy"
 
-#: ../aisleriot/window.c:2219 ../gnobots2/menu.c:90
+#: ../aisleriot/window.c:2218 ../gnobots2/menu.c:90
 #: ../mahjongg/mahjongg.c:1223
 msgid "Show or hide the toolbar"
 msgstr "Przełącza wyświetlanie paska narzędziowego"
 
-#: ../aisleriot/window.c:2224
+#: ../aisleriot/window.c:2223
 msgid "_Statusbar"
 msgstr "Pasek _stanu"
 
-#: ../aisleriot/window.c:2225
+#: ../aisleriot/window.c:2224
 msgid "Show or hide statusbar"
 msgstr "Przełącza wyświetlanie paska stanu"
 
-#: ../aisleriot/window.c:2230 ../gnotravex/gnotravex.c:1731
+#: ../aisleriot/window.c:2229 ../gnotravex/gnotravex.c:1731
 msgid "_Click to Move"
 msgstr "_Przenoszenie kliknięciem"
 
-#: ../aisleriot/window.c:2231
+#: ../aisleriot/window.c:2230
 msgid "Pick up and drop cards by clicking"
 msgstr "Przenoszenie kart za pomocą kliknięcia"
 
-#: ../aisleriot/window.c:2235
+#: ../aisleriot/window.c:2234
 msgid "_Sound"
 msgstr "_Dźwięk"
 
-#: ../aisleriot/window.c:2236
+#: ../aisleriot/window.c:2235
 msgid "Whether or not to play event sounds"
 msgstr "Określa, czy odtwarzać dźwięki zdarzeń."
 
-#: ../aisleriot/window.c:2507 ../glines/glines.c:1841
+#: ../aisleriot/window.c:2506 ../glines/glines.c:1841
 #: ../gnobots2/statusbar.c:67 ../quadrapassel/scoreframe.cpp:47
 #: ../gnomine/gnomine.c:440
 msgid "Score:"
 msgstr "Punkty:"
 
-#: ../aisleriot/window.c:2519 ../gnotravex/gnotravex.c:1402
+#: ../aisleriot/window.c:2518 ../gnotravex/gnotravex.c:1402
 #: ../mahjongg/mahjongg.c:1407
 msgid "Time:"
 msgstr "Czas:"
 
-#: ../aisleriot/window.c:2856
+#: ../aisleriot/window.c:2855
 #, c-format
 msgid "Cannot start the game “%s”"
 msgstr "Nie można rozpocząć gry \"%s\""
@@ -2754,7 +2754,7 @@ msgid "A flag to enable fullscreen mode"
 msgstr "Tryb pełnoekranowy"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:4
-msgid "A flag to enable maximised mode"
+msgid "A flag to enable maximized mode"
 msgstr "Tryb zmaksymalizowany"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:5
@@ -3180,519 +3180,519 @@ msgstr "Początek gry"
 
 #. Note there are no move formats for pieces taking kings and this is not allowed in Chess rules
 #. Human Move String: Description of a white pawn moving from %1$s to %2s, e.g. 'c2 to c4'
-#: ../glchess/src/glchess.vala:447
+#: ../glchess/src/glchess.vala:450
 #, c-format
 msgid "White pawn moves from %1$s to %2$s"
 msgstr "Biały pion przestawiony z %1$s na %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:449
+#: ../glchess/src/glchess.vala:452
 #, c-format
 msgid "White pawn at %1$s takes the black pawn at %2$s"
 msgstr "Biały pion z %1$s bije czarnego piona na %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:451
+#: ../glchess/src/glchess.vala:454
 #, c-format
 msgid "White pawn at %1$s takes the black rook at %2$s"
 msgstr "Biały pion z %1$s bije czarną wieżę na %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:453
+#: ../glchess/src/glchess.vala:456
 #, c-format
 msgid "White pawn at %1$s takes the black knight at %2$s"
 msgstr "Biały pion z %1$s bije czarnego skoczka na %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:455
+#: ../glchess/src/glchess.vala:458
 #, c-format
 msgid "White pawn at %1$s takes the black bishop at %2$s"
 msgstr "Biały pion z %1$s bije czarnego gońca na %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:457
+#: ../glchess/src/glchess.vala:460
 #, c-format
 msgid "White pawn at %1$s takes the black queen at %2$s"
 msgstr "Biały pion z %1$s bije czarnego hetmana na %2$s"
 
 #. Human Move String: Description of a white rook moving from %1$s to %2$s, e.g. 'a1 to a5'
-#: ../glchess/src/glchess.vala:459
+#: ../glchess/src/glchess.vala:462
 #, c-format
 msgid "White rook moves from %1$s to %2$s"
 msgstr "Biała wieża przestawiona z %1$s na %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:461
+#: ../glchess/src/glchess.vala:464
 #, c-format
 msgid "White rook at %1$s takes the black pawn at %2$s"
 msgstr "Biała wieża z %1$s bije czarnego piona na %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:463
+#: ../glchess/src/glchess.vala:466
 #, c-format
 msgid "White rook at %1$s takes the black rook at %2$s"
 msgstr "Biała wieża z %1$s bije czarną wieżę na %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:465
+#: ../glchess/src/glchess.vala:468
 #, c-format
 msgid "White rook at %1$s takes the black knight at %2$s"
 msgstr "Biała wieża z %1$s bije czarnego skoczka na %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:467
+#: ../glchess/src/glchess.vala:470
 #, c-format
 msgid "White rook at %1$s takes the black bishop at %2$s"
 msgstr "Biała wieża z %1$s bije czarnego gońca na %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a queen at %2$s"
-#: ../glchess/src/glchess.vala:469
+#: ../glchess/src/glchess.vala:472
 #, c-format
 msgid "White rook at %1$s takes the black queen at %2$s"
 msgstr "Biała wieża z %1$s bije czarnego hetmana na %2$s"
 
 #. Human Move String: Description of a white knight moving from %1$s to %2$s, e.g. 'b1 to c3'
-#: ../glchess/src/glchess.vala:471
+#: ../glchess/src/glchess.vala:474
 #, c-format
 msgid "White knight moves from %1$s to %2$s"
 msgstr "Biały skoczek przestawiony z %1$s na %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:473
+#: ../glchess/src/glchess.vala:476
 #, c-format
 msgid "White knight at %1$s takes the black pawn at %2$s"
 msgstr "Biały skoczek z %1$s bije czarnego piona na %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:475
+#: ../glchess/src/glchess.vala:478
 #, c-format
 msgid "White knight at %1$s takes the black rook at %2$s"
 msgstr "Biały skoczek z %1$s bije czarną wieżę na %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:477
+#: ../glchess/src/glchess.vala:480
 #, c-format
 msgid "White knight at %1$s takes the black knight at %2$s"
 msgstr "Biały skoczek z %1$s bije czarnego skoczka na %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:479
+#: ../glchess/src/glchess.vala:482
 #, c-format
 msgid "White knight at %1$s takes the black bishop at %2$s"
 msgstr "Biały skoczek z %1$s bije czarnego gońca na %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:481
+#: ../glchess/src/glchess.vala:484
 #, c-format
 msgid "White knight at %1$s takes the black queen at %2$s"
 msgstr "Biały skoczek z %1$s bije czarnego hetmana na %2$s"
 
 #. Human Move String: Description of a white bishop moving from %1$s to %2$s, e.g. 'f1 to b5'
-#: ../glchess/src/glchess.vala:483
+#: ../glchess/src/glchess.vala:486
 #, c-format
 msgid "White bishop moves from %1$s to %2$s"
 msgstr "Biały goniec przestawiony z %1$s na %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:485
+#: ../glchess/src/glchess.vala:488
 #, c-format
 msgid "White bishop at %1$s takes the black pawn at %2$s"
 msgstr "Biały goniec z %1$s bije czarnego piona na %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:487
+#: ../glchess/src/glchess.vala:490
 #, c-format
 msgid "White bishop at %1$s takes the black rook at %2$s"
 msgstr "Biały goniec z %1$s bije czarną wieżę na %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:489
+#: ../glchess/src/glchess.vala:492
 #, c-format
 msgid "White bishop at %1$s takes the black knight at %2$s"
 msgstr "Biały goniec z %1$s bije czarnego skoczka na %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:491
+#: ../glchess/src/glchess.vala:494
 #, c-format
 msgid "White bishop at %1$s takes the black bishop at %2$s"
 msgstr "Biały goniec z %1$s bije czarnego gońca na %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:493
+#: ../glchess/src/glchess.vala:496
 #, c-format
 msgid "White bishop at %1$s takes the black queen at %2$s"
 msgstr "Biały goniec z %1$s bije czarnego hetmana na %2$s"
 
 #. Human Move String: Description of a white queen moving from %1$s to %2$s, e.g. 'd1 to d4'
-#: ../glchess/src/glchess.vala:495
+#: ../glchess/src/glchess.vala:498
 #, c-format
 msgid "White queen moves from %1$s to %2$s"
 msgstr "Biały hetman przestawiony z %1$s na %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:497
+#: ../glchess/src/glchess.vala:500
 #, c-format
 msgid "White queen at %1$s takes the black pawn at %2$s"
 msgstr "Biały hetman z %1$s bije czarnego piona na %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:499
+#: ../glchess/src/glchess.vala:502
 #, c-format
 msgid "White queen at %1$s takes the black rook at %2$s"
 msgstr "Biały hetman z %1$s bije czarną wieżę na %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:501
+#: ../glchess/src/glchess.vala:504
 #, c-format
 msgid "White queen at %1$s takes the black knight at %2$s"
 msgstr "Biały hetman z %1$s bije czarnego skoczka na %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:503
+#: ../glchess/src/glchess.vala:506
 #, c-format
 msgid "White queen at %1$s takes the black bishop at %2$s"
 msgstr "Biały hetman z %1$s bije czarnego gońca na %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:505
+#: ../glchess/src/glchess.vala:508
 #, c-format
 msgid "White queen at %1$s takes the black queen at %2$s"
 msgstr "Biały hetman z %1$s bije czarnego hetmana na %2$s"
 
 #. Human Move String: Description of a white king moving from %1$s to %2$s, e.g. 'e1 to f1'
-#: ../glchess/src/glchess.vala:507
+#: ../glchess/src/glchess.vala:510
 #, c-format
 msgid "White king moves from %1$s to %2$s"
 msgstr "Biały król przestawiony z %1$s na %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:509
+#: ../glchess/src/glchess.vala:512
 #, c-format
 msgid "White king at %1$s takes the black pawn at %2$s"
 msgstr "Biały król z %1$s bije czarnego piona na %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:511
+#: ../glchess/src/glchess.vala:514
 #, c-format
 msgid "White king at %1$s takes the black rook at %2$s"
 msgstr "Biały król z %1$s bije czarną wieżę na %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:513
+#: ../glchess/src/glchess.vala:516
 #, c-format
 msgid "White king at %1$s takes the black knight at %2$s"
 msgstr "Biały król z %1$s bije czarnego skoczka na %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:515
+#: ../glchess/src/glchess.vala:518
 #, c-format
 msgid "White king at %1$s takes the black bishop at %2$s"
 msgstr "Biały król z %1$s bije czarnego gońca na %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:517
+#: ../glchess/src/glchess.vala:520
 #, c-format
 msgid "White king at %1$s takes the black queen at %2$s"
 msgstr "Biały król z %1$s bije czarnego hetmana na %2$s"
 
 #. Human Move String: Description of a black pawn moving from %1$s to %2$s, e.g. 'c8 to c6'
-#: ../glchess/src/glchess.vala:519
+#: ../glchess/src/glchess.vala:522
 #, c-format
 msgid "Black pawn moves from %1$s to %2$s"
 msgstr "Czarny pion przestawiony z %1$s na %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:521
+#: ../glchess/src/glchess.vala:524
 #, c-format
 msgid "Black pawn at %1$s takes the white pawn at %2$s"
 msgstr "Czarny pion z %1$s bije białego piona na %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:523
+#: ../glchess/src/glchess.vala:526
 #, c-format
 msgid "Black pawn at %1$s takes the white rook at %2$s"
 msgstr "Czarny pion z %1$s bije białą wieżę na %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:525
+#: ../glchess/src/glchess.vala:528
 #, c-format
 msgid "Black pawn at %1$s takes the white knight at %2$s"
 msgstr "Czarny pion z %1$s bije białego skoczka na %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:527
+#: ../glchess/src/glchess.vala:530
 #, c-format
 msgid "Black pawn at %1$s takes the white bishop at %2$s"
 msgstr "Czarny pion z %1$s bije białego gońca na %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:529
+#: ../glchess/src/glchess.vala:532
 #, c-format
 msgid "Black pawn at %1$s takes the white queen at %2$s"
 msgstr "Czarny pion z %1$s bije białego hetmana na %2$s"
 
 #. Human Move String: Description of a black rook moving from %1$s to %2$s, e.g. 'a8 to a4'
-#: ../glchess/src/glchess.vala:531
+#: ../glchess/src/glchess.vala:534
 #, c-format
 msgid "Black rook moves from %1$s to %2$s"
 msgstr "Czarna wieża przestawiona z %1$s na %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:533
+#: ../glchess/src/glchess.vala:536
 #, c-format
 msgid "Black rook at %1$s takes the white pawn at %2$s"
 msgstr "Czarna wieża z %1$s bije białego piona na %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:535
+#: ../glchess/src/glchess.vala:538
 #, c-format
 msgid "Black rook at %1$s takes the white rook at %2$s"
 msgstr "Czarna wieża z %1$s bije białą wieżę na %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:537
+#: ../glchess/src/glchess.vala:540
 #, c-format
 msgid "Black rook at %1$s takes the white knight at %2$s"
 msgstr "Czarna wieża z %1$s bije białego skoczka na %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:539
+#: ../glchess/src/glchess.vala:542
 #, c-format
 msgid "Black rook at %1$s takes the white bishop at %2$s"
 msgstr "Czarna wieża z %1$s bije białego gońca na %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:541
+#: ../glchess/src/glchess.vala:544
 #, c-format
 msgid "Black rook at %1$s takes the white queen at %2$s"
 msgstr "Czarna wieża z %1$s bije białego hetmana na %2$s"
 
 #. Human Move String: Description of a black knight moving from %1$s to %2$s, e.g. 'b8 to c6'
-#: ../glchess/src/glchess.vala:543
+#: ../glchess/src/glchess.vala:546
 #, c-format
 msgid "Black knight moves from %1$s to %2$s"
 msgstr "Czarny skoczek przestawiony z %1$s na %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:545
+#: ../glchess/src/glchess.vala:548
 #, c-format
 msgid "Black knight at %1$s takes the white pawn at %2$s"
 msgstr "Czarny skoczek z %1$s bije białego piona na %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:547
+#: ../glchess/src/glchess.vala:550
 #, c-format
 msgid "Black knight at %1$s takes the white rook at %2$s"
 msgstr "Czarny skoczek z %1$s bije białą wieżę na %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:549
+#: ../glchess/src/glchess.vala:552
 #, c-format
 msgid "Black knight at %1$s takes the white knight at %2$s"
 msgstr "Czarny skoczek z %1$s bije białego skoczka na %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:551
+#: ../glchess/src/glchess.vala:554
 #, c-format
 msgid "Black knight at %1$s takes the white bishop at %2$s"
 msgstr "Czarny skoczek z %1$s bije białego gońca na %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:553
+#: ../glchess/src/glchess.vala:556
 #, c-format
 msgid "Black knight at %1$s takes the white queen at %2$s"
 msgstr "Czarny skoczek z %1$s bije białego hetmana na %2$s"
 
 #. Human Move String: Description of a black bishop moving from %1$s to %2$s, e.g. 'f8 to b3'
-#: ../glchess/src/glchess.vala:555
+#: ../glchess/src/glchess.vala:558
 #, c-format
 msgid "Black bishop moves from %1$s to %2$s"
 msgstr "Czarny goniec przestawiony z %1$s na %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:557
+#: ../glchess/src/glchess.vala:560
 #, c-format
 msgid "Black bishop at %1$s takes the white pawn at %2$s"
 msgstr "Czarny goniec z %1$s bije białego piona na %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:559
+#: ../glchess/src/glchess.vala:562
 #, c-format
 msgid "Black bishop at %1$s takes the white rook at %2$s"
 msgstr "Czarny goniec z %1$s bije białą wieżę na %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:561
+#: ../glchess/src/glchess.vala:564
 #, c-format
 msgid "Black bishop at %1$s takes the white knight at %2$s"
 msgstr "Czarny goniec z %1$s bije białego skoczka na %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:563
+#: ../glchess/src/glchess.vala:566
 #, c-format
 msgid "Black bishop at %1$s takes the white bishop at %2$s"
 msgstr "Czarny goniec z %1$s bije białego gońca na %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:565
+#: ../glchess/src/glchess.vala:568
 #, c-format
 msgid "Black bishop at %1$s takes the white queen at %2$s"
 msgstr "Czarny goniec z %1$s bije białego hetmana na %2$s"
 
 #. Human Move String: Description of a black queen moving from %1$s to %2$s, e.g. 'd8 to d5'
-#: ../glchess/src/glchess.vala:567
+#: ../glchess/src/glchess.vala:570
 #, c-format
 msgid "Black queen moves from %1$s to %2$s"
 msgstr "Czarny hetman przestawiony z %1$s na %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:569
+#: ../glchess/src/glchess.vala:572
 #, c-format
 msgid "Black queen at %1$s takes the white pawn at %2$s"
 msgstr "Czarny hetman z %1$s bije białego piona na %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:571
+#: ../glchess/src/glchess.vala:574
 #, c-format
 msgid "Black queen at %1$s takes the white rook at %2$s"
 msgstr "Czarny hetman z %1$s bije białą wieżę na %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:573
+#: ../glchess/src/glchess.vala:576
 #, c-format
 msgid "Black queen at %1$s takes the white knight at %2$s"
 msgstr "Czarny hetman z %1$s bije białego skoczka na %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:575
+#: ../glchess/src/glchess.vala:578
 #, c-format
 msgid "Black queen at %1$s takes the white bishop at %2$s"
 msgstr "Czarny hetman z %1$s bije białego gońca na %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:577
+#: ../glchess/src/glchess.vala:580
 #, c-format
 msgid "Black queen at %1$s takes the white queen at %2$s"
 msgstr "Czarny hetman z %1$s bije białego hetmana na %2$s"
 
 #. Human Move String: Description of a black king moving from %1$s to %2$s, e.g. 'e8 to f8'
-#: ../glchess/src/glchess.vala:579
+#: ../glchess/src/glchess.vala:582
 #, c-format
 msgid "Black king moves from %1$s to %2$s"
 msgstr "Czarny król przestawiony z %1$s na %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:581
+#: ../glchess/src/glchess.vala:584
 #, c-format
 msgid "Black king at %1$s takes the white pawn at %2$s"
 msgstr "Czarny król z %1$s bije białego piona na %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:583
+#: ../glchess/src/glchess.vala:586
 #, c-format
 msgid "Black king at %1$s takes the white rook at %2$s"
 msgstr "Czarny król z %1$s bije białą wieżę na %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:585
+#: ../glchess/src/glchess.vala:588
 #, c-format
 msgid "Black king at %1$s takes the white knight at %2$s"
 msgstr "Czarny król z %1$s bije białego skoczka na %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:587
+#: ../glchess/src/glchess.vala:590
 #, c-format
 msgid "Black king at %1$s takes the white bishop at %2$s"
 msgstr "Czarny król z %1$s bije białego gońca na %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a queen at %2$s"
-#: ../glchess/src/glchess.vala:589
+#: ../glchess/src/glchess.vala:592
 #, c-format
 msgid "Black king at %1$s takes the white queen at %2$s"
 msgstr "Czarny król z %1$s bije białego hetmana na %2$s"
 
 #. Message display when the white player wins
-#: ../glchess/src/glchess.vala:709
+#: ../glchess/src/glchess.vala:712
 msgid "White wins"
 msgstr "Białe wygrywają"
 
 #. Message display when the black player wins
-#: ../glchess/src/glchess.vala:714
+#: ../glchess/src/glchess.vala:717
 msgid "Black wins"
 msgstr "Czarne wygrywają"
 
 #. Message display when the game is drawn
-#: ../glchess/src/glchess.vala:719
+#: ../glchess/src/glchess.vala:722
 msgid "Game is drawn"
 msgstr "Remis"
 
 #. Message displayed when the game ends due to a player being checkmated
-#: ../glchess/src/glchess.vala:731
+#: ../glchess/src/glchess.vala:734
 msgid "Opponent is in check and cannot move (checkmate)"
 msgstr "Przeciwnik jest w szachu i nie może się ruszyć (mat)"
 
 #. Message displayed when the game terminates due to a stalemate
-#: ../glchess/src/glchess.vala:735
+#: ../glchess/src/glchess.vala:738
 msgid "Opponent cannot move (stalemate)"
 msgstr "Przeciwnik nie może się ruszyć (pat)"
 
 #. Message displayed when the game is drawn due to the fifty move rule
-#: ../glchess/src/glchess.vala:739
+#: ../glchess/src/glchess.vala:742
 msgid "No piece has been taken or pawn moved in the last fifty moves"
 msgstr ""
 "Żadna figura nie została zbita ani żaden pion nie został przesunięty w "
 "ostatnich pięćdziesięciu ruchach"
 
 #. Message displayed when the game ends due to one player's clock stopping
-#: ../glchess/src/glchess.vala:743
+#: ../glchess/src/glchess.vala:746
 msgid "Opponent has run out of time"
 msgstr "Przeciwnikowi zabrakło czasu"
 
 #. Message displayed when the game is drawn due to the three-fold-repitition rule
-#: ../glchess/src/glchess.vala:747
+#: ../glchess/src/glchess.vala:750
 msgid "The same board state has occurred three times (three fold repetition)"
 msgstr ""
 "Ten sam stan szachownicy wystąpił trzy razy (zasada trzykrotnego powtórzenia)"
 
 #. Message displayed when the game is drawn due to the insufficient material rule
-#: ../glchess/src/glchess.vala:751
+#: ../glchess/src/glchess.vala:754
 msgid "Neither player can cause checkmate (insufficient material)"
 msgstr "Żaden z graczy nie może spowodować mata (niewystarczające materiały)"
 
 #. Message displayed when the game ends due to the black player resigning
-#: ../glchess/src/glchess.vala:757
+#: ../glchess/src/glchess.vala:760
 msgid "The black player has resigned"
 msgstr "Czarny gracz zrezygnował"
 
 #. Message displayed when the game ends due to the white player resigning
-#: ../glchess/src/glchess.vala:762
+#: ../glchess/src/glchess.vala:765
 msgid "The white player has resigned"
 msgstr "Biały gracz zrezygnował"
 
 #. Message displayed when a game is abandoned
-#: ../glchess/src/glchess.vala:767
+#: ../glchess/src/glchess.vala:770
 msgid "The game has been abandoned"
 msgstr "Gra została porzucona"
 
 #. Message displayed when the game ends due to a player dying
-#: ../glchess/src/glchess.vala:772
+#: ../glchess/src/glchess.vala:775
 msgid "One of the players has died"
 msgstr "Jeden z graczy zginął"
 
-#: ../glchess/src/glchess.vala:820
+#: ../glchess/src/glchess.vala:840
 msgid "Save this game before starting a new one?"
 msgstr "Zapisać bieżącą grę przed rozpoczęciem nowej?"
 
-#: ../glchess/src/glchess.vala:822 ../gnome-sudoku/src/lib/main.py:442
+#: ../glchess/src/glchess.vala:842 ../gnome-sudoku/src/lib/main.py:442
 msgid "_Abandon game"
 msgstr "P_orzuć grę"
 
-#: ../glchess/src/glchess.vala:823 ../gnome-sudoku/src/lib/main.py:441
+#: ../glchess/src/glchess.vala:843 ../gnome-sudoku/src/lib/main.py:441
 msgid "_Save game for later"
 msgstr "_Zapisz grę"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in seconds
-#: ../glchess/src/glchess.vala:1214
+#: ../glchess/src/glchess.vala:1234
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "sekunda"
@@ -3700,7 +3700,7 @@ msgstr[1] "sekundy"
 msgstr[2] "sekund"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in minutes
-#: ../glchess/src/glchess.vala:1218
+#: ../glchess/src/glchess.vala:1238
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "minuta"
@@ -3708,14 +3708,14 @@ msgstr[1] "minuty"
 msgstr[2] "minut"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in hours
-#: ../glchess/src/glchess.vala:1222
+#: ../glchess/src/glchess.vala:1242
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "godzina"
 msgstr[1] "godziny"
 msgstr[2] "godzin"
 
-#: ../glchess/src/glchess.vala:1343
+#: ../glchess/src/glchess.vala:1363
 msgid ""
 "The 2D/3D chess game for GNOME. \n"
 "\n"
@@ -3726,33 +3726,33 @@ msgstr ""
 "Gra glChess jest częścią gier GNOME."
 
 #. Title of save game dialog
-#: ../glchess/src/glchess.vala:1402
+#: ../glchess/src/glchess.vala:1422
 msgid "Save Chess Game"
 msgstr "Zapis gry"
 
 #. Save Game Dialog: Name of filter to show only PGN files
 #. Load Game Dialog: Name of filter to show only PGN files
-#: ../glchess/src/glchess.vala:1415 ../glchess/src/glchess.vala:1483
+#: ../glchess/src/glchess.vala:1435 ../glchess/src/glchess.vala:1503
 msgid "PGN files"
 msgstr "Pliki PGN"
 
 #. Save Game Dialog: Name of filter to show all files
 #. Load Game Dialog: Name of filter to show all files
-#: ../glchess/src/glchess.vala:1422 ../glchess/src/glchess.vala:1490
+#: ../glchess/src/glchess.vala:1442 ../glchess/src/glchess.vala:1510
 msgid "All files"
 msgstr "Wszystkie pliki"
 
-#: ../glchess/src/glchess.vala:1446
+#: ../glchess/src/glchess.vala:1466
 #, c-format
 msgid "Failed to save game: %s"
 msgstr "Zapisanie gry się nie powiodło: %s"
 
 #. Title of load game dialog
-#: ../glchess/src/glchess.vala:1470
+#: ../glchess/src/glchess.vala:1490
 msgid "Load Chess Game"
 msgstr "Wczytanie gry"
 
-#: ../glchess/src/glchess.vala:1512
+#: ../glchess/src/glchess.vala:1532
 #, c-format
 msgid "Failed to open game: %s"
 msgstr "Otwarcie gry się nie powiodło: %s"
