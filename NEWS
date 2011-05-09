@@ -1,3 +1,166 @@
+gnome-games 3.1.1
+=================
+
+Major changes:
+* Aisleriot was split out of gnome-games into its own module.
+* Sudoku was ported to pygobject/GTK3 by John Stowers.
+* Lapo Calamandrei added a new default theme to sweel-foop.
+
+Shortlog of changes since 3.0.0:
+
+Alexander Shopov (3):
+      Updated Bulgarian translation
+      Updated Bulgarian translation
+      Updated Bulgarian translation
+
+Ask H. Larsen (3):
+      Updated Danish translation
+      Updated Danish translation
+      Updated Danish translation
+
+Bruce Cowan (1):
+      Updated British English translation
+
+Changwoo Ryu (1):
+      Updated Korean translation
+
+Christian Persch (13):
+      Revert "aisleriot: Remove sol/clutter from 3.0 branch"
+      aisleriot: Decouple libgames-support from aisleriot
+      aisleriot: Move private icons to aisleriot
+      libgames-support: Don't translate pspec nick and blurb
+      build: Always build libgames-support
+      libgames-support: Remove obsolete version checks
+      build: rm aisleriot
+      libgames-support: Remove cruft
+      libgames-support: Use real icon names
+      build: Remove lsb checks
+      build: Remove some more of aisleriot
+      libgames-support: Remove aisleriot special casing
+      build: Fix inverted sqlite check
+
+Cosimo Cecchi (2):
+      gnobots2: add the primary-toolbar style class
+      mahjongg: add the primary-toolbar style class on the toolbar
+
+Daniel Korostil (1):
+      Uploaded Ukranian
+
+Daniel Mustieles (2):
+      Updated Spanish translation
+      Updated Spanish translation
+
+Daniel Nylander (1):
+      Updated Swedish translation
+
+Gabor Kelemen (1):
+      Updated Hungarian translation
+
+Gil Forcada (1):
+      [l10n]Updated Catalan translation
+
+Jason D. Clinton (3):
+      gnome-games.doap: Add a description field to make the ftpadmin script happy
+      lightsoff, swell-foop: Set WM_CLASS for Shell Application tracking
+      swell-foop: Fix About dialog description of the game
+
+John Stowers (24):
+      sodoku: a little more gi porting
+      soduku: gi porting
+      sudoku: gi port starts
+      sudoku: gi port, hack pango_layout_set_markup
+      sudoku: gi port, add user_data=None to callbacks
+      soduku: gi port actually draws games!
+      soduku: gi port, add broken numberbox
+      soduku: gi port, hack around gdk_window_get_origin change
+      sodoku: gi port, remove old code
+      sodoku: gi port, fix dialog_extras
+      sodoku: gi port, tidy dialog_extras
+      sodoku: gi port, more debugging for colors/focus/state
+      sodoku: gi port, hack around gdk_window_get_origin
+      sodoku: gi port, autotools check for pygobject
+      sodoku: gi port, GtkPrintOperation*
+      sudoku: gi port, replace pixbuf recolor
+      sodoku: gi port, fix PangoCairo.show_layout
+      sodoku: gi port, state/focus tracking work
+      sodoku: gi port, colors now working
+      sodoku: gi port complete, move out of staging
+      sodoku: gi port complete, fix Gtk.DirectionType.TAB_BACKWARD
+      sudoku: add the primary-toolbar style class
+      sudoku: fix hidden notes
+      sudoku: gi port, fix override and background colors
+
+Jorge González (1):
+      Updated Spanish translation
+
+Kjartan Maraas (1):
+      Updated Norwegian bokmål translation
+
+Lapo Calamandrei (1):
+      swell-foop: Add shape to default theme so is visble by color-blind people
+
+Marek Černocký (2):
+      Updated Czech translation
+      Updated Czech translation
+
+Mario Blättermann (1):
+      [l10n] Updated German translation
+
+Matej Urbančič (2):
+      Updated Slovenian translation
+      Updated Slovenian translation
+
+Muhammet Kara (2):
+      Updated Turkish translation
+      Added Turkish figures for glines
+
+Piotr Drąg (3):
+      Updated Polish translation
+      Updated Polish translation
+      Updated Polish translation
+
+Robert Ancell (18):
+      lightsoff: Get working with seed 2.91.90
+      swell-foop: Runs fine with seed 2.91.90
+      libgames-support: Install typelib into a private location, don't bother installing the .gir since the library is private and is not going to be extended by other libraries
+      lightsoff: Fix settings dialog
+      swell-foop: Fix settings dialog
+      libgames-support: Do install the .gir file, but in a private location
+      chess: Correctly set up i18n (Bug #647090)
+      chess: Mark strings for translation that were missed
+      chess: Fix bug in Vala GTK bindings setting file filter labels
+      chess: Use standard license in about dialog
+      chess: Mark string for translation that were missed
+      chess: Remove unnecessary wrap_license property of about dialog
+      chess: Use OptionContext for command line arguments
+      swell-foop: Make test theme use the same colors as the defaut, and rename to 'Colors'.  Rename tango theme to 'Shapes and Colors'
+      chess: Correctly apply fifty move rule after 50 full moves, not half moved (Bug #649625)
+      chess: Update UI file to recent glade
+      chess: Remember window size
+      chess: Fix fullscreen mode not working
+
+Thomas Hindoe Paaboel Andersen (13):
+      sudoku: Auto convert with pygi-convert.sh
+      sudoku: Replace pygtk.require with gi.require_version
+      sudoku: Fix imports
+      sudoku: port the gconf wrapper
+      gnotravex: revert accidental commit
+      version bump
+      sudoku: more gi porting
+      sudoku: use set_related_action
+      sudoku: imports fix, replace deprecated api
+      sudoku: Fix runtime warning
+      sudoku: Import Gdk and fix color parsing
+      sudoku: Fix setting numbers using keyboard
+      iagno: Default AI difficulty should be easiest
+
+Yaron Shahrabani (2):
+      Updated Hebrew translation.
+      Updated Hebrew translation.
+
+Yuri Myasoedov (1):
+      Updated Russian translation
+
 gnome-games 3.0.0
 =================
 
