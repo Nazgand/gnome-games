@@ -23,9 +23,9 @@ AM_MAINTAINER_MODE([enable])
 # we support and which features to check for
 
 # This is the canonical list of all game subdirectories.
-allgames="glchess glines gnect gnibbles gnobots2 gnomine gnotravex gnotski gtali iagno lightsoff mahjongg quadrapassel swell-foop gnome-sudoku"
+allgames="glchess glines gnect gnibbles gnobots2 gnomine gnotravex gnotski gtali iagno mahjongg quadrapassel gnome-sudoku"
 AC_SUBST([allgames])
-staginggames=""
+staginggames="lightsoff swell-foop"
 AC_SUBST([staginggames])
 
 gamelist=""
