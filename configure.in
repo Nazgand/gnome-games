@@ -891,10 +891,9 @@ glchess/gnuchess/Makefile
 glchess/help/Makefile
 glchess/src/Makefile
 gnome-sudoku/Makefile
-gnome-sudoku/src/gnome-sudoku.in
 gnome-sudoku/src/Makefile
 gnome-sudoku/src/lib/Makefile
-gnome-sudoku/src/lib/defaults.py
+gnome-sudoku/src/lib/defs.py
 gnome-sudoku/src/lib/gtk_goodies/Makefile
 gnome-sudoku/data/Makefile
 gnome-sudoku/images/Makefile
