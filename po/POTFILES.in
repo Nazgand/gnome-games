@@ -86,7 +86,7 @@ gnomine/gnomine.schemas.in
 gnomine/minefield.c
 gnotravex/gnotravex.c
 gnotravex/gnotravex.desktop.in.in
-gnotravex/gnotravex.schemas.in
+gnotravex/org.gnome.gnotravex.gschema.xml.in
 gnotski/gnotski.c
 gnotski/gnotski.desktop.in.in
 gnotski/gnotski.schemas.in
