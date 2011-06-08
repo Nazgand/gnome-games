@@ -60,11 +60,9 @@ gnome-sudoku/data/gnome-sudoku.schemas.in
 [type: gettext/glade]gnome-sudoku/data/print_games.ui
 [type: gettext/glade]gnome-sudoku/data/select_game.ui
 [type: gettext/glade]gnome-sudoku/data/tracker.ui
-gnome-sudoku/src/gnome-sudoku.in.in
 gnome-sudoku/src/lib/simple_debug.py
 gnome-sudoku/src/lib/colors.py
 gnome-sudoku/src/lib/sudoku_maker.py
-gnome-sudoku/src/lib/defaults.py.in
 gnome-sudoku/src/lib/saver.py
 gnome-sudoku/src/lib/main.py
 gnome-sudoku/src/lib/pausable.py
