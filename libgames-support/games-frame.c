@@ -29,7 +29,7 @@ enum {
   PROP_LABEL
 };
 
-G_DEFINE_TYPE (GamesFrame, games_frame, GTK_TYPE_VBOX);
+G_DEFINE_TYPE (GamesFrame, games_frame, GTK_TYPE_BOX);
 
 struct GamesFramePrivate {
   GtkWidget *label;

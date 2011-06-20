@@ -35,13 +35,13 @@ G_BEGIN_DECLS
 typedef struct GamesFramePrivate GamesFramePrivate;
 
 typedef struct {
-  GtkVBox parent_instance;
+  GtkBox parent_instance;
   /*< private >*/
   GamesFramePrivate *priv;
 } GamesFrame;
 
 typedef struct {
-  GtkVBoxClass parent_class;
+  GtkBoxClass parent_class;
 } GamesFrameClass;
 
 GType      games_frame_get_type  (void);
