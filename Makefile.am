@@ -14,7 +14,8 @@ DISTCHECK_CONFIGURE_FLAGS = \
 	--with-platform=gnome \
 	--disable-schemas-install \
 	--disable-scrollkeeper \
-	--disable-silent-rules
+	--disable-silent-rules \
+	--disable-introspection
 
 EXTRA_DIST = \
 	autogen.sh \
