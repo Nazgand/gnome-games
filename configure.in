@@ -672,14 +672,9 @@ AC_CHECK_FUNCS([dup2 strcasecmp strchr strerror \
 AC_CHECK_FUNCS([fork select]) 
 AC_CHECK_FUNCS([alarm getpwuid getenv setenv close hstrerror kill socketpair])
 
-AC_FUNC_SELECT_ARGTYPES
-
 AC_HEADER_STDC
 
-AC_TYPE_SIGNAL
 AC_FUNC_FORK
-AC_FUNC_STRCOLL
-AC_FUNC_VPRINTF
 
 # Check for PF_LOCAL/PF_UNIX
 # ==========================
@@ -715,8 +710,6 @@ AC_HEADER_SYS_WAIT
 
 
 # Checks for typedefs, structures, and compiler characteristics
-AC_C_CONST
-AC_C_VOLATILE
 AC_FUNC_REALLOC
 AC_HEADER_STDBOOL
 AC_C_INLINE
