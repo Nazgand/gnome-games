@@ -702,10 +702,9 @@ AC_EGREP_CPP(PF_LOCAL,
 
 # Check for header files
 # ======================
-AC_CHECK_HEADERS([fcntl.h limits.h sys/time.h time.h \
+AC_CHECK_HEADERS([fcntl.h libintl.h limits.h locale.h sys/time.h time.h \
                   unistd.h], [],
                  [AC_MSG_ERROR([cannot find required header file])])
-AC_CHECK_HEADERS([netdb.h sys/socket.h winsock2.h])
 AC_HEADER_SYS_WAIT
 
 
