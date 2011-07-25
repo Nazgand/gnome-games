@@ -1,3 +1,40 @@
+gnome-games 3.1.4
+=================
+
+Major changes:
+* Chess bumped vala dependency to 0.13.0
+
+Bug fixes:
+* Remove useless Game->Network in the menus
+
+Shortlog of changes since 3.1.3:
+Abduxukur Abdurixit (1):
+      Added UG translation
+
+Jason D. Clinton (1):
+      Network games: remove iagno references to GGZ removed in last commits
+
+Jeremy Bicha (2):
+      Really remove ggz support from gnibbles
+      Really remove ggz support from gnect
+
+Jorge González (1):
+      Updated Spanish translation
+
+Marek Černocký (1):
+      Updated Czech translation
+
+Robert Ancell (1):
+      Work with Vala 0.14
+
+Rudolfs Mazurs (1):
+      Updated Latvian translation.
+
+Thomas Hindoe Paaboel Andersen (3):
+      post release version bump
+      sudoku: silence a mismatched quotes message
+      iagno: Remove reference to nonexistent network-games
+
 gnome-games 3.1.3
 =================
 
