@@ -96,7 +96,7 @@ gtali/setup.c
 gtali/yahtzee.c
 iagno/gnothello.c
 iagno/iagno.desktop.in.in
-iagno/iagno.schemas.in
+iagno/org.gnome.iagno.gschema.xml.in
 iagno/othello.c
 iagno/properties.c
 libgames-support/eggdesktopfile.c
