@@ -80,7 +80,7 @@ gnome-sudoku/src/lib/gnome_sudoku.py
 gnome-sudoku/src/lib/__init__.py
 gnomine/gnomine.c
 gnomine/gnomine.desktop.in.in
-gnomine/gnomine.schemas.in
+gnomine/org.gnome.gnomine.gschema.xml.in
 gnomine/minefield.c
 gnotravex/gnotravex.c
 gnotravex/gnotravex.desktop.in.in
