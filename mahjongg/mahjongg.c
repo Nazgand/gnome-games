@@ -26,9 +26,9 @@
 #include <gdk-pixbuf/gdk-pixbuf.h>
 
 #include <libgames-support/games-clock.h>
-#include <libgames-support/games-conf.h>
 #include <libgames-support/games-frame.h>
 #include <libgames-support/games-help.h>
+#include <libgames-support/games-settings.h>
 #include <libgames-support/games-stock.h>
 #include <libgames-support/games-scores.h>
 #include <libgames-support/games-scores-dialog.h>
@@ -45,7 +45,7 @@
 #define APPNAME_LONG N_("Mahjongg")
 
 #define KEY_TILESET       "tileset"
-#define KEY_SHOW_TOOLBAR  "show_toolbar"
+#define KEY_SHOW_TOOLBAR  "show-toolbar"
 #define KEY_BGCOLOUR      "bgcolour"
 #define KEY_MAPSET        "mapset"
 
@@ -59,9 +59,7 @@
 #define DEFAULT_WIDTH 530
 #define DEFAULT_HEIGHT 440
 
-#define DEFAULT_TILESET "default.png"
-#define DEFAULT_MAPSET "Easy"
-
+static GSettings *settings;
 static GtkWidget *window, *statusbar;
 static GtkWidget *tiles_label;
 static GtkWidget *toolbar;
@@ -209,22 +207,16 @@ tileset_callback (GtkWidget * widget, void *data)
   entry = g_list_nth (tileset_list,
 		      gtk_combo_box_get_active (GTK_COMBO_BOX (widget)));
 
-  games_conf_set_string (NULL, KEY_TILESET, entry->data);
+  g_settings_set_string (settings, KEY_TILESET, entry->data);
 }
 
 static void
-conf_value_changed_cb (GamesConf *conf,
-                       const char *group,
-                       const char *key,
-                       gpointer user_data)
+conf_value_changed_cb (GSettings *settings, gchar *key)
 {
-  if (group != NULL)
-    return;
-
   if (strcmp (key, KEY_TILESET) == 0) {
     char *tile_tmp;
 
-    tile_tmp = games_conf_get_string_with_default (NULL, KEY_TILESET, DEFAULT_TILESET);
+    tile_tmp = g_settings_get_string (settings, KEY_TILESET);
 
     if (strcmp (tile_tmp, selected_tileset) != 0) {
       g_free (selected_tileset);
@@ -237,7 +229,7 @@ conf_value_changed_cb (GamesConf *conf,
   } else if (strcmp (key, KEY_SHOW_TOOLBAR) == 0) {
     gboolean state;
 
-    state = games_conf_get_boolean (NULL, KEY_SHOW_TOOLBAR, NULL);
+    state = g_settings_get_boolean (settings, KEY_SHOW_TOOLBAR);
 
     if (state)
       gtk_widget_show (toolbar);
@@ -246,7 +238,7 @@ conf_value_changed_cb (GamesConf *conf,
   } else if (strcmp (key, KEY_BGCOLOUR) == 0) {
     gchar *colour;
 
-    colour = games_conf_get_string (NULL, KEY_BGCOLOUR, NULL);
+    colour = g_settings_get_string (settings, KEY_BGCOLOUR);
     set_background (colour);
     if (colour_well != NULL) {
       gtk_color_button_set_color (GTK_COLOR_BUTTON (colour_well), &bgcolour);
@@ -291,7 +283,7 @@ show_tb_callback (void)
   state =
     gtk_toggle_action_get_active (GTK_TOGGLE_ACTION (show_toolbar_action));
 
-  games_conf_set_boolean (NULL, KEY_SHOW_TOOLBAR, state);
+  g_settings_set_boolean (settings, KEY_SHOW_TOOLBAR, state);
 }
 
 static void
@@ -305,7 +297,7 @@ bg_colour_callback (GtkWidget * widget, gpointer data)
   g_snprintf (str, sizeof (str), "#%04x%04x%04x",
               colour.red, colour.green, colour.blue);
 
-  games_conf_set_string (NULL, KEY_BGCOLOUR, str);
+  g_settings_set_string (settings, KEY_BGCOLOUR, str);
 }
 
 static gint
@@ -315,7 +307,7 @@ get_mapset_index (void)
   gint newmapset = -1;
   gint i;
 
-  mapset_name = games_conf_get_string_with_default (NULL, KEY_MAPSET, DEFAULT_MAPSET);
+  mapset_name = g_settings_get_string (settings, KEY_MAPSET);
   for (i = 0; i < nmaps; i++)
     if (g_utf8_collate (mapset_name, maps[i].name) == 0)
       newmapset = i;
@@ -339,13 +331,13 @@ set_map_selection (GtkWidget * widget, void *data)
 
   target_mapset = gtk_combo_box_get_active (GTK_COMBO_BOX (widget));
 
-  games_conf_set_string (NULL, KEY_MAPSET, maps[target_mapset].name);
+  g_settings_set_string (settings, KEY_MAPSET, maps[target_mapset].name);
 }
 
 static void
 init_config (void)
 {
-  g_signal_connect (games_conf_get_default (), "value-changed",
+  g_signal_connect (settings, "changed",
                     G_CALLBACK (conf_value_changed_cb), NULL);
 }
 
@@ -1081,11 +1073,11 @@ load_preferences (void)
 
   mapset = get_mapset_index ();
 
-  buf = games_conf_get_string (NULL, KEY_BGCOLOUR, NULL);
+  buf = g_settings_get_string (settings, KEY_BGCOLOUR);
   set_background (buf);
   g_free (buf);
 
-  selected_tileset = games_conf_get_string_with_default (NULL, KEY_TILESET, DEFAULT_TILESET);
+  selected_tileset = g_settings_get_string (settings, KEY_TILESET);
 
   load_images (selected_tileset);
 }
@@ -1297,7 +1289,7 @@ create_menus (GtkUIManager * ui_manager)
   gtk_action_group_add_action_with_accel (action_group, leave_fullscreen_action, NULL);
 
   gtk_toggle_action_set_active (GTK_TOGGLE_ACTION (show_toolbar_action),
-                                games_conf_get_boolean (NULL, KEY_SHOW_TOOLBAR, NULL));  
+                                g_settings_get_boolean (settings, KEY_SHOW_TOOLBAR));  
 }
 
 static void
@@ -1359,13 +1351,7 @@ main (int argc, char *argv[])
 
   g_set_application_name (_(APPNAME_LONG));
 
-  if (!games_conf_initialise (APPNAME)) {
-    /* Set the defaults */
-    games_conf_set_boolean (NULL, KEY_SHOW_TOOLBAR, TRUE);
-    games_conf_set_string (NULL, KEY_TILESET, "postmodern.svg");
-    games_conf_set_string (NULL, KEY_MAPSET, "Easy");
-    games_conf_set_string (NULL, KEY_BGCOLOUR, "#34385b");
-  }
+  settings = g_settings_new ("org.gnome.mahjongg");
 
   games_stock_init ();
 
@@ -1378,7 +1364,7 @@ main (int argc, char *argv[])
   gtk_window_set_title (GTK_WINDOW (window), _(APPNAME_LONG));
 
   gtk_window_set_default_size (GTK_WINDOW (window), DEFAULT_WIDTH, DEFAULT_HEIGHT);
-  games_conf_add_window (GTK_WINDOW (window), NULL);
+  games_settings_bind_window_state ("/org/gnome/mahjongg/", GTK_WINDOW (window));
 
   load_preferences ();
 
@@ -1456,14 +1442,14 @@ main (int argc, char *argv[])
   gtk_widget_show_all (window);
 
   games_fullscreen_action_set_visible_policy (GAMES_FULLSCREEN_ACTION (leave_fullscreen_action), GAMES_FULLSCREEN_ACTION_VISIBLE_ON_FULLSCREEN);
-  if (!games_conf_get_boolean (NULL, KEY_SHOW_TOOLBAR, NULL))
+  if (!g_settings_get_boolean (settings, KEY_SHOW_TOOLBAR))
     gtk_widget_hide (toolbar);
 
   message_flash (_("Remove matching pairs of tiles."));
 
   gtk_main ();
 
-  games_conf_shutdown ();
+  g_settings_sync();
 
   games_runtime_shutdown ();
 

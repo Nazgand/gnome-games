@@ -60,11 +60,10 @@ mahjongg_CFLAGS += $(GHTREAD_CFLAGS)
 mahjongg_LDADD += $(GTHREAD_LIBS)
 endif
 
-schema_in_files = mahjongg.schemas.in
-if HAVE_GNOME
-schemadir = $(GCONF_SCHEMA_FILE_DIR)
-schema_DATA = $(schema_in_files:.schemas.in=.schemas)
-endif
+gsettings_in_file = org.gnome.mahjongg.gschema.xml.in
+gsettings_SCHEMAS = $(gsettings_in_file:.xml.in=.xml)
+@INTLTOOL_XML_NOMERGE_RULE@
+@GSETTINGS_RULES@
 
 man_MANS = mahjongg.6
 
@@ -74,22 +73,13 @@ desktop_DATA = $(desktop_in_files:.desktop.in.in=.desktop)
 
 EXTRA_DIST = \
 	$(pixmap_DATA)		\
-	$(schema_in_files)	\
+	$(gsettings_in_file)	\
 	$(man_MANS)	\
 	$(map_DATA)		\
 	$(NULL)
 
-CLEANFILES = $(desktop_DATA) $(schema_DATA)
-DISTCLEANFILES = $(desktop_DATA) $(schema_DATA)
-
-install-schemas-local: $(schema_DATA)
-if GCONF_SCHEMAS_INSTALL
-	if test -z "$(DESTDIR)" ; then \
-		for p in $^ ; do \
-			GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) $(GCONFTOOL) --makefile-install-rule $$p 2>&1 > /dev/null; \
-		done \
-	fi
-endif
+CLEANFILES = $(desktop_DATA) $(gsettings_SCHEMAS)
+DISTCLEANFILES = $(desktop_DATA) $(gsettings_SCHEMAS)
 
 install-scorefiles-local:
 	-$(mkinstalldirs) $(DESTDIR)$(scoredir)
@@ -104,9 +94,8 @@ install-exec-hook:
 	  chgrp $(scores_group) $(DESTDIR)$(bindir)/mahjongg && chmod 2555 $(DESTDIR)$(bindir)/mahjongg ;\
 	fi
 
-install-data-local: install-schemas-local install-scorefiles-local
+install-data-local: install-scorefiles-local
 
 @INTLTOOL_DESKTOP_RULE@
-@INTLTOOL_SCHEMAS_RULE@
 
 -include $(top_srcdir)/git.mk

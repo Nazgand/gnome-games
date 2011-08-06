@@ -122,7 +122,7 @@ lightsoff/src/About.js
 mahjongg/drawing.c
 mahjongg/mahjongg.c
 mahjongg/mahjongg.desktop.in.in
-mahjongg/mahjongg.schemas.in
+mahjongg/org.gnome.mahjongg.gschema.xml.in
 mahjongg/maps.c
 mahjongg/translatable_game_names.h
 [type: gettext/glade]swell-foop/data/swell-foop.ui
