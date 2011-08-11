@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-13 07:56+0300\n"
-"PO-Revision-Date: 2011-04-13 07:57+0300\n"
+"POT-Creation-Date: 2011-08-11 06:39+0300\n"
+"PO-Revision-Date: 2011-08-11 06:39+0300\n"
 "Last-Translator:  Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "Language: bg\n"
@@ -35,7 +35,7 @@ msgid "A flag to enable fullscreen mode"
 msgstr "Флаг за включване на режим на цял екран"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:4
-msgid "A flag to enable maximised mode"
+msgid "A flag to enable maximized mode"
 msgstr "Флаг за включване на максимизирания режим"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:5
@@ -164,7 +164,7 @@ msgstr "Показване на предишния ход"
 
 #. Tooltip for start new game toolbar button
 #: ../glchess/data/glchess.ui.h:16 ../gnobots2/menu.c:71
-#: ../libgames-support/games-stock.c:50 ../mahjongg/mahjongg.c:1203
+#: ../libgames-support/games-stock.c:50 ../mahjongg/mahjongg.c:1195
 msgid "Start a new game"
 msgstr "Започване на нова игра"
 
@@ -174,29 +174,29 @@ msgid "Undo Move"
 msgstr "Отмяна на ход"
 
 #. Help contents menu item
-#: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:250
-#: ../libgames-support/games-stock.c:252
+#: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:234
+#: ../libgames-support/games-stock.c:249
 msgid "_Contents"
 msgstr "_Ръководство"
 
 #. Game menu name
-#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1639
-#: ../gnect/src/main.c:1241 ../gnibbles/main.c:687 ../gnobots2/menu.c:66
-#: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:226
-#: ../gnomine/gnomine.c:768 ../gnotravex/gnotravex.c:1706
-#: ../gnotski/gnotski.c:409 ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:847
-#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1200
+#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1646
+#: ../gnect/src/main.c:1187 ../gnibbles/main.c:600 ../gnobots2/menu.c:66
+#: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:210
+#: ../gnomine/gnomine.c:758 ../gnotravex/gnotravex.c:1707
+#: ../gnotski/gnotski.c:409 ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:848
+#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1192
 #: ../swell-foop/data/swell-foop.ui.h:2
 msgid "_Game"
 msgstr "_Игра"
 
 #. Help menu item
-#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1641
-#: ../gnect/src/main.c:1244 ../gnibbles/main.c:690 ../gnobots2/menu.c:70
-#: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:249
-#: ../gnomine/gnomine.c:770 ../gnotravex/gnotravex.c:1710
-#: ../gnotski/gnotski.c:411 ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:849
-#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1202
+#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1648
+#: ../gnect/src/main.c:1190 ../gnibbles/main.c:603 ../gnobots2/menu.c:70
+#: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:233
+#: ../gnomine/gnomine.c:760 ../gnotravex/gnotravex.c:1711
+#: ../gnotski/gnotski.c:411 ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:850
+#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1194
 #: ../swell-foop/data/swell-foop.ui.h:3
 msgid "_Help"
 msgstr "Помо_щ"
@@ -207,17 +207,17 @@ msgid "_Resign"
 msgstr "_Предаване"
 
 #. Settings menu item
-#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1640
-#: ../gnect/src/main.c:1243 ../gnibbles/main.c:689 ../gnobots2/menu.c:69
-#: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:240
-#: ../gnomine/gnomine.c:769 ../gnotravex/gnotravex.c:1708
-#: ../gtali/gyahtzee.c:712 ../iagno/gnothello.c:848
-#: ../mahjongg/mahjongg.c:1201
+#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1647
+#: ../gnect/src/main.c:1189 ../gnibbles/main.c:602 ../gnobots2/menu.c:69
+#: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:224
+#: ../gnomine/gnomine.c:759 ../gnotravex/gnotravex.c:1709
+#: ../gtali/gyahtzee.c:712 ../iagno/gnothello.c:849
+#: ../mahjongg/mahjongg.c:1193
 msgid "_Settings"
 msgstr "_Настройки"
 
 #. Undo move menu item
-#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:264
+#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:261
 msgid "_Undo Move"
 msgstr "_Отмяна на ход"
 
@@ -263,8 +263,8 @@ msgstr "5 минути"
 
 #. Preferences Dialog: Tab title for game preferences
 #: ../glchess/data/preferences.ui.h:18 ../gnect/src/prefs.c:301
-#: ../gnibbles/preferences.c:254 ../gnobots2/properties.c:496
-#: ../quadrapassel/tetris.cpp:596 ../iagno/properties.c:415
+#: ../gnibbles/preferences.c:237 ../gnobots2/properties.c:496
+#: ../quadrapassel/tetris.cpp:596 ../iagno/properties.c:396
 msgid "Game"
 msgstr "Игра"
 
@@ -310,7 +310,7 @@ msgstr "Игра с:"
 
 #. Title for preferences dialog
 #: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:196
-#: ../mahjongg/mahjongg.c:141
+#: ../mahjongg/mahjongg.c:139
 msgid "Preferences"
 msgstr "Настройки"
 
@@ -325,7 +325,7 @@ msgid "Show _History"
 msgstr "_История"
 
 #. Preferences Dialog: Check box for selecting if toolbar is visible
-#: ../glchess/data/preferences.ui.h:42 ../gnome-sudoku/src/lib/main.py:270
+#: ../glchess/data/preferences.ui.h:42 ../gnome-sudoku/src/lib/main.py:254
 msgid "Show _Toolbar"
 msgstr "_Лента с инструменти"
 
@@ -492,536 +492,536 @@ msgstr "Начало на играта"
 
 #. Note there are no move formats for pieces taking kings and this is not allowed in Chess rules
 #. Human Move String: Description of a white pawn moving from %1$s to %2s, e.g. 'c2 to c4'
-#: ../glchess/src/glchess.vala:447
+#: ../glchess/src/glchess.vala:450
 #, c-format
 msgid "White pawn moves from %1$s to %2$s"
 msgstr "Бялата пешка се мести от %1$s на %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:449
+#: ../glchess/src/glchess.vala:452
 #, c-format
 msgid "White pawn at %1$s takes the black pawn at %2$s"
 msgstr "Бялата пешка на %1$s взима черната пешка на %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:451
+#: ../glchess/src/glchess.vala:454
 #, c-format
 msgid "White pawn at %1$s takes the black rook at %2$s"
 msgstr "Бялата пешка на %1$s взима черния топ на %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:453
+#: ../glchess/src/glchess.vala:456
 #, c-format
 msgid "White pawn at %1$s takes the black knight at %2$s"
 msgstr "Бялата пешка на %1$s взима черния кон на %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:455
+#: ../glchess/src/glchess.vala:458
 #, c-format
 msgid "White pawn at %1$s takes the black bishop at %2$s"
 msgstr "Бялата пешка на %1$s взима черния офицер на %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:457
+#: ../glchess/src/glchess.vala:460
 #, c-format
 msgid "White pawn at %1$s takes the black queen at %2$s"
 msgstr "Бялата пешка на %1$s взима черната царица на %2$s"
 
 #. Human Move String: Description of a white rook moving from %1$s to %2$s, e.g. 'a1 to a5'
-#: ../glchess/src/glchess.vala:459
+#: ../glchess/src/glchess.vala:462
 #, c-format
 msgid "White rook moves from %1$s to %2$s"
 msgstr "Белият топ се мести от %1$s на %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:461
+#: ../glchess/src/glchess.vala:464
 #, c-format
 msgid "White rook at %1$s takes the black pawn at %2$s"
 msgstr "Белият топ на %1$s взима черната пешка на %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:463
+#: ../glchess/src/glchess.vala:466
 #, c-format
 msgid "White rook at %1$s takes the black rook at %2$s"
 msgstr "Белият топ на %1$s взима черният топ на %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:465
+#: ../glchess/src/glchess.vala:468
 #, c-format
 msgid "White rook at %1$s takes the black knight at %2$s"
 msgstr "Белият топ на %1$s взима черния кон на %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:467
+#: ../glchess/src/glchess.vala:470
 #, c-format
 msgid "White rook at %1$s takes the black bishop at %2$s"
 msgstr "Белият топ на %1$s взима черния офицер на %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a queen at %2$s"
-#: ../glchess/src/glchess.vala:469
+#: ../glchess/src/glchess.vala:472
 #, c-format
 msgid "White rook at %1$s takes the black queen at %2$s"
 msgstr "Белият топ на %1$s взима черната царица на %2$s"
 
 #. Human Move String: Description of a white knight moving from %1$s to %2$s, e.g. 'b1 to c3'
-#: ../glchess/src/glchess.vala:471
+#: ../glchess/src/glchess.vala:474
 #, c-format
 msgid "White knight moves from %1$s to %2$s"
 msgstr "Белият кон се мести от %1$s на %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:473
+#: ../glchess/src/glchess.vala:476
 #, c-format
 msgid "White knight at %1$s takes the black pawn at %2$s"
 msgstr "Белият кон на %1$s взима черната пешка на %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:475
+#: ../glchess/src/glchess.vala:478
 #, c-format
 msgid "White knight at %1$s takes the black rook at %2$s"
 msgstr "Белият кон на %1$s взима черния топ на %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:477
+#: ../glchess/src/glchess.vala:480
 #, c-format
 msgid "White knight at %1$s takes the black knight at %2$s"
 msgstr "Белият кон на %1$s взима черния кон на %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:479
+#: ../glchess/src/glchess.vala:482
 #, c-format
 msgid "White knight at %1$s takes the black bishop at %2$s"
 msgstr "Белият кон на %1$s взима черния офицер на %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:481
+#: ../glchess/src/glchess.vala:484
 #, c-format
 msgid "White knight at %1$s takes the black queen at %2$s"
 msgstr "Белият кон на %1$s взима черната царица на %2$s"
 
 #. Human Move String: Description of a white bishop moving from %1$s to %2$s, e.g. 'f1 to b5'
-#: ../glchess/src/glchess.vala:483
+#: ../glchess/src/glchess.vala:486
 #, c-format
 msgid "White bishop moves from %1$s to %2$s"
 msgstr "Белият офицер се мести от %1$s на %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:485
+#: ../glchess/src/glchess.vala:488
 #, c-format
 msgid "White bishop at %1$s takes the black pawn at %2$s"
 msgstr "Белият офицер на %1$s взима черната пешка на %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:487
+#: ../glchess/src/glchess.vala:490
 #, c-format
 msgid "White bishop at %1$s takes the black rook at %2$s"
 msgstr "Белият офицер на %1$s взима черния топ на %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:489
+#: ../glchess/src/glchess.vala:492
 #, c-format
 msgid "White bishop at %1$s takes the black knight at %2$s"
 msgstr "Белият офицер на %1$s взима черния кон на %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:491
+#: ../glchess/src/glchess.vala:494
 #, c-format
 msgid "White bishop at %1$s takes the black bishop at %2$s"
 msgstr "Белият офицер на %1$s взима черния офицер на %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:493
+#: ../glchess/src/glchess.vala:496
 #, c-format
 msgid "White bishop at %1$s takes the black queen at %2$s"
 msgstr "Белият офицер на %1$s взима черната царица на %2$s"
 
 #. Human Move String: Description of a white queen moving from %1$s to %2$s, e.g. 'd1 to d4'
-#: ../glchess/src/glchess.vala:495
+#: ../glchess/src/glchess.vala:498
 #, c-format
 msgid "White queen moves from %1$s to %2$s"
 msgstr "Бялата царица се мести от %1$s на %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:497
+#: ../glchess/src/glchess.vala:500
 #, c-format
 msgid "White queen at %1$s takes the black pawn at %2$s"
 msgstr "Бялата царица на %1$s взима черната пешка на %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:499
+#: ../glchess/src/glchess.vala:502
 #, c-format
 msgid "White queen at %1$s takes the black rook at %2$s"
 msgstr "Бялата царица на %1$s взима черния топ на %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:501
+#: ../glchess/src/glchess.vala:504
 #, c-format
 msgid "White queen at %1$s takes the black knight at %2$s"
 msgstr "Бялата царица на %1$s взима черния кон на %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:503
+#: ../glchess/src/glchess.vala:506
 #, c-format
 msgid "White queen at %1$s takes the black bishop at %2$s"
 msgstr "Бялата царица на %1$s взима черния офицер на %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:505
+#: ../glchess/src/glchess.vala:508
 #, c-format
 msgid "White queen at %1$s takes the black queen at %2$s"
 msgstr "Бялата царица на %1$s взима черната царица на %2$s"
 
 #. Human Move String: Description of a white king moving from %1$s to %2$s, e.g. 'e1 to f1'
-#: ../glchess/src/glchess.vala:507
+#: ../glchess/src/glchess.vala:510
 #, c-format
 msgid "White king moves from %1$s to %2$s"
 msgstr "Белият цар се мести от %1$s на %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:509
+#: ../glchess/src/glchess.vala:512
 #, c-format
 msgid "White king at %1$s takes the black pawn at %2$s"
 msgstr "Белият цар на %1$s взима черната пешка на %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:511
+#: ../glchess/src/glchess.vala:514
 #, c-format
 msgid "White king at %1$s takes the black rook at %2$s"
 msgstr "Белият цар на %1$s взима черния топ на %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:513
+#: ../glchess/src/glchess.vala:516
 #, c-format
 msgid "White king at %1$s takes the black knight at %2$s"
 msgstr "Белият цар на %1$s взима черния кон на %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:515
+#: ../glchess/src/glchess.vala:518
 #, c-format
 msgid "White king at %1$s takes the black bishop at %2$s"
 msgstr "Белият цар на %1$s взима черния офицер на %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:517
+#: ../glchess/src/glchess.vala:520
 #, c-format
 msgid "White king at %1$s takes the black queen at %2$s"
 msgstr "Белият цар на %1$s взима черната царица на %2$s"
 
 #. Human Move String: Description of a black pawn moving from %1$s to %2$s, e.g. 'c8 to c6'
-#: ../glchess/src/glchess.vala:519
+#: ../glchess/src/glchess.vala:522
 #, c-format
 msgid "Black pawn moves from %1$s to %2$s"
 msgstr "Черната пешка се мести от %1$s на %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:521
+#: ../glchess/src/glchess.vala:524
 #, c-format
 msgid "Black pawn at %1$s takes the white pawn at %2$s"
 msgstr "Черната пешка на %1$s взима бялата пешка на %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:523
+#: ../glchess/src/glchess.vala:526
 #, c-format
 msgid "Black pawn at %1$s takes the white rook at %2$s"
 msgstr "Черната пешка на %1$s взима белия топ на %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:525
+#: ../glchess/src/glchess.vala:528
 #, c-format
 msgid "Black pawn at %1$s takes the white knight at %2$s"
 msgstr "Черната пешка на %1$s взима белия кон на %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:527
+#: ../glchess/src/glchess.vala:530
 #, c-format
 msgid "Black pawn at %1$s takes the white bishop at %2$s"
 msgstr "Черната пешка на %1$s взима белия офицер на %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:529
+#: ../glchess/src/glchess.vala:532
 #, c-format
 msgid "Black pawn at %1$s takes the white queen at %2$s"
 msgstr "Черната пешка на %1$s взима бялата царица на %2$s"
 
 #. Human Move String: Description of a black rook moving from %1$s to %2$s, e.g. 'a8 to a4'
-#: ../glchess/src/glchess.vala:531
+#: ../glchess/src/glchess.vala:534
 #, c-format
 msgid "Black rook moves from %1$s to %2$s"
 msgstr "Черния топ се мести от %1$s на %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:533
+#: ../glchess/src/glchess.vala:536
 #, c-format
 msgid "Black rook at %1$s takes the white pawn at %2$s"
 msgstr "Черният топ на %1$s взима бялата пешка на %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:535
+#: ../glchess/src/glchess.vala:538
 #, c-format
 msgid "Black rook at %1$s takes the white rook at %2$s"
 msgstr "Черният топ на %1$s взима белия топ на %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:537
+#: ../glchess/src/glchess.vala:540
 #, c-format
 msgid "Black rook at %1$s takes the white knight at %2$s"
 msgstr "Черният топ на %1$s взима белия кон на %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:539
+#: ../glchess/src/glchess.vala:542
 #, c-format
 msgid "Black rook at %1$s takes the white bishop at %2$s"
 msgstr "Черният топ на %1$s взима белия офицер на %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:541
+#: ../glchess/src/glchess.vala:544
 #, c-format
 msgid "Black rook at %1$s takes the white queen at %2$s"
 msgstr "Черният топ на %1$s взима бялата царица на %2$s"
 
 #. Human Move String: Description of a black knight moving from %1$s to %2$s, e.g. 'b8 to c6'
-#: ../glchess/src/glchess.vala:543
+#: ../glchess/src/glchess.vala:546
 #, c-format
 msgid "Black knight moves from %1$s to %2$s"
 msgstr "Черният кон се мести от %1$s на %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:545
+#: ../glchess/src/glchess.vala:548
 #, c-format
 msgid "Black knight at %1$s takes the white pawn at %2$s"
 msgstr "Черният кон на %1$s взима бялата пешка на %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:547
+#: ../glchess/src/glchess.vala:550
 #, c-format
 msgid "Black knight at %1$s takes the white rook at %2$s"
 msgstr "Черният кон на %1$s взима белият топ на %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:549
+#: ../glchess/src/glchess.vala:552
 #, c-format
 msgid "Black knight at %1$s takes the white knight at %2$s"
 msgstr "Черният кон на %1$s взима белия кон на %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:551
+#: ../glchess/src/glchess.vala:554
 #, c-format
 msgid "Black knight at %1$s takes the white bishop at %2$s"
 msgstr "Черният кон на %1$s взима белия офицер на %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:553
+#: ../glchess/src/glchess.vala:556
 #, c-format
 msgid "Black knight at %1$s takes the white queen at %2$s"
 msgstr "Черният кон на %1$s взима бялата царица на %2$s"
 
 #. Human Move String: Description of a black bishop moving from %1$s to %2$s, e.g. 'f8 to b3'
-#: ../glchess/src/glchess.vala:555
+#: ../glchess/src/glchess.vala:558
 #, c-format
 msgid "Black bishop moves from %1$s to %2$s"
 msgstr "Черният офицер се мести от %1$s на %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:557
+#: ../glchess/src/glchess.vala:560
 #, c-format
 msgid "Black bishop at %1$s takes the white pawn at %2$s"
 msgstr "Черният офицер на %1$s взима бялата пешка на %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:559
+#: ../glchess/src/glchess.vala:562
 #, c-format
 msgid "Black bishop at %1$s takes the white rook at %2$s"
 msgstr "Черният офицер на %1$s взима белия топ на %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:561
+#: ../glchess/src/glchess.vala:564
 #, c-format
 msgid "Black bishop at %1$s takes the white knight at %2$s"
 msgstr "Черният офицер на %1$s взима белия кон на %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:563
+#: ../glchess/src/glchess.vala:566
 #, c-format
 msgid "Black bishop at %1$s takes the white bishop at %2$s"
 msgstr "Черният офицер на %1$s взима белия офицер на %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:565
+#: ../glchess/src/glchess.vala:568
 #, c-format
 msgid "Black bishop at %1$s takes the white queen at %2$s"
 msgstr "Черният офицер на %1$s взима бялата царица на %2$s"
 
 #. Human Move String: Description of a black queen moving from %1$s to %2$s, e.g. 'd8 to d5'
-#: ../glchess/src/glchess.vala:567
+#: ../glchess/src/glchess.vala:570
 #, c-format
 msgid "Black queen moves from %1$s to %2$s"
 msgstr "Черната царица се мести от %1$s на %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:569
+#: ../glchess/src/glchess.vala:572
 #, c-format
 msgid "Black queen at %1$s takes the white pawn at %2$s"
 msgstr "Черната царица на %1$s взима бялата пешка на %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:571
+#: ../glchess/src/glchess.vala:574
 #, c-format
 msgid "Black queen at %1$s takes the white rook at %2$s"
 msgstr "Черната царица на %1$s взима белия топ на %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:573
+#: ../glchess/src/glchess.vala:576
 #, c-format
 msgid "Black queen at %1$s takes the white knight at %2$s"
 msgstr "Черната царица на %1$s взима белия кон на %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:575
+#: ../glchess/src/glchess.vala:578
 #, c-format
 msgid "Black queen at %1$s takes the white bishop at %2$s"
 msgstr "Черната царица на %1$s взима белия офицер на %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a queen at %2$s
-#: ../glchess/src/glchess.vala:577
+#: ../glchess/src/glchess.vala:580
 #, c-format
 msgid "Black queen at %1$s takes the white queen at %2$s"
 msgstr "Черната царица на %1$s взима бялата царица на %2$s"
 
 #. Human Move String: Description of a black king moving from %1$s to %2$s, e.g. 'e8 to f8'
-#: ../glchess/src/glchess.vala:579
+#: ../glchess/src/glchess.vala:582
 #, c-format
 msgid "Black king moves from %1$s to %2$s"
 msgstr "Черният цар се мести от %1$s на %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a pawn at %2$s
-#: ../glchess/src/glchess.vala:581
+#: ../glchess/src/glchess.vala:584
 #, c-format
 msgid "Black king at %1$s takes the white pawn at %2$s"
 msgstr "Черният цар на %1$s взима бялата пешка на %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a rook at %2$s
-#: ../glchess/src/glchess.vala:583
+#: ../glchess/src/glchess.vala:586
 #, c-format
 msgid "Black king at %1$s takes the white rook at %2$s"
 msgstr "Черният цар на %1$s взима белия топ на %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a knight at %2$s
-#: ../glchess/src/glchess.vala:585
+#: ../glchess/src/glchess.vala:588
 #, c-format
 msgid "Black king at %1$s takes the white knight at %2$s"
 msgstr "Черният цар на %1$s взима белия кон на %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a bishop at %2$s
-#: ../glchess/src/glchess.vala:587
+#: ../glchess/src/glchess.vala:590
 #, c-format
 msgid "Black king at %1$s takes the white bishop at %2$s"
 msgstr "Черният цар на %1$s взима белия офицер на %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a queen at %2$s"
-#: ../glchess/src/glchess.vala:589
+#: ../glchess/src/glchess.vala:592
 #, c-format
 msgid "Black king at %1$s takes the white queen at %2$s"
 msgstr "Черният цар на %1$s взима бялата царица на %2$s"
 
 #. Message display when the white player wins
-#: ../glchess/src/glchess.vala:709
+#: ../glchess/src/glchess.vala:712
 msgid "White wins"
 msgstr "Белите печелят"
 
 #. Message display when the black player wins
-#: ../glchess/src/glchess.vala:714
+#: ../glchess/src/glchess.vala:717
 msgid "Black wins"
 msgstr "Черните печелят"
 
 #. Message display when the game is drawn
-#: ../glchess/src/glchess.vala:719
+#: ../glchess/src/glchess.vala:722
 msgid "Game is drawn"
 msgstr "Играта завърши с равенство"
 
 #. Message displayed when the game ends due to a player being checkmated
-#: ../glchess/src/glchess.vala:731
+#: ../glchess/src/glchess.vala:734
 msgid "Opponent is in check and cannot move (checkmate)"
 msgstr "Противникът е в шах и няма ход (шах и мат)"
 
 #. Message displayed when the game terminates due to a stalemate
-#: ../glchess/src/glchess.vala:735
+#: ../glchess/src/glchess.vala:738
 msgid "Opponent cannot move (stalemate)"
 msgstr "Противникът няма ход (пат)"
 
 #. Message displayed when the game is drawn due to the fifty move rule
-#: ../glchess/src/glchess.vala:739
+#: ../glchess/src/glchess.vala:742
 msgid "No piece has been taken or pawn moved in the last fifty moves"
 msgstr "През последните 50 хода не е взета фигура и не е местена пешка"
 
 #. Message displayed when the game ends due to one player's clock stopping
-#: ../glchess/src/glchess.vala:743
+#: ../glchess/src/glchess.vala:746
 msgid "Opponent has run out of time"
 msgstr "Изтече времето на противника"
 
 #. Message displayed when the game is drawn due to the three-fold-repitition rule
-#: ../glchess/src/glchess.vala:747
+#: ../glchess/src/glchess.vala:750
 msgid "The same board state has occurred three times (three fold repetition)"
 msgstr "Три пъти се повтаря едно и също разположение на фигурите"
 
 #. Message displayed when the game is drawn due to the insufficient material rule
-#: ../glchess/src/glchess.vala:751
+#: ../glchess/src/glchess.vala:754
 msgid "Neither player can cause checkmate (insufficient material)"
 msgstr "Никой от играчите не може да постигне шах мат (недостатъчно фигури)"
 
 #. Message displayed when the game ends due to the black player resigning
-#: ../glchess/src/glchess.vala:757
+#: ../glchess/src/glchess.vala:760
 msgid "The black player has resigned"
 msgstr "Играчът с черните фигури се предаде"
 
 #. Message displayed when the game ends due to the white player resigning
-#: ../glchess/src/glchess.vala:762
+#: ../glchess/src/glchess.vala:765
 msgid "The white player has resigned"
 msgstr "Играчът с белите фигури се предаде"
 
 #. Message displayed when a game is abandoned
-#: ../glchess/src/glchess.vala:767
+#: ../glchess/src/glchess.vala:770
 msgid "The game has been abandoned"
 msgstr "Играта е изоставена"
 
 #. Message displayed when the game ends due to a player dying
-#: ../glchess/src/glchess.vala:772
+#: ../glchess/src/glchess.vala:775
 msgid "One of the players has died"
 msgstr "Един от играчите умря"
 
-#: ../glchess/src/glchess.vala:820
+#: ../glchess/src/glchess.vala:840
 msgid "Save this game before starting a new one?"
 msgstr "Запазване на тази игра преди започване на нова?"
 
-#: ../glchess/src/glchess.vala:822 ../gnome-sudoku/src/lib/main.py:437
+#: ../glchess/src/glchess.vala:842 ../gnome-sudoku/src/lib/main.py:422
 msgid "_Abandon game"
 msgstr "_Изоставяне на играта"
 
-#: ../glchess/src/glchess.vala:823 ../gnome-sudoku/src/lib/main.py:436
+#: ../glchess/src/glchess.vala:843 ../gnome-sudoku/src/lib/main.py:421
 msgid "_Save game for later"
 msgstr "_Запазване на играта"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in seconds
-#: ../glchess/src/glchess.vala:1214
+#: ../glchess/src/glchess.vala:1234
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "секунда"
 msgstr[1] "секунди"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in minutes
-#: ../glchess/src/glchess.vala:1218
+#: ../glchess/src/glchess.vala:1238
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "минута"
 msgstr[1] "минути"
 
 #. Preferences Dialog: Combo box entry for a custom game timer set in hours
-#: ../glchess/src/glchess.vala:1222
+#: ../glchess/src/glchess.vala:1242
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "часа"
 msgstr[1] "часове"
 
-#: ../glchess/src/glchess.vala:1342
+#: ../glchess/src/glchess.vala:1362
 msgid ""
 "The 2D/3D chess game for GNOME. \n"
 "\n"
@@ -1031,75 +1031,76 @@ msgstr ""
 "\n"
 "„Шах“ е част от игрите на GNOME."
 
-#: ../glchess/src/glchess.vala:1347 ../glines/glines.c:1218
-#: ../gnect/src/main.c:874 ../gnibbles/main.c:211 ../gnobots2/menu.c:263
-#: ../quadrapassel/tetris.cpp:1313 ../gnome-sudoku/src/lib/defaults.py.in:45
-#: ../gnomine/gnomine.c:479 ../gnotravex/gnotravex.c:1615
-#: ../gnotski/gnotski.c:1490 ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
-#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:911
+#: ../glchess/src/glchess.vala:1367 ../glines/glines.c:1225
+#: ../gnect/src/main.c:828 ../gnibbles/main.c:177 ../gnobots2/menu.c:263
+#: ../quadrapassel/tetris.cpp:1313 ../gnomine/gnomine.c:473
+#: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1490
+#: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:273
+#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:903
 #: ../swell-foop/src/About.js:19
 msgid "GNOME Games web site"
 msgstr "Уеб сайт на игрите на GNOME"
 
 #. Title of save game dialog
-#: ../glchess/src/glchess.vala:1401
+#: ../glchess/src/glchess.vala:1421
 msgid "Save Chess Game"
 msgstr "Запазване на играта шах"
 
 #. Save Game Dialog: Name of filter to show only PGN files
 #. Load Game Dialog: Name of filter to show only PGN files
-#: ../glchess/src/glchess.vala:1414 ../glchess/src/glchess.vala:1482
+#: ../glchess/src/glchess.vala:1434 ../glchess/src/glchess.vala:1502
 msgid "PGN files"
 msgstr "Файлове PGN"
 
 #. Save Game Dialog: Name of filter to show all files
 #. Load Game Dialog: Name of filter to show all files
-#: ../glchess/src/glchess.vala:1421 ../glchess/src/glchess.vala:1489
+#: ../glchess/src/glchess.vala:1441 ../glchess/src/glchess.vala:1509
 msgid "All files"
 msgstr "Всички файлове"
 
-#: ../glchess/src/glchess.vala:1445
+#: ../glchess/src/glchess.vala:1465
 #, c-format
 msgid "Failed to save game: %s"
 msgstr "Играта не може да бъде запазена: %s"
 
 #. Title of load game dialog
-#: ../glchess/src/glchess.vala:1469
+#: ../glchess/src/glchess.vala:1489
 msgid "Load Chess Game"
 msgstr "Зареждане на игра шах"
 
-#: ../glchess/src/glchess.vala:1511
+#: ../glchess/src/glchess.vala:1531
 #, c-format
 msgid "Failed to open game: %s"
 msgstr "Играта не може да се зареди: %s"
 
 #. Help string for command line --version flag
-#: ../glchess/src/glchess.vala:1572
+#: ../glchess/src/glchess.vala:1592
 msgid "Show release version"
 msgstr "Показване на версията"
 
 #. Arguments and description for --help text
-#: ../glchess/src/glchess.vala:1587
+#: ../glchess/src/glchess.vala:1607
 msgid "[FILE] - Play Chess"
 msgstr "[ФАЙЛ] — игра на шах"
 
 #. Text printed out when an unknown command-line argument provided
-#: ../glchess/src/glchess.vala:1598
+#: ../glchess/src/glchess.vala:1618
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options."
-msgstr "Изпълнете „%s --help“, за да видите списък с всички опции на командния ред."
+msgstr ""
+"Изпълнете „%s --help“, за да видите списък с всички опции на командния ред."
 
-#: ../glines/glines.c:89 ../gnomine/gnomine.c:100
+#: ../glines/glines.c:89 ../gnomine/gnomine.c:101
 msgctxt "board size"
 msgid "Small"
 msgstr "Малка"
 
-#: ../glines/glines.c:90 ../gnomine/gnomine.c:101
+#: ../glines/glines.c:90 ../gnomine/gnomine.c:102
 msgctxt "board size"
 msgid "Medium"
 msgstr "Средна"
 
-#: ../glines/glines.c:91 ../gnomine/gnomine.c:102
+#: ../glines/glines.c:91 ../gnomine/gnomine.c:103
 msgctxt "board size"
 msgid "Large"
 msgstr "Голяма"
@@ -1134,33 +1135,33 @@ msgstr ""
 "\n"
 "Проверете инсталацията на „Пет или повече“"
 
-#: ../glines/glines.c:444
+#: ../glines/glines.c:449
 msgid "Match five objects of the same type in a row to score!"
 msgstr "Подреждане на пет топчета от един цвят в редица!"
 
-#: ../glines/glines.c:506
+#: ../glines/glines.c:511
 msgid "GNOME Five or More"
 msgstr "Пет или повече"
 
-#: ../glines/glines.c:508
+#: ../glines/glines.c:513
 msgid "_Board size:"
 msgstr "_Размер на дъската:"
 
-#: ../glines/glines.c:525 ../swell-foop/src/Score.js:109
+#: ../glines/glines.c:530 ../swell-foop/src/Score.js:110
 msgid "Game Over!"
 msgstr "Край на Играта!"
 
 #. Can't move there!
-#: ../glines/glines.c:682
+#: ../glines/glines.c:687
 msgid "You can't move there!"
 msgstr "Непозволен ход!"
 
-#: ../glines/glines.c:1204 ../glines/glines.c:1207 ../glines/glines.c:1751
-#: ../glines/glines.c:1783 ../glines/glines.desktop.in.in.h:1
+#: ../glines/glines.c:1211 ../glines/glines.c:1214 ../glines/glines.c:1758
+#: ../glines/glines.c:1790 ../glines/glines.desktop.in.in.h:1
 msgid "Five or More"
 msgstr "Пет или повече"
 
-#: ../glines/glines.c:1209
+#: ../glines/glines.c:1216
 msgid ""
 "GNOME port of the once-popular Color Lines game.\n"
 "\n"
@@ -1171,12 +1172,12 @@ msgstr ""
 "Играта „Пет или повече“ е част от игрите на GNOME."
 
 #. this doesn't work for anyone
-#: ../glines/glines.c:1215 ../gnect/src/main.c:877 ../gnibbles/main.c:208
+#: ../glines/glines.c:1222 ../gnect/src/main.c:831 ../gnibbles/main.c:174
 #: ../gnobots2/menu.c:267 ../quadrapassel/tetris.cpp:1316
-#: ../gnome-sudoku/src/lib/main.py:704 ../gnomine/gnomine.c:476
-#: ../gnotravex/gnotravex.c:1612 ../gnotski/gnotski.c:1487
-#: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:270
-#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:908
+#: ../gnome-sudoku/src/lib/main.py:688 ../gnomine/gnomine.c:470
+#: ../gnotravex/gnotravex.c:1613 ../gnotski/gnotski.c:1487
+#: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:271
+#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:900
 #: ../swell-foop/src/About.js:20
 msgid "translator-credits"
 msgstr ""
@@ -1189,43 +1190,43 @@ msgstr ""
 "Научете повече за нас на http://gnome.cult.bg\n"
 "Докладвайте за грешки на http://gnome.cult.bg/bugs"
 
-#: ../glines/glines.c:1396
+#: ../glines/glines.c:1403
 msgid "Five or More Preferences"
 msgstr "Настройки на „Пет или повече“"
 
-#: ../glines/glines.c:1415 ../gnect/src/prefs.c:333
-#: ../gnobots2/properties.c:535 ../iagno/properties.c:527
+#: ../glines/glines.c:1422 ../gnect/src/prefs.c:333
+#: ../gnobots2/properties.c:535 ../iagno/properties.c:508
 #: ../lightsoff/data/settings.ui.h:1 ../swell-foop/data/settings.ui.h:1
 msgid "Appearance"
 msgstr "Изглед"
 
-#: ../glines/glines.c:1423
+#: ../glines/glines.c:1430
 msgid "_Image:"
 msgstr "_Изображение:"
 
-#: ../glines/glines.c:1434
+#: ../glines/glines.c:1441
 msgid "B_ackground color:"
 msgstr "Цвят на _фона:"
 
-#: ../glines/glines.c:1449
+#: ../glines/glines.c:1456
 msgid "Board Size"
 msgstr "Размер на дъската"
 
-#: ../glines/glines.c:1468
+#: ../glines/glines.c:1475
 msgctxt "preferences"
 msgid "General"
 msgstr "Общи"
 
-#: ../glines/glines.c:1474
+#: ../glines/glines.c:1481
 msgid "_Use fast moves"
 msgstr "_Използване на бързи ходове"
 
-#: ../glines/glines.c:1810
+#: ../glines/glines.c:1817
 msgid "Next:"
 msgstr "Следващ:"
 
-#: ../glines/glines.c:1840 ../gnobots2/statusbar.c:67
-#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:439
+#: ../glines/glines.c:1847 ../gnobots2/statusbar.c:67
+#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:433
 msgid "Score:"
 msgstr "Резултат:"
 
@@ -1337,19 +1338,19 @@ msgid "Level of Player Two"
 msgstr "Ниво на играч № 2"
 
 #: ../gnect/data/gnect.schemas.in.h:9 ../gnect/src/prefs.c:370
-#: ../gnibbles/gnibbles.schemas.in.h:16 ../gnibbles/preferences.c:444
+#: ../gnibbles/gnibbles.schemas.in.h:16 ../gnibbles/preferences.c:427
 #: ../quadrapassel/quadrapassel.schemas.in.h:13 ../quadrapassel/tetris.cpp:751
 msgid "Move left"
 msgstr "Движение наляво"
 
 #: ../gnect/data/gnect.schemas.in.h:10 ../gnect/src/prefs.c:371
-#: ../gnibbles/gnibbles.schemas.in.h:17 ../gnibbles/preferences.c:445
+#: ../gnibbles/gnibbles.schemas.in.h:17 ../gnibbles/preferences.c:428
 #: ../quadrapassel/quadrapassel.schemas.in.h:14 ../quadrapassel/tetris.cpp:752
 msgid "Move right"
 msgstr "Движение надясно"
 
 #: ../gnect/data/gnect.schemas.in.h:11 ../gnobots2/properties.c:483
-#: ../iagno/iagno.schemas.in.h:1
+#: ../iagno/org.gnome.iagno.gschema.xml.in.h:1
 msgid "Sound"
 msgstr "Звук"
 
@@ -1357,7 +1358,8 @@ msgstr "Звук"
 msgid "Theme ID"
 msgstr "Тема"
 
-#: ../gnect/data/gnect.schemas.in.h:13 ../iagno/iagno.schemas.in.h:2
+#: ../gnect/data/gnect.schemas.in.h:13
+#: ../iagno/org.gnome.iagno.gschema.xml.in.h:2
 msgid "Whether or not to play event sounds."
 msgstr "Дали да се изпълняват звуци при събития."
 
@@ -1380,58 +1382,58 @@ msgstr ""
 "Не може да се зареди изображение:\n"
 "%s"
 
-#: ../gnect/src/main.c:527
+#: ../gnect/src/main.c:509
 msgid "It's a draw!"
 msgstr "Равенство!"
 
-#: ../gnect/src/main.c:536 ../gnome-sudoku/src/lib/main.py:417
+#: ../gnect/src/main.c:518 ../gnome-sudoku/src/lib/main.py:402
 msgid "You win!"
 msgstr "Вие печелите!"
 
-#: ../gnect/src/main.c:538 ../gnect/src/main.c:571
+#: ../gnect/src/main.c:520 ../gnect/src/main.c:539
 msgid "It is your move."
 msgstr "Вие сте на ход."
 
-#: ../gnect/src/main.c:541
+#: ../gnect/src/main.c:523
 msgid "I win!"
 msgstr "Аз печеля!"
 
-#: ../gnect/src/main.c:543 ../gnect/src/main.c:676
+#: ../gnect/src/main.c:525 ../gnect/src/main.c:627
 msgid "Thinking..."
 msgstr "Мисля…"
 
-#: ../gnect/src/main.c:564 ../gnect/src/main.c:568
+#: ../gnect/src/main.c:536
 #, c-format
 msgid "%s wins!"
 msgstr " %s победи!"
 
-#: ../gnect/src/main.c:574
+#: ../gnect/src/main.c:543
 #, c-format
 msgid "Waiting for %s to move."
 msgstr "Изчакване на хода на %s."
 
-#: ../gnect/src/main.c:693
+#: ../gnect/src/main.c:644
 #, c-format
 msgid "Hint: Column %d"
 msgstr "Съвет: Колона %d"
 
-#: ../gnect/src/main.c:721 ../gnect/src/main.c:725
+#: ../gnect/src/main.c:672 ../gnect/src/main.c:676
 msgid "You:"
 msgstr "Вие:"
 
-#: ../gnect/src/main.c:722 ../gnect/src/main.c:724
+#: ../gnect/src/main.c:673 ../gnect/src/main.c:675
 msgid "Me:"
 msgstr "Аз:"
 
-#: ../gnect/src/main.c:770
+#: ../gnect/src/main.c:721
 msgid "Scores"
 msgstr "Резултати"
 
-#: ../gnect/src/main.c:820
+#: ../gnect/src/main.c:774
 msgid "Drawn:"
 msgstr "Изтеглени:"
 
-#: ../gnect/src/main.c:873
+#: ../gnect/src/main.c:827
 msgid ""
 "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
 "Bertoletti's Velena Engine.\n"
@@ -1443,7 +1445,7 @@ msgstr ""
 "\n"
 "Играта „Четири в линия“ е част от игрите на GNOME."
 
-#: ../gnect/src/main.c:1242 ../gnibbles/main.c:688 ../gnobots2/menu.c:67
+#: ../gnect/src/main.c:1188 ../gnibbles/main.c:601 ../gnobots2/menu.c:67
 #: ../gnotski/gnotski.c:410
 msgid "_View"
 msgstr "Пре_глед"
@@ -1467,22 +1469,22 @@ msgstr ""
 "%s"
 
 #: ../gnect/src/prefs.c:249 ../gtali/gyahtzee.c:998 ../gtali/yahtzee.c:69
-#: ../iagno/properties.c:448 ../iagno/properties.c:489
+#: ../iagno/properties.c:429 ../iagno/properties.c:470
 msgid "Human"
 msgstr "Човек"
 
-#: ../gnect/src/prefs.c:251 ../iagno/properties.c:457
-#: ../iagno/properties.c:498
+#: ../gnect/src/prefs.c:251 ../iagno/properties.c:438
+#: ../iagno/properties.c:479
 msgid "Level one"
 msgstr "Първо ниво"
 
-#: ../gnect/src/prefs.c:253 ../iagno/properties.c:466
-#: ../iagno/properties.c:507
+#: ../gnect/src/prefs.c:253 ../iagno/properties.c:447
+#: ../iagno/properties.c:488
 msgid "Level two"
 msgstr "Второ ниво"
 
-#: ../gnect/src/prefs.c:255 ../iagno/properties.c:475
-#: ../iagno/properties.c:516
+#: ../gnect/src/prefs.c:255 ../iagno/properties.c:456
+#: ../iagno/properties.c:497
 msgid "Level three"
 msgstr "Трето ниво"
 
@@ -1498,13 +1500,13 @@ msgstr "_Тема:"
 msgid "Enable _animation"
 msgstr "Включване на _анимациите"
 
-#: ../gnect/src/prefs.c:361 ../gnibbles/preferences.c:338
-#: ../iagno/properties.c:436
+#: ../gnect/src/prefs.c:361 ../gnibbles/preferences.c:321
+#: ../iagno/properties.c:417
 msgid "E_nable sounds"
 msgstr "_Включване на звуците"
 
 #. keyboard tab
-#: ../gnect/src/prefs.c:366 ../gnibbles/preferences.c:434
+#: ../gnect/src/prefs.c:366 ../gnibbles/preferences.c:417
 #: ../gnobots2/properties.c:542 ../quadrapassel/tetris.cpp:743
 msgid "Keyboard Controls"
 msgstr "Управление с клавиатура"
@@ -1514,12 +1516,12 @@ msgid "Classic"
 msgstr "Класическа"
 
 #: ../gnect/src/theme.c:47 ../gnect/src/theme.c:68 ../gnect/src/theme.c:75
-#: ../gnect/src/theme.c:82 ../gnibbles/preferences.c:472
+#: ../gnect/src/theme.c:82 ../gnibbles/preferences.c:455
 msgid "Red"
 msgstr "Червена"
 
 #: ../gnect/src/theme.c:47 ../gnect/src/theme.c:82
-#: ../gnibbles/preferences.c:475
+#: ../gnibbles/preferences.c:458
 msgid "Yellow"
 msgstr "Жълта"
 
@@ -1527,11 +1529,11 @@ msgstr "Жълта"
 msgid "High Contrast"
 msgstr "Висококонтрастна"
 
-#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61 ../iagno/properties.c:484
+#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61 ../iagno/properties.c:465
 msgid "Light"
 msgstr "Бели"
 
-#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61 ../iagno/properties.c:443
+#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61 ../iagno/properties.c:424
 msgid "Dark"
 msgstr "Черни"
 
@@ -1544,7 +1546,7 @@ msgid "Cream Marbles"
 msgstr "Кремови топчета"
 
 #: ../gnect/src/theme.c:68 ../gnect/src/theme.c:75 ../gnect/src/theme.c:89
-#: ../gnibbles/preferences.c:474
+#: ../gnibbles/preferences.c:457
 msgid "Blue"
 msgstr "Синя"
 
@@ -1564,7 +1566,7 @@ msgstr "Плочки"
 msgid "Orange"
 msgstr "Оранжева"
 
-#: ../gnibbles/board.c:254
+#: ../gnibbles/board.c:250
 #, c-format
 msgid ""
 "Nibbles couldn't load level file:\n"
@@ -1577,7 +1579,7 @@ msgstr ""
 "\n"
 "Проверете инсталацията на „Nibbles“"
 
-#: ../gnibbles/board.c:273
+#: ../gnibbles/board.c:269
 #, c-format
 msgid ""
 "Level file appears to be damaged:\n"
@@ -1590,7 +1592,7 @@ msgstr ""
 "\n"
 "Проверете инсталацията на „Nibbles“"
 
-#: ../gnibbles/gnibbles.c:94
+#: ../gnibbles/gnibbles.c:90
 #, c-format
 msgid ""
 "Nibbles couldn't find pixmap file:\n"
@@ -1603,29 +1605,29 @@ msgstr ""
 "\n"
 "Проверете инсталацията на „Nibbles“"
 
-#: ../gnibbles/gnibbles.c:366
+#: ../gnibbles/gnibbles.c:361
 msgid "Nibbles Scores"
 msgstr "Резултати от „Nibbles“"
 
-#: ../gnibbles/gnibbles.c:369
+#: ../gnibbles/gnibbles.c:364
 msgid "Speed:"
 msgstr "Скорост:"
 
-#: ../gnibbles/gnibbles.c:374 ../gnobots2/game.c:179 ../gnomine/gnomine.c:223
-#: ../gnotravex/gnotravex.c:1089 ../gnotski/gnotski.c:797
-#: ../gtali/gyahtzee.c:197 ../mahjongg/mahjongg.c:630
+#: ../gnibbles/gnibbles.c:369 ../gnobots2/game.c:179 ../gnomine/gnomine.c:224
+#: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:797
+#: ../gtali/gyahtzee.c:197 ../mahjongg/mahjongg.c:622
 msgid "Congratulations!"
 msgstr "Поздравления!"
 
-#: ../gnibbles/gnibbles.c:375 ../gnobots2/game.c:180 ../gnomine/gnomine.c:224
-#: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:798
-#: ../gtali/gyahtzee.c:198 ../mahjongg/mahjongg.c:631
+#: ../gnibbles/gnibbles.c:370 ../gnobots2/game.c:180 ../gnomine/gnomine.c:225
+#: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:798
+#: ../gtali/gyahtzee.c:198 ../mahjongg/mahjongg.c:623
 msgid "Your score is the best!"
 msgstr "Вашият резултат е най-добрият!"
 
-#: ../gnibbles/gnibbles.c:376 ../gnobots2/game.c:181 ../gnomine/gnomine.c:225
-#: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:799
-#: ../gtali/gyahtzee.c:199 ../mahjongg/mahjongg.c:632
+#: ../gnibbles/gnibbles.c:371 ../gnobots2/game.c:181 ../gnomine/gnomine.c:226
+#: ../gnotravex/gnotravex.c:1092 ../gnotski/gnotski.c:799
+#: ../gtali/gyahtzee.c:199 ../mahjongg/mahjongg.c:624
 msgid "Your score has made the top ten."
 msgstr "Вашият резултат е в челната десетка!"
 
@@ -1633,9 +1635,9 @@ msgstr "Вашият резултат е в челната десетка!"
 msgid "Guide a worm around a maze"
 msgstr "Управляване на червей през лабиринт"
 
-#: ../gnibbles/gnibbles.desktop.in.in.h:2 ../gnibbles/main.c:196
-#: ../gnibbles/main.c:199 ../gnibbles/main.c:798 ../gnibbles/main.c:877
-#: ../gnibbles/main.c:1007
+#: ../gnibbles/gnibbles.desktop.in.in.h:2 ../gnibbles/main.c:162
+#: ../gnibbles/main.c:165 ../gnibbles/main.c:695 ../gnibbles/main.c:766
+#: ../gnibbles/main.c:896
 msgid "Nibbles"
 msgstr "Nibbles"
 
@@ -1695,12 +1697,12 @@ msgstr "Клавиш за движение надясно."
 msgid "Key to use for motion up."
 msgstr "Клавиш за движение нагоре."
 
-#: ../gnibbles/gnibbles.schemas.in.h:15 ../gnibbles/preferences.c:447
+#: ../gnibbles/gnibbles.schemas.in.h:15 ../gnibbles/preferences.c:430
 #: ../quadrapassel/quadrapassel.schemas.in.h:12 ../quadrapassel/tetris.cpp:753
 msgid "Move down"
 msgstr "Движение надолу"
 
-#: ../gnibbles/gnibbles.schemas.in.h:18 ../gnibbles/preferences.c:446
+#: ../gnibbles/gnibbles.schemas.in.h:18 ../gnibbles/preferences.c:429
 msgid "Move up"
 msgstr "Движение нагоре"
 
@@ -1744,47 +1746,47 @@ msgstr "Използване на относителни движения"
 msgid "Use relative movement (ie. left or right only)."
 msgstr "Използване на относителни движения (напр. само ляво или дясно)"
 
-#: ../gnibbles/main.c:73
+#: ../gnibbles/main.c:66
 msgctxt "game speed"
 msgid "Beginner"
 msgstr "Много бавно"
 
-#: ../gnibbles/main.c:74
+#: ../gnibbles/main.c:67
 msgctxt "game speed"
 msgid "Slow"
 msgstr "Бавно"
 
-#: ../gnibbles/main.c:75
+#: ../gnibbles/main.c:68
 msgctxt "game speed"
 msgid "Medium"
 msgstr "Средно"
 
-#: ../gnibbles/main.c:76
+#: ../gnibbles/main.c:69
 msgctxt "game speed"
 msgid "Fast"
 msgstr "Бързо"
 
-#: ../gnibbles/main.c:77
+#: ../gnibbles/main.c:70
 msgctxt "game speed"
 msgid "Beginner with Fakes"
 msgstr "Много бавно с фалшиви"
 
-#: ../gnibbles/main.c:78
+#: ../gnibbles/main.c:71
 msgctxt "game speed"
 msgid "Slow with Fakes"
 msgstr "Бавно с фалшиви"
 
-#: ../gnibbles/main.c:79
+#: ../gnibbles/main.c:72
 msgctxt "game speed"
 msgid "Medium with Fakes"
 msgstr "Средно с фалшиви"
 
-#: ../gnibbles/main.c:80
+#: ../gnibbles/main.c:73
 msgctxt "game speed"
 msgid "Fast with Fakes"
 msgstr "Бързо с фалшиви"
 
-#: ../gnibbles/main.c:205
+#: ../gnibbles/main.c:171
 msgid ""
 "A worm game for GNOME.\n"
 "\n"
@@ -1794,96 +1796,92 @@ msgstr ""
 "\n"
 "„Gnibbles“ е част от игрите на GNOME."
 
-#: ../gnibbles/main.c:567
+#: ../gnibbles/main.c:492
 #, c-format
 msgid "Game over! The game has been won by %s!"
 msgstr "Играта завърши! %s спечели!"
 
-#: ../gnibbles/main.c:615
-msgid "The game is over."
-msgstr "Играта приключи."
-
 #. Translators: This string will be included in the intro screen, so don't make sure it fits!
-#: ../gnibbles/main.c:879
+#: ../gnibbles/main.c:768
 msgid "A worm game for GNOME."
 msgstr "Игра с червеи за GNOME."
 
-#: ../gnibbles/preferences.c:241
+#: ../gnibbles/preferences.c:224
 msgid "Nibbles Preferences"
 msgstr "Настройки на „Gnibbles“"
 
-#: ../gnibbles/preferences.c:261
+#: ../gnibbles/preferences.c:244
 msgid "Speed"
 msgstr "Скорост"
 
-#: ../gnibbles/preferences.c:271
+#: ../gnibbles/preferences.c:254
 msgid "Nibbles newbie"
 msgstr "Новак"
 
-#: ../gnibbles/preferences.c:281
+#: ../gnibbles/preferences.c:264
 msgid "My second day"
 msgstr "Вторият ми ден"
 
-#: ../gnibbles/preferences.c:291
+#: ../gnibbles/preferences.c:274
 msgid "Not too shabby"
 msgstr "Не много зле"
 
-#: ../gnibbles/preferences.c:301
+#: ../gnibbles/preferences.c:284
 msgid "Finger-twitching good"
 msgstr "Много бързи пръсти"
 
 #. Options
-#: ../gnibbles/preferences.c:311 ../gnibbles/preferences.c:453
-#: ../gnobots2/properties.c:460 ../iagno/properties.c:566
+#: ../gnibbles/preferences.c:294 ../gnibbles/preferences.c:436
+#: ../gnobots2/properties.c:460 ../iagno/properties.c:547
 msgid "Options"
 msgstr "Настройки"
 
-#: ../gnibbles/preferences.c:318
+#: ../gnibbles/preferences.c:301
 msgid "_Play levels in random order"
 msgstr "_Случаен ред на нивата"
 
-#: ../gnibbles/preferences.c:328
+#: ../gnibbles/preferences.c:311
 msgid "_Enable fake bonuses"
 msgstr "_Разрешаване на фалшиви бонуси"
 
 #. starting level
-#: ../gnibbles/preferences.c:351 ../quadrapassel/tetris.cpp:643
+#: ../gnibbles/preferences.c:334 ../quadrapassel/tetris.cpp:643
 msgid "_Starting level:"
 msgstr "_Начално ниво:"
 
-#: ../gnibbles/preferences.c:379
+#: ../gnibbles/preferences.c:362
 msgid "Number of _human players:"
 msgstr "Брой играчи — _хора"
 
-#: ../gnibbles/preferences.c:399
+#: ../gnibbles/preferences.c:382
 msgid "Number of _AI players:"
 msgstr "Брой играчи с _изкуствен интелект:"
 
-#: ../gnibbles/preferences.c:425
+#: ../gnibbles/preferences.c:408
 msgid "Worm"
 msgstr "Червей"
 
-#: ../gnibbles/preferences.c:459
+#: ../gnibbles/preferences.c:442
 msgid "_Use relative movement"
 msgstr "_Използване на относителни движения"
 
-#: ../gnibbles/preferences.c:466
+#: ../gnibbles/preferences.c:449
 msgid "_Worm color:"
 msgstr "_Цвят на червея:"
 
-#: ../gnibbles/preferences.c:473
+#: ../gnibbles/preferences.c:456
 msgid "Green"
 msgstr "Зелено"
 
-#: ../gnibbles/preferences.c:476
+#: ../gnibbles/preferences.c:459
 msgid "Cyan"
 msgstr "Циан"
 
-#: ../gnibbles/preferences.c:477
+#: ../gnibbles/preferences.c:460
 msgid "Purple"
 msgstr "Пурпурно"
 
-#: ../gnibbles/preferences.c:478
+#: ../gnibbles/preferences.c:461
 msgid "Gray"
 msgstr "Сиво"
 
@@ -1896,14 +1894,14 @@ msgstr "Червей %d:"
 msgid "Game over!"
 msgstr "Край на играта!"
 
-#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:199 ../gnotski/gnotski.c:772
+#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:200 ../gnotski/gnotski.c:772
 msgid "Great work, but unfortunately your score did not make the top ten."
 msgstr "За съжаление вашият резултат не е челната десетка."
 
 #. Translators: This "_New Game" is for the game-over dialogue
 #: ../gnobots2/game.c:154 ../gnome-sudoku/data/select_game.ui.h:1
-#: ../gnomine/gnomine.c:201 ../gnotski/gnotski.c:774
-#: ../libgames-support/games-stock.c:258
+#: ../gnomine/gnomine.c:202 ../gnotski/gnotski.c:774
+#: ../libgames-support/games-stock.c:255
 msgid "_New Game"
 msgstr "_Нова игра"
 
@@ -1911,8 +1909,8 @@ msgstr "_Нова игра"
 msgid "Robots Scores"
 msgstr "Резултати от „Роботи“"
 
-#: ../gnobots2/game.c:170 ../mahjongg/mahjongg.c:628
-#: ../mahjongg/mahjongg.c:953
+#: ../gnobots2/game.c:170 ../mahjongg/mahjongg.c:620
+#: ../mahjongg/mahjongg.c:945
 msgid "Map:"
 msgstr "Подредба:"
 
@@ -1949,15 +1947,15 @@ msgstr "Установяване на настройките на играта"
 msgid "Initial window position"
 msgstr "Начална позиция на прозореца"
 
-#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:924 ../gnomine/gnomine.c:932
-#: ../gnotravex/gnotravex.c:261 ../gnotski/gnotski.c:457
-#: ../iagno/gnothello.c:148
+#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:914 ../gnomine/gnomine.c:922
+#: ../gnotravex/gnotravex.c:262 ../gnotski/gnotski.c:457
+#: ../iagno/gnothello.c:149
 msgid "X"
 msgstr "X"
 
-#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:926 ../gnomine/gnomine.c:934
-#: ../gnotravex/gnotravex.c:263 ../gnotski/gnotski.c:459
-#: ../iagno/gnothello.c:150
+#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:916 ../gnomine/gnomine.c:924
+#: ../gnotravex/gnotravex.c:264 ../gnotski/gnotski.c:459
+#: ../iagno/gnothello.c:151
 msgid "Y"
 msgstr "Y"
 
@@ -2027,11 +2025,11 @@ msgstr "Роботи със сигурен телепорт и изключит�
 msgid "Robots"
 msgstr "Роботи"
 
-#: ../gnobots2/gnobots.c:318
+#: ../gnobots2/gnobots.c:321
 msgid "No game data could be found."
 msgstr "Липсват данни за играта."
 
-#: ../gnobots2/gnobots.c:320
+#: ../gnobots2/gnobots.c:323
 msgid ""
 "The program Robots was unable to find any valid game configuration files. "
 "Please check that the program is installed correctly."
@@ -2039,11 +2037,11 @@ msgstr ""
 "Програмата „Роботи“ не може да открие валидни конфигурационни файлове. "
 "Проверете дали програмата е инсталирана правилно."
 
-#: ../gnobots2/gnobots.c:336
+#: ../gnobots2/gnobots.c:339
 msgid "Some graphics files are missing or corrupt."
 msgstr "Някои графични файлове липсват или са повредени."
 
-#: ../gnobots2/gnobots.c:338
+#: ../gnobots2/gnobots.c:341
 msgid ""
 "The program Robots was unable to load all the necessary graphics files. "
 "Please check that the program is installed correctly."
@@ -2250,12 +2248,12 @@ msgstr ""
 "Използване на изключително сигурни ходове. Играчът бива предупреден, ако "
 "няма сигурни ходове и единствения изход е телепортиране."
 
-#: ../gnobots2/graphics.c:153 ../iagno/gnothello.c:454
+#: ../gnobots2/graphics.c:153 ../iagno/gnothello.c:455
 #, c-format
 msgid "Could not find '%s' pixmap file\n"
 msgstr "Липсва графичен файл „%s“\n"
 
-#: ../gnobots2/menu.c:68 ../gnotravex/gnotravex.c:1707
+#: ../gnobots2/menu.c:68 ../gnotravex/gnotravex.c:1708
 msgid "_Move"
 msgstr "Пре_местване"
 
@@ -2283,11 +2281,11 @@ msgstr "_Изчакване"
 msgid "Wait for the robots"
 msgstr "Изчакване за роботите"
 
-#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1223
+#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1215
 msgid "_Toolbar"
 msgstr "Лента с инс_трументи"
 
-#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1223
+#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1215
 msgid "Show or hide the toolbar"
 msgstr "Показване или скриване на лентата с инструменти"
 
@@ -2390,7 +2388,7 @@ msgstr "Графична тема"
 msgid "_Image theme:"
 msgstr "_Тема на изображенията:"
 
-#: ../gnobots2/properties.c:523 ../mahjongg/mahjongg.c:736
+#: ../gnobots2/properties.c:523 ../mahjongg/mahjongg.c:728
 msgid "_Background color:"
 msgstr "_Цвят на фона:"
 
@@ -2655,7 +2653,6 @@ msgid "Game Over"
 msgstr "Край на играта"
 
 #: ../gnome-sudoku/gnome-sudoku.desktop.in.in.h:1
-#: ../gnome-sudoku/src/lib/defaults.py.in:40
 msgid "Sudoku"
 msgstr "Судоку"
 
@@ -2762,7 +2759,7 @@ msgstr "_Запазени игри"
 msgid "Add a new tracker"
 msgstr "Добавяне на проследяване"
 
-#: ../gnome-sudoku/data/tracker.ui.h:2 ../gnome-sudoku/src/lib/main.py:785
+#: ../gnome-sudoku/data/tracker.ui.h:2 ../gnome-sudoku/src/lib/main.py:769
 msgid "H_ide"
 msgstr "_Скриване"
 
@@ -2777,82 +2774,6 @@ msgstr "Проследените промени да станат постоян
 #: ../gnome-sudoku/data/tracker.ui.h:5
 msgid "Remove the selected tracker"
 msgstr "Премахване на проследяването."
-
-#: ../gnome-sudoku/src/gnome-sudoku.in.in:59
-msgid "Sudoku incorrectly installed"
-msgstr "Програмата „Судоку“ е инсталирана неправилно."
-
-#: ../gnome-sudoku/src/gnome-sudoku.in.in:60
-msgid ""
-"Sudoku is not able to start because required application files are not "
-"installed. If you are currently upgrading your system please wait until the "
-"upgrade has completed."
-msgstr ""
-"Играта „Судоку“ не може да се стартира, защото необходимите на програмата "
-"файлове не са инсталирани. Ако в момента обновявате системата си, изчакайте "
-"докато актуализацията приключи."
-
-#: ../gnome-sudoku/src/lib/defaults.py.in:39
-msgid "GNOME Sudoku"
-msgstr "Судоку за GNOME"
-
-#: ../gnome-sudoku/src/lib/defaults.py.in:42
-msgid ""
-"GNOME Sudoku is a simple Sudoku generator and player. Sudoku is a Japanese "
-"logic puzzle.\n"
-"\n"
-"GNOME Sudoku is a part of GNOME Games."
-msgstr ""
-"„Судоку за GNOME“ е прост генератор и играч на „Судоку“ — вид японска "
-"главоблъсканица.\n"
-"\n"
-"„Судоку за GNOME“ е част от игрите на GNOME."
-
-#. The GPL license string will be translated, and the game name inserted.
-#. This license is the same as in libgames-support/games-stock.c
-#: ../gnome-sudoku/src/lib/defaults.py.in:51
-#, python-format
-msgid ""
-"%s is free software; you can redistribute it and/or modify it under the "
-"terms of the GNU General Public License as published by the Free Software "
-"Foundation; either version 2 of the License, or (at your option) any later "
-"version."
-msgstr ""
-"Тази програма (%s) е свободен софтуер. Можете да я разпространявате и/или "
-"променяте под условията на Общия публичен лиценз на GNU (GNU GPL), както е "
-"публикуван от Фондацията за свободен софтуер — версия 2 на лиценза или (по "
-"ваше решение) по-късна версия."
-
-# Смешно, колкото и да се мъча да стандартизирам низовете, все накой ще си напише някаква щуротия в лиценза.
-#: ../gnome-sudoku/src/lib/defaults.py.in:55
-#: ../libgames-support/games-stock.c:328
-#, c-format, python-format
-msgid ""
-"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
-"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-"details."
-msgstr ""
-"Тази програма (%s) се разпространява с надеждата, че ще бъде полезна, но БЕЗ "
-"НИКАКВИ ГАРАНЦИИ, дори и косвените за ПРОДАЖБА или СЪОТВЕТСТВИЕ С КАКВАТО И "
-"ДА Е УПОТРЕБА. За подробности погледнете Общия публичен лиценз на GNU."
-
-#: ../gnome-sudoku/src/lib/defaults.py.in:59
-#: ../libgames-support/games-stock.c:333
-#, c-format, python-format
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
-"Fifth Floor, Boston, MA  02110-1301  USA"
-msgstr ""
-"Трябва да сте получили копие от Общия публичен лиценз на GNU (GNU GPL) "
-"заедно с тази програма (%s). Ако не сте, пишете до Free Software Foundation, "
-"Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
-
-#: ../gnome-sudoku/src/lib/defaults.py.in:70
-#, python-format
-msgid "Unable to make data directory %(dir)s: %(error)s"
-msgstr "Папката за данни „%(dir)s“ не може да бъде създадена: %(error)s"
 
 #: ../gnome-sudoku/src/lib/saver.py:138
 msgid "No Space"
@@ -2895,234 +2816,234 @@ msgstr "„Судоку“ не може да отбележи играта ка
 msgid "Sudoku unable to mark game as finished."
 msgstr "„Судоку“ не може да отбележи играта като завършена."
 
-#: ../gnome-sudoku/src/lib/main.py:227
+#: ../gnome-sudoku/src/lib/main.py:211
 msgid "New game"
 msgstr "Нова игра"
 
 #. Translators: this is the "Reset" scores button in a scores dialogue
-#: ../gnome-sudoku/src/lib/main.py:228 ../libgames-support/games-stock.c:261
+#: ../gnome-sudoku/src/lib/main.py:212 ../libgames-support/games-stock.c:258
 msgid "_Reset"
 msgstr "_Рестартиране"
 
-#: ../gnome-sudoku/src/lib/main.py:230
+#: ../gnome-sudoku/src/lib/main.py:214
 msgid "_Undo"
 msgstr "_Отмяна на ход"
 
-#: ../gnome-sudoku/src/lib/main.py:231
+#: ../gnome-sudoku/src/lib/main.py:215
 msgid "Undo last action"
 msgstr "Отмяна на последния ход"
 
-#: ../gnome-sudoku/src/lib/main.py:232
+#: ../gnome-sudoku/src/lib/main.py:216
 msgid "_Redo"
 msgstr "_Повтаряне"
 
-#: ../gnome-sudoku/src/lib/main.py:233
+#: ../gnome-sudoku/src/lib/main.py:217
 msgid "Redo last action"
 msgstr "Повтаряне на последния ход"
 
-#: ../gnome-sudoku/src/lib/main.py:234
+#: ../gnome-sudoku/src/lib/main.py:218
 msgid "Puzzle _Statistics..."
 msgstr "_Статистика…"
 
-#: ../gnome-sudoku/src/lib/main.py:236
+#: ../gnome-sudoku/src/lib/main.py:220
 msgid "_Print..."
 msgstr "_Отпечатване…"
 
-#: ../gnome-sudoku/src/lib/main.py:237
+#: ../gnome-sudoku/src/lib/main.py:221
 msgid "Print _Multiple Sudokus..."
 msgstr "Отпечатване на _множество главоблъсканици…"
 
-#: ../gnome-sudoku/src/lib/main.py:242
+#: ../gnome-sudoku/src/lib/main.py:226
 msgid "_Tools"
 msgstr "И_нструменти"
 
-#: ../gnome-sudoku/src/lib/main.py:243 ../libgames-support/games-stock.c:254
+#: ../gnome-sudoku/src/lib/main.py:227 ../libgames-support/games-stock.c:251
 msgid "_Hint"
 msgstr "_Съвет"
 
-#: ../gnome-sudoku/src/lib/main.py:244
+#: ../gnome-sudoku/src/lib/main.py:228
 msgid "Show a square that is easy to fill."
 msgstr "Лесни за запълване квадратчета."
 
-#: ../gnome-sudoku/src/lib/main.py:245
+#: ../gnome-sudoku/src/lib/main.py:229
 msgid "Clear _Top Notes"
 msgstr "Изчистване на _горните бележки"
 
-#: ../gnome-sudoku/src/lib/main.py:247
+#: ../gnome-sudoku/src/lib/main.py:231
 msgid "Clear _Bottom Notes"
 msgstr "Изчистване на _долните бележки"
 
-#: ../gnome-sudoku/src/lib/main.py:256
+#: ../gnome-sudoku/src/lib/main.py:240
 msgid "Show _Possible Numbers"
 msgstr "Показване на _възможните числа"
 
-#: ../gnome-sudoku/src/lib/main.py:258
+#: ../gnome-sudoku/src/lib/main.py:242
 msgid "Always show possible numbers in a square"
 msgstr "Винаги показване на възможните числа в квадратчетата"
 
-#: ../gnome-sudoku/src/lib/main.py:262
+#: ../gnome-sudoku/src/lib/main.py:246
 msgid "Warn About _Unfillable Squares"
 msgstr "Предупреждаване за _непопълними квадратчета"
 
-#: ../gnome-sudoku/src/lib/main.py:264
+#: ../gnome-sudoku/src/lib/main.py:248
 msgid "Warn about squares made unfillable by a move"
 msgstr ""
 "Предупреждаване за квадратчета, които поредният ход е направил непопълними"
 
-#: ../gnome-sudoku/src/lib/main.py:266
+#: ../gnome-sudoku/src/lib/main.py:250
 msgid "_Track Additions"
 msgstr "_Проследяване на добавените"
 
-#: ../gnome-sudoku/src/lib/main.py:268
+#: ../gnome-sudoku/src/lib/main.py:252
 msgid "Mark new additions in a separate color so you can keep track of them."
 msgstr "Новодобавените да са с различен цвят за по-лесно проследяване."
 
-#: ../gnome-sudoku/src/lib/main.py:271
+#: ../gnome-sudoku/src/lib/main.py:255
 msgid "_Highlighter"
 msgstr "_Осветяване"
 
-#: ../gnome-sudoku/src/lib/main.py:272
+#: ../gnome-sudoku/src/lib/main.py:256
 msgid "Highlight the current row, column and box"
 msgstr "Осветяване на текущия ред, колона, кутия"
 
-#: ../gnome-sudoku/src/lib/main.py:392
+#: ../gnome-sudoku/src/lib/main.py:377
 #, python-format
 msgid "You completed the puzzle in %d second"
 msgid_plural "You completed the puzzle in %d seconds"
 msgstr[0] "Завършихте главоблъсканицата за %d секунда."
 msgstr[1] "Завършихте главоблъсканицата за %d секунди."
 
-#: ../gnome-sudoku/src/lib/main.py:397 ../gnome-sudoku/src/lib/main.py:405
+#: ../gnome-sudoku/src/lib/main.py:382 ../gnome-sudoku/src/lib/main.py:390
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d минута"
 msgstr[1] "%d минути"
 
-#: ../gnome-sudoku/src/lib/main.py:398 ../gnome-sudoku/src/lib/main.py:406
+#: ../gnome-sudoku/src/lib/main.py:383 ../gnome-sudoku/src/lib/main.py:391
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d секунда"
 msgstr[1] "%d секунди"
 
-#: ../gnome-sudoku/src/lib/main.py:399
+#: ../gnome-sudoku/src/lib/main.py:384
 #, python-format
 msgid "You completed the puzzle in %(minute)s and %(second)s"
 msgstr "Завършихте главоблъсканицата за %(minute)s и %(second)s"
 
-#: ../gnome-sudoku/src/lib/main.py:404
+#: ../gnome-sudoku/src/lib/main.py:389
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d час"
 msgstr[1] "%d часа"
 
-#: ../gnome-sudoku/src/lib/main.py:407
+#: ../gnome-sudoku/src/lib/main.py:392
 #, python-format
 msgid "You completed the puzzle in %(hour)s, %(minute)s and %(second)s"
 msgstr "Завършихте главоблъсканицата за %(hour)s, %(minute)s и %(second)s"
 
-#: ../gnome-sudoku/src/lib/main.py:409
+#: ../gnome-sudoku/src/lib/main.py:394
 #, python-format
 msgid "You got %(n)s hint."
 msgid_plural "You got %(n)s hints."
 msgstr[0] "Получихте %(n)s съвет"
 msgstr[1] "Получихте %(n)s съвета"
 
-#: ../gnome-sudoku/src/lib/main.py:412
+#: ../gnome-sudoku/src/lib/main.py:397
 #, python-format
 msgid "You had %(n)s impossibility pointed out."
 msgid_plural "You had %(n)s impossibilities pointed out."
 msgstr[0] "Беше ви показано %(n)s невъзможен ход."
 msgstr[1] "Бяха ви показани %(n)s невъзможни хода."
 
-#: ../gnome-sudoku/src/lib/main.py:435
+#: ../gnome-sudoku/src/lib/main.py:420
 msgid "Save this game before starting new one?"
 msgstr "Запазване на тази игра преди започване на нова?"
 
-#: ../gnome-sudoku/src/lib/main.py:455
+#: ../gnome-sudoku/src/lib/main.py:440
 msgid "Save game before closing?"
 msgstr "Запазване на играта преди затваряне?"
 
-#: ../gnome-sudoku/src/lib/main.py:653
+#: ../gnome-sudoku/src/lib/main.py:638
 msgid "Puzzle Information"
 msgstr "Информация"
 
-#: ../gnome-sudoku/src/lib/main.py:654
+#: ../gnome-sudoku/src/lib/main.py:639
 msgid "There is no current puzzle."
 msgstr "Няма текуща главоблъсканица."
 
-#: ../gnome-sudoku/src/lib/main.py:659
+#: ../gnome-sudoku/src/lib/main.py:644
 msgid "Calculated difficulty: "
 msgstr "Изчислена трудност: "
 
-#: ../gnome-sudoku/src/lib/main.py:661 ../gnome-sudoku/src/lib/printing.py:182
+#: ../gnome-sudoku/src/lib/main.py:646 ../gnome-sudoku/src/lib/printing.py:182
 #: ../gnome-sudoku/src/lib/game_selector.py:121
 msgid "Easy"
 msgstr "Лесна"
 
-#: ../gnome-sudoku/src/lib/main.py:662 ../gnome-sudoku/src/lib/printing.py:183
+#: ../gnome-sudoku/src/lib/main.py:647 ../gnome-sudoku/src/lib/printing.py:183
 #: ../gnome-sudoku/src/lib/game_selector.py:122
 msgid "Medium"
 msgstr "Средна"
 
-#: ../gnome-sudoku/src/lib/main.py:663 ../gnome-sudoku/src/lib/printing.py:184
+#: ../gnome-sudoku/src/lib/main.py:648 ../gnome-sudoku/src/lib/printing.py:184
 #: ../gnome-sudoku/src/lib/game_selector.py:123
 msgid "Hard"
 msgstr "Трудна"
 
-#: ../gnome-sudoku/src/lib/main.py:664
+#: ../gnome-sudoku/src/lib/main.py:649
 msgid "Very Hard"
 msgstr "Много трудна"
 
-#: ../gnome-sudoku/src/lib/main.py:669
+#: ../gnome-sudoku/src/lib/main.py:654
 msgid "Number of moves instantly fillable by elimination: "
 msgstr "Ходове, които могат да се решат чрез елиминиране:"
 
-#: ../gnome-sudoku/src/lib/main.py:672
+#: ../gnome-sudoku/src/lib/main.py:657
 msgid "Number of moves instantly fillable by filling: "
 msgstr "Ходове, които могат да се решат чрез попълване: "
 
-#: ../gnome-sudoku/src/lib/main.py:675
+#: ../gnome-sudoku/src/lib/main.py:660
 msgid "Amount of trial-and-error required to solve: "
 msgstr "Брой на необходимите проби и грешки за решаването:"
 
-#: ../gnome-sudoku/src/lib/main.py:678 ../gnome-sudoku/src/lib/main.py:679
+#: ../gnome-sudoku/src/lib/main.py:663 ../gnome-sudoku/src/lib/main.py:664
 msgid "Puzzle Statistics"
 msgstr "Статистика на главоблъсканицата"
 
 #. FIXME: This should create a pop-up dialog
-#: ../gnome-sudoku/src/lib/main.py:714
+#: ../gnome-sudoku/src/lib/main.py:698
 #, python-format
 msgid "Unable to display help: %s"
 msgstr "Помощта не може да бъде показана: %s"
 
-#: ../gnome-sudoku/src/lib/main.py:770
+#: ../gnome-sudoku/src/lib/main.py:754
 msgid "Untracked"
 msgstr "Непроследено"
 
-#: ../gnome-sudoku/src/lib/main.py:779
+#: ../gnome-sudoku/src/lib/main.py:763
 msgid "_Remove"
 msgstr "_Премахване"
 
-#: ../gnome-sudoku/src/lib/main.py:780
+#: ../gnome-sudoku/src/lib/main.py:764
 msgid "Delete selected tracker."
 msgstr "Премахване на това проследяване."
 
-#: ../gnome-sudoku/src/lib/main.py:786
+#: ../gnome-sudoku/src/lib/main.py:770
 msgid "Hide current tracker entries."
 msgstr "Скриване на данните на текущото проследяване."
 
-#: ../gnome-sudoku/src/lib/main.py:791
+#: ../gnome-sudoku/src/lib/main.py:775
 msgid "A_pply"
 msgstr "_Прилагане"
 
-#: ../gnome-sudoku/src/lib/main.py:792
+#: ../gnome-sudoku/src/lib/main.py:776
 msgid "Apply all tracked values and remove the tracker."
 msgstr "Изчистване на всички ходове свързани с това проследяване."
 
-#: ../gnome-sudoku/src/lib/main.py:831
+#: ../gnome-sudoku/src/lib/main.py:814
 #, python-format
 msgid "Tracker %s"
 msgstr "Проследяване %s"
@@ -3205,15 +3126,15 @@ msgid_plural "Played for %d seconds"
 msgstr[0] "Играна %d секунда"
 msgstr[1] "Играна %d секунди"
 
-#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:158
+#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:162
 msgid "Do you really want to do this?"
 msgstr "Наистина ли искате да направите това?"
 
-#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:192
+#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:196
 msgid "Don't ask me this again."
 msgstr "Да не се пита повече."
 
-#: ../gnome-sudoku/src/lib/number_box.py:55
+#: ../gnome-sudoku/src/lib/number_box.py:68
 msgid "_Clear"
 msgstr "_Изчистване"
 
@@ -3221,54 +3142,54 @@ msgstr "_Изчистване"
 msgid "Mines"
 msgstr "Мини"
 
-#: ../gnomine/gnomine.c:103
+#: ../gnomine/gnomine.c:104
 msgctxt "board size"
 msgid "Custom"
 msgstr "Друга"
 
-#: ../gnomine/gnomine.c:169
+#: ../gnomine/gnomine.c:170
 #, c-format
 msgid "Flags: %d/%d"
 msgstr "Флагчета: %d/%d"
 
-#: ../gnomine/gnomine.c:197
+#: ../gnomine/gnomine.c:198
 msgid "The Mines Have Been Cleared!"
 msgstr "Всички мини са изчистени!"
 
-#: ../gnomine/gnomine.c:213
+#: ../gnomine/gnomine.c:214
 msgid "Mines Scores"
 msgstr "Мини — резултати"
 
-#: ../gnomine/gnomine.c:216 ../gnotravex/gnotravex.c:1084
-#: ../swell-foop/src/Score.js:56
+#: ../gnomine/gnomine.c:217 ../gnotravex/gnotravex.c:1085
+#: ../swell-foop/src/Score.js:57
 msgid "Size:"
 msgstr "Размер:"
 
-#: ../gnomine/gnomine.c:321
+#: ../gnomine/gnomine.c:315
 msgid "Click a square, any square"
 msgstr "Натиснете произволно квадратче"
 
-#: ../gnomine/gnomine.c:323
+#: ../gnomine/gnomine.c:317
 msgid "Maybe they're all mines ..."
 msgstr "Може би всички са мини…"
 
-#: ../gnomine/gnomine.c:436 ../mahjongg/mahjongg.c:867
+#: ../gnomine/gnomine.c:430 ../mahjongg/mahjongg.c:859
 msgid "Main game:"
 msgstr "Основната игра:"
 
-#: ../gnomine/gnomine.c:442
+#: ../gnomine/gnomine.c:436
 msgid "Resizing and SVG support:"
 msgstr "Оразмеряване и поддръжка на SVG:"
 
-#: ../gnomine/gnomine.c:449
+#: ../gnomine/gnomine.c:443
 msgid "Faces:"
 msgstr "Тема:"
 
-#: ../gnomine/gnomine.c:452
+#: ../gnomine/gnomine.c:446
 msgid "Graphics:"
 msgstr "Графика:"
 
-#: ../gnomine/gnomine.c:468
+#: ../gnomine/gnomine.c:462
 msgid ""
 "The popular logic puzzle minesweeper. Clear mines from a board using hints "
 "from squares you have already uncovered.\n"
@@ -3280,83 +3201,83 @@ msgstr ""
 "\n"
 "Мините са част от игрите на GNOME."
 
-#: ../gnomine/gnomine.c:631
+#: ../gnomine/gnomine.c:621
 msgid "Field Size"
 msgstr "Размер на дъската"
 
-#: ../gnomine/gnomine.c:654
+#: ../gnomine/gnomine.c:644
 msgid "Custom Size"
 msgstr "Произволен размер"
 
-#: ../gnomine/gnomine.c:661
+#: ../gnomine/gnomine.c:651
 msgid "_Number of mines:"
 msgstr "_Брой мини:"
 
-#: ../gnomine/gnomine.c:674
+#: ../gnomine/gnomine.c:664
 msgid "_Horizontal:"
 msgstr "_Хоризонтално:"
 
-#: ../gnomine/gnomine.c:686
+#: ../gnomine/gnomine.c:676
 msgid "_Vertical:"
 msgstr "В_ертикално:"
 
-#: ../gnomine/gnomine.c:703
+#: ../gnomine/gnomine.c:693
 msgid "Flags"
 msgstr "Флагчета"
 
-#: ../gnomine/gnomine.c:706
+#: ../gnomine/gnomine.c:696
 msgid "_Use \"I'm not sure\" flags"
 msgstr "Използване на _флагчета, когато не сте сигурни"
 
-#: ../gnomine/gnomine.c:717
+#: ../gnomine/gnomine.c:707
 msgid "Warnings"
 msgstr "Предупреждения"
 
-#: ../gnomine/gnomine.c:720
+#: ../gnomine/gnomine.c:710
 msgid "_Use \"Too many flags\" warning"
 msgstr "Използване на _предупреждения за прекалено много флагчета"
 
-#: ../gnomine/gnomine.c:731
+#: ../gnomine/gnomine.c:721
 msgid "Mines Preferences"
 msgstr "Настройки на Мините"
 
-#: ../gnomine/gnomine.c:924
+#: ../gnomine/gnomine.c:914
 msgid "Width of grid"
 msgstr "Широчина на решетката"
 
-#: ../gnomine/gnomine.c:925
+#: ../gnomine/gnomine.c:915
 msgid "Height of grid"
 msgstr "Височина на решетката"
 
-#: ../gnomine/gnomine.c:927
+#: ../gnomine/gnomine.c:917
 msgid "Number of mines"
 msgstr "Брой мини"
 
-#: ../gnomine/gnomine.c:928 ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109
+#: ../gnomine/gnomine.c:918 ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109
 #: ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
 msgid "NUMBER"
 msgstr "БРОЙ"
 
-#: ../gnomine/gnomine.c:930 ../gnomine/gnomine.schemas.in.h:8
+#: ../gnomine/gnomine.c:920 ../gnomine/org.gnome.gnomine.gschema.xml.in.h:8
 msgid "Size of the board (0-2 = small-large, 3=custom)"
 msgstr ""
 "Размер на дъската „0“ (малка), „1“ (средна), „2“ (голяма), „3“ (произволна)"
 
-#: ../gnomine/gnomine.c:931 ../gnotravex/gnotravex.c:260
-#: ../gnotski/gnotski.c:456 ../iagno/gnothello.c:147
+#: ../gnomine/gnomine.c:921 ../gnotravex/gnotravex.c:261
+#: ../gnotski/gnotski.c:456 ../iagno/gnothello.c:148
 msgid "X location of window"
 msgstr "Позиция по X на прозореца"
 
-#: ../gnomine/gnomine.c:933 ../gnotravex/gnotravex.c:262
-#: ../gnotski/gnotski.c:458 ../iagno/gnothello.c:149
+#: ../gnomine/gnomine.c:923 ../gnotravex/gnotravex.c:263
+#: ../gnotski/gnotski.c:458 ../iagno/gnothello.c:150
 msgid "Y location of window"
 msgstr "Позиция по Y на прозореца"
 
-#: ../gnomine/gnomine.c:1069
+#: ../gnomine/gnomine.c:1060
 msgid "Press to Resume"
 msgstr "Натиснете, за да продължите"
 
-#: ../gnomine/gnomine.c:1103
+#: ../gnomine/gnomine.c:1094
 msgid "Time: "
 msgstr "Време: "
 
@@ -3364,35 +3285,36 @@ msgstr "Време: "
 msgid "Clear hidden mines from a minefield"
 msgstr "Изчистване на скритите мини от дъската"
 
-#: ../gnomine/gnomine.schemas.in.h:1 ../swell-foop/swell-foop.schemas.in.h:2
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:1
+#: ../swell-foop/swell-foop.schemas.in.h:2
 msgid "Board size"
 msgstr "Размер на дъската"
 
-#: ../gnomine/gnomine.schemas.in.h:2
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:2
 msgid "Enable automatic placing of flags"
 msgstr "Включване на автоматичното поставяне на флагчета"
 
-#: ../gnomine/gnomine.schemas.in.h:3
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:3
 msgid "Number of columns in a custom game"
 msgstr "Брой колони в произволна игра"
 
-#: ../gnomine/gnomine.schemas.in.h:4
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:4
 msgid "Number of rows in a custom game"
 msgstr "Брой редове в произволната игра"
 
-#: ../gnomine/gnomine.schemas.in.h:5
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:5
 msgid "Set to true to be able to mark squares as unknown."
 msgstr ""
 "Трябва да е „Истина“, за да е разрешено маркирането на квадратчета като "
 "неизвестни."
 
-#: ../gnomine/gnomine.schemas.in.h:6
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:6
 msgid "Set to true to enable warning icons when too many flags are placed."
 msgstr ""
 "Трябва да е „Истина“, за да се включи предупреждение при слагането на "
 "прекалено много флагчета."
 
-#: ../gnomine/gnomine.schemas.in.h:7
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:7
 msgid ""
 "Set to true to have gnomine automatically flag squares as mined when enough "
 "squares are revealed"
@@ -3400,15 +3322,15 @@ msgstr ""
 "Трябва да е „Истина“, за да се поставят автоматично флагчета върху мините, "
 "когато са отрити достатъчно квадратчета"
 
-#: ../gnomine/gnomine.schemas.in.h:9
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:9
 msgid "The number of mines in a custom game"
 msgstr "Броят мини в произволна игра"
 
-#: ../gnomine/gnomine.schemas.in.h:10
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:10
 msgid "Use the unknown flag"
 msgstr "Използване на флагчета за непознато"
 
-#: ../gnomine/gnomine.schemas.in.h:11
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:11
 msgid "Warning about too many flags"
 msgstr "Предупреждения за прекалено много флагчета"
 
@@ -3440,151 +3362,151 @@ msgstr "Изображенията не могат да се заредят"
 msgid "Tetravex"
 msgstr "Tetravex"
 
-#: ../gnotravex/gnotravex.c:114
+#: ../gnotravex/gnotravex.c:115
 msgid "2×2"
 msgstr "2×2"
 
-#: ../gnotravex/gnotravex.c:115
+#: ../gnotravex/gnotravex.c:116
 msgid "3×3"
 msgstr "3×3"
 
-#: ../gnotravex/gnotravex.c:116
+#: ../gnotravex/gnotravex.c:117
 msgid "4×4"
 msgstr "4×4"
 
-#: ../gnotravex/gnotravex.c:117
+#: ../gnotravex/gnotravex.c:118
 msgid "5×5"
 msgstr "5×5"
 
-#: ../gnotravex/gnotravex.c:118
+#: ../gnotravex/gnotravex.c:119
 msgid "6×6"
 msgstr "6×6"
 
-#: ../gnotravex/gnotravex.c:197
+#: ../gnotravex/gnotravex.c:198
 msgid "_2×2"
 msgstr "_2х2"
 
-#: ../gnotravex/gnotravex.c:197
+#: ../gnotravex/gnotravex.c:198
 msgid "Play on a 2×2 board"
 msgstr "Игра на дъска 2х2"
 
-#: ../gnotravex/gnotravex.c:199
+#: ../gnotravex/gnotravex.c:200
 msgid "_3×3"
 msgstr "_3×3"
 
-#: ../gnotravex/gnotravex.c:199
+#: ../gnotravex/gnotravex.c:200
 msgid "Play on a 3×3 board"
 msgstr "Игра на дъска 3х3"
 
-#: ../gnotravex/gnotravex.c:201
+#: ../gnotravex/gnotravex.c:202
 msgid "_4×4"
 msgstr "_4×4"
 
-#: ../gnotravex/gnotravex.c:201
+#: ../gnotravex/gnotravex.c:202
 msgid "Play on a 4×4 board"
 msgstr "Игра на дъска 4х4"
 
-#: ../gnotravex/gnotravex.c:203
+#: ../gnotravex/gnotravex.c:204
 msgid "_5×5"
 msgstr "_5×5"
 
-#: ../gnotravex/gnotravex.c:203
+#: ../gnotravex/gnotravex.c:204
 msgid "Play on a 5×5 board"
 msgstr "Игра на дъска 5х5"
 
-#: ../gnotravex/gnotravex.c:205
+#: ../gnotravex/gnotravex.c:206
 msgid "_6×6"
 msgstr "_6×6"
 
-#: ../gnotravex/gnotravex.c:205
+#: ../gnotravex/gnotravex.c:206
 msgid "Play on a 6×6 board"
 msgstr "Игра на дъска 6х6"
 
-#: ../gnotravex/gnotravex.c:264
+#: ../gnotravex/gnotravex.c:265
 msgid "Size of board (2-6)"
 msgstr "Размер на дъската (2÷6)"
 
-#: ../gnotravex/gnotravex.c:265
+#: ../gnotravex/gnotravex.c:266
 msgid "SIZE"
 msgstr "РАЗМЕР"
 
 #. Translators: in-game numbers, replaceable with single-character local ideograms
-#: ../gnotravex/gnotravex.c:459
+#: ../gnotravex/gnotravex.c:460
 msgctxt "number"
 msgid "0"
 msgstr "0"
 
-#: ../gnotravex/gnotravex.c:460
+#: ../gnotravex/gnotravex.c:461
 msgctxt "number"
 msgid "1"
 msgstr "1"
 
-#: ../gnotravex/gnotravex.c:461
+#: ../gnotravex/gnotravex.c:462
 msgctxt "number"
 msgid "2"
 msgstr "2"
 
-#: ../gnotravex/gnotravex.c:462
+#: ../gnotravex/gnotravex.c:463
 msgctxt "number"
 msgid "3"
 msgstr "3"
 
-#: ../gnotravex/gnotravex.c:463
+#: ../gnotravex/gnotravex.c:464
 msgctxt "number"
 msgid "4"
 msgstr "4"
 
-#: ../gnotravex/gnotravex.c:464
+#: ../gnotravex/gnotravex.c:465
 msgctxt "number"
 msgid "5"
 msgstr "5"
 
-#: ../gnotravex/gnotravex.c:465
+#: ../gnotravex/gnotravex.c:466
 msgctxt "number"
 msgid "6"
 msgstr "6"
 
-#: ../gnotravex/gnotravex.c:466
+#: ../gnotravex/gnotravex.c:467
 msgctxt "number"
 msgid "7"
 msgstr "7"
 
-#: ../gnotravex/gnotravex.c:467
+#: ../gnotravex/gnotravex.c:468
 msgctxt "number"
 msgid "8"
 msgstr "8"
 
-#: ../gnotravex/gnotravex.c:468
+#: ../gnotravex/gnotravex.c:469
 msgctxt "number"
 msgid "9"
 msgstr "9"
 
-#: ../gnotravex/gnotravex.c:912 ../mahjongg/mahjongg.c:935
+#: ../gnotravex/gnotravex.c:913 ../mahjongg/mahjongg.c:927
 msgid "Game paused"
 msgstr "Играта е на пауза"
 
-#: ../gnotravex/gnotravex.c:974
+#: ../gnotravex/gnotravex.c:975
 #, c-format
 msgid "Playing %d×%d board"
 msgstr "Дъската е %d×%d"
 
-#: ../gnotravex/gnotravex.c:1082
+#: ../gnotravex/gnotravex.c:1083
 msgid "Tetravex Scores"
 msgstr "Резултати от „Tetravex“"
 
-#: ../gnotravex/gnotravex.c:1144
+#: ../gnotravex/gnotravex.c:1145
 msgid "Puzzle solved! Well done!"
 msgstr "Наредихте главоблъсканицата! Браво!"
 
-#: ../gnotravex/gnotravex.c:1146
+#: ../gnotravex/gnotravex.c:1147
 msgid "Puzzle solved!"
 msgstr "Наредихте главоблъсканицата!"
 
-#: ../gnotravex/gnotravex.c:1401 ../mahjongg/mahjongg.c:1407
+#: ../gnotravex/gnotravex.c:1402 ../mahjongg/mahjongg.c:1393
 msgid "Time:"
 msgstr "Време:"
 
-#: ../gnotravex/gnotravex.c:1602
+#: ../gnotravex/gnotravex.c:1603
 msgid ""
 "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
 "the same numbers are touching each other.\n"
@@ -3596,51 +3518,51 @@ msgstr ""
 "\n"
 "„Tetravex“ е част от игрите на GNOME."
 
-#: ../gnotravex/gnotravex.c:1709
+#: ../gnotravex/gnotravex.c:1710
 msgid "_Size"
 msgstr "_Дъска"
 
-#: ../gnotravex/gnotravex.c:1714
+#: ../gnotravex/gnotravex.c:1715
 msgid "Sol_ve"
 msgstr "_Решаване"
 
-#: ../gnotravex/gnotravex.c:1714
+#: ../gnotravex/gnotravex.c:1715
 msgid "Solve the game"
 msgstr "Решаване на играта"
 
-#: ../gnotravex/gnotravex.c:1718
+#: ../gnotravex/gnotravex.c:1719
 msgid "_Up"
 msgstr "На_горе"
 
-#: ../gnotravex/gnotravex.c:1719
+#: ../gnotravex/gnotravex.c:1720
 msgid "Move the pieces up"
 msgstr "Преместване на пуловете нагоре"
 
-#: ../gnotravex/gnotravex.c:1720
+#: ../gnotravex/gnotravex.c:1721
 msgid "_Left"
 msgstr "На_ляво"
 
-#: ../gnotravex/gnotravex.c:1721
+#: ../gnotravex/gnotravex.c:1722
 msgid "Move the pieces left"
 msgstr "Преместване на пуловете наляво"
 
-#: ../gnotravex/gnotravex.c:1722
+#: ../gnotravex/gnotravex.c:1723
 msgid "_Right"
 msgstr "На_дясно"
 
-#: ../gnotravex/gnotravex.c:1723
+#: ../gnotravex/gnotravex.c:1724
 msgid "Move the pieces right"
 msgstr "Преместване на пуловете надясно"
 
-#: ../gnotravex/gnotravex.c:1724
+#: ../gnotravex/gnotravex.c:1725
 msgid "_Down"
 msgstr "Над_олу"
 
-#: ../gnotravex/gnotravex.c:1725
+#: ../gnotravex/gnotravex.c:1726
 msgid "Move the pieces down"
 msgstr "Преместване на пуловете надолу"
 
-#: ../gnotravex/gnotravex.c:1730
+#: ../gnotravex/gnotravex.c:1731
 msgid "_Click to Move"
 msgstr "_Без задържане на бутона на мишката"
 
@@ -3649,11 +3571,11 @@ msgid "Complete the puzzle by matching numbered tiles"
 msgstr ""
 "Главоблъсканицата се решава като плочките се наредят и числата съвпаднат"
 
-#: ../gnotravex/gnotravex.schemas.in.h:1
+#: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:1
 msgid "Select the style of control"
 msgstr "Избор на вид на управлението"
 
-#: ../gnotravex/gnotravex.schemas.in.h:2
+#: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:2
 msgid ""
 "Select whether to drag the tiles or to click on the source then the "
 "destination."
@@ -3661,17 +3583,15 @@ msgstr ""
 "Избор дали да се влачат плочките или да се натиска върху източника и след "
 "това върху целта."
 
-#: ../gnotravex/gnotravex.schemas.in.h:3
+#: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:3
 msgid "The size of the playing grid"
 msgstr "Размер на дъската за игра"
 
-#: ../gnotravex/gnotravex.schemas.in.h:4
-msgid ""
-"The value of this key is used to decide the size of the playing grid. The "
-"valid values are 2 to 8, anything else gets set to 3."
+#: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:4
+msgid "The value of this key is used to decide the size of the playing grid."
 msgstr ""
 "Стойността на този ключ се използва за задаване на размера на дъската за "
-"игра. Валидни стойности са 2÷8, всички останали се възприемат като 3."
+"игра."
 
 #: ../gnotski/gnotski.c:48 ../gnotski/gnotski.desktop.in.in.h:1
 msgid "Klotski"
@@ -4236,7 +4156,7 @@ msgstr "5 еднакви [сбор]"
 msgid "Iagno"
 msgstr "Iagno"
 
-#: ../iagno/gnothello.c:267
+#: ../iagno/gnothello.c:268
 msgid ""
 "A disk flipping game derived from Reversi.\n"
 "\n"
@@ -4246,45 +4166,45 @@ msgstr ""
 "\n"
 "„Iagno“ е част от игрите на GNOME."
 
-#: ../iagno/gnothello.c:334
+#: ../iagno/gnothello.c:335
 msgid "Invalid move."
 msgstr "Непозволен ход."
 
-#: ../iagno/gnothello.c:690 ../iagno/gnothello.c:692
+#: ../iagno/gnothello.c:691 ../iagno/gnothello.c:693
 #, c-format
 msgid "%.2d"
 msgstr "%.2d"
 
-#: ../iagno/gnothello.c:714
+#: ../iagno/gnothello.c:715
 msgid "It is your turn to place a dark piece"
 msgstr "Ваш ред е за ход с черните"
 
-#: ../iagno/gnothello.c:716
+#: ../iagno/gnothello.c:717
 msgid "It is your turn to place a light piece"
 msgstr "Ваш ред е за ход с белите"
 
-#: ../iagno/gnothello.c:719
+#: ../iagno/gnothello.c:720
 #, c-format
 msgid "Waiting for %s to move"
 msgstr "Изчакване на хода на %s"
 
-#: ../iagno/gnothello.c:726
+#: ../iagno/gnothello.c:727
 msgid "Dark's move"
 msgstr "Ход на черните"
 
-#: ../iagno/gnothello.c:728
+#: ../iagno/gnothello.c:729
 msgid "Light's move"
 msgstr "Ход на белите"
 
-#: ../iagno/gnothello.c:976
+#: ../iagno/gnothello.c:977
 msgid "Dark:"
 msgstr "Черни:"
 
-#: ../iagno/gnothello.c:986
+#: ../iagno/gnothello.c:987
 msgid "Light:"
 msgstr "Бели:"
 
-#: ../iagno/gnothello.c:1010
+#: ../iagno/gnothello.c:1011
 msgid "Welcome to Iagno!"
 msgstr "Добре дошли в „Iagno“!"
 
@@ -4312,43 +4232,43 @@ msgstr "Белите пропускат, на ход са черните"
 msgid "Dark must pass, Light's move"
 msgstr "Черните пропускат, на ход са белите"
 
-#: ../iagno/properties.c:399
+#: ../iagno/properties.c:380
 msgid "Iagno Preferences"
 msgstr "Настройки на „Iagno“"
 
-#: ../iagno/properties.c:428
+#: ../iagno/properties.c:409
 msgid "_Use quick moves"
 msgstr "_Използване на бързи ходове"
 
-#: ../iagno/properties.c:533
+#: ../iagno/properties.c:514
 msgid "Animation"
 msgstr "Анимация"
 
-#: ../iagno/properties.c:537
+#: ../iagno/properties.c:518
 msgid "None"
 msgstr "Без"
 
-#: ../iagno/properties.c:546
+#: ../iagno/properties.c:527
 msgid "Partial"
 msgstr "Частична"
 
-#: ../iagno/properties.c:555
+#: ../iagno/properties.c:536
 msgid "Complete"
 msgstr "Пълна"
 
-#: ../iagno/properties.c:569
+#: ../iagno/properties.c:550
 msgid "_Stagger flips"
 msgstr "_Завъртане с ефект"
 
-#: ../iagno/properties.c:577
+#: ../iagno/properties.c:558
 msgid "S_how grid"
 msgstr "_Показване на решетката"
 
-#: ../iagno/properties.c:584
+#: ../iagno/properties.c:565
 msgid "_Flip final results"
 msgstr "_Обръщане на крайните резултати"
 
-#: ../iagno/properties.c:593 ../mahjongg/mahjongg.c:694
+#: ../iagno/properties.c:574 ../mahjongg/mahjongg.c:686
 msgid "_Tile set:"
 msgstr "_Вид пулове:"
 
@@ -4502,7 +4422,7 @@ msgstr "Продължаване на временно спряна игра"
 msgid "View the scores"
 msgstr "Преглед на резултатите"
 
-#: ../libgames-support/games-stock.c:57 ../mahjongg/mahjongg.c:1207
+#: ../libgames-support/games-stock.c:57 ../mahjongg/mahjongg.c:1199
 msgid "Undo the last move"
 msgstr "Отмяна на последния ход"
 
@@ -4522,62 +4442,62 @@ msgstr "Настройване на играта"
 msgid "Quit this game"
 msgstr "Изход от тази игра"
 
-#: ../libgames-support/games-stock.c:253
+#: ../libgames-support/games-stock.c:250
 msgid "_Fullscreen"
 msgstr "На цял _екран"
 
 #. Translators: This "_New" is for the menu item 'Game->New', implies "New Game"
-#: ../libgames-support/games-stock.c:256
+#: ../libgames-support/games-stock.c:253
 msgid "_New"
 msgstr "_Нова игра"
 
-#: ../libgames-support/games-stock.c:259
+#: ../libgames-support/games-stock.c:256
 msgid "_Redo Move"
 msgstr "_Отмяна на връщането"
 
 #. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
-#: ../libgames-support/games-stock.c:263
+#: ../libgames-support/games-stock.c:260
 msgid "_Restart"
 msgstr "_Отначало"
 
-#: ../libgames-support/games-stock.c:265
+#: ../libgames-support/games-stock.c:262
 msgid "_Deal"
 msgstr "Р_аздаване"
 
-#: ../libgames-support/games-stock.c:266
+#: ../libgames-support/games-stock.c:263
 msgid "_Leave Fullscreen"
 msgstr "_Изход от цял екран"
 
-#: ../libgames-support/games-stock.c:267
+#: ../libgames-support/games-stock.c:264
 msgid "Network _Game"
 msgstr "Игра в _мрежа"
 
-#: ../libgames-support/games-stock.c:268
+#: ../libgames-support/games-stock.c:265
 msgid "L_eave Game"
 msgstr "_Напускане на играта"
 
-#: ../libgames-support/games-stock.c:269
+#: ../libgames-support/games-stock.c:266
 msgid "Player _List"
 msgstr "_Списък с играчи"
 
-#: ../libgames-support/games-stock.c:270
+#: ../libgames-support/games-stock.c:267
 msgid "_Pause"
 msgstr "_Пауза"
 
-#: ../libgames-support/games-stock.c:271
+#: ../libgames-support/games-stock.c:268
 msgid "Res_ume"
 msgstr "Про_дължаване"
 
-#: ../libgames-support/games-stock.c:272
+#: ../libgames-support/games-stock.c:269
 msgid "_Scores"
 msgstr "_Резултати"
 
-#: ../libgames-support/games-stock.c:273
+#: ../libgames-support/games-stock.c:270
 msgid "_End Game"
 msgstr "_Край на играта"
 
 #. %s is replaced with the name of the game in gnome-games.
-#: ../libgames-support/games-stock.c:323
+#: ../libgames-support/games-stock.c:320
 #, c-format
 msgid ""
 "%s is free software; you can redistribute it and/or modify it under the "
@@ -4590,7 +4510,31 @@ msgstr ""
 "публикуван от Фондацията за свободен софтуер — версия %d на лиценза или (по "
 "ваше решение) по-късна версия."
 
-#: ../libgames-support/games-stock.c:337
+# Смешно, колкото и да се мъча да стандартизирам низовете, все накой ще си напише някаква щуротия в лиценза.
+#: ../libgames-support/games-stock.c:325
+#, c-format
+msgid ""
+"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Тази програма (%s) се разпространява с надеждата, че ще бъде полезна, но БЕЗ "
+"НИКАКВИ ГАРАНЦИИ, дори и косвените за ПРОДАЖБА или СЪОТВЕТСТВИЕ С КАКВАТО И "
+"ДА Е УПОТРЕБА. За подробности погледнете Общия публичен лиценз на GNU."
+
+#: ../libgames-support/games-stock.c:330
+#, c-format
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"Трябва да сте получили копие от Общия публичен лиценз на GNU (GNU GPL) "
+"заедно с тази програма (%s). Ако не сте, пишете до Free Software Foundation, "
+"Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+
+#: ../libgames-support/games-stock.c:334
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -4683,76 +4627,76 @@ msgstr ""
 "\n"
 "Проверете дали играта Mahjongg е инсталирана правилно"
 
-#: ../mahjongg/mahjongg.c:45 ../mahjongg/mahjongg.c:895
-#: ../mahjongg/mahjongg.c:898 ../mahjongg/mahjongg.desktop.in.in.h:2
+#: ../mahjongg/mahjongg.c:45 ../mahjongg/mahjongg.c:887
+#: ../mahjongg/mahjongg.c:890 ../mahjongg/mahjongg.desktop.in.in.h:2
 msgid "Mahjongg"
 msgstr "Mahjongg"
 
-#: ../mahjongg/mahjongg.c:136
+#: ../mahjongg/mahjongg.c:134
 msgid "Could not load tile set"
 msgstr "Не може да се зареди набор с плочки"
 
-#: ../mahjongg/mahjongg.c:271
+#: ../mahjongg/mahjongg.c:263
 msgid "Do you want to start a new game with this map?"
 msgstr "Искате ли да започнете нова игра с тази карта?"
 
-#: ../mahjongg/mahjongg.c:273
+#: ../mahjongg/mahjongg.c:265
 msgid "If you continue playing the next game will use the new map."
 msgstr "Ако продължите игра, следващата игра ще използва новата карта."
 
-#: ../mahjongg/mahjongg.c:275
+#: ../mahjongg/mahjongg.c:267
 msgid "_Continue playing"
 msgstr "_Продължаване на играта"
 
-#: ../mahjongg/mahjongg.c:276
+#: ../mahjongg/mahjongg.c:268
 msgid "Use _new map"
 msgstr "Ползване на _новата карта"
 
-#: ../mahjongg/mahjongg.c:579
+#: ../mahjongg/mahjongg.c:571
 msgid "There are no more moves."
 msgstr "Няма повече ходове."
 
-#: ../mahjongg/mahjongg.c:582
+#: ../mahjongg/mahjongg.c:574
 msgid "_New game"
 msgstr "_Нова игра"
 
-#: ../mahjongg/mahjongg.c:587
+#: ../mahjongg/mahjongg.c:579
 msgid "_Shuffle"
 msgstr "_Разбъркване"
 
-#: ../mahjongg/mahjongg.c:626 ../mahjongg/mahjongg.c:951
+#: ../mahjongg/mahjongg.c:618 ../mahjongg/mahjongg.c:943
 msgid "Mahjongg Scores"
 msgstr "Резултати от „Mahjongg“"
 
-#: ../mahjongg/mahjongg.c:667
+#: ../mahjongg/mahjongg.c:659
 msgid "Mahjongg Preferences"
 msgstr "Настройки на „Mahjongg“"
 
-#: ../mahjongg/mahjongg.c:687
+#: ../mahjongg/mahjongg.c:679
 msgid "Tiles"
 msgstr "Плочки"
 
-#: ../mahjongg/mahjongg.c:708
+#: ../mahjongg/mahjongg.c:700
 msgid "Maps"
 msgstr "Подредби"
 
-#: ../mahjongg/mahjongg.c:715
+#: ../mahjongg/mahjongg.c:707
 msgid "_Select map:"
 msgstr "_Избор на подредба:"
 
-#: ../mahjongg/mahjongg.c:729
+#: ../mahjongg/mahjongg.c:721
 msgid "Colors"
 msgstr "Цветна"
 
-#: ../mahjongg/mahjongg.c:875
+#: ../mahjongg/mahjongg.c:867
 msgid "Maps:"
 msgstr "Подредби:"
 
-#: ../mahjongg/mahjongg.c:882
+#: ../mahjongg/mahjongg.c:874
 msgid "Tiles:"
 msgstr "Плочки:"
 
-#: ../mahjongg/mahjongg.c:901
+#: ../mahjongg/mahjongg.c:893
 msgid ""
 "A matching game played with Mahjongg tiles.\n"
 "\n"
@@ -4762,32 +4706,32 @@ msgstr ""
 "\n"
 "„Mahjongg“ е част от игрите на GNOME."
 
-#: ../mahjongg/mahjongg.c:1146
+#: ../mahjongg/mahjongg.c:1138
 #, c-format
 msgid "Mahjongg - %s"
 msgstr "Mahjongg — %s"
 
-#: ../mahjongg/mahjongg.c:1206
+#: ../mahjongg/mahjongg.c:1198
 msgid "Restart the current game"
 msgstr "Започване на тази игра отначало"
 
-#: ../mahjongg/mahjongg.c:1209
+#: ../mahjongg/mahjongg.c:1201
 msgid "Redo the last move"
 msgstr "Повтаряне на последния ход"
 
-#: ../mahjongg/mahjongg.c:1211
+#: ../mahjongg/mahjongg.c:1203
 msgid "Show a hint"
 msgstr "Съвет"
 
-#: ../mahjongg/mahjongg.c:1389
+#: ../mahjongg/mahjongg.c:1375
 msgid "Tiles Left:"
 msgstr "Оставащи плочки:"
 
-#: ../mahjongg/mahjongg.c:1398
+#: ../mahjongg/mahjongg.c:1384
 msgid "Moves Left:"
 msgstr "Оставащи ходове:"
 
-#: ../mahjongg/mahjongg.c:1460
+#: ../mahjongg/mahjongg.c:1448
 msgid "Remove matching pairs of tiles."
 msgstr "Махайте от дъската съвпадащите плочки."
 
@@ -4890,12 +4834,12 @@ msgstr "По-красива анимация"
 
 #: ../swell-foop/src/About.js:13
 msgid ""
-"I want to play that game! You know, they all go whirly-round and you click "
-"on them and they vanish!\n"
+"I want to play that game! You know, they all light-up and you click on them "
+"and they vanish!\n"
 "\n"
 "Swell Foop is a part of GNOME Games."
 msgstr ""
-"Искам да играя на това! Сещаш се, нали, дето се връткат и като ги натиснеш — "
+"Искам да играя на това! Сещаш се, нали, дето мигат и като ги натиснеш — "
 "изчезват!\n"
 "\n"
 "„Еднакви“ е част от игрите на GNOME."
@@ -4904,25 +4848,25 @@ msgstr ""
 msgid "No points"
 msgstr "Няма точки"
 
-#: ../swell-foop/src/Board.js:105 ../swell-foop/src/Score.js:109
+#: ../swell-foop/src/Board.js:105 ../swell-foop/src/Score.js:110
 #, c-format
 msgid "%d point"
 msgid_plural "%d points"
 msgstr[0] "%d точка"
 msgstr[1] "%d точки"
 
-#: ../swell-foop/src/Score.js:54
+#: ../swell-foop/src/Score.js:55
 msgid "Swell Foop Scores"
 msgstr "Резултати от „Еднакви“"
 
-#: ../swell-foop/src/Score.js:144
+#: ../swell-foop/src/Score.js:145
 msgid "Small"
 msgstr "Малка"
 
-#: ../swell-foop/src/Score.js:145
+#: ../swell-foop/src/Score.js:146
 msgid "Normal"
 msgstr "Нормална"
 
-#: ../swell-foop/src/Score.js:146
+#: ../swell-foop/src/Score.js:147
 msgid "Large"
 msgstr "Голяма"
