@@ -1,3 +1,37 @@
+gnome-games 3.1.5
+=================
+
+Major changes:
+* Gnomine, iagno, and mahjongg ported to GSettings
+
+Bug fixes:
+* Really remove ggz support from iagno
+
+Alexander Shopov (1):
+      Updated Bulgarian translation
+
+Daniel Nylander (1):
+      Updated Swedish translation
+
+Jeremy Bicha (1):
+      Really remove ggz support from iagno
+
+Mario Blättermann (2):
+      [l10n] Updated German doc translation
+      [l10n] Updated German doc translation
+
+Piotr Drąg (1):
+      Updated Polish translation
+
+Thomas Hindoe Paaboel Andersen (7):
+      iagno: port to GSettings
+      gnibbles: remove unused variable
+      iagno: fix typo in last commit
+      gnomine: port to GSettings
+      gnomine: remove unused variables
+      version bump
+      mahjongg: GSettings port
+
 gnome-games 3.1.4
 =================
 
