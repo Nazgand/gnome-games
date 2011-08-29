@@ -1,3 +1,24 @@
+gnome-games 3.1.90
+==================
+
+Shortlog of changes since 3.1.5:
+Aurimas Černius (1):
+      Updated Lithuanian translation
+
+Carles Ferrando (1):
+      [l10n]Updated Catalan documentation
+
+Marek Černocký (1):
+      Updated Czech translation
+
+Mario Blättermann (1):
+      [l10n] Updated German translation
+
+Thomas Hindoe Paaboel Andersen (3):
+      version bump
+      gnect,gnobots2: remove unused variables
+      Removed too much in previous commit
+
 gnome-games 3.1.5
 =================
 
