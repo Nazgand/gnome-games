@@ -1,3 +1,44 @@
+gnome-games 3.1.91
+==================
+Major changes:
+* Glines ported to GSettings
+
+Bug fixes:
+* Fix compile issues with Vala 0.13.3
+* gnect: Use the correct player names in Preferences
+
+Shortlog of changes since 3.1.90:
+Flamarion Jorge (1):
+      Updated Brazilian Portuguese translation.
+
+Fran Dieguez (1):
+      Updated galician translations
+
+Ihar Hrachyshka (1):
+      Updated Belarusian translation.
+
+Jeremy Bicha (1):
+      gnect: Use the correct player names in Preferences
+
+Jorge González (2):
+      Updated Spanish translation
+      Updated Spanish translation
+
+Piotr Drąg (1):
+      Updated Polish translation
+
+Robert Ancell (1):
+      chess: Fix compile issues with Vala 0.13.3 (Bug #657130)
+
+Thomas Hindoe Paaboel Andersen (1):
+      version bump
+
+Tiffany Antopolski (1):
+      [help] fix typo in video subtitle (edjes-->edges).
+
+Marc Ruiz (1):
+      Glines GConf to GSettings migration.
+
 gnome-games 3.1.90
 ==================
 
