@@ -11,14 +11,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-games&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-06-09 12:33+0000\n"
-"PO-Revision-Date: 2011-06-11 09:07+0100\n"
+"POT-Creation-Date: 2011-09-06 20:09+0000\n"
+"PO-Revision-Date: 2011-09-07 20:43+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
 "X-Poedit-Country: SLOVENIA\n"
 "X-Poedit-Language: Slovenian\n"
@@ -160,7 +160,7 @@ msgstr "Pokaži predhodni premik"
 #: ../glchess/data/glchess.ui.h:16
 #: ../gnobots2/menu.c:71
 #: ../libgames-support/games-stock.c:50
-#: ../mahjongg/mahjongg.c:1203
+#: ../mahjongg/mahjongg.c:1195
 msgid "Start a new game"
 msgstr "Začni novo igro"
 
@@ -179,18 +179,18 @@ msgstr "_Vsebina"
 #. Game menu name
 #: ../glchess/data/glchess.ui.h:22
 #: ../glines/glines.c:1639
-#: ../gnect/src/main.c:1244
-#: ../gnibbles/main.c:687
+#: ../gnect/src/main.c:1187
+#: ../gnibbles/main.c:600
 #: ../gnobots2/menu.c:66
 #: ../quadrapassel/tetris.cpp:108
 #: ../gnome-sudoku/src/lib/main.py:210
-#: ../gnomine/gnomine.c:768
+#: ../gnomine/gnomine.c:758
 #: ../gnotravex/gnotravex.c:1707
 #: ../gnotski/gnotski.c:409
 #: ../gtali/gyahtzee.c:711
-#: ../iagno/gnothello.c:847
+#: ../iagno/gnothello.c:763
 #: ../lightsoff/data/lightsoff.ui.h:2
-#: ../mahjongg/mahjongg.c:1200
+#: ../mahjongg/mahjongg.c:1192
 #: ../swell-foop/data/swell-foop.ui.h:2
 msgid "_Game"
 msgstr "_Igra"
@@ -198,18 +198,18 @@ msgstr "_Igra"
 #. Help menu item
 #: ../glchess/data/glchess.ui.h:24
 #: ../glines/glines.c:1641
-#: ../gnect/src/main.c:1247
-#: ../gnibbles/main.c:690
+#: ../gnect/src/main.c:1190
+#: ../gnibbles/main.c:603
 #: ../gnobots2/menu.c:70
 #: ../quadrapassel/tetris.cpp:110
 #: ../gnome-sudoku/src/lib/main.py:233
-#: ../gnomine/gnomine.c:770
+#: ../gnomine/gnomine.c:760
 #: ../gnotravex/gnotravex.c:1711
 #: ../gnotski/gnotski.c:411
 #: ../gtali/gyahtzee.c:713
-#: ../iagno/gnothello.c:849
+#: ../iagno/gnothello.c:765
 #: ../lightsoff/data/lightsoff.ui.h:3
-#: ../mahjongg/mahjongg.c:1202
+#: ../mahjongg/mahjongg.c:1194
 #: ../swell-foop/data/swell-foop.ui.h:3
 msgid "_Help"
 msgstr "Pomo_č"
@@ -222,16 +222,16 @@ msgstr "_Odstopi"
 #. Settings menu item
 #: ../glchess/data/glchess.ui.h:28
 #: ../glines/glines.c:1640
-#: ../gnect/src/main.c:1246
-#: ../gnibbles/main.c:689
+#: ../gnect/src/main.c:1189
+#: ../gnibbles/main.c:602
 #: ../gnobots2/menu.c:69
 #: ../quadrapassel/tetris.cpp:109
 #: ../gnome-sudoku/src/lib/main.py:224
-#: ../gnomine/gnomine.c:769
+#: ../gnomine/gnomine.c:759
 #: ../gnotravex/gnotravex.c:1709
 #: ../gtali/gyahtzee.c:712
-#: ../iagno/gnothello.c:848
-#: ../mahjongg/mahjongg.c:1201
+#: ../iagno/gnothello.c:764
+#: ../mahjongg/mahjongg.c:1193
 msgid "_Settings"
 msgstr "_Nastavitve"
 
@@ -284,10 +284,10 @@ msgstr "Pet minut"
 #. Preferences Dialog: Tab title for game preferences
 #: ../glchess/data/preferences.ui.h:18
 #: ../gnect/src/prefs.c:301
-#: ../gnibbles/preferences.c:254
+#: ../gnibbles/preferences.c:237
 #: ../gnobots2/properties.c:496
 #: ../quadrapassel/tetris.cpp:596
-#: ../iagno/properties.c:415
+#: ../iagno/properties.c:396
 msgid "Game"
 msgstr "Igra"
 
@@ -333,8 +333,8 @@ msgstr "Igraj kot:"
 
 #. Title for preferences dialog
 #: ../glchess/data/preferences.ui.h:36
-#: ../glines/glines.c:196
-#: ../mahjongg/mahjongg.c:141
+#: ../glines/glines.c:195
+#: ../mahjongg/mahjongg.c:139
 msgid "Preferences"
 msgstr "Možnosti"
 
@@ -1068,18 +1068,18 @@ msgstr ""
 "Igra glChess je del iger GNOME."
 
 #: ../glchess/src/glchess.vala:1367
-#: ../glines/glines.c:1218
-#: ../gnect/src/main.c:877
-#: ../gnibbles/main.c:211
+#: ../glines/glines.c:1224
+#: ../gnect/src/main.c:828
+#: ../gnibbles/main.c:177
 #: ../gnobots2/menu.c:263
 #: ../quadrapassel/tetris.cpp:1313
-#: ../gnomine/gnomine.c:479
+#: ../gnomine/gnomine.c:473
 #: ../gnotravex/gnotravex.c:1616
 #: ../gnotski/gnotski.c:1490
 #: ../gtali/gyahtzee.c:621
-#: ../iagno/gnothello.c:272
+#: ../iagno/gnothello.c:226
 #: ../lightsoff/src/About.js:19
-#: ../mahjongg/mahjongg.c:911
+#: ../mahjongg/mahjongg.c:903
 #: ../swell-foop/src/About.js:19
 msgid "GNOME Games web site"
 msgstr "Spletna stran GNOME iger"
@@ -1134,29 +1134,29 @@ msgstr "[DATOTEKA] - Igre šaha"
 msgid "Run '%s --help' to see a full list of available command line options."
 msgstr "Za popoln seznam možnosti ukazne vrstice zaženite '%s --help'."
 
-#: ../glines/glines.c:89
-#: ../gnomine/gnomine.c:100
+#: ../glines/glines.c:87
+#: ../gnomine/gnomine.c:101
 msgctxt "board size"
 msgid "Small"
 msgstr "Majhno"
 
-#: ../glines/glines.c:90
-#: ../gnomine/gnomine.c:101
+#: ../glines/glines.c:88
+#: ../gnomine/gnomine.c:102
 msgctxt "board size"
 msgid "Medium"
 msgstr "Srednja"
 
-#: ../glines/glines.c:91
-#: ../gnomine/gnomine.c:102
+#: ../glines/glines.c:89
+#: ../gnomine/gnomine.c:103
 msgctxt "board size"
 msgid "Large"
 msgstr "Velika"
 
-#: ../glines/glines.c:190
+#: ../glines/glines.c:189
 msgid "Could not load theme"
 msgstr "Ni mogoče naložiti teme"
 
-#: ../glines/glines.c:218
+#: ../glines/glines.c:217
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1169,7 +1169,7 @@ msgstr ""
 "\n"
 "Naložena bo privzeta tema."
 
-#: ../glines/glines.c:225
+#: ../glines/glines.c:224
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1182,37 +1182,37 @@ msgstr ""
 "\n"
 "Preverite, da je igra Pet ali več pravilno nameščena."
 
-#: ../glines/glines.c:444
+#: ../glines/glines.c:448
 msgid "Match five objects of the same type in a row to score!"
 msgstr "Za pridobitev točk postavite v vrsto pet kroglic iste barve!"
 
-#: ../glines/glines.c:506
+#: ../glines/glines.c:510
 msgid "GNOME Five or More"
 msgstr "Pet ali več za GNOME"
 
-#: ../glines/glines.c:508
+#: ../glines/glines.c:512
 msgid "_Board size:"
 msgstr "_Velikost plošče:"
 
-#: ../glines/glines.c:525
+#: ../glines/glines.c:529
 #: ../swell-foop/src/Score.js:110
 msgid "Game Over!"
 msgstr "Konec igre!"
 
 #. Can't move there!
-#: ../glines/glines.c:682
+#: ../glines/glines.c:686
 msgid "You can't move there!"
 msgstr "Ta premik ni možen!"
 
-#: ../glines/glines.c:1204
-#: ../glines/glines.c:1207
+#: ../glines/glines.c:1210
+#: ../glines/glines.c:1213
 #: ../glines/glines.c:1751
 #: ../glines/glines.c:1783
 #: ../glines/glines.desktop.in.in.h:1
 msgid "Five or More"
 msgstr "Pet ali več"
 
-#: ../glines/glines.c:1209
+#: ../glines/glines.c:1215
 msgid ""
 "GNOME port of the once-popular Color Lines game.\n"
 "\n"
@@ -1223,19 +1223,19 @@ msgstr ""
 "Igra Pet ali več je del iger GNOME."
 
 #. this doesn't work for anyone
-#: ../glines/glines.c:1215
-#: ../gnect/src/main.c:880
-#: ../gnibbles/main.c:208
+#: ../glines/glines.c:1221
+#: ../gnect/src/main.c:831
+#: ../gnibbles/main.c:174
 #: ../gnobots2/menu.c:267
 #: ../quadrapassel/tetris.cpp:1316
 #: ../gnome-sudoku/src/lib/main.py:688
-#: ../gnomine/gnomine.c:476
+#: ../gnomine/gnomine.c:470
 #: ../gnotravex/gnotravex.c:1613
 #: ../gnotski/gnotski.c:1487
 #: ../gtali/gyahtzee.c:617
-#: ../iagno/gnothello.c:270
+#: ../iagno/gnothello.c:224
 #: ../lightsoff/src/About.js:20
-#: ../mahjongg/mahjongg.c:908
+#: ../mahjongg/mahjongg.c:900
 #: ../swell-foop/src/About.js:20
 msgid "translator-credits"
 msgstr ""
@@ -1251,7 +1251,7 @@ msgstr "Nastavitve igre Pet ali več"
 #: ../glines/glines.c:1415
 #: ../gnect/src/prefs.c:333
 #: ../gnobots2/properties.c:535
-#: ../iagno/properties.c:527
+#: ../iagno/properties.c:508
 #: ../lightsoff/data/settings.ui.h:1
 #: ../swell-foop/data/settings.ui.h:1
 msgid "Appearance"
@@ -1278,14 +1278,14 @@ msgstr "Splošno"
 msgid "_Use fast moves"
 msgstr "_Uporabi hitre poteze"
 
-#: ../glines/glines.c:1810
+#: ../glines/glines.c:1811
 msgid "Next:"
 msgstr "Naslednje:"
 
-#: ../glines/glines.c:1840
+#: ../glines/glines.c:1841
 #: ../gnobots2/statusbar.c:67
 #: ../quadrapassel/scoreframe.cpp:47
-#: ../gnomine/gnomine.c:439
+#: ../gnomine/gnomine.c:433
 msgid "Score:"
 msgstr "Rezultat:"
 
@@ -1293,61 +1293,61 @@ msgstr "Rezultat:"
 msgid "Remove colored balls from the board by forming lines"
 msgstr "Odstrani barvne kroglice s plošče s postavljanjem kroglic v vrste"
 
-#: ../glines/glines.schemas.in.h:1
+#: ../glines/org.gnome.glines.gschema.xml.in.h:1
 #: ../gnobots2/gnobots2.schemas.in.h:1
 msgid "Background color"
 msgstr "Barva ozadja"
 
-#: ../glines/glines.schemas.in.h:2
+#: ../glines/org.gnome.glines.gschema.xml.in.h:2
 #: ../gnobots2/gnobots2.schemas.in.h:2
 msgid "Background color. The hex specification of the background color."
 msgstr "Barva ozadja. Vrednost je določena v osmiškem zapisu."
 
-#: ../glines/glines.schemas.in.h:3
+#: ../glines/org.gnome.glines.gschema.xml.in.h:3
 msgid "Ball style"
 msgstr "Slog kroglice"
 
-#: ../glines/glines.schemas.in.h:4
+#: ../glines/org.gnome.glines.gschema.xml.in.h:4
 msgid "Ball style. The filename of the images to use for the balls."
 msgstr "Slog kroglice. Datoteka slike za kroglice"
 
-#: ../glines/glines.schemas.in.h:5
+#: ../glines/org.gnome.glines.gschema.xml.in.h:5
 msgid "Game field"
 msgstr "Igralno polje"
 
-#: ../glines/glines.schemas.in.h:6
+#: ../glines/org.gnome.glines.gschema.xml.in.h:6
 msgid "Game field from last saved session."
 msgstr "Polje igre zadnje shranjene seje."
 
-#: ../glines/glines.schemas.in.h:7
+#: ../glines/org.gnome.glines.gschema.xml.in.h:7
 msgid "Game preview"
 msgstr "Predogled igre"
 
-#: ../glines/glines.schemas.in.h:8
+#: ../glines/org.gnome.glines.gschema.xml.in.h:8
 msgid "Game preview from last saved session."
 msgstr "Predogled igre zadnje shranjene seje."
 
-#: ../glines/glines.schemas.in.h:9
+#: ../glines/org.gnome.glines.gschema.xml.in.h:9
 msgid "Game score"
 msgstr "Točke igre"
 
-#: ../glines/glines.schemas.in.h:10
+#: ../glines/org.gnome.glines.gschema.xml.in.h:10
 msgid "Game score from last saved session."
 msgstr "Točke igre zadnje shranjene seje."
 
-#: ../glines/glines.schemas.in.h:11
+#: ../glines/org.gnome.glines.gschema.xml.in.h:11
 msgid "Playing field size"
 msgstr "Velikost igralnega polja"
 
-#: ../glines/glines.schemas.in.h:12
+#: ../glines/org.gnome.glines.gschema.xml.in.h:12
 msgid "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is invalid."
 msgstr "Velikost igralnega polja. 1 = majhno, 2 = srednje, 2 = veliko. Katerakoli druga vrednost je neveljavna."
 
-#: ../glines/glines.schemas.in.h:13
+#: ../glines/org.gnome.glines.gschema.xml.in.h:13
 msgid "Time between moves"
 msgstr "Ćas med potezami"
 
-#: ../glines/glines.schemas.in.h:14
+#: ../glines/org.gnome.glines.gschema.xml.in.h:14
 msgid "Time between moves in milliseconds."
 msgstr "Čas med potezami v milisekundah."
 
@@ -1397,7 +1397,7 @@ msgstr "Rank drugega igralca"
 #: ../gnect/data/gnect.schemas.in.h:9
 #: ../gnect/src/prefs.c:370
 #: ../gnibbles/gnibbles.schemas.in.h:16
-#: ../gnibbles/preferences.c:444
+#: ../gnibbles/preferences.c:427
 #: ../quadrapassel/quadrapassel.schemas.in.h:13
 #: ../quadrapassel/tetris.cpp:751
 msgid "Move left"
@@ -1406,7 +1406,7 @@ msgstr "Premaknite se v levo"
 #: ../gnect/data/gnect.schemas.in.h:10
 #: ../gnect/src/prefs.c:371
 #: ../gnibbles/gnibbles.schemas.in.h:17
-#: ../gnibbles/preferences.c:445
+#: ../gnibbles/preferences.c:428
 #: ../quadrapassel/quadrapassel.schemas.in.h:14
 #: ../quadrapassel/tetris.cpp:752
 msgid "Move right"
@@ -1414,7 +1414,7 @@ msgstr "Premaknite se v desno"
 
 #: ../gnect/data/gnect.schemas.in.h:11
 #: ../gnobots2/properties.c:483
-#: ../iagno/iagno.schemas.in.h:1
+#: ../iagno/org.gnome.iagno.gschema.xml.in.h:1
 msgid "Sound"
 msgstr "Zvok"
 
@@ -1423,7 +1423,7 @@ msgid "Theme ID"
 msgstr "ID teme"
 
 #: ../gnect/data/gnect.schemas.in.h:13
-#: ../iagno/iagno.schemas.in.h:2
+#: ../iagno/org.gnome.iagno.gschema.xml.in.h:2
 msgid "Whether or not to play event sounds."
 msgstr "Ali naj se ob dogodkih predvajajo zvoki."
 
@@ -1444,64 +1444,63 @@ msgstr ""
 "Ni mogoče naložiti slike:\n"
 "%s"
 
-#: ../gnect/src/main.c:527
+#: ../gnect/src/main.c:509
 msgid "It's a draw!"
 msgstr "Izenačeno je!"
 
-#: ../gnect/src/main.c:536
+#: ../gnect/src/main.c:518
 #: ../gnome-sudoku/src/lib/main.py:402
 msgid "You win!"
 msgstr "Zmagali ste!"
 
-#: ../gnect/src/main.c:538
-#: ../gnect/src/main.c:571
+#: ../gnect/src/main.c:520
+#: ../gnect/src/main.c:539
 msgid "It is your move."
 msgstr "Vaša poteza."
 
-#: ../gnect/src/main.c:541
+#: ../gnect/src/main.c:523
 msgid "I win!"
 msgstr "Zmagal sem!"
 
-#: ../gnect/src/main.c:543
-#: ../gnect/src/main.c:676
+#: ../gnect/src/main.c:525
+#: ../gnect/src/main.c:627
 msgid "Thinking..."
 msgstr "Razmišljanje ..."
 
-#: ../gnect/src/main.c:564
-#: ../gnect/src/main.c:568
+#: ../gnect/src/main.c:536
 #, c-format
 msgid "%s wins!"
 msgstr "Zmagal je %s!"
 
-#: ../gnect/src/main.c:574
+#: ../gnect/src/main.c:543
 #, c-format
 msgid "Waiting for %s to move."
 msgstr "Čakanje na premik %s."
 
-#: ../gnect/src/main.c:693
+#: ../gnect/src/main.c:644
 #, c-format
 msgid "Hint: Column %d"
 msgstr "Namig: Stolpec %d"
 
-#: ../gnect/src/main.c:721
-#: ../gnect/src/main.c:725
+#: ../gnect/src/main.c:672
+#: ../gnect/src/main.c:676
 msgid "You:"
 msgstr "Vi:"
 
-#: ../gnect/src/main.c:722
-#: ../gnect/src/main.c:724
+#: ../gnect/src/main.c:673
+#: ../gnect/src/main.c:675
 msgid "Me:"
 msgstr "Jaz:"
 
-#: ../gnect/src/main.c:770
+#: ../gnect/src/main.c:721
 msgid "Scores"
 msgstr "Rezultati"
 
-#: ../gnect/src/main.c:823
+#: ../gnect/src/main.c:774
 msgid "Drawn:"
 msgstr "Izvlečeno:"
 
-#: ../gnect/src/main.c:876
+#: ../gnect/src/main.c:827
 msgid ""
 "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano Bertoletti's Velena Engine.\n"
 "\n"
@@ -1511,8 +1510,8 @@ msgstr ""
 "\n"
 "Igra \"Štiri v vrsto\" je je del iger GNOME."
 
-#: ../gnect/src/main.c:1245
-#: ../gnibbles/main.c:688
+#: ../gnect/src/main.c:1188
+#: ../gnibbles/main.c:601
 #: ../gnobots2/menu.c:67
 #: ../gnotski/gnotski.c:410
 msgid "_View"
@@ -1539,26 +1538,26 @@ msgstr ""
 #: ../gnect/src/prefs.c:249
 #: ../gtali/gyahtzee.c:998
 #: ../gtali/yahtzee.c:69
-#: ../iagno/properties.c:448
-#: ../iagno/properties.c:489
+#: ../iagno/properties.c:429
+#: ../iagno/properties.c:470
 msgid "Human"
 msgstr "Človek"
 
 #: ../gnect/src/prefs.c:251
-#: ../iagno/properties.c:457
-#: ../iagno/properties.c:498
+#: ../iagno/properties.c:438
+#: ../iagno/properties.c:479
 msgid "Level one"
 msgstr "Prva reven"
 
 #: ../gnect/src/prefs.c:253
-#: ../iagno/properties.c:466
-#: ../iagno/properties.c:507
+#: ../iagno/properties.c:447
+#: ../iagno/properties.c:488
 msgid "Level two"
 msgstr "Druga reven"
 
 #: ../gnect/src/prefs.c:255
-#: ../iagno/properties.c:475
-#: ../iagno/properties.c:516
+#: ../iagno/properties.c:456
+#: ../iagno/properties.c:497
 msgid "Level three"
 msgstr "Tretja reven"
 
@@ -1575,14 +1574,14 @@ msgid "Enable _animation"
 msgstr "Omogoči _animacijo"
 
 #: ../gnect/src/prefs.c:361
-#: ../gnibbles/preferences.c:338
-#: ../iagno/properties.c:436
+#: ../gnibbles/preferences.c:321
+#: ../iagno/properties.c:417
 msgid "E_nable sounds"
 msgstr "Omogoči _zvoke"
 
 #. keyboard tab
 #: ../gnect/src/prefs.c:366
-#: ../gnibbles/preferences.c:434
+#: ../gnibbles/preferences.c:417
 #: ../gnobots2/properties.c:542
 #: ../quadrapassel/tetris.cpp:743
 msgid "Keyboard Controls"
@@ -1596,13 +1595,12 @@ msgstr "Običajno"
 #: ../gnect/src/theme.c:68
 #: ../gnect/src/theme.c:75
 #: ../gnect/src/theme.c:82
-#: ../gnibbles/preferences.c:472
+#: ../gnibbles/preferences.c:455
 msgid "Red"
 msgstr "Rdeča"
 
 #: ../gnect/src/theme.c:47
-#: ../gnect/src/theme.c:82
-#: ../gnibbles/preferences.c:475
+#: ../gnibbles/preferences.c:458
 msgid "Yellow"
 msgstr "Rumena"
 
@@ -1612,15 +1610,13 @@ msgstr "Visok kontrast"
 
 #: ../gnect/src/theme.c:54
 #: ../gnect/src/theme.c:61
-#: ../iagno/properties.c:484
-msgid "Light"
-msgstr "Svetli"
+msgid "Circle"
+msgstr "Krog"
 
 #: ../gnect/src/theme.c:54
 #: ../gnect/src/theme.c:61
-#: ../iagno/properties.c:443
-msgid "Dark"
-msgstr "Temni"
+msgid "Cross"
+msgstr "Križ"
 
 #: ../gnect/src/theme.c:57
 msgid "High Contrast Inverse"
@@ -1632,8 +1628,9 @@ msgstr "Kremne frnikole"
 
 #: ../gnect/src/theme.c:68
 #: ../gnect/src/theme.c:75
+#: ../gnect/src/theme.c:82
 #: ../gnect/src/theme.c:89
-#: ../gnibbles/preferences.c:474
+#: ../gnibbles/preferences.c:457
 msgid "Blue"
 msgstr "Modra"
 
@@ -1653,7 +1650,7 @@ msgstr "Bloki"
 msgid "Orange"
 msgstr "Oranžna"
 
-#: ../gnibbles/board.c:254
+#: ../gnibbles/board.c:250
 #, c-format
 msgid ""
 "Nibbles couldn't load level file:\n"
@@ -1666,7 +1663,7 @@ msgstr ""
 "\n"
 "Preverite vašo namestitev igre."
 
-#: ../gnibbles/board.c:273
+#: ../gnibbles/board.c:269
 #, c-format
 msgid ""
 "Level file appears to be damaged:\n"
@@ -1679,7 +1676,7 @@ msgstr ""
 "\n"
 "Preverite vašo namestitev igre."
 
-#: ../gnibbles/gnibbles.c:94
+#: ../gnibbles/gnibbles.c:90
 #, c-format
 msgid ""
 "Nibbles couldn't find pixmap file:\n"
@@ -1692,41 +1689,41 @@ msgstr ""
 "\n"
 "Preverite vašo namestitev igre."
 
-#: ../gnibbles/gnibbles.c:366
+#: ../gnibbles/gnibbles.c:361
 msgid "Nibbles Scores"
 msgstr "Točke pri Nibblesu"
 
-#: ../gnibbles/gnibbles.c:369
+#: ../gnibbles/gnibbles.c:364
 msgid "Speed:"
 msgstr "Hitrost:"
 
-#: ../gnibbles/gnibbles.c:374
+#: ../gnibbles/gnibbles.c:369
 #: ../gnobots2/game.c:179
-#: ../gnomine/gnomine.c:223
+#: ../gnomine/gnomine.c:224
 #: ../gnotravex/gnotravex.c:1090
 #: ../gnotski/gnotski.c:797
 #: ../gtali/gyahtzee.c:197
-#: ../mahjongg/mahjongg.c:630
+#: ../mahjongg/mahjongg.c:622
 msgid "Congratulations!"
 msgstr "Čestitke!"
 
-#: ../gnibbles/gnibbles.c:375
+#: ../gnibbles/gnibbles.c:370
 #: ../gnobots2/game.c:180
-#: ../gnomine/gnomine.c:224
+#: ../gnomine/gnomine.c:225
 #: ../gnotravex/gnotravex.c:1091
 #: ../gnotski/gnotski.c:798
 #: ../gtali/gyahtzee.c:198
-#: ../mahjongg/mahjongg.c:631
+#: ../mahjongg/mahjongg.c:623
 msgid "Your score is the best!"
 msgstr "Vaše rezultat je najboljši!"
 
-#: ../gnibbles/gnibbles.c:376
+#: ../gnibbles/gnibbles.c:371
 #: ../gnobots2/game.c:181
-#: ../gnomine/gnomine.c:225
+#: ../gnomine/gnomine.c:226
 #: ../gnotravex/gnotravex.c:1092
 #: ../gnotski/gnotski.c:799
 #: ../gtali/gyahtzee.c:199
-#: ../mahjongg/mahjongg.c:632
+#: ../mahjongg/mahjongg.c:624
 msgid "Your score has made the top ten."
 msgstr "Vaš rezultat se uvršča med najboljših deset."
 
@@ -1735,11 +1732,11 @@ msgid "Guide a worm around a maze"
 msgstr "Vodenje črva po labirintu"
 
 #: ../gnibbles/gnibbles.desktop.in.in.h:2
-#: ../gnibbles/main.c:196
-#: ../gnibbles/main.c:199
-#: ../gnibbles/main.c:798
-#: ../gnibbles/main.c:877
-#: ../gnibbles/main.c:1007
+#: ../gnibbles/main.c:162
+#: ../gnibbles/main.c:165
+#: ../gnibbles/main.c:695
+#: ../gnibbles/main.c:766
+#: ../gnibbles/main.c:896
 msgid "Nibbles"
 msgstr "Nibbles"
 
@@ -1800,14 +1797,14 @@ msgid "Key to use for motion up."
 msgstr "Tipka za premikanje gor."
 
 #: ../gnibbles/gnibbles.schemas.in.h:15
-#: ../gnibbles/preferences.c:447
+#: ../gnibbles/preferences.c:430
 #: ../quadrapassel/quadrapassel.schemas.in.h:12
 #: ../quadrapassel/tetris.cpp:753
 msgid "Move down"
 msgstr "Premakni navzdol"
 
 #: ../gnibbles/gnibbles.schemas.in.h:18
-#: ../gnibbles/preferences.c:446
+#: ../gnibbles/preferences.c:429
 msgid "Move up"
 msgstr "Premakni navzgor"
 
@@ -1851,47 +1848,47 @@ msgstr "Uporabi relativne premike"
 msgid "Use relative movement (ie. left or right only)."
 msgstr "Uporabi relativne premike (tj. le levo ali desno)."
 
-#: ../gnibbles/main.c:73
+#: ../gnibbles/main.c:66
 msgctxt "game speed"
 msgid "Beginner"
 msgstr "Začetnik"
 
-#: ../gnibbles/main.c:74
+#: ../gnibbles/main.c:67
 msgctxt "game speed"
 msgid "Slow"
 msgstr "Počasno"
 
-#: ../gnibbles/main.c:75
+#: ../gnibbles/main.c:68
 msgctxt "game speed"
 msgid "Medium"
 msgstr "Srednja"
 
-#: ../gnibbles/main.c:76
+#: ../gnibbles/main.c:69
 msgctxt "game speed"
 msgid "Fast"
 msgstr "Hitro"
 
-#: ../gnibbles/main.c:77
+#: ../gnibbles/main.c:70
 msgctxt "game speed"
 msgid "Beginner with Fakes"
 msgstr "Začetnik s pomočjo"
 
-#: ../gnibbles/main.c:78
+#: ../gnibbles/main.c:71
 msgctxt "game speed"
 msgid "Slow with Fakes"
 msgstr "Počasno s pomočjo"
 
-#: ../gnibbles/main.c:79
+#: ../gnibbles/main.c:72
 msgctxt "game speed"
 msgid "Medium with Fakes"
 msgstr "Običajno s pomočjo"
 
-#: ../gnibbles/main.c:80
+#: ../gnibbles/main.c:73
 msgctxt "game speed"
 msgid "Fast with Fakes"
 msgstr "Hitro s pomočjo"
 
-#: ../gnibbles/main.c:205
+#: ../gnibbles/main.c:171
 msgid ""
 "A worm game for GNOME.\n"
 "\n"
@@ -1901,99 +1898,95 @@ msgstr ""
 "\n"
 "Igra Nibbles je del iger GNOME."
 
-#: ../gnibbles/main.c:567
+#: ../gnibbles/main.c:492
 #, c-format
 msgid "Game over! The game has been won by %s!"
 msgstr "Konec igre! Zmagovalec igre je %s!"
 
-#: ../gnibbles/main.c:615
-msgid "The game is over."
-msgstr "Konec igre."
-
 #. Translators: This string will be included in the intro screen, so don't make sure it fits!
-#: ../gnibbles/main.c:879
+#: ../gnibbles/main.c:768
 msgid "A worm game for GNOME."
 msgstr "Igra s črvom za GNOME"
 
-#: ../gnibbles/preferences.c:241
+#: ../gnibbles/preferences.c:224
 msgid "Nibbles Preferences"
 msgstr "Možnosti igre Nibbles"
 
-#: ../gnibbles/preferences.c:261
+#: ../gnibbles/preferences.c:244
 msgid "Speed"
 msgstr "Hitrost"
 
-#: ../gnibbles/preferences.c:271
+#: ../gnibbles/preferences.c:254
 msgid "Nibbles newbie"
 msgstr "Nibbles začetnik"
 
-#: ../gnibbles/preferences.c:281
+#: ../gnibbles/preferences.c:264
 msgid "My second day"
 msgstr "Moj drugi dan"
 
-#: ../gnibbles/preferences.c:291
+#: ../gnibbles/preferences.c:274
 msgid "Not too shabby"
 msgstr "Kar spreten"
 
-#: ../gnibbles/preferences.c:301
+#: ../gnibbles/preferences.c:284
 msgid "Finger-twitching good"
 msgstr "Dober s prsti"
 
 #. Options
-#: ../gnibbles/preferences.c:311
-#: ../gnibbles/preferences.c:453
+#: ../gnibbles/preferences.c:294
+#: ../gnibbles/preferences.c:436
 #: ../gnobots2/properties.c:460
-#: ../iagno/properties.c:566
+#: ../iagno/properties.c:547
 msgid "Options"
 msgstr "Možnosti"
 
-#: ../gnibbles/preferences.c:318
+#: ../gnibbles/preferences.c:301
 msgid "_Play levels in random order"
 msgstr "_Ravni v naključnem vrstnem redu"
 
-#: ../gnibbles/preferences.c:328
+#: ../gnibbles/preferences.c:311
 msgid "_Enable fake bonuses"
 msgstr "Omogoči lažni _bonus"
 
 #. starting level
-#: ../gnibbles/preferences.c:351
+#: ../gnibbles/preferences.c:334
 #: ../quadrapassel/tetris.cpp:643
 msgid "_Starting level:"
 msgstr "_Začetna ravni: "
 
-#: ../gnibbles/preferences.c:379
+#: ../gnibbles/preferences.c:362
 msgid "Number of _human players:"
 msgstr "Število _človeških igralcev:"
 
-#: ../gnibbles/preferences.c:399
+#: ../gnibbles/preferences.c:382
 msgid "Number of _AI players:"
 msgstr "Število _računalniških igralcev:"
 
-#: ../gnibbles/preferences.c:425
+#: ../gnibbles/preferences.c:408
 msgid "Worm"
 msgstr "Črv"
 
-#: ../gnibbles/preferences.c:459
+#: ../gnibbles/preferences.c:442
 msgid "_Use relative movement"
 msgstr "_Uporabi relativne premike"
 
-#: ../gnibbles/preferences.c:466
+#: ../gnibbles/preferences.c:449
 msgid "_Worm color:"
 msgstr "B_arva črva:"
 
-#: ../gnibbles/preferences.c:473
+#: ../gnibbles/preferences.c:456
 msgid "Green"
 msgstr "Zelena"
 
-#: ../gnibbles/preferences.c:476
+#: ../gnibbles/preferences.c:459
 msgid "Cyan"
 msgstr "Sinja"
 
-#: ../gnibbles/preferences.c:477
+#: ../gnibbles/preferences.c:460
 msgid "Purple"
 msgstr "Škrlatna"
 
-#: ../gnibbles/preferences.c:478
+#: ../gnibbles/preferences.c:461
 msgid "Gray"
 msgstr "Siva"
 
@@ -2008,7 +2001,7 @@ msgid "Game over!"
 msgstr "Igra je končana!"
 
 #: ../gnobots2/game.c:152
-#: ../gnomine/gnomine.c:199
+#: ../gnomine/gnomine.c:200
 #: ../gnotski/gnotski.c:772
 msgid "Great work, but unfortunately your score did not make the top ten."
 msgstr "Dobro delo, ampak na žalost se vaš rezultat ne uvršča med najboljših deset."
@@ -2016,7 +2009,7 @@ msgstr "Dobro delo, ampak na žalost se vaš rezultat ne uvršča med najboljši
 #. Translators: This "_New Game" is for the game-over dialogue
 #: ../gnobots2/game.c:154
 #: ../gnome-sudoku/data/select_game.ui.h:1
-#: ../gnomine/gnomine.c:201
+#: ../gnomine/gnomine.c:202
 #: ../gnotski/gnotski.c:774
 #: ../libgames-support/games-stock.c:255
 msgid "_New Game"
@@ -2027,8 +2020,8 @@ msgid "Robots Scores"
 msgstr "Točke robotov"
 
 #: ../gnobots2/game.c:170
-#: ../mahjongg/mahjongg.c:628
-#: ../mahjongg/mahjongg.c:953
+#: ../mahjongg/mahjongg.c:620
+#: ../mahjongg/mahjongg.c:945
 msgid "Map:"
 msgstr "Mapa:"
 
@@ -2042,11 +2035,11 @@ msgstr ""
 "Toda ali jih lahko premagate znova?"
 
 #. This should never happen.
-#: ../gnobots2/game.c:1205
+#: ../gnobots2/game.c:1201
 msgid "There are no teleport locations left!!"
 msgstr "Ostalo ni nič več mest za prežarčenje!!"
 
-#: ../gnobots2/game.c:1233
+#: ../gnobots2/game.c:1229
 msgid "There are no safe locations to teleport to!!"
 msgstr "Ni več varnih mest za prežarčenje!!"
 
@@ -2069,20 +2062,20 @@ msgid "Initial window position"
 msgstr "Začetna lega okna"
 
 #: ../gnobots2/gnobots.c:89
-#: ../gnomine/gnomine.c:924
-#: ../gnomine/gnomine.c:932
+#: ../gnomine/gnomine.c:914
+#: ../gnomine/gnomine.c:922
 #: ../gnotravex/gnotravex.c:262
 #: ../gnotski/gnotski.c:457
-#: ../iagno/gnothello.c:148
+#: ../iagno/gnothello.c:139
 msgid "X"
 msgstr "X"
 
 #: ../gnobots2/gnobots.c:91
-#: ../gnomine/gnomine.c:926
-#: ../gnomine/gnomine.c:934
+#: ../gnomine/gnomine.c:916
+#: ../gnomine/gnomine.c:924
 #: ../gnotravex/gnotravex.c:264
 #: ../gnotski/gnotski.c:459
-#: ../iagno/gnothello.c:150
+#: ../iagno/gnothello.c:141
 msgid "Y"
 msgstr "Y"
 
@@ -2332,7 +2325,7 @@ msgid "Use super safe moves. The player is alerted when there is no safe move an
 msgstr "Uporabi zelo varne premike. Igralec je opozorjen, ko ni več na voljo varnih premikov in ko je edina možnost teleportiranje."
 
 #: ../gnobots2/graphics.c:153
-#: ../iagno/gnothello.c:454
+#: ../iagno/gnothello.c:403
 #, c-format
 msgid "Could not find '%s' pixmap file\n"
 msgstr "Ni mogoče najti datoteke s sliko '%s'\n"
@@ -2367,12 +2360,12 @@ msgid "Wait for the robots"
 msgstr "Čakanje robotov"
 
 #: ../gnobots2/menu.c:90
-#: ../mahjongg/mahjongg.c:1223
+#: ../mahjongg/mahjongg.c:1215
 msgid "_Toolbar"
 msgstr "_Orodna vrstica"
 
 #: ../gnobots2/menu.c:90
-#: ../mahjongg/mahjongg.c:1223
+#: ../mahjongg/mahjongg.c:1215
 msgid "Show or hide the toolbar"
 msgstr "Pokaži ali skrij orodno vrstico"
 
@@ -2478,7 +2471,7 @@ msgid "_Image theme:"
 msgstr "_Slikovna tema:"
 
 #: ../gnobots2/properties.c:523
-#: ../mahjongg/mahjongg.c:736
+#: ../mahjongg/mahjongg.c:728
 msgid "_Background color:"
 msgstr "Barva _ozadja:"
 
@@ -3267,56 +3260,56 @@ msgstr "_Počisti"
 msgid "Mines"
 msgstr "Mine"
 
-#: ../gnomine/gnomine.c:103
+#: ../gnomine/gnomine.c:104
 msgctxt "board size"
 msgid "Custom"
 msgstr "Po meri"
 
-#: ../gnomine/gnomine.c:169
+#: ../gnomine/gnomine.c:170
 #, c-format
 msgid "Flags: %d/%d"
 msgstr "Zastavice: %d/%d"
 
-#: ../gnomine/gnomine.c:197
+#: ../gnomine/gnomine.c:198
 msgid "The Mines Have Been Cleared!"
 msgstr "Mine so bile počiščene!"
 
-#: ../gnomine/gnomine.c:213
+#: ../gnomine/gnomine.c:214
 msgid "Mines Scores"
 msgstr "Rezultati Min"
 
-#: ../gnomine/gnomine.c:216
+#: ../gnomine/gnomine.c:217
 #: ../gnotravex/gnotravex.c:1085
 #: ../swell-foop/src/Score.js:57
 msgid "Size:"
 msgstr "Velikost:"
 
-#: ../gnomine/gnomine.c:321
+#: ../gnomine/gnomine.c:315
 msgid "Click a square, any square"
 msgstr "Kliknite kvadrat, katerikoli kvadrat"
 
-#: ../gnomine/gnomine.c:323
+#: ../gnomine/gnomine.c:317
 msgid "Maybe they're all mines ..."
 msgstr "Mogoče so vse mine ..."
 
-#: ../gnomine/gnomine.c:436
-#: ../mahjongg/mahjongg.c:867
+#: ../gnomine/gnomine.c:430
+#: ../mahjongg/mahjongg.c:859
 msgid "Main game:"
 msgstr "Osnovna igra:"
 
-#: ../gnomine/gnomine.c:442
+#: ../gnomine/gnomine.c:436
 msgid "Resizing and SVG support:"
 msgstr "Spreminjanje velikosti in podpora za SVG!"
 
-#: ../gnomine/gnomine.c:449
+#: ../gnomine/gnomine.c:443
 msgid "Faces:"
 msgstr "Faces:"
 
-#: ../gnomine/gnomine.c:452
+#: ../gnomine/gnomine.c:446
 msgid "Graphics:"
 msgstr "Grafika:"
 
-#: ../gnomine/gnomine.c:468
+#: ../gnomine/gnomine.c:462
 msgid ""
 "The popular logic puzzle minesweeper. Clear mines from a board using hints from squares you have already uncovered.\n"
 "\n"
@@ -3326,59 +3319,59 @@ msgstr ""
 "\n"
 "Igra minolovec je del iger GNOME."
 
-#: ../gnomine/gnomine.c:631
+#: ../gnomine/gnomine.c:621
 msgid "Field Size"
 msgstr "Velikost polja"
 
-#: ../gnomine/gnomine.c:654
+#: ../gnomine/gnomine.c:644
 msgid "Custom Size"
 msgstr "Velikost po meri"
 
-#: ../gnomine/gnomine.c:661
+#: ../gnomine/gnomine.c:651
 msgid "_Number of mines:"
 msgstr "Š_tevilo min:"
 
-#: ../gnomine/gnomine.c:674
+#: ../gnomine/gnomine.c:664
 msgid "_Horizontal:"
 msgstr "_Vodoravno:"
 
-#: ../gnomine/gnomine.c:686
+#: ../gnomine/gnomine.c:676
 msgid "_Vertical:"
 msgstr "_Navpično:"
 
-#: ../gnomine/gnomine.c:703
+#: ../gnomine/gnomine.c:693
 msgid "Flags"
 msgstr "Zastavice"
 
-#: ../gnomine/gnomine.c:706
+#: ../gnomine/gnomine.c:696
 msgid "_Use \"I'm not sure\" flags"
 msgstr "_Uporabi zastavice \"Ni zagotovo\""
 
-#: ../gnomine/gnomine.c:717
+#: ../gnomine/gnomine.c:707
 msgid "Warnings"
 msgstr "Opozorila"
 
-#: ../gnomine/gnomine.c:720
+#: ../gnomine/gnomine.c:710
 msgid "_Use \"Too many flags\" warning"
 msgstr "_Uporabi opozorilo \"Preveč zastavic\""
 
-#: ../gnomine/gnomine.c:731
+#: ../gnomine/gnomine.c:721
 msgid "Mines Preferences"
 msgstr "Možnosti igre Min"
 
-#: ../gnomine/gnomine.c:924
+#: ../gnomine/gnomine.c:914
 msgid "Width of grid"
 msgstr "Širina mreže"
 
-#: ../gnomine/gnomine.c:925
+#: ../gnomine/gnomine.c:915
 msgid "Height of grid"
 msgstr "Višina mreže"
 
-#: ../gnomine/gnomine.c:927
+#: ../gnomine/gnomine.c:917
 msgid "Number of mines"
 msgstr "Število min"
 
-#: ../gnomine/gnomine.c:928
+#: ../gnomine/gnomine.c:918
 #: ../gtali/gyahtzee.c:107
 #: ../gtali/gyahtzee.c:109
 #: ../gtali/gyahtzee.c:113
@@ -3386,30 +3379,30 @@ msgstr "Število min"
 msgid "NUMBER"
 msgstr "ŠTEVILKA"
 
-#: ../gnomine/gnomine.c:930
-#: ../gnomine/gnomine.schemas.in.h:8
+#: ../gnomine/gnomine.c:920
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:8
 msgid "Size of the board (0-2 = small-large, 3=custom)"
 msgstr "Velikost plošče (0 - 2 = mala - velika, 3 = po meri)"
 
-#: ../gnomine/gnomine.c:931
+#: ../gnomine/gnomine.c:921
 #: ../gnotravex/gnotravex.c:261
 #: ../gnotski/gnotski.c:456
-#: ../iagno/gnothello.c:147
+#: ../iagno/gnothello.c:138
 msgid "X location of window"
 msgstr "X položaj okna"
 
-#: ../gnomine/gnomine.c:933
+#: ../gnomine/gnomine.c:923
 #: ../gnotravex/gnotravex.c:263
 #: ../gnotski/gnotski.c:458
-#: ../iagno/gnothello.c:149
+#: ../iagno/gnothello.c:140
 msgid "Y location of window"
 msgstr "Y položaj okna"
 
-#: ../gnomine/gnomine.c:1069
+#: ../gnomine/gnomine.c:1060
 msgid "Press to Resume"
 msgstr "Pritisnite za nadaljevanje"
 
-#: ../gnomine/gnomine.c:1103
+#: ../gnomine/gnomine.c:1094
 msgid "Time: "
 msgstr "Čas: "
 
@@ -3417,44 +3410,44 @@ msgstr "Čas: "
 msgid "Clear hidden mines from a minefield"
 msgstr "Očistite minsko polje skritih min"
 
-#: ../gnomine/gnomine.schemas.in.h:1
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:1
 #: ../swell-foop/swell-foop.schemas.in.h:2
 msgid "Board size"
 msgstr "Velikost plošče"
 
-#: ../gnomine/gnomine.schemas.in.h:2
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:2
 msgid "Enable automatic placing of flags"
 msgstr "Omogoči samodejno postavitev zastavic"
 
-#: ../gnomine/gnomine.schemas.in.h:3
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:3
 msgid "Number of columns in a custom game"
 msgstr "Število stolpcev v igri po meri"
 
-#: ../gnomine/gnomine.schemas.in.h:4
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:4
 msgid "Number of rows in a custom game"
 msgstr "Število vrstic v igri po meri"
 
-#: ../gnomine/gnomine.schemas.in.h:5
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:5
 msgid "Set to true to be able to mark squares as unknown."
 msgstr "Izbrana možnost omogoča, da označite polja kot neznana."
 
-#: ../gnomine/gnomine.schemas.in.h:6
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:6
 msgid "Set to true to enable warning icons when too many flags are placed."
 msgstr "Izbrana možnost omogoči prikaz opozorilne ikone, ko je postavljenih preveč zastavic."
 
-#: ../gnomine/gnomine.schemas.in.h:7
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:7
 msgid "Set to true to have gnomine automatically flag squares as mined when enough squares are revealed"
 msgstr "Izbrana možnost omogoča igri Gnome mine, da samodejno označi polja kot minirana, ko je odkritih dovolj sosednjih polj."
 
-#: ../gnomine/gnomine.schemas.in.h:9
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:9
 msgid "The number of mines in a custom game"
 msgstr "Število min v igri po meri"
 
-#: ../gnomine/gnomine.schemas.in.h:10
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:10
 msgid "Use the unknown flag"
 msgstr "Uporabi neznano oznako"
 
-#: ../gnomine/gnomine.schemas.in.h:11
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:11
 msgid "Warning about too many flags"
 msgstr "Opozorilo o preveč zastavicah"
 
@@ -3607,7 +3600,7 @@ msgid "9"
 msgstr "9"
 
 #: ../gnotravex/gnotravex.c:913
-#: ../mahjongg/mahjongg.c:935
+#: ../mahjongg/mahjongg.c:927
 msgid "Game paused"
 msgstr "Igra je prekinjena"
 
@@ -3629,7 +3622,7 @@ msgid "Puzzle solved!"
 msgstr "Sestavljanka rešena"
 
 #: ../gnotravex/gnotravex.c:1402
-#: ../mahjongg/mahjongg.c:1407
+#: ../mahjongg/mahjongg.c:1393
 msgid "Time:"
 msgstr "Čas:"
 
@@ -4328,12 +4321,12 @@ msgstr "Izbor polja točkovanja."
 msgid "5 of a Kind [total]"
 msgstr "5 kart v barvi [skupno]"
 
-#: ../iagno/gnothello.c:55
+#: ../iagno/gnothello.c:48
 #: ../iagno/iagno.desktop.in.in.h:2
 msgid "Iagno"
 msgstr "Iagno"
 
-#: ../iagno/gnothello.c:267
+#: ../iagno/gnothello.c:221
 msgid ""
 "A disk flipping game derived from Reversi.\n"
 "\n"
@@ -4343,46 +4336,33 @@ msgstr ""
 "\n"
 "igra Iagno je del iger GNOME."
 
-#: ../iagno/gnothello.c:334
+#: ../iagno/gnothello.c:283
 msgid "Invalid move."
 msgstr "Neveljaven premik."
 
-#: ../iagno/gnothello.c:690
-#: ../iagno/gnothello.c:692
+#: ../iagno/gnothello.c:639
+#: ../iagno/gnothello.c:641
 #, c-format
 msgid "%.2d"
 msgstr "%.2d"
 
-#: ../iagno/gnothello.c:714
-msgid "It is your turn to place a dark piece"
-msgstr "Na vrsti ste, da položite temno figuro"
-
-#: ../iagno/gnothello.c:716
-msgid "It is your turn to place a light piece"
-msgstr "Na vrsti ste, da položite svetlo figuro"
-
-#: ../iagno/gnothello.c:719
-#, c-format
-msgid "Waiting for %s to move"
-msgstr "Čakanje na premik %s "
-
-#: ../iagno/gnothello.c:726
+#: ../iagno/gnothello.c:648
 msgid "Dark's move"
 msgstr "Temni na potezi"
 
-#: ../iagno/gnothello.c:728
+#: ../iagno/gnothello.c:650
 msgid "Light's move"
 msgstr "Svetli na potezi"
 
-#: ../iagno/gnothello.c:976
+#: ../iagno/gnothello.c:872
 msgid "Dark:"
 msgstr "Temni:"
 
-#: ../iagno/gnothello.c:986
+#: ../iagno/gnothello.c:882
 msgid "Light:"
 msgstr "Svetli:"
 
-#: ../iagno/gnothello.c:1010
+#: ../iagno/gnothello.c:906
 msgid "Welcome to Iagno!"
 msgstr "Dobrodošli v igri Iagno!"
 
@@ -4410,44 +4390,52 @@ msgstr "Svetli mora počakati, temni na potezi"
 msgid "Dark must pass, Light's move"
 msgstr "Temni mora počakati, svetli na potezi"
 
-#: ../iagno/properties.c:399
+#: ../iagno/properties.c:380
 msgid "Iagno Preferences"
 msgstr "Možnosti Iagno"
 
-#: ../iagno/properties.c:428
+#: ../iagno/properties.c:409
 msgid "_Use quick moves"
 msgstr "_Uporabi hitre premike"
 
-#: ../iagno/properties.c:533
+#: ../iagno/properties.c:424
+msgid "Dark"
+msgstr "Temni"
+
+#: ../iagno/properties.c:465
+msgid "Light"
+msgstr "Svetli"
+
+#: ../iagno/properties.c:514
 msgid "Animation"
 msgstr "Animacija"
 
-#: ../iagno/properties.c:537
+#: ../iagno/properties.c:518
 msgid "None"
 msgstr "Brez"
 
-#: ../iagno/properties.c:546
+#: ../iagno/properties.c:527
 msgid "Partial"
 msgstr "Delno"
 
-#: ../iagno/properties.c:555
+#: ../iagno/properties.c:536
 msgid "Complete"
 msgstr "Popolna"
 
-#: ../iagno/properties.c:569
+#: ../iagno/properties.c:550
 msgid "_Stagger flips"
 msgstr "_Zamaknjeno obračanje"
 
-#: ../iagno/properties.c:577
+#: ../iagno/properties.c:558
 msgid "S_how grid"
 msgstr "P_okaži mrežo"
 
-#: ../iagno/properties.c:584
+#: ../iagno/properties.c:565
 msgid "_Flip final results"
 msgstr "_Obrni končni rezultat"
 
-#: ../iagno/properties.c:593
-#: ../mahjongg/mahjongg.c:694
+#: ../iagno/properties.c:574
+#: ../mahjongg/mahjongg.c:686
 msgid "_Tile set:"
 msgstr "_Vrsta ploščic:"
 
@@ -4602,7 +4590,7 @@ msgid "View the scores"
 msgstr "Pokaže rezultate"
 
 #: ../libgames-support/games-stock.c:57
-#: ../mahjongg/mahjongg.c:1207
+#: ../mahjongg/mahjongg.c:1199
 msgid "Undo the last move"
 msgstr "Razveljavi zadnjo potezo"
 
@@ -4783,78 +4771,78 @@ msgstr ""
 "Preverite, da je igra Mahjongg pravilno nameščena."
 
 #: ../mahjongg/mahjongg.c:45
-#: ../mahjongg/mahjongg.c:895
-#: ../mahjongg/mahjongg.c:898
+#: ../mahjongg/mahjongg.c:887
+#: ../mahjongg/mahjongg.c:890
 #: ../mahjongg/mahjongg.desktop.in.in.h:2
 msgid "Mahjongg"
 msgstr "Mahjongg"
 
-#: ../mahjongg/mahjongg.c:136
+#: ../mahjongg/mahjongg.c:134
 msgid "Could not load tile set"
 msgstr "Ni mogoče naložiti igre"
 
-#: ../mahjongg/mahjongg.c:271
+#: ../mahjongg/mahjongg.c:263
 msgid "Do you want to start a new game with this map?"
 msgstr "Ali želite zagnati novo igro s tem zemljevidom?"
 
-#: ../mahjongg/mahjongg.c:273
+#: ../mahjongg/mahjongg.c:265
 msgid "If you continue playing the next game will use the new map."
 msgstr "V primeru, da želite nadaljevati z igro, bo v novi igri uporabljen nov zemljevid."
 
-#: ../mahjongg/mahjongg.c:275
+#: ../mahjongg/mahjongg.c:267
 msgid "_Continue playing"
 msgstr "_Nadaljevanje igre"
 
-#: ../mahjongg/mahjongg.c:276
+#: ../mahjongg/mahjongg.c:268
 msgid "Use _new map"
 msgstr "Uporabi _nov zemljevid"
 
-#: ../mahjongg/mahjongg.c:579
+#: ../mahjongg/mahjongg.c:571
 msgid "There are no more moves."
 msgstr "Ni več mogočih premikov."
 
-#: ../mahjongg/mahjongg.c:582
+#: ../mahjongg/mahjongg.c:574
 msgid "_New game"
 msgstr "_Nova igra"
 
-#: ../mahjongg/mahjongg.c:587
+#: ../mahjongg/mahjongg.c:579
 msgid "_Shuffle"
 msgstr "_Premešaj"
 
-#: ../mahjongg/mahjongg.c:626
-#: ../mahjongg/mahjongg.c:951
+#: ../mahjongg/mahjongg.c:618
+#: ../mahjongg/mahjongg.c:943
 msgid "Mahjongg Scores"
 msgstr "Točke pri igri Mahjongg"
 
-#: ../mahjongg/mahjongg.c:667
+#: ../mahjongg/mahjongg.c:659
 msgid "Mahjongg Preferences"
 msgstr "Možnosti Mahjongg"
 
-#: ../mahjongg/mahjongg.c:687
+#: ../mahjongg/mahjongg.c:679
 msgid "Tiles"
 msgstr "Ploščice"
 
-#: ../mahjongg/mahjongg.c:708
+#: ../mahjongg/mahjongg.c:700
 msgid "Maps"
 msgstr "Zemljevidi"
 
-#: ../mahjongg/mahjongg.c:715
+#: ../mahjongg/mahjongg.c:707
 msgid "_Select map:"
 msgstr "_Izberite zemljevid:"
 
-#: ../mahjongg/mahjongg.c:729
+#: ../mahjongg/mahjongg.c:721
 msgid "Colors"
 msgstr "Barve"
 
-#: ../mahjongg/mahjongg.c:875
+#: ../mahjongg/mahjongg.c:867
 msgid "Maps:"
 msgstr "Zemljevidi:"
 
-#: ../mahjongg/mahjongg.c:882
+#: ../mahjongg/mahjongg.c:874
 msgid "Tiles:"
 msgstr "Ploščice:"
 
-#: ../mahjongg/mahjongg.c:901
+#: ../mahjongg/mahjongg.c:893
 msgid ""
 "A matching game played with Mahjongg tiles.\n"
 "\n"
@@ -4864,32 +4852,32 @@ msgstr ""
 "\n"
 "Mahjongg je del iger GNOME."
 
-#: ../mahjongg/mahjongg.c:1146
+#: ../mahjongg/mahjongg.c:1138
 #, c-format
 msgid "Mahjongg - %s"
 msgstr "Mahjongg - %s"
 
-#: ../mahjongg/mahjongg.c:1206
+#: ../mahjongg/mahjongg.c:1198
 msgid "Restart the current game"
 msgstr "Znova začni trenutno igro"
 
-#: ../mahjongg/mahjongg.c:1209
+#: ../mahjongg/mahjongg.c:1201
 msgid "Redo the last move"
 msgstr "Obnovi zadnjo potezo"
 
-#: ../mahjongg/mahjongg.c:1211
+#: ../mahjongg/mahjongg.c:1203
 msgid "Show a hint"
 msgstr "Pokaži namig"
 
-#: ../mahjongg/mahjongg.c:1389
+#: ../mahjongg/mahjongg.c:1375
 msgid "Tiles Left:"
 msgstr "Preostalih ploščic:"
 
-#: ../mahjongg/mahjongg.c:1398
+#: ../mahjongg/mahjongg.c:1384
 msgid "Moves Left:"
 msgstr "Preostalih premikov:"
 
-#: ../mahjongg/mahjongg.c:1462
+#: ../mahjongg/mahjongg.c:1448
 msgid "Remove matching pairs of tiles."
 msgstr "Odstranite enake pare ploščic."
 
@@ -5030,6 +5018,18 @@ msgstr "Običajno"
 #: ../swell-foop/src/Score.js:147
 msgid "Large"
 msgstr "Veliko"
+
+#~ msgid "The game is over."
+#~ msgstr "Konec igre."
+
+#~ msgid "It is your turn to place a dark piece"
+#~ msgstr "Na vrsti ste, da položite temno figuro"
+
+#~ msgid "It is your turn to place a light piece"
+#~ msgstr "Na vrsti ste, da položite svetlo figuro"
+
+#~ msgid "Waiting for %s to move"
+#~ msgstr "Čakanje na premik %s "
 
 #~ msgid "Sudoku incorrectly installed"
 #~ msgstr "Sudoku ni pravilno nameščen"
