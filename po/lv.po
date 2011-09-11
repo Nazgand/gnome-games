@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
 "cgi?product=gnome-games&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-07-09 14:07+0000\n"
-"PO-Revision-Date: 2011-07-10 10:37+0300\n"
+"POT-Creation-Date: 2011-09-05 10:14+0000\n"
+"PO-Revision-Date: 2011-09-07 11:38+0300\n"
 "Last-Translator: Rūdofls Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -37,7 +37,6 @@ msgid "A flag to enable fullscreen mode"
 msgstr "Aktivizēt pilnekrāna režīmu"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:4
-#| msgid "A flag to enable maximised mode"
 msgid "A flag to enable maximized mode"
 msgstr "Aktivizēt maksimizētu režīmu"
 
@@ -164,7 +163,7 @@ msgstr "Parādīt iepriekšējo gājienu"
 
 #. Tooltip for start new game toolbar button
 #: ../glchess/data/glchess.ui.h:16 ../gnobots2/menu.c:71
-#: ../libgames-support/games-stock.c:50 ../mahjongg/mahjongg.c:1203
+#: ../libgames-support/games-stock.c:50 ../mahjongg/mahjongg.c:1195
 msgid "Start a new game"
 msgstr "Sākt jaunu spēli"
 
@@ -181,22 +180,22 @@ msgstr "_Saturs"
 
 #. Game menu name
 #: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1646
-#: ../gnect/src/main.c:1244 ../gnibbles/main.c:687 ../gnobots2/menu.c:66
+#: ../gnect/src/main.c:1187 ../gnibbles/main.c:600 ../gnobots2/menu.c:66
 #: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:210
-#: ../gnomine/gnomine.c:768 ../gnotravex/gnotravex.c:1707
-#: ../gnotski/gnotski.c:409 ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:847
-#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1200
+#: ../gnomine/gnomine.c:758 ../gnotravex/gnotravex.c:1707
+#: ../gnotski/gnotski.c:409 ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:763
+#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1192
 #: ../swell-foop/data/swell-foop.ui.h:2
 msgid "_Game"
 msgstr "_Spēle"
 
 #. Help menu item
 #: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1648
-#: ../gnect/src/main.c:1247 ../gnibbles/main.c:690 ../gnobots2/menu.c:70
+#: ../gnect/src/main.c:1190 ../gnibbles/main.c:603 ../gnobots2/menu.c:70
 #: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:233
-#: ../gnomine/gnomine.c:770 ../gnotravex/gnotravex.c:1711
-#: ../gnotski/gnotski.c:411 ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:849
-#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1202
+#: ../gnomine/gnomine.c:760 ../gnotravex/gnotravex.c:1711
+#: ../gnotski/gnotski.c:411 ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:765
+#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1194
 #: ../swell-foop/data/swell-foop.ui.h:3
 msgid "_Help"
 msgstr "_Palīdzība"
@@ -208,11 +207,11 @@ msgstr "_Padoties"
 
 #. Settings menu item
 #: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1647
-#: ../gnect/src/main.c:1246 ../gnibbles/main.c:689 ../gnobots2/menu.c:69
+#: ../gnect/src/main.c:1189 ../gnibbles/main.c:602 ../gnobots2/menu.c:69
 #: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:224
-#: ../gnomine/gnomine.c:769 ../gnotravex/gnotravex.c:1709
-#: ../gtali/gyahtzee.c:712 ../iagno/gnothello.c:848
-#: ../mahjongg/mahjongg.c:1201
+#: ../gnomine/gnomine.c:759 ../gnotravex/gnotravex.c:1709
+#: ../gtali/gyahtzee.c:712 ../iagno/gnothello.c:764
+#: ../mahjongg/mahjongg.c:1193
 msgid "_Settings"
 msgstr "Ie_statījumi"
 
@@ -263,8 +262,8 @@ msgstr "Piecas minūtes"
 
 #. Preferences Dialog: Tab title for game preferences
 #: ../glchess/data/preferences.ui.h:18 ../gnect/src/prefs.c:301
-#: ../gnibbles/preferences.c:254 ../gnobots2/properties.c:496
-#: ../quadrapassel/tetris.cpp:596 ../iagno/properties.c:415
+#: ../gnibbles/preferences.c:237 ../gnobots2/properties.c:496
+#: ../quadrapassel/tetris.cpp:596 ../iagno/properties.c:396
 msgid "Game"
 msgstr "Spēle"
 
@@ -310,7 +309,7 @@ msgstr "Spēlē kā:"
 
 #. Title for preferences dialog
 #: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:196
-#: ../mahjongg/mahjongg.c:141
+#: ../mahjongg/mahjongg.c:139
 msgid "Preferences"
 msgstr "Iestatījumi"
 
@@ -984,7 +983,6 @@ msgstr "Baltais spēlētājs ir atkāpies"
 
 #. Message displayed when a game is abandoned
 #: ../glchess/src/glchess.vala:770
-#| msgid "Game over! The game has been won by %s!"
 msgid "The game has been abandoned"
 msgstr "Spēle tika pamesta"
 
@@ -1030,10 +1028,6 @@ msgstr[1] "stundas"
 msgstr[2] "stundas"
 
 #: ../glchess/src/glchess.vala:1362
-#| msgid ""
-#| "A worm game for GNOME.\n"
-#| "\n"
-#| "Nibbles is a part of GNOME Games."
 msgid ""
 "The 2D/3D chess game for GNOME. \n"
 "\n"
@@ -1044,25 +1038,23 @@ msgstr ""
 "glChess ir daļa no GNOME Games."
 
 #: ../glchess/src/glchess.vala:1367 ../glines/glines.c:1225
-#: ../gnect/src/main.c:877 ../gnibbles/main.c:211 ../gnobots2/menu.c:263
-#: ../quadrapassel/tetris.cpp:1313 ../gnomine/gnomine.c:479
+#: ../gnect/src/main.c:828 ../gnibbles/main.c:177 ../gnobots2/menu.c:263
+#: ../quadrapassel/tetris.cpp:1313 ../gnomine/gnomine.c:473
 #: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1490
-#: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
-#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:911
+#: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:226
+#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:903
 #: ../swell-foop/src/About.js:19
 msgid "GNOME Games web site"
 msgstr "GNOME Games tīmekļa vietne"
 
 #. Title of save game dialog
 #: ../glchess/src/glchess.vala:1421
-#| msgid "Solve the game"
 msgid "Save Chess Game"
 msgstr "Saglabāt šaha spēli"
 
 #. Save Game Dialog: Name of filter to show only PGN files
 #. Load Game Dialog: Name of filter to show only PGN files
 #: ../glchess/src/glchess.vala:1434 ../glchess/src/glchess.vala:1502
-#| msgid "Nibbles"
 msgid "PGN files"
 msgstr "PGN faili"
 
@@ -1074,19 +1066,16 @@ msgstr "Visi faili"
 
 #: ../glchess/src/glchess.vala:1465
 #, c-format
-#| msgid "Unable to save game."
 msgid "Failed to save game: %s"
 msgstr "Neizdevās saglabāt spēli: %s"
 
 #. Title of load game dialog
 #: ../glchess/src/glchess.vala:1489
-#| msgid "Bakers Game"
 msgid "Load Chess Game"
 msgstr "Ielāde šaha spēli"
 
 #: ../glchess/src/glchess.vala:1531
 #, c-format
-#| msgid "Unable to save game."
 msgid "Failed to open game: %s"
 msgstr "Neizdevās atvērt spēli: %s"
 
@@ -1108,17 +1097,17 @@ msgstr ""
 "Palaidiet '%s --help', lai redzētu pilnu pieejamo komandrindas opciju "
 "sarakstu."
 
-#: ../glines/glines.c:89 ../gnomine/gnomine.c:100
+#: ../glines/glines.c:89 ../gnomine/gnomine.c:101
 msgctxt "board size"
 msgid "Small"
 msgstr "Mazs"
 
-#: ../glines/glines.c:90 ../gnomine/gnomine.c:101
+#: ../glines/glines.c:90 ../gnomine/gnomine.c:102
 msgctxt "board size"
 msgid "Medium"
 msgstr "Vidējs"
 
-#: ../glines/glines.c:91 ../gnomine/gnomine.c:102
+#: ../glines/glines.c:91 ../gnomine/gnomine.c:103
 msgctxt "board size"
 msgid "Large"
 msgstr "Liels"
@@ -1190,12 +1179,12 @@ msgstr ""
 "Five or More ir daļa no GNOME Games."
 
 #. this doesn't work for anyone
-#: ../glines/glines.c:1222 ../gnect/src/main.c:880 ../gnibbles/main.c:208
+#: ../glines/glines.c:1222 ../gnect/src/main.c:831 ../gnibbles/main.c:174
 #: ../gnobots2/menu.c:267 ../quadrapassel/tetris.cpp:1316
-#: ../gnome-sudoku/src/lib/main.py:688 ../gnomine/gnomine.c:476
+#: ../gnome-sudoku/src/lib/main.py:688 ../gnomine/gnomine.c:470
 #: ../gnotravex/gnotravex.c:1613 ../gnotski/gnotski.c:1487
-#: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:270
-#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:908
+#: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:224
+#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:900
 #: ../swell-foop/src/About.js:20
 msgid "translator-credits"
 msgstr ""
@@ -1208,7 +1197,7 @@ msgid "Five or More Preferences"
 msgstr "Five or More iestatījumi"
 
 #: ../glines/glines.c:1422 ../gnect/src/prefs.c:333
-#: ../gnobots2/properties.c:535 ../iagno/properties.c:527
+#: ../gnobots2/properties.c:535 ../iagno/properties.c:508
 #: ../lightsoff/data/settings.ui.h:1 ../swell-foop/data/settings.ui.h:1
 msgid "Appearance"
 msgstr "Izskats"
@@ -1239,7 +1228,7 @@ msgid "Next:"
 msgstr "Nākamais:"
 
 #: ../glines/glines.c:1847 ../gnobots2/statusbar.c:67
-#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:439
+#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:433
 msgid "Score:"
 msgstr "Rezultāts:"
 
@@ -1348,19 +1337,19 @@ msgid "Level of Player Two"
 msgstr "Otrā spēlētāja līmenis"
 
 #: ../gnect/data/gnect.schemas.in.h:9 ../gnect/src/prefs.c:370
-#: ../gnibbles/gnibbles.schemas.in.h:16 ../gnibbles/preferences.c:444
+#: ../gnibbles/gnibbles.schemas.in.h:16 ../gnibbles/preferences.c:427
 #: ../quadrapassel/quadrapassel.schemas.in.h:13 ../quadrapassel/tetris.cpp:751
 msgid "Move left"
 msgstr "Iet pa kreisi"
 
 #: ../gnect/data/gnect.schemas.in.h:10 ../gnect/src/prefs.c:371
-#: ../gnibbles/gnibbles.schemas.in.h:17 ../gnibbles/preferences.c:445
+#: ../gnibbles/gnibbles.schemas.in.h:17 ../gnibbles/preferences.c:428
 #: ../quadrapassel/quadrapassel.schemas.in.h:14 ../quadrapassel/tetris.cpp:752
 msgid "Move right"
 msgstr "Iet pa labi"
 
 #: ../gnect/data/gnect.schemas.in.h:11 ../gnobots2/properties.c:483
-#: ../iagno/iagno.schemas.in.h:1
+#: ../iagno/org.gnome.iagno.gschema.xml.in.h:1
 msgid "Sound"
 msgstr "Skaņa"
 
@@ -1368,7 +1357,8 @@ msgstr "Skaņa"
 msgid "Theme ID"
 msgstr "Tēmas id"
 
-#: ../gnect/data/gnect.schemas.in.h:13 ../iagno/iagno.schemas.in.h:2
+#: ../gnect/data/gnect.schemas.in.h:13
+#: ../iagno/org.gnome.iagno.gschema.xml.in.h:2
 msgid "Whether or not to play event sounds."
 msgstr "Vai atskaņot notikumu skaņas."
 
@@ -1391,58 +1381,58 @@ msgstr ""
 "Nevar ielādēt attēlu:\n"
 "%s"
 
-#: ../gnect/src/main.c:527
+#: ../gnect/src/main.c:509
 msgid "It's a draw!"
 msgstr "Ir neizšķirts!"
 
-#: ../gnect/src/main.c:536 ../gnome-sudoku/src/lib/main.py:402
+#: ../gnect/src/main.c:518 ../gnome-sudoku/src/lib/main.py:402
 msgid "You win!"
 msgstr "Tu uzvarēji!"
 
-#: ../gnect/src/main.c:538 ../gnect/src/main.c:571
+#: ../gnect/src/main.c:520 ../gnect/src/main.c:539
 msgid "It is your move."
 msgstr "Tavs gājiens."
 
-#: ../gnect/src/main.c:541
+#: ../gnect/src/main.c:523
 msgid "I win!"
 msgstr "Es uzvarēju!"
 
-#: ../gnect/src/main.c:543 ../gnect/src/main.c:676
+#: ../gnect/src/main.c:525 ../gnect/src/main.c:627
 msgid "Thinking..."
 msgstr "Domā..."
 
-#: ../gnect/src/main.c:564 ../gnect/src/main.c:568
+#: ../gnect/src/main.c:536
 #, c-format
 msgid "%s wins!"
 msgstr "%s uzvar!"
 
-#: ../gnect/src/main.c:574
+#: ../gnect/src/main.c:543
 #, c-format
 msgid "Waiting for %s to move."
 msgstr "Gaida %s gājienu."
 
-#: ../gnect/src/main.c:693
+#: ../gnect/src/main.c:644
 #, c-format
 msgid "Hint: Column %d"
 msgstr "Padoms: kolonna %d"
 
-#: ../gnect/src/main.c:721 ../gnect/src/main.c:725
+#: ../gnect/src/main.c:672 ../gnect/src/main.c:676
 msgid "You:"
 msgstr "Tu:"
 
-#: ../gnect/src/main.c:722 ../gnect/src/main.c:724
+#: ../gnect/src/main.c:673 ../gnect/src/main.c:675
 msgid "Me:"
 msgstr "Es:"
 
-#: ../gnect/src/main.c:770
+#: ../gnect/src/main.c:721
 msgid "Scores"
 msgstr "Rezultāti"
 
-#: ../gnect/src/main.c:823
+#: ../gnect/src/main.c:774
 msgid "Drawn:"
 msgstr "Neizšķirts:"
 
-#: ../gnect/src/main.c:876
+#: ../gnect/src/main.c:827
 msgid ""
 "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
 "Bertoletti's Velena Engine.\n"
@@ -1454,7 +1444,7 @@ msgstr ""
 "\n"
 "\"Four in a Row\" ir daļa no GNOME Games."
 
-#: ../gnect/src/main.c:1245 ../gnibbles/main.c:688 ../gnobots2/menu.c:67
+#: ../gnect/src/main.c:1188 ../gnibbles/main.c:601 ../gnobots2/menu.c:67
 #: ../gnotski/gnotski.c:410
 msgid "_View"
 msgstr "_Skats"
@@ -1478,22 +1468,22 @@ msgstr ""
 "%s"
 
 #: ../gnect/src/prefs.c:249 ../gtali/gyahtzee.c:998 ../gtali/yahtzee.c:69
-#: ../iagno/properties.c:448 ../iagno/properties.c:489
+#: ../iagno/properties.c:429 ../iagno/properties.c:470
 msgid "Human"
 msgstr "Cilvēks"
 
-#: ../gnect/src/prefs.c:251 ../iagno/properties.c:457
-#: ../iagno/properties.c:498
+#: ../gnect/src/prefs.c:251 ../iagno/properties.c:438
+#: ../iagno/properties.c:479
 msgid "Level one"
 msgstr "Pirmais līmenis"
 
-#: ../gnect/src/prefs.c:253 ../iagno/properties.c:466
-#: ../iagno/properties.c:507
+#: ../gnect/src/prefs.c:253 ../iagno/properties.c:447
+#: ../iagno/properties.c:488
 msgid "Level two"
 msgstr "Otrais līmenis"
 
-#: ../gnect/src/prefs.c:255 ../iagno/properties.c:475
-#: ../iagno/properties.c:516
+#: ../gnect/src/prefs.c:255 ../iagno/properties.c:456
+#: ../iagno/properties.c:497
 msgid "Level three"
 msgstr "Trešais līmenis"
 
@@ -1509,13 +1499,13 @@ msgstr "_Tēma:"
 msgid "Enable _animation"
 msgstr "_Aktivizēt animāciju"
 
-#: ../gnect/src/prefs.c:361 ../gnibbles/preferences.c:338
-#: ../iagno/properties.c:436
+#: ../gnect/src/prefs.c:361 ../gnibbles/preferences.c:321
+#: ../iagno/properties.c:417
 msgid "E_nable sounds"
 msgstr "A_ktivizēt skaņas"
 
 #. keyboard tab
-#: ../gnect/src/prefs.c:366 ../gnibbles/preferences.c:434
+#: ../gnect/src/prefs.c:366 ../gnibbles/preferences.c:417
 #: ../gnobots2/properties.c:542 ../quadrapassel/tetris.cpp:743
 msgid "Keyboard Controls"
 msgstr "Tastatūras vadība"
@@ -1525,12 +1515,11 @@ msgid "Classic"
 msgstr "Klasiska"
 
 #: ../gnect/src/theme.c:47 ../gnect/src/theme.c:68 ../gnect/src/theme.c:75
-#: ../gnect/src/theme.c:82 ../gnibbles/preferences.c:472
+#: ../gnect/src/theme.c:82 ../gnibbles/preferences.c:455
 msgid "Red"
 msgstr "Sarkans"
 
-#: ../gnect/src/theme.c:47 ../gnect/src/theme.c:82
-#: ../gnibbles/preferences.c:475
+#: ../gnect/src/theme.c:47 ../gnibbles/preferences.c:458
 msgid "Yellow"
 msgstr "Dzeltens"
 
@@ -1538,13 +1527,15 @@ msgstr "Dzeltens"
 msgid "High Contrast"
 msgstr "Augsts kontrasts"
 
-#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61 ../iagno/properties.c:484
-msgid "Light"
-msgstr "Gaišs"
+#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61
+#| msgid "mice"
+msgid "Circle"
+msgstr "Aplis"
 
-#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61 ../iagno/properties.c:443
-msgid "Dark"
-msgstr "Tumšs"
+#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61
+#| msgid "Controls"
+msgid "Cross"
+msgstr "Krusts"
 
 #: ../gnect/src/theme.c:57
 msgid "High Contrast Inverse"
@@ -1554,8 +1545,8 @@ msgstr "Pretējs augsts kontrasts"
 msgid "Cream Marbles"
 msgstr "Krēmkrāsas lodītes"
 
-#: ../gnect/src/theme.c:68 ../gnect/src/theme.c:75 ../gnect/src/theme.c:89
-#: ../gnibbles/preferences.c:474
+#: ../gnect/src/theme.c:68 ../gnect/src/theme.c:75 ../gnect/src/theme.c:82
+#: ../gnect/src/theme.c:89 ../gnibbles/preferences.c:457
 msgid "Blue"
 msgstr "Zils"
 
@@ -1575,7 +1566,7 @@ msgstr "Bloki"
 msgid "Orange"
 msgstr "Oranžs"
 
-#: ../gnibbles/board.c:254
+#: ../gnibbles/board.c:250
 #, c-format
 msgid ""
 "Nibbles couldn't load level file:\n"
@@ -1588,7 +1579,7 @@ msgstr ""
 "\n"
 "Lūdzu, pārbaudiet savu Nibbles instalāciju"
 
-#: ../gnibbles/board.c:273
+#: ../gnibbles/board.c:269
 #, c-format
 msgid ""
 "Level file appears to be damaged:\n"
@@ -1601,7 +1592,7 @@ msgstr ""
 "\n"
 "Lūdzu, pārbaudiet savu Nibbles instalāciju"
 
-#: ../gnibbles/gnibbles.c:94
+#: ../gnibbles/gnibbles.c:90
 #, c-format
 msgid ""
 "Nibbles couldn't find pixmap file:\n"
@@ -1614,29 +1605,29 @@ msgstr ""
 "\n"
 "Lūdzu, pārbaudiet savu Nibbles instalāciju"
 
-#: ../gnibbles/gnibbles.c:366
+#: ../gnibbles/gnibbles.c:361
 msgid "Nibbles Scores"
 msgstr "Nibbles rezultāti"
 
-#: ../gnibbles/gnibbles.c:369
+#: ../gnibbles/gnibbles.c:364
 msgid "Speed:"
 msgstr "Ātrums:"
 
-#: ../gnibbles/gnibbles.c:374 ../gnobots2/game.c:179 ../gnomine/gnomine.c:223
+#: ../gnibbles/gnibbles.c:369 ../gnobots2/game.c:179 ../gnomine/gnomine.c:224
 #: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:797
-#: ../gtali/gyahtzee.c:197 ../mahjongg/mahjongg.c:630
+#: ../gtali/gyahtzee.c:197 ../mahjongg/mahjongg.c:622
 msgid "Congratulations!"
 msgstr "Apsveicam!"
 
-#: ../gnibbles/gnibbles.c:375 ../gnobots2/game.c:180 ../gnomine/gnomine.c:224
+#: ../gnibbles/gnibbles.c:370 ../gnobots2/game.c:180 ../gnomine/gnomine.c:225
 #: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:798
-#: ../gtali/gyahtzee.c:198 ../mahjongg/mahjongg.c:631
+#: ../gtali/gyahtzee.c:198 ../mahjongg/mahjongg.c:623
 msgid "Your score is the best!"
 msgstr "Jūsu rezultāts ir labākais!"
 
-#: ../gnibbles/gnibbles.c:376 ../gnobots2/game.c:181 ../gnomine/gnomine.c:225
+#: ../gnibbles/gnibbles.c:371 ../gnobots2/game.c:181 ../gnomine/gnomine.c:226
 #: ../gnotravex/gnotravex.c:1092 ../gnotski/gnotski.c:799
-#: ../gtali/gyahtzee.c:199 ../mahjongg/mahjongg.c:632
+#: ../gtali/gyahtzee.c:199 ../mahjongg/mahjongg.c:624
 msgid "Your score has made the top ten."
 msgstr "Jūsu rezultāts ticis labāko desmitniekā."
 
@@ -1644,9 +1635,9 @@ msgstr "Jūsu rezultāts ticis labāko desmitniekā."
 msgid "Guide a worm around a maze"
 msgstr "Vadi tārpu pa labirintu"
 
-#: ../gnibbles/gnibbles.desktop.in.in.h:2 ../gnibbles/main.c:196
-#: ../gnibbles/main.c:199 ../gnibbles/main.c:798 ../gnibbles/main.c:877
-#: ../gnibbles/main.c:1007
+#: ../gnibbles/gnibbles.desktop.in.in.h:2 ../gnibbles/main.c:162
+#: ../gnibbles/main.c:165 ../gnibbles/main.c:695 ../gnibbles/main.c:766
+#: ../gnibbles/main.c:896
 msgid "Nibbles"
 msgstr "Nibbles"
 
@@ -1706,12 +1697,12 @@ msgstr "Taustiņš, ko lietot, lai pārvietotos pa labi."
 msgid "Key to use for motion up."
 msgstr "Taustiņš, ko lietot, lai pārvietotos uz augšu."
 
-#: ../gnibbles/gnibbles.schemas.in.h:15 ../gnibbles/preferences.c:447
+#: ../gnibbles/gnibbles.schemas.in.h:15 ../gnibbles/preferences.c:430
 #: ../quadrapassel/quadrapassel.schemas.in.h:12 ../quadrapassel/tetris.cpp:753
 msgid "Move down"
 msgstr "Pārvietot uz leju"
 
-#: ../gnibbles/gnibbles.schemas.in.h:18 ../gnibbles/preferences.c:446
+#: ../gnibbles/gnibbles.schemas.in.h:18 ../gnibbles/preferences.c:429
 msgid "Move up"
 msgstr "Pārvietot uz augšu"
 
@@ -1755,47 +1746,47 @@ msgstr "Lietot relatīvo kustību"
 msgid "Use relative movement (ie. left or right only)."
 msgstr "Lietot relatīvo kustību (t.i. pa kreisi vai tikai pa labi)."
 
-#: ../gnibbles/main.c:73
+#: ../gnibbles/main.c:66
 msgctxt "game speed"
 msgid "Beginner"
 msgstr "Iesācēju"
 
-#: ../gnibbles/main.c:74
+#: ../gnibbles/main.c:67
 msgctxt "game speed"
 msgid "Slow"
 msgstr "Lēni"
 
-#: ../gnibbles/main.c:75
+#: ../gnibbles/main.c:68
 msgctxt "game speed"
 msgid "Medium"
 msgstr "Vidēji"
 
-#: ../gnibbles/main.c:76
+#: ../gnibbles/main.c:69
 msgctxt "game speed"
 msgid "Fast"
 msgstr "Ātri"
 
-#: ../gnibbles/main.c:77
+#: ../gnibbles/main.c:70
 msgctxt "game speed"
 msgid "Beginner with Fakes"
 msgstr "Iesācēju ar neīstajiem"
 
-#: ../gnibbles/main.c:78
+#: ../gnibbles/main.c:71
 msgctxt "game speed"
 msgid "Slow with Fakes"
 msgstr "Lēns ar neīstajiem"
 
-#: ../gnibbles/main.c:79
+#: ../gnibbles/main.c:72
 msgctxt "game speed"
 msgid "Medium with Fakes"
 msgstr "Vidējs ar neīstajiem"
 
-#: ../gnibbles/main.c:80
+#: ../gnibbles/main.c:73
 msgctxt "game speed"
 msgid "Fast with Fakes"
 msgstr "Ātrs ar neīstajiem"
 
-#: ../gnibbles/main.c:205
+#: ../gnibbles/main.c:171
 msgid ""
 "A worm game for GNOME.\n"
 "\n"
@@ -1805,96 +1796,92 @@ msgstr ""
 "\n"
 "Nibbles ir daļa no GNOME Games."
 
-#: ../gnibbles/main.c:567
+#: ../gnibbles/main.c:492
 #, c-format
 msgid "Game over! The game has been won by %s!"
 msgstr "Spēle beigusies! %s ir uzvarējis!"
 
-#: ../gnibbles/main.c:615
-msgid "The game is over."
-msgstr "Spēle ir beigusies."
-
 #. Translators: This string will be included in the intro screen, so don't make sure it fits!
-#: ../gnibbles/main.c:879
+#: ../gnibbles/main.c:768
 msgid "A worm game for GNOME."
 msgstr "Tārpa spēle GNOME."
 
-#: ../gnibbles/preferences.c:241
+#: ../gnibbles/preferences.c:224
 msgid "Nibbles Preferences"
 msgstr "Nibbles iestatījumi"
 
-#: ../gnibbles/preferences.c:261
+#: ../gnibbles/preferences.c:244
 msgid "Speed"
 msgstr "Ātrums"
 
-#: ../gnibbles/preferences.c:271
+#: ../gnibbles/preferences.c:254
 msgid "Nibbles newbie"
 msgstr "Nibbles iesācējs"
 
-#: ../gnibbles/preferences.c:281
+#: ../gnibbles/preferences.c:264
 msgid "My second day"
 msgstr "Mana otrā diena"
 
-#: ../gnibbles/preferences.c:291
+#: ../gnibbles/preferences.c:274
 msgid "Not too shabby"
 msgstr "Ne pārāk traki"
 
-#: ../gnibbles/preferences.c:301
+#: ../gnibbles/preferences.c:284
 msgid "Finger-twitching good"
 msgstr "Pirkstu veiklības treniņam"
 
 #. Options
-#: ../gnibbles/preferences.c:311 ../gnibbles/preferences.c:453
-#: ../gnobots2/properties.c:460 ../iagno/properties.c:566
+#: ../gnibbles/preferences.c:294 ../gnibbles/preferences.c:436
+#: ../gnobots2/properties.c:460 ../iagno/properties.c:547
 msgid "Options"
 msgstr "Opcijas"
 
-#: ../gnibbles/preferences.c:318
+#: ../gnibbles/preferences.c:301
 msgid "_Play levels in random order"
 msgstr "S_pēlēt līmeņus gadījuma secībā"
 
-#: ../gnibbles/preferences.c:328
+#: ../gnibbles/preferences.c:311
 msgid "_Enable fake bonuses"
 msgstr "_Aktivizēt neīstos bonusus"
 
 #. starting level
-#: ../gnibbles/preferences.c:351 ../quadrapassel/tetris.cpp:643
+#: ../gnibbles/preferences.c:334 ../quadrapassel/tetris.cpp:643
 msgid "_Starting level:"
 msgstr "_Sākuma līmenis:"
 
-#: ../gnibbles/preferences.c:379
+#: ../gnibbles/preferences.c:362
 msgid "Number of _human players:"
 msgstr "Cilvēku spēlētāju _skaits:"
 
-#: ../gnibbles/preferences.c:399
+#: ../gnibbles/preferences.c:382
 msgid "Number of _AI players:"
 msgstr "_MI spēlētāju skaits:"
 
-#: ../gnibbles/preferences.c:425
+#: ../gnibbles/preferences.c:408
 msgid "Worm"
 msgstr "Tārps"
 
-#: ../gnibbles/preferences.c:459
+#: ../gnibbles/preferences.c:442
 msgid "_Use relative movement"
 msgstr "Lietot relatīvo kustīb_u"
 
-#: ../gnibbles/preferences.c:466
+#: ../gnibbles/preferences.c:449
 msgid "_Worm color:"
 msgstr "_Tārpa krāsa:"
 
-#: ../gnibbles/preferences.c:473
+#: ../gnibbles/preferences.c:456
 msgid "Green"
 msgstr "Zaļš"
 
-#: ../gnibbles/preferences.c:476
+#: ../gnibbles/preferences.c:459
 msgid "Cyan"
 msgstr "Gaiši zils"
 
-#: ../gnibbles/preferences.c:477
+#: ../gnibbles/preferences.c:460
 msgid "Purple"
 msgstr "Purpura"
 
-#: ../gnibbles/preferences.c:478
+#: ../gnibbles/preferences.c:461
 msgid "Gray"
 msgstr "Pelēks"
 
@@ -1907,13 +1894,13 @@ msgstr "Tārps %d:"
 msgid "Game over!"
 msgstr "Spēle beigusies!"
 
-#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:199 ../gnotski/gnotski.c:772
+#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:200 ../gnotski/gnotski.c:772
 msgid "Great work, but unfortunately your score did not make the top ten."
 msgstr "Labs rezultāts, bet diemžēl jūs neiekļuvāt labāko desmitniekā."
 
 #. Translators: This "_New Game" is for the game-over dialogue
 #: ../gnobots2/game.c:154 ../gnome-sudoku/data/select_game.ui.h:1
-#: ../gnomine/gnomine.c:201 ../gnotski/gnotski.c:774
+#: ../gnomine/gnomine.c:202 ../gnotski/gnotski.c:774
 #: ../libgames-support/games-stock.c:255
 msgid "_New Game"
 msgstr "Jau_na spēle"
@@ -1922,8 +1909,8 @@ msgstr "Jau_na spēle"
 msgid "Robots Scores"
 msgstr "Robots rezultāti"
 
-#: ../gnobots2/game.c:170 ../mahjongg/mahjongg.c:628
-#: ../mahjongg/mahjongg.c:953
+#: ../gnobots2/game.c:170 ../mahjongg/mahjongg.c:620
+#: ../mahjongg/mahjongg.c:945
 msgid "Map:"
 msgstr "Karte:"
 
@@ -1936,11 +1923,11 @@ msgstr ""
 "Bet vai varat izdarīt to vēlreiz?"
 
 #. This should never happen.
-#: ../gnobots2/game.c:1205
+#: ../gnobots2/game.c:1201
 msgid "There are no teleport locations left!!"
 msgstr "Nav vairāk vietu, kurp teleportēties!!"
 
-#: ../gnobots2/game.c:1233
+#: ../gnobots2/game.c:1229
 msgid "There are no safe locations to teleport to!!"
 msgstr "Nav drošu vietu, uz kurām teleportēties!!"
 
@@ -1960,15 +1947,15 @@ msgstr "Iestatīt spēles konfigurāciju"
 msgid "Initial window position"
 msgstr "Sākotnējais loga novietojums"
 
-#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:924 ../gnomine/gnomine.c:932
+#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:914 ../gnomine/gnomine.c:922
 #: ../gnotravex/gnotravex.c:262 ../gnotski/gnotski.c:457
-#: ../iagno/gnothello.c:148
+#: ../iagno/gnothello.c:139
 msgid "X"
 msgstr "X"
 
-#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:926 ../gnomine/gnomine.c:934
+#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:916 ../gnomine/gnomine.c:924
 #: ../gnotravex/gnotravex.c:264 ../gnotski/gnotski.c:459
-#: ../iagno/gnothello.c:150
+#: ../iagno/gnothello.c:141
 msgid "Y"
 msgstr "Y"
 
@@ -2262,7 +2249,7 @@ msgstr ""
 "Izmantot sevišķi drošas gājienus. Spēlētājs tiks brīdināts, kad drošu "
 "kustību nav un vienīgā iespēja ir teleporteties no šīs vietas."
 
-#: ../gnobots2/graphics.c:153 ../iagno/gnothello.c:454
+#: ../gnobots2/graphics.c:153 ../iagno/gnothello.c:403
 #, c-format
 msgid "Could not find '%s' pixmap file\n"
 msgstr "Nevarēju atrast '%s' pikseļkartes (pixmap) failu\n"
@@ -2295,11 +2282,11 @@ msgstr "_Gaidīt"
 msgid "Wait for the robots"
 msgstr "Gaidīt robotus"
 
-#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1223
+#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1215
 msgid "_Toolbar"
 msgstr "Rīkjosla"
 
-#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1223
+#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1215
 msgid "Show or hide the toolbar"
 msgstr "Parādīt vai paslēpt rīkjoslu"
 
@@ -2402,7 +2389,7 @@ msgstr "Grafikas tēma"
 msgid "_Image theme:"
 msgstr "_Attēla tēma:"
 
-#: ../gnobots2/properties.c:523 ../mahjongg/mahjongg.c:736
+#: ../gnobots2/properties.c:523 ../mahjongg/mahjongg.c:728
 msgid "_Background color:"
 msgstr "_Fona krāsa:"
 
@@ -3163,54 +3150,54 @@ msgstr "_Attīrīt"
 msgid "Mines"
 msgstr "Mīnas"
 
-#: ../gnomine/gnomine.c:103
+#: ../gnomine/gnomine.c:104
 msgctxt "board size"
 msgid "Custom"
 msgstr "Pielāgots"
 
-#: ../gnomine/gnomine.c:169
+#: ../gnomine/gnomine.c:170
 #, c-format
 msgid "Flags: %d/%d"
 msgstr "Karodziņi: %d/%d"
 
-#: ../gnomine/gnomine.c:197
+#: ../gnomine/gnomine.c:198
 msgid "The Mines Have Been Cleared!"
 msgstr "Mīnas ir atmīnētas!"
 
-#: ../gnomine/gnomine.c:213
+#: ../gnomine/gnomine.c:214
 msgid "Mines Scores"
 msgstr "Mines rezultāti"
 
-#: ../gnomine/gnomine.c:216 ../gnotravex/gnotravex.c:1085
+#: ../gnomine/gnomine.c:217 ../gnotravex/gnotravex.c:1085
 #: ../swell-foop/src/Score.js:57
 msgid "Size:"
 msgstr "Izmērs:"
 
-#: ../gnomine/gnomine.c:321
+#: ../gnomine/gnomine.c:315
 msgid "Click a square, any square"
 msgstr "Uzklikšķini uz lauciņa, jebkura lauciņa"
 
-#: ../gnomine/gnomine.c:323
+#: ../gnomine/gnomine.c:317
 msgid "Maybe they're all mines ..."
 msgstr "Varbūt tās visas ir mīnas ..."
 
-#: ../gnomine/gnomine.c:436 ../mahjongg/mahjongg.c:867
+#: ../gnomine/gnomine.c:430 ../mahjongg/mahjongg.c:859
 msgid "Main game:"
 msgstr "Galvenā spēle:"
 
-#: ../gnomine/gnomine.c:442
+#: ../gnomine/gnomine.c:436
 msgid "Resizing and SVG support:"
 msgstr "Izmēru mainīšana un SVG atbalsts:"
 
-#: ../gnomine/gnomine.c:449
+#: ../gnomine/gnomine.c:443
 msgid "Faces:"
 msgstr "Sejas:"
 
-#: ../gnomine/gnomine.c:452
+#: ../gnomine/gnomine.c:446
 msgid "Graphics:"
 msgstr "Grafika:"
 
-#: ../gnomine/gnomine.c:468
+#: ../gnomine/gnomine.c:462
 msgid ""
 "The popular logic puzzle minesweeper. Clear mines from a board using hints "
 "from squares you have already uncovered.\n"
@@ -3222,82 +3209,82 @@ msgstr ""
 "\n"
 "Mines ir daļa no GNOME Games."
 
-#: ../gnomine/gnomine.c:631
+#: ../gnomine/gnomine.c:621
 msgid "Field Size"
 msgstr "Lauka izmērs"
 
-#: ../gnomine/gnomine.c:654
+#: ../gnomine/gnomine.c:644
 msgid "Custom Size"
 msgstr "Pielāgots izmērs"
 
-#: ../gnomine/gnomine.c:661
+#: ../gnomine/gnomine.c:651
 msgid "_Number of mines:"
 msgstr "Mī_nu skaits:"
 
-#: ../gnomine/gnomine.c:674
+#: ../gnomine/gnomine.c:664
 msgid "_Horizontal:"
 msgstr "_Horizontāli:"
 
-#: ../gnomine/gnomine.c:686
+#: ../gnomine/gnomine.c:676
 msgid "_Vertical:"
 msgstr "_Vertikāli:"
 
-#: ../gnomine/gnomine.c:703
+#: ../gnomine/gnomine.c:693
 msgid "Flags"
 msgstr "Karogi"
 
-#: ../gnomine/gnomine.c:706
+#: ../gnomine/gnomine.c:696
 msgid "_Use \"I'm not sure\" flags"
 msgstr "Lietot \"Neesmu pārliecināts\" karog_us"
 
-#: ../gnomine/gnomine.c:717
+#: ../gnomine/gnomine.c:707
 msgid "Warnings"
 msgstr "Brīdinājumi"
 
-#: ../gnomine/gnomine.c:720
+#: ../gnomine/gnomine.c:710
 msgid "_Use \"Too many flags\" warning"
 msgstr "Izmantot \"Pārāk da_udz karogu\" brīdinājumu"
 
-#: ../gnomine/gnomine.c:731
+#: ../gnomine/gnomine.c:721
 msgid "Mines Preferences"
 msgstr "Mīnu iestatījumi"
 
-#: ../gnomine/gnomine.c:924
+#: ../gnomine/gnomine.c:914
 msgid "Width of grid"
 msgstr "Režģa platums"
 
-#: ../gnomine/gnomine.c:925
+#: ../gnomine/gnomine.c:915
 msgid "Height of grid"
 msgstr "Režģa augstums"
 
-#: ../gnomine/gnomine.c:927
+#: ../gnomine/gnomine.c:917
 msgid "Number of mines"
 msgstr "Mīnu skaits"
 
-#: ../gnomine/gnomine.c:928 ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109
+#: ../gnomine/gnomine.c:918 ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109
 #: ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
 msgid "NUMBER"
 msgstr "SKAITLIS"
 
-#: ../gnomine/gnomine.c:930 ../gnomine/gnomine.schemas.in.h:8
+#: ../gnomine/gnomine.c:920 ../gnomine/org.gnome.gnomine.gschema.xml.in.h:8
 msgid "Size of the board (0-2 = small-large, 3=custom)"
 msgstr "Laukuma izmērs (0-2 = mazs-liels, 3=pašizvēlēts)"
 
-#: ../gnomine/gnomine.c:931 ../gnotravex/gnotravex.c:261
-#: ../gnotski/gnotski.c:456 ../iagno/gnothello.c:147
+#: ../gnomine/gnomine.c:921 ../gnotravex/gnotravex.c:261
+#: ../gnotski/gnotski.c:456 ../iagno/gnothello.c:138
 msgid "X location of window"
 msgstr "X loga novietojums"
 
-#: ../gnomine/gnomine.c:933 ../gnotravex/gnotravex.c:263
-#: ../gnotski/gnotski.c:458 ../iagno/gnothello.c:149
+#: ../gnomine/gnomine.c:923 ../gnotravex/gnotravex.c:263
+#: ../gnotski/gnotski.c:458 ../iagno/gnothello.c:140
 msgid "Y location of window"
 msgstr "Y loga novietojums"
 
-#: ../gnomine/gnomine.c:1069
+#: ../gnomine/gnomine.c:1060
 msgid "Press to Resume"
 msgstr "Spiediet taustiņu, lai turpinātu"
 
-#: ../gnomine/gnomine.c:1103
+#: ../gnomine/gnomine.c:1094
 msgid "Time: "
 msgstr "Laiks: "
 
@@ -3305,34 +3292,35 @@ msgstr "Laiks: "
 msgid "Clear hidden mines from a minefield"
 msgstr "Notīrīt apslēptas mīnas no laukuma"
 
-#: ../gnomine/gnomine.schemas.in.h:1 ../swell-foop/swell-foop.schemas.in.h:2
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:1
+#: ../swell-foop/swell-foop.schemas.in.h:2
 msgid "Board size"
 msgstr "Laukuma izmērs"
 
-#: ../gnomine/gnomine.schemas.in.h:2
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:2
 msgid "Enable automatic placing of flags"
 msgstr "Aktivizēt automātisko karodziņu novietošanu"
 
-#: ../gnomine/gnomine.schemas.in.h:3
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:3
 msgid "Number of columns in a custom game"
 msgstr "Kolonu skaits pašizveidotā spēlē"
 
-#: ../gnomine/gnomine.schemas.in.h:4
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:4
 msgid "Number of rows in a custom game"
 msgstr "Rindu skaits pašizveidotā spēlē"
 
-#: ../gnomine/gnomine.schemas.in.h:5
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:5
 msgid "Set to true to be able to mark squares as unknown."
 msgstr ""
 "Pārslēdziet uz patiess, lai būtu iespējams atzīmēt kvadrātus kā nezināmus."
 
-#: ../gnomine/gnomine.schemas.in.h:6
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:6
 msgid "Set to true to enable warning icons when too many flags are placed."
 msgstr ""
 "Atzīmējiet, lai aktivizētu ikonu brīdinājumus, kad tiek izvietoti pārāk "
 "daudzi karogi."
 
-#: ../gnomine/gnomine.schemas.in.h:7
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:7
 msgid ""
 "Set to true to have gnomine automatically flag squares as mined when enough "
 "squares are revealed"
@@ -3340,15 +3328,15 @@ msgstr ""
 "Atzīmējiet, lai gnomine automātiski atzīmētu karodziņus, kad ir atklāti "
 "pietiekami daudzi lauciņi"
 
-#: ../gnomine/gnomine.schemas.in.h:9
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:9
 msgid "The number of mines in a custom game"
 msgstr "Mīnu skaits pašizveidotā spēlē"
 
-#: ../gnomine/gnomine.schemas.in.h:10
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:10
 msgid "Use the unknown flag"
 msgstr "Lietot 'nezināms' karogu"
 
-#: ../gnomine/gnomine.schemas.in.h:11
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:11
 msgid "Warning about too many flags"
 msgstr "Brīdināt par pārāk daudziem karogiem"
 
@@ -3499,7 +3487,7 @@ msgctxt "number"
 msgid "9"
 msgstr "9"
 
-#: ../gnotravex/gnotravex.c:913 ../mahjongg/mahjongg.c:935
+#: ../gnotravex/gnotravex.c:913 ../mahjongg/mahjongg.c:927
 msgid "Game paused"
 msgstr "Spēle pauzēta"
 
@@ -3520,7 +3508,7 @@ msgstr "Mīkla atrisināta! Labi pastrādāts!"
 msgid "Puzzle solved!"
 msgstr "Mīkla atrisināta!"
 
-#: ../gnotravex/gnotravex.c:1402 ../mahjongg/mahjongg.c:1407
+#: ../gnotravex/gnotravex.c:1402 ../mahjongg/mahjongg.c:1393
 msgid "Time:"
 msgstr "Laiks:"
 
@@ -3605,9 +3593,6 @@ msgid "The size of the playing grid"
 msgstr "Spēles režģa izmērs"
 
 #: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:4
-#| msgid ""
-#| "The value of this key is used to decide the size of the playing grid. The "
-#| "valid values are 2 to 8, anything else gets set to 3."
 msgid "The value of this key is used to decide the size of the playing grid."
 msgstr ""
 "Šīs atslēgas vērtība tiek izmantota, lai noteikt spēles lauka izmērus. "
@@ -4169,11 +4154,11 @@ msgstr "Izvēlieties rezultāta vietu."
 msgid "5 of a Kind [total]"
 msgstr "5 vienādi [kopā]"
 
-#: ../iagno/gnothello.c:55 ../iagno/iagno.desktop.in.in.h:2
+#: ../iagno/gnothello.c:48 ../iagno/iagno.desktop.in.in.h:2
 msgid "Iagno"
 msgstr "Iagno"
 
-#: ../iagno/gnothello.c:267
+#: ../iagno/gnothello.c:221
 msgid ""
 "A disk flipping game derived from Reversi.\n"
 "\n"
@@ -4183,45 +4168,32 @@ msgstr ""
 "\n"
 "Iagno ir daļa no GNOME Games."
 
-#: ../iagno/gnothello.c:334
+#: ../iagno/gnothello.c:283
 msgid "Invalid move."
 msgstr "Nederīgs gājiens."
 
-#: ../iagno/gnothello.c:690 ../iagno/gnothello.c:692
+#: ../iagno/gnothello.c:639 ../iagno/gnothello.c:641
 #, c-format
 msgid "%.2d"
 msgstr "%.2d"
 
-#: ../iagno/gnothello.c:714
-msgid "It is your turn to place a dark piece"
-msgstr "Jūsu kārta novietot tumšo kauliņu"
-
-#: ../iagno/gnothello.c:716
-msgid "It is your turn to place a light piece"
-msgstr "Jūsu kārta novietot gaišo kauliņu"
-
-#: ../iagno/gnothello.c:719
-#, c-format
-msgid "Waiting for %s to move"
-msgstr "Gaida %s gājienu"
-
-#: ../iagno/gnothello.c:726
+#: ../iagno/gnothello.c:648
 msgid "Dark's move"
 msgstr "Tumšā gājiens"
 
-#: ../iagno/gnothello.c:728
+#: ../iagno/gnothello.c:650
 msgid "Light's move"
 msgstr "Gaišā gājiens"
 
-#: ../iagno/gnothello.c:976
+#: ../iagno/gnothello.c:872
 msgid "Dark:"
 msgstr "Tumšais:"
 
-#: ../iagno/gnothello.c:986
+#: ../iagno/gnothello.c:882
 msgid "Light:"
 msgstr "Gaišais:"
 
-#: ../iagno/gnothello.c:1010
+#: ../iagno/gnothello.c:906
 msgid "Welcome to Iagno!"
 msgstr "Laipni lūgti Iagno!"
 
@@ -4249,43 +4221,51 @@ msgstr "Gaišajam jāizlaiž, tumšā gājiens"
 msgid "Dark must pass, Light's move"
 msgstr "Tumšajam jāizlaiž, gaišā gājiens"
 
-#: ../iagno/properties.c:399
+#: ../iagno/properties.c:380
 msgid "Iagno Preferences"
 msgstr "Iagno iestatījumi"
 
-#: ../iagno/properties.c:428
+#: ../iagno/properties.c:409
 msgid "_Use quick moves"
 msgstr "Lietot ātros gājien_us"
 
-#: ../iagno/properties.c:533
+#: ../iagno/properties.c:424
+msgid "Dark"
+msgstr "Tumšs"
+
+#: ../iagno/properties.c:465
+msgid "Light"
+msgstr "Gaišs"
+
+#: ../iagno/properties.c:514
 msgid "Animation"
 msgstr "Animācija"
 
-#: ../iagno/properties.c:537
+#: ../iagno/properties.c:518
 msgid "None"
 msgstr "Nekāda"
 
-#: ../iagno/properties.c:546
+#: ../iagno/properties.c:527
 msgid "Partial"
 msgstr "Daļēja"
 
-#: ../iagno/properties.c:555
+#: ../iagno/properties.c:536
 msgid "Complete"
 msgstr "Pilnīga"
 
-#: ../iagno/properties.c:569
+#: ../iagno/properties.c:550
 msgid "_Stagger flips"
 msgstr "_Zigzagveida pamešana"
 
-#: ../iagno/properties.c:577
+#: ../iagno/properties.c:558
 msgid "S_how grid"
 msgstr "Rā_dīt režģi"
 
-#: ../iagno/properties.c:584
+#: ../iagno/properties.c:565
 msgid "_Flip final results"
 msgstr "A_pmest beigu rezultātus"
 
-#: ../iagno/properties.c:593 ../mahjongg/mahjongg.c:694
+#: ../iagno/properties.c:574 ../mahjongg/mahjongg.c:686
 msgid "_Tile set:"
 msgstr "_Kauliņu kopa:"
 
@@ -4439,7 +4419,7 @@ msgstr "Turpināt pauzēto spēli"
 msgid "View the scores"
 msgstr "Apskatīt rezultātus"
 
-#: ../libgames-support/games-stock.c:57 ../mahjongg/mahjongg.c:1207
+#: ../libgames-support/games-stock.c:57 ../mahjongg/mahjongg.c:1199
 msgid "Undo the last move"
 msgstr "Atsaukt pēdējo gājienu"
 
@@ -4641,76 +4621,76 @@ msgstr ""
 "\n"
 "Lūdzu, pārbaudiet, vai Mahjong ir pareizi uzinstalēta."
 
-#: ../mahjongg/mahjongg.c:45 ../mahjongg/mahjongg.c:895
-#: ../mahjongg/mahjongg.c:898 ../mahjongg/mahjongg.desktop.in.in.h:2
+#: ../mahjongg/mahjongg.c:45 ../mahjongg/mahjongg.c:887
+#: ../mahjongg/mahjongg.c:890 ../mahjongg/mahjongg.desktop.in.in.h:2
 msgid "Mahjongg"
 msgstr "Mahjongg"
 
-#: ../mahjongg/mahjongg.c:136
+#: ../mahjongg/mahjongg.c:134
 msgid "Could not load tile set"
 msgstr "Nevar ielādēt kauliņu komplektu"
 
-#: ../mahjongg/mahjongg.c:271
+#: ../mahjongg/mahjongg.c:263
 msgid "Do you want to start a new game with this map?"
 msgstr "Vai vēlaties sākt jaunu spēli ar šo karti?"
 
-#: ../mahjongg/mahjongg.c:273
+#: ../mahjongg/mahjongg.c:265
 msgid "If you continue playing the next game will use the new map."
 msgstr "Ja turpināsiet spēlēt, nākama spēle izmantos jaunu karti."
 
-#: ../mahjongg/mahjongg.c:275
+#: ../mahjongg/mahjongg.c:267
 msgid "_Continue playing"
 msgstr "_Turpināt spēlēt"
 
-#: ../mahjongg/mahjongg.c:276
+#: ../mahjongg/mahjongg.c:268
 msgid "Use _new map"
 msgstr "Izmantot jau_nu karti"
 
-#: ../mahjongg/mahjongg.c:579
+#: ../mahjongg/mahjongg.c:571
 msgid "There are no more moves."
 msgstr "Vairs nav gājienu."
 
-#: ../mahjongg/mahjongg.c:582
+#: ../mahjongg/mahjongg.c:574
 msgid "_New game"
 msgstr "Jau_na spēle"
 
-#: ../mahjongg/mahjongg.c:587
+#: ../mahjongg/mahjongg.c:579
 msgid "_Shuffle"
 msgstr "_Jaukt"
 
-#: ../mahjongg/mahjongg.c:626 ../mahjongg/mahjongg.c:951
+#: ../mahjongg/mahjongg.c:618 ../mahjongg/mahjongg.c:943
 msgid "Mahjongg Scores"
 msgstr "Mahjongg rezultāti"
 
-#: ../mahjongg/mahjongg.c:667
+#: ../mahjongg/mahjongg.c:659
 msgid "Mahjongg Preferences"
 msgstr "Mahjongg iestatījumi"
 
-#: ../mahjongg/mahjongg.c:687
+#: ../mahjongg/mahjongg.c:679
 msgid "Tiles"
 msgstr "Kauliņi"
 
-#: ../mahjongg/mahjongg.c:708
+#: ../mahjongg/mahjongg.c:700
 msgid "Maps"
 msgstr "Kartes"
 
-#: ../mahjongg/mahjongg.c:715
+#: ../mahjongg/mahjongg.c:707
 msgid "_Select map:"
 msgstr "Izvēlietie_s karti:"
 
-#: ../mahjongg/mahjongg.c:729
+#: ../mahjongg/mahjongg.c:721
 msgid "Colors"
 msgstr "Krāsas"
 
-#: ../mahjongg/mahjongg.c:875
+#: ../mahjongg/mahjongg.c:867
 msgid "Maps:"
 msgstr "Kartes:"
 
-#: ../mahjongg/mahjongg.c:882
+#: ../mahjongg/mahjongg.c:874
 msgid "Tiles:"
 msgstr "Kauliņi:"
 
-#: ../mahjongg/mahjongg.c:901
+#: ../mahjongg/mahjongg.c:893
 msgid ""
 "A matching game played with Mahjongg tiles.\n"
 "\n"
@@ -4720,32 +4700,32 @@ msgstr ""
 "\n"
 "Mahjongg ir daļa no GNOME Games."
 
-#: ../mahjongg/mahjongg.c:1146
+#: ../mahjongg/mahjongg.c:1138
 #, c-format
 msgid "Mahjongg - %s"
 msgstr "Mahjongg - %s"
 
-#: ../mahjongg/mahjongg.c:1206
+#: ../mahjongg/mahjongg.c:1198
 msgid "Restart the current game"
 msgstr "Pārstartēt pašreizējo spēli"
 
-#: ../mahjongg/mahjongg.c:1209
+#: ../mahjongg/mahjongg.c:1201
 msgid "Redo the last move"
 msgstr "Atkārtot pēdējo gājienu"
 
-#: ../mahjongg/mahjongg.c:1211
+#: ../mahjongg/mahjongg.c:1203
 msgid "Show a hint"
 msgstr "Parādīt padomu"
 
-#: ../mahjongg/mahjongg.c:1389
+#: ../mahjongg/mahjongg.c:1375
 msgid "Tiles Left:"
 msgstr "Atlikuši kauliņi:"
 
-#: ../mahjongg/mahjongg.c:1398
+#: ../mahjongg/mahjongg.c:1384
 msgid "Moves Left:"
 msgstr "Atlikuši gājieni:"
 
-#: ../mahjongg/mahjongg.c:1462
+#: ../mahjongg/mahjongg.c:1448
 msgid "Remove matching pairs of tiles."
 msgstr "Novākt atbilstošos kauliņu pārus."
 
@@ -4846,11 +4826,6 @@ msgid "Zealous animation"
 msgstr "Hiperaktīva animācija"
 
 #: ../swell-foop/src/About.js:13
-#| msgid ""
-#| "I want to play that game! You know, they all go whirly-round and you "
-#| "click on them and they vanish!\n"
-#| "\n"
-#| "Swell Foop is a part of GNOME Games."
 msgid ""
 "I want to play that game! You know, they all light-up and you click on them "
 "and they vanish!\n"
@@ -4889,6 +4864,18 @@ msgstr "Normāls"
 #: ../swell-foop/src/Score.js:147
 msgid "Large"
 msgstr "Liels"
+
+#~ msgid "The game is over."
+#~ msgstr "Spēle ir beigusies."
+
+#~ msgid "It is your turn to place a dark piece"
+#~ msgstr "Jūsu kārta novietot tumšo kauliņu"
+
+#~ msgid "It is your turn to place a light piece"
+#~ msgstr "Jūsu kārta novietot gaišo kauliņu"
+
+#~ msgid "Waiting for %s to move"
+#~ msgstr "Gaida %s gājienu"
 
 #~ msgid "A list of recently played games."
 #~ msgstr "Nesen spēlēto spēļu saraksts."
