@@ -4,23 +4,23 @@
 # Lucas Vieites Fariña <lucas@asixinformatica.com>, 2004, 2005, 2006, 2007.
 # Lucas 'Basurero' Vieites <lucas@codexion.com>, 2007.
 # Lucas Vieites <lucas@codexion.com>, 2007, 2008.
-# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010, 2011.
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2008, 2009, 2010, 2011.
 # 
-# Jorge González <jorgegonz@svn.gnome.org>, 2011.
+# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010, 2011., 2011.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "games&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-09-05 10:14+0000\n"
-"PO-Revision-Date: 2011-09-05 12:36Central4l\r\n"
+"POT-Creation-Date: 2011-09-08 20:44+0000\n"
+"PO-Revision-Date: 2011-09-11 10:45+0200\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:1
@@ -60,8 +60,9 @@ msgid ""
 "Can be 'human' (play against another human player), '' (use the first "
 "available chess engine) or the name of a specific engine to play against"
 msgstr ""
-"Puede ser «humano» (jugar contra otro jugador humano, «» (usar el primer motor "
-"de ajedrez disponible) o el nombre de un motor específico contra el que jugar"
+"Puede ser «humano» (jugar contra otro jugador humano, «» (usar el primer "
+"motor de ajedrez disponible) o el nombre de un motor específico contra el "
+"que jugar"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:10
 msgid "Difficulty of the opponent chess engine"
@@ -180,7 +181,7 @@ msgid "_Contents"
 msgstr "Índ_ice"
 
 #. Game menu name
-#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1646
+#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1639
 #: ../gnect/src/main.c:1187 ../gnibbles/main.c:600 ../gnobots2/menu.c:66
 #: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:210
 #: ../gnomine/gnomine.c:758 ../gnotravex/gnotravex.c:1707
@@ -191,7 +192,7 @@ msgid "_Game"
 msgstr "_Juego"
 
 #. Help menu item
-#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1648
+#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1641
 #: ../gnect/src/main.c:1190 ../gnibbles/main.c:603 ../gnobots2/menu.c:70
 #: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:233
 #: ../gnomine/gnomine.c:760 ../gnotravex/gnotravex.c:1711
@@ -208,7 +209,7 @@ msgid "_Resign"
 msgstr "De_recha"
 
 #. Settings menu item
-#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1647
+#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1640
 #: ../gnect/src/main.c:1189 ../gnibbles/main.c:602 ../gnobots2/menu.c:69
 #: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:224
 #: ../gnomine/gnomine.c:759 ../gnotravex/gnotravex.c:1709
@@ -282,7 +283,7 @@ msgstr "Formato de jugada:"
 #. Preferences Dialog: Combo box entry for no game timer
 #: ../glchess/data/preferences.ui.h:24
 msgid "No limit"
-msgstr "Sin límite"
+msgstr "Sin límite"
 
 #. Preferences Dialog: Combo box entry for game timer of one hour
 #: ../glchess/data/preferences.ui.h:26
@@ -310,7 +311,7 @@ msgid "Play as:"
 msgstr "Jugar como:"
 
 #. Title for preferences dialog
-#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:196
+#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:195
 #: ../mahjongg/mahjongg.c:139
 msgid "Preferences"
 msgstr "Preferencias"
@@ -1037,7 +1038,7 @@ msgstr ""
 "\n"
 "glChess es parte de los Juegos de GNOME."
 
-#: ../glchess/src/glchess.vala:1367 ../glines/glines.c:1225
+#: ../glchess/src/glchess.vala:1367 ../glines/glines.c:1224
 #: ../gnect/src/main.c:828 ../gnibbles/main.c:177 ../gnobots2/menu.c:263
 #: ../quadrapassel/tetris.cpp:1313 ../gnomine/gnomine.c:473
 #: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1490
@@ -1097,26 +1098,26 @@ msgstr ""
 "Ejecute «%s --help» para ver una lista completa de las opciones de línea de "
 "comandos disponibles."
 
-#: ../glines/glines.c:89 ../gnomine/gnomine.c:101
+#: ../glines/glines.c:87 ../gnomine/gnomine.c:101
 msgctxt "board size"
 msgid "Small"
 msgstr "Pequeño"
 
-#: ../glines/glines.c:90 ../gnomine/gnomine.c:102
+#: ../glines/glines.c:88 ../gnomine/gnomine.c:102
 msgctxt "board size"
 msgid "Medium"
 msgstr "Mediano"
 
-#: ../glines/glines.c:91 ../gnomine/gnomine.c:103
+#: ../glines/glines.c:89 ../gnomine/gnomine.c:103
 msgctxt "board size"
 msgid "Large"
 msgstr "Grande"
 
-#: ../glines/glines.c:190
+#: ../glines/glines.c:189
 msgid "Could not load theme"
 msgstr "No se pudo cargar el tema"
 
-#: ../glines/glines.c:218
+#: ../glines/glines.c:217
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1129,7 +1130,7 @@ msgstr ""
 "\n"
 "En su lugar se cargará el tema predeterminado."
 
-#: ../glines/glines.c:225
+#: ../glines/glines.c:224
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1142,33 +1143,33 @@ msgstr ""
 "\n"
 "Compruebe que «Cinco o más» esté instalado correctamente."
 
-#: ../glines/glines.c:449
+#: ../glines/glines.c:448
 msgid "Match five objects of the same type in a row to score!"
 msgstr "Para puntuar alinee cinco bolas del mismo color en una fila."
 
-#: ../glines/glines.c:511
+#: ../glines/glines.c:510
 msgid "GNOME Five or More"
 msgstr "GNOME Cinco o más"
 
-#: ../glines/glines.c:513
+#: ../glines/glines.c:512
 msgid "_Board size:"
 msgstr "Tamaño del ta_blero:"
 
-#: ../glines/glines.c:530 ../swell-foop/src/Score.js:110
+#: ../glines/glines.c:529 ../swell-foop/src/Score.js:110
 msgid "Game Over!"
 msgstr "Juego terminado"
 
 #. Can't move there!
-#: ../glines/glines.c:687
+#: ../glines/glines.c:686
 msgid "You can't move there!"
 msgstr "No puede mover ahí"
 
-#: ../glines/glines.c:1211 ../glines/glines.c:1214 ../glines/glines.c:1758
-#: ../glines/glines.c:1790 ../glines/glines.desktop.in.in.h:1
+#: ../glines/glines.c:1210 ../glines/glines.c:1213 ../glines/glines.c:1751
+#: ../glines/glines.c:1783 ../glines/glines.desktop.in.in.h:1
 msgid "Five or More"
 msgstr "Cinco o más"
 
-#: ../glines/glines.c:1216
+#: ../glines/glines.c:1215
 msgid ""
 "GNOME port of the once-popular Color Lines game.\n"
 "\n"
@@ -1179,7 +1180,7 @@ msgstr ""
 "Cinco o más es parte de los Juegos de GNOME."
 
 #. this doesn't work for anyone
-#: ../glines/glines.c:1222 ../gnect/src/main.c:831 ../gnibbles/main.c:174
+#: ../glines/glines.c:1221 ../gnect/src/main.c:831 ../gnibbles/main.c:174
 #: ../gnobots2/menu.c:267 ../quadrapassel/tetris.cpp:1316
 #: ../gnome-sudoku/src/lib/main.py:688 ../gnomine/gnomine.c:470
 #: ../gnotravex/gnotravex.c:1613 ../gnotski/gnotski.c:1487
@@ -1194,42 +1195,42 @@ msgstr ""
 "Germán Poo Caamaño <gpoo@ubiobio.cl>\n"
 "Pablo Saratxaga <pablo@mandrakesoft.com>"
 
-#: ../glines/glines.c:1403
+#: ../glines/glines.c:1396
 msgid "Five or More Preferences"
 msgstr "Preferencias de Cinco o más"
 
-#: ../glines/glines.c:1422 ../gnect/src/prefs.c:333
+#: ../glines/glines.c:1415 ../gnect/src/prefs.c:333
 #: ../gnobots2/properties.c:535 ../iagno/properties.c:508
 #: ../lightsoff/data/settings.ui.h:1 ../swell-foop/data/settings.ui.h:1
 msgid "Appearance"
 msgstr "Aspecto"
 
-#: ../glines/glines.c:1430
+#: ../glines/glines.c:1423
 msgid "_Image:"
 msgstr "_Imagen:"
 
-#: ../glines/glines.c:1441
+#: ../glines/glines.c:1434
 msgid "B_ackground color:"
 msgstr "_Color de fondo:"
 
-#: ../glines/glines.c:1456
+#: ../glines/glines.c:1449
 msgid "Board Size"
 msgstr "Tamaño del tablero"
 
-#: ../glines/glines.c:1475
+#: ../glines/glines.c:1468
 msgctxt "preferences"
 msgid "General"
 msgstr "General"
 
-#: ../glines/glines.c:1481
+#: ../glines/glines.c:1474
 msgid "_Use fast moves"
 msgstr "_Usar movimientos rápidos"
 
-#: ../glines/glines.c:1817
+#: ../glines/glines.c:1811
 msgid "Next:"
 msgstr "Siguiente:"
 
-#: ../glines/glines.c:1847 ../gnobots2/statusbar.c:67
+#: ../glines/glines.c:1841 ../gnobots2/statusbar.c:67
 #: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:433
 msgid "Score:"
 msgstr "Puntuación:"
@@ -1238,62 +1239,64 @@ msgstr "Puntuación:"
 msgid "Remove colored balls from the board by forming lines"
 msgstr "Elimine bolas de colores del tablero formando líneas"
 
-#: ../glines/glines.schemas.in.h:1 ../gnobots2/gnobots2.schemas.in.h:1
+#: ../glines/org.gnome.glines.gschema.xml.in.h:1
+#: ../gnobots2/gnobots2.schemas.in.h:1
 msgid "Background color"
 msgstr "Color de fondo"
 
-#: ../glines/glines.schemas.in.h:2 ../gnobots2/gnobots2.schemas.in.h:2
+#: ../glines/org.gnome.glines.gschema.xml.in.h:2
+#: ../gnobots2/gnobots2.schemas.in.h:2
 msgid "Background color. The hex specification of the background color."
 msgstr "Color de fondo. El valor hexadecimal del color de fondo."
 
-#: ../glines/glines.schemas.in.h:3
+#: ../glines/org.gnome.glines.gschema.xml.in.h:3
 msgid "Ball style"
 msgstr "Estilo de bola"
 
-#: ../glines/glines.schemas.in.h:4
+#: ../glines/org.gnome.glines.gschema.xml.in.h:4
 msgid "Ball style. The filename of the images to use for the balls."
 msgstr "Estilo de bola. El nombre de archivo de las imágenes de las bolas."
 
-#: ../glines/glines.schemas.in.h:5
+#: ../glines/org.gnome.glines.gschema.xml.in.h:5
 msgid "Game field"
 msgstr "Campo de juego"
 
-#: ../glines/glines.schemas.in.h:6
+#: ../glines/org.gnome.glines.gschema.xml.in.h:6
 msgid "Game field from last saved session."
 msgstr "Campo de juego de la última sesión guardada."
 
-#: ../glines/glines.schemas.in.h:7
+#: ../glines/org.gnome.glines.gschema.xml.in.h:7
 msgid "Game preview"
 msgstr "Previsualización del juego"
 
-#: ../glines/glines.schemas.in.h:8
+#: ../glines/org.gnome.glines.gschema.xml.in.h:8
 msgid "Game preview from last saved session."
 msgstr "Previsualización de la última sesión guardada."
 
-#: ../glines/glines.schemas.in.h:9
+#: ../glines/org.gnome.glines.gschema.xml.in.h:9
 msgid "Game score"
 msgstr "Puntuación"
 
-#: ../glines/glines.schemas.in.h:10
+#: ../glines/org.gnome.glines.gschema.xml.in.h:10
 msgid "Game score from last saved session."
 msgstr "Puntuación de la última sesión guardada."
 
-#: ../glines/glines.schemas.in.h:11
+#: ../glines/org.gnome.glines.gschema.xml.in.h:11
 msgid "Playing field size"
 msgstr "Tamaño del campo de juego"
 
-#: ../glines/glines.schemas.in.h:12
+#: ../glines/org.gnome.glines.gschema.xml.in.h:12
 msgid ""
 "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is invalid."
 msgstr ""
 "Tamaño del campo de juego. 1 = pequeño, 2 = mediano, 3 = grande. Cualquier "
 "otro valor es incorrecto."
 
-#: ../glines/glines.schemas.in.h:13
+#: ../glines/org.gnome.glines.gschema.xml.in.h:13
 msgid "Time between moves"
 msgstr "Demora entre movimientos"
 
-#: ../glines/glines.schemas.in.h:14
+#: ../glines/org.gnome.glines.gschema.xml.in.h:14
 msgid "Time between moves in milliseconds."
 msgstr "Tiempo entre jugadas en milisegundos."
 
@@ -1443,8 +1446,8 @@ msgid ""
 "\n"
 "\"Four in a Row\" is a part of GNOME Games."
 msgstr ""
-"«Cuatro en raya» para GNOME, con un jugador automático impulsado por el motor "
-"Velena de Giuliano Bertoletti.\n"
+"«Cuatro en raya» para GNOME, con un jugador automático impulsado por el "
+"motor Velena de Giuliano Bertoletti.\n"
 "\n"
 "«Cuatro en raya» es parte de los juegos de GNOME."
 
@@ -6529,8 +6532,8 @@ msgstr "Grande"
 #~ "'lan' (long algebraic notation) or 'san' (standard algebraic notation)"
 #~ msgstr ""
 #~ "El formato en el que mostrar jugadas, puede ser «humano» (legible por "
-#~ "personas), «lan» (notación algebraica larga - «long algebraic notation») o "
-#~ "«san» (notación algebraica estándar - «standard algebraic notation»)"
+#~ "personas), «lan» (notación algebraica larga - «long algebraic notation») "
+#~ "o «san» (notación algebraica estándar - «standard algebraic notation»)"
 
 #~ msgid "The piece style to use. Can be one of: 'simple' or 'fancy'"
 #~ msgstr "El estilo de pieza que usar. Puede ser «simple» o «fantasía»."
@@ -6542,9 +6545,9 @@ msgstr "Grande"
 #~ "g. handhelds)"
 #~ msgstr ""
 #~ "El lado del tablero que está en primero plano, "
-#~ "«white» (blanco),«black» (negro), «current» (el jugador actual), «human» (el "
-#~ "lado del jugador humano actual) o «facetoface» (apropiado para jugadores a "
-#~ "cada lado de la pantalla, ej. dispositivos portátiles)"
+#~ "«white» (blanco),«black» (negro), «current» (el jugador actual), "
+#~ "«human» (el lado del jugador humano actual) o «facetoface» (apropiado "
+#~ "para jugadores a cada lado de la pantalla, ej. dispositivos portátiles)"
 
 #~ msgid "Logs"
 #~ msgstr "Registros"
