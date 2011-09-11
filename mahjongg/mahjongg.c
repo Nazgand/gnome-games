@@ -1369,9 +1369,9 @@ main (int argc, char *argv[])
   load_preferences ();
 
   /* Statusbar for a chrono, Tiles left and Moves left */
-  status_box = gtk_hbox_new (FALSE, 10);
+  status_box = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 10);
 
-  group_box = gtk_hbox_new (FALSE, 0);
+  group_box = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
   tiles_label = gtk_label_new (_("Tiles Left:"));
   gtk_box_pack_start (GTK_BOX (group_box), tiles_label, FALSE, FALSE, 0);
   spacer = gtk_label_new (" ");
@@ -1380,7 +1380,7 @@ main (int argc, char *argv[])
   gtk_box_pack_start (GTK_BOX (group_box), tiles_label, FALSE, FALSE, 0);
   gtk_box_pack_start (GTK_BOX (status_box), group_box, FALSE, FALSE, 0);
 
-  group_box = gtk_hbox_new (FALSE, 0);
+  group_box = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
   moves_label = gtk_label_new (_("Moves Left:"));
   gtk_box_pack_start (GTK_BOX (group_box), moves_label, FALSE, FALSE, 0);
   spacer = gtk_label_new (" ");
@@ -1389,7 +1389,7 @@ main (int argc, char *argv[])
   gtk_box_pack_start (GTK_BOX (group_box), moves_label, FALSE, FALSE, 0);
   gtk_box_pack_start (GTK_BOX (status_box), group_box, FALSE, FALSE, 0);
 
-  group_box = gtk_hbox_new (FALSE, 0);
+  group_box = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
   chrono_label = gtk_label_new (_("Time:"));
   gtk_box_pack_start (GTK_BOX (group_box), chrono_label, FALSE, FALSE, 0);
   spacer = gtk_label_new (" ");
@@ -1418,7 +1418,7 @@ main (int argc, char *argv[])
   gtk_style_context_add_class (gtk_widget_get_style_context (toolbar),
 			       GTK_STYLE_CLASS_PRIMARY_TOOLBAR);
 
-  vbox = gtk_vbox_new (FALSE, 0);
+  vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
 
   gtk_box_pack_start (GTK_BOX (vbox), box, FALSE, FALSE, 0);
   gtk_box_pack_start (GTK_BOX (vbox), toolbar, FALSE, FALSE, 0);
