@@ -33,8 +33,8 @@ msgstr ""
 "Project-Id-Version: gnome-games master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "games&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-08-11 15:53+0000\n"
-"PO-Revision-Date: 2011-08-28 13:06+0100\n"
+"POT-Creation-Date: 2011-09-08 20:44+0000\n"
+"PO-Revision-Date: 2011-09-18 15:29+0100\n"
 "Last-Translator: Mario Blättermann <mariobl@freenet.de>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -202,7 +202,7 @@ msgid "_Contents"
 msgstr "I_nhalt"
 
 #. Game menu name
-#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1646
+#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1639
 #: ../gnect/src/main.c:1187 ../gnibbles/main.c:600 ../gnobots2/menu.c:66
 #: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:210
 #: ../gnomine/gnomine.c:758 ../gnotravex/gnotravex.c:1707
@@ -213,7 +213,7 @@ msgid "_Game"
 msgstr "_Spiel"
 
 #. Help menu item
-#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1648
+#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1641
 #: ../gnect/src/main.c:1190 ../gnibbles/main.c:603 ../gnobots2/menu.c:70
 #: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:233
 #: ../gnomine/gnomine.c:760 ../gnotravex/gnotravex.c:1711
@@ -229,7 +229,7 @@ msgid "_Resign"
 msgstr "A_ufgeben"
 
 #. Settings menu item
-#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1647
+#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1640
 #: ../gnect/src/main.c:1189 ../gnibbles/main.c:602 ../gnobots2/menu.c:69
 #: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:224
 #: ../gnomine/gnomine.c:759 ../gnotravex/gnotravex.c:1709
@@ -332,7 +332,7 @@ msgid "Play as:"
 msgstr "Spielen als:"
 
 #. Title for preferences dialog
-#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:196
+#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:195
 #: ../mahjongg/mahjongg.c:139
 msgid "Preferences"
 msgstr "Einstellungen"
@@ -1062,7 +1062,7 @@ msgstr ""
 "\n"
 "glChess ist ein Teil von GNOME Games."
 
-#: ../glchess/src/glchess.vala:1367 ../glines/glines.c:1225
+#: ../glchess/src/glchess.vala:1367 ../glines/glines.c:1224
 #: ../gnect/src/main.c:828 ../gnibbles/main.c:177 ../gnobots2/menu.c:263
 #: ../quadrapassel/tetris.cpp:1313 ../gnomine/gnomine.c:473
 #: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1490
@@ -1122,26 +1122,26 @@ msgstr ""
 "Rufen Sie »%s --help« auf, um eine vollständige Liste der verfügbaren "
 "Befehlszeileoptionen zu erhalten."
 
-#: ../glines/glines.c:89 ../gnomine/gnomine.c:101
+#: ../glines/glines.c:87 ../gnomine/gnomine.c:101
 msgctxt "board size"
 msgid "Small"
 msgstr "Klein"
 
-#: ../glines/glines.c:90 ../gnomine/gnomine.c:102
+#: ../glines/glines.c:88 ../gnomine/gnomine.c:102
 msgctxt "board size"
 msgid "Medium"
 msgstr "Mittel"
 
-#: ../glines/glines.c:91 ../gnomine/gnomine.c:103
+#: ../glines/glines.c:89 ../gnomine/gnomine.c:103
 msgctxt "board size"
 msgid "Large"
 msgstr "Groß"
 
-#: ../glines/glines.c:190
+#: ../glines/glines.c:189
 msgid "Could not load theme"
 msgstr "Das Thema konnte nicht geladen werden"
 
-#: ../glines/glines.c:218
+#: ../glines/glines.c:217
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1154,7 +1154,7 @@ msgstr ""
 "\n"
 "Der Vorgabesatz wird stattdessen geladen."
 
-#: ../glines/glines.c:225
+#: ../glines/glines.c:224
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1167,34 +1167,34 @@ msgstr ""
 "\n"
 "Bitte überprüfen Sie Ihre »Fünf oder mehr«-Installation."
 
-#: ../glines/glines.c:449
+#: ../glines/glines.c:448
 msgid "Match five objects of the same type in a row to score!"
 msgstr ""
 "Ordnen Sie fünf gleichartige Objekte in einer Reihe an, um Punkte zu erzielen!"
 
-#: ../glines/glines.c:511
+#: ../glines/glines.c:510
 msgid "GNOME Five or More"
 msgstr "GNOME Fünf oder mehr"
 
-#: ../glines/glines.c:513
+#: ../glines/glines.c:512
 msgid "_Board size:"
 msgstr "_Spielfeldgröße:"
 
-#: ../glines/glines.c:530 ../swell-foop/src/Score.js:110
+#: ../glines/glines.c:529 ../swell-foop/src/Score.js:110
 msgid "Game Over!"
 msgstr "Spiel vorbei!"
 
 #. Can't move there!
-#: ../glines/glines.c:687
+#: ../glines/glines.c:686
 msgid "You can't move there!"
 msgstr "Zug dorthin ist nicht möglich!"
 
-#: ../glines/glines.c:1211 ../glines/glines.c:1214 ../glines/glines.c:1758
-#: ../glines/glines.c:1790 ../glines/glines.desktop.in.in.h:1
+#: ../glines/glines.c:1210 ../glines/glines.c:1213 ../glines/glines.c:1751
+#: ../glines/glines.c:1783 ../glines/glines.desktop.in.in.h:1
 msgid "Five or More"
 msgstr "Fünf oder mehr"
 
-#: ../glines/glines.c:1216
+#: ../glines/glines.c:1215
 msgid ""
 "GNOME port of the once-popular Color Lines game.\n"
 "\n"
@@ -1205,7 +1205,7 @@ msgstr ""
 "Fünf oder mehr ist ein Teil von GNOME Games."
 
 #. this doesn't work for anyone
-#: ../glines/glines.c:1222 ../gnect/src/main.c:831 ../gnibbles/main.c:174
+#: ../glines/glines.c:1221 ../gnect/src/main.c:831 ../gnibbles/main.c:174
 #: ../gnobots2/menu.c:267 ../quadrapassel/tetris.cpp:1316
 #: ../gnome-sudoku/src/lib/main.py:688 ../gnomine/gnomine.c:470
 #: ../gnotravex/gnotravex.c:1613 ../gnotski/gnotski.c:1487
@@ -1229,42 +1229,42 @@ msgstr ""
 "Mario Blättermann <mariobl@freenet.de>\n"
 "Christian Kirbach <Christian.Kirbach@googlemail.com>"
 
-#: ../glines/glines.c:1403
+#: ../glines/glines.c:1396
 msgid "Five or More Preferences"
 msgstr "Fünf oder mehr-Einstellungen"
 
-#: ../glines/glines.c:1422 ../gnect/src/prefs.c:333
+#: ../glines/glines.c:1415 ../gnect/src/prefs.c:333
 #: ../gnobots2/properties.c:535 ../iagno/properties.c:508
 #: ../lightsoff/data/settings.ui.h:1 ../swell-foop/data/settings.ui.h:1
 msgid "Appearance"
 msgstr "Erscheinungsbild"
 
-#: ../glines/glines.c:1430
+#: ../glines/glines.c:1423
 msgid "_Image:"
 msgstr "_Bild:"
 
-#: ../glines/glines.c:1441
+#: ../glines/glines.c:1434
 msgid "B_ackground color:"
 msgstr "_Hintergrundfarbe:"
 
-#: ../glines/glines.c:1456
+#: ../glines/glines.c:1449
 msgid "Board Size"
 msgstr "Spielflächengröße"
 
-#: ../glines/glines.c:1475
+#: ../glines/glines.c:1468
 msgctxt "preferences"
 msgid "General"
 msgstr "Allgemein"
 
-#: ../glines/glines.c:1481
+#: ../glines/glines.c:1474
 msgid "_Use fast moves"
 msgstr "Züge _schnell ausführen"
 
-#: ../glines/glines.c:1817
+#: ../glines/glines.c:1811
 msgid "Next:"
 msgstr "Nächste Kugeln:"
 
-#: ../glines/glines.c:1847 ../gnobots2/statusbar.c:67
+#: ../glines/glines.c:1841 ../gnobots2/statusbar.c:67
 #: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:433
 msgid "Score:"
 msgstr "Punkte:"
@@ -1273,61 +1273,63 @@ msgstr "Punkte:"
 msgid "Remove colored balls from the board by forming lines"
 msgstr "Farbige Kugeln durch Formieren von Linien aus dem Spielbrett entfernen"
 
-#: ../glines/glines.schemas.in.h:1 ../gnobots2/gnobots2.schemas.in.h:1
+#: ../glines/org.gnome.glines.gschema.xml.in.h:1
+#: ../gnobots2/gnobots2.schemas.in.h:1
 msgid "Background color"
 msgstr "Hintergrundfarbe"
 
-#: ../glines/glines.schemas.in.h:2 ../gnobots2/gnobots2.schemas.in.h:2
+#: ../glines/org.gnome.glines.gschema.xml.in.h:2
+#: ../gnobots2/gnobots2.schemas.in.h:2
 msgid "Background color. The hex specification of the background color."
 msgstr "Hintergrundfarbe. Die hexadezimale Angabe der Hintergrundfarbe."
 
-#: ../glines/glines.schemas.in.h:3
+#: ../glines/org.gnome.glines.gschema.xml.in.h:3
 msgid "Ball style"
 msgstr "Kugelstil"
 
-#: ../glines/glines.schemas.in.h:4
+#: ../glines/org.gnome.glines.gschema.xml.in.h:4
 msgid "Ball style. The filename of the images to use for the balls."
 msgstr "Kugelstil. Der Dateiname der für die Kugeln zu verwendenden Bilder."
 
-#: ../glines/glines.schemas.in.h:5
+#: ../glines/org.gnome.glines.gschema.xml.in.h:5
 msgid "Game field"
 msgstr "Spielfeld"
 
-#: ../glines/glines.schemas.in.h:6
+#: ../glines/org.gnome.glines.gschema.xml.in.h:6
 msgid "Game field from last saved session."
 msgstr "Spielfeld aus der letzten gespeicherten Sitzung."
 
-#: ../glines/glines.schemas.in.h:7
+#: ../glines/org.gnome.glines.gschema.xml.in.h:7
 msgid "Game preview"
 msgstr "Spielvorschau"
 
-#: ../glines/glines.schemas.in.h:8
+#: ../glines/org.gnome.glines.gschema.xml.in.h:8
 msgid "Game preview from last saved session."
 msgstr "Vorschau auf Spiel aus der letzten gespeicherten Sitzung."
 
-#: ../glines/glines.schemas.in.h:9
+#: ../glines/org.gnome.glines.gschema.xml.in.h:9
 msgid "Game score"
 msgstr "Spielpunkte"
 
-#: ../glines/glines.schemas.in.h:10
+#: ../glines/org.gnome.glines.gschema.xml.in.h:10
 msgid "Game score from last saved session."
 msgstr "Spielpunkte aus der letzten gespeicherten Sitzung."
 
-#: ../glines/glines.schemas.in.h:11
+#: ../glines/org.gnome.glines.gschema.xml.in.h:11
 msgid "Playing field size"
 msgstr "Spielfeldgröße"
 
-#: ../glines/glines.schemas.in.h:12
+#: ../glines/org.gnome.glines.gschema.xml.in.h:12
 msgid ""
 "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is invalid."
 msgstr ""
 "Spielfeldgröße. 1=Klein, 2=Mittel, 3=Groß. Jeder andere Wert ist ungültig."
 
-#: ../glines/glines.schemas.in.h:13
+#: ../glines/org.gnome.glines.gschema.xml.in.h:13
 msgid "Time between moves"
 msgstr "Zeit zwischen Zügen"
 
-#: ../glines/glines.schemas.in.h:14
+#: ../glines/org.gnome.glines.gschema.xml.in.h:14
 msgid "Time between moves in milliseconds."
 msgstr "Zeit zwischen Zügen in Millisekunden"
 
@@ -1555,8 +1557,7 @@ msgstr "Klassisch"
 msgid "Red"
 msgstr "Rot"
 
-#: ../gnect/src/theme.c:47 ../gnect/src/theme.c:82
-#: ../gnibbles/preferences.c:458
+#: ../gnect/src/theme.c:47 ../gnibbles/preferences.c:458
 msgid "Yellow"
 msgstr "Gelb"
 
@@ -1564,13 +1565,13 @@ msgstr "Gelb"
 msgid "High Contrast"
 msgstr "Hoher Kontrast"
 
-#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61 ../iagno/properties.c:465
-msgid "Light"
-msgstr "Weiß"
+#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61
+msgid "Circle"
+msgstr "Kreis"
 
-#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61 ../iagno/properties.c:424
-msgid "Dark"
-msgstr "Schwarz"
+#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61
+msgid "Cross"
+msgstr "Kreuz"
 
 #: ../gnect/src/theme.c:57
 msgid "High Contrast Inverse"
@@ -1580,8 +1581,8 @@ msgstr "Hoher Kontrast, invertiert"
 msgid "Cream Marbles"
 msgstr "Creme-Murmeln"
 
-#: ../gnect/src/theme.c:68 ../gnect/src/theme.c:75 ../gnect/src/theme.c:89
-#: ../gnibbles/preferences.c:457
+#: ../gnect/src/theme.c:68 ../gnect/src/theme.c:75 ../gnect/src/theme.c:82
+#: ../gnect/src/theme.c:89 ../gnibbles/preferences.c:457
 msgid "Blue"
 msgstr "Blau"
 
@@ -1958,11 +1959,11 @@ msgstr ""
 "Doch werden Sie es wieder schaffen?"
 
 #. This should never happen.
-#: ../gnobots2/game.c:1205
+#: ../gnobots2/game.c:1201
 msgid "There are no teleport locations left!!"
 msgstr "Es sind keine Teleportziele übrig!!"
 
-#: ../gnobots2/game.c:1233
+#: ../gnobots2/game.c:1229
 msgid "There are no safe locations to teleport to!!"
 msgstr "Sie haben keine sicheren Orte zum Teleportieren!!"
 
@@ -4292,6 +4293,14 @@ msgstr "Iagno Einstellungen"
 #: ../iagno/properties.c:409
 msgid "_Use quick moves"
 msgstr "_Schnelle Züge verwenden"
+
+#: ../iagno/properties.c:424
+msgid "Dark"
+msgstr "Schwarz"
+
+#: ../iagno/properties.c:465
+msgid "Light"
+msgstr "Weiß"
 
 #: ../iagno/properties.c:514
 msgid "Animation"
