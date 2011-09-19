@@ -1,3 +1,103 @@
+gnome-games 3.1.92
+==================
+Bug fixes:
+* Fix a crash in chess
+
+Shortlog of changes since 3.1.91:
+A S Alam (1):
+      Updated Punjabi Translation
+
+Alexander Shopov (1):
+      Updated Bulgarian translation
+
+Bruce Cowan (1):
+      Updated British English translation
+
+Chao-Hsiung Liao (1):
+      Updated Traditional Chinese translation(Hong Kong and Taiwan)
+
+Christian Persch (2):
+      build: Remove more aisleriot mentions
+      po: Update README.translators
+
+Claude Paroz (2):
+      Updated French translation
+      Updated French Tetravex help translation
+
+Cosimo Cecchi (4):
+      glchess: null-terminate the string arrays, otherwise GTK+ will crash
+      glchess: set the about dialog as modal
+      glchess: add the primary-toolbar style class to the toolbar
+      glchess: use the correct icon name
+
+Daniel Nylander (1):
+      Updated Swedish translation
+
+Dr.T.Vasudevan (1):
+      updated Tamil translation
+
+Duarte Loreto (1):
+      Updated Portuguese translation
+
+Gil Forcada (1):
+      [l10n]Updated Catalan translation
+
+Hermien Bos (1):
+      Updated translation for Afrikaans (af)
+
+Ihar Hrachyshka (1):
+      Updated Belarusian translation.
+
+Jiro Matsuzawa (1):
+      Updated Japanese translation
+
+Joe Hansen (2):
+      Updated Danish translation of the documentation
+      Updated Danish translation of the documentation of gnect
+
+Jorge González (2):
+      Updated Spanish translation
+      Updated Spanish translation
+
+Kjartan Maraas (1):
+      Updated Norwegian bokmål translation
+
+Marek Černocký (1):
+      Updated Czech translation
+
+Mario Blättermann (2):
+      [l10n] Updated German doc translation
+      [l10n] Updated German translation
+
+Matej Urbančič (1):
+      Updated Slovenian translation
+
+Milo Casagrande (1):
+      [l10n] Updated Italian translation
+
+Peter Mráz (1):
+      Updated Slovak translation
+
+Rudolfs Mazurs (1):
+      Updated Latvian translation.
+
+Thomas Hindoe Paaboel Andersen (3):
+      version bump
+      Replace some deprecated GTK symbols
+      fix a typo
+
+Yaron Shahrabani (1):
+      Updated Hebrew translation.
+
+Yinghua Wang (1):
+      update Simplified Chinese (zh_CN) translation
+
+Yuri Myasoedov (1):
+      Updated Russian translation
+
+dmustieles (1):
+      Updated Spanish translation
+
 gnome-games 3.1.91
 ==================
 Major changes:
