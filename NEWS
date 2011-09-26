@@ -1,3 +1,53 @@
+gnome-games 3.2.0
+=================
+
+This is the 3.2 stable release which brings the following major changes since
+3.0:
+
+ * Aisleriot was split out of gnome-games into its own module
+ * Sudoku was ported to pygobject/GTK3 by John Stowers
+ * The Seed games Swell Foop and Lights Off moved back to staging after
+   consultation with various stakeholders around gobject introspection and
+   JavaScript as a first-class language.
+ * Gnotravex Gnomine, Iagno, and Mahjongg, and GLines were ported to gsettings
+ * Various bug fixes
+
+Here are the changes since 3.1.92:
+
+Antonio Fernandes C. Neto (1):
+      Updated Brazilian Portuguese translation
+
+Aurimas Černius (1):
+      Updated Lithuanian translation
+
+Bruno Brouard (1):
+      Updated French doc translation
+
+Carles Ferrando (1):
+      [l10n]Updated Catalan (Valencian) translation
+
+Changwoo Ryu (1):
+      Updated Korean translation
+
+Flemming Christensen (1):
+      Updated Danish translation
+
+Gabor Kelemen (1):
+      Updated Hungarian translation
+
+Hannie Dumoleyn (1):
+      Updated Dutch translation by Hannie Dumoleyn
+
+Inaki Larranaga Murgoitio (1):
+      Updated Basque language
+
+Jason D. Clinton (1):
+      configure.in: Accept either pygobject-2.0 or 3.0 pkgconfig files
+
+Seong-ho Cho (1):
+      Added Korean doc translation for lightsoff
+
+
 gnome-games 3.1.92
 ==================
 Bug fixes:
