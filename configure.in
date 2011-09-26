@@ -484,10 +484,14 @@ AM_CONDITIONAL([HAVE_CLUTTER],[test "$need_clutter" = "yes"])
 
 # Check for PyGObject
 
+# This is madness because the interface didn't change from 2.0 to 3.0
 if test "$have_python" = "yes"; then
   PKG_CHECK_MODULES([PYGOBJECT],[
-    pygobject-2.0 >= $PYGOBJECT_REQUIRED],
-    [have_pygtk=yes],[have_pygtk=no])
+    pygobject-3.0 >= $PYGOBJECT_REQUIRED],
+    [have_pygtk=yes],[PKG_CHECK_MODULES([PYGOBJECT],[
+      pygobject-2.0 >= $PYGOBJECT_REQUIRED],
+      [have_pygtk=yes],[have_pygtk=no])
+    ])
 fi
 
 enable_python=no
