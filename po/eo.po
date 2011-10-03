@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: gnome-games\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "games&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-06-21 21:56+0000\n"
-"PO-Revision-Date: 2011-06-25 21:57+0200\n"
+"POT-Creation-Date: 2011-09-28 17:49+0000\n"
+"PO-Revision-Date: 2011-10-03 16:48+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
 "Language-Team: Esperanto <ubuntu-l10n-eo@lists.launchpad.net>\n"
 "Language: eo\n"
@@ -29,8 +29,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Launchpad-Export-Date: 2011-06-25 15:03+0000\n"
-"X-Generator: Launchpad (build 13265)\n"
+"X-Launchpad-Export-Date: 2011-10-03 14:20+0000\n"
+"X-Generator: Launchpad (build 14071)\n"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:1
 msgid "A flag to enable 3D mode"
@@ -69,10 +69,12 @@ msgid ""
 "Can be 'human' (play against another human player), '' (use the first "
 "available chess engine) or the name of a specific engine to play against"
 msgstr ""
+"Eblas esti 'homa' (ludi kontraŭ alia homa ludanto), '' (uzi la unuan "
+"disponeblan ŝakmodulon) aŭ la nomo de specifa modulo por kontraŭludi"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:10
 msgid "Difficulty of the opponent chess engine"
-msgstr ""
+msgstr "Facileco de la kontraŭludanta ŝakmodulo"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:11
 msgid "The directory to open the load game dialog in"
@@ -84,7 +86,7 @@ msgstr "La dosierujo, en kiu malfermos la ludkonserva dialogujo"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:13
 msgid "The duration of a game in seconds (0 for no limit)"
-msgstr ""
+msgstr "La daŭro de ludo, skribita per sekundoj (0 por neniu limo)"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:14
 msgid "The format to display moves in"
@@ -100,11 +102,11 @@ msgstr "La alto de la fenestro"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:17
 msgid "The opponent player"
-msgstr ""
+msgstr "La kontraŭludanto"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:18
 msgid "The piece theme to use"
-msgstr ""
+msgstr "La uzota pecostilo"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:19
 msgid "The piece to promote pawns to"
@@ -114,10 +116,11 @@ msgstr "Al kia peco ŝanĝi peonoj"
 msgid ""
 "The piece to promote to when a human player moves a pawn to the far rank"
 msgstr ""
+"La peco al kiu peco ŝanĝos kiam homa ludanto atingas la malproksiman flankon"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:21
 msgid "The side of the board that is in the foreground"
-msgstr ""
+msgstr "La flanko de la tabulo, kiu estas ĉe la malfono"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:22
 msgid "The width of the main window in pixels."
@@ -129,7 +132,7 @@ msgstr "La larĝo de la fenestro"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:24
 msgid "true if the human player is playing white"
-msgstr ""
+msgstr "vera se la homa ludanto estas blanka"
 
 #. Claim draw menu item
 #: ../glchess/data/glchess.ui.h:2
@@ -169,7 +172,7 @@ msgstr "Montri la antaŭan movon"
 
 #. Tooltip for start new game toolbar button
 #: ../glchess/data/glchess.ui.h:16 ../gnobots2/menu.c:71
-#: ../libgames-support/games-stock.c:50 ../mahjongg/mahjongg.c:1203
+#: ../libgames-support/games-stock.c:50 ../mahjongg/mahjongg.c:1195
 msgid "Start a new game"
 msgstr "Komenci novan ludon"
 
@@ -185,23 +188,23 @@ msgid "_Contents"
 msgstr "_Enhavoj"
 
 #. Game menu name
-#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1646
-#: ../gnect/src/main.c:1244 ../gnibbles/main.c:687 ../gnobots2/menu.c:66
+#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1639
+#: ../gnect/src/main.c:1187 ../gnibbles/main.c:600 ../gnobots2/menu.c:66
 #: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:210
-#: ../gnomine/gnomine.c:768 ../gnotravex/gnotravex.c:1707
-#: ../gnotski/gnotski.c:409 ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:847
-#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1200
+#: ../gnomine/gnomine.c:758 ../gnotravex/gnotravex.c:1707
+#: ../gnotski/gnotski.c:409 ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:763
+#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1192
 #: ../swell-foop/data/swell-foop.ui.h:2
 msgid "_Game"
 msgstr "_Ludo"
 
 #. Help menu item
-#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1648
-#: ../gnect/src/main.c:1247 ../gnibbles/main.c:690 ../gnobots2/menu.c:70
+#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1641
+#: ../gnect/src/main.c:1190 ../gnibbles/main.c:603 ../gnobots2/menu.c:70
 #: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:233
-#: ../gnomine/gnomine.c:770 ../gnotravex/gnotravex.c:1711
-#: ../gnotski/gnotski.c:411 ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:849
-#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1202
+#: ../gnomine/gnomine.c:760 ../gnotravex/gnotravex.c:1711
+#: ../gnotski/gnotski.c:411 ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:765
+#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1194
 #: ../swell-foop/data/swell-foop.ui.h:3
 msgid "_Help"
 msgstr "_Helpo"
@@ -212,12 +215,12 @@ msgid "_Resign"
 msgstr "_Rezigni"
 
 #. Settings menu item
-#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1647
-#: ../gnect/src/main.c:1246 ../gnibbles/main.c:689 ../gnobots2/menu.c:69
+#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1640
+#: ../gnect/src/main.c:1189 ../gnibbles/main.c:602 ../gnobots2/menu.c:69
 #: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:224
-#: ../gnomine/gnomine.c:769 ../gnotravex/gnotravex.c:1709
-#: ../gtali/gyahtzee.c:712 ../iagno/gnothello.c:848
-#: ../mahjongg/mahjongg.c:1201
+#: ../gnomine/gnomine.c:759 ../gnotravex/gnotravex.c:1709
+#: ../gtali/gyahtzee.c:712 ../iagno/gnothello.c:764
+#: ../mahjongg/mahjongg.c:1193
 msgid "_Settings"
 msgstr "_Agordoj"
 
@@ -244,12 +247,12 @@ msgstr "Tabula orientiĝo:"
 #. Preferences dialog: Label to notify user that the settings are applied for the next game
 #: ../glchess/data/preferences.ui.h:8
 msgid "Changes will take effect for the next game."
-msgstr ""
+msgstr "Ŝanĝoj efikos en la sekva ludo."
 
 #. Preferences Dialog: Combo box entry for custom game timer
 #: ../glchess/data/preferences.ui.h:10
 msgid "Custom"
-msgstr "Personigita"
+msgstr "Propra"
 
 #. Preferences Dialog: Label before promotion type combo box
 #: ../glchess/data/preferences.ui.h:12
@@ -268,15 +271,15 @@ msgstr "Kvin minutoj"
 
 #. Preferences Dialog: Tab title for game preferences
 #: ../glchess/data/preferences.ui.h:18 ../gnect/src/prefs.c:301
-#: ../gnibbles/preferences.c:254 ../gnobots2/properties.c:496
-#: ../quadrapassel/tetris.cpp:596 ../iagno/properties.c:415
+#: ../gnibbles/preferences.c:237 ../gnobots2/properties.c:499
+#: ../quadrapassel/tetris.cpp:596 ../iagno/properties.c:396
 msgid "Game"
 msgstr "Ludo"
 
 #. New Game Dialog: Label before game timer settings
 #: ../glchess/data/preferences.ui.h:20
 msgid "Game Duration:"
-msgstr ""
+msgstr "Luda daŭro:"
 
 #. Preferences Dialog: Label before move format combo box
 #: ../glchess/data/preferences.ui.h:22
@@ -286,7 +289,7 @@ msgstr "Mova formo:"
 #. Preferences Dialog: Combo box entry for no game timer
 #: ../glchess/data/preferences.ui.h:24
 msgid "No limit"
-msgstr ""
+msgstr "Neniu limo"
 
 #. Preferences Dialog: Combo box entry for game timer of one hour
 #: ../glchess/data/preferences.ui.h:26
@@ -301,7 +304,7 @@ msgstr "Unu minuto"
 #. Preferences Dialog: Label before opposing player combo box
 #: ../glchess/data/preferences.ui.h:30
 msgid "Opposing Player:"
-msgstr ""
+msgstr "Opona ludanto:"
 
 #. Preferences Dialog: Label before piece style combo box
 #: ../glchess/data/preferences.ui.h:32
@@ -314,8 +317,8 @@ msgid "Play as:"
 msgstr "Ludi kiel:"
 
 #. Title for preferences dialog
-#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:196
-#: ../mahjongg/mahjongg.c:141
+#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:195
+#: ../mahjongg/mahjongg.c:139
 msgid "Preferences"
 msgstr "Agordoj"
 
@@ -327,7 +330,7 @@ msgstr "Peonŝanĝa tipo:"
 #. Preferences Dialog: Check box for selecting if history browser is visible
 #: ../glchess/data/preferences.ui.h:40
 msgid "Show _History"
-msgstr "Montri kronologion"
+msgstr "Montri _historion"
 
 #. Preferences Dialog: Check box for selecting if toolbar is visible
 #: ../glchess/data/preferences.ui.h:42 ../gnome-sudoku/src/lib/main.py:254
@@ -363,7 +366,7 @@ msgstr "Glatigi ekranon"
 #: ../glchess/data/preferences.ui.h:54
 msgctxt "chess-move-format"
 msgid "Figurine"
-msgstr ""
+msgstr "Vinjeta"
 
 #. Preferences Dialog: Combo box entry for setting the notation type to human readable descriptions
 #: ../glchess/data/preferences.ui.h:56
@@ -375,13 +378,13 @@ msgstr "Homo"
 #: ../glchess/data/preferences.ui.h:58
 msgctxt "chess-move-format"
 msgid "Long Algebraic"
-msgstr ""
+msgstr "Longa algebra"
 
 #. Preferences Dialog: Combo box entry for setting the notation type to standard algebraic (SAN)
 #: ../glchess/data/preferences.ui.h:60
 msgctxt "chess-move-format"
 msgid "Standard Algebraic"
-msgstr ""
+msgstr "Kutima algebra"
 
 #. Preferences Dialog: Combo box entry for human opponent
 #: ../glchess/data/preferences.ui.h:62
@@ -488,7 +491,7 @@ msgstr "Ludi la klasikan du-lundantan tabulludon ŝakon"
 #: ../glchess/src/glchess.vala:229
 #, c-format
 msgid "%1$s (%2$s) - Chess"
-msgstr ""
+msgstr "%1$s (%2$s) - Ŝako"
 
 #. Move History Combo: Go to the start of the game
 #: ../glchess/src/glchess.vala:238
@@ -500,433 +503,433 @@ msgstr "Ludstarto"
 #: ../glchess/src/glchess.vala:450
 #, c-format
 msgid "White pawn moves from %1$s to %2$s"
-msgstr ""
+msgstr "Blanka peono movas de %1$s al %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a pawn at %2$s
 #: ../glchess/src/glchess.vala:452
 #, c-format
 msgid "White pawn at %1$s takes the black pawn at %2$s"
-msgstr ""
+msgstr "Blanka peono ĉe %1$s kaptas la nigran peonon ĉe %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a rook at %2$s
 #: ../glchess/src/glchess.vala:454
 #, c-format
 msgid "White pawn at %1$s takes the black rook at %2$s"
-msgstr ""
+msgstr "Blanka peono ĉe %1$s kaptas la nigran turon ĉe %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a knight at %2$s
 #: ../glchess/src/glchess.vala:456
 #, c-format
 msgid "White pawn at %1$s takes the black knight at %2$s"
-msgstr ""
+msgstr "Blanka peono ĉe %1$s kaptas la nigran ĉevalon ĉe %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a bishop at %2$s
 #: ../glchess/src/glchess.vala:458
 #, c-format
 msgid "White pawn at %1$s takes the black bishop at %2$s"
-msgstr ""
+msgstr "Blanka peono ĉe %1$s kaptas la nigran kurieron ĉe %2$s"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a queen at %2$s
 #: ../glchess/src/glchess.vala:460
 #, c-format
 msgid "White pawn at %1$s takes the black queen at %2$s"
-msgstr ""
+msgstr "Blanka peono ĉe %1$s kaptas la nigran damon ĉe %2$s"
 
 #. Human Move String: Description of a white rook moving from %1$s to %2$s, e.g. 'a1 to a5'
 #: ../glchess/src/glchess.vala:462
 #, c-format
 msgid "White rook moves from %1$s to %2$s"
-msgstr ""
+msgstr "Blanka turo movas de %1$s al %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a pawn at %2$s
 #: ../glchess/src/glchess.vala:464
 #, c-format
 msgid "White rook at %1$s takes the black pawn at %2$s"
-msgstr ""
+msgstr "Blanka turo ĉe %1$s kaptas la nigran peonon ĉe %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a rook at %2$s
 #: ../glchess/src/glchess.vala:466
 #, c-format
 msgid "White rook at %1$s takes the black rook at %2$s"
-msgstr ""
+msgstr "Blanka turo ĉe %1$s kaptas la nigran turon ĉe %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a knight at %2$s
 #: ../glchess/src/glchess.vala:468
 #, c-format
 msgid "White rook at %1$s takes the black knight at %2$s"
-msgstr ""
+msgstr "Blanka turo ĉe %1$s kaptas la nigran ĉevalon ĉe %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a bishop at %2$s
 #: ../glchess/src/glchess.vala:470
 #, c-format
 msgid "White rook at %1$s takes the black bishop at %2$s"
-msgstr ""
+msgstr "Blanka turo ĉe %1$s kaptas la nigran kurieron ĉe %2$s"
 
 #. Human Move String: Description of a white rook at %1$s capturing a queen at %2$s"
 #: ../glchess/src/glchess.vala:472
 #, c-format
 msgid "White rook at %1$s takes the black queen at %2$s"
-msgstr ""
+msgstr "Blanka turo ĉe %1$s kaptas la nigran damon ĉe %2$s"
 
 #. Human Move String: Description of a white knight moving from %1$s to %2$s, e.g. 'b1 to c3'
 #: ../glchess/src/glchess.vala:474
 #, c-format
 msgid "White knight moves from %1$s to %2$s"
-msgstr ""
+msgstr "Blanka ĉevalo movas de %1$s al %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a pawn at %2$s
 #: ../glchess/src/glchess.vala:476
 #, c-format
 msgid "White knight at %1$s takes the black pawn at %2$s"
-msgstr ""
+msgstr "Blanka ĉevalo ĉe %1$s kaptas la nigran peonon ĉe %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a rook at %2$s
 #: ../glchess/src/glchess.vala:478
 #, c-format
 msgid "White knight at %1$s takes the black rook at %2$s"
-msgstr ""
+msgstr "Blanka ĉevalo ĉe %1$s kaptas la nigran turon ĉe %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a knight at %2$s
 #: ../glchess/src/glchess.vala:480
 #, c-format
 msgid "White knight at %1$s takes the black knight at %2$s"
-msgstr ""
+msgstr "Blanka ĉevalo ĉe %1$s kaptas la nigran ĉevalon ĉe %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a bishop at %2$s
 #: ../glchess/src/glchess.vala:482
 #, c-format
 msgid "White knight at %1$s takes the black bishop at %2$s"
-msgstr ""
+msgstr "Blanka ĉevalo ĉe %1$s kaptas la nigran kurieron ĉe %2$s"
 
 #. Human Move String: Description of a white knight at %1$s capturing a queen at %2$s
 #: ../glchess/src/glchess.vala:484
 #, c-format
 msgid "White knight at %1$s takes the black queen at %2$s"
-msgstr ""
+msgstr "Blanka ĉevalo ĉe %1$s kaptas la nigran damon ĉe %2$s"
 
 #. Human Move String: Description of a white bishop moving from %1$s to %2$s, e.g. 'f1 to b5'
 #: ../glchess/src/glchess.vala:486
 #, c-format
 msgid "White bishop moves from %1$s to %2$s"
-msgstr ""
+msgstr "Blanka kuriero movas de %1$s al %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a pawn at %2$s
 #: ../glchess/src/glchess.vala:488
 #, c-format
 msgid "White bishop at %1$s takes the black pawn at %2$s"
-msgstr ""
+msgstr "Blanka kuriero ĉe %1$s kaptas la nigran peonon ĉe %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a rook at %2$s
 #: ../glchess/src/glchess.vala:490
 #, c-format
 msgid "White bishop at %1$s takes the black rook at %2$s"
-msgstr ""
+msgstr "Blanka kuriero ĉe %1$s kaptas la nigran turon ĉe %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a knight at %2$s
 #: ../glchess/src/glchess.vala:492
 #, c-format
 msgid "White bishop at %1$s takes the black knight at %2$s"
-msgstr ""
+msgstr "Blanka kuriero ĉe %1$s kaptas la nigran ĉevalon ĉe %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a bishop at %2$s
 #: ../glchess/src/glchess.vala:494
 #, c-format
 msgid "White bishop at %1$s takes the black bishop at %2$s"
-msgstr ""
+msgstr "Blanka kuriero ĉe %1$s kaptas la nigran kurieron ĉe %2$s"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a queen at %2$s
 #: ../glchess/src/glchess.vala:496
 #, c-format
 msgid "White bishop at %1$s takes the black queen at %2$s"
-msgstr ""
+msgstr "Blanka kuriero ĉe %1$s kaptas la nigran damon ĉe %2$s"
 
 #. Human Move String: Description of a white queen moving from %1$s to %2$s, e.g. 'd1 to d4'
 #: ../glchess/src/glchess.vala:498
 #, c-format
 msgid "White queen moves from %1$s to %2$s"
-msgstr ""
+msgstr "Blanka damo movas de %1$s al %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a pawn at %2$s
 #: ../glchess/src/glchess.vala:500
 #, c-format
 msgid "White queen at %1$s takes the black pawn at %2$s"
-msgstr ""
+msgstr "Blanka damo ĉe %1$s kaptas la nigran peonon ĉe %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a rook at %2$s
 #: ../glchess/src/glchess.vala:502
 #, c-format
 msgid "White queen at %1$s takes the black rook at %2$s"
-msgstr ""
+msgstr "Blanka damo ĉe %1$s kaptas la nigran turon ĉe %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a knight at %2$s
 #: ../glchess/src/glchess.vala:504
 #, c-format
 msgid "White queen at %1$s takes the black knight at %2$s"
-msgstr ""
+msgstr "Blanka damo ĉe %1$s kaptas la nigran ĉevalon ĉe %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a bishop at %2$s
 #: ../glchess/src/glchess.vala:506
 #, c-format
 msgid "White queen at %1$s takes the black bishop at %2$s"
-msgstr ""
+msgstr "Blanka damo ĉe %1$s kaptas la nigran kurieron ĉe %2$s"
 
 #. Human Move String: Description of a white queen at %1$s capturing a queen at %2$s
 #: ../glchess/src/glchess.vala:508
 #, c-format
 msgid "White queen at %1$s takes the black queen at %2$s"
-msgstr ""
+msgstr "Blanka damo ĉe %1$s kaptas la nigran damon ĉe %2$s"
 
 #. Human Move String: Description of a white king moving from %1$s to %2$s, e.g. 'e1 to f1'
 #: ../glchess/src/glchess.vala:510
 #, c-format
 msgid "White king moves from %1$s to %2$s"
-msgstr ""
+msgstr "Blanka reĝo movas de %1$s al %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a pawn at %2$s
 #: ../glchess/src/glchess.vala:512
 #, c-format
 msgid "White king at %1$s takes the black pawn at %2$s"
-msgstr ""
+msgstr "Blanka reĝo ĉe %1$s kaptas la nigran peonon ĉe %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a rook at %2$s
 #: ../glchess/src/glchess.vala:514
 #, c-format
 msgid "White king at %1$s takes the black rook at %2$s"
-msgstr ""
+msgstr "Blanka reĝo ĉe %1$s kaptas la nigran turon ĉe %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a knight at %2$s
 #: ../glchess/src/glchess.vala:516
 #, c-format
 msgid "White king at %1$s takes the black knight at %2$s"
-msgstr ""
+msgstr "Blanka reĝo ĉe %1$s kaptas la nigran ĉevalon ĉe %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a bishop at %2$s
 #: ../glchess/src/glchess.vala:518
 #, c-format
 msgid "White king at %1$s takes the black bishop at %2$s"
-msgstr ""
+msgstr "Blanka reĝo ĉe %1$s kaptas la nigran kurieron ĉe %2$s"
 
 #. Human Move String: Description of a white king at %1$s capturing a queen at %2$s
 #: ../glchess/src/glchess.vala:520
 #, c-format
 msgid "White king at %1$s takes the black queen at %2$s"
-msgstr ""
+msgstr "Blanka reĝo ĉe %1$s kaptas la nigran damon ĉe %2$s"
 
 #. Human Move String: Description of a black pawn moving from %1$s to %2$s, e.g. 'c8 to c6'
 #: ../glchess/src/glchess.vala:522
 #, c-format
 msgid "Black pawn moves from %1$s to %2$s"
-msgstr ""
+msgstr "Nigra peono movas de %1$s al %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a pawn at %2$s
 #: ../glchess/src/glchess.vala:524
 #, c-format
 msgid "Black pawn at %1$s takes the white pawn at %2$s"
-msgstr ""
+msgstr "Nigra peono ĉe %1$s kaptas la blankan peonon ĉe %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a rook at %2$s
 #: ../glchess/src/glchess.vala:526
 #, c-format
 msgid "Black pawn at %1$s takes the white rook at %2$s"
-msgstr ""
+msgstr "Nigra peono ĉe %1$s kaptas la blankan turon ĉe %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a knight at %2$s
 #: ../glchess/src/glchess.vala:528
 #, c-format
 msgid "Black pawn at %1$s takes the white knight at %2$s"
-msgstr ""
+msgstr "Nigra peono ĉe %1$s kaptas la blankan ĉevalon ĉe %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a bishop at %2$s
 #: ../glchess/src/glchess.vala:530
 #, c-format
 msgid "Black pawn at %1$s takes the white bishop at %2$s"
-msgstr ""
+msgstr "Nigra peono ĉe %1$s kaptas la blankan kurieron ĉe %2$s"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a queen at %2$s
 #: ../glchess/src/glchess.vala:532
 #, c-format
 msgid "Black pawn at %1$s takes the white queen at %2$s"
-msgstr ""
+msgstr "Nigra peono ĉe %1$s kaptas la blankan damon ĉe %2$s"
 
 #. Human Move String: Description of a black rook moving from %1$s to %2$s, e.g. 'a8 to a4'
 #: ../glchess/src/glchess.vala:534
 #, c-format
 msgid "Black rook moves from %1$s to %2$s"
-msgstr ""
+msgstr "Nigra turo movas de %1$s al %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a pawn at %2$s
 #: ../glchess/src/glchess.vala:536
 #, c-format
 msgid "Black rook at %1$s takes the white pawn at %2$s"
-msgstr ""
+msgstr "Nigra turo ĉe %1$s kaptas la blankan peonon ĉe %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a rook at %2$s
 #: ../glchess/src/glchess.vala:538
 #, c-format
 msgid "Black rook at %1$s takes the white rook at %2$s"
-msgstr ""
+msgstr "Nigra turo ĉe %1$s kaptas la blankan turon ĉe %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a knight at %2$s
 #: ../glchess/src/glchess.vala:540
 #, c-format
 msgid "Black rook at %1$s takes the white knight at %2$s"
-msgstr ""
+msgstr "Nigra turo ĉe %1$s kaptas la blankan ĉevalon ĉe %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a bishop at %2$s
 #: ../glchess/src/glchess.vala:542
 #, c-format
 msgid "Black rook at %1$s takes the white bishop at %2$s"
-msgstr ""
+msgstr "Nigra turo ĉe %1$s kaptas la blankan kurieron ĉe %2$s"
 
 #. Human Move String: Description of a black rook at %1$s capturing a queen at %2$s
 #: ../glchess/src/glchess.vala:544
 #, c-format
 msgid "Black rook at %1$s takes the white queen at %2$s"
-msgstr ""
+msgstr "Nigra turo ĉe %1$s kaptas la blankan damon ĉe %2$s"
 
 #. Human Move String: Description of a black knight moving from %1$s to %2$s, e.g. 'b8 to c6'
 #: ../glchess/src/glchess.vala:546
 #, c-format
 msgid "Black knight moves from %1$s to %2$s"
-msgstr ""
+msgstr "Nigra ĉevalo movas de %1$s al %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a pawn at %2$s
 #: ../glchess/src/glchess.vala:548
 #, c-format
 msgid "Black knight at %1$s takes the white pawn at %2$s"
-msgstr ""
+msgstr "Nigra ĉevalo ĉe %1$s kaptas la blankan peonon ĉe %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a rook at %2$s
 #: ../glchess/src/glchess.vala:550
 #, c-format
 msgid "Black knight at %1$s takes the white rook at %2$s"
-msgstr ""
+msgstr "Nigra ĉevalo ĉe %1$s kaptas la blankan turon ĉe %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a knight at %2$s
 #: ../glchess/src/glchess.vala:552
 #, c-format
 msgid "Black knight at %1$s takes the white knight at %2$s"
-msgstr ""
+msgstr "Nigra ĉevalo ĉe %1$s kaptas la blankan ĉevalon ĉe %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a bishop at %2$s
 #: ../glchess/src/glchess.vala:554
 #, c-format
 msgid "Black knight at %1$s takes the white bishop at %2$s"
-msgstr ""
+msgstr "Nigra ĉevalo ĉe %1$s kaptas la blankan kurieron ĉe %2$s"
 
 #. Human Move String: Description of a black knight at %1$s capturing a queen at %2$s
 #: ../glchess/src/glchess.vala:556
 #, c-format
 msgid "Black knight at %1$s takes the white queen at %2$s"
-msgstr ""
+msgstr "Nigra ĉevalo ĉe %1$s kaptas la blankan damon ĉe %2$s"
 
 #. Human Move String: Description of a black bishop moving from %1$s to %2$s, e.g. 'f8 to b3'
 #: ../glchess/src/glchess.vala:558
 #, c-format
 msgid "Black bishop moves from %1$s to %2$s"
-msgstr ""
+msgstr "Nigra kuriero movas de %1$s al %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a pawn at %2$s
 #: ../glchess/src/glchess.vala:560
 #, c-format
 msgid "Black bishop at %1$s takes the white pawn at %2$s"
-msgstr ""
+msgstr "Nigra kuriero ĉe %1$s kaptas la blankan peonon ĉe %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a rook at %2$s
 #: ../glchess/src/glchess.vala:562
 #, c-format
 msgid "Black bishop at %1$s takes the white rook at %2$s"
-msgstr ""
+msgstr "Nigra kuriero ĉe %1$s kaptas la blankan turon ĉe %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a knight at %2$s
 #: ../glchess/src/glchess.vala:564
 #, c-format
 msgid "Black bishop at %1$s takes the white knight at %2$s"
-msgstr ""
+msgstr "Nigra kuriero ĉe %1$s kaptas la blankan ĉevalon ĉe %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a bishop at %2$s
 #: ../glchess/src/glchess.vala:566
 #, c-format
 msgid "Black bishop at %1$s takes the white bishop at %2$s"
-msgstr ""
+msgstr "Nigra kuriero ĉe %1$s kaptas la blankan kurieron ĉe %2$s"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a queen at %2$s
 #: ../glchess/src/glchess.vala:568
 #, c-format
 msgid "Black bishop at %1$s takes the white queen at %2$s"
-msgstr ""
+msgstr "Nigra kuriero ĉe %1$s kaptas la blankan damon ĉe %2$s"
 
 #. Human Move String: Description of a black queen moving from %1$s to %2$s, e.g. 'd8 to d5'
 #: ../glchess/src/glchess.vala:570
 #, c-format
 msgid "Black queen moves from %1$s to %2$s"
-msgstr ""
+msgstr "Nigra damo movas de %1$s al %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a pawn at %2$s
 #: ../glchess/src/glchess.vala:572
 #, c-format
 msgid "Black queen at %1$s takes the white pawn at %2$s"
-msgstr ""
+msgstr "Nigra damo ĉe %1$s kaptas la blankan peonon ĉe %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a rook at %2$s
 #: ../glchess/src/glchess.vala:574
 #, c-format
 msgid "Black queen at %1$s takes the white rook at %2$s"
-msgstr ""
+msgstr "Nigra damo ĉe %1$s kaptas la blankan turon ĉe %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a knight at %2$s
 #: ../glchess/src/glchess.vala:576
 #, c-format
 msgid "Black queen at %1$s takes the white knight at %2$s"
-msgstr ""
+msgstr "Nigra damo ĉe %1$s kaptas la blankan ĉevalon ĉe %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a bishop at %2$s
 #: ../glchess/src/glchess.vala:578
 #, c-format
 msgid "Black queen at %1$s takes the white bishop at %2$s"
-msgstr ""
+msgstr "Nigra damo ĉe %1$s kaptas la blankan kurieron ĉe %2$s"
 
 #. Human Move String: Description of a black queen at %1$s capturing a queen at %2$s
 #: ../glchess/src/glchess.vala:580
 #, c-format
 msgid "Black queen at %1$s takes the white queen at %2$s"
-msgstr ""
+msgstr "Nigra damo ĉe %1$s kaptas la blankan damon ĉe %2$s"
 
 #. Human Move String: Description of a black king moving from %1$s to %2$s, e.g. 'e8 to f8'
 #: ../glchess/src/glchess.vala:582
 #, c-format
 msgid "Black king moves from %1$s to %2$s"
-msgstr ""
+msgstr "Nigra reĝo movas de %1$s al %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a pawn at %2$s
 #: ../glchess/src/glchess.vala:584
 #, c-format
 msgid "Black king at %1$s takes the white pawn at %2$s"
-msgstr ""
+msgstr "Nigra reĝo ĉe %1$s kaptas la blankan peonon ĉe %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a rook at %2$s
 #: ../glchess/src/glchess.vala:586
 #, c-format
 msgid "Black king at %1$s takes the white rook at %2$s"
-msgstr ""
+msgstr "Nigra reĝo ĉe %1$s kaptas la blankan turon ĉe %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a knight at %2$s
 #: ../glchess/src/glchess.vala:588
 #, c-format
 msgid "Black king at %1$s takes the white knight at %2$s"
-msgstr ""
+msgstr "Nigra reĝo ĉe %1$s kaptas la blankan ĉevalon ĉe %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a bishop at %2$s
 #: ../glchess/src/glchess.vala:590
 #, c-format
 msgid "Black king at %1$s takes the white bishop at %2$s"
-msgstr ""
+msgstr "Nigra reĝo ĉe %1$s kaptas la blankan kurieron ĉe %2$s"
 
 #. Human Move String: Description of a black king at %1$s capturing a queen at %2$s"
 #: ../glchess/src/glchess.vala:592
 #, c-format
 msgid "Black king at %1$s takes the white queen at %2$s"
-msgstr ""
+msgstr "Nigra reĝo ĉe %1$s kaptas la blankan damon ĉe %2$s"
 
 #. Message display when the white player wins
 #: ../glchess/src/glchess.vala:712
@@ -995,7 +998,7 @@ msgstr "Unu el la ludantoj mortis"
 
 #: ../glchess/src/glchess.vala:840
 msgid "Save this game before starting a new one?"
-msgstr ""
+msgstr "Ĉu la ludo konservendas antaŭ ol la nova ludo komenciĝas?"
 
 #: ../glchess/src/glchess.vala:842 ../gnome-sudoku/src/lib/main.py:422
 msgid "_Abandon game"
@@ -1026,94 +1029,95 @@ msgid_plural "hours"
 msgstr[0] "horo"
 msgstr[1] "horoj"
 
-#: ../glchess/src/glchess.vala:1362
+#: ../glchess/src/glchess.vala:1363
 msgid ""
 "The 2D/3D chess game for GNOME. \n"
 "\n"
 "glChess is a part of GNOME Games."
 msgstr ""
-"La du kaj tri- dimensia ŝakludo por GNOME. \n"
+"La du- kaj tri-dimensia ŝakludo por GNOME. \n"
 "\n"
-"glChess estas ero de GNOME-ludiloj."
+"glChess estas ero de GNOME Ludiloj."
 
-#: ../glchess/src/glchess.vala:1367 ../glines/glines.c:1225
-#: ../gnect/src/main.c:877 ../gnibbles/main.c:211 ../gnobots2/menu.c:263
-#: ../quadrapassel/tetris.cpp:1313 ../gnomine/gnomine.c:479
-#: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1490
-#: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:272
-#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:911
+#: ../glchess/src/glchess.vala:1368 ../glines/glines.c:1224
+#: ../gnect/src/main.c:828 ../gnibbles/main.c:177 ../gnobots2/menu.c:263
+#: ../quadrapassel/tetris.cpp:1313 ../gnomine/gnomine.c:473
+#: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1497
+#: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:226
+#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:903
 #: ../swell-foop/src/About.js:19
 msgid "GNOME Games web site"
-msgstr "Retejo de GNOME-ludiloj"
+msgstr "Retejo de GNOME Ludiloj"
 
 #. Title of save game dialog
-#: ../glchess/src/glchess.vala:1421
+#: ../glchess/src/glchess.vala:1422
 msgid "Save Chess Game"
 msgstr "Konservi ŝakludon"
 
 #. Save Game Dialog: Name of filter to show only PGN files
 #. Load Game Dialog: Name of filter to show only PGN files
-#: ../glchess/src/glchess.vala:1434 ../glchess/src/glchess.vala:1502
+#: ../glchess/src/glchess.vala:1435 ../glchess/src/glchess.vala:1503
 msgid "PGN files"
 msgstr "PGN-dosieroj"
 
 #. Save Game Dialog: Name of filter to show all files
 #. Load Game Dialog: Name of filter to show all files
-#: ../glchess/src/glchess.vala:1441 ../glchess/src/glchess.vala:1509
+#: ../glchess/src/glchess.vala:1442 ../glchess/src/glchess.vala:1510
 msgid "All files"
 msgstr "Ĉiuj dosieroj"
 
-#: ../glchess/src/glchess.vala:1465
+#: ../glchess/src/glchess.vala:1466
 #, c-format
 msgid "Failed to save game: %s"
-msgstr ""
+msgstr "Luda konservado malsukcesis: %s"
 
 #. Title of load game dialog
-#: ../glchess/src/glchess.vala:1489
+#: ../glchess/src/glchess.vala:1490
 msgid "Load Chess Game"
 msgstr "Ŝarĝi ŝakludon"
 
-#: ../glchess/src/glchess.vala:1531
+#: ../glchess/src/glchess.vala:1532
 #, c-format
 msgid "Failed to open game: %s"
-msgstr ""
+msgstr "Luda malfermado malsukcesis: %s"
 
 #. Help string for command line --version flag
-#: ../glchess/src/glchess.vala:1592
+#: ../glchess/src/glchess.vala:1593
 msgid "Show release version"
-msgstr ""
+msgstr "Montri eldonversion"
 
 #. Arguments and description for --help text
-#: ../glchess/src/glchess.vala:1607
+#: ../glchess/src/glchess.vala:1608
 msgid "[FILE] - Play Chess"
-msgstr ""
+msgstr "[FILE] - Lulu ŝakon"
 
 #. Text printed out when an unknown command-line argument provided
-#: ../glchess/src/glchess.vala:1618
+#: ../glchess/src/glchess.vala:1619
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options."
 msgstr ""
+"Lanĉu '%s --help' por vidi plenan liston da disponeblaj komandliniaj opcioj."
 
-#: ../glines/glines.c:89 ../gnomine/gnomine.c:100
+#: ../glines/glines.c:87 ../gnomine/gnomine.c:101
 msgctxt "board size"
 msgid "Small"
 msgstr "Malgranda"
 
-#: ../glines/glines.c:90 ../gnomine/gnomine.c:101
+#: ../glines/glines.c:88 ../gnomine/gnomine.c:102
 msgctxt "board size"
 msgid "Medium"
 msgstr "Meza"
 
-#: ../glines/glines.c:91 ../gnomine/gnomine.c:102
+#: ../glines/glines.c:89 ../gnomine/gnomine.c:103
 msgctxt "board size"
 msgid "Large"
 msgstr "Granda"
 
-#: ../glines/glines.c:190
+#: ../glines/glines.c:189
 msgid "Could not load theme"
 msgstr "Etoso ne ŝarĝeblis"
 
-#: ../glines/glines.c:218
+#: ../glines/glines.c:217
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1126,7 +1130,7 @@ msgstr ""
 "\n"
 "La defaŭlta etoso estos ŝarĝita anstataŭe."
 
-#: ../glines/glines.c:225
+#: ../glines/glines.c:224
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1139,33 +1143,33 @@ msgstr ""
 "\n"
 "Bonvolu kontroli, ke Kvin Aŭ Pli estas ĝuste instalita."
 
-#: ../glines/glines.c:449
+#: ../glines/glines.c:448
 msgid "Match five objects of the same type in a row to score!"
 msgstr "Kongruigu kvin aĵojn de la sama tipo laŭvice por poenti!"
 
-#: ../glines/glines.c:511
+#: ../glines/glines.c:510
 msgid "GNOME Five or More"
 msgstr "GNOME Kvin Aŭ Pli"
 
-#: ../glines/glines.c:513
+#: ../glines/glines.c:512
 msgid "_Board size:"
 msgstr "Ta_bula grandeco:"
 
-#: ../glines/glines.c:530 ../swell-foop/src/Score.js:110
+#: ../glines/glines.c:529 ../swell-foop/src/Score.js:110
 msgid "Game Over!"
 msgstr "Ludo finita!"
 
 #. Can't move there!
-#: ../glines/glines.c:687
+#: ../glines/glines.c:686
 msgid "You can't move there!"
 msgstr "Vi ne povas movi tien!"
 
-#: ../glines/glines.c:1211 ../glines/glines.c:1214 ../glines/glines.c:1758
-#: ../glines/glines.c:1790 ../glines/glines.desktop.in.in.h:1
+#: ../glines/glines.c:1210 ../glines/glines.c:1213 ../glines/glines.c:1751
+#: ../glines/glines.c:1783 ../glines/glines.desktop.in.in.h:1
 msgid "Five or More"
 msgstr "Kvin Aŭ Pli"
 
-#: ../glines/glines.c:1216
+#: ../glines/glines.c:1215
 msgid ""
 "GNOME port of the once-popular Color Lines game.\n"
 "\n"
@@ -1173,15 +1177,15 @@ msgid ""
 msgstr ""
 "GNOME-porto de la antaŭe populara ludo Koloraj Linioj.\n"
 "\n"
-"Kvin Aŭ Pli estas ero de GNOME-ludiloj."
+"Kvin Aŭ Pli estas ero de GNOME Ludiloj."
 
 #. this doesn't work for anyone
-#: ../glines/glines.c:1222 ../gnect/src/main.c:880 ../gnibbles/main.c:208
+#: ../glines/glines.c:1221 ../gnect/src/main.c:831 ../gnibbles/main.c:174
 #: ../gnobots2/menu.c:267 ../quadrapassel/tetris.cpp:1316
-#: ../gnome-sudoku/src/lib/main.py:688 ../gnomine/gnomine.c:476
-#: ../gnotravex/gnotravex.c:1613 ../gnotski/gnotski.c:1487
-#: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:270
-#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:908
+#: ../gnome-sudoku/src/lib/main.py:688 ../gnomine/gnomine.c:470
+#: ../gnotravex/gnotravex.c:1613 ../gnotski/gnotski.c:1494
+#: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:224
+#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:900
 #: ../swell-foop/src/About.js:20
 msgid "translator-credits"
 msgstr ""
@@ -1192,49 +1196,51 @@ msgstr ""
 "  Billy Hand https://launchpad.net/~billythethird\n"
 "  Johano https://launchpad.net/~johanohepton\n"
 "  Kristjan SCHMIDT https://launchpad.net/~kristjan-eo\n"
+"  Marek Blahuš https://launchpad.net/~s-launchpad-blahus-cz\n"
 "  Michael Moroni https://launchpad.net/~airon90\n"
 "  Miguel Pérez https://launchpad.net/~rraton-esperanto\n"
 "  Robert BOGENSCHNEIDER https://launchpad.net/~robog\n"
 "  Serge Leblanc https://launchpad.net/~serge-leblanc\n"
-"  Sergio Ĥlutĉin https://launchpad.net/~sergej-hlutchin"
+"  Sergio Ĥlutĉin https://launchpad.net/~sergej-hlutchin\n"
+"  Thomas Heinis https://launchpad.net/~th-sitrino"
 
-#: ../glines/glines.c:1403
+#: ../glines/glines.c:1396
 msgid "Five or More Preferences"
 msgstr "Agordoj por Kvin Aŭ Pli"
 
-#: ../glines/glines.c:1422 ../gnect/src/prefs.c:333
-#: ../gnobots2/properties.c:535 ../iagno/properties.c:527
+#: ../glines/glines.c:1415 ../gnect/src/prefs.c:333
+#: ../gnobots2/properties.c:538 ../iagno/properties.c:508
 #: ../lightsoff/data/settings.ui.h:1 ../swell-foop/data/settings.ui.h:1
 msgid "Appearance"
 msgstr "Aspekto"
 
-#: ../glines/glines.c:1430
+#: ../glines/glines.c:1423
 msgid "_Image:"
 msgstr "B_ildo:"
 
-#: ../glines/glines.c:1441
+#: ../glines/glines.c:1434
 msgid "B_ackground color:"
 msgstr "Fonkoloro:"
 
-#: ../glines/glines.c:1456
+#: ../glines/glines.c:1449
 msgid "Board Size"
 msgstr "Tabula grandeco"
 
-#: ../glines/glines.c:1475
+#: ../glines/glines.c:1468
 msgctxt "preferences"
 msgid "General"
 msgstr "Ĝenerala"
 
-#: ../glines/glines.c:1481
+#: ../glines/glines.c:1474
 msgid "_Use fast moves"
 msgstr "_Uzi rapidajn movojn"
 
-#: ../glines/glines.c:1817
+#: ../glines/glines.c:1811
 msgid "Next:"
 msgstr "Sekva:"
 
-#: ../glines/glines.c:1847 ../gnobots2/statusbar.c:67
-#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:439
+#: ../glines/glines.c:1841 ../gnobots2/statusbar.c:67
+#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:433
 msgid "Score:"
 msgstr "Poentaro:"
 
@@ -1242,61 +1248,63 @@ msgstr "Poentaro:"
 msgid "Remove colored balls from the board by forming lines"
 msgstr "Forigu kolorajn pilkojn de la tabulo, farante liniojn"
 
-#: ../glines/glines.schemas.in.h:1 ../gnobots2/gnobots2.schemas.in.h:1
+#: ../glines/org.gnome.glines.gschema.xml.in.h:1
+#: ../gnobots2/gnobots2.schemas.in.h:1
 msgid "Background color"
 msgstr "Fonkoloro"
 
-#: ../glines/glines.schemas.in.h:2 ../gnobots2/gnobots2.schemas.in.h:2
+#: ../glines/org.gnome.glines.gschema.xml.in.h:2
+#: ../gnobots2/gnobots2.schemas.in.h:2
 msgid "Background color. The hex specification of the background color."
 msgstr "Fona koloro. La deksesuma specifo de la fona koloro."
 
-#: ../glines/glines.schemas.in.h:3
+#: ../glines/org.gnome.glines.gschema.xml.in.h:3
 msgid "Ball style"
 msgstr "Pilkstilo"
 
-#: ../glines/glines.schemas.in.h:4
+#: ../glines/org.gnome.glines.gschema.xml.in.h:4
 msgid "Ball style. The filename of the images to use for the balls."
 msgstr "Pilkstilo. La dosiernomo de la bildoj uzotaj por la pilkoj."
 
-#: ../glines/glines.schemas.in.h:5
+#: ../glines/org.gnome.glines.gschema.xml.in.h:5
 msgid "Game field"
 msgstr "Ludkampo"
 
-#: ../glines/glines.schemas.in.h:6
+#: ../glines/org.gnome.glines.gschema.xml.in.h:6
 msgid "Game field from last saved session."
 msgstr "Ludkampo de la lasta konservita seanco."
 
-#: ../glines/glines.schemas.in.h:7
+#: ../glines/org.gnome.glines.gschema.xml.in.h:7
 msgid "Game preview"
 msgstr "Ludantaŭvido"
 
-#: ../glines/glines.schemas.in.h:8
+#: ../glines/org.gnome.glines.gschema.xml.in.h:8
 msgid "Game preview from last saved session."
 msgstr "Ludantaŭvido de la antaŭa konservita seanco."
 
-#: ../glines/glines.schemas.in.h:9
+#: ../glines/org.gnome.glines.gschema.xml.in.h:9
 msgid "Game score"
 msgstr "Ludpoentaro"
 
-#: ../glines/glines.schemas.in.h:10
+#: ../glines/org.gnome.glines.gschema.xml.in.h:10
 msgid "Game score from last saved session."
 msgstr "Ludpoentaro de la antaŭa konservita seanco."
 
-#: ../glines/glines.schemas.in.h:11
+#: ../glines/org.gnome.glines.gschema.xml.in.h:11
 msgid "Playing field size"
 msgstr "Grando de ludareo"
 
-#: ../glines/glines.schemas.in.h:12
+#: ../glines/org.gnome.glines.gschema.xml.in.h:12
 msgid ""
 "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is invalid."
 msgstr ""
 "Grando de ludareo. 1=Eta, 2=Meza, 3=Ega. Ĉiu ajn alia valoro ne validas."
 
-#: ../glines/glines.schemas.in.h:13
+#: ../glines/org.gnome.glines.gschema.xml.in.h:13
 msgid "Time between moves"
 msgstr "Tempo inter movoj"
 
-#: ../glines/glines.schemas.in.h:14
+#: ../glines/org.gnome.glines.gschema.xml.in.h:14
 msgid "Time between moves in milliseconds."
 msgstr "Tempo inter movoj (en milisekundoj)"
 
@@ -1310,7 +1318,7 @@ msgstr "Liniigu samkoloraĵojn por gajni"
 
 #: ../gnect/data/gnect.schemas.in.h:1
 msgid "A number specifying the preferred theme."
-msgstr "Nombro specifanta la preferitan etoson"
+msgstr "Numero specifanta la preferitan etoson"
 
 #: ../gnect/data/gnect.schemas.in.h:2
 msgid "Animate"
@@ -1343,33 +1351,34 @@ msgid "Level of Player Two"
 msgstr "Nivelo de la dua ludanto"
 
 #: ../gnect/data/gnect.schemas.in.h:9 ../gnect/src/prefs.c:370
-#: ../gnibbles/gnibbles.schemas.in.h:16 ../gnibbles/preferences.c:444
+#: ../gnibbles/gnibbles.schemas.in.h:16 ../gnibbles/preferences.c:427
 #: ../quadrapassel/quadrapassel.schemas.in.h:13 ../quadrapassel/tetris.cpp:751
 msgid "Move left"
 msgstr "Movi maldekstren"
 
 #: ../gnect/data/gnect.schemas.in.h:10 ../gnect/src/prefs.c:371
-#: ../gnibbles/gnibbles.schemas.in.h:17 ../gnibbles/preferences.c:445
+#: ../gnibbles/gnibbles.schemas.in.h:17 ../gnibbles/preferences.c:428
 #: ../quadrapassel/quadrapassel.schemas.in.h:14 ../quadrapassel/tetris.cpp:752
 msgid "Move right"
 msgstr "Movi dekstren"
 
-#: ../gnect/data/gnect.schemas.in.h:11 ../gnobots2/properties.c:483
-#: ../iagno/iagno.schemas.in.h:1
+#: ../gnect/data/gnect.schemas.in.h:11 ../gnobots2/properties.c:485
+#: ../iagno/org.gnome.iagno.gschema.xml.in.h:1
 msgid "Sound"
 msgstr "Sono"
 
 #: ../gnect/data/gnect.schemas.in.h:12
 msgid "Theme ID"
-msgstr "Etoso-ID"
+msgstr "Etosa legitimilo"
 
-#: ../gnect/data/gnect.schemas.in.h:13 ../iagno/iagno.schemas.in.h:2
+#: ../gnect/data/gnect.schemas.in.h:13
+#: ../iagno/org.gnome.iagno.gschema.xml.in.h:2
 msgid "Whether or not to play event sounds."
-msgstr "Ĉu ludi eventajn sonojn."
+msgstr "Ĉu ludi eventajn sonojn?"
 
 #: ../gnect/data/gnect.schemas.in.h:14
 msgid "Whether or not to use animation."
-msgstr "Ĉu uzi aŭ ne movbildon."
+msgstr "Ĉu uzi aŭ ne movbildon?"
 
 #: ../gnect/data/gnect.schemas.in.h:15
 msgid ""
@@ -1388,58 +1397,58 @@ msgstr ""
 "Ne eblas ŝargi bildon:\n"
 "%s"
 
-#: ../gnect/src/main.c:527
+#: ../gnect/src/main.c:509
 msgid "It's a draw!"
 msgstr "Ĝi estas sendecido!"
 
-#: ../gnect/src/main.c:536 ../gnome-sudoku/src/lib/main.py:402
+#: ../gnect/src/main.c:518 ../gnome-sudoku/src/lib/main.py:402
 msgid "You win!"
 msgstr "Vi gajnis!"
 
-#: ../gnect/src/main.c:538 ../gnect/src/main.c:571
+#: ../gnect/src/main.c:520 ../gnect/src/main.c:539
 msgid "It is your move."
 msgstr "Estas via vico."
 
-#: ../gnect/src/main.c:541
+#: ../gnect/src/main.c:523
 msgid "I win!"
 msgstr "Mi gajnis!"
 
-#: ../gnect/src/main.c:543 ../gnect/src/main.c:676
+#: ../gnect/src/main.c:525 ../gnect/src/main.c:627
 msgid "Thinking..."
 msgstr "Pensante..."
 
-#: ../gnect/src/main.c:564 ../gnect/src/main.c:568
+#: ../gnect/src/main.c:536
 #, c-format
 msgid "%s wins!"
 msgstr "%s gajnis!"
 
-#: ../gnect/src/main.c:574
+#: ../gnect/src/main.c:543
 #, c-format
 msgid "Waiting for %s to move."
 msgstr "Atendanta movon de %s."
 
-#: ../gnect/src/main.c:693
+#: ../gnect/src/main.c:644
 #, c-format
 msgid "Hint: Column %d"
 msgstr "Konsileto: Kolumno %d"
 
-#: ../gnect/src/main.c:721 ../gnect/src/main.c:725
+#: ../gnect/src/main.c:672 ../gnect/src/main.c:676
 msgid "You:"
 msgstr "Vi:"
 
-#: ../gnect/src/main.c:722 ../gnect/src/main.c:724
+#: ../gnect/src/main.c:673 ../gnect/src/main.c:675
 msgid "Me:"
 msgstr "Mi:"
 
-#: ../gnect/src/main.c:770
+#: ../gnect/src/main.c:721
 msgid "Scores"
 msgstr "Poentaroj"
 
-#: ../gnect/src/main.c:823
+#: ../gnect/src/main.c:774
 msgid "Drawn:"
 msgstr "Sendecidaj:"
 
-#: ../gnect/src/main.c:876
+#: ../gnect/src/main.c:827
 msgid ""
 "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
 "Bertoletti's Velena Engine.\n"
@@ -1449,9 +1458,9 @@ msgstr ""
 "\"Kunligu Kvar\" por GNOME, kun komputilludanto gvidata de modulo \"Velena\" "
 "de Giuliano BERTOLETTI.\n"
 "\n"
-"\"Kunligu Kvar\" estas ero de GNOME-ludiloj."
+"\"Kunligu Kvar\" estas ero de GNOME Ludiloj."
 
-#: ../gnect/src/main.c:1245 ../gnibbles/main.c:688 ../gnobots2/menu.c:67
+#: ../gnect/src/main.c:1188 ../gnibbles/main.c:601 ../gnobots2/menu.c:67
 #: ../gnotski/gnotski.c:410
 msgid "_View"
 msgstr "_Vido"
@@ -1475,22 +1484,22 @@ msgstr ""
 "%s"
 
 #: ../gnect/src/prefs.c:249 ../gtali/gyahtzee.c:998 ../gtali/yahtzee.c:69
-#: ../iagno/properties.c:448 ../iagno/properties.c:489
+#: ../iagno/properties.c:429 ../iagno/properties.c:470
 msgid "Human"
 msgstr "Homo"
 
-#: ../gnect/src/prefs.c:251 ../iagno/properties.c:457
-#: ../iagno/properties.c:498
+#: ../gnect/src/prefs.c:251 ../iagno/properties.c:438
+#: ../iagno/properties.c:479
 msgid "Level one"
 msgstr "Nivelo unu"
 
-#: ../gnect/src/prefs.c:253 ../iagno/properties.c:466
-#: ../iagno/properties.c:507
+#: ../gnect/src/prefs.c:253 ../iagno/properties.c:447
+#: ../iagno/properties.c:488
 msgid "Level two"
 msgstr "Nivelo du"
 
-#: ../gnect/src/prefs.c:255 ../iagno/properties.c:475
-#: ../iagno/properties.c:516
+#: ../gnect/src/prefs.c:255 ../iagno/properties.c:456
+#: ../iagno/properties.c:497
 msgid "Level three"
 msgstr "Nivelo tri"
 
@@ -1506,14 +1515,14 @@ msgstr "E_toso:"
 msgid "Enable _animation"
 msgstr "Enŝ_alti movbildon"
 
-#: ../gnect/src/prefs.c:361 ../gnibbles/preferences.c:338
-#: ../iagno/properties.c:436
+#: ../gnect/src/prefs.c:361 ../gnibbles/preferences.c:321
+#: ../iagno/properties.c:417
 msgid "E_nable sounds"
 msgstr "E_nŝalti sonojn"
 
 #. keyboard tab
-#: ../gnect/src/prefs.c:366 ../gnibbles/preferences.c:434
-#: ../gnobots2/properties.c:542 ../quadrapassel/tetris.cpp:743
+#: ../gnect/src/prefs.c:366 ../gnibbles/preferences.c:417
+#: ../gnobots2/properties.c:545 ../quadrapassel/tetris.cpp:743
 msgid "Keyboard Controls"
 msgstr "Klavarstiroj"
 
@@ -1522,12 +1531,11 @@ msgid "Classic"
 msgstr "Klasika"
 
 #: ../gnect/src/theme.c:47 ../gnect/src/theme.c:68 ../gnect/src/theme.c:75
-#: ../gnect/src/theme.c:82 ../gnibbles/preferences.c:472
+#: ../gnect/src/theme.c:82 ../gnibbles/preferences.c:455
 msgid "Red"
 msgstr "Ruĝo"
 
-#: ../gnect/src/theme.c:47 ../gnect/src/theme.c:82
-#: ../gnibbles/preferences.c:475
+#: ../gnect/src/theme.c:47 ../gnibbles/preferences.c:458
 msgid "Yellow"
 msgstr "Flavo"
 
@@ -1535,13 +1543,13 @@ msgstr "Flavo"
 msgid "High Contrast"
 msgstr "Alta kontrasto"
 
-#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61 ../iagno/properties.c:484
-msgid "Light"
-msgstr "Hele"
+#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61
+msgid "Circle"
+msgstr "Cirklo"
 
-#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61 ../iagno/properties.c:443
-msgid "Dark"
-msgstr "Malhele"
+#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61
+msgid "Cross"
+msgstr "Kruco"
 
 #: ../gnect/src/theme.c:57
 msgid "High Contrast Inverse"
@@ -1551,8 +1559,8 @@ msgstr "Altkonstrastaj inversaj koloroj"
 msgid "Cream Marbles"
 msgstr "Kremkoloraj rolglobetoj"
 
-#: ../gnect/src/theme.c:68 ../gnect/src/theme.c:75 ../gnect/src/theme.c:89
-#: ../gnibbles/preferences.c:474
+#: ../gnect/src/theme.c:68 ../gnect/src/theme.c:75 ../gnect/src/theme.c:82
+#: ../gnect/src/theme.c:89 ../gnibbles/preferences.c:457
 msgid "Blue"
 msgstr "Bluo"
 
@@ -1572,7 +1580,7 @@ msgstr "Blokoj"
 msgid "Orange"
 msgstr "Oranĝkoloro"
 
-#: ../gnibbles/board.c:254
+#: ../gnibbles/board.c:250
 #, c-format
 msgid ""
 "Nibbles couldn't load level file:\n"
@@ -1585,7 +1593,7 @@ msgstr ""
 "\n"
 "Bonvolu kontroli vian instaladon de Ronĝaj Vermoj"
 
-#: ../gnibbles/board.c:273
+#: ../gnibbles/board.c:269
 #, c-format
 msgid ""
 "Level file appears to be damaged:\n"
@@ -1598,7 +1606,7 @@ msgstr ""
 "\n"
 "Bonvolu kontroli vian instaladon de Ronĝaj Vermoj"
 
-#: ../gnibbles/gnibbles.c:94
+#: ../gnibbles/gnibbles.c:90
 #, c-format
 msgid ""
 "Nibbles couldn't find pixmap file:\n"
@@ -1611,39 +1619,39 @@ msgstr ""
 "\n"
 "Bonvolu kontroli vian instaladon de Ronĝaj Vermoj"
 
-#: ../gnibbles/gnibbles.c:366
+#: ../gnibbles/gnibbles.c:361
 msgid "Nibbles Scores"
 msgstr "Poentaroj de Ronĝaj Vermoj"
 
-#: ../gnibbles/gnibbles.c:369
+#: ../gnibbles/gnibbles.c:364
 msgid "Speed:"
 msgstr "Rapido:"
 
-#: ../gnibbles/gnibbles.c:374 ../gnobots2/game.c:179 ../gnomine/gnomine.c:223
-#: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:797
-#: ../gtali/gyahtzee.c:197 ../mahjongg/mahjongg.c:630
+#: ../gnibbles/gnibbles.c:369 ../gnobots2/game.c:179 ../gnomine/gnomine.c:224
+#: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:803
+#: ../gtali/gyahtzee.c:197 ../mahjongg/mahjongg.c:622
 msgid "Congratulations!"
 msgstr "Gratulojn!"
 
-#: ../gnibbles/gnibbles.c:375 ../gnobots2/game.c:180 ../gnomine/gnomine.c:224
-#: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:798
-#: ../gtali/gyahtzee.c:198 ../mahjongg/mahjongg.c:631
+#: ../gnibbles/gnibbles.c:370 ../gnobots2/game.c:180 ../gnomine/gnomine.c:225
+#: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:804
+#: ../gtali/gyahtzee.c:198 ../mahjongg/mahjongg.c:623
 msgid "Your score is the best!"
 msgstr "Via poentaro estas la plej alta!"
 
-#: ../gnibbles/gnibbles.c:376 ../gnobots2/game.c:181 ../gnomine/gnomine.c:225
-#: ../gnotravex/gnotravex.c:1092 ../gnotski/gnotski.c:799
-#: ../gtali/gyahtzee.c:199 ../mahjongg/mahjongg.c:632
+#: ../gnibbles/gnibbles.c:371 ../gnobots2/game.c:181 ../gnomine/gnomine.c:226
+#: ../gnotravex/gnotravex.c:1092 ../gnotski/gnotski.c:805
+#: ../gtali/gyahtzee.c:199 ../mahjongg/mahjongg.c:624
 msgid "Your score has made the top ten."
 msgstr "Via poentaro estas inter la dek plej altaj."
 
 #: ../gnibbles/gnibbles.desktop.in.in.h:1
 msgid "Guide a worm around a maze"
-msgstr "Gvidu vermon per labirinto"
+msgstr "Gvidu vermon tra labirinto"
 
-#: ../gnibbles/gnibbles.desktop.in.in.h:2 ../gnibbles/main.c:196
-#: ../gnibbles/main.c:199 ../gnibbles/main.c:798 ../gnibbles/main.c:877
-#: ../gnibbles/main.c:1007
+#: ../gnibbles/gnibbles.desktop.in.in.h:2 ../gnibbles/main.c:162
+#: ../gnibbles/main.c:165 ../gnibbles/main.c:695 ../gnibbles/main.c:766
+#: ../gnibbles/main.c:896
 msgid "Nibbles"
 msgstr "Ronĝaj Vermoj"
 
@@ -1703,12 +1711,12 @@ msgstr "Uzenda klavo por movi dekstren."
 msgid "Key to use for motion up."
 msgstr "Uzenda klavo por movi supren."
 
-#: ../gnibbles/gnibbles.schemas.in.h:15 ../gnibbles/preferences.c:447
+#: ../gnibbles/gnibbles.schemas.in.h:15 ../gnibbles/preferences.c:430
 #: ../quadrapassel/quadrapassel.schemas.in.h:12 ../quadrapassel/tetris.cpp:753
 msgid "Move down"
 msgstr "Movi malsupren"
 
-#: ../gnibbles/gnibbles.schemas.in.h:18 ../gnibbles/preferences.c:446
+#: ../gnibbles/gnibbles.schemas.in.h:18 ../gnibbles/preferences.c:429
 msgid "Move up"
 msgstr "Movi supren"
 
@@ -1752,47 +1760,47 @@ msgstr "Uzi relativan movon"
 msgid "Use relative movement (ie. left or right only)."
 msgstr "Uzi relativan movon (ekzemple nur maldekstren aŭ dekstren)."
 
-#: ../gnibbles/main.c:73
+#: ../gnibbles/main.c:66
 msgctxt "game speed"
 msgid "Beginner"
 msgstr "Komencanto"
 
-#: ../gnibbles/main.c:74
+#: ../gnibbles/main.c:67
 msgctxt "game speed"
 msgid "Slow"
 msgstr "Malrapida"
 
-#: ../gnibbles/main.c:75
+#: ../gnibbles/main.c:68
 msgctxt "game speed"
 msgid "Medium"
 msgstr "Meza"
 
-#: ../gnibbles/main.c:76
+#: ../gnibbles/main.c:69
 msgctxt "game speed"
 msgid "Fast"
 msgstr "Rapida"
 
-#: ../gnibbles/main.c:77
+#: ../gnibbles/main.c:70
 msgctxt "game speed"
 msgid "Beginner with Fakes"
 msgstr "Komencanto kun falsaĵoj"
 
-#: ../gnibbles/main.c:78
+#: ../gnibbles/main.c:71
 msgctxt "game speed"
 msgid "Slow with Fakes"
 msgstr "Malrapida kun falsaĵoj"
 
-#: ../gnibbles/main.c:79
+#: ../gnibbles/main.c:72
 msgctxt "game speed"
 msgid "Medium with Fakes"
 msgstr "Meza kun falsaĵoj"
 
-#: ../gnibbles/main.c:80
+#: ../gnibbles/main.c:73
 msgctxt "game speed"
 msgid "Fast with Fakes"
 msgstr "Rapida kun falsaĵoj"
 
-#: ../gnibbles/main.c:205
+#: ../gnibbles/main.c:171
 msgid ""
 "A worm game for GNOME.\n"
 "\n"
@@ -1800,98 +1808,94 @@ msgid ""
 msgstr ""
 "Ludilo kun vermoj por GNOME.\n"
 "\n"
-"Ronĝaj Vermoj estas ero de GNOME-ludiloj."
+"Ronĝaj Vermoj estas ero de GNOME Ludiloj."
 
-#: ../gnibbles/main.c:567
+#: ../gnibbles/main.c:492
 #, c-format
 msgid "Game over! The game has been won by %s!"
 msgstr "Ludo finita! La ludo estas gajnita de %s!"
 
-#: ../gnibbles/main.c:615
-msgid "The game is over."
-msgstr "La ludo estas finita."
-
 #. Translators: This string will be included in the intro screen, so don't make sure it fits!
-#: ../gnibbles/main.c:879
+#: ../gnibbles/main.c:768
 msgid "A worm game for GNOME."
 msgstr "Ludilo kun vermoj por GNOME."
 
-#: ../gnibbles/preferences.c:241
+#: ../gnibbles/preferences.c:224
 msgid "Nibbles Preferences"
 msgstr "Agordoj por Ronĝaj Vermoj"
 
-#: ../gnibbles/preferences.c:261
+#: ../gnibbles/preferences.c:244
 msgid "Speed"
 msgstr "Rapideco"
 
-#: ../gnibbles/preferences.c:271
+#: ../gnibbles/preferences.c:254
 msgid "Nibbles newbie"
 msgstr "Novulo de Ronĝaj Vermoj"
 
-#: ../gnibbles/preferences.c:281
+#: ../gnibbles/preferences.c:264
 msgid "My second day"
 msgstr "Mia dua tago"
 
-#: ../gnibbles/preferences.c:291
+#: ../gnibbles/preferences.c:274
 msgid "Not too shabby"
 msgstr "Ne malbone"
 
-#: ../gnibbles/preferences.c:301
+#: ../gnibbles/preferences.c:284
 msgid "Finger-twitching good"
 msgstr "Taŭga por tordi fingrojn"
 
 #. Options
-#: ../gnibbles/preferences.c:311 ../gnibbles/preferences.c:453
-#: ../gnobots2/properties.c:460 ../iagno/properties.c:566
+#: ../gnibbles/preferences.c:294 ../gnibbles/preferences.c:436
+#: ../gnobots2/properties.c:461 ../iagno/properties.c:547
 msgid "Options"
 msgstr "Opcioj"
 
-#: ../gnibbles/preferences.c:318
+#: ../gnibbles/preferences.c:301
 msgid "_Play levels in random order"
 msgstr "Ludi nivelojn hazardordigite"
 
-#: ../gnibbles/preferences.c:328
+#: ../gnibbles/preferences.c:311
 msgid "_Enable fake bonuses"
 msgstr "_Enŝalti falsajn plusojn"
 
 #. starting level
-#: ../gnibbles/preferences.c:351 ../quadrapassel/tetris.cpp:643
+#: ../gnibbles/preferences.c:334 ../quadrapassel/tetris.cpp:643
 msgid "_Starting level:"
 msgstr "Komencanta nivelo:"
 
-#: ../gnibbles/preferences.c:379
+#: ../gnibbles/preferences.c:362
 msgid "Number of _human players:"
 msgstr "Nombro da homaj ludantoj:"
 
-#: ../gnibbles/preferences.c:399
+#: ../gnibbles/preferences.c:382
 msgid "Number of _AI players:"
 msgstr "Nombro da ludantoj kun _artefarita inteligenteco:"
 
-#: ../gnibbles/preferences.c:425
+#: ../gnibbles/preferences.c:408
 msgid "Worm"
 msgstr "Vermo"
 
-#: ../gnibbles/preferences.c:459
+#: ../gnibbles/preferences.c:442
 msgid "_Use relative movement"
 msgstr "_Uzi relativan movadon"
 
-#: ../gnibbles/preferences.c:466
+#: ../gnibbles/preferences.c:449
 msgid "_Worm color:"
 msgstr "Vermokoloro:"
 
-#: ../gnibbles/preferences.c:473
+#: ../gnibbles/preferences.c:456
 msgid "Green"
 msgstr "Verdo"
 
-#: ../gnibbles/preferences.c:476
+#: ../gnibbles/preferences.c:459
 msgid "Cyan"
 msgstr "Cejano"
 
-#: ../gnibbles/preferences.c:477
+#: ../gnibbles/preferences.c:460
 msgid "Purple"
 msgstr "Purpuro"
 
-#: ../gnibbles/preferences.c:478
+#: ../gnibbles/preferences.c:461
 msgid "Gray"
 msgstr "Grizo"
 
@@ -1904,14 +1908,14 @@ msgstr "Vermo %d:"
 msgid "Game over!"
 msgstr "Ludo finita!"
 
-#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:199 ../gnotski/gnotski.c:772
+#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:200 ../gnotski/gnotski.c:778
 msgid "Great work, but unfortunately your score did not make the top ten."
 msgstr ""
 "Gratulojn sed bedaŭrinde via poentaro ne estas inter la dek plej altaj."
 
 #. Translators: This "_New Game" is for the game-over dialogue
 #: ../gnobots2/game.c:154 ../gnome-sudoku/data/select_game.ui.h:1
-#: ../gnomine/gnomine.c:201 ../gnotski/gnotski.c:774
+#: ../gnomine/gnomine.c:202 ../gnotski/gnotski.c:780
 #: ../libgames-support/games-stock.c:255
 msgid "_New Game"
 msgstr "_Nova ludo"
@@ -1920,8 +1924,8 @@ msgstr "_Nova ludo"
 msgid "Robots Scores"
 msgstr "Poentaroj de Robotoj"
 
-#: ../gnobots2/game.c:170 ../mahjongg/mahjongg.c:628
-#: ../mahjongg/mahjongg.c:953
+#: ../gnobots2/game.c:170 ../mahjongg/mahjongg.c:620
+#: ../mahjongg/mahjongg.c:945
 msgid "Map:"
 msgstr "Mapo:"
 
@@ -1934,11 +1938,11 @@ msgstr ""
 "Sed ĉu vi povas farti tion denove?"
 
 #. This should never happen.
-#: ../gnobots2/game.c:1205
+#: ../gnobots2/game.c:1201
 msgid "There are no teleport locations left!!"
 msgstr "Ne estas plurestantaj teleportiloj!"
 
-#: ../gnobots2/game.c:1233
+#: ../gnobots2/game.c:1229
 msgid "There are no safe locations to teleport to!!"
 msgstr "Ne estas sekuraj lokoj kie teleporti!"
 
@@ -1958,15 +1962,15 @@ msgstr "Agordi ludagordojn"
 msgid "Initial window position"
 msgstr "Komencfenestra posicio"
 
-#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:924 ../gnomine/gnomine.c:932
+#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:914 ../gnomine/gnomine.c:922
 #: ../gnotravex/gnotravex.c:262 ../gnotski/gnotski.c:457
-#: ../iagno/gnothello.c:148
+#: ../iagno/gnothello.c:139
 msgid "X"
 msgstr "X"
 
-#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:926 ../gnomine/gnomine.c:934
+#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:916 ../gnomine/gnomine.c:924
 #: ../gnotravex/gnotravex.c:264 ../gnotski/gnotski.c:459
-#: ../iagno/gnothello.c:150
+#: ../iagno/gnothello.c:141
 msgid "Y"
 msgstr "Y"
 
@@ -2045,8 +2049,8 @@ msgid ""
 "The program Robots was unable to find any valid game configuration files. "
 "Please check that the program is installed correctly."
 msgstr ""
-"La programaro Robotoj neeblis trovi iujn validajn ludagorddosierojn. Bonvolu "
-"kontroli ĉu la programaro estas korekte instalita."
+"La programo Robotoj ne povis trovi iujn validajn ludajn agordajn dosierojn. "
+"Bonvolu kontroli, ĉu la programo estas ĝuste instalita."
 
 #: ../gnobots2/gnobots.c:339
 msgid "Some graphics files are missing or corrupt."
@@ -2081,61 +2085,61 @@ msgstr "Ludtipo"
 msgid "Game type. The name of the game variation to use."
 msgstr "Ludtipo. La nomo de la uzenda ludvariaĵo."
 
-#: ../gnobots2/gnobots2.schemas.in.h:7 ../gnobots2/properties.c:557
+#: ../gnobots2/gnobots2.schemas.in.h:7 ../gnobots2/properties.c:560
 msgid "Key to hold"
 msgstr "Premenda klavo"
 
-#: ../gnobots2/gnobots2.schemas.in.h:8 ../gnobots2/properties.c:553
+#: ../gnobots2/gnobots2.schemas.in.h:8 ../gnobots2/properties.c:556
 msgid "Key to move E"
 msgstr "Klavo por movi orienten"
 
-#: ../gnobots2/gnobots2.schemas.in.h:9 ../gnobots2/properties.c:550
+#: ../gnobots2/gnobots2.schemas.in.h:9 ../gnobots2/properties.c:553
 msgid "Key to move N"
 msgstr "Klavo por movi norden"
 
-#: ../gnobots2/gnobots2.schemas.in.h:10 ../gnobots2/properties.c:551
+#: ../gnobots2/gnobots2.schemas.in.h:10 ../gnobots2/properties.c:554
 msgid "Key to move NE"
 msgstr "Klavo por movi nordorienten"
 
-#: ../gnobots2/gnobots2.schemas.in.h:11 ../gnobots2/properties.c:549
+#: ../gnobots2/gnobots2.schemas.in.h:11 ../gnobots2/properties.c:552
 msgid "Key to move NW"
 msgstr "Klavo por movi norduesten"
 
-#: ../gnobots2/gnobots2.schemas.in.h:12 ../gnobots2/properties.c:555
+#: ../gnobots2/gnobots2.schemas.in.h:12 ../gnobots2/properties.c:558
 msgid "Key to move S"
 msgstr "Klavo por movi suden"
 
-#: ../gnobots2/gnobots2.schemas.in.h:13 ../gnobots2/properties.c:556
+#: ../gnobots2/gnobots2.schemas.in.h:13 ../gnobots2/properties.c:559
 msgid "Key to move SE"
 msgstr "Klavo por movi sudorienten"
 
-#: ../gnobots2/gnobots2.schemas.in.h:14 ../gnobots2/properties.c:554
+#: ../gnobots2/gnobots2.schemas.in.h:14 ../gnobots2/properties.c:557
 msgid "Key to move SW"
 msgstr "Klavo por movi suduesten"
 
-#: ../gnobots2/gnobots2.schemas.in.h:15 ../gnobots2/properties.c:552
+#: ../gnobots2/gnobots2.schemas.in.h:15 ../gnobots2/properties.c:555
 msgid "Key to move W"
 msgstr "Klavo por movi uesten"
 
-#: ../gnobots2/gnobots2.schemas.in.h:16 ../gnobots2/properties.c:558
+#: ../gnobots2/gnobots2.schemas.in.h:16 ../gnobots2/properties.c:561
 msgid "Key to teleport"
 msgstr "Klavo por teleporti"
 
-#: ../gnobots2/gnobots2.schemas.in.h:17 ../gnobots2/properties.c:559
+#: ../gnobots2/gnobots2.schemas.in.h:17 ../gnobots2/properties.c:562
 msgid "Key to teleport randomly"
 msgstr "Klavo por teleporti hazarde"
 
-#: ../gnobots2/gnobots2.schemas.in.h:18 ../gnobots2/properties.c:560
+#: ../gnobots2/gnobots2.schemas.in.h:18 ../gnobots2/properties.c:563
 msgid "Key to wait"
 msgstr "Klavo por atendi"
 
 #: ../gnobots2/gnobots2.schemas.in.h:19
 msgid "Robot image theme"
-msgstr "Etoso por robotblidoj"
+msgstr "Etoso por robotbildoj"
 
 #: ../gnobots2/gnobots2.schemas.in.h:20
 msgid "Robot image theme. The theme of the images to use for the robots."
-msgstr "Etoso por robotblidoj. La uzenda etoso por la bildoj de la robotoj."
+msgstr "Etoso por robotbildoj. La uzota etoso por la bildoj de la robotoj."
 
 #: ../gnobots2/gnobots2.schemas.in.h:21
 msgid "Show toolbar"
@@ -2252,7 +2256,7 @@ msgstr ""
 "Plisekure movi. La ludanto estas avertita kiam ne estas sekuraj movoj kaj la "
 "sola opcio estas forteleporti."
 
-#: ../gnobots2/graphics.c:153 ../iagno/gnothello.c:454
+#: ../gnobots2/graphics.c:153 ../iagno/gnothello.c:403
 #, c-format
 msgid "Could not find '%s' pixmap file\n"
 msgstr "Pixmap-dosiero “%s” ne troveblis\n"
@@ -2285,11 +2289,11 @@ msgstr "Atendi"
 msgid "Wait for the robots"
 msgstr "Atendi la robotojn"
 
-#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1223
+#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1215
 msgid "_Toolbar"
 msgstr "Ilobre_to"
 
-#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1223
+#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1215
 msgid "Show or hide the toolbar"
 msgstr "Montri aŭ kaŝi la ilobreton"
 
@@ -2301,7 +2305,7 @@ msgid ""
 msgstr ""
 "Baziĝita sur klasikaj BSD-robotoj.\n"
 "\n"
-"Robotoj estas ero de GNOME-ludiloj."
+"Robotoj estas ero de GNOME Ludiloj."
 
 #: ../gnobots2/properties.c:320
 msgid "classic robots"
@@ -2337,7 +2341,7 @@ msgstr "ovoj"
 
 #: ../gnobots2/properties.c:368
 msgid "gnomes"
-msgstr "gnomo"
+msgstr "gnomoj"
 
 #: ../gnobots2/properties.c:369
 msgid "mice"
@@ -2360,47 +2364,47 @@ msgstr "Agordoj por Robotoj"
 msgid "Game Type"
 msgstr "Ludtipo"
 
-#: ../gnobots2/properties.c:465
+#: ../gnobots2/properties.c:467
 msgid "_Use safe moves"
 msgstr "Sek_ure movi"
 
-#: ../gnobots2/properties.c:472
+#: ../gnobots2/properties.c:474
 msgid "Prevent accidental moves that result in getting killed."
 msgstr "Eviti hazardajn movojn kiuj kondukas vin al morto."
 
-#: ../gnobots2/properties.c:474
+#: ../gnobots2/properties.c:476
 msgid "U_se super safe moves"
 msgstr "Pli_sekure movi"
 
-#: ../gnobots2/properties.c:481
+#: ../gnobots2/properties.c:483
 msgid "Prevents all moves that result in getting killed."
 msgstr "Eviti ĉiujn movojn kiuj kondukas vin al morto."
 
-#: ../gnobots2/properties.c:488 ../quadrapassel/tetris.cpp:669
+#: ../gnobots2/properties.c:491 ../quadrapassel/tetris.cpp:669
 msgid "_Enable sounds"
 msgstr "_Enŝalti sonojn"
 
-#: ../gnobots2/properties.c:494
+#: ../gnobots2/properties.c:497
 msgid "Play sounds for events like winning a level and dying."
 msgstr "Ludi sonojn por eventoj kiel gajno aŭ morto."
 
-#: ../gnobots2/properties.c:504
+#: ../gnobots2/properties.c:507
 msgid "Graphics Theme"
 msgstr "Grafiketoso"
 
-#: ../gnobots2/properties.c:512
+#: ../gnobots2/properties.c:515
 msgid "_Image theme:"
 msgstr "B_ildetoso:"
 
-#: ../gnobots2/properties.c:523 ../mahjongg/mahjongg.c:736
+#: ../gnobots2/properties.c:526 ../mahjongg/mahjongg.c:728
 msgid "_Background color:"
-msgstr "Fonkoloro:"
+msgstr "_Fonkoloro:"
 
-#: ../gnobots2/properties.c:569
+#: ../gnobots2/properties.c:572
 msgid "_Restore Defaults"
 msgstr "_Restaŭri defaŭltojn"
 
-#: ../gnobots2/properties.c:574
+#: ../gnobots2/properties.c:577
 msgid "Keyboard"
 msgstr "Klavaro"
 
@@ -2493,7 +2497,7 @@ msgstr "La denso de blokoj en plenigitaj vicoj"
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:21
 msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "La nomo de la etoso uzata por bildigi la blokojn kaj la fonon."
+msgstr "La nomo de la etoso uzota por bildigi la blokojn kaj la fonon."
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:22
 msgid ""
@@ -2508,7 +2512,7 @@ msgstr "Nombro da plenigendaj vicoj"
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:24
 msgid "The theme used for rendering the blocks"
-msgstr "La etoso uzata por bildigi blokojn"
+msgstr "La etoso uzota por bildigi blokojn"
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:25
 msgid ""
@@ -2518,40 +2522,40 @@ msgstr "Tio elektas ĉu desegni la fonbildon sur la fonkoloro."
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:26
 msgid "Whether to give blocks random colors"
-msgstr "Ĉu hazarde kolorigi blokojn"
+msgstr "Ĉu hazarde kolorigi blokojn?"
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:27
 msgid "Whether to give blocks random colors."
-msgstr "Ĉu hazarde kolorigi blokojn."
+msgstr "Ĉu hazarde kolorigi blokojn?"
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:28
 msgid "Whether to preview the next block"
-msgstr "Ĉu antaŭvidi la sekvan blokon"
+msgstr "Ĉu antaŭvidi la sekvan blokon?"
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:29
 msgid "Whether to preview the next block."
-msgstr "Ĉu antaŭvidi la sekvan blokon."
+msgstr "Ĉu antaŭvidi la sekvan blokon?"
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:30
 msgid ""
 "Whether to provide a graphical representation of where a block will land."
-msgstr "Ĉu provizi grafikan reprezenton de loko kie bloko falos."
+msgstr "Ĉu provizi grafikan reprezenton de loko kie bloko falos?"
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:31
 msgid "Whether to provide a target"
-msgstr "Ĉu provizi celon"
+msgstr "Ĉu provizi celon?"
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:32
 msgid "Whether to rotate counter clock wise"
-msgstr "Ĉu rotacii maldekstrume"
+msgstr "Ĉu rotacii maldekstrume?"
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:33
 msgid "Whether to rotate counter clock wise."
-msgstr "Ĉu rotacii maldekstrume."
+msgstr "Ĉu rotacii maldekstrume?"
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:34
 msgid "Whether to use the background image"
-msgstr "Ĉu uzi la fonbildon"
+msgstr "Ĉu uzi la fonbildon?"
 
 #: ../quadrapassel/main.cpp:48
 msgid "Set starting level (1 or greater)"
@@ -2575,7 +2579,7 @@ msgstr "Ombra Tango"
 
 #: ../quadrapassel/renderer.cpp:33
 msgid "Clean"
-msgstr "Vake"
+msgstr "Pure"
 
 #: ../quadrapassel/scoreframe.cpp:57
 msgid "Lines:"
@@ -2643,7 +2647,7 @@ msgid ""
 msgstr ""
 "Klasika ludo kie unuigi falantajn blokojn kune.\n"
 "\n"
-"Kvadrapaselo estas ero de GNOME-ludiloj."
+"Kvadrapaselo estas ero de GNOME Ludiloj."
 
 #: ../quadrapassel/highscores.cpp:48
 msgid "Quadrapassel Scores"
@@ -2663,7 +2667,7 @@ msgstr "Sudoko"
 
 #: ../gnome-sudoku/gnome-sudoku.desktop.in.in.h:2
 msgid "Test your logic skills in this number grid puzzle"
-msgstr "Testu viajn logikajn kapablojn en ĉi tiu numera kradpuzlo"
+msgstr "Testu viajn logikajn kapablojn en ĉi tiu numerokrada enigmo"
 
 #: ../gnome-sudoku/data/gnome-sudoku.schemas.in.h:1
 msgid "Color of the grid border"
@@ -2679,7 +2683,7 @@ msgstr "Marki presitajn ludojn kiel ludataj"
 
 #: ../gnome-sudoku/data/gnome-sudoku.schemas.in.h:4
 msgid "Number of puzzles to print on a page"
-msgstr "Nombro da presendaj puzloj en paĝo"
+msgstr "Nombro da presendaj enigmoj en paĝo"
 
 #: ../gnome-sudoku/data/gnome-sudoku.schemas.in.h:5
 msgid "Print games that have been played"
@@ -2788,7 +2792,7 @@ msgstr "Neniu spaco restanta en disko"
 #: ../gnome-sudoku/src/lib/saver.py:141 ../gnome-sudoku/src/lib/saver.py:148
 #, python-format
 msgid "Unable to create data folder %(path)s."
-msgstr "Neeblas krei datumdosierujon %(path)s."
+msgstr "Ne eblas krei datumdosierujon %(path)s."
 
 #: ../gnome-sudoku/src/lib/saver.py:142
 msgid "There is no disk space left!"
@@ -2802,21 +2806,21 @@ msgstr "Eraro %(errno)s: %(error)s"
 
 #: ../gnome-sudoku/src/lib/saver.py:169 ../gnome-sudoku/src/lib/saver.py:170
 msgid "Unable to save game."
-msgstr ""
+msgstr "Ne eblas konservi la ludon."
 
 #: ../gnome-sudoku/src/lib/saver.py:172 ../gnome-sudoku/src/lib/saver.py:197
 #: ../gnome-sudoku/src/lib/saver.py:215
 #, python-format
 msgid "Unable to save file %(filename)s."
-msgstr "Neeblas konservi dosieron %(filename)s."
+msgstr "Ne eblas konservi la dosieron %(filename)s."
 
 #: ../gnome-sudoku/src/lib/saver.py:194 ../gnome-sudoku/src/lib/saver.py:195
 msgid "Unable to mark game as finished."
-msgstr ""
+msgstr "Ne eblas marki la ludon kiel finita."
 
 #: ../gnome-sudoku/src/lib/saver.py:212 ../gnome-sudoku/src/lib/saver.py:213
 msgid "Sudoku unable to mark game as finished."
-msgstr "Sudoko neeblas marki ludon kiel finita."
+msgstr "Sudoko ne povas marki la ludon kiel finita."
 
 #: ../gnome-sudoku/src/lib/main.py:211
 msgid "New game"
@@ -2845,7 +2849,7 @@ msgstr "Refari lastan agon"
 
 #: ../gnome-sudoku/src/lib/main.py:218
 msgid "Puzzle _Statistics..."
-msgstr "Puzlaj _statistikoj..."
+msgstr "Enigmaj _Statistikoj..."
 
 #: ../gnome-sudoku/src/lib/main.py:220
 msgid "_Print..."
@@ -2903,7 +2907,7 @@ msgstr ""
 
 #: ../gnome-sudoku/src/lib/main.py:255
 msgid "_Highlighter"
-msgstr "Markilo"
+msgstr "_Markilo"
 
 #: ../gnome-sudoku/src/lib/main.py:256
 msgid "Highlight the current row, column and box"
@@ -2913,8 +2917,8 @@ msgstr "Marki la aktualan vicon, kolumnon kaj keston"
 #, python-format
 msgid "You completed the puzzle in %d second"
 msgid_plural "You completed the puzzle in %d seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vi finis la enigmon post %d sekundo"
+msgstr[1] "Vi finis la enigmon post %d sekundoj"
 
 #: ../gnome-sudoku/src/lib/main.py:382 ../gnome-sudoku/src/lib/main.py:390
 #, python-format
@@ -2933,7 +2937,7 @@ msgstr[1] "%d sekundoj"
 #: ../gnome-sudoku/src/lib/main.py:384
 #, python-format
 msgid "You completed the puzzle in %(minute)s and %(second)s"
-msgstr ""
+msgstr "Vi finis la enigmon post %(minute)s kaj %(second)s"
 
 #: ../gnome-sudoku/src/lib/main.py:389
 #, python-format
@@ -2945,7 +2949,7 @@ msgstr[1] "%d horoj"
 #: ../gnome-sudoku/src/lib/main.py:392
 #, python-format
 msgid "You completed the puzzle in %(hour)s, %(minute)s and %(second)s"
-msgstr ""
+msgstr "Vi finis la enigmon post %(hour)s, %(minute)s kaj %(second)s"
 
 #: ../gnome-sudoku/src/lib/main.py:394
 #, python-format
@@ -2971,7 +2975,7 @@ msgstr "Ĉu konservi ludon antaŭ fermi?"
 
 #: ../gnome-sudoku/src/lib/main.py:638
 msgid "Puzzle Information"
-msgstr "Informoj pri puzlo"
+msgstr "Enigmaj informaĵoj"
 
 #: ../gnome-sudoku/src/lib/main.py:639
 msgid "There is no current puzzle."
@@ -3002,15 +3006,15 @@ msgstr "Malfacilege"
 
 #: ../gnome-sudoku/src/lib/main.py:654
 msgid "Number of moves instantly fillable by elimination: "
-msgstr ""
+msgstr "Nombro da movoj tujprete plenigeblaj per eliminado: "
 
 #: ../gnome-sudoku/src/lib/main.py:657
 msgid "Number of moves instantly fillable by filling: "
-msgstr ""
+msgstr "Nombro da movoj tujprete plenigeblaj per plenigado: "
 
 #: ../gnome-sudoku/src/lib/main.py:660
 msgid "Amount of trial-and-error required to solve: "
-msgstr ""
+msgstr "Kvanto da kruda atakado bezonata por solvi la enigmon: "
 
 #: ../gnome-sudoku/src/lib/main.py:663 ../gnome-sudoku/src/lib/main.py:664
 msgid "Puzzle Statistics"
@@ -3036,7 +3040,7 @@ msgstr "Forigi elektitan spirilon."
 
 #: ../gnome-sudoku/src/lib/main.py:770
 msgid "Hide current tracker entries."
-msgstr ""
+msgstr "Kaŝi aktualajn termajn trakojn."
 
 #: ../gnome-sudoku/src/lib/main.py:775
 msgid "A_pply"
@@ -3062,35 +3066,35 @@ msgstr "Ege malfacile"
 #, python-format
 msgid "Last played %(n)s second ago"
 msgid_plural "Last played %(n)s seconds ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Laste ludita antaŭ %(n)s sekundo"
+msgstr[1] "Laste ludita antaŭ %(n)s sekundoj"
 
 #: ../gnome-sudoku/src/lib/game_selector.py:164
 #, python-format
 msgid "Last played %(n)s minute ago"
 msgid_plural "Last played %(n)s minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Laste ludita antaŭ %(n)s minuto"
+msgstr[1] "Laste ludita antaŭ %(n)s minutoj"
 
 #. Translators, see strftime manual in order to translate %? format strings
 #: ../gnome-sudoku/src/lib/game_selector.py:168
 msgid "Last played at %I:%M %p"
-msgstr ""
+msgstr "Laste ludita je %I:%M %p"
 
 #. Translators, see strftime manual in order to translate %? format strings
 #: ../gnome-sudoku/src/lib/game_selector.py:171
 msgid "Last played yesterday at %I:%M %p"
-msgstr ""
+msgstr "Laste ludita hieraŭ je %I:%M %p"
 
 #. Translators, see strftime manual in order to translate %? format strings
 #: ../gnome-sudoku/src/lib/game_selector.py:174
 msgid "Last played on %A at %I:%M %p"
-msgstr ""
+msgstr "Laste ludita je %A je %I:%M %p"
 
 #. Translators, see strftime manual in order to translate %? format strings
 #: ../gnome-sudoku/src/lib/game_selector.py:177
 msgid "Last played on %B %e %Y"
-msgstr ""
+msgstr "Laste ludita je %B %e %Y"
 
 #: ../gnome-sudoku/src/lib/game_selector.py:190
 msgid "Easy puzzle"
@@ -3098,7 +3102,7 @@ msgstr "Facila puzlo"
 
 #: ../gnome-sudoku/src/lib/game_selector.py:191
 msgid "Medium puzzle"
-msgstr "Meza puzlo"
+msgstr "Mezfacila enigmo"
 
 #: ../gnome-sudoku/src/lib/game_selector.py:192
 msgid "Hard puzzle"
@@ -3112,22 +3116,22 @@ msgstr "Malfacilega puzlo"
 #, python-format
 msgid "Played for %d hour"
 msgid_plural "Played for %d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ludata dum %d horo"
+msgstr[1] "Ludata dum %d horoj"
 
 #: ../gnome-sudoku/src/lib/game_selector.py:202
 #, python-format
 msgid "Played for %d minute"
 msgid_plural "Played for %d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ludata dum %d minuto"
+msgstr[1] "Ludata dum %d minutoj"
 
 #: ../gnome-sudoku/src/lib/game_selector.py:205
 #, python-format
 msgid "Played for %d second"
 msgid_plural "Played for %d seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ludata dum %d sekundo"
+msgstr[1] "Ludata dum %d sekundoj"
 
 #: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:162
 msgid "Do you really want to do this?"
@@ -3145,137 +3149,141 @@ msgstr "_Vakigi"
 msgid "Mines"
 msgstr "Minoj"
 
-#: ../gnomine/gnomine.c:103
+#: ../gnomine/gnomine.c:104
 msgctxt "board size"
 msgid "Custom"
-msgstr "Propre"
+msgstr "Propra"
 
-#: ../gnomine/gnomine.c:169
+#: ../gnomine/gnomine.c:170
 #, c-format
 msgid "Flags: %d/%d"
 msgstr "Flagoj: %d/%d"
 
-#: ../gnomine/gnomine.c:197
+#: ../gnomine/gnomine.c:198
 msgid "The Mines Have Been Cleared!"
 msgstr "La minoj sukcese forviŝiĝis!"
 
-#: ../gnomine/gnomine.c:213
+#: ../gnomine/gnomine.c:214
 msgid "Mines Scores"
 msgstr "Poentaroj de Minoj"
 
-#: ../gnomine/gnomine.c:216 ../gnotravex/gnotravex.c:1085
+#: ../gnomine/gnomine.c:217 ../gnotravex/gnotravex.c:1085
 #: ../swell-foop/src/Score.js:57
 msgid "Size:"
 msgstr "Grando:"
 
-#: ../gnomine/gnomine.c:321
+#: ../gnomine/gnomine.c:315
 msgid "Click a square, any square"
 msgstr "Alklaku iun ajn kvadraton"
 
-#: ../gnomine/gnomine.c:323
+#: ../gnomine/gnomine.c:317
 msgid "Maybe they're all mines ..."
 msgstr "Eble ili ĉiuj estas minoj…"
 
-#: ../gnomine/gnomine.c:436 ../mahjongg/mahjongg.c:867
+#: ../gnomine/gnomine.c:430 ../mahjongg/mahjongg.c:859
 msgid "Main game:"
 msgstr "Ĉefludo:"
 
-#: ../gnomine/gnomine.c:442
+#: ../gnomine/gnomine.c:436
 msgid "Resizing and SVG support:"
 msgstr "Regrandigada kaj SVG-a subteno:"
 
-#: ../gnomine/gnomine.c:449
+#: ../gnomine/gnomine.c:443
 msgid "Faces:"
-msgstr ""
+msgstr "Vizaĝetoj:"
 
-#: ../gnomine/gnomine.c:452
+#: ../gnomine/gnomine.c:446
 msgid "Graphics:"
 msgstr "Grafikoj:"
 
-#: ../gnomine/gnomine.c:468
+#: ../gnomine/gnomine.c:462
 msgid ""
 "The popular logic puzzle minesweeper. Clear mines from a board using hints "
 "from squares you have already uncovered.\n"
 "\n"
 "Mines is a part of GNOME Games."
 msgstr ""
+"La populara minoforiga logikenigmo. Forigu la minojn de tabulo per indikoj "
+"de kvadratoj, kiujn vi jam malkovris.\n"
+"\n"
+"Minoj estas ero de GNOME Ludoj."
 
-#: ../gnomine/gnomine.c:631
+#: ../gnomine/gnomine.c:621
 msgid "Field Size"
 msgstr "Kampa grandeco"
 
-#: ../gnomine/gnomine.c:654
+#: ../gnomine/gnomine.c:644
 msgid "Custom Size"
 msgstr "Propra grandeco"
 
-#: ../gnomine/gnomine.c:661
+#: ../gnomine/gnomine.c:651
 msgid "_Number of mines:"
 msgstr "_Nombro de minoj:"
 
-#: ../gnomine/gnomine.c:674
+#: ../gnomine/gnomine.c:664
 msgid "_Horizontal:"
 msgstr "_Horizontale:"
 
-#: ../gnomine/gnomine.c:686
+#: ../gnomine/gnomine.c:676
 msgid "_Vertical:"
 msgstr "_Vertikale:"
 
-#: ../gnomine/gnomine.c:703
+#: ../gnomine/gnomine.c:693
 msgid "Flags"
 msgstr "Flagoj"
 
-#: ../gnomine/gnomine.c:706
+#: ../gnomine/gnomine.c:696
 msgid "_Use \"I'm not sure\" flags"
 msgstr "_Uzi \"Mi ne certas\" flagojn"
 
-#: ../gnomine/gnomine.c:717
+#: ../gnomine/gnomine.c:707
 msgid "Warnings"
 msgstr "Avertoj"
 
-#: ../gnomine/gnomine.c:720
+#: ../gnomine/gnomine.c:710
 msgid "_Use \"Too many flags\" warning"
 msgstr "_Uzi \"Tro multe da flagoj\" avertmesaĝon"
 
-#: ../gnomine/gnomine.c:731
+#: ../gnomine/gnomine.c:721
 msgid "Mines Preferences"
 msgstr "Minaj agordoj"
 
-#: ../gnomine/gnomine.c:924
+#: ../gnomine/gnomine.c:914
 msgid "Width of grid"
 msgstr "Krada larĝeco"
 
-#: ../gnomine/gnomine.c:925
+#: ../gnomine/gnomine.c:915
 msgid "Height of grid"
 msgstr "Krada alteco"
 
-#: ../gnomine/gnomine.c:927
+#: ../gnomine/gnomine.c:917
 msgid "Number of mines"
 msgstr "Nombro de minoj"
 
-#: ../gnomine/gnomine.c:928 ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109
+#: ../gnomine/gnomine.c:918 ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109
 #: ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
 msgid "NUMBER"
 msgstr "NOMBRO"
 
-#: ../gnomine/gnomine.c:930 ../gnomine/gnomine.schemas.in.h:8
+#: ../gnomine/gnomine.c:920 ../gnomine/org.gnome.gnomine.gschema.xml.in.h:8
 msgid "Size of the board (0-2 = small-large, 3=custom)"
 msgstr "Grandeco de la tabulo (0–2 = malgranda ĝis granda; 3 = propra)"
 
-#: ../gnomine/gnomine.c:931 ../gnotravex/gnotravex.c:261
-#: ../gnotski/gnotski.c:456 ../iagno/gnothello.c:147
+#: ../gnomine/gnomine.c:921 ../gnotravex/gnotravex.c:261
+#: ../gnotski/gnotski.c:456 ../iagno/gnothello.c:138
 msgid "X location of window"
 msgstr "X-loko de fenestro"
 
-#: ../gnomine/gnomine.c:933 ../gnotravex/gnotravex.c:263
-#: ../gnotski/gnotski.c:458 ../iagno/gnothello.c:149
+#: ../gnomine/gnomine.c:923 ../gnotravex/gnotravex.c:263
+#: ../gnotski/gnotski.c:458 ../iagno/gnothello.c:140
 msgid "Y location of window"
 msgstr "Y-loko de fenestro"
 
-#: ../gnomine/gnomine.c:1069
+#: ../gnomine/gnomine.c:1060
 msgid "Press to Resume"
-msgstr ""
+msgstr "Klaku por rekomenci"
 
-#: ../gnomine/gnomine.c:1103
+#: ../gnomine/gnomine.c:1095
 msgid "Time: "
 msgstr "Tempo: "
 
@@ -3283,47 +3291,53 @@ msgstr "Tempo: "
 msgid "Clear hidden mines from a minefield"
 msgstr "Kvitigu kaŝitajn minojn de minplena kampo"
 
-#: ../gnomine/gnomine.schemas.in.h:1 ../swell-foop/swell-foop.schemas.in.h:2
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:1
+#: ../swell-foop/swell-foop.schemas.in.h:2
 msgid "Board size"
 msgstr "Tabula grandeco"
 
-#: ../gnomine/gnomine.schemas.in.h:2
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:2
 msgid "Enable automatic placing of flags"
-msgstr ""
+msgstr "Ebligi aŭtomatan metadon de flagoj"
 
-#: ../gnomine/gnomine.schemas.in.h:3
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:3
 msgid "Number of columns in a custom game"
-msgstr ""
+msgstr "Nombro da kolumnoj en propra ludo"
 
-#: ../gnomine/gnomine.schemas.in.h:4
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:4
 msgid "Number of rows in a custom game"
-msgstr ""
+msgstr "Nombro da vicoj en propra ludo"
 
-#: ../gnomine/gnomine.schemas.in.h:5
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:5
 msgid "Set to true to be able to mark squares as unknown."
 msgstr ""
+"Kiam tiu ĉi elekto estas \"vera\", vi povas marki kvadratojn kiel nekonatajn."
 
-#: ../gnomine/gnomine.schemas.in.h:6
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:6
 msgid "Set to true to enable warning icons when too many flags are placed."
 msgstr ""
+"Kiam tiu ĉi elekto estas \"vera\", avertvinjetoj aperos, kiam tro multe da "
+"flagoj metiĝas."
 
-#: ../gnomine/gnomine.schemas.in.h:7
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:7
 msgid ""
 "Set to true to have gnomine automatically flag squares as mined when enough "
 "squares are revealed"
 msgstr ""
+"Kiam tiu ĉi elekto estas \"vera\", gnomine aŭtomate flagos kvadratojn kiel "
+"minitajn, kiam sufiĉe da kvadratoj estas montrataj."
 
-#: ../gnomine/gnomine.schemas.in.h:9
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:9
 msgid "The number of mines in a custom game"
-msgstr ""
+msgstr "La nombro da minoj en propra ludo"
 
-#: ../gnomine/gnomine.schemas.in.h:10
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:10
 msgid "Use the unknown flag"
-msgstr ""
+msgstr "Uzi la \"nekonata\" flagon"
 
-#: ../gnomine/gnomine.schemas.in.h:11
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:11
 msgid "Warning about too many flags"
-msgstr ""
+msgstr "Avertmesaĝo pri tro multe da flagoj"
 
 #: ../gnomine/minefield.c:206
 msgid ""
@@ -3331,6 +3345,9 @@ msgid ""
 "\n"
 "Please check your gnome-games installation."
 msgstr ""
+"La bezonataj bildoj ne troveblis.\n"
+"\n"
+"Bonvolu kontroli vian \"gnome-games\" instalon."
 
 #: ../gnomine/minefield.c:228
 msgid ""
@@ -3338,6 +3355,9 @@ msgid ""
 "\n"
 "Please check your installation of gnome-games and its dependencies."
 msgstr ""
+"La bezonataj bildoj ja troviĝis, sed ili rifuzis ŝargiĝi.\n"
+"\n"
+"Bonvolu kontroli vian instalon de gnome-games kaj ĝiajn dependecojn."
 
 #: ../gnomine/minefield.c:237
 msgid "Could not load images"
@@ -3345,7 +3365,7 @@ msgstr "Bildoj ne ŝarĝeblis"
 
 #: ../gnotravex/gnotravex.c:45 ../gnotravex/gnotravex.desktop.in.in.h:2
 msgid "Tetravex"
-msgstr ""
+msgstr "Tetravekso"
 
 #: ../gnotravex/gnotravex.c:115
 msgid "2×2"
@@ -3373,7 +3393,7 @@ msgstr "_2×2"
 
 #: ../gnotravex/gnotravex.c:198
 msgid "Play on a 2×2 board"
-msgstr ""
+msgstr "Ludi kun 2×2 tabulo"
 
 #: ../gnotravex/gnotravex.c:200
 msgid "_3×3"
@@ -3381,7 +3401,7 @@ msgstr "_3×3"
 
 #: ../gnotravex/gnotravex.c:200
 msgid "Play on a 3×3 board"
-msgstr ""
+msgstr "Ludi kun 3×3 tabulo"
 
 #: ../gnotravex/gnotravex.c:202
 msgid "_4×4"
@@ -3389,7 +3409,7 @@ msgstr "_4×4"
 
 #: ../gnotravex/gnotravex.c:202
 msgid "Play on a 4×4 board"
-msgstr ""
+msgstr "Ludi kun 4×4 tabulo"
 
 #: ../gnotravex/gnotravex.c:204
 msgid "_5×5"
@@ -3397,7 +3417,7 @@ msgstr "_5×5"
 
 #: ../gnotravex/gnotravex.c:204
 msgid "Play on a 5×5 board"
-msgstr ""
+msgstr "Ludi kun 5×5 tabulo"
 
 #: ../gnotravex/gnotravex.c:206
 msgid "_6×6"
@@ -3405,11 +3425,11 @@ msgstr "_6×6"
 
 #: ../gnotravex/gnotravex.c:206
 msgid "Play on a 6×6 board"
-msgstr ""
+msgstr "Ludi kun 6×6 tabulo"
 
 #: ../gnotravex/gnotravex.c:265
 msgid "Size of board (2-6)"
-msgstr ""
+msgstr "Tabula grandeco (2-6)"
 
 #: ../gnotravex/gnotravex.c:266
 msgid "SIZE"
@@ -3466,28 +3486,28 @@ msgctxt "number"
 msgid "9"
 msgstr "9"
 
-#: ../gnotravex/gnotravex.c:913 ../mahjongg/mahjongg.c:935
+#: ../gnotravex/gnotravex.c:913 ../mahjongg/mahjongg.c:927
 msgid "Game paused"
-msgstr ""
+msgstr "Ludo paŭzigita"
 
 #: ../gnotravex/gnotravex.c:975
 #, c-format
 msgid "Playing %d×%d board"
-msgstr ""
+msgstr "Uzanta %d×%d tabulon"
 
 #: ../gnotravex/gnotravex.c:1083
 msgid "Tetravex Scores"
-msgstr ""
+msgstr "Poentaroj de Tetravekso"
 
 #: ../gnotravex/gnotravex.c:1145
 msgid "Puzzle solved! Well done!"
-msgstr ""
+msgstr "Gratulon! Vi solvis la enigmon!"
 
 #: ../gnotravex/gnotravex.c:1147
 msgid "Puzzle solved!"
-msgstr ""
+msgstr "Enigmo solvita!"
 
-#: ../gnotravex/gnotravex.c:1402 ../mahjongg/mahjongg.c:1407
+#: ../gnotravex/gnotravex.c:1402 ../mahjongg/mahjongg.c:1393
 msgid "Time:"
 msgstr "Tempo:"
 
@@ -3498,6 +3518,10 @@ msgid ""
 "\n"
 "Tetravex is a part of GNOME Games."
 msgstr ""
+"GNOME Tetravekso estas simpla enigmo en kiu pecoj estas metendaj tiel, ke "
+"samaj numeroj tuŝas unu la alian.\n"
+"\n"
+"Tetravekso estas ero de GNOME Ludoj."
 
 #: ../gnotravex/gnotravex.c:1710
 msgid "_Size"
@@ -3505,11 +3529,11 @@ msgstr "_Grando"
 
 #: ../gnotravex/gnotravex.c:1715
 msgid "Sol_ve"
-msgstr ""
+msgstr "Sol_vi"
 
 #: ../gnotravex/gnotravex.c:1715
 msgid "Solve the game"
-msgstr ""
+msgstr "Solvi la ludon"
 
 #: ../gnotravex/gnotravex.c:1719
 msgid "_Up"
@@ -3517,7 +3541,7 @@ msgstr "S_upren"
 
 #: ../gnotravex/gnotravex.c:1720
 msgid "Move the pieces up"
-msgstr ""
+msgstr "Movi la pecojn supren"
 
 #: ../gnotravex/gnotravex.c:1721
 msgid "_Left"
@@ -3525,7 +3549,7 @@ msgstr "Ma_ldekstren"
 
 #: ../gnotravex/gnotravex.c:1722
 msgid "Move the pieces left"
-msgstr ""
+msgstr "Movi la pecojn maldekstren"
 
 #: ../gnotravex/gnotravex.c:1723
 msgid "_Right"
@@ -3533,7 +3557,7 @@ msgstr "Dekst_ren"
 
 #: ../gnotravex/gnotravex.c:1724
 msgid "Move the pieces right"
-msgstr ""
+msgstr "Movi la pecojn dekstren"
 
 #: ../gnotravex/gnotravex.c:1725
 msgid "_Down"
@@ -3541,15 +3565,15 @@ msgstr "_Malsupren"
 
 #: ../gnotravex/gnotravex.c:1726
 msgid "Move the pieces down"
-msgstr ""
+msgstr "Movi la pecojn malsupren"
 
 #: ../gnotravex/gnotravex.c:1731
 msgid "_Click to Move"
-msgstr "Klaku por movi"
+msgstr "_Klaku por movi"
 
 #: ../gnotravex/gnotravex.desktop.in.in.h:1
 msgid "Complete the puzzle by matching numbered tiles"
-msgstr "Finu la enigmon per kongruigi nombritajn kahelojn"
+msgstr "Finu la enigmon per kongruigi numeritajn kahelojn"
 
 #: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:1
 msgid "Select the style of control"
@@ -3559,48 +3583,49 @@ msgstr "Elekti stirstilon"
 msgid ""
 "Select whether to drag the tiles or to click on the source then the "
 "destination."
-msgstr ""
+msgstr "Elekti ĉu tiri la kaheloj aŭ alklaki la fonton kaj poste la destinon."
 
 #: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:3
 msgid "The size of the playing grid"
-msgstr ""
+msgstr "La grandeco de la ludkrado"
 
 #: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:4
 msgid "The value of this key is used to decide the size of the playing grid."
 msgstr ""
+"La valoro de tiu ĉi klavo uziĝas por decidi la grandecon de la ludkrado."
 
 #: ../gnotski/gnotski.c:48 ../gnotski/gnotski.desktop.in.in.h:1
 msgid "Klotski"
-msgstr ""
+msgstr "Klotski"
 
 #: ../gnotski/gnotski.c:101
 msgid "Only 18 steps"
-msgstr ""
+msgstr "Nur 18 paŝoj"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:102 ../gnotski/gnotski.c:189
 msgid "Daisy"
-msgstr ""
+msgstr "Lekanto"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:103 ../gnotski/gnotski.c:195
 msgid "Violet"
-msgstr ""
+msgstr "Violo"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:104 ../gnotski/gnotski.c:201
 msgid "Poppy"
-msgstr ""
+msgstr "Papavo"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:105 ../gnotski/gnotski.c:207
 msgid "Pansy"
-msgstr ""
+msgstr "Penseo"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:106 ../gnotski/gnotski.c:213
 msgid "Snowdrop"
-msgstr ""
+msgstr "Neĝborulo"
 
 #. puzzle name - sometimes called "Le'Ane Rouge"
 #: ../gnotski/gnotski.c:107 ../gnotski/gnotski.c:219
@@ -3610,17 +3635,17 @@ msgstr "Ruĝa simio"
 #. puzzle name
 #: ../gnotski/gnotski.c:108 ../gnotski/gnotski.c:225
 msgid "Trail"
-msgstr ""
+msgstr "Spuro"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:109 ../gnotski/gnotski.c:231
 msgid "Ambush"
-msgstr ""
+msgstr "Embusko"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:110 ../gnotski/gnotski.c:237
 msgid "Agatka"
-msgstr ""
+msgstr "Agatka"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:111 ../gnotski/gnotski.c:242
@@ -3635,22 +3660,22 @@ msgstr "Osto"
 #. puzzle name
 #: ../gnotski/gnotski.c:113 ../gnotski/gnotski.c:253
 msgid "Fortune"
-msgstr ""
+msgstr "Fortuno"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:114 ../gnotski/gnotski.c:261
 msgid "Fool"
-msgstr ""
+msgstr "Pajaco"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:115 ../gnotski/gnotski.c:267
 msgid "Solomon"
-msgstr "Solomono"
+msgstr "Salomono"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:116 ../gnotski/gnotski.c:274
 msgid "Cleopatra"
-msgstr "Kleopatro"
+msgstr "Kleopatra"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:117 ../gnotski/gnotski.c:279
@@ -3660,12 +3685,12 @@ msgstr "Ŝarko"
 #. puzzle name
 #: ../gnotski/gnotski.c:118 ../gnotski/gnotski.c:287
 msgid "Rome"
-msgstr ""
+msgstr "Romo"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:119 ../gnotski/gnotski.c:294
 msgid "Pennant Puzzle"
-msgstr ""
+msgstr "Vimplenigmo"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:120 ../gnotski/gnotski.c:300
@@ -3680,61 +3705,61 @@ msgstr "Peloponezo"
 #. puzzle name
 #: ../gnotski/gnotski.c:122 ../gnotski/gnotski.c:328
 msgid "Transeuropa"
-msgstr ""
+msgstr "Transeŭropo"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:123 ../gnotski/gnotski.c:337
 msgid "Lodzianka"
-msgstr ""
+msgstr "Lodzianka"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:124 ../gnotski/gnotski.c:343
 msgid "Polonaise"
-msgstr ""
+msgstr "Polonezo"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:125 ../gnotski/gnotski.c:348
 msgid "Baltic Sea"
-msgstr ""
+msgstr "Balta Maro"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:126 ../gnotski/gnotski.c:353
 msgid "American Pie"
-msgstr ""
+msgstr "Verda stelo"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:127 ../gnotski/gnotski.c:365
 msgid "Traffic Jam"
-msgstr ""
+msgstr "Trafikŝtopiĝo"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:128 ../gnotski/gnotski.c:372
 msgid "Sunshine"
-msgstr ""
+msgstr "Sunbrilo"
 
 #. puzzle name
 #: ../gnotski/gnotski.c:183
 msgid "Only 18 Steps"
-msgstr ""
+msgstr "Nur 18 Paŝoj"
 
 #. set of puzzles
 #: ../gnotski/gnotski.c:413
 msgid "HuaRong Trail"
-msgstr ""
+msgstr "HuaRong-pado"
 
 #. set of puzzles
 #: ../gnotski/gnotski.c:415
 msgid "Challenge Pack"
-msgstr ""
+msgstr "Defianta enigmaro"
 
 #. set of puzzles
 #: ../gnotski/gnotski.c:417
 msgid "Skill Pack"
-msgstr ""
+msgstr "Spertula enigmaro"
 
 #: ../gnotski/gnotski.c:418
 msgid "_Restart Puzzle"
-msgstr "_Restarti puzlon"
+msgstr "_Restarti la puzlon"
 
 #: ../gnotski/gnotski.c:420
 msgid "Next Puzzle"
@@ -3742,32 +3767,35 @@ msgstr "Sekva puzlo"
 
 #: ../gnotski/gnotski.c:422
 msgid "Previous Puzzle"
-msgstr ""
+msgstr "Lasta enigmo"
 
 #: ../gnotski/gnotski.c:630
 msgid "Level completed."
-msgstr ""
+msgstr "Nivelo finita."
 
-#: ../gnotski/gnotski.c:770
+#: ../gnotski/gnotski.c:776
 msgid "The Puzzle Has Been Solved!"
-msgstr ""
+msgstr "La enigmo solviĝis!"
 
-#: ../gnotski/gnotski.c:787
+#: ../gnotski/gnotski.c:793
 msgid "Klotski Scores"
-msgstr ""
+msgstr "Poentaroj de Klotski"
 
-#: ../gnotski/gnotski.c:790
+#: ../gnotski/gnotski.c:796
 msgid "Puzzle:"
 msgstr "Puzlo:"
 
-#: ../gnotski/gnotski.c:872
+#: ../gnotski/gnotski.c:878
 msgid ""
 "The theme for this game failed to render.\n"
 "\n"
 "Please check that Klotski is installed correctly."
 msgstr ""
+"La etoso por ĉi tiu ludo malsukcesis bildi.\n"
+"\n"
+"Bonvolu kontroli, ke Klotski estas ĝuste instalita."
 
-#: ../gnotski/gnotski.c:1115
+#: ../gnotski/gnotski.c:1122
 #, c-format
 msgid ""
 "Could not find the image:\n"
@@ -3780,33 +3808,36 @@ msgstr ""
 "\n"
 "Bonvolu kontroli, ke Klotski estas ĝuste instalita."
 
-#: ../gnotski/gnotski.c:1154
+#: ../gnotski/gnotski.c:1161
 #, c-format
 msgid "Moves: %d"
 msgstr "Movoj: %d"
 
-#: ../gnotski/gnotski.c:1479
+#: ../gnotski/gnotski.c:1486
 msgid ""
 "Sliding Block Puzzles\n"
 "\n"
 "Klotski is a part of GNOME Games."
 msgstr ""
+"Glitanta-blokaj enigmoj\n"
+"\n"
+"Klotski estas ero de GNOME Ludoj."
 
 #: ../gnotski/gnotski.desktop.in.in.h:2
 msgid "Slide blocks to solve the puzzle"
-msgstr ""
+msgstr "Glitigi blokojn por solvi la enigmon"
 
 #: ../gnotski/gnotski.schemas.in.h:1
 msgid "The number of the puzzle being played."
-msgstr ""
+msgstr "La numero de la nuntempe ludata enigmo."
 
 #: ../gnotski/gnotski.schemas.in.h:2
 msgid "The puzzle in play"
-msgstr ""
+msgstr "La ludata enigmo"
 
 #: ../gtali/clist.c:158
 msgid "Already used! Where do you want to put that?"
-msgstr ""
+msgstr "Tio estas jam uzata! Kie vi volas meti tion?"
 
 #: ../gtali/clist.c:414 ../swell-foop/src/Score.js:16
 #, c-format
@@ -3816,7 +3847,7 @@ msgstr "Poentoj: %d"
 #: ../gtali/clist.c:416
 #, c-format
 msgid "Field used"
-msgstr ""
+msgstr "Uzata kampo"
 
 #. Arrgh - lets all use the same tabs under emacs:
 #. Local Variables:
@@ -3831,7 +3862,7 @@ msgstr "Provu viajn ŝancojn je poker-stila kubludo"
 
 #: ../gtali/gtali.desktop.in.in.h:2 ../gtali/gyahtzee.c:60
 msgid "Tali"
-msgstr ""
+msgstr "Tali"
 
 #: ../gtali/gtali.schemas.in.h:1
 msgid ""
@@ -3843,44 +3874,46 @@ msgstr ""
 
 #: ../gtali/gtali.schemas.in.h:2
 msgid "Delay between rolls"
-msgstr ""
+msgstr "Paŭzo inter ĵetoj"
 
 #: ../gtali/gtali.schemas.in.h:3
 msgid "Display the computer's thoughts"
-msgstr ""
+msgstr "Montri la pensojn de la komputilon"
 
 #: ../gtali/gtali.schemas.in.h:4
 msgid ""
 "If set to true, a dump of the AI's working will be done to standard output."
 msgstr ""
+"Se ĉi tiu opcio estas 'vera', la laborado de la AI ŝutiĝos al standarda "
+"eligo."
 
 #: ../gtali/gtali.schemas.in.h:5
 msgid "Regular"
-msgstr ""
+msgstr "Regula"
 
 #: ../gtali/gtali.schemas.in.h:6
 msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
-msgstr ""
+msgstr "[homa,Paŭlo,Zebastjano,Akiko,Vladimiro,Urhokko]"
 
 #: ../gtali/gyahtzee.c:103
 msgid "Delay computer moves"
-msgstr ""
+msgstr "Malfruigi komputilajn movojn"
 
 #: ../gtali/gyahtzee.c:105
 msgid "Display computer thoughts"
-msgstr ""
+msgstr "Montri la pensojn de la komputilo"
 
 #: ../gtali/gyahtzee.c:107
 msgid "Number of computer opponents"
-msgstr ""
+msgstr "Nombro da komputila kontraŭludantoj"
 
 #: ../gtali/gyahtzee.c:109
 msgid "Number of human opponents"
-msgstr ""
+msgstr "Nombro da homaj kontraŭludantoj"
 
 #: ../gtali/gyahtzee.c:111
 msgid "Game choice: Regular or Colors"
-msgstr ""
+msgstr "Luda elekta: Regula aŭ Kolora"
 
 #: ../gtali/gyahtzee.c:111
 msgid "STRING"
@@ -3888,11 +3921,11 @@ msgstr "SIGNOĈENO"
 
 #: ../gtali/gyahtzee.c:113
 msgid "Number of computer-only games to play"
-msgstr ""
+msgstr "Nombro de sole-komputilaj ludoj"
 
 #: ../gtali/gyahtzee.c:115
 msgid "Number of trials for each roll for the computer"
-msgstr ""
+msgstr "Nombro da provoj por ĉiu ĵeto de la komputilo"
 
 #: ../gtali/gyahtzee.c:120 ../gtali/setup.c:364
 msgctxt "game type"
@@ -3906,11 +3939,11 @@ msgstr "Koloroj"
 
 #: ../gtali/gyahtzee.c:144
 msgid "Roll all!"
-msgstr ""
+msgstr "Ĵeti ĉiujn!"
 
 #: ../gtali/gyahtzee.c:147 ../gtali/gyahtzee.c:825
 msgid "Roll!"
-msgstr ""
+msgstr "Ĵeti!"
 
 #: ../gtali/gyahtzee.c:181
 msgid "The game is a draw!"
@@ -3918,24 +3951,24 @@ msgstr "La ludo estas sendecida!"
 
 #: ../gtali/gyahtzee.c:195 ../gtali/gyahtzee.c:632
 msgid "Tali Scores"
-msgstr ""
+msgstr "Poentaroj de Tali"
 
 #: ../gtali/gyahtzee.c:211
 #, c-format
 msgid "%s wins the game with %d point"
 msgid_plural "%s wins the game with %d points"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s gajnas la ludon kun %d poento"
+msgstr[1] "%s gajnas la ludon kun %d poentoj"
 
 #: ../gtali/gyahtzee.c:259
 #, c-format
 msgid "Computer playing for %s"
-msgstr ""
+msgstr "Komputila ludanto por %s"
 
 #: ../gtali/gyahtzee.c:261
 #, c-format
 msgid "%s! -- You're up."
-msgstr ""
+msgstr "%s! -- Estas via vico."
 
 #: ../gtali/gyahtzee.c:450
 msgid "Select dice to roll or choose a score slot."
@@ -3943,7 +3976,7 @@ msgstr "Elektu kubojn por ĵeti aŭ elektu poento-tabeleron."
 
 #: ../gtali/gyahtzee.c:479
 msgid "Roll"
-msgstr ""
+msgstr "Ĵeti"
 
 #: ../gtali/gyahtzee.c:537
 msgid "You are only allowed three rolls. Choose a score slot."
@@ -3951,7 +3984,7 @@ msgstr "Vi rajtas ĵeti la kubojn nur trifoje. Elektu poento-tabeleron."
 
 #: ../gtali/gyahtzee.c:588
 msgid "GNOME version (1998):"
-msgstr "GNOME-versio (1998):"
+msgstr "Versio de GNOME (1998):"
 
 #: ../gtali/gyahtzee.c:591
 msgid "Console version (1992):"
@@ -3959,7 +3992,7 @@ msgstr "Konzolo-versio (1992):"
 
 #: ../gtali/gyahtzee.c:594
 msgid "Colors game and multi-level AI (2006):"
-msgstr ""
+msgstr "Kolora ludo kaj multnivela AI (2006):"
 
 #: ../gtali/gyahtzee.c:612
 msgid ""
@@ -3969,15 +4002,15 @@ msgid ""
 msgstr ""
 "Variaĵo de pokero kun ludkuboj kaj malpli da mono.\n"
 "\n"
-"Tali estas ero de GNOME-ludiloj."
+"Tali estas ero de GNOME Ludiloj."
 
 #: ../gtali/setup.c:123
 msgid "Current game will complete with original number of players."
-msgstr ""
+msgstr "La nuna ludo finiĝos kun la originala nombro da ludantoj."
 
 #: ../gtali/setup.c:266
 msgid "Tali Preferences"
-msgstr ""
+msgstr "Agordoj por Tali"
 
 #: ../gtali/setup.c:287
 msgid "Human Players"
@@ -3989,16 +4022,16 @@ msgstr "_Nombro da ludantoj:"
 
 #: ../gtali/setup.c:312
 msgid "Computer Opponents"
-msgstr ""
+msgstr "Komputilaj kontraŭludantoj"
 
 #. --- Button ---
 #: ../gtali/setup.c:320
 msgid "_Delay between rolls"
-msgstr ""
+msgstr "_Malfruigo inter ĵetoj"
 
 #: ../gtali/setup.c:330
 msgid "N_umber of opponents:"
-msgstr ""
+msgstr "N_ombro da kontraŭludantoj:"
 
 #: ../gtali/setup.c:344
 msgid "_Difficulty:"
@@ -4012,103 +4045,103 @@ msgstr "Meze"
 #. --- PLAYER NAMES FRAME ----
 #: ../gtali/setup.c:373
 msgid "Player Names"
-msgstr ""
+msgstr "Ludantaj nomoj"
 
 #: ../gtali/yahtzee.c:85 ../gtali/yahtzee.c:109 ../gtali/yahtzee.c:517
 msgid "1s [total of 1s]"
-msgstr ""
+msgstr "1 [sumo de unuoj]"
 
 #: ../gtali/yahtzee.c:86 ../gtali/yahtzee.c:110 ../gtali/yahtzee.c:518
 msgid "2s [total of 2s]"
-msgstr ""
+msgstr "2 [sumo de duoj]"
 
 #: ../gtali/yahtzee.c:87 ../gtali/yahtzee.c:111 ../gtali/yahtzee.c:519
 msgid "3s [total of 3s]"
-msgstr ""
+msgstr "3 [sumo de trioj]"
 
 #: ../gtali/yahtzee.c:88 ../gtali/yahtzee.c:112 ../gtali/yahtzee.c:520
 msgid "4s [total of 4s]"
-msgstr ""
+msgstr "4 [sumo de kvaroj]"
 
 #: ../gtali/yahtzee.c:89 ../gtali/yahtzee.c:113 ../gtali/yahtzee.c:521
 msgid "5s [total of 5s]"
-msgstr ""
+msgstr "5 [sumo de kvinoj]"
 
 #: ../gtali/yahtzee.c:90 ../gtali/yahtzee.c:114 ../gtali/yahtzee.c:522
 msgid "6s [total of 6s]"
-msgstr ""
+msgstr "6 [sumo de sesoj]"
 
 #. End of upper panel
 #: ../gtali/yahtzee.c:92 ../gtali/yahtzee.c:117 ../gtali/yahtzee.c:523
 msgid "3 of a Kind [total]"
-msgstr ""
+msgstr "Triopo [sumo]"
 
 #: ../gtali/yahtzee.c:93 ../gtali/yahtzee.c:524
 msgid "4 of a Kind [total]"
-msgstr ""
+msgstr "Kvaropo [sumo]"
 
 #: ../gtali/yahtzee.c:94 ../gtali/yahtzee.c:525
 msgid "Full House [25]"
-msgstr ""
+msgstr "Plena domo [25]"
 
 #: ../gtali/yahtzee.c:95 ../gtali/yahtzee.c:526
 msgid "Small Straight [30]"
-msgstr ""
+msgstr "Malgranda sinsekvo [30]"
 
 #: ../gtali/yahtzee.c:96 ../gtali/yahtzee.c:121 ../gtali/yahtzee.c:527
 msgid "Large Straight [40]"
-msgstr ""
+msgstr "Granda sinsekvo [40]"
 
 #: ../gtali/yahtzee.c:97
 msgid "5 of a Kind [50]"
-msgstr ""
+msgstr "Kvinopo [50]"
 
 #: ../gtali/yahtzee.c:98 ../gtali/yahtzee.c:124 ../gtali/yahtzee.c:529
 msgid "Chance [total]"
-msgstr ""
+msgstr "Ŝanco [sumo]"
 
 #. End of lower panel
 #: ../gtali/yahtzee.c:100 ../gtali/yahtzee.c:126
 msgid "Lower Total"
-msgstr ""
+msgstr "Suba tuto"
 
 #: ../gtali/yahtzee.c:101 ../gtali/yahtzee.c:127
 msgid "Grand Total"
-msgstr ""
+msgstr "Plena sumo"
 
 #. Need to squish between upper and lower pannel
 #: ../gtali/yahtzee.c:103 ../gtali/yahtzee.c:129
 msgid "Upper total"
-msgstr ""
+msgstr "Supera tuto"
 
 #: ../gtali/yahtzee.c:104 ../gtali/yahtzee.c:130
 msgid "Bonus if >62"
-msgstr ""
+msgstr "Bonuso se pli granda ol 62"
 
 #. End of upper panel
 #: ../gtali/yahtzee.c:116 ../gtali/yahtzee.c:530
 msgid "2 pair Same Color [total]"
-msgstr ""
+msgstr "Du-para, samkolora [sumo]"
 
 #: ../gtali/yahtzee.c:118 ../gtali/yahtzee.c:531
 msgid "Full House [15 + total]"
-msgstr ""
+msgstr "Plena domo [15 + sumo]"
 
 #: ../gtali/yahtzee.c:119 ../gtali/yahtzee.c:532
 msgid "Full House Same Color [20 + total]"
-msgstr ""
+msgstr "Plena domo, samkolora [20 + sumo]"
 
 #: ../gtali/yahtzee.c:120 ../gtali/yahtzee.c:533
 msgid "Flush (all same color) [35]"
-msgstr ""
+msgstr "Enblemo, samkolora [35]"
 
 #: ../gtali/yahtzee.c:122 ../gtali/yahtzee.c:534
 msgid "4 of a Kind [25 + total]"
-msgstr ""
+msgstr "Kvaropo [25 + sumo]"
 
 #: ../gtali/yahtzee.c:123 ../gtali/yahtzee.c:535
 msgid "5 of a Kind [50 + total]"
-msgstr ""
+msgstr "Kvinopo [50 + sumo]"
 
 #: ../gtali/yahtzee.c:251
 msgid "Choose a score slot."
@@ -4116,72 +4149,62 @@ msgstr "Elektu poento-tabeleron."
 
 #: ../gtali/yahtzee.c:528
 msgid "5 of a Kind [total]"
-msgstr ""
+msgstr "Kvinopo [sumo]"
 
-#: ../iagno/gnothello.c:55 ../iagno/iagno.desktop.in.in.h:2
+#: ../iagno/gnothello.c:48 ../iagno/iagno.desktop.in.in.h:2
 msgid "Iagno"
-msgstr ""
+msgstr "Iagno"
 
-#: ../iagno/gnothello.c:267
+#: ../iagno/gnothello.c:221
 msgid ""
 "A disk flipping game derived from Reversi.\n"
 "\n"
 "Iagno is a part of GNOME Games."
 msgstr ""
+"Disk-turnada ludo devena de Reversi.\n"
+"\n"
+"Iagno estas parto de GNOME Ludoj."
 
-#: ../iagno/gnothello.c:334
+#: ../iagno/gnothello.c:283
 msgid "Invalid move."
 msgstr "Malkorekta movo"
 
-#: ../iagno/gnothello.c:690 ../iagno/gnothello.c:692
+#: ../iagno/gnothello.c:639 ../iagno/gnothello.c:641
 #, c-format
 msgid "%.2d"
-msgstr ""
+msgstr "%.2d"
 
-#: ../iagno/gnothello.c:714
-msgid "It is your turn to place a dark piece"
-msgstr ""
-
-#: ../iagno/gnothello.c:716
-msgid "It is your turn to place a light piece"
-msgstr ""
-
-#: ../iagno/gnothello.c:719
-#, c-format
-msgid "Waiting for %s to move"
-msgstr ""
-
-#: ../iagno/gnothello.c:726
+#: ../iagno/gnothello.c:648
 msgid "Dark's move"
-msgstr ""
+msgstr "Vico de la malhelulo"
 
-#: ../iagno/gnothello.c:728
+#: ../iagno/gnothello.c:650
 msgid "Light's move"
-msgstr ""
+msgstr "Vico de la helulo:"
 
-#: ../iagno/gnothello.c:976
+#: ../iagno/gnothello.c:872
 msgid "Dark:"
 msgstr "Malhelulo:"
 
-#: ../iagno/gnothello.c:986
+#: ../iagno/gnothello.c:882
 msgid "Light:"
 msgstr "Helulo:"
 
-#: ../iagno/gnothello.c:1010
+#: ../iagno/gnothello.c:906
 msgid "Welcome to Iagno!"
-msgstr ""
+msgstr "Bonvenon al Iagno!"
 
 #: ../iagno/iagno.desktop.in.in.h:1
 msgid "Dominate the board in a classic version of Reversi"
-msgstr ""
+msgstr "Dominu la tabulon en klasika versio de Reversi"
 
 #: ../iagno/othello.c:699
 msgid "Light player wins!"
-msgstr ""
+msgstr "La helulo gajnis!"
 
 #: ../iagno/othello.c:701
 msgid "Dark player wins!"
-msgstr ""
+msgstr "La malhelulo gajnis!"
 
 #: ../iagno/othello.c:703
 msgid "The game was a draw."
@@ -4189,51 +4212,59 @@ msgstr "La ludo estis sendecida."
 
 #: ../iagno/othello.c:715
 msgid "Light must pass, Dark's move"
-msgstr ""
+msgstr "La helulo devas pasi, jen vico de la malhelulo"
 
 #: ../iagno/othello.c:720
 msgid "Dark must pass, Light's move"
-msgstr ""
+msgstr "La malhelulo devas pasi, jen vico de la helulo"
 
-#: ../iagno/properties.c:399
+#: ../iagno/properties.c:380
 msgid "Iagno Preferences"
-msgstr ""
+msgstr "Agordoj por Iagno"
 
-#: ../iagno/properties.c:428
+#: ../iagno/properties.c:409
 msgid "_Use quick moves"
-msgstr ""
+msgstr "_Uzi rapidajn movojn"
 
-#: ../iagno/properties.c:533
+#: ../iagno/properties.c:424
+msgid "Dark"
+msgstr "Malhele"
+
+#: ../iagno/properties.c:465
+msgid "Light"
+msgstr "Hele"
+
+#: ../iagno/properties.c:514
 msgid "Animation"
 msgstr "Animacio"
 
-#: ../iagno/properties.c:537
+#: ../iagno/properties.c:518
 msgid "None"
 msgstr "Nenio"
 
-#: ../iagno/properties.c:546
+#: ../iagno/properties.c:527
 msgid "Partial"
-msgstr ""
+msgstr "Parta"
 
-#: ../iagno/properties.c:555
+#: ../iagno/properties.c:536
 msgid "Complete"
 msgstr "Komplete"
 
-#: ../iagno/properties.c:569
+#: ../iagno/properties.c:550
 msgid "_Stagger flips"
-msgstr ""
+msgstr "Montri turnojn dise"
 
-#: ../iagno/properties.c:577
+#: ../iagno/properties.c:558
 msgid "S_how grid"
-msgstr ""
+msgstr "_Montri kradon"
 
-#: ../iagno/properties.c:584
+#: ../iagno/properties.c:565
 msgid "_Flip final results"
-msgstr ""
+msgstr "_Turno finaj rezultoj"
 
-#: ../iagno/properties.c:593 ../mahjongg/mahjongg.c:694
+#: ../iagno/properties.c:574 ../mahjongg/mahjongg.c:686
 msgid "_Tile set:"
-msgstr ""
+msgstr "_Kahelaro:"
 
 #: ../libgames-support/eggdesktopfile.c:169
 #, c-format
@@ -4306,7 +4337,7 @@ msgstr "Nekonata komando"
 #: ../libgames-support/games-help.c:109
 #, c-format
 msgid "Help file “%s.%s” not found"
-msgstr ""
+msgstr "Ne trovis la helpdosieron “%s.%s”"
 
 #: ../libgames-support/games-help.c:147
 #, c-format
@@ -4359,7 +4390,7 @@ msgstr "Starti novan multludantan retan ludon"
 
 #: ../libgames-support/games-stock.c:49
 msgid "End the current network game and return to network server"
-msgstr ""
+msgstr "Fini la nunan retan ludon kaj reiri al la reta servilon."
 
 #: ../libgames-support/games-stock.c:51
 msgid "Pause the game"
@@ -4367,7 +4398,7 @@ msgstr "Paŭzigi la ludon"
 
 #: ../libgames-support/games-stock.c:52
 msgid "Show a list of players in the network game"
-msgstr ""
+msgstr "Montri liston da ludantoj en la reta ludo"
 
 #: ../libgames-support/games-stock.c:53
 msgid "Redo the undone move"
@@ -4379,13 +4410,13 @@ msgstr "Restarti la ludon"
 
 #: ../libgames-support/games-stock.c:55
 msgid "Resume the paused game"
-msgstr ""
+msgstr "Daŭrigi la paŭzigitan ludon"
 
 #: ../libgames-support/games-stock.c:56
 msgid "View the scores"
 msgstr "Montri la poentarojn"
 
-#: ../libgames-support/games-stock.c:57 ../mahjongg/mahjongg.c:1207
+#: ../libgames-support/games-stock.c:57 ../mahjongg/mahjongg.c:1199
 msgid "Undo the last move"
 msgstr "Malfari la lastan agon"
 
@@ -4425,7 +4456,7 @@ msgstr "_Restarti"
 
 #: ../libgames-support/games-stock.c:262
 msgid "_Deal"
-msgstr ""
+msgstr "_Disdoni"
 
 #: ../libgames-support/games-stock.c:263
 msgid "_Leave Fullscreen"
@@ -4468,6 +4499,10 @@ msgid ""
 "Foundation; either version %d of the License, or (at your option) any later "
 "version."
 msgstr ""
+"%s estas libera programaro; vi povas disdoni kaj/aŭ modifi ĝin sub la "
+"kondiĉoj de la Ĝenerala Publika Permesilo de GNU eldonite de la 'Free "
+"Software Foundation'; aŭ en la %da versio de la permesilo aŭ (laŭ via volo) "
+"en iu sekva versio."
 
 #: ../libgames-support/games-stock.c:325
 #, c-format
@@ -4488,9 +4523,9 @@ msgid ""
 "%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
 "Fifth Floor, Boston, MA  02110-1301  USA"
 msgstr ""
-"Vi devis ricevi kopion de la GNU Ĝenerala Publika Permesilo kun %s; se vi ne "
-"ricevis, skribu al la jena adreso: Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA."
+"Vi devintus ricevi kopion de la Ĝenerala Publika Permesilo de GNU kune kun "
+"%s; se ne, skribu al Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA 02110-1301 Usono"
 
 #: ../libgames-support/games-stock.c:334
 msgid ""
@@ -4498,45 +4533,47 @@ msgid ""
 "this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 "Vi devintus ricevi kopion de la Ĝenerala Publika Permesilo de GNU kune kun "
-"ĉi tiu programaro. Se ne, iru al <http://www.gnu.org/licenses/>."
+"ĉi tiu programo. Se ne, iru al <http://www.gnu.org/licenses/>."
 
 #: ../lightsoff/lightsoff.desktop.in.in.h:1 ../lightsoff/data/lightsoff.ui.h:1
 #: ../lightsoff/data/settings.ui.h:2 ../lightsoff/src/About.js:11
 #: ../lightsoff/src/About.js:15
 msgid "Lights Off"
-msgstr ""
+msgstr "Elŝalti lumojn"
 
 #: ../lightsoff/lightsoff.desktop.in.in.h:2
 msgid "Turn off all the lights"
-msgstr ""
+msgstr "Elŝalti ĉiujn lumojn"
 
 #: ../lightsoff/lightsoff.schemas.in.h:1
 msgid ""
 "If enabled, the default background color from the user's default GNOME theme "
 "is used to draw the tiles."
 msgstr ""
+"Se tiu agordo estas aktiva, la defaŭlta fona koloro de la GNOME-etoso de la "
+"uzanto estas uzata por desegni la kahelojn."
 
 #: ../lightsoff/lightsoff.schemas.in.h:2
 msgid "The current score"
-msgstr ""
+msgstr "La nunaj poentoj:"
 
 #: ../lightsoff/lightsoff.schemas.in.h:3
 #: ../swell-foop/swell-foop.schemas.in.h:5
 msgid "The theme to use"
-msgstr ""
+msgstr "La uzenda etoso"
 
 #: ../lightsoff/lightsoff.schemas.in.h:4
 #: ../swell-foop/swell-foop.schemas.in.h:6
 msgid "The title of the tile theme to use."
-msgstr ""
+msgstr "La nomo de la etoso, kiu uziĝos por la kaheloj."
 
 #: ../lightsoff/lightsoff.schemas.in.h:5
 msgid "The users's most recent score."
-msgstr ""
+msgstr "La pli lasta poentaro de la uzanto."
 
 #: ../lightsoff/lightsoff.schemas.in.h:6
 msgid "Whether or not to use the GNOME theme colors"
-msgstr ""
+msgstr "Ĉu uzi la GNOME-etosajn kolorojn?"
 
 #: ../lightsoff/data/settings.ui.h:3 ../swell-foop/data/settings.ui.h:7
 msgid "Theme:"
@@ -4552,6 +4589,9 @@ msgid ""
 "\n"
 "Lights Off is a part of GNOME Games."
 msgstr ""
+"Elŝaltu ĉiujn lumojn\n"
+"\n"
+"Elŝalti Lumojn estas ero de GNOME Games."
 
 #: ../lightsoff/src/About.js:14 ../swell-foop/src/About.js:14
 msgid "Copyright  2009 Tim Horton"
@@ -4563,6 +4603,9 @@ msgid ""
 "\n"
 "Please check that Mahjongg is installed correctly."
 msgstr ""
+"La etoso por ĉi tiu ludo malsukcesis bildi.\n"
+"\n"
+"Bonvolu kontroli, ke Maĝango estas ĝuste instalita."
 
 #: ../mahjongg/drawing.c:428 ../mahjongg/drawing.c:441
 #, c-format
@@ -4572,77 +4615,81 @@ msgid ""
 "\n"
 "Please check that Mahjongg is installed correctly."
 msgstr ""
+"Ne eblas bildigi la dosieron:\n"
+"'%s'\n"
+"\n"
+"Bonvolu kontroli, ĉu Maĝango estas ĝuste instalita."
 
-#: ../mahjongg/mahjongg.c:45 ../mahjongg/mahjongg.c:895
-#: ../mahjongg/mahjongg.c:898 ../mahjongg/mahjongg.desktop.in.in.h:2
+#: ../mahjongg/mahjongg.c:45 ../mahjongg/mahjongg.c:887
+#: ../mahjongg/mahjongg.c:890 ../mahjongg/mahjongg.desktop.in.in.h:2
 msgid "Mahjongg"
 msgstr "Maĝango"
 
-#: ../mahjongg/mahjongg.c:136
+#: ../mahjongg/mahjongg.c:134
 msgid "Could not load tile set"
 msgstr "Kahelaro ne ŝarĝeblis"
 
-#: ../mahjongg/mahjongg.c:271
+#: ../mahjongg/mahjongg.c:263
 msgid "Do you want to start a new game with this map?"
-msgstr ""
+msgstr "Ĉu vi volas ekludi novan ludo kun tiu ĉi mapon?"
 
-#: ../mahjongg/mahjongg.c:273
+#: ../mahjongg/mahjongg.c:265
 msgid "If you continue playing the next game will use the new map."
-msgstr ""
+msgstr "Se vi daŭras ludi, la sekva ludo uzos la novan mapon."
 
-#: ../mahjongg/mahjongg.c:275
+#: ../mahjongg/mahjongg.c:267
 msgid "_Continue playing"
-msgstr ""
+msgstr "_Daŭrigi ludadon"
 
-#: ../mahjongg/mahjongg.c:276
+#: ../mahjongg/mahjongg.c:268
 msgid "Use _new map"
-msgstr ""
+msgstr "Uzi _novan mapon"
 
-#: ../mahjongg/mahjongg.c:579
+#: ../mahjongg/mahjongg.c:571
 msgid "There are no more moves."
-msgstr ""
+msgstr "Ne estas pluaj movoj."
 
-#: ../mahjongg/mahjongg.c:582
+#: ../mahjongg/mahjongg.c:574
 msgid "_New game"
 msgstr "_Nova ludo"
 
-#: ../mahjongg/mahjongg.c:587
+#: ../mahjongg/mahjongg.c:579
 msgid "_Shuffle"
 msgstr "_Miksi"
 
-#: ../mahjongg/mahjongg.c:626 ../mahjongg/mahjongg.c:951
+#: ../mahjongg/mahjongg.c:618 ../mahjongg/mahjongg.c:943
 msgid "Mahjongg Scores"
 msgstr "Poentaroj de Maĝango"
 
-#: ../mahjongg/mahjongg.c:667
+#: ../mahjongg/mahjongg.c:659
 msgid "Mahjongg Preferences"
 msgstr "Maĝangaj agordoj"
 
-#: ../mahjongg/mahjongg.c:687
+#: ../mahjongg/mahjongg.c:679
 msgid "Tiles"
-msgstr ""
+msgstr "Kaheloj"
 
-#: ../mahjongg/mahjongg.c:708
+#: ../mahjongg/mahjongg.c:700
 msgid "Maps"
 msgstr "Mapoj"
 
-#: ../mahjongg/mahjongg.c:715
+#: ../mahjongg/mahjongg.c:707
 msgid "_Select map:"
 msgstr "_Elekti mapon:"
 
-#: ../mahjongg/mahjongg.c:729
+#: ../mahjongg/mahjongg.c:721
 msgid "Colors"
 msgstr "Koloroj"
 
-#: ../mahjongg/mahjongg.c:875
+#: ../mahjongg/mahjongg.c:867
 msgid "Maps:"
 msgstr "Mapoj:"
 
-#: ../mahjongg/mahjongg.c:882
+#: ../mahjongg/mahjongg.c:874
 msgid "Tiles:"
-msgstr ""
+msgstr "Kaheloj:"
 
-#: ../mahjongg/mahjongg.c:901
+#: ../mahjongg/mahjongg.c:893
 msgid ""
 "A matching game played with Mahjongg tiles.\n"
 "\n"
@@ -4650,34 +4697,34 @@ msgid ""
 msgstr ""
 "Kongruigada ludo, kiu uzas maĝangajn kahelojn.\n"
 "\n"
-"Maĝango estas ero de GNOME-ludiloj."
+"Maĝango estas ero de GNOME Ludiloj."
 
-#: ../mahjongg/mahjongg.c:1146
+#: ../mahjongg/mahjongg.c:1138
 #, c-format
 msgid "Mahjongg - %s"
 msgstr "Maĝango - %s"
 
-#: ../mahjongg/mahjongg.c:1206
+#: ../mahjongg/mahjongg.c:1198
 msgid "Restart the current game"
 msgstr "Restarti la nuna ludon"
 
-#: ../mahjongg/mahjongg.c:1209
+#: ../mahjongg/mahjongg.c:1201
 msgid "Redo the last move"
 msgstr "Refari la lastan movon"
 
-#: ../mahjongg/mahjongg.c:1211
+#: ../mahjongg/mahjongg.c:1203
 msgid "Show a hint"
 msgstr "Montri helpindikon"
 
-#: ../mahjongg/mahjongg.c:1389
+#: ../mahjongg/mahjongg.c:1375
 msgid "Tiles Left:"
-msgstr ""
+msgstr "Kaheloj restantaj:"
 
-#: ../mahjongg/mahjongg.c:1398
+#: ../mahjongg/mahjongg.c:1384
 msgid "Moves Left:"
 msgstr "Restas movoj:"
 
-#: ../mahjongg/mahjongg.c:1462
+#: ../mahjongg/mahjongg.c:1448
 msgid "Remove matching pairs of tiles."
 msgstr "Forigu kongruajn kahelajn duopojn."
 
@@ -4698,7 +4745,7 @@ msgstr "Facile"
 #: ../mahjongg/translatable_game_names.h:6
 msgctxt "mahjongg map name"
 msgid "The Ziggurat"
-msgstr ""
+msgstr "La zigurato"
 
 #: ../mahjongg/translatable_game_names.h:7
 msgctxt "mahjongg map name"
@@ -4718,17 +4765,17 @@ msgstr "Tiktakto"
 #: ../mahjongg/translatable_game_names.h:10
 msgctxt "mahjongg map name"
 msgid "Red Dragon"
-msgstr ""
+msgstr "Ruĝa drako"
 
 #: ../mahjongg/translatable_game_names.h:11
 msgctxt "mahjongg map name"
 msgid "Pyramid's Walls"
-msgstr ""
+msgstr "Piramida muro"
 
 #: ../mahjongg/translatable_game_names.h:12
 msgctxt "mahjongg map name"
 msgid "Confounding Cross"
-msgstr ""
+msgstr "Konfuzkruco"
 
 #: ../mahjongg/translatable_game_names.h:13
 msgctxt "mahjongg map name"
@@ -4739,11 +4786,11 @@ msgstr "Malfacile"
 #: ../swell-foop/swell-foop.desktop.in.in.h:2 ../swell-foop/src/About.js:11
 #: ../swell-foop/src/About.js:15
 msgid "Swell Foop"
-msgstr ""
+msgstr "Manda Grovo"
 
 #: ../swell-foop/data/settings.ui.h:2
 msgid "Board size:"
-msgstr ""
+msgstr "Tabula grandeco:"
 
 #: ../swell-foop/data/settings.ui.h:3
 msgid "Number of colors:"
@@ -4751,31 +4798,31 @@ msgstr "Numbro da koloroj:"
 
 #: ../swell-foop/data/settings.ui.h:8
 msgid "Zealous Animation"
-msgstr ""
+msgstr "Fervoranimacio"
 
 #: ../swell-foop/swell-foop.desktop.in.in.h:1
 msgid "Clear the screen by removing groups of colored and shaped tiles"
-msgstr ""
+msgstr "Vakigu la ekranon per forigi kolorajn kaj formatajn kahelarojn."
 
 #: ../swell-foop/swell-foop.schemas.in.h:1
 msgid "Board color count"
-msgstr ""
+msgstr "Nombro de tabulaj koloroj"
 
 #: ../swell-foop/swell-foop.schemas.in.h:3
 msgid "The number of colors of tiles to use in the game."
-msgstr ""
+msgstr "La nombro da kahelaj koloroj por uzi en la ludo."
 
 #: ../swell-foop/swell-foop.schemas.in.h:4
 msgid "The size of the game board."
-msgstr ""
+msgstr "La grandeco de la tabulo."
 
 #: ../swell-foop/swell-foop.schemas.in.h:7
 msgid "Use more flashy, but slower, animations."
-msgstr ""
+msgstr "Uzi pli mirindajn, sed pli malrapidajn, animaciojn."
 
 #: ../swell-foop/swell-foop.schemas.in.h:8
 msgid "Zealous animation"
-msgstr ""
+msgstr "Fervoranimacio"
 
 #: ../swell-foop/src/About.js:13
 msgid ""
@@ -4784,6 +4831,8 @@ msgid ""
 "\n"
 "Swell Foop is a part of GNOME Games."
 msgstr ""
+"Mi volas ludi tiun ludo! Jen ili ĉiuj ŝaltiĝadas kaj vi alklakadas ilin kaj "
+"ili malaperadas!"
 
 #: ../swell-foop/src/Board.js:102
 msgid "No points"
@@ -4798,11 +4847,11 @@ msgstr[1] "%d poentoj"
 
 #: ../swell-foop/src/Score.js:55
 msgid "Swell Foop Scores"
-msgstr ""
+msgstr "Poentaroj por Manda Grovo"
 
 #: ../swell-foop/src/Score.js:145
 msgid "Small"
-msgstr "Ete"
+msgstr "Eta"
 
 #: ../swell-foop/src/Score.js:146
 msgid "Normal"
@@ -4810,10 +4859,139 @@ msgstr "Normala"
 
 #: ../swell-foop/src/Score.js:147
 msgid "Large"
-msgstr "Ege"
+msgstr "Granda"
 
-#~ msgid "A list of recently played games."
-#~ msgstr "Listo de antaŭnelonge luditaj maĉoj."
+#~ msgid "Statistics of games played"
+#~ msgstr "Statistikoj de luditaj ludoj"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Nuligu"
+
+#~ msgid "_Close"
+#~ msgstr "_Fermi"
+
+#~ msgid "_About"
+#~ msgstr "_Pri"
+
+#~ msgid "The name of the file with the graphics for the cards."
+#~ msgstr "La nomo de la dosiero kun la bildoj de la ludkartoj."
+
+#~ msgid "Error"
+#~ msgstr "Eraro"
+
+#~ msgid "Template"
+#~ msgstr "Ŝablono"
+
+#~ msgid "ace"
+#~ msgstr "aso"
+
+#~ msgid "diamonds"
+#~ msgstr "karooj"
+
+#~ msgid "Unknown suit"
+#~ msgstr "Nekonata emblemo"
+
+#~ msgid "Unknown color"
+#~ msgstr "Nekonata koloro"
+
+#~ msgid "hearts"
+#~ msgstr "keroj"
+
+#~ msgid "spades"
+#~ msgstr "piko"
+
+#~ msgid "king"
+#~ msgstr "reĝo"
+
+#~ msgid "jack"
+#~ msgstr "fanto"
+
+#~ msgid "clubs"
+#~ msgstr "trefo"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "Ludi la popularan kartludon FreeCell"
+
+#~ msgid "two of diamonds"
+#~ msgstr "karoa duo"
+
+#~ msgid "ace of diamonds"
+#~ msgstr "karoa aso"
+
+#~ msgid "five of diamonds"
+#~ msgstr "karoa kvino"
+
+#~ msgid "three of diamonds"
+#~ msgstr "karoa trio"
+
+#~ msgid "four of diamonds"
+#~ msgstr "karoa kvaro"
+
+#~ msgid "king of diamonds"
+#~ msgstr "karoa reĝo"
+
+#~ msgid "jack of diamonds"
+#~ msgstr "karoa fanto"
+
+#~ msgid "queen of diamonds"
+#~ msgstr "karoa damo"
+
+#~ msgid "nine of diamonds"
+#~ msgstr "karoa naŭo"
+
+#~ msgid "ten of diamonds"
+#~ msgstr "karoa deko"
+
+#~ msgid "seven of diamonds"
+#~ msgstr "karoa sepo"
+
+#~ msgid "eight of diamonds"
+#~ msgstr "karoa oko"
+
+#~ msgid "six of diamonds"
+#~ msgstr "karoa seso"
+
+#~ msgid "five of hearts"
+#~ msgstr "kera kvino"
+
+#~ msgid "four of hearts"
+#~ msgstr "kera kvaro"
+
+#~ msgid "six of hearts"
+#~ msgstr "kera seso"
+
+#~ msgid "ace of hearts"
+#~ msgstr "kera aso"
+
+#~ msgid "three of hearts"
+#~ msgstr "kera trio"
+
+#~ msgid "two of hearts"
+#~ msgstr "kera duo"
+
+#~ msgid "jack of hearts"
+#~ msgstr "kera fanto"
+
+#~ msgid "ten of hearts"
+#~ msgstr "kera deko"
+
+#~ msgid "king of hearts"
+#~ msgstr "kera reĝo"
+
+#~ msgid "queen of hearts"
+#~ msgstr "kera damo"
+
+#~ msgid "nine of hearts"
+#~ msgstr "kera naŭo"
+
+#~ msgid "eight of hearts"
+#~ msgstr "kera oko"
+
+#~ msgid "seven of hearts"
+#~ msgstr "kera sepo"
 
 #~ msgid ""
 #~ "A list of strings that come in the form of a quintuple: name, wins, total "
@@ -4825,436 +5003,14 @@ msgstr "Ege"
 #~ "malplej bona tempo (ankaŭ en sekundoj). Neluditaj ludoj ne bezonas esti "
 #~ "prezentataj."
 
-#~ msgid "Animations"
-#~ msgstr "Movbildoj"
-
-#~ msgid "Recently played games"
-#~ msgstr "Antaŭnelonge luditaj maĉoj"
-
-#~ msgid ""
-#~ "Select whether to drag the cards or to click on the source then the "
-#~ "destination."
-#~ msgstr ""
-#~ "Elekti ĉu ŝovi la kartojn aŭ alklaki la fonton kaj poste la destinon."
-
-#~ msgid "Statistics of games played"
-#~ msgstr "Statistikoj de luditaj ludoj"
-
-#~ msgid "The game file to use"
-#~ msgstr "La uzenda luddosiero"
-
-#~ msgid "The name of the file with the graphics for the cards."
-#~ msgstr "La nomo de la dosiero kun la bildoj de la ludkartoj."
-
-#~ msgid "The name of the scheme file containing the solitaire game to play."
-#~ msgstr "La nomo de la skema dosiero, kiu enhavas la ludendan paciencludon."
-
-#~ msgid "Theme file name"
-#~ msgstr "Etosa dosiernomo"
-
-#~ msgid "Whether or not to animate card moves."
-#~ msgstr "Ĉu animi kartajn movojn."
-
-#~ msgid "Whether or not to show the status bar"
-#~ msgstr "Ĉu montri statbreton"
-
-#~ msgid "Whether or not to show the toolbar"
-#~ msgstr "Ĉu montri ilobreton"
-
-#~ msgid "Select Game"
-#~ msgstr "Elekti ludon"
-
-#~ msgid "_Select"
-#~ msgstr "Elekti"
-
-#~ msgid "FreeCell Solitaire"
-#~ msgstr "FreeCell-paciencludo"
-
-#~ msgid "Play the popular FreeCell card game"
-#~ msgstr "Ludi la popularan kartludon FreeCell"
-
-#~ msgid ""
-#~ "Aisleriot cannot load the file “%s”. Please check your Aisleriot "
-#~ "installation."
-#~ msgstr ""
-#~ "AisleRiot ne povas ŝargi la dosieron “%s”. Bonvolu kontroli vian "
-#~ "instalaĵon de AisleRiot."
-
-#~ msgctxt "slot type"
-#~ msgid "foundation"
-#~ msgstr "fondaĵo"
-
-#~ msgctxt "slot type"
-#~ msgid "reserve"
-#~ msgstr "rezervo"
-
-#~ msgctxt "slot type"
-#~ msgid "stock"
-#~ msgstr "fonto"
-
-#~ msgctxt "slot type"
-#~ msgid "tableau"
-#~ msgstr "tabelo"
-
-#~ msgctxt "slot type"
-#~ msgid "waste"
-#~ msgstr "forĵetejo"
-
-#~ msgctxt "slot hint"
-#~ msgid "%s on foundation"
-#~ msgstr "%s fondaĵen"
-
-#~ msgctxt "slot hint"
-#~ msgid "%s on reserve"
-#~ msgstr "%s rezerven"
-
-#~ msgctxt "slot hint"
-#~ msgid "%s on stock"
-#~ msgstr "%s fonten"
-
-#~ msgctxt "slot hint"
-#~ msgid "%s on tableau"
-#~ msgstr "%s tabelen"
-
-#~ msgctxt "slot hint"
-#~ msgid "%s on waste"
-#~ msgstr "%s forĵetejen"
-
-#~ msgid "Aisleriot cannot find the last game you played."
-#~ msgstr "AisleRiot ne povas trovi la lastan maĉon, kiun vi ludis."
-
-#~ msgid ""
-#~ "This usually occurs when you run an older version of Aisleriot which does "
-#~ "not have the game you last played. The default game, Klondike, is being "
-#~ "started instead."
-#~ msgstr ""
-#~ "Tio kutime okazas, kiam oni lanĉas pli malnovan version de AisleRiot, kiu "
-#~ "ne havas la laston maĉon, kiun vi ludis. La defaŭlta ludo, Klondiko, "
-#~ "komenciĝas anstataŭe."
-
-#~ msgid "This game does not have hint support yet."
-#~ msgstr "Ĉi tiu ludilo ne ankoraŭ subtenas helpindikojn."
-
 #~ msgid "Move %s onto %s."
 #~ msgstr "Movi %s sur %s."
-
-#~ msgid "You are searching for a %s."
-#~ msgstr "Vi serĉas pri %s."
-
-#~ msgid "This game is unable to provide a hint."
-#~ msgstr "Ĉi tiu ludilo ne povas montri helpindikon al vi."
-
-#~ msgid "Peek"
-#~ msgstr "Videtu"
-
-#~ msgid "Auld Lang Syne"
-#~ msgstr "Auld Lang Syne"
-
-#~ msgid "Fortunes"
-#~ msgstr "Fortunoj"
-
-#~ msgid "Seahaven"
-#~ msgstr "Marrestejo"
-
-#~ msgid "King Albert"
-#~ msgstr "Reĝo Alberto"
-
-#~ msgid "First Law"
-#~ msgstr "Unua Leĝo"
-
-#~ msgid "Straight Up"
-#~ msgstr "RekteSupren"
-
-#~ msgid "Jumbo"
-#~ msgstr "Ego"
-
-#~ msgid "Accordion"
-#~ msgstr "Akordiono"
-
-#~ msgid "Ten Across"
-#~ msgstr "Je Dek"
-
-#~ msgid "Plait"
-#~ msgstr "Plektu"
-
-#~ msgid "Lady Jane"
-#~ msgstr "Sinjorino Janjo"
-
-#~ msgid "Gypsy"
-#~ msgstr "Gitane"
-
-#~ msgid "Neighbor"
-#~ msgstr "Najbaro"
-
-#~ msgid "Jamestown"
-#~ msgstr "Praurbeto"
-
-#~ msgid "Osmosis"
-#~ msgstr "Osmozo"
-
-#~ msgid "Kings Audience"
-#~ msgstr "Reĝaŭdantoj"
-
-#~ msgid "Glenwood"
-#~ msgstr "Glenvudo"
-
-#~ msgid "Gay Gordons"
-#~ msgstr "Lililudo"
-
-#~ msgid "Monte Carlo"
-#~ msgstr "Montekarlo"
-
-#~ msgid "Kansas"
-#~ msgstr "Kansaso"
-
-#~ msgid "Camelot"
-#~ msgstr "Kameloto"
-
-#~ msgid "Fourteen"
-#~ msgstr "Dek Kvar"
-
-#~ msgid "Scorpion"
-#~ msgstr "Skorpio"
-
-#~ msgid "Isabel"
-#~ msgstr "Izabela"
-
-#~ msgid "Escalator"
-#~ msgstr "Rulŝtuparo"
-
-#~ msgid "Agnes"
-#~ msgstr "Anjo"
-
-#~ msgid "Bristol"
-#~ msgstr "Bristolo"
-
-#~ msgid "Quatorze"
-#~ msgstr "Kvatorzo"
-
-#~ msgid "Bear River"
-#~ msgstr "Ursrivero"
-
-#~ msgid "Gold Mine"
-#~ msgstr "Orujo"
-
-#~ msgid "Athena"
-#~ msgstr "Ateno"
-
-#~ msgid "Spiderette"
-#~ msgstr "Araneetino"
-
-#~ msgid "Chessboard"
-#~ msgstr "Ŝaktabulumo"
-
-#~ msgid "Backbone"
-#~ msgstr "Vertebraro"
-
-#~ msgid "Yukon"
-#~ msgstr "Jukono"
-
-#~ msgid "Union Square"
-#~ msgstr "Kvadratumo"
-
-#~ msgid "Eight Off"
-#~ msgstr "Okumo"
-
-#~ msgid "Napoleons Tomb"
-#~ msgstr "Maŭzoleo de Napoleono"
-
-#~ msgid "Forty Thieves"
-#~ msgstr "Kvardek Ŝtelistoj"
-
-#~ msgid "Streets And Alleys"
-#~ msgstr "Stratetoj"
-
-#~ msgid "Maze"
-#~ msgstr "Puzlo"
-
-#~ msgid "Clock"
-#~ msgstr "Horloĝo"
-
-#~ msgid "Pileon"
-#~ msgstr "Pileono"
-
-#~ msgid "Canfield"
-#~ msgstr "Skatolkampo"
-
-#~ msgid "Thirteen"
-#~ msgstr "Dek Tri"
-
-#~ msgid "Bakers Game"
-#~ msgstr "Bakistumo"
-
-#~ msgid "Triple Peaks"
-#~ msgstr "Triopkulminaro"
-
-#~ msgid "Easthaven"
-#~ msgstr "Orienthaveno"
-
-#~ msgid "Terrace"
-#~ msgstr "Teraso"
-
-#~ msgid "Aunt Mary"
-#~ msgstr "Onklino Maria"
-
-#~ msgid "Carpet"
-#~ msgstr "Tapiŝo"
-
-#~ msgid "Sir Tommy"
-#~ msgstr "Moŝto Toĉjo"
-
-#~ msgid "Diamond Mine"
-#~ msgstr "Diamantujo"
-
-#~ msgid "Yield"
-#~ msgstr "Profito"
 
 #~ msgid "Labyrinth"
 #~ msgstr "Labirinto"
 
-#~ msgid "Thieves"
-#~ msgstr "Ŝtelistoj"
-
-#~ msgid "Saratoga"
-#~ msgstr "Saratoga"
-
-#~ msgid "Cruel"
-#~ msgstr "Kruela"
-
-#~ msgid "Block Ten"
-#~ msgstr "Ne Dek!"
-
-#~ msgid "Will O The Wisp"
-#~ msgstr "Vaglumo"
-
-#~ msgid "Odessa"
-#~ msgstr "Odeso"
-
-#~ msgid "Eagle Wing"
-#~ msgstr "Agloflugilo"
-
-#~ msgid "Treize"
-#~ msgstr "Trejzo"
-
-#~ msgid "Zebra"
-#~ msgstr "Zebro"
-
-#~ msgid "Cover"
-#~ msgstr "Kovrilo"
-
-#~ msgid "Elevator"
-#~ msgstr "Lifto"
-
-#~ msgid "Fortress"
-#~ msgstr "Fortikaĵo"
-
-#~ msgid "Giant"
-#~ msgstr "Grandegulo"
-
-#~ msgid "Spider"
-#~ msgstr "Araneo"
-
-#~ msgid "Gaps"
-#~ msgstr "Fosaĵoj"
-
-#~ msgid "Bakers Dozen"
-#~ msgstr "Tridekono Bakista"
-
-#~ msgid "Whitehead"
-#~ msgstr "Blankkapo"
-
-#~ msgid "Freecell"
-#~ msgstr "FreeCell"
-
-#~ msgid "Helsinki"
-#~ msgstr "Helsinko"
-
-#~ msgid "Spider Three Decks"
-#~ msgstr "Trikartara Araneo"
-
-#~ msgid "Scuffle"
-#~ msgstr "Kverelado"
-
-#~ msgid "Poker"
-#~ msgstr "Pokero"
-
-#~ msgid "Klondike Three Decks"
-#~ msgstr "Trikartara Klondiko"
-
-#~ msgid "Valentine"
-#~ msgstr "Valenteno"
-
-#~ msgid "Royal East"
-#~ msgstr "Reĝa Oriento"
-
-#~ msgid "Thumb And Pouch"
-#~ msgstr "Dikfingro kaj saketo"
-
-#~ msgid "Klondike"
-#~ msgstr "Klondiko"
-
-#~ msgid "Doublets"
-#~ msgstr "Duopoj"
-
-#~ msgid "Template"
-#~ msgstr "Ŝablono"
-
-#~ msgid "Golf"
-#~ msgstr "Golfo"
-
-#~ msgid "Westhaven"
-#~ msgstr "Okcidenthaveno"
-
-#~ msgid "Beleaguered Castle"
-#~ msgstr "Sieĝata kastelo"
-
-#~ msgid "Hopscotch"
-#~ msgstr "Paradizludo"
-
-#~ msgid "Solitaire"
-#~ msgstr "Paciencludo"
-
-#~ msgid "GNOME Solitaire"
-#~ msgstr "GNOME-paciencludo"
-
-#~ msgid "About Solitaire"
-#~ msgstr "Pri Paciencludo"
-
-#~ msgid "Select the game type to play"
-#~ msgstr "Elektu la ludendan ludtipon"
-
-#~ msgid "Select the game number"
-#~ msgstr "Elektu la ludnumeron"
-
-#~ msgid "AisleRiot"
-#~ msgstr "AisleRiot"
-
-#~ msgid "AisleRiot Solitaire"
-#~ msgstr "AisleRiot-paciencludaro"
-
-#~ msgid "Play many different solitaire games"
-#~ msgstr "Ludu plurajn diversajn paciencludojn"
-
-#~ msgid "Unknown color"
-#~ msgstr "Nekonata koloro"
-
-#~ msgid "Unknown suit"
-#~ msgstr "Nekonata emblemo"
-
 #~ msgid "Unknown value"
 #~ msgstr "Nekonata valoro"
-
-#~ msgid "ace"
-#~ msgstr "aso"
-
-#~ msgid "black joker"
-#~ msgstr "nigra ĵokero"
-
-#~ msgid "clubs"
-#~ msgstr "trefo"
-
-#~ msgid "diamonds"
-#~ msgstr "karooj"
 
 #~ msgid "eight"
 #~ msgstr "ok"
@@ -5265,23 +5021,11 @@ msgstr "Ege"
 #~ msgid "four"
 #~ msgstr "kvar"
 
-#~ msgid "hearts"
-#~ msgstr "keroj"
-
-#~ msgid "jack"
-#~ msgstr "fanto"
-
-#~ msgid "king"
-#~ msgstr "reĝo"
-
 #~ msgid "nine"
 #~ msgstr "naŭ"
 
 #~ msgid "queen"
 #~ msgstr "damo"
-
-#~ msgid "red joker"
-#~ msgstr "ruĝa ĵokero"
 
 #~ msgid "seven"
 #~ msgstr "sep"
@@ -5289,194 +5033,14 @@ msgstr "Ege"
 #~ msgid "six"
 #~ msgstr "ses"
 
-#~ msgid "spades"
-#~ msgstr "piko"
-
 #~ msgid "ten"
 #~ msgstr "dek"
-
-#~ msgid "the ace of clubs"
-#~ msgstr "la trefan ason"
-
-#~ msgid "the ace of diamonds"
-#~ msgstr "la karoan ason"
-
-#~ msgid "the ace of hearts"
-#~ msgstr "la keran ason"
-
-#~ msgid "the ace of spades"
-#~ msgstr "la pikan ason"
-
-#~ msgid "the eight of clubs"
-#~ msgstr "la trefan okon"
-
-#~ msgid "the eight of diamonds"
-#~ msgstr "la karoan okon"
-
-#~ msgid "the eight of hearts"
-#~ msgstr "la keran okon"
-
-#~ msgid "the eight of spades"
-#~ msgstr "la pikan okon"
-
-#~ msgid "the five of clubs"
-#~ msgstr "la trefan kvinon"
-
-#~ msgid "the five of diamonds"
-#~ msgstr "la karoan kvinon"
-
-#~ msgid "the five of hearts"
-#~ msgstr "la keran kvinon"
-
-#~ msgid "the five of spades"
-#~ msgstr "la pikan kvinon"
-
-#~ msgid "the four of clubs"
-#~ msgstr "la trefan kvaron"
-
-#~ msgid "the four of diamonds"
-#~ msgstr "la karoan kvaron"
-
-#~ msgid "the four of hearts"
-#~ msgstr "la keran kvaron"
-
-#~ msgid "the four of spades"
-#~ msgstr "la pikan kvaron"
-
-#~ msgid "the jack of clubs"
-#~ msgstr "la trefan fanton"
-
-#~ msgid "the jack of diamonds"
-#~ msgstr "la karoan fanton"
-
-#~ msgid "the jack of hearts"
-#~ msgstr "la keran fanton"
-
-#~ msgid "the jack of spades"
-#~ msgstr "la pikan fanton"
-
-#~ msgid "the king of clubs"
-#~ msgstr "la trefan reĝon"
-
-#~ msgid "the king of diamonds"
-#~ msgstr "la karoan reĝon"
-
-#~ msgid "the king of hearts"
-#~ msgstr "la keran reĝon"
-
-#~ msgid "the king of spades"
-#~ msgstr "la pikan reĝon"
-
-#~ msgid "the nine of clubs"
-#~ msgstr "la trafan naŭon"
-
-#~ msgid "the nine of diamonds"
-#~ msgstr "la karoan naŭon"
-
-#~ msgid "the nine of hearts"
-#~ msgstr "la keran naŭon"
-
-#~ msgid "the nine of spades"
-#~ msgstr "la pikan naŭon"
-
-#~ msgid "the queen of clubs"
-#~ msgstr "la trefan damon"
-
-#~ msgid "the queen of diamonds"
-#~ msgstr "la karoan damon"
-
-#~ msgid "the queen of hearts"
-#~ msgstr "la keran damon"
-
-#~ msgid "the queen of spades"
-#~ msgstr "la pikan damon"
-
-#~ msgid "the seven of clubs"
-#~ msgstr "la trefan sepon"
-
-#~ msgid "the seven of diamonds"
-#~ msgstr "la karoan sepon"
-
-#~ msgid "the seven of hearts"
-#~ msgstr "la keran sepon"
-
-#~ msgid "the seven of spades"
-#~ msgstr "la pikan sepon"
-
-#~ msgid "the six of clubs"
-#~ msgstr "la trefan seson"
-
-#~ msgid "the six of diamonds"
-#~ msgstr "la karoan seson"
-
-#~ msgid "the six of hearts"
-#~ msgstr "la keran seson"
-
-#~ msgid "the six of spades"
-#~ msgstr "la pikan seson"
-
-#~ msgid "the ten of clubs"
-#~ msgstr "la trefan dekon"
-
-#~ msgid "the ten of diamonds"
-#~ msgstr "la karoan dekon"
-
-#~ msgid "the ten of hearts"
-#~ msgstr "la keran dekon"
-
-#~ msgid "the ten of spades"
-#~ msgstr "la pikan dekon"
-
-#~ msgid "the three of clubs"
-#~ msgstr "la trefan trion"
-
-#~ msgid "the three of diamonds"
-#~ msgstr "la karoan trion"
-
-#~ msgid "the three of hearts"
-#~ msgstr "la keran trion"
-
-#~ msgid "the three of spades"
-#~ msgstr "la pikan trion"
-
-#~ msgid "the two of clubs"
-#~ msgstr "la trefan duon"
-
-#~ msgid "the two of diamonds"
-#~ msgstr "la karoan duon"
-
-#~ msgid "the two of hearts"
-#~ msgstr "la keran duon"
-
-#~ msgid "the two of spades"
-#~ msgstr "la pikan duon"
-
-#~ msgid "the unknown card"
-#~ msgstr "la nekonatan karton"
 
 #~ msgid "three"
 #~ msgstr "tri"
 
 #~ msgid "two"
 #~ msgstr "du"
-
-#~ msgid "Wins:"
-#~ msgstr "Gajnoj:"
-
-#~ msgid "Total:"
-#~ msgstr "Entute:"
-
-#~ msgid "Percentage:"
-#~ msgstr "Elcente:"
-
-#~ msgid "Wins"
-#~ msgstr "Gajnoj"
-
-#~ msgid "Best:"
-#~ msgstr "Plej bona:"
-
-#~ msgid "Worst:"
-#~ msgstr "Plej malbona:"
 
 #~ msgid "Statistics"
 #~ msgstr "Statistikoj"
@@ -5487,117 +5051,21 @@ msgstr "Ege"
 #~ msgid "%d%%"
 #~ msgstr "%d%%"
 
-#~ msgid "N/A"
-#~ msgstr "(neaplikebla)"
-
 #~ msgid "%d:%02d"
 #~ msgstr "%d:%02d"
 
-#~ msgid "Congratulations, you have won!"
-#~ msgstr "Gratulojn, vi gajnis!"
-
-#~ msgid "There are no more moves"
-#~ msgstr "Neniu pli movoj"
-
-#~ msgid "Card games:"
-#~ msgstr "Kartludoj:"
-
-#~ msgid "Card themes:"
-#~ msgstr "Kartetosoj:"
-
-#~ msgid "About FreeCell Solitaire"
-#~ msgstr "Pri FreeCell-paciencludo"
-
-#~ msgid "About AisleRiot"
-#~ msgstr "Pri AisleRiot"
-
-#~ msgid ""
-#~ "AisleRiot provides a rule-based solitaire card engine that allows many "
-#~ "different games to be played.\n"
-#~ "AisleRiot is a part of GNOME Games."
-#~ msgstr ""
-#~ "AisleRiot donas paciencludan modulon regularbazitan, kiu permesas la "
-#~ "ludadon de plurajn diversajn ludojn.\n"
-#~ "AisleRiot estas ero de GNOME-ludiloj."
-
 #~ msgid "Play “%s”"
 #~ msgstr "Ludi “%s”"
-
-#~ msgid "Display cards with “%s” card theme"
-#~ msgstr "Montri kartojn kun kartetoso “%s”"
 
 #~ msgctxt "score"
 #~ msgid "%6d"
 #~ msgstr "%6d"
 
-#~ msgid "A scheme exception occurred"
-#~ msgstr "Skema escepto okazis."
-
-#~ msgid "Please report this bug to the developers."
-#~ msgstr "Bonvolu informi la programistojn pri ĉi tiu cimo."
-
-#~ msgid "Error"
-#~ msgstr "Eraro"
-
-#~ msgid "_Don't report"
-#~ msgstr "Ne raporti"
-
 #~ msgid "_Report"
 #~ msgstr "_Raporti"
 
-#~ msgid "Freecell Solitaire"
-#~ msgstr "FreeCell-paciencludo"
-
-#~ msgid "_Control"
-#~ msgstr "Stiro"
-
-#~ msgid "_Select Game..."
-#~ msgstr "Elekti ludon..."
-
-#~ msgid "Play a different game"
-#~ msgstr "Ludi alian ludon"
-
-#~ msgid "_Recently Played"
-#~ msgstr "Antaŭnelonge luditaj"
-
-#~ msgid "S_tatistics"
-#~ msgstr "S_tatitiskoj"
-
-#~ msgid "Show gameplay statistics"
-#~ msgstr "Montri ludajn statitiskojn"
-
-#~ msgid "Deal next card or cards"
-#~ msgstr "Disdoni sevka(j)n karto(j)n"
-
-#~ msgid "View help for Aisleriot"
-#~ msgstr "Vidi helpon por AisleRiot"
-
-#~ msgid "Install card themes…"
-#~ msgstr "Instali kartetosojn…"
-
-#~ msgid "Install new card themes from the distribution packages repositories"
-#~ msgstr "Instali novajn kartetosojn de la distribuaĵpakaĵaj deponejoj"
-
-#~ msgid "_Card Style"
-#~ msgstr "Kartetoso"
-
-#~ msgid "_Statusbar"
-#~ msgstr "_Statobreto"
-
-#~ msgid "Show or hide statusbar"
-#~ msgstr "Montri aŭ kaŝi la statobreton"
-
-#~ msgid "Pick up and drop cards by clicking"
-#~ msgstr "Prenu kaj metu kartojn per klakado"
-
 #~ msgid "_Sound"
 #~ msgstr "_Sono"
-
-#~ msgid "Whether or not to play event sounds"
-#~ msgstr "Ĉu ludi eventajn sonojn"
-
-#~ msgid "Cannot start the game “%s”"
-#~ msgstr "Ne povas starti la ludon “%s”"
 
 #~ msgctxt "card symbol"
 #~ msgid "JOKER"
@@ -5628,10 +5096,6 @@ msgstr "Ege"
 #~ msgstr "6"
 
 #~ msgctxt "card symbol"
-#~ msgid "7"
-#~ msgstr "7"
-
-#~ msgctxt "card symbol"
 #~ msgid "8"
 #~ msgstr "8"
 
@@ -5640,685 +5104,12 @@ msgstr "Ege"
 #~ msgstr "9"
 
 #~ msgctxt "card symbol"
-#~ msgid "J"
-#~ msgstr "F"
-
-#~ msgctxt "card symbol"
 #~ msgid "Q"
 #~ msgstr "D"
 
 #~ msgctxt "card symbol"
-#~ msgid "K"
-#~ msgstr "R"
-
-#~ msgctxt "card symbol"
 #~ msgid "1"
 #~ msgstr "1"
-
-#~ msgid "ace of clubs"
-#~ msgstr "trefa aso"
-
-#~ msgid "two of clubs"
-#~ msgstr "trefa duo"
-
-#~ msgid "three of clubs"
-#~ msgstr "trefa tri"
-
-#~ msgid "four of clubs"
-#~ msgstr "trefa kvaro"
-
-#~ msgid "five of clubs"
-#~ msgstr "trefa kvino"
-
-#~ msgid "six of clubs"
-#~ msgstr "trefa seso"
-
-#~ msgid "seven of clubs"
-#~ msgstr "trefa sepo"
-
-#~ msgid "eight of clubs"
-#~ msgstr "trefa oko"
-
-#~ msgid "nine of clubs"
-#~ msgstr "trefa naŭo"
-
-#~ msgid "ten of clubs"
-#~ msgstr "trefa deko"
-
-#~ msgid "jack of clubs"
-#~ msgstr "trefa fanto"
-
-#~ msgid "queen of clubs"
-#~ msgstr "trefa damo"
-
-#~ msgid "king of clubs"
-#~ msgstr "trefa reĝo"
-
-#~ msgid "ace of diamonds"
-#~ msgstr "karoa aso"
-
-#~ msgid "two of diamonds"
-#~ msgstr "karoa duo"
-
-#~ msgid "three of diamonds"
-#~ msgstr "karoa trio"
-
-#~ msgid "four of diamonds"
-#~ msgstr "karoa kvaro"
-
-#~ msgid "five of diamonds"
-#~ msgstr "karoa kvino"
-
-#~ msgid "six of diamonds"
-#~ msgstr "karoa seso"
-
-#~ msgid "seven of diamonds"
-#~ msgstr "karoa sepo"
-
-#~ msgid "eight of diamonds"
-#~ msgstr "karoa oko"
-
-#~ msgid "nine of diamonds"
-#~ msgstr "karoa naŭo"
-
-#~ msgid "ten of diamonds"
-#~ msgstr "karoa deko"
-
-#~ msgid "jack of diamonds"
-#~ msgstr "karoa fanto"
-
-#~ msgid "queen of diamonds"
-#~ msgstr "karoa damo"
-
-#~ msgid "king of diamonds"
-#~ msgstr "karoa reĝo"
-
-#~ msgid "ace of hearts"
-#~ msgstr "kera aso"
-
-#~ msgid "two of hearts"
-#~ msgstr "kera duo"
-
-#~ msgid "three of hearts"
-#~ msgstr "kera trio"
-
-#~ msgid "four of hearts"
-#~ msgstr "kera kvaro"
-
-#~ msgid "five of hearts"
-#~ msgstr "kera kvino"
-
-#~ msgid "six of hearts"
-#~ msgstr "kera seso"
-
-#~ msgid "seven of hearts"
-#~ msgstr "kera sepo"
-
-#~ msgid "eight of hearts"
-#~ msgstr "kera oko"
-
-#~ msgid "nine of hearts"
-#~ msgstr "kera naŭo"
-
-#~ msgid "ten of hearts"
-#~ msgstr "kera deko"
-
-#~ msgid "jack of hearts"
-#~ msgstr "kera fanto"
-
-#~ msgid "queen of hearts"
-#~ msgstr "kera damo"
-
-#~ msgid "king of hearts"
-#~ msgstr "kera reĝo"
-
-#~ msgid "ace of spades"
-#~ msgstr "pika aso"
-
-#~ msgid "two of spades"
-#~ msgstr "pika duo"
-
-#~ msgid "three of spades"
-#~ msgstr "pika tri"
-
-#~ msgid "four of spades"
-#~ msgstr "pika kvaro"
-
-#~ msgid "five of spades"
-#~ msgstr "pika kvino"
-
-#~ msgid "six of spades"
-#~ msgstr "pika seso"
-
-#~ msgid "seven of spades"
-#~ msgstr "pika sepo"
-
-#~ msgid "eight of spades"
-#~ msgstr "pika oko"
-
-#~ msgid "nine of spades"
-#~ msgstr "pika naŭo"
-
-#~ msgid "ten of spades"
-#~ msgstr "pika deko"
-
-#~ msgid "jack of spades"
-#~ msgstr "pika fanto"
-
-#~ msgid "queen of spades"
-#~ msgstr "pika damo"
-
-#~ msgid "king of spades"
-#~ msgstr "pika reĝo"
-
-#~ msgid "face-down card"
-#~ msgstr "frontomalsupra karto"
-
-#~ msgid "Base Card: Ace"
-#~ msgstr "Fonda karto: aso"
-
-#~ msgid "Base Card: Jack"
-#~ msgstr "Fonda karto: fanto"
-
-#~ msgid "Base Card: King"
-#~ msgstr "Fonda karto: reĝo"
-
-#~ msgid "Base Card: Queen"
-#~ msgstr "Fonda karto: damo"
-
-#~ msgid "Base Card: ~a"
-#~ msgstr "Fonda karto: ~a"
-
-#~ msgid "Deal more cards"
-#~ msgstr "Disdoni pliajn kartojn"
-
-#~ msgid "Stock left:"
-#~ msgstr "Restantaj fonteroj:"
-
-#~ msgid "Stock left: 0"
-#~ msgstr "Restantaj fonteroj: 0"
-
-#~ msgid "Try rearranging the cards"
-#~ msgstr "Provu rearanĝi la kartojn"
-
-#~ msgid "an empty foundation pile"
-#~ msgstr "malplena fondaĵo"
-
-#~ msgid "Three card deals"
-#~ msgstr "Tri-kartaj disdonoj"
-
-#~ msgid "Deal another round"
-#~ msgstr "Disdoni pluan rondiron"
-
-#~ msgid "Deal a new card from the deck"
-#~ msgstr "Disdoni novan karton de la kartaro"
-
-#~ msgid "Redeals left:"
-#~ msgstr "Restantaj redisdonoj:"
-
-#~ msgid "an empty slot on the foundation"
-#~ msgstr "malplena fondaĵo"
-
-#~ msgid "an empty slot on the tableau"
-#~ msgstr "malplena tabelero"
-
-#~ msgid "an empty foundation"
-#~ msgstr "malplena fondaĵo"
-
-#~ msgid "Base Card: "
-#~ msgstr "Baza karto: "
-
-#~ msgid "Move something onto an empty right-hand tableau slot"
-#~ msgstr "Movu ion al malplena dekstra tabelero"
-
-#~ msgid "an empty foundation slot"
-#~ msgstr "malplena fondaĵo"
-
-#~ msgid "an empty bottom slot"
-#~ msgstr "malplena malsupra kartujo"
-
-#~ msgid "an empty corner slot"
-#~ msgstr "malplena angula kartujo"
-
-#~ msgid "an empty left slot"
-#~ msgstr "malplena maldekstra kartujo"
-
-#~ msgid "an empty right slot"
-#~ msgstr "malplena dekstra kartujo"
-
-#~ msgid "an empty slot"
-#~ msgstr "malplena kartujo"
-
-#~ msgid "an empty top slot"
-#~ msgstr "malplena supra kartujo"
-
-#~ msgid "itself"
-#~ msgstr "mem"
-
-#~ msgid "Move waste back to stock"
-#~ msgstr "Removi forĵetaĵojn fontejen"
-
-#~ msgid "Reserve left:"
-#~ msgstr "Restanta reservo:"
-
-#~ msgid "empty slot on foundation"
-#~ msgstr "malplena fondaĵo"
-
-#~ msgid "empty space on tableau"
-#~ msgstr "malplena tabela kartujo"
-
-#~ msgid "Move a card to the Foundation"
-#~ msgstr "Movu karton fondaĵen"
-
-#~ msgid "Move something into the empty Tableau slot"
-#~ msgstr "Movu ion malplentabeleren"
-
-#~ msgid "Consistency is key"
-#~ msgstr "Konsekvencoj gravegas"
-
-#~ msgid "Fishing wire makes bad dental floss"
-#~ msgstr "Fiŝkaptadaj ŝnuretoj estas malbonaj kiel dentfadenoj"
-
-#~ msgid "Have you read the help file?"
-#~ msgstr "Ĉu vi legis la helpdosieron?"
-
-#~ msgid "I could sure use a backrub right about now..."
-#~ msgstr "Mi ja volas esti masaĝata al la dorso nune..."
-
-#~ msgid "If you're ever lost and alone in the woods, hug a tree"
-#~ msgstr "Se vi iam estos vojerarinta kaj sola en arbaro, brakumu arbon"
-
-#~ msgid ""
-#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
-#~ "one"
-#~ msgstr "Zorgu! Zebrostria pasejo kelkfoje ŝajnas al iuj kiel paradizludejo."
-
-#~ msgid "Look both ways before you cross the street"
-#~ msgstr ""
-#~ "Rigardu kaj dekstren kaj maldekstren antaŭ ke vi transiros la straton"
-
-#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
-#~ msgstr "Vi ne akiros vitaminon D de ekranoj—sed de la suno ja..."
-
-#~ msgid "Never blow in a dog's ear"
-#~ msgstr "Nepre ne blovu en kanan orelon"
-
-#~ msgid "Odessa is a better game.  Really."
-#~ msgstr "Odessa estas pli bona ludo. Vere."
-
-#~ msgid "Tourniquets are not recommended unless in the direst emergency"
-#~ msgstr "Oni ne rekomensas garotojn krom se estas grandega krizego"
-
-#~ msgid "When without a stapler, a staple and a ruler will work"
-#~ msgstr "Kiam oni ne havas krampilon, krampo kaj liniilo taŭgus"
-
-#~ msgid "Cards remaining: ~a"
-#~ msgstr "Restantaj kartoj: ~a"
-
-#~ msgid "Redeal."
-#~ msgstr "Redisdonu."
-
-#~ msgid "the foundation pile"
-#~ msgstr "la fondaĵo"
-
-#~ msgid "Deal a card"
-#~ msgstr "Disdoni karton"
-
-#~ msgid "Move ~a to an empty foundation"
-#~ msgstr "Movu ~a al malplena fondaĵo"
-
-#~ msgid "an empty slot on tableau"
-#~ msgstr "malplena tabelero"
-
-#~ msgid "Move a King on to the empty tableau slot"
-#~ msgstr "Movu reĝon al la malplena tabelero"
-
-#~ msgid "No hint available right now"
-#~ msgstr "Helpindiko ne disponeblas nune"
-
-#~ msgid "Move something on to an empty reserve"
-#~ msgstr "Movu ion al malplena reservo"
-
-#~ msgid "an empty tableau"
-#~ msgstr "malplena tabelero"
-
-#~ msgid "I'm not sure"
-#~ msgstr "Mi ne certas"
-
-#~ msgid "Remove the aces"
-#~ msgstr "Elpreni la asojn"
-
-#~ msgid "Remove the eights"
-#~ msgstr "Elpreni la okojn"
-
-#~ msgid "Remove the fives"
-#~ msgstr "Elpreni la kvinojn"
-
-#~ msgid "Remove the fours"
-#~ msgstr "Elpreni la kvarojn"
-
-#~ msgid "Remove the jacks"
-#~ msgstr "Elpreni la fantojn"
-
-#~ msgid "Remove the kings"
-#~ msgstr "Elpreni la reĝojn"
-
-#~ msgid "Remove the nines"
-#~ msgstr "Elpreni la naŭojn"
-
-#~ msgid "Remove the queens"
-#~ msgstr "Elpreni la damojn"
-
-#~ msgid "Remove the sevens"
-#~ msgstr "Elpreni la sepojn"
-
-#~ msgid "Remove the sixes"
-#~ msgstr "Elpreni la sesojn"
-
-#~ msgid "Remove the tens"
-#~ msgstr "Elpreni la dekojn"
-
-#~ msgid "Remove the threes"
-#~ msgstr "Elpreni la triojn"
-
-#~ msgid "Remove the twos"
-#~ msgstr "Elpreni la duojn"
-
-#~ msgid "Return cards to stock"
-#~ msgstr "Removi kartojn fonten"
-
-#~ msgid "Consider moving something into an empty slot"
-#~ msgstr "Pripensi movi ion al malplena kartejo"
-
-#~ msgid "Move ~a off the board"
-#~ msgstr "Movi ~a foren"
-
-#~ msgid "Bug! make-hint called on false move."
-#~ msgstr "Cimo! Oni montris helpindikon por malpermesita movo."
-
-#~ msgid "Deal a card from stock"
-#~ msgstr "Disdoni karton el la fonto"
-
-#~ msgid "an empty space"
-#~ msgstr "malplena kartujo"
-
-#~ msgid "No moves are possible. Undo or start again."
-#~ msgstr "Neniu movo eblas. Malfaru aŭ rekomencu."
-
-#~ msgid "The game has no solution. Undo or start again."
-#~ msgstr "Ĉi tiu ludilo havas neniun solvon. Malfaru aŭ rekomencu."
-
-#~ msgid "an empty reserve"
-#~ msgstr "malplena reservo"
-
-#~ msgid "an open tableau"
-#~ msgstr "malfermita tabelero"
-
-#~ msgid "the foundation"
-#~ msgstr "la fondaĵo"
-
-#~ msgid "Add to the sequence in row ~a."
-#~ msgstr "Aldoni al la sekvenco en la ~a-a vico."
-
-#~ msgid "Double click any card to redeal."
-#~ msgstr "Duoble alklaki iun ajn karton por redisdoni."
-
-#~ msgid "No hint available."
-#~ msgstr "Neniu helpindiko disponeblas."
-
-#~ msgid "Place a two in the leftmost slot of row ~a."
-#~ msgstr "Meti duon en la plej maldekstra kartujo de la ~a-a vico."
-
-#~ msgid "Place the ~a next to ~a."
-#~ msgstr "Meti la ~a apud ~a."
-
-#~ msgid "Randomly Placed Gaps on Redeal"
-#~ msgstr "Hazardaj spacoj inter kartoj je redisdono"
-
-#~ msgid "Alternating colors"
-#~ msgstr "Alternaj koloroj"
-
-#~ msgid "Deal a row"
-#~ msgstr "Disdoni vicon"
-
-#~ msgid "Deals left: ~a"
-#~ msgstr "Restantaj disdonoj: ~a"
-
-#~ msgid "Same suit"
-#~ msgstr "Sama emblemo"
-
-#~ msgid "Try dealing a row of cards"
-#~ msgstr "Provu disdoni kartvicon"
-
-#~ msgid "Try moving a card to the reserve"
-#~ msgstr "Provu movi karton reserven"
-
-#~ msgid "Try moving card piles around"
-#~ msgstr "Provu movadi kartpilojn tien kaj reen"
-
-#~ msgid "an empty foundation place"
-#~ msgstr "malplena fondaĵo"
-
-#~ msgid "an empty tableau place"
-#~ msgstr "malplena tabelero"
-
-#~ msgid "Move a card from the reserve on to the empty tableau slot"
-#~ msgstr "Movu karton de la reservo al la malplena tabelero"
-
-#~ msgid "Select a card from the reserve for first foundation pile"
-#~ msgstr "Elektu karton de la reservo por fari la unuan fondaĵon"
-
-#~ msgid "on to the empty tableau slot"
-#~ msgstr "al la malplena tabelero"
-
-#~ msgid "Deal another card"
-#~ msgstr "Disdoni pluan karton"
-
-#~ msgid "Stock left: ~a"
-#~ msgstr "Restantaj fonteroj: ~a"
-
-#~ msgid "Deal another hand"
-#~ msgstr "Disdoni pluan rondiron"
-
-#~ msgid "Move a card or build of cards on to the empty slot"
-#~ msgstr "Movu karton aŭ kartgrupon en la malplenan kartujon"
-
-#~ msgid "Move card from waste"
-#~ msgstr "Movi karton de la forĵetejo"
-
-#~ msgid "Move waste to stock"
-#~ msgstr "Movi forĵetaĵojn fontejen"
-
-#~ msgid "an empty tableau slot"
-#~ msgstr "malplena tabelero"
-
-#~ msgid "Deal a new card"
-#~ msgstr "Disdoni novan karton"
-
-#~ msgid "Stock remaining: ~a"
-#~ msgstr "Restantaj fonteroj: ~a"
-
-#~ msgid "No redeals"
-#~ msgstr "Neniu redisdono"
-
-#~ msgid "Single card deals"
-#~ msgstr "Unuopa-kartaj disdonoj"
-
-#~ msgid "Try moving cards down from the foundation"
-#~ msgstr "Provu movi kartojn for de la fondaĵo"
-
-#~ msgid "Base Card:"
-#~ msgstr "Bazkarto:"
-
-#~ msgid ""
-#~ "Aim to place the suits in the order which fits the current layout most "
-#~ "naturally."
-#~ msgstr ""
-#~ "Provu meti la emblemojn en la ordon, kiu taŭgas al la nuna situacio plej "
-#~ "nature."
-
-#~ msgid "Deal new cards from the deck"
-#~ msgstr "Disdoni novajn kartojn de la kartaro"
-
-#~ msgid "Redeals left: ~a"
-#~ msgstr "Restantaj redisdonoj: ~a"
-
-#~ msgid "something"
-#~ msgstr "ion"
-
-#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
-#~ msgstr "Movu ~a de la fonto al malplena rando aŭ tabelero"
-
-#~ msgid "Move ~a to an empty field"
-#~ msgstr "Movu ~a al malplena kartujo"
-
-#~ msgid "Place cards on to the Tableau to form poker hands"
-#~ msgstr "Metu kartojn sur la tabelo por formi pokermanoj"
-
-#~ msgid "Shuffle mode"
-#~ msgstr "Miksa reĝimo"
-
-#~ msgid "an empty tableau pile"
-#~ msgstr "malplena tabelero"
-
-#~ msgid "Deal the cards"
-#~ msgstr "Disdoni la kartojn"
-
-#~ msgid "Reshuffle cards"
-#~ msgstr "Remiksi la kartojn"
-
-#~ msgid "Move waste on to a reserve slot"
-#~ msgstr "Movu forĵetaĵoj reserven"
-
-#~ msgid "empty foundation"
-#~ msgstr "malplena fondaĵo"
-
-#~ msgid "Four Suits"
-#~ msgstr "Kvarembleme"
-
-#~ msgid "One Suit"
-#~ msgstr "Unuembleme"
-
-#~ msgid "Place something on empty slot"
-#~ msgstr "Metu ion en malplenan kartujon"
-
-#~ msgid "Please fill in empty pile first."
-#~ msgstr "Bonvolu plenigi malplenan kartujon unue."
-
-#~ msgid "Two Suits"
-#~ msgstr "Duembleme"
-
-#~ msgid "Undo until there are enough cards to fill all tableau piles"
-#~ msgstr "Malfari ĝis, ke estas sufiĉe da kartoj por plenigi ĉiujn tabelerojn"
-
-#~ msgid "Allow temporary spots use"
-#~ msgstr "Permesi la uzon de nedaŭraj kartujoj"
-
-#~ msgid "Move a card to an empty temporary slot"
-#~ msgstr "Movu karton en malplenan nedaŭran kartujon"
-
-#~ msgid "No hint available"
-#~ msgstr "Neniu konsileto disponeblas."
-
-#~ msgid "Blondes and Brunettes"
-#~ msgstr "Blondulinoj kaj Brunulinoj"
-
-#~ msgid "Falling Stars"
-#~ msgstr "Steloj Falantaj"
-
-#~ msgid "General's Patience"
-#~ msgstr "Generala Pacienco"
-
-#~ msgid "Redheads"
-#~ msgstr "Ruĝharulinoj"
-
-#~ msgid "Signora"
-#~ msgstr "Sinjorino"
-
-#~ msgid "Wood"
-#~ msgstr "Ligno"
-
-#~ msgid "Deal a card from the deck"
-#~ msgstr "Disdoni karton de la kartaro"
-
-#~ msgid "Match the top two cards of the waste."
-#~ msgstr "Kongruigu la du unuajn kartojn de la elĵetaĵoj."
-
-#~ msgid "Multiplier Scoring"
-#~ msgstr "Multiplikanta poentado"
-
-#~ msgid "Progressive Rounds"
-#~ msgstr "Progresantaj rondiroj"
-
-#~ msgid "appropriate foundation pile"
-#~ msgstr "taŭga fondaĵo"
-
-#~ msgid "Move a build of cards on to the empty Tableau slot"
-#~ msgstr "Movu kartkonstruitaĵon al la malplena tabelero"
-
-#~ msgid "the appropriate Foundation pile"
-#~ msgstr "la taŭga fondaĵo"
-
-#~ msgid "Sudoku incorrectly installed"
-#~ msgstr "Sudoko ne estas korekte instalita"
-
-#~ msgid ""
-#~ "Sudoku is not able to start because required application files are not "
-#~ "installed. If you are currently upgrading your system please wait until "
-#~ "the upgrade has completed."
-#~ msgstr ""
-#~ "Sudoko ne eblas starti ĉar necesataj aplikaĵdosieroj ne estas instalitaj. "
-#~ "Se vi estas nune ĝisdatiganta vian sistemon, bonvolu atendi ĝis la "
-#~ "plenumado de la ĝisdatigoj."
-
-#~ msgid "GNOME Sudoku"
-#~ msgstr "GNOME-sudoko"
-
-#~ msgid ""
-#~ "GNOME Sudoku is a simple Sudoku generator and player. Sudoku is a "
-#~ "Japanese logic puzzle.\n"
-#~ "\n"
-#~ "GNOME Sudoku is a part of GNOME Games."
-#~ msgstr ""
-#~ "GNOME-sudoko estas simpla sudoka kreilo kaj ludilo. Sudoko estas japana "
-#~ "logika puzlo.\n"
-#~ "\n"
-#~ "GNOME-sudoko estas ero de GNOME-ludiloj."
-
-#~ msgid ""
-#~ "%s is free software; you can redistribute it and/or modify it under the "
-#~ "terms of the GNU General Public License as published by the Free Software "
-#~ "Foundation; either version 2 of the License, or (at your option) any "
-#~ "later version."
-#~ msgstr ""
-#~ "%s estas libera programo; oni rajtas redistribuii kaj/aŭ modifi ĝin laŭ "
-#~ "la kondiĉoj de la GNU Ĝenerala Publika Permesilo, disponigita de la "
-#~ "Libera Programara Fondaĵo; aŭ versio 2 de la Permesilo, aŭ (laŭvole) iu "
-#~ "ajn estonta versio."
-
-#~ msgid "Unable to make data directory %(dir)s: %(error)s"
-#~ msgstr "Ne eblas krei datumdosierujon %(dir)s: %(error)s"
-
-#~ msgid "X align"
-#~ msgstr "X-ĝisrandigo"
-
-#~ msgid "Y align"
-#~ msgstr "Y-ĝisrandigo"
-
-#~ msgid "Could not show link"
-#~ msgstr "Ligilo ne montreblis"
-
-#~ msgid "_About"
-#~ msgstr "_Pri"
-
-#~ msgid "_Cancel"
-#~ msgstr "_Nuligu"
-
-#~ msgid "_Close"
-#~ msgstr "_Fermu"
-
-#~ msgid "_OK"
-#~ msgstr "_Bone"
 
 #~ msgid "<b>Game</b>"
 #~ msgstr "<b>Ludo</b>"
@@ -6429,11 +5220,783 @@ msgstr "Ege"
 #~ msgid " "
 #~ msgstr " "
 
+#~ msgid "_OK"
+#~ msgstr "_Bone"
+
+#~ msgctxt "slot type"
+#~ msgid "foundation"
+#~ msgstr "fondaĵo"
+
+#~ msgid "Neighbor"
+#~ msgstr "Najbaro"
+
+#~ msgid "King Albert"
+#~ msgstr "Reĝo Alberto"
+
+#~ msgid "Isabel"
+#~ msgstr "Izabela"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "Onklino Maria"
+
+#~ msgid "Thieves"
+#~ msgstr "Ŝtelistoj"
+
+#~ msgid "There are no more moves"
+#~ msgstr "Neniu pli movoj"
+
+#~ msgid "Whether or not to animate card moves."
+#~ msgstr "Ĉu animi kartajn movojn."
+
+#~ msgid "Theme file name"
+#~ msgstr "Etosa dosiernomo"
+
+#~ msgid "Whether or not to show the toolbar"
+#~ msgstr "Ĉu montri ilobreton"
+
+#~ msgid "Select Game"
+#~ msgstr "Elekti ludon"
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on stock"
+#~ msgstr "%s fonten"
+
+#~ msgctxt "slot type"
+#~ msgid "stock"
+#~ msgstr "fonto"
+
+#~ msgctxt "slot type"
+#~ msgid "reserve"
+#~ msgstr "rezervo"
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on foundation"
+#~ msgstr "%s fondaĵen"
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on reserve"
+#~ msgstr "%s rezerven"
+
+#~ msgid "Auld Lang Syne"
+#~ msgstr "Auld Lang Syne"
+
+#~ msgid "Peek"
+#~ msgstr "Videtu"
+
+#~ msgid "Jumbo"
+#~ msgstr "Ego"
+
+#~ msgid "Plait"
+#~ msgstr "Plektu"
+
+#~ msgid "Ten Across"
+#~ msgstr "Je Dek"
+
+#~ msgid "Seahaven"
+#~ msgstr "Marrestejo"
+
+#~ msgid "Lady Jane"
+#~ msgstr "Sinjorino Janjo"
+
+#~ msgid "Osmosis"
+#~ msgstr "Osmozo"
+
+#~ msgid "Gay Gordons"
+#~ msgstr "Lililudo"
+
+#~ msgid "Jamestown"
+#~ msgstr "Praurbeto"
+
+#~ msgid "Camelot"
+#~ msgstr "Kameloto"
+
+#~ msgid "Monte Carlo"
+#~ msgstr "Montekarlo"
+
+#~ msgid "Kings Audience"
+#~ msgstr "Reĝaŭdantoj"
+
+#~ msgid "Scorpion"
+#~ msgstr "Skorpio"
+
+#~ msgid "Escalator"
+#~ msgstr "Rulŝtuparo"
+
+#~ msgid "Agnes"
+#~ msgstr "Anjo"
+
+#~ msgid "Spiderette"
+#~ msgstr "Araneetino"
+
+#~ msgid "Bear River"
+#~ msgstr "Ursrivero"
+
+#~ msgid "Union Square"
+#~ msgstr "Kvadratumo"
+
+#~ msgid "Forty Thieves"
+#~ msgstr "Kvardek Ŝtelistoj"
+
+#~ msgid "Eight Off"
+#~ msgstr "Okumo"
+
+#~ msgid "Backbone"
+#~ msgstr "Vertebraro"
+
+#~ msgid "Streets And Alleys"
+#~ msgstr "Stratetoj"
+
+#~ msgid "Terrace"
+#~ msgstr "Teraso"
+
+#~ msgid "Carpet"
+#~ msgstr "Tapiŝo"
+
+#~ msgid "Triple Peaks"
+#~ msgstr "Triopkulminaro"
+
+#~ msgid "Pileon"
+#~ msgstr "Pileono"
+
+#~ msgid "Bakers Game"
+#~ msgstr "Bakistumo"
+
+#~ msgid "Sir Tommy"
+#~ msgstr "Moŝto Toĉjo"
+
+#~ msgid "Cruel"
+#~ msgstr "Kruela"
+
+#~ msgid "Diamond Mine"
+#~ msgstr "Diamantujo"
+
+#~ msgid "Will O The Wisp"
+#~ msgstr "Vaglumo"
+
+#~ msgid "Eagle Wing"
+#~ msgstr "Agloflugilo"
+
+#~ msgid "Block Ten"
+#~ msgstr "Ne Dek!"
+
+#~ msgid "Saratoga"
+#~ msgstr "Saratoga"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "Disdoni novan karton de la kartaro"
+
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "Disdoni novajn kartojn de la kartaro"
+
+#~ msgid "Spider Three Decks"
+#~ msgstr "Trikartara Araneo"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "Disdoni karton de la kartaro"
+
+#~ msgid "Aisleriot cannot find the last game you played."
+#~ msgstr "AisleRiot ne povas trovi la lastan maĉon, kiun vi ludis."
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "Vidi helpon por AisleRiot"
+
+#~ msgid "About AisleRiot"
+#~ msgstr "Pri AisleRiot"
+
+#~ msgid "Straight Up"
+#~ msgstr "RekteSupren"
+
+#~ msgid "Fortunes"
+#~ msgstr "Fortunoj"
+
+#~ msgid "First Law"
+#~ msgstr "Unua Leĝo"
+
+#~ msgid "Accordion"
+#~ msgstr "Akordiono"
+
+#~ msgid "Bristol"
+#~ msgstr "Bristolo"
+
+#~ msgid "Fourteen"
+#~ msgstr "Dek Kvar"
+
+#~ msgid "Kansas"
+#~ msgstr "Kansaso"
+
+#~ msgid "Gold Mine"
+#~ msgstr "Orujo"
+
+#~ msgid "Chessboard"
+#~ msgstr "Ŝaktabulumo"
+
+#~ msgid "Yukon"
+#~ msgstr "Jukono"
+
+#~ msgid "Thirteen"
+#~ msgstr "Dek Tri"
+
+#~ msgid "Napoleons Tomb"
+#~ msgstr "Maŭzoleo de Napoleono"
+
+#~ msgid "Treize"
+#~ msgstr "Trejzo"
+
+#~ msgid "Quatorze"
+#~ msgstr "Kvatorzo"
+
+#~ msgid "Zebra"
+#~ msgstr "Zebro"
+
+#~ msgid "Freecell"
+#~ msgstr "FreeCell"
+
+#~ msgid "Gaps"
+#~ msgstr "Fosaĵoj"
+
+#~ msgid "Cover"
+#~ msgstr "Kovrilo"
+
+#~ msgid "Fortress"
+#~ msgstr "Fortikaĵo"
+
+#~ msgid "Elevator"
+#~ msgstr "Lifto"
+
+#~ msgid "Bakers Dozen"
+#~ msgstr "Tridekono Bakista"
+
+#~ msgid "Spider"
+#~ msgstr "Araneo"
+
+#~ msgid "Giant"
+#~ msgstr "Grandegulo"
+
+#~ msgid "Valentine"
+#~ msgstr "Valenteno"
+
+#~ msgid "Royal East"
+#~ msgstr "Reĝa Oriento"
+
+#~ msgid "Golf"
+#~ msgstr "Golfo"
+
+#~ msgid "Poker"
+#~ msgstr "Pokero"
+
+#~ msgid "About Solitaire"
+#~ msgstr "Pri Paciencludo"
+
+#~ msgid "red joker"
+#~ msgstr "ruĝa ĵokero"
+
+#~ msgid "black joker"
+#~ msgstr "nigra ĵokero"
+
+#~ msgid "Solitaire"
+#~ msgstr "Paciencludo"
+
+#~ msgid "Select the game number"
+#~ msgstr "Elektu la ludnumeron"
+
+#~ msgid "GNOME Solitaire"
+#~ msgstr "GNOME Paciencludo"
+
+#~ msgid "Play many different solitaire games"
+#~ msgstr "Ludu plurajn diversajn paciencludojn"
+
+#~ msgid "Worst:"
+#~ msgstr "Plej malbona:"
+
+#~ msgid "Total:"
+#~ msgstr "Entute:"
+
+#~ msgid "Percentage:"
+#~ msgstr "Elcente:"
+
+#~ msgid "Wins"
+#~ msgstr "Gajnoj"
+
+#~ msgid "Best:"
+#~ msgstr "Plej bona:"
+
+#~ msgid "Wins:"
+#~ msgstr "Gajnoj:"
+
+#~ msgid "N/A"
+#~ msgstr "(neaplikebla)"
+
+#~ msgid "A scheme exception occurred"
+#~ msgstr "Skema escepto okazis."
+
+#~ msgid "Card games:"
+#~ msgstr "Kartludoj:"
+
+#~ msgctxt "card symbol"
+#~ msgid "J"
+#~ msgstr "F"
+
+#~ msgid "Whether or not to play event sounds"
+#~ msgstr "Ĉu ludi eventajn sonojn"
+
+#~ msgctxt "card symbol"
+#~ msgid "K"
+#~ msgstr "R"
+
+#~ msgid "ace of clubs"
+#~ msgstr "trefa aso"
+
+#~ msgid "three of clubs"
+#~ msgstr "trefa tri"
+
+#~ msgid "four of clubs"
+#~ msgstr "trefa kvaro"
+
+#~ msgid "two of clubs"
+#~ msgstr "trefa duo"
+
+#~ msgid "nine of clubs"
+#~ msgstr "trefa naŭo"
+
+#~ msgid "eight of clubs"
+#~ msgstr "trefa oko"
+
+#~ msgid "seven of clubs"
+#~ msgstr "trefa sepo"
+
+#~ msgid "king of clubs"
+#~ msgstr "trefa reĝo"
+
+#~ msgid "jack of clubs"
+#~ msgstr "trefa fanto"
+
+#~ msgid "ten of clubs"
+#~ msgstr "trefa deko"
+
+#~ msgid "ace of spades"
+#~ msgstr "pika aso"
+
+#~ msgid "five of clubs"
+#~ msgstr "trefa kvino"
+
+#~ msgid "six of clubs"
+#~ msgstr "trefa seso"
+
+#~ msgid "queen of clubs"
+#~ msgstr "trefa damo"
+
+#~ msgid "six of spades"
+#~ msgstr "pika seso"
+
+#~ msgid "five of spades"
+#~ msgstr "pika kvino"
+
+#~ msgid "ten of spades"
+#~ msgstr "pika deko"
+
+#~ msgid "four of spades"
+#~ msgstr "pika kvaro"
+
+#~ msgid "three of spades"
+#~ msgstr "pika tri"
+
+#~ msgid "jack of spades"
+#~ msgstr "pika fanto"
+
+#~ msgid "nine of spades"
+#~ msgstr "pika naŭo"
+
+#~ msgid "seven of spades"
+#~ msgstr "pika sepo"
+
+#~ msgid "eight of spades"
+#~ msgstr "pika oko"
+
+#~ msgid "two of spades"
+#~ msgstr "pika duo"
+
+#~ msgid "queen of spades"
+#~ msgstr "pika damo"
+
+#~ msgid "Deal more cards"
+#~ msgstr "Disdoni pliajn kartojn"
+
+#~ msgid "king of spades"
+#~ msgstr "pika reĝo"
+
+#~ msgid "face-down card"
+#~ msgstr "frontomalsupra karto"
+
+#~ msgid "Move card from waste"
+#~ msgstr "Movi karton de la forĵetejo"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "Movi forĵetaĵojn fontejen"
+
+#~ msgctxt "slot type"
+#~ msgid "waste"
+#~ msgstr "forĵetejo"
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "Removi forĵetaĵojn fontejen"
+
+#~ msgid "A list of recently played games."
+#~ msgstr "Listo de antaŭnelonge luditaj maĉoj."
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on waste"
+#~ msgstr "%s forĵetejen"
+
+#~ msgid "Easthaven"
+#~ msgstr "Orienthaveno"
+
+#~ msgid "Westhaven"
+#~ msgstr "Okcidenthaveno"
+
+#~ msgid "S_tatistics"
+#~ msgstr "S_tatitiskoj"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "Montri ludajn statitiskojn"
+
+#~ msgid "Deal next card or cards"
+#~ msgstr "Disdoni sevka(j)n karto(j)n"
+
+#~ msgid "Play a different game"
+#~ msgstr "Ludi alian ludon"
+
+#~ msgid "Install card themes…"
+#~ msgstr "Instali kartetosojn…"
+
+#~ msgid "Display cards with “%s” card theme"
+#~ msgstr "Montri kartojn kun kartetoso “%s”"
+
+#~ msgid "Three card deals"
+#~ msgstr "Tri-kartaj disdonoj"
+
+#~ msgid "an empty foundation"
+#~ msgstr "malplena fondaĵo"
+
+#~ msgid "an empty slot on the foundation"
+#~ msgstr "malplena fondaĵo"
+
+#~ msgid "an empty foundation pile"
+#~ msgstr "malplena fondaĵo"
+
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "Movu karton fondaĵen"
+
+#~ msgid "empty slot on foundation"
+#~ msgstr "malplena fondaĵo"
+
+#~ msgid "the foundation pile"
+#~ msgstr "la fondaĵo"
+
+#~ msgid "Move ~a to an empty foundation"
+#~ msgstr "Movu ~a al malplena fondaĵo"
+
+#~ msgid "an empty foundation slot"
+#~ msgstr "malplena fondaĵo"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "Provu rearanĝi la kartojn"
+
+#~ msgid "an empty corner slot"
+#~ msgstr "malplena angula kartujo"
+
+#~ msgid "an empty slot"
+#~ msgstr "malplena kartujo"
+
+#~ msgid "an empty top slot"
+#~ msgstr "malplena supra kartujo"
+
+#~ msgid "an empty left slot"
+#~ msgstr "malplena maldekstra kartujo"
+
+#~ msgid "an empty right slot"
+#~ msgstr "malplena dekstra kartujo"
+
+#~ msgid "an empty bottom slot"
+#~ msgstr "malplena malsupra kartujo"
+
+#~ msgid "Have you read the help file?"
+#~ msgstr "Ĉu vi legis la helpdosieron?"
+
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "Nepre ne blovu en kanan orelon"
+
+#~ msgid "Helsinki"
+#~ msgstr "Helsinko"
+
+#~ msgid "Consistency is key"
+#~ msgstr "Konsekvencoj gravegas"
+
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr "Se vi iam estos vojerarinta kaj sola en arbaro, brakumu arbon"
+
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "Mi ja volas esti masaĝata al la dorso nune..."
+
+#~ msgid "itself"
+#~ msgstr "mem"
+
+#~ msgid "Fishing wire makes bad dental floss"
+#~ msgstr "Fiŝkaptadaj ŝnuretoj estas malbonaj kiel dentfadenoj"
+
+#~ msgid "Redeal."
+#~ msgstr "Redisdonu."
+
+#~ msgid "Deal a card"
+#~ msgstr "Disdoni karton"
+
+#~ msgid "I'm not sure"
+#~ msgstr "Mi ne certas"
+
+#~ msgid "Odessa is a better game.  Really."
+#~ msgstr "Odessa estas pli bona ludo. Vere."
+
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "Movu reĝon al la malplena tabelero"
+
+#~ msgid "an empty slot on tableau"
+#~ msgstr "malplena tabelero"
+
+#~ msgctxt "slot type"
+#~ msgid "tableau"
+#~ msgstr "tabelo"
+
+#~ msgid "an empty tableau"
+#~ msgstr "malplena tabelero"
+
+#~ msgid "an empty slot on the tableau"
+#~ msgstr "malplena tabelero"
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on tableau"
+#~ msgstr "%s tabelen"
+
+#~ msgid "an open tableau"
+#~ msgstr "malfermita tabelero"
+
+#~ msgid "Move something onto an empty right-hand tableau slot"
+#~ msgstr "Movu ion al malplena dekstra tabelero"
+
+#~ msgid "empty space on tableau"
+#~ msgstr "malplena tabela kartujo"
+
+#~ msgid "an empty tableau slot"
+#~ msgstr "malplena tabelero"
+
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr "Metu kartojn sur la tabelo por formi pokermanoj"
+
+#~ msgid "on to the empty tableau slot"
+#~ msgstr "al la malplena tabelero"
+
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "Movu ~a de la fonto al malplena rando aŭ tabelero"
+
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "Movu kartkonstruitaĵon al la malplena tabelero"
+
+#~ msgid "an empty tableau place"
+#~ msgstr "malplena tabelero"
+
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "Movu karton de la reservo al la malplena tabelero"
+
+#~ msgid "an empty tableau pile"
+#~ msgstr "malplena tabelero"
+
+#~ msgid "Hopscotch"
+#~ msgstr "Paradizludo"
+
+#~ msgid "Whitehead"
+#~ msgstr "Blankkapo"
+
+#~ msgid "Scuffle"
+#~ msgstr "Kverelado"
+
+#~ msgid "Thumb And Pouch"
+#~ msgstr "Dikfingro kaj saketo"
+
+#~ msgid "Doublets"
+#~ msgstr "Duopoj"
+
+#~ msgid "Yield"
+#~ msgstr "Profito"
+
+#~ msgid "Base Card: "
+#~ msgstr "Baza karto: "
+
+#~ msgid "Beleaguered Castle"
+#~ msgstr "Sieĝata kastelo"
+
+#~ msgid "Look both ways before you cross the street"
+#~ msgstr ""
+#~ "Rigardu kaj dekstren kaj maldekstren antaŭ ke vi transiros la straton"
+
+#~ msgid "When without a stapler, a staple and a ruler will work"
+#~ msgstr "Kiam oni ne havas krampilon, krampo kaj liniilo taŭgus"
+
+#~ msgid "Tourniquets are not recommended unless in the direst emergency"
+#~ msgstr "Oni ne rekomensas garotojn krom se estas grandega krizego"
+
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "Movu ion al malplena reservo"
+
+#~ msgid "an empty space"
+#~ msgstr "malplena kartujo"
+
+#~ msgid "No moves are possible. Undo or start again."
+#~ msgstr "Neniu movo eblas. Malfaru aŭ rekomencu."
+
 #~ msgid "Reserved for %s"
 #~ msgstr "Reservita por %s"
 
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "Movu forĵetaĵoj reserven"
+
+#~ msgid "Try moving a card to the reserve"
+#~ msgstr "Provu movi karton reserven"
+
+#~ msgid "an empty reserve"
+#~ msgstr "malplena reservo"
+
+#~ msgid "the foundation"
+#~ msgstr "la fondaĵo"
+
+#~ msgid "Bug! make-hint called on false move."
+#~ msgstr "Cimo! Oni montris helpindikon por malpermesita movo."
+
+#~ msgid "Odessa"
+#~ msgstr "Odeso"
+
+#~ msgid "Deal a row"
+#~ msgstr "Disdoni vicon"
+
+#~ msgid "Try moving card piles around"
+#~ msgstr "Provu movadi kartpilojn tien kaj reen"
+
+#~ msgid "Try dealing a row of cards"
+#~ msgstr "Provu disdoni kartvicon"
+
+#~ msgid "Same suit"
+#~ msgstr "Sama emblemo"
+
+#~ msgid "Alternating colors"
+#~ msgstr "Alternaj koloroj"
+
+#~ msgid "Deal another round"
+#~ msgstr "Disdoni pluan rondiron"
+
+#~ msgid "Deal another card"
+#~ msgstr "Disdoni pluan karton"
+
+#~ msgid "Deal another hand"
+#~ msgstr "Disdoni pluan rondiron"
+
+#~ msgid "appropriate foundation pile"
+#~ msgstr "taŭga fondaĵo"
+
+#~ msgid "the appropriate Foundation pile"
+#~ msgstr "la taŭga fondaĵo"
+
+#~ msgid "empty foundation"
+#~ msgstr "malplena fondaĵo"
+
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "Elektu karton de la reservo por fari la unuan fondaĵon"
+
+#~ msgid "Try moving cards down from the foundation"
+#~ msgstr "Provu movi kartojn for de la fondaĵo"
+
+#~ msgid "an empty foundation place"
+#~ msgstr "malplena fondaĵo"
+
+#~ msgid "No redeals"
+#~ msgstr "Neniu redisdono"
+
+#~ msgid "Single card deals"
+#~ msgstr "Unuopa-kartaj disdonoj"
+
+#~ msgid "Randomly Placed Gaps on Redeal"
+#~ msgstr "Hazardaj spacoj inter kartoj je redisdono"
+
+#~ msgid "Deal a new card"
+#~ msgstr "Disdoni novan karton"
+
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "Movu ~a al malplena kartujo"
+
+#~ msgid "something"
+#~ msgstr "ion"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "Remiksi la kartojn"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "Metu ion en malplenan kartujon"
+
+#~ msgid "Deal the cards"
+#~ msgstr "Disdoni la kartojn"
+
+#~ msgid "Shuffle mode"
+#~ msgstr "Miksa reĝimo"
+
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "Bonvolu plenigi malplenan kartujon unue."
+
+#~ msgid "Base Card:"
+#~ msgstr "Bazkarto:"
+
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "Movu karton en malplenan nedaŭran kartujon"
+
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr ""
+#~ "Provu meti la emblemojn en la ordon, kiu taŭgas al la nuna situacio plej "
+#~ "nature."
+
+#~ msgid "Two Suits"
+#~ msgstr "Duembleme"
+
+#~ msgid "Four Suits"
+#~ msgstr "Kvarembleme"
+
+#~ msgid "One Suit"
+#~ msgstr "Unuembleme"
+
+#~ msgid "Allow temporary spots use"
+#~ msgstr "Permesi la uzon de nedaŭraj kartujoj"
+
+#~ msgid "Blondes and Brunettes"
+#~ msgstr "Blondulinoj kaj Brunulinoj"
+
+#~ msgid "Redheads"
+#~ msgstr "Ruĝharulinoj"
+
+#~ msgid "Signora"
+#~ msgstr "Sinjorino"
+
+#~ msgid "Falling Stars"
+#~ msgstr "Steloj Falantaj"
+
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "Movu karton aŭ kartgrupon en la malplenan kartujon"
+
+#~ msgid "Wood"
+#~ msgstr "Ligno"
+
 #~ msgid "A flag to allow remote players to watch new games"
 #~ msgstr "Flago por permesigi al foraj ludantoj rigardi novajn ludojn"
+
+#~ msgid ""
+#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
+#~ "one"
+#~ msgstr "Zorgu! Zebrostria pasejo kelkfoje ŝajnas al iuj kiel paradizludejo."
 
 #~ msgid "The board side to display"
 #~ msgstr "Montrata tabulflanko"
@@ -6443,6 +6006,9 @@ msgstr "Ege"
 
 #~ msgid "The amount of time each player has to move in new games"
 #~ msgstr "Kiomo da movtempo, kiun ĉiu ludanto havas en novaj ludoj"
+
+#~ msgid "General's Patience"
+#~ msgstr "Generala Pacienco"
 
 #~ msgid "<b>Difficulty</b>"
 #~ msgstr "<b>Malfacileco</b>"
@@ -6553,6 +6119,9 @@ msgstr "Ege"
 
 #~ msgid "Chess - %(game_name)s"
 #~ msgstr "Ŝako - %(game_name)s"
+
+#~ msgid "No hint available right now"
+#~ msgstr "Helpindiko ne disponeblas nune"
 
 #~ msgid "Show or hide numbering on the chess board"
 #~ msgstr "Ĉu montri la ŝaktabulan nombradon"
@@ -6932,6 +6501,12 @@ msgstr "Ege"
 #~ msgid "Human versus %s"
 #~ msgstr "Homo kontraŭ %s"
 
+#~ msgid "Y align"
+#~ msgstr "Y-ĝisrandigo"
+
+#~ msgid "X align"
+#~ msgstr "X-ĝisrandigo"
+
 #~ msgid "No description"
 #~ msgstr "Neniu priskribo"
 
@@ -6941,8 +6516,441 @@ msgstr "Ege"
 #~ msgid "A password is required"
 #~ msgstr "Pasvorto nepras"
 
+#~ msgid ""
+#~ "%s is free software; you can redistribute it and/or modify it under the "
+#~ "terms of the GNU General Public License as published by the Free Software "
+#~ "Foundation; either version 2 of the License, or (at your option) any "
+#~ "later version."
+#~ msgstr ""
+#~ "%s estas libera programo; oni rajtas redistribuii kaj/aŭ modifi ĝin laŭ "
+#~ "la kondiĉoj de la GNU Ĝenerala Publika Permesilo, disponigita de la "
+#~ "Libera Programara Fondaĵo; aŭ versio 2 de la Permesilo, aŭ (laŭvole) iu "
+#~ "ajn estonta versio."
+
+#~ msgid "Could not show link"
+#~ msgstr "Ligilo ne montreblis"
+
 #~ msgid "Unable to find %s engine"
 #~ msgstr "La modulo %s ne troveblis"
+
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "Kongruigu la du unuajn kartojn de la elĵetaĵoj."
+
+#~ msgid "The game is over."
+#~ msgstr "La ludo estas finita."
+
+#~ msgid "Freecell Solitaire"
+#~ msgstr "FreeCell-paciencludo"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "AisleRiot-paciencludaro"
+
+#~ msgid "Cards remaining: ~a"
+#~ msgstr "Restantaj kartoj: ~a"
+
+#~ msgid "About FreeCell Solitaire"
+#~ msgstr "Pri FreeCell-paciencludo"
+
+#~ msgid ""
+#~ "Select whether to drag the cards or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Elekti ĉu ŝovi la kartojn aŭ alklaki la fonton kaj poste la destinon."
+
+#~ msgid "Recently played games"
+#~ msgstr "Antaŭnelonge luditaj maĉoj"
+
+#~ msgid "Animations"
+#~ msgstr "Movbildoj"
+
+#~ msgid "The game file to use"
+#~ msgstr "La uzenda luddosiero"
+
+#~ msgid "The name of the scheme file containing the solitaire game to play."
+#~ msgstr "La nomo de la skema dosiero, kiu enhavas la ludendan paciencludon."
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "FreeCell-paciencludo"
+
+#~ msgid "_Select"
+#~ msgstr "Elekti"
+
+#~ msgid "Whether or not to show the status bar"
+#~ msgstr "Ĉu montri statbreton"
+
+#~ msgid ""
+#~ "Aisleriot cannot load the file “%s”. Please check your Aisleriot "
+#~ "installation."
+#~ msgstr ""
+#~ "AisleRiot ne povas ŝargi la dosieron “%s”. Bonvolu kontroli vian "
+#~ "instalaĵon de AisleRiot."
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "Ĉi tiu ludilo ne povas montri helpindikon al vi."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "Vi serĉas pri %s."
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "Ĉi tiu ludilo ne ankoraŭ subtenas helpindikojn."
+
+#~ msgid "Gypsy"
+#~ msgstr "Gitane"
+
+#~ msgid "Glenwood"
+#~ msgstr "Glenvudo"
+
+#~ msgid "Athena"
+#~ msgstr "Ateno"
+
+#~ msgid "Canfield"
+#~ msgstr "Skatolkampo"
+
+#~ msgid "Select the game type to play"
+#~ msgstr "Elektu la ludendan ludtipon"
+
+#~ msgid "the ace of clubs"
+#~ msgstr "la trefan ason"
+
+#~ msgid "the ace of diamonds"
+#~ msgstr "la karoan ason"
+
+#~ msgid "the ace of hearts"
+#~ msgstr "la keran ason"
+
+#~ msgid "the ace of spades"
+#~ msgstr "la pikan ason"
+
+#~ msgid "the eight of spades"
+#~ msgstr "la pikan okon"
+
+#~ msgid "the eight of diamonds"
+#~ msgstr "la karoan okon"
+
+#~ msgid "the eight of hearts"
+#~ msgstr "la keran okon"
+
+#~ msgid "the eight of clubs"
+#~ msgstr "la trefan okon"
+
+#~ msgid "the four of diamonds"
+#~ msgstr "la karoan kvaron"
+
+#~ msgid "the five of spades"
+#~ msgstr "la pikan kvinon"
+
+#~ msgid "the four of clubs"
+#~ msgstr "la trefan kvaron"
+
+#~ msgid "the five of clubs"
+#~ msgstr "la trefan kvinon"
+
+#~ msgid "the five of hearts"
+#~ msgstr "la keran kvinon"
+
+#~ msgid "the five of diamonds"
+#~ msgstr "la karoan kvinon"
+
+#~ msgid "the king of clubs"
+#~ msgstr "la trefan reĝon"
+
+#~ msgid "the king of diamonds"
+#~ msgstr "la karoan reĝon"
+
+#~ msgid "the king of spades"
+#~ msgstr "la pikan reĝon"
+
+#~ msgid "the king of hearts"
+#~ msgstr "la keran reĝon"
+
+#~ msgid "the four of hearts"
+#~ msgstr "la keran kvaron"
+
+#~ msgid "the four of spades"
+#~ msgstr "la pikan kvaron"
+
+#~ msgid "the jack of clubs"
+#~ msgstr "la trefan fanton"
+
+#~ msgid "the jack of diamonds"
+#~ msgstr "la karoan fanton"
+
+#~ msgid "the jack of spades"
+#~ msgstr "la pikan fanton"
+
+#~ msgid "the jack of hearts"
+#~ msgstr "la keran fanton"
+
+#~ msgid "the nine of diamonds"
+#~ msgstr "la karoan naŭon"
+
+#~ msgid "the nine of clubs"
+#~ msgstr "la trafan naŭon"
+
+#~ msgid "the queen of spades"
+#~ msgstr "la pikan damon"
+
+#~ msgid "the nine of spades"
+#~ msgstr "la pikan naŭon"
+
+#~ msgid "the seven of diamonds"
+#~ msgstr "la karoan sepon"
+
+#~ msgid "the seven of clubs"
+#~ msgstr "la trefan sepon"
+
+#~ msgid "the queen of hearts"
+#~ msgstr "la keran damon"
+
+#~ msgid "the queen of diamonds"
+#~ msgstr "la karoan damon"
+
+#~ msgid "the nine of hearts"
+#~ msgstr "la keran naŭon"
+
+#~ msgid "the queen of clubs"
+#~ msgstr "la trefan damon"
+
+#~ msgid "the ten of spades"
+#~ msgstr "la pikan dekon"
+
+#~ msgid "the ten of clubs"
+#~ msgstr "la trefan dekon"
+
+#~ msgid "the ten of diamonds"
+#~ msgstr "la karoan dekon"
+
+#~ msgid "the six of hearts"
+#~ msgstr "la keran seson"
+
+#~ msgid "the six of spades"
+#~ msgstr "la pikan seson"
+
+#~ msgid "the six of clubs"
+#~ msgstr "la trefan seson"
+
+#~ msgid "the six of diamonds"
+#~ msgstr "la karoan seson"
+
+#~ msgid "the seven of spades"
+#~ msgstr "la pikan sepon"
+
+#~ msgid "the seven of hearts"
+#~ msgstr "la keran sepon"
+
+#~ msgid "the ten of hearts"
+#~ msgstr "la keran dekon"
+
+#~ msgid "the three of clubs"
+#~ msgstr "la trefan trion"
+
+#~ msgid "the three of diamonds"
+#~ msgstr "la karoan trion"
+
+#~ msgid "the two of diamonds"
+#~ msgstr "la karoan duon"
+
+#~ msgid "the two of clubs"
+#~ msgstr "la trefan duon"
+
+#~ msgid "the three of spades"
+#~ msgstr "la pikan trion"
+
+#~ msgid "the three of hearts"
+#~ msgstr "la keran trion"
+
+#~ msgid "the unknown card"
+#~ msgstr "la nekonatan karton"
+
+#~ msgid "the two of spades"
+#~ msgstr "la pikan duon"
+
+#~ msgid "the two of hearts"
+#~ msgstr "la keran duon"
+
+#~ msgid "Congratulations, you have won!"
+#~ msgstr "Gratulojn, vi gajnis!"
+
+#~ msgid "Card themes:"
+#~ msgstr "Kartetosoj:"
+
+#~ msgid "Please report this bug to the developers."
+#~ msgstr "Bonvolu informi la programistojn pri ĉi tiu cimo."
+
+#~ msgid "_Don't report"
+#~ msgstr "Ne raporti"
+
+#~ msgid "_Control"
+#~ msgstr "Stiro"
+
+#~ msgid "_Recently Played"
+#~ msgstr "Antaŭnelonge luditaj"
+
+#~ msgid "_Select Game..."
+#~ msgstr "Elekti ludon..."
+
+#~ msgid "_Statusbar"
+#~ msgstr "_Statobreto"
+
+#~ msgid "Install new card themes from the distribution packages repositories"
+#~ msgstr "Instali novajn kartetosojn de la distribuaĵpakaĵaj deponejoj"
+
+#~ msgid "Show or hide statusbar"
+#~ msgstr "Montri aŭ kaŝi la statobreton"
+
+#~ msgid "_Card Style"
+#~ msgstr "Kartetoso"
+
+#~ msgid "Cannot start the game “%s”"
+#~ msgstr "Ne povas starti la ludon “%s”"
+
+#~ msgid "Pick up and drop cards by clicking"
+#~ msgstr "Prenu kaj metu kartojn per klakado"
+
+#~ msgctxt "card symbol"
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "Base Card: King"
+#~ msgstr "Fonda karto: reĝo"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "Fonda karto: ~a"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "Fonda karto: damo"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "Fonda karto: aso"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "Fonda karto: fanto"
+
+#~ msgid "Redeals left:"
+#~ msgstr "Restantaj redisdonoj:"
+
+#~ msgid "Stock left:"
+#~ msgstr "Restantaj fonteroj:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "Restantaj fonteroj: 0"
+
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "Movu ion malplentabeleren"
+
+#~ msgid "Reserve left:"
+#~ msgstr "Restanta reservo:"
+
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "Vi ne akiros vitaminon D de ekranoj—sed de la suno ja..."
+
+#~ msgid "Remove the fours"
+#~ msgstr "Elpreni la kvarojn"
+
+#~ msgid "Remove the fives"
+#~ msgstr "Elpreni la kvinojn"
+
+#~ msgid "Remove the eights"
+#~ msgstr "Elpreni la okojn"
+
+#~ msgid "Remove the aces"
+#~ msgstr "Elpreni la asojn"
+
+#~ msgid "Remove the kings"
+#~ msgstr "Elpreni la reĝojn"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "Elpreni la fantojn"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "Elpreni la sesojn"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "Elpreni la sepojn"
+
+#~ msgid "Remove the nines"
+#~ msgstr "Elpreni la naŭojn"
+
+#~ msgid "Remove the queens"
+#~ msgstr "Elpreni la damojn"
+
+#~ msgid "Move ~a off the board"
+#~ msgstr "Movi ~a foren"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "Pripensi movi ion al malplena kartejo"
+
+#~ msgid "Return cards to stock"
+#~ msgstr "Removi kartojn fonten"
+
+#~ msgid "Remove the twos"
+#~ msgstr "Elpreni la duojn"
+
+#~ msgid "Remove the threes"
+#~ msgstr "Elpreni la triojn"
+
+#~ msgid "Remove the tens"
+#~ msgstr "Elpreni la dekojn"
+
+#~ msgid "Deal a card from stock"
+#~ msgstr "Disdoni karton el la fonto"
+
+#~ msgid "Place the ~a next to ~a."
+#~ msgstr "Meti la ~a apud ~a."
+
+#~ msgid "Place a two in the leftmost slot of row ~a."
+#~ msgstr "Meti duon en la plej maldekstra kartujo de la ~a-a vico."
+
+#~ msgid "No hint available."
+#~ msgstr "Neniu helpindiko disponeblas."
+
+#~ msgid "Add to the sequence in row ~a."
+#~ msgstr "Aldoni al la sekvenco en la ~a-a vico."
+
+#~ msgid "Double click any card to redeal."
+#~ msgstr "Duoble alklaki iun ajn karton por redisdoni."
+
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr "Ĉi tiu ludilo havas neniun solvon. Malfaru aŭ rekomencu."
+
+#~ msgid ""
+#~ "This usually occurs when you run an older version of Aisleriot which does "
+#~ "not have the game you last played. The default game, Klondike, is being "
+#~ "started instead."
+#~ msgstr ""
+#~ "Tio kutime okazas, kiam oni lanĉas pli malnovan version de AisleRiot, kiu "
+#~ "ne havas la laston maĉon, kiun vi ludis. La defaŭlta ludo, Klondiko, "
+#~ "komenciĝas anstataŭe."
+
+#~ msgid "Klondike Three Decks"
+#~ msgstr "Trikartara Klondiko"
+
+#~ msgid "Klondike"
+#~ msgstr "Klondiko"
+
+#~ msgid "Deals left: ~a"
+#~ msgstr "Restantaj disdonoj: ~a"
+
+#~ msgid "Stock left: ~a"
+#~ msgstr "Restantaj fonteroj: ~a"
+
+#~ msgid "Stock remaining: ~a"
+#~ msgstr "Restantaj fonteroj: ~a"
+
+#~ msgid "Redeals left: ~a"
+#~ msgstr "Restantaj redisdonoj: ~a"
+
+#~ msgid "No hint available"
+#~ msgstr "Neniu konsileto disponeblas."
+
+#~ msgid "Undo until there are enough cards to fill all tableau piles"
+#~ msgstr "Malfari ĝis, ke estas sufiĉe da kartoj por plenigi ĉiujn tabelerojn"
+
+#~ msgid "Progressive Rounds"
+#~ msgstr "Progresantaj rondiroj"
+
+#~ msgid "Multiplier Scoring"
+#~ msgstr "Multiplikanta poentado"
 
 #~ msgid "%s: invalid option -- %c\n"
 #~ msgstr "%s: nevalida opcio -- %c\n"
@@ -6973,6 +6981,9 @@ msgstr "Ege"
 
 #~ msgid "%s: illegal option -- %c\n"
 #~ msgstr "%s: nevalida opcio -- %c\n"
+
+#~ msgid "A flag to enable maximised mode"
+#~ msgstr "Flago por enŝalti maksimumigitan reĝimon"
 
 #~ msgid "%s: option `-W %s' doesn't allow an argument\n"
 #~ msgstr "%s: opcio `-W %s' ne permesas argumenton\n"
@@ -7140,8 +7151,23 @@ msgstr "Ege"
 #~ msgid "Account in use"
 #~ msgstr "Nune uzata konto"
 
+#~ msgid "Unable to make data directory %(dir)s: %(error)s"
+#~ msgstr "Ne eblas krei datumdosierujon %(dir)s: %(error)s"
+
 #~ msgid "Qua"
 #~ msgstr "Kva"
+
+#~ msgid "Sudoku incorrectly installed"
+#~ msgstr "Sudoko ne estas korekte instalita"
+
+#~ msgid ""
+#~ "Sudoku is not able to start because required application files are not "
+#~ "installed. If you are currently upgrading your system please wait until "
+#~ "the upgrade has completed."
+#~ msgstr ""
+#~ "Sudoko ne eblas starti ĉar necesataj aplikaĵdosieroj ne estas instalitaj. "
+#~ "Se vi estas nune ĝisdatiganta vian sistemon, bonvolu atendi ĝis la "
+#~ "plenumado de la ĝisdatigoj."
 
 #~ msgid "Track moves"
 #~ msgstr "Traki movojn"
@@ -7193,3 +7219,45 @@ msgstr "Ege"
 
 #~ msgid "%A %I:%M %p"
 #~ msgstr "%A %I:%M %p"
+
+#~ msgid ""
+#~ "AisleRiot provides a rule-based solitaire card engine that allows many "
+#~ "different games to be played.\n"
+#~ "AisleRiot is a part of GNOME Games."
+#~ msgstr ""
+#~ "AisleRiot donas paciencludan modulon regularbazitan, kiu permesas la "
+#~ "ludadon de plurajn diversajn ludojn.\n"
+#~ "AisleRiot estas ero de GNOME Ludiloj."
+
+#~ msgid "GNOME Sudoku"
+#~ msgstr "GNOME Sudoko"
+
+#~ msgid ""
+#~ "GNOME Sudoku is a simple Sudoku generator and player. Sudoku is a "
+#~ "Japanese logic puzzle.\n"
+#~ "\n"
+#~ "GNOME Sudoku is a part of GNOME Games."
+#~ msgstr ""
+#~ "GNOME Sudoko estas simpla sudoka kreilo kaj ludilo. Sudoko estas japana "
+#~ "logikenigmo.\n"
+#~ "\n"
+#~ "GNOME Sudoko estas ero de GNOME Ludiloj."
+
+#~ msgid "Maze"
+#~ msgstr "Labirinto"
+
+#~ msgid "It is your turn to place a light piece"
+#~ msgstr "Estas via vico por meti helan pecon"
+
+#~ msgid "It is your turn to place a dark piece"
+#~ msgstr "Estas via vico por meti malhelan pecon"
+
+#~ msgid ""
+#~ "The value of this key is used to decide the size of the playing grid. The "
+#~ "valid values are 2 to 8, anything else gets set to 3."
+#~ msgstr ""
+#~ "La valoro de tiu ĉi klavo estas uzata por elekti la grandecon de la "
+#~ "ludkrado. La validaj valoroj estas de 2 ĝis 8; ĉiuj aliaj iĝos 3."
+
+#~ msgid "Clock"
+#~ msgstr "Horloĝo"
