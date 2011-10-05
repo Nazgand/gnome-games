@@ -866,6 +866,7 @@ gnotravex/pixmaps/Makefile
 gnotski/Makefile
 gnotski/help/Makefile
 glines/Makefile
+glines/data/Makefile
 glines/glines.desktop.in
 glines/help/Makefile
 quadrapassel/Makefile
