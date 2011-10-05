@@ -261,7 +261,6 @@ GamesFileList *
 games_file_list_new_images (const gchar * path1, ...)
 {
   GamesFileList *filelist;
-  GList *list;
   gchar *pathentry;
   va_list paths;
 
@@ -270,7 +269,7 @@ games_file_list_new_images (const gchar * path1, ...)
   filelist->priv->list = games_file_list_new_images_single (path1);
   va_start (paths, path1);
   while ((pathentry = va_arg (paths, gchar *)) != NULL) {
-    list = g_list_concat (filelist->priv->list,
+    filelist->priv->list = g_list_concat (filelist->priv->list,
 			  games_file_list_new_images_single (pathentry));
   }
   va_end (paths);
