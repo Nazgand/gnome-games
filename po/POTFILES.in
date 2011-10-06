@@ -25,6 +25,7 @@ glchess/src/test-chess-game.vala
 glines/glines.c
 glines/glines.h
 glines/glines.desktop.in.in
+[type: gettext/glade]glines/data/glines.ui
 [type: gettext/glade]glines/data/glines-preferences.ui
 glines/org.gnome.glines.gschema.xml.in
 gnect/data/gnect.desktop.in.in
