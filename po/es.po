@@ -6,15 +6,16 @@
 # Lucas Vieites <lucas@codexion.com>, 2007, 2008.
 # 
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010, 2011.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2008, 2009, 2010, 2011.
 # 
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2008, 2009, 2010, 2011., 2011.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "games&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-09-18 23:54+0000\n"
-"PO-Revision-Date: 2011-09-14 17:33+0200\n"
+"POT-Creation-Date: 2011-10-06 22:13+0000\n"
+"PO-Revision-Date: 2011-10-07 10:17+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -174,13 +175,13 @@ msgid "Undo Move"
 msgstr "Deshacer movimiento"
 
 #. Help contents menu item
-#: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:234
-#: ../libgames-support/games-stock.c:249
+#: ../glchess/data/glchess.ui.h:20 ../glines/data/glines.ui.h:6
+#: ../gnome-sudoku/src/lib/main.py:234 ../libgames-support/games-stock.c:249
 msgid "_Contents"
 msgstr "Índ_ice"
 
 #. Game menu name
-#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1639
+#: ../glchess/data/glchess.ui.h:22 ../glines/data/glines.ui.h:7
 #: ../gnect/src/main.c:1187 ../gnibbles/main.c:600 ../gnobots2/menu.c:66
 #: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:210
 #: ../gnomine/gnomine.c:758 ../gnotravex/gnotravex.c:1707
@@ -191,7 +192,7 @@ msgid "_Game"
 msgstr "_Juego"
 
 #. Help menu item
-#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1641
+#: ../glchess/data/glchess.ui.h:24 ../glines/data/glines.ui.h:8
 #: ../gnect/src/main.c:1190 ../gnibbles/main.c:603 ../gnobots2/menu.c:70
 #: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:233
 #: ../gnomine/gnomine.c:760 ../gnotravex/gnotravex.c:1711
@@ -208,7 +209,7 @@ msgid "_Resign"
 msgstr "De_recha"
 
 #. Settings menu item
-#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1640
+#: ../glchess/data/glchess.ui.h:28 ../glines/data/glines.ui.h:9
 #: ../gnect/src/main.c:1189 ../gnibbles/main.c:602 ../gnobots2/menu.c:69
 #: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:224
 #: ../gnomine/gnomine.c:759 ../gnotravex/gnotravex.c:1709
@@ -310,7 +311,7 @@ msgid "Play as:"
 msgstr "Jugar como:"
 
 #. Title for preferences dialog
-#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:195
+#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:180
 #: ../mahjongg/mahjongg.c:139
 msgid "Preferences"
 msgstr "Preferencias"
@@ -1037,7 +1038,7 @@ msgstr ""
 "\n"
 "glChess es parte de los Juegos de GNOME."
 
-#: ../glchess/src/glchess.vala:1368 ../glines/glines.c:1224
+#: ../glchess/src/glchess.vala:1368 ../glines/glines.c:1190
 #: ../gnect/src/main.c:828 ../gnibbles/main.c:177 ../gnobots2/menu.c:263
 #: ../quadrapassel/tetris.cpp:1313 ../gnomine/gnomine.c:473
 #: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1497
@@ -1097,26 +1098,26 @@ msgstr ""
 "Ejecute «%s --help» para ver una lista completa de las opciones de línea de "
 "comandos disponibles."
 
-#: ../glines/glines.c:87 ../gnomine/gnomine.c:101
+#: ../glines/glines.c:85 ../gnomine/gnomine.c:101
 msgctxt "board size"
 msgid "Small"
 msgstr "Pequeño"
 
-#: ../glines/glines.c:88 ../gnomine/gnomine.c:102
+#: ../glines/glines.c:86 ../gnomine/gnomine.c:102
 msgctxt "board size"
 msgid "Medium"
 msgstr "Mediano"
 
-#: ../glines/glines.c:89 ../gnomine/gnomine.c:103
+#: ../glines/glines.c:87 ../gnomine/gnomine.c:103
 msgctxt "board size"
 msgid "Large"
 msgstr "Grande"
 
-#: ../glines/glines.c:189
+#: ../glines/glines.c:174
 msgid "Could not load theme"
 msgstr "No se pudo cargar el tema"
 
-#: ../glines/glines.c:217
+#: ../glines/glines.c:202
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1129,7 +1130,7 @@ msgstr ""
 "\n"
 "En su lugar se cargará el tema predeterminado."
 
-#: ../glines/glines.c:224
+#: ../glines/glines.c:209
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1142,33 +1143,33 @@ msgstr ""
 "\n"
 "Compruebe que «Cinco o más» esté instalado correctamente."
 
-#: ../glines/glines.c:448
+#: ../glines/glines.c:414
 msgid "Match five objects of the same type in a row to score!"
 msgstr "Para puntuar alinee cinco bolas del mismo color en una fila."
 
-#: ../glines/glines.c:510
+#: ../glines/glines.c:476
 msgid "GNOME Five or More"
 msgstr "GNOME Cinco o más"
 
-#: ../glines/glines.c:512
+#: ../glines/glines.c:478
 msgid "_Board size:"
 msgstr "Tamaño del ta_blero:"
 
-#: ../glines/glines.c:529 ../swell-foop/src/Score.js:110
+#: ../glines/glines.c:495 ../swell-foop/src/Score.js:110
 msgid "Game Over!"
 msgstr "Juego terminado"
 
 #. Can't move there!
-#: ../glines/glines.c:686
+#: ../glines/glines.c:652
 msgid "You can't move there!"
 msgstr "No puede mover ahí"
 
-#: ../glines/glines.c:1210 ../glines/glines.c:1213 ../glines/glines.c:1751
-#: ../glines/glines.c:1783 ../glines/glines.desktop.in.in.h:1
+#: ../glines/glines.c:1176 ../glines/glines.c:1179 ../glines/glines.c:1614
+#: ../glines/glines.desktop.in.in.h:1
 msgid "Five or More"
 msgstr "Cinco o más"
 
-#: ../glines/glines.c:1215
+#: ../glines/glines.c:1181
 msgid ""
 "GNOME port of the once-popular Color Lines game.\n"
 "\n"
@@ -1179,7 +1180,7 @@ msgstr ""
 "Cinco o más es parte de los Juegos de GNOME."
 
 #. this doesn't work for anyone
-#: ../glines/glines.c:1221 ../gnect/src/main.c:831 ../gnibbles/main.c:174
+#: ../glines/glines.c:1187 ../gnect/src/main.c:831 ../gnibbles/main.c:174
 #: ../gnobots2/menu.c:267 ../quadrapassel/tetris.cpp:1316
 #: ../gnome-sudoku/src/lib/main.py:688 ../gnomine/gnomine.c:470
 #: ../gnotravex/gnotravex.c:1613 ../gnotski/gnotski.c:1494
@@ -1194,49 +1195,72 @@ msgstr ""
 "Germán Poo Caamaño <gpoo@ubiobio.cl>\n"
 "Pablo Saratxaga <pablo@mandrakesoft.com>"
 
-#: ../glines/glines.c:1396
-msgid "Five or More Preferences"
-msgstr "Preferencias de Cinco o más"
+#: ../glines/glines.desktop.in.in.h:2
+msgid "Remove colored balls from the board by forming lines"
+msgstr "Elimine bolas de colores del tablero formando líneas"
 
-#: ../glines/glines.c:1415 ../gnect/src/prefs.c:333
+#: ../glines/data/glines.ui.h:1
+#| msgctxt "number"
+#| msgid "0"
+msgid "0"
+msgstr "0"
+
+#: ../glines/data/glines.ui.h:2
+#| msgid "Five or More"
+msgid "Five or more"
+msgstr "Cinco o más"
+
+#: ../glines/data/glines.ui.h:3
+msgid "Next:"
+msgstr "Siguiente:"
+
+#: ../glines/data/glines.ui.h:4 ../gnobots2/statusbar.c:67
+#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:433
+msgid "Score:"
+msgstr "Puntuación:"
+
+#: ../glines/data/glines-preferences.ui.h:1 ../gnect/src/prefs.c:333
 #: ../gnobots2/properties.c:538 ../iagno/properties.c:508
 #: ../lightsoff/data/settings.ui.h:1 ../swell-foop/data/settings.ui.h:1
 msgid "Appearance"
 msgstr "Aspecto"
 
-#: ../glines/glines.c:1423
-msgid "_Image:"
-msgstr "_Imagen:"
-
-#: ../glines/glines.c:1434
+#: ../glines/data/glines-preferences.ui.h:2
 msgid "B_ackground color:"
 msgstr "_Color de fondo:"
 
-#: ../glines/glines.c:1449
+#: ../glines/data/glines-preferences.ui.h:3
 msgid "Board Size"
 msgstr "Tamaño del tablero"
 
-#: ../glines/glines.c:1468
-msgctxt "preferences"
+#: ../glines/data/glines-preferences.ui.h:4
+msgid "Five or More Preferences"
+msgstr "Preferencias de Cinco o más"
+
+#: ../glines/data/glines-preferences.ui.h:5
 msgid "General"
 msgstr "General"
 
-#: ../glines/glines.c:1474
+#: ../glines/data/glines-preferences.ui.h:6
+msgid "_Image:"
+msgstr "_Imagen:"
+
+#: ../glines/data/glines-preferences.ui.h:7
+msgid "_Large"
+msgstr "_Grande"
+
+#: ../glines/data/glines-preferences.ui.h:8
+#: ../gnome-sudoku/data/print_games.ui.h:9
+msgid "_Medium"
+msgstr "_Medio"
+
+#: ../glines/data/glines-preferences.ui.h:9
+msgid "_Small"
+msgstr "_Pequeño"
+
+#: ../glines/data/glines-preferences.ui.h:10
 msgid "_Use fast moves"
 msgstr "_Usar movimientos rápidos"
-
-#: ../glines/glines.c:1811
-msgid "Next:"
-msgstr "Siguiente:"
-
-#: ../glines/glines.c:1841 ../gnobots2/statusbar.c:67
-#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:433
-msgid "Score:"
-msgstr "Puntuación:"
-
-#: ../glines/glines.desktop.in.in.h:2
-msgid "Remove colored balls from the board by forming lines"
-msgstr "Elimine bolas de colores del tablero formando líneas"
 
 #: ../glines/org.gnome.glines.gschema.xml.in.h:1
 #: ../gnobots2/gnobots2.schemas.in.h:1
@@ -2751,10 +2775,6 @@ msgstr "_Incluir juegos que ya ha jugado en la lista de juegos a imprimir"
 #: ../gnome-sudoku/data/print_games.ui.h:8
 msgid "_Mark games as played once you've printed them."
 msgstr "_Marcar juegos como jugados una vez que los ha impreso."
-
-#: ../gnome-sudoku/data/print_games.ui.h:9
-msgid "_Medium"
-msgstr "_Medio"
 
 #: ../gnome-sudoku/data/print_games.ui.h:10
 msgid "_Number of sudoku to print: "
@@ -4880,6 +4900,10 @@ msgstr "Normal"
 #: ../swell-foop/src/Score.js:147
 msgid "Large"
 msgstr "Grande"
+
+#~ msgctxt "preferences"
+#~ msgid "General"
+#~ msgstr "General"
 
 #~ msgid "The game is over."
 #~ msgstr "El juego ha acabado."
@@ -7747,9 +7771,6 @@ msgstr "Grande"
 #~ msgid "Colonel"
 #~ msgstr "Coronel"
 
-#~ msgid "General"
-#~ msgstr "General"
-
 #~ msgid "Major"
 #~ msgstr "Major"
 
@@ -8491,12 +8512,6 @@ msgstr "Grande"
 
 #~ msgid "_Theme..."
 #~ msgstr "_Tema..."
-
-#~ msgid "_Small"
-#~ msgstr "_Pequeño"
-
-#~ msgid "_Large"
-#~ msgstr "_Grande"
 
 #~ msgid "_Fast Animation"
 #~ msgstr "Animación _rápida"
