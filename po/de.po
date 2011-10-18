@@ -33,8 +33,8 @@ msgstr ""
 "Project-Id-Version: gnome-games master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "games&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-09-08 20:44+0000\n"
-"PO-Revision-Date: 2011-09-18 15:29+0100\n"
+"POT-Creation-Date: 2011-10-10 17:13+0000\n"
+"PO-Revision-Date: 2011-10-18 22:08+0100\n"
 "Last-Translator: Mario Blättermann <mariobl@freenet.de>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,7 @@ msgstr "Legt fest, ob Zug-Tipps angezeigt werden"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:6
 msgid "A flag to enable the move history browser"
-msgstr "Legt fest, ob die Zug-Historie angezeigt wird"
+msgstr "Legt fest, ob die Zug-Chronik angezeigt wird"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:7
 msgid "A flag to enable the toolbar"
@@ -196,13 +196,13 @@ msgid "Undo Move"
 msgstr "Zug rückgängig"
 
 #. Help contents menu item
-#: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:234
-#: ../libgames-support/games-stock.c:249
+#: ../glchess/data/glchess.ui.h:20 ../glines/data/glines.ui.h:6
+#: ../gnome-sudoku/src/lib/main.py:234 ../libgames-support/games-stock.c:249
 msgid "_Contents"
 msgstr "I_nhalt"
 
 #. Game menu name
-#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1639
+#: ../glchess/data/glchess.ui.h:22 ../glines/data/glines.ui.h:7
 #: ../gnect/src/main.c:1187 ../gnibbles/main.c:600 ../gnobots2/menu.c:66
 #: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:210
 #: ../gnomine/gnomine.c:758 ../gnotravex/gnotravex.c:1707
@@ -213,7 +213,7 @@ msgid "_Game"
 msgstr "_Spiel"
 
 #. Help menu item
-#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1641
+#: ../glchess/data/glchess.ui.h:24 ../glines/data/glines.ui.h:8
 #: ../gnect/src/main.c:1190 ../gnibbles/main.c:603 ../gnobots2/menu.c:70
 #: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:233
 #: ../gnomine/gnomine.c:760 ../gnotravex/gnotravex.c:1711
@@ -229,7 +229,7 @@ msgid "_Resign"
 msgstr "A_ufgeben"
 
 #. Settings menu item
-#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1640
+#: ../glchess/data/glchess.ui.h:28 ../glines/data/glines.ui.h:9
 #: ../gnect/src/main.c:1189 ../gnibbles/main.c:602 ../gnobots2/menu.c:69
 #: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:224
 #: ../gnomine/gnomine.c:759 ../gnotravex/gnotravex.c:1709
@@ -285,7 +285,7 @@ msgstr "Fünf Minuten"
 
 #. Preferences Dialog: Tab title for game preferences
 #: ../glchess/data/preferences.ui.h:18 ../gnect/src/prefs.c:301
-#: ../gnibbles/preferences.c:237 ../gnobots2/properties.c:496
+#: ../gnibbles/preferences.c:237 ../gnobots2/properties.c:499
 #: ../quadrapassel/tetris.cpp:596 ../iagno/properties.c:396
 msgid "Game"
 msgstr "Spiel"
@@ -332,7 +332,7 @@ msgid "Play as:"
 msgstr "Spielen als:"
 
 #. Title for preferences dialog
-#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:195
+#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:180
 #: ../mahjongg/mahjongg.c:139
 msgid "Preferences"
 msgstr "Einstellungen"
@@ -1052,7 +1052,7 @@ msgid_plural "hours"
 msgstr[0] "Stunde"
 msgstr[1] "Stunden"
 
-#: ../glchess/src/glchess.vala:1362
+#: ../glchess/src/glchess.vala:1363
 msgid ""
 "The 2D/3D chess game for GNOME. \n"
 "\n"
@@ -1062,10 +1062,10 @@ msgstr ""
 "\n"
 "glChess ist ein Teil von GNOME Games."
 
-#: ../glchess/src/glchess.vala:1367 ../glines/glines.c:1224
+#: ../glchess/src/glchess.vala:1368 ../glines/glines.c:1190
 #: ../gnect/src/main.c:828 ../gnibbles/main.c:177 ../gnobots2/menu.c:263
 #: ../quadrapassel/tetris.cpp:1313 ../gnomine/gnomine.c:473
-#: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1490
+#: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1497
 #: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:226
 #: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:903
 #: ../swell-foop/src/About.js:19
@@ -1073,75 +1073,75 @@ msgid "GNOME Games web site"
 msgstr "GNOME Games-Website"
 
 #. Title of save game dialog
-#: ../glchess/src/glchess.vala:1421
+#: ../glchess/src/glchess.vala:1422
 msgid "Save Chess Game"
 msgstr "Schach-Partie speichern"
 
 #. Save Game Dialog: Name of filter to show only PGN files
 #. Load Game Dialog: Name of filter to show only PGN files
-#: ../glchess/src/glchess.vala:1434 ../glchess/src/glchess.vala:1502
+#: ../glchess/src/glchess.vala:1435 ../glchess/src/glchess.vala:1503
 msgid "PGN files"
 msgstr "PGN-Dateien"
 
 #. Save Game Dialog: Name of filter to show all files
 #. Load Game Dialog: Name of filter to show all files
-#: ../glchess/src/glchess.vala:1441 ../glchess/src/glchess.vala:1509
+#: ../glchess/src/glchess.vala:1442 ../glchess/src/glchess.vala:1510
 msgid "All files"
 msgstr "Alle Dateien"
 
-#: ../glchess/src/glchess.vala:1465
+#: ../glchess/src/glchess.vala:1466
 #, c-format
 msgid "Failed to save game: %s"
 msgstr "Das Spiel konnte nicht gespeichert werden: %s"
 
 #. Title of load game dialog
-#: ../glchess/src/glchess.vala:1489
+#: ../glchess/src/glchess.vala:1490
 msgid "Load Chess Game"
 msgstr "Schach-Partie laden"
 
-#: ../glchess/src/glchess.vala:1531
+#: ../glchess/src/glchess.vala:1532
 #, c-format
 msgid "Failed to open game: %s"
 msgstr "Das Öffnen des Spiels schlug fehl: %s"
 
 #. Help string for command line --version flag
-#: ../glchess/src/glchess.vala:1592
+#: ../glchess/src/glchess.vala:1593
 msgid "Show release version"
 msgstr "Versionsinformation anzeigen"
 
 #. Arguments and description for --help text
-#: ../glchess/src/glchess.vala:1607
+#: ../glchess/src/glchess.vala:1608
 msgid "[FILE] - Play Chess"
 msgstr "[DATEI] - Schach spielen"
 
 #. Text printed out when an unknown command-line argument provided
-#: ../glchess/src/glchess.vala:1618
+#: ../glchess/src/glchess.vala:1619
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options."
 msgstr ""
 "Rufen Sie »%s --help« auf, um eine vollständige Liste der verfügbaren "
 "Befehlszeileoptionen zu erhalten."
 
-#: ../glines/glines.c:87 ../gnomine/gnomine.c:101
+#: ../glines/glines.c:85 ../gnomine/gnomine.c:101
 msgctxt "board size"
 msgid "Small"
 msgstr "Klein"
 
-#: ../glines/glines.c:88 ../gnomine/gnomine.c:102
+#: ../glines/glines.c:86 ../gnomine/gnomine.c:102
 msgctxt "board size"
 msgid "Medium"
 msgstr "Mittel"
 
-#: ../glines/glines.c:89 ../gnomine/gnomine.c:103
+#: ../glines/glines.c:87 ../gnomine/gnomine.c:103
 msgctxt "board size"
 msgid "Large"
 msgstr "Groß"
 
-#: ../glines/glines.c:189
+#: ../glines/glines.c:174
 msgid "Could not load theme"
 msgstr "Das Thema konnte nicht geladen werden"
 
-#: ../glines/glines.c:217
+#: ../glines/glines.c:202
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1154,7 +1154,7 @@ msgstr ""
 "\n"
 "Der Vorgabesatz wird stattdessen geladen."
 
-#: ../glines/glines.c:224
+#: ../glines/glines.c:209
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1167,34 +1167,34 @@ msgstr ""
 "\n"
 "Bitte überprüfen Sie Ihre »Fünf oder mehr«-Installation."
 
-#: ../glines/glines.c:448
+#: ../glines/glines.c:414
 msgid "Match five objects of the same type in a row to score!"
 msgstr ""
 "Ordnen Sie fünf gleichartige Objekte in einer Reihe an, um Punkte zu erzielen!"
 
-#: ../glines/glines.c:510
+#: ../glines/glines.c:476
 msgid "GNOME Five or More"
 msgstr "GNOME Fünf oder mehr"
 
-#: ../glines/glines.c:512
+#: ../glines/glines.c:478
 msgid "_Board size:"
 msgstr "_Spielfeldgröße:"
 
-#: ../glines/glines.c:529 ../swell-foop/src/Score.js:110
+#: ../glines/glines.c:495 ../swell-foop/src/Score.js:110
 msgid "Game Over!"
 msgstr "Spiel vorbei!"
 
 #. Can't move there!
-#: ../glines/glines.c:686
+#: ../glines/glines.c:652
 msgid "You can't move there!"
 msgstr "Zug dorthin ist nicht möglich!"
 
-#: ../glines/glines.c:1210 ../glines/glines.c:1213 ../glines/glines.c:1751
-#: ../glines/glines.c:1783 ../glines/glines.desktop.in.in.h:1
+#: ../glines/glines.c:1176 ../glines/glines.c:1179 ../glines/glines.c:1614
+#: ../glines/glines.desktop.in.in.h:1
 msgid "Five or More"
 msgstr "Fünf oder mehr"
 
-#: ../glines/glines.c:1215
+#: ../glines/glines.c:1181
 msgid ""
 "GNOME port of the once-popular Color Lines game.\n"
 "\n"
@@ -1205,10 +1205,10 @@ msgstr ""
 "Fünf oder mehr ist ein Teil von GNOME Games."
 
 #. this doesn't work for anyone
-#: ../glines/glines.c:1221 ../gnect/src/main.c:831 ../gnibbles/main.c:174
+#: ../glines/glines.c:1187 ../gnect/src/main.c:831 ../gnibbles/main.c:174
 #: ../gnobots2/menu.c:267 ../quadrapassel/tetris.cpp:1316
 #: ../gnome-sudoku/src/lib/main.py:688 ../gnomine/gnomine.c:470
-#: ../gnotravex/gnotravex.c:1613 ../gnotski/gnotski.c:1487
+#: ../gnotravex/gnotravex.c:1613 ../gnotski/gnotski.c:1494
 #: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:224
 #: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:900
 #: ../swell-foop/src/About.js:20
@@ -1229,49 +1229,69 @@ msgstr ""
 "Mario Blättermann <mariobl@freenet.de>\n"
 "Christian Kirbach <Christian.Kirbach@googlemail.com>"
 
-#: ../glines/glines.c:1396
-msgid "Five or More Preferences"
-msgstr "Fünf oder mehr-Einstellungen"
+#: ../glines/glines.desktop.in.in.h:2
+msgid "Remove colored balls from the board by forming lines"
+msgstr "Farbige Kugeln durch Formieren von Linien aus dem Spielbrett entfernen"
 
-#: ../glines/glines.c:1415 ../gnect/src/prefs.c:333
-#: ../gnobots2/properties.c:535 ../iagno/properties.c:508
-#: ../lightsoff/data/settings.ui.h:1 ../swell-foop/data/settings.ui.h:1
-msgid "Appearance"
-msgstr "Erscheinungsbild"
+#: ../glines/data/glines.ui.h:1
+msgid "0"
+msgstr "0"
 
-#: ../glines/glines.c:1423
-msgid "_Image:"
-msgstr "_Bild:"
+#: ../glines/data/glines.ui.h:2
+msgid "Five or more"
+msgstr "Fünf oder mehr"
 
-#: ../glines/glines.c:1434
-msgid "B_ackground color:"
-msgstr "_Hintergrundfarbe:"
-
-#: ../glines/glines.c:1449
-msgid "Board Size"
-msgstr "Spielflächengröße"
-
-#: ../glines/glines.c:1468
-msgctxt "preferences"
-msgid "General"
-msgstr "Allgemein"
-
-#: ../glines/glines.c:1474
-msgid "_Use fast moves"
-msgstr "Züge _schnell ausführen"
-
-#: ../glines/glines.c:1811
+#: ../glines/data/glines.ui.h:3
 msgid "Next:"
 msgstr "Nächste Kugeln:"
 
-#: ../glines/glines.c:1841 ../gnobots2/statusbar.c:67
+#: ../glines/data/glines.ui.h:4 ../gnobots2/statusbar.c:67
 #: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:433
 msgid "Score:"
 msgstr "Punkte:"
 
-#: ../glines/glines.desktop.in.in.h:2
-msgid "Remove colored balls from the board by forming lines"
-msgstr "Farbige Kugeln durch Formieren von Linien aus dem Spielbrett entfernen"
+#: ../glines/data/glines-preferences.ui.h:1 ../gnect/src/prefs.c:333
+#: ../gnobots2/properties.c:538 ../iagno/properties.c:508
+#: ../lightsoff/data/settings.ui.h:1 ../swell-foop/data/settings.ui.h:1
+msgid "Appearance"
+msgstr "Erscheinungsbild"
+
+#: ../glines/data/glines-preferences.ui.h:2
+msgid "B_ackground color:"
+msgstr "_Hintergrundfarbe:"
+
+#: ../glines/data/glines-preferences.ui.h:3
+msgid "Board Size"
+msgstr "Spielflächengröße"
+
+#: ../glines/data/glines-preferences.ui.h:4
+msgid "Five or More Preferences"
+msgstr "Fünf oder mehr-Einstellungen"
+
+#: ../glines/data/glines-preferences.ui.h:5
+msgid "General"
+msgstr "Allgemein"
+
+#: ../glines/data/glines-preferences.ui.h:6
+msgid "_Image:"
+msgstr "_Bild:"
+
+#: ../glines/data/glines-preferences.ui.h:7
+msgid "_Large"
+msgstr "_Groß"
+
+#: ../glines/data/glines-preferences.ui.h:8
+#: ../gnome-sudoku/data/print_games.ui.h:9
+msgid "_Medium"
+msgstr "_Mittel"
+
+#: ../glines/data/glines-preferences.ui.h:9
+msgid "_Small"
+msgstr "_Klein"
+
+#: ../glines/data/glines-preferences.ui.h:10
+msgid "_Use fast moves"
+msgstr "Züge _schnell ausführen"
 
 #: ../glines/org.gnome.glines.gschema.xml.in.h:1
 #: ../gnobots2/gnobots2.schemas.in.h:1
@@ -1387,7 +1407,7 @@ msgstr "Nach links bewegen"
 msgid "Move right"
 msgstr "Nach rechts bewegen"
 
-#: ../gnect/data/gnect.schemas.in.h:11 ../gnobots2/properties.c:483
+#: ../gnect/data/gnect.schemas.in.h:11 ../gnobots2/properties.c:485
 #: ../iagno/org.gnome.iagno.gschema.xml.in.h:1
 msgid "Sound"
 msgstr "Ton"
@@ -1544,7 +1564,7 @@ msgstr "_Klang aktivieren"
 
 #. keyboard tab
 #: ../gnect/src/prefs.c:366 ../gnibbles/preferences.c:417
-#: ../gnobots2/properties.c:542 ../quadrapassel/tetris.cpp:743
+#: ../gnobots2/properties.c:545 ../quadrapassel/tetris.cpp:743
 msgid "Keyboard Controls"
 msgstr "Tastatursteuerung"
 
@@ -1650,19 +1670,19 @@ msgid "Speed:"
 msgstr "Geschwindigkeit:"
 
 #: ../gnibbles/gnibbles.c:369 ../gnobots2/game.c:179 ../gnomine/gnomine.c:224
-#: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:797
+#: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:803
 #: ../gtali/gyahtzee.c:197 ../mahjongg/mahjongg.c:622
 msgid "Congratulations!"
 msgstr "Glückwunsch!"
 
 #: ../gnibbles/gnibbles.c:370 ../gnobots2/game.c:180 ../gnomine/gnomine.c:225
-#: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:798
+#: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:804
 #: ../gtali/gyahtzee.c:198 ../mahjongg/mahjongg.c:623
 msgid "Your score is the best!"
 msgstr "Ihr Ergebnis ist das beste!"
 
 #: ../gnibbles/gnibbles.c:371 ../gnobots2/game.c:181 ../gnomine/gnomine.c:226
-#: ../gnotravex/gnotravex.c:1092 ../gnotski/gnotski.c:799
+#: ../gnotravex/gnotravex.c:1092 ../gnotski/gnotski.c:805
 #: ../gtali/gyahtzee.c:199 ../mahjongg/mahjongg.c:624
 msgid "Your score has made the top ten."
 msgstr "Dieses Ergebnis hat für einen Top 10-Eintrag gereicht."
@@ -1868,7 +1888,7 @@ msgstr "Leistungsgrenze der Anatomie"
 
 #. Options
 #: ../gnibbles/preferences.c:294 ../gnibbles/preferences.c:436
-#: ../gnobots2/properties.c:460 ../iagno/properties.c:547
+#: ../gnobots2/properties.c:461 ../iagno/properties.c:547
 msgid "Options"
 msgstr "Optionen"
 
@@ -1930,14 +1950,14 @@ msgstr "Wurm %d:"
 msgid "Game over!"
 msgstr "Spiel vorbei!"
 
-#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:200 ../gnotski/gnotski.c:772
+#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:200 ../gnotski/gnotski.c:778
 msgid "Great work, but unfortunately your score did not make the top ten."
 msgstr ""
 "Gute Arbeit, aber leider hat dieses Ergebnis nicht für die Top 10 gereicht."
 
 #. Translators: This "_New Game" is for the game-over dialogue
 #: ../gnobots2/game.c:154 ../gnome-sudoku/data/select_game.ui.h:1
-#: ../gnomine/gnomine.c:202 ../gnotski/gnotski.c:774
+#: ../gnomine/gnomine.c:202 ../gnotski/gnotski.c:780
 #: ../libgames-support/games-stock.c:255
 msgid "_New Game"
 msgstr "_Neues Spiel"
@@ -2123,51 +2143,51 @@ msgstr "Spieltyp"
 msgid "Game type. The name of the game variation to use."
 msgstr "Spieltyp. Der Name der zu verwendenden Spielvariation."
 
-#: ../gnobots2/gnobots2.schemas.in.h:7 ../gnobots2/properties.c:557
+#: ../gnobots2/gnobots2.schemas.in.h:7 ../gnobots2/properties.c:560
 msgid "Key to hold"
 msgstr "Taste zum Verharren"
 
-#: ../gnobots2/gnobots2.schemas.in.h:8 ../gnobots2/properties.c:553
+#: ../gnobots2/gnobots2.schemas.in.h:8 ../gnobots2/properties.c:556
 msgid "Key to move E"
 msgstr "Taste zum Bewegen nach O"
 
-#: ../gnobots2/gnobots2.schemas.in.h:9 ../gnobots2/properties.c:550
+#: ../gnobots2/gnobots2.schemas.in.h:9 ../gnobots2/properties.c:553
 msgid "Key to move N"
 msgstr "Taste zum Bewegen nach N"
 
-#: ../gnobots2/gnobots2.schemas.in.h:10 ../gnobots2/properties.c:551
+#: ../gnobots2/gnobots2.schemas.in.h:10 ../gnobots2/properties.c:554
 msgid "Key to move NE"
 msgstr "Taste zum Bewegen nach NO"
 
-#: ../gnobots2/gnobots2.schemas.in.h:11 ../gnobots2/properties.c:549
+#: ../gnobots2/gnobots2.schemas.in.h:11 ../gnobots2/properties.c:552
 msgid "Key to move NW"
 msgstr "Taste zum Bewegen nach NW"
 
-#: ../gnobots2/gnobots2.schemas.in.h:12 ../gnobots2/properties.c:555
+#: ../gnobots2/gnobots2.schemas.in.h:12 ../gnobots2/properties.c:558
 msgid "Key to move S"
 msgstr "Taste zum Bewegen nach S"
 
-#: ../gnobots2/gnobots2.schemas.in.h:13 ../gnobots2/properties.c:556
+#: ../gnobots2/gnobots2.schemas.in.h:13 ../gnobots2/properties.c:559
 msgid "Key to move SE"
 msgstr "Taste zum Bewegen nach SO"
 
-#: ../gnobots2/gnobots2.schemas.in.h:14 ../gnobots2/properties.c:554
+#: ../gnobots2/gnobots2.schemas.in.h:14 ../gnobots2/properties.c:557
 msgid "Key to move SW"
 msgstr "Taste zum Bewegen nach SW"
 
-#: ../gnobots2/gnobots2.schemas.in.h:15 ../gnobots2/properties.c:552
+#: ../gnobots2/gnobots2.schemas.in.h:15 ../gnobots2/properties.c:555
 msgid "Key to move W"
 msgstr "Taste zum Bewegen nach W"
 
-#: ../gnobots2/gnobots2.schemas.in.h:16 ../gnobots2/properties.c:558
+#: ../gnobots2/gnobots2.schemas.in.h:16 ../gnobots2/properties.c:561
 msgid "Key to teleport"
 msgstr "Taste zum Teleportieren"
 
-#: ../gnobots2/gnobots2.schemas.in.h:17 ../gnobots2/properties.c:559
+#: ../gnobots2/gnobots2.schemas.in.h:17 ../gnobots2/properties.c:562
 msgid "Key to teleport randomly"
 msgstr "Taste zum Zufallsteleport"
 
-#: ../gnobots2/gnobots2.schemas.in.h:18 ../gnobots2/properties.c:560
+#: ../gnobots2/gnobots2.schemas.in.h:18 ../gnobots2/properties.c:563
 msgid "Key to wait"
 msgstr "Taste zum Warten"
 
@@ -2409,49 +2429,49 @@ msgstr "Robots-Einstellungen"
 msgid "Game Type"
 msgstr "Spieltyp"
 
-#: ../gnobots2/properties.c:465
+#: ../gnobots2/properties.c:467
 msgid "_Use safe moves"
 msgstr "_Sichere Züge verwenden"
 
-#: ../gnobots2/properties.c:472
+#: ../gnobots2/properties.c:474
 msgid "Prevent accidental moves that result in getting killed."
 msgstr "Zufällige Züge verhindern, die zum Tod führen."
 
-#: ../gnobots2/properties.c:474
+#: ../gnobots2/properties.c:476
 msgid "U_se super safe moves"
 msgstr "E_xtrem sichere Züge verwenden"
 
-#: ../gnobots2/properties.c:481
+#: ../gnobots2/properties.c:483
 msgid "Prevents all moves that result in getting killed."
 msgstr "Alle Züge verhindern, die zum Tod führen."
 
-#: ../gnobots2/properties.c:488 ../quadrapassel/tetris.cpp:669
+#: ../gnobots2/properties.c:491 ../quadrapassel/tetris.cpp:669
 msgid "_Enable sounds"
 msgstr "_Klang aktivieren"
 
-#: ../gnobots2/properties.c:494
+#: ../gnobots2/properties.c:497
 msgid "Play sounds for events like winning a level and dying."
 msgstr ""
 "Bei Ereignissen wie dem Absolvieren eines Levels oder dem Ausscheiden Klänge "
 "ausgeben."
 
-#: ../gnobots2/properties.c:504
+#: ../gnobots2/properties.c:507
 msgid "Graphics Theme"
 msgstr "Grafikthema"
 
-#: ../gnobots2/properties.c:512
+#: ../gnobots2/properties.c:515
 msgid "_Image theme:"
 msgstr "_Bildthema:"
 
-#: ../gnobots2/properties.c:523 ../mahjongg/mahjongg.c:728
+#: ../gnobots2/properties.c:526 ../mahjongg/mahjongg.c:728
 msgid "_Background color:"
 msgstr "_Hintergrundfarbe:"
 
-#: ../gnobots2/properties.c:569
+#: ../gnobots2/properties.c:572
 msgid "_Restore Defaults"
 msgstr "Vorgaben _wiederherstellen"
 
-#: ../gnobots2/properties.c:574
+#: ../gnobots2/properties.c:577
 msgid "Keyboard"
 msgstr "Tastatur"
 
@@ -2793,10 +2813,6 @@ msgstr "Bereits ge_spielte Spiele in die auszudruckenden Spiele übernehmen"
 #: ../gnome-sudoku/data/print_games.ui.h:8
 msgid "_Mark games as played once you've printed them."
 msgstr "Ge_druckte Spiele als gespielt markieren"
-
-#: ../gnome-sudoku/data/print_games.ui.h:9
-msgid "_Medium"
-msgstr "_Mittel"
 
 #: ../gnome-sudoku/data/print_games.ui.h:10
 msgid "_Number of sudoku to print: "
@@ -3337,7 +3353,7 @@ msgstr "Y-Ort des Fensters"
 msgid "Press to Resume"
 msgstr "Spiel fortsetzen"
 
-#: ../gnomine/gnomine.c:1094
+#: ../gnomine/gnomine.c:1095
 msgid "Time: "
 msgstr "Zeit: "
 
@@ -3831,19 +3847,19 @@ msgstr "Vorheriges Puzzle"
 msgid "Level completed."
 msgstr "Level geschafft."
 
-#: ../gnotski/gnotski.c:770
+#: ../gnotski/gnotski.c:776
 msgid "The Puzzle Has Been Solved!"
 msgstr "Das Puzzle wurde gelöst!"
 
-#: ../gnotski/gnotski.c:787
+#: ../gnotski/gnotski.c:793
 msgid "Klotski Scores"
 msgstr "Klotski-Punkte"
 
-#: ../gnotski/gnotski.c:790
+#: ../gnotski/gnotski.c:796
 msgid "Puzzle:"
 msgstr "Puzzle:"
 
-#: ../gnotski/gnotski.c:872
+#: ../gnotski/gnotski.c:878
 msgid ""
 "The theme for this game failed to render.\n"
 "\n"
@@ -3853,7 +3869,7 @@ msgstr ""
 "\n"
 "Bitte überprüfen Sie Ihre Klotski-Installation."
 
-#: ../gnotski/gnotski.c:1115
+#: ../gnotski/gnotski.c:1122
 #, c-format
 msgid ""
 "Could not find the image:\n"
@@ -3866,12 +3882,12 @@ msgstr ""
 "\n"
 "Bitte überprüfen Sie Ihre Klotski-Installation."
 
-#: ../gnotski/gnotski.c:1154
+#: ../gnotski/gnotski.c:1161
 #, c-format
 msgid "Moves: %d"
 msgstr "Züge: %d"
 
-#: ../gnotski/gnotski.c:1479
+#: ../gnotski/gnotski.c:1486
 msgid ""
 "Sliding Block Puzzles\n"
 "\n"
