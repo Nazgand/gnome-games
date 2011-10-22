@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.HEAD.he\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-09 12:51+0300\n"
-"PO-Revision-Date: 2011-09-09 12:52+0200\n"
+"POT-Creation-Date: 2011-10-22 12:52+0200\n"
+"PO-Revision-Date: 2011-10-22 12:54+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Gezer (Hebrew)\n"
 "Language: he\n"
@@ -54,12 +54,8 @@ msgid "A flag to smooth (anti-alias) the 3D display"
 msgstr "A flag to smooth (anti-alias) the 3D display"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:9
-msgid ""
-"Can be 'human' (play against another human player), '' (use the first "
-"available chess engine) or the name of a specific engine to play against"
-msgstr ""
-"Can be 'human' (play against another human player), '' (use the first "
-"available chess engine) or the name of a specific engine to play against"
+msgid "Can be 'human' (play against another human player), '' (use the first available chess engine) or the name of a specific engine to play against"
+msgstr "Can be 'human' (play against another human player), '' (use the first available chess engine) or the name of a specific engine to play against"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:10
 msgid "Difficulty of the opponent chess engine"
@@ -102,10 +98,8 @@ msgid "The piece to promote pawns to"
 msgstr "The piece to promote pawns to"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:20
-msgid ""
-"The piece to promote to when a human player moves a pawn to the far rank"
-msgstr ""
-"The piece to promote to when a human player moves a pawn to the far rank"
+msgid "The piece to promote to when a human player moves a pawn to the far rank"
+msgstr "The piece to promote to when a human player moves a pawn to the far rank"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:21
 msgid "The side of the board that is in the foreground"
@@ -160,8 +154,10 @@ msgid "Show the previous move"
 msgstr "הצגת המהלך הקודם"
 
 #. Tooltip for start new game toolbar button
-#: ../glchess/data/glchess.ui.h:16 ../gnobots2/menu.c:71
-#: ../libgames-support/games-stock.c:50 ../mahjongg/mahjongg.c:1195
+#: ../glchess/data/glchess.ui.h:16
+#: ../gnobots2/menu.c:71
+#: ../libgames-support/games-stock.c:50
+#: ../mahjongg/mahjongg.c:1195
 msgid "Start a new game"
 msgstr "התחלת משחק חדש"
 
@@ -171,29 +167,47 @@ msgid "Undo Move"
 msgstr "ביטול מהלך"
 
 #. Help contents menu item
-#: ../glchess/data/glchess.ui.h:20 ../gnome-sudoku/src/lib/main.py:234
+#: ../glchess/data/glchess.ui.h:20
+#: ../glines/data/glines.ui.h:6
+#: ../gnome-sudoku/src/lib/main.py:234
 #: ../libgames-support/games-stock.c:249
 msgid "_Contents"
 msgstr "_תכנים"
 
 #. Game menu name
-#: ../glchess/data/glchess.ui.h:22 ../glines/glines.c:1639
-#: ../gnect/src/main.c:1187 ../gnibbles/main.c:600 ../gnobots2/menu.c:66
-#: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:210
-#: ../gnomine/gnomine.c:758 ../gnotravex/gnotravex.c:1707
-#: ../gnotski/gnotski.c:409 ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:763
-#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1192
+#: ../glchess/data/glchess.ui.h:22
+#: ../glines/data/glines.ui.h:7
+#: ../gnect/src/main.c:1187
+#: ../gnibbles/main.c:600
+#: ../gnobots2/menu.c:66
+#: ../quadrapassel/tetris.cpp:108
+#: ../gnome-sudoku/src/lib/main.py:210
+#: ../gnomine/gnomine.c:758
+#: ../gnotravex/gnotravex.c:1707
+#: ../gnotski/gnotski.c:409
+#: ../gtali/gyahtzee.c:711
+#: ../iagno/gnothello.c:763
+#: ../lightsoff/data/lightsoff.ui.h:2
+#: ../mahjongg/mahjongg.c:1192
 #: ../swell-foop/data/swell-foop.ui.h:2
 msgid "_Game"
 msgstr "_משחק"
 
 #. Help menu item
-#: ../glchess/data/glchess.ui.h:24 ../glines/glines.c:1641
-#: ../gnect/src/main.c:1190 ../gnibbles/main.c:603 ../gnobots2/menu.c:70
-#: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:233
-#: ../gnomine/gnomine.c:760 ../gnotravex/gnotravex.c:1711
-#: ../gnotski/gnotski.c:411 ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:765
-#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1194
+#: ../glchess/data/glchess.ui.h:24
+#: ../glines/data/glines.ui.h:8
+#: ../gnect/src/main.c:1190
+#: ../gnibbles/main.c:603
+#: ../gnobots2/menu.c:70
+#: ../quadrapassel/tetris.cpp:110
+#: ../gnome-sudoku/src/lib/main.py:233
+#: ../gnomine/gnomine.c:760
+#: ../gnotravex/gnotravex.c:1711
+#: ../gnotski/gnotski.c:411
+#: ../gtali/gyahtzee.c:713
+#: ../iagno/gnothello.c:765
+#: ../lightsoff/data/lightsoff.ui.h:3
+#: ../mahjongg/mahjongg.c:1194
 #: ../swell-foop/data/swell-foop.ui.h:3
 msgid "_Help"
 msgstr "ע_זרה"
@@ -204,17 +218,24 @@ msgid "_Resign"
 msgstr "_פרישה"
 
 #. Settings menu item
-#: ../glchess/data/glchess.ui.h:28 ../glines/glines.c:1640
-#: ../gnect/src/main.c:1189 ../gnibbles/main.c:602 ../gnobots2/menu.c:69
-#: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:224
-#: ../gnomine/gnomine.c:759 ../gnotravex/gnotravex.c:1709
-#: ../gtali/gyahtzee.c:712 ../iagno/gnothello.c:764
+#: ../glchess/data/glchess.ui.h:28
+#: ../glines/data/glines.ui.h:9
+#: ../gnect/src/main.c:1189
+#: ../gnibbles/main.c:602
+#: ../gnobots2/menu.c:69
+#: ../quadrapassel/tetris.cpp:109
+#: ../gnome-sudoku/src/lib/main.py:224
+#: ../gnomine/gnomine.c:759
+#: ../gnotravex/gnotravex.c:1709
+#: ../gtali/gyahtzee.c:712
+#: ../iagno/gnothello.c:764
 #: ../mahjongg/mahjongg.c:1193
 msgid "_Settings"
 msgstr "_אפשרויות"
 
 #. Undo move menu item
-#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:261
+#: ../glchess/data/glchess.ui.h:30
+#: ../libgames-support/games-stock.c:261
 msgid "_Undo Move"
 msgstr "_ביטול מהלך"
 
@@ -259,9 +280,12 @@ msgid "Five minutes"
 msgstr "חמש דקות"
 
 #. Preferences Dialog: Tab title for game preferences
-#: ../glchess/data/preferences.ui.h:18 ../gnect/src/prefs.c:301
-#: ../gnibbles/preferences.c:237 ../gnobots2/properties.c:496
-#: ../quadrapassel/tetris.cpp:596 ../iagno/properties.c:396
+#: ../glchess/data/preferences.ui.h:18
+#: ../gnect/src/prefs.c:301
+#: ../gnibbles/preferences.c:237
+#: ../gnobots2/properties.c:499
+#: ../quadrapassel/tetris.cpp:596
+#: ../iagno/properties.c:396
 msgid "Game"
 msgstr "משחק"
 
@@ -306,7 +330,8 @@ msgid "Play as:"
 msgstr "לשחק בתור:"
 
 #. Title for preferences dialog
-#: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:195
+#: ../glchess/data/preferences.ui.h:36
+#: ../glines/glines.c:180
 #: ../mahjongg/mahjongg.c:139
 msgid "Preferences"
 msgstr "העדפות"
@@ -322,7 +347,8 @@ msgid "Show _History"
 msgstr "הצגת _היסטוריה"
 
 #. Preferences Dialog: Check box for selecting if toolbar is visible
-#: ../glchess/data/preferences.ui.h:42 ../gnome-sudoku/src/lib/main.py:254
+#: ../glchess/data/preferences.ui.h:42
+#: ../gnome-sudoku/src/lib/main.py:254
 msgid "Show _Toolbar"
 msgstr "הצגת _סרגל כלים"
 
@@ -448,13 +474,15 @@ msgid "White Side"
 msgstr "צד לבן"
 
 #. Preferences Dialog: Combo box entry for easy game difficulty
-#: ../glchess/data/preferences.ui.h:86 ../gtali/setup.c:347
+#: ../glchess/data/preferences.ui.h:86
+#: ../gtali/setup.c:347
 msgctxt "difficulty"
 msgid "Easy"
 msgstr "קל"
 
 #. Preferences Dialog: Combo box entry for hard game difficulty
-#: ../glchess/data/preferences.ui.h:88 ../gtali/setup.c:349
+#: ../glchess/data/preferences.ui.h:88
+#: ../gtali/setup.c:349
 msgctxt "difficulty"
 msgid "Hard"
 msgstr "קשה"
@@ -466,7 +494,8 @@ msgid "Normal"
 msgstr "רגיל"
 
 #. Title of the main window
-#: ../glchess/glchess.desktop.in.in.h:1 ../glchess/src/glchess.vala:221
+#: ../glchess/glchess.desktop.in.in.h:1
+#: ../glchess/src/glchess.vala:221
 msgid "Chess"
 msgstr "שחמט"
 
@@ -989,11 +1018,13 @@ msgstr "אחד השחקנים מת"
 msgid "Save this game before starting a new one?"
 msgstr "האם לשמור את המשחק לפני התחלת אחד חדש?"
 
-#: ../glchess/src/glchess.vala:842 ../gnome-sudoku/src/lib/main.py:422
+#: ../glchess/src/glchess.vala:842
+#: ../gnome-sudoku/src/lib/main.py:422
 msgid "_Abandon game"
 msgstr "_נטישת המשחק"
 
-#: ../glchess/src/glchess.vala:843 ../gnome-sudoku/src/lib/main.py:421
+#: ../glchess/src/glchess.vala:843
+#: ../gnome-sudoku/src/lib/main.py:421
 msgid "_Save game for later"
 msgstr "_שמירת המשחק למועד מאוחר יותר"
 
@@ -1018,7 +1049,7 @@ msgid_plural "hours"
 msgstr[0] "שעה"
 msgstr[1] "שעות"
 
-#: ../glchess/src/glchess.vala:1362
+#: ../glchess/src/glchess.vala:1363
 msgid ""
 "The 2D/3D chess game for GNOME. \n"
 "\n"
@@ -1027,84 +1058,96 @@ msgstr ""
 "משחק שחמט ל־GNOME בתצוגה דו או תלת-ממדית.\n"
 "‏glChess הוא חלק מחבילת משחקי GNOME."
 
-#: ../glchess/src/glchess.vala:1367 ../glines/glines.c:1224
-#: ../gnect/src/main.c:828 ../gnibbles/main.c:177 ../gnobots2/menu.c:263
-#: ../quadrapassel/tetris.cpp:1313 ../gnomine/gnomine.c:473
-#: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1490
-#: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:226
-#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:903
+#: ../glchess/src/glchess.vala:1368
+#: ../glines/glines.c:1190
+#: ../gnect/src/main.c:828
+#: ../gnibbles/main.c:177
+#: ../gnobots2/menu.c:263
+#: ../quadrapassel/tetris.cpp:1313
+#: ../gnomine/gnomine.c:473
+#: ../gnotravex/gnotravex.c:1616
+#: ../gnotski/gnotski.c:1497
+#: ../gtali/gyahtzee.c:621
+#: ../iagno/gnothello.c:226
+#: ../lightsoff/src/About.js:19
+#: ../mahjongg/mahjongg.c:903
 #: ../swell-foop/src/About.js:19
 msgid "GNOME Games web site"
 msgstr "אתר משחקי GNOME"
 
 #. Title of save game dialog
-#: ../glchess/src/glchess.vala:1421
+#: ../glchess/src/glchess.vala:1422
 msgid "Save Chess Game"
 msgstr "שמירת משחק השחמט"
 
 #. Save Game Dialog: Name of filter to show only PGN files
 #. Load Game Dialog: Name of filter to show only PGN files
-#: ../glchess/src/glchess.vala:1434 ../glchess/src/glchess.vala:1502
+#: ../glchess/src/glchess.vala:1435
+#: ../glchess/src/glchess.vala:1503
 msgid "PGN files"
 msgstr "קובצי PGN"
 
 #. Save Game Dialog: Name of filter to show all files
 #. Load Game Dialog: Name of filter to show all files
-#: ../glchess/src/glchess.vala:1441 ../glchess/src/glchess.vala:1509
+#: ../glchess/src/glchess.vala:1442
+#: ../glchess/src/glchess.vala:1510
 msgid "All files"
 msgstr "כל הקבצים"
 
-#: ../glchess/src/glchess.vala:1465
+#: ../glchess/src/glchess.vala:1466
 #, c-format
 msgid "Failed to save game: %s"
 msgstr "שמירת המשחק נכשלה: %s"
 
 #. Title of load game dialog
-#: ../glchess/src/glchess.vala:1489
+#: ../glchess/src/glchess.vala:1490
 msgid "Load Chess Game"
 msgstr "טעינת משחק שחמט"
 
-#: ../glchess/src/glchess.vala:1531
+#: ../glchess/src/glchess.vala:1532
 #, c-format
 msgid "Failed to open game: %s"
 msgstr "פתיחת המשחק נכשלה: %s"
 
 #. Help string for command line --version flag
-#: ../glchess/src/glchess.vala:1592
+#: ../glchess/src/glchess.vala:1593
 msgid "Show release version"
 msgstr "Show release version"
 
 #. Arguments and description for --help text
-#: ../glchess/src/glchess.vala:1607
+#: ../glchess/src/glchess.vala:1608
 msgid "[FILE] - Play Chess"
 msgstr "[FILE] - Play Chess"
 
 #. Text printed out when an unknown command-line argument provided
-#: ../glchess/src/glchess.vala:1618
+#: ../glchess/src/glchess.vala:1619
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options."
 msgstr "Run '%s --help' to see a full list of available command line options."
 
-#: ../glines/glines.c:87 ../gnomine/gnomine.c:101
+#: ../glines/glines.c:85
+#: ../gnomine/gnomine.c:101
 msgctxt "board size"
 msgid "Small"
 msgstr "קטן"
 
-#: ../glines/glines.c:88 ../gnomine/gnomine.c:102
+#: ../glines/glines.c:86
+#: ../gnomine/gnomine.c:102
 msgctxt "board size"
 msgid "Medium"
 msgstr "בינוני"
 
-#: ../glines/glines.c:89 ../gnomine/gnomine.c:103
+#: ../glines/glines.c:87
+#: ../gnomine/gnomine.c:103
 msgctxt "board size"
 msgid "Large"
 msgstr "גדול"
 
-#: ../glines/glines.c:189
+#: ../glines/glines.c:174
 msgid "Could not load theme"
 msgstr "לא ניתן לטעון את ערכת הנושא"
 
-#: ../glines/glines.c:217
+#: ../glines/glines.c:202
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1117,7 +1160,7 @@ msgstr ""
 "\n"
 "ערכת נושא ברירת המחדל תטען במקומו."
 
-#: ../glines/glines.c:224
+#: ../glines/glines.c:209
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1130,33 +1173,36 @@ msgstr ""
 "\n"
 "נא לוודא כי המשחק \"חמש או יותר\" מותקן כראוי."
 
-#: ../glines/glines.c:448
+#: ../glines/glines.c:414
 msgid "Match five objects of the same type in a row to score!"
 msgstr "התאם חמישה עצמים זהים בשורה כדי לקבל ניקוד!"
 
-#: ../glines/glines.c:510
+#: ../glines/glines.c:476
 msgid "GNOME Five or More"
 msgstr "חמש או יותר - GNOME Five or More"
 
-#: ../glines/glines.c:512
+#: ../glines/glines.c:478
 msgid "_Board size:"
 msgstr "גודל ה_לוח"
 
-#: ../glines/glines.c:529 ../swell-foop/src/Score.js:110
+#: ../glines/glines.c:495
+#: ../swell-foop/src/Score.js:110
 msgid "Game Over!"
 msgstr "המשחק הסתיים!"
 
 #. Can't move there!
-#: ../glines/glines.c:686
+#: ../glines/glines.c:652
 msgid "You can't move there!"
 msgstr "לא ניתן לזוז לשם!"
 
-#: ../glines/glines.c:1210 ../glines/glines.c:1213 ../glines/glines.c:1751
-#: ../glines/glines.c:1783 ../glines/glines.desktop.in.in.h:1
+#: ../glines/glines.c:1176
+#: ../glines/glines.c:1179
+#: ../glines/glines.c:1614
+#: ../glines/glines.desktop.in.in.h:1
 msgid "Five or More"
 msgstr "חמש או יותר"
 
-#: ../glines/glines.c:1215
+#: ../glines/glines.c:1181
 msgid ""
 "GNOME port of the once-popular Color Lines game.\n"
 "\n"
@@ -1166,12 +1212,19 @@ msgstr ""
 "‏חמש או יותר הוא חלק מחבילת משחקי GNOME."
 
 #. this doesn't work for anyone
-#: ../glines/glines.c:1221 ../gnect/src/main.c:831 ../gnibbles/main.c:174
-#: ../gnobots2/menu.c:267 ../quadrapassel/tetris.cpp:1316
-#: ../gnome-sudoku/src/lib/main.py:688 ../gnomine/gnomine.c:470
-#: ../gnotravex/gnotravex.c:1613 ../gnotski/gnotski.c:1487
-#: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:224
-#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:900
+#: ../glines/glines.c:1187
+#: ../gnect/src/main.c:831
+#: ../gnibbles/main.c:174
+#: ../gnobots2/menu.c:267
+#: ../quadrapassel/tetris.cpp:1316
+#: ../gnome-sudoku/src/lib/main.py:688
+#: ../gnomine/gnomine.c:470
+#: ../gnotravex/gnotravex.c:1613
+#: ../gnotski/gnotski.c:1494
+#: ../gtali/gyahtzee.c:617
+#: ../iagno/gnothello.c:224
+#: ../lightsoff/src/About.js:20
+#: ../mahjongg/mahjongg.c:900
 #: ../swell-foop/src/About.js:20
 msgid "translator-credits"
 msgstr ""
@@ -1186,49 +1239,74 @@ msgstr ""
 "פרויקט תרגום GNOME לעברית:\n"
 "‏http://gnome-il.berlios.de"
 
-#: ../glines/glines.c:1396
-msgid "Five or More Preferences"
-msgstr "העדפות ׳חמש או יותר׳"
-
-#: ../glines/glines.c:1415 ../gnect/src/prefs.c:333
-#: ../gnobots2/properties.c:535 ../iagno/properties.c:508
-#: ../lightsoff/data/settings.ui.h:1 ../swell-foop/data/settings.ui.h:1
-msgid "Appearance"
-msgstr "מראה"
-
-#: ../glines/glines.c:1423
-msgid "_Image:"
-msgstr "_תמונה:"
-
-#: ../glines/glines.c:1434
-msgid "B_ackground color:"
-msgstr "צבע _רקע:"
-
-#: ../glines/glines.c:1449
-msgid "Board Size"
-msgstr "גודל הלוח"
-
-#: ../glines/glines.c:1468
-msgctxt "preferences"
-msgid "General"
-msgstr "כללי"
-
-#: ../glines/glines.c:1474
-msgid "_Use fast moves"
-msgstr "_שימוש במהלכים מהירים"
-
-#: ../glines/glines.c:1811
-msgid "Next:"
-msgstr "הבא:"
-
-#: ../glines/glines.c:1841 ../gnobots2/statusbar.c:67
-#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:433
-msgid "Score:"
-msgstr "תוצאה:"
-
 #: ../glines/glines.desktop.in.in.h:2
 msgid "Remove colored balls from the board by forming lines"
 msgstr "הסרת כדורים צבעוניים מהלוח על־ידי יצירת שורות"
+
+#: ../glines/data/glines.ui.h:1
+msgid "0"
+msgstr "0"
+
+#: ../glines/data/glines.ui.h:2
+msgid "Five or more"
+msgstr "חמש או יותר"
+
+#: ../glines/data/glines.ui.h:3
+msgid "Next:"
+msgstr "הבא:"
+
+#: ../glines/data/glines.ui.h:4
+#: ../gnobots2/statusbar.c:67
+#: ../quadrapassel/scoreframe.cpp:47
+#: ../gnomine/gnomine.c:433
+msgid "Score:"
+msgstr "תוצאה:"
+
+#: ../glines/data/glines-preferences.ui.h:1
+#: ../gnect/src/prefs.c:333
+#: ../gnobots2/properties.c:538
+#: ../iagno/properties.c:508
+#: ../lightsoff/data/settings.ui.h:1
+#: ../swell-foop/data/settings.ui.h:1
+msgid "Appearance"
+msgstr "מראה"
+
+#: ../glines/data/glines-preferences.ui.h:2
+msgid "B_ackground color:"
+msgstr "צבע _רקע:"
+
+#: ../glines/data/glines-preferences.ui.h:3
+msgid "Board Size"
+msgstr "גודל הלוח"
+
+#: ../glines/data/glines-preferences.ui.h:4
+msgid "Five or More Preferences"
+msgstr "העדפות ׳חמש או יותר׳"
+
+#: ../glines/data/glines-preferences.ui.h:5
+msgid "General"
+msgstr "כללי"
+
+#: ../glines/data/glines-preferences.ui.h:6
+msgid "_Image:"
+msgstr "_תמונה:"
+
+#: ../glines/data/glines-preferences.ui.h:7
+msgid "_Large"
+msgstr "_גדול"
+
+#: ../glines/data/glines-preferences.ui.h:8
+#: ../gnome-sudoku/data/print_games.ui.h:9
+msgid "_Medium"
+msgstr "_בינוני"
+
+#: ../glines/data/glines-preferences.ui.h:9
+msgid "_Small"
+msgstr "_קטן"
+
+#: ../glines/data/glines-preferences.ui.h:10
+msgid "_Use fast moves"
+msgstr "_שימוש במהלכים מהירים"
 
 #: ../glines/org.gnome.glines.gschema.xml.in.h:1
 #: ../gnobots2/gnobots2.schemas.in.h:1
@@ -1277,10 +1355,8 @@ msgid "Playing field size"
 msgstr "Playing field size"
 
 #: ../glines/org.gnome.glines.gschema.xml.in.h:12
-msgid ""
-"Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is invalid."
-msgstr ""
-"Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is invalid."
+msgid "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is invalid."
+msgstr "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is invalid."
 
 #: ../glines/org.gnome.glines.gschema.xml.in.h:13
 msgid "Time between moves"
@@ -1306,7 +1382,8 @@ msgstr "A number specifying the preferred theme."
 msgid "Animate"
 msgstr "Animate"
 
-#: ../gnect/data/gnect.schemas.in.h:3 ../gnect/src/prefs.c:372
+#: ../gnect/data/gnect.schemas.in.h:3
+#: ../gnect/src/prefs.c:372
 msgid "Drop marble"
 msgstr "הפלת גולה"
 
@@ -1332,19 +1409,26 @@ msgstr "Level of Player One"
 msgid "Level of Player Two"
 msgstr "Level of Player Two"
 
-#: ../gnect/data/gnect.schemas.in.h:9 ../gnect/src/prefs.c:370
-#: ../gnibbles/gnibbles.schemas.in.h:16 ../gnibbles/preferences.c:427
-#: ../quadrapassel/quadrapassel.schemas.in.h:13 ../quadrapassel/tetris.cpp:751
+#: ../gnect/data/gnect.schemas.in.h:9
+#: ../gnect/src/prefs.c:370
+#: ../gnibbles/gnibbles.schemas.in.h:16
+#: ../gnibbles/preferences.c:427
+#: ../quadrapassel/quadrapassel.schemas.in.h:13
+#: ../quadrapassel/tetris.cpp:751
 msgid "Move left"
 msgstr "הזזה שמאלה"
 
-#: ../gnect/data/gnect.schemas.in.h:10 ../gnect/src/prefs.c:371
-#: ../gnibbles/gnibbles.schemas.in.h:17 ../gnibbles/preferences.c:428
-#: ../quadrapassel/quadrapassel.schemas.in.h:14 ../quadrapassel/tetris.cpp:752
+#: ../gnect/data/gnect.schemas.in.h:10
+#: ../gnect/src/prefs.c:371
+#: ../gnibbles/gnibbles.schemas.in.h:17
+#: ../gnibbles/preferences.c:428
+#: ../quadrapassel/quadrapassel.schemas.in.h:14
+#: ../quadrapassel/tetris.cpp:752
 msgid "Move right"
 msgstr "הזזה ימינה"
 
-#: ../gnect/data/gnect.schemas.in.h:11 ../gnobots2/properties.c:483
+#: ../gnect/data/gnect.schemas.in.h:11
+#: ../gnobots2/properties.c:485
 #: ../iagno/org.gnome.iagno.gschema.xml.in.h:1
 msgid "Sound"
 msgstr "Sound"
@@ -1363,12 +1447,8 @@ msgid "Whether or not to use animation."
 msgstr "Whether or not to use animation."
 
 #: ../gnect/data/gnect.schemas.in.h:15
-msgid ""
-"Zero is human; one through three correspond to the level of the computer "
-"player."
-msgstr ""
-"Zero is human; one through three correspond to the level of the computer "
-"player."
+msgid "Zero is human; one through three correspond to the level of the computer player."
+msgstr "Zero is human; one through three correspond to the level of the computer player."
 
 #: ../gnect/src/gfx.c:248
 #, c-format
@@ -1383,11 +1463,13 @@ msgstr ""
 msgid "It's a draw!"
 msgstr "זהו תיקו!"
 
-#: ../gnect/src/main.c:518 ../gnome-sudoku/src/lib/main.py:402
+#: ../gnect/src/main.c:518
+#: ../gnome-sudoku/src/lib/main.py:402
 msgid "You win!"
 msgstr "ניצחת!"
 
-#: ../gnect/src/main.c:520 ../gnect/src/main.c:539
+#: ../gnect/src/main.c:520
+#: ../gnect/src/main.c:539
 msgid "It is your move."
 msgstr "תורך."
 
@@ -1395,7 +1477,8 @@ msgstr "תורך."
 msgid "I win!"
 msgstr "אני ניצחתי!"
 
-#: ../gnect/src/main.c:525 ../gnect/src/main.c:627
+#: ../gnect/src/main.c:525
+#: ../gnect/src/main.c:627
 msgid "Thinking..."
 msgstr "חושב..."
 
@@ -1414,11 +1497,13 @@ msgstr "ממתין למהלך של %s"
 msgid "Hint: Column %d"
 msgstr "רמז: עמודה %d"
 
-#: ../gnect/src/main.c:672 ../gnect/src/main.c:676
+#: ../gnect/src/main.c:672
+#: ../gnect/src/main.c:676
 msgid "You:"
 msgstr "אתה:"
 
-#: ../gnect/src/main.c:673 ../gnect/src/main.c:675
+#: ../gnect/src/main.c:673
+#: ../gnect/src/main.c:675
 msgid "Me:"
 msgstr "אני:"
 
@@ -1432,17 +1517,17 @@ msgstr "תיקו:"
 
 #: ../gnect/src/main.c:827
 msgid ""
-"\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
-"Bertoletti's Velena Engine.\n"
+"\"Four in a Row\" for GNOME, with a computer player driven by Giuliano Bertoletti's Velena Engine.\n"
 "\n"
 "\"Four in a Row\" is a part of GNOME Games."
 msgstr ""
-"\"ארבע בשורה\" ל־GNOME, עם שחקן ממוחשב המונע בעזרת המנוע Velena של Giuliano "
-"Bertoletti.\n"
+"\"ארבע בשורה\" ל־GNOME, עם שחקן ממוחשב המונע בעזרת המנוע Velena של Giuliano Bertoletti.\n"
 "\n"
 "\"ארבע בשורה\" הוא חלק מחבילת משחקי GNOME."
 
-#: ../gnect/src/main.c:1188 ../gnibbles/main.c:601 ../gnobots2/menu.c:67
+#: ../gnect/src/main.c:1188
+#: ../gnibbles/main.c:601
+#: ../gnobots2/menu.c:67
 #: ../gnotski/gnotski.c:410
 msgid "_View"
 msgstr "ע_ריכה"
@@ -1465,22 +1550,28 @@ msgstr ""
 "שחקן 2:\n"
 "%s"
 
-#: ../gnect/src/prefs.c:249 ../gtali/gyahtzee.c:998 ../gtali/yahtzee.c:69
-#: ../iagno/properties.c:429 ../iagno/properties.c:470
+#: ../gnect/src/prefs.c:249
+#: ../gtali/gyahtzee.c:998
+#: ../gtali/yahtzee.c:69
+#: ../iagno/properties.c:429
+#: ../iagno/properties.c:470
 msgid "Human"
 msgstr "אנושי"
 
-#: ../gnect/src/prefs.c:251 ../iagno/properties.c:438
+#: ../gnect/src/prefs.c:251
+#: ../iagno/properties.c:438
 #: ../iagno/properties.c:479
 msgid "Level one"
 msgstr "רמה אחת"
 
-#: ../gnect/src/prefs.c:253 ../iagno/properties.c:447
+#: ../gnect/src/prefs.c:253
+#: ../iagno/properties.c:447
 #: ../iagno/properties.c:488
 msgid "Level two"
 msgstr "רמה שתיים"
 
-#: ../gnect/src/prefs.c:255 ../iagno/properties.c:456
+#: ../gnect/src/prefs.c:255
+#: ../iagno/properties.c:456
 #: ../iagno/properties.c:497
 msgid "Level three"
 msgstr "רמה שלוש"
@@ -1497,14 +1588,17 @@ msgstr "_ערכת נושא:"
 msgid "Enable _animation"
 msgstr "אפשר _הנפשה"
 
-#: ../gnect/src/prefs.c:361 ../gnibbles/preferences.c:321
+#: ../gnect/src/prefs.c:361
+#: ../gnibbles/preferences.c:321
 #: ../iagno/properties.c:417
 msgid "E_nable sounds"
 msgstr "א_פשר צלילים"
 
 #. keyboard tab
-#: ../gnect/src/prefs.c:366 ../gnibbles/preferences.c:417
-#: ../gnobots2/properties.c:542 ../quadrapassel/tetris.cpp:743
+#: ../gnect/src/prefs.c:366
+#: ../gnibbles/preferences.c:417
+#: ../gnobots2/properties.c:545
+#: ../quadrapassel/tetris.cpp:743
 msgid "Keyboard Controls"
 msgstr "שליטת מקלדת"
 
@@ -1512,12 +1606,16 @@ msgstr "שליטת מקלדת"
 msgid "Classic"
 msgstr "קלאסי"
 
-#: ../gnect/src/theme.c:47 ../gnect/src/theme.c:68 ../gnect/src/theme.c:75
-#: ../gnect/src/theme.c:82 ../gnibbles/preferences.c:455
+#: ../gnect/src/theme.c:47
+#: ../gnect/src/theme.c:68
+#: ../gnect/src/theme.c:75
+#: ../gnect/src/theme.c:82
+#: ../gnibbles/preferences.c:455
 msgid "Red"
 msgstr "אדום"
 
-#: ../gnect/src/theme.c:47 ../gnibbles/preferences.c:458
+#: ../gnect/src/theme.c:47
+#: ../gnibbles/preferences.c:458
 msgid "Yellow"
 msgstr "צהוב"
 
@@ -1525,11 +1623,13 @@ msgstr "צהוב"
 msgid "High Contrast"
 msgstr "ניגודיות גבוהה"
 
-#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61
+#: ../gnect/src/theme.c:54
+#: ../gnect/src/theme.c:61
 msgid "Circle"
 msgstr "עיגול"
 
-#: ../gnect/src/theme.c:54 ../gnect/src/theme.c:61
+#: ../gnect/src/theme.c:54
+#: ../gnect/src/theme.c:61
 msgid "Cross"
 msgstr "צלב"
 
@@ -1541,8 +1641,11 @@ msgstr "ניגוד גבוה הפוך"
 msgid "Cream Marbles"
 msgstr "גולות קרמיות"
 
-#: ../gnect/src/theme.c:68 ../gnect/src/theme.c:75 ../gnect/src/theme.c:82
-#: ../gnect/src/theme.c:89 ../gnibbles/preferences.c:457
+#: ../gnect/src/theme.c:68
+#: ../gnect/src/theme.c:75
+#: ../gnect/src/theme.c:82
+#: ../gnect/src/theme.c:89
+#: ../gnibbles/preferences.c:457
 msgid "Blue"
 msgstr "כחול"
 
@@ -1609,21 +1712,33 @@ msgstr "תוצאות כרסומים"
 msgid "Speed:"
 msgstr "מהירות:"
 
-#: ../gnibbles/gnibbles.c:369 ../gnobots2/game.c:179 ../gnomine/gnomine.c:224
-#: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:797
-#: ../gtali/gyahtzee.c:197 ../mahjongg/mahjongg.c:622
+#: ../gnibbles/gnibbles.c:369
+#: ../gnobots2/game.c:179
+#: ../gnomine/gnomine.c:224
+#: ../gnotravex/gnotravex.c:1090
+#: ../gnotski/gnotski.c:803
+#: ../gtali/gyahtzee.c:197
+#: ../mahjongg/mahjongg.c:622
 msgid "Congratulations!"
 msgstr "ברכות!"
 
-#: ../gnibbles/gnibbles.c:370 ../gnobots2/game.c:180 ../gnomine/gnomine.c:225
-#: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:798
-#: ../gtali/gyahtzee.c:198 ../mahjongg/mahjongg.c:623
+#: ../gnibbles/gnibbles.c:370
+#: ../gnobots2/game.c:180
+#: ../gnomine/gnomine.c:225
+#: ../gnotravex/gnotravex.c:1091
+#: ../gnotski/gnotski.c:804
+#: ../gtali/gyahtzee.c:198
+#: ../mahjongg/mahjongg.c:623
 msgid "Your score is the best!"
 msgstr "התוצאה שלך היא הגבוהה ביותר!"
 
-#: ../gnibbles/gnibbles.c:371 ../gnobots2/game.c:181 ../gnomine/gnomine.c:226
-#: ../gnotravex/gnotravex.c:1092 ../gnotski/gnotski.c:799
-#: ../gtali/gyahtzee.c:199 ../mahjongg/mahjongg.c:624
+#: ../gnibbles/gnibbles.c:371
+#: ../gnobots2/game.c:181
+#: ../gnomine/gnomine.c:226
+#: ../gnotravex/gnotravex.c:1092
+#: ../gnotski/gnotski.c:805
+#: ../gtali/gyahtzee.c:199
+#: ../mahjongg/mahjongg.c:624
 msgid "Your score has made the top ten."
 msgstr "נכנסת לעשרת הגדולים!"
 
@@ -1631,8 +1746,11 @@ msgstr "נכנסת לעשרת הגדולים!"
 msgid "Guide a worm around a maze"
 msgstr "הדרכת תולעת במבוך"
 
-#: ../gnibbles/gnibbles.desktop.in.in.h:2 ../gnibbles/main.c:162
-#: ../gnibbles/main.c:165 ../gnibbles/main.c:695 ../gnibbles/main.c:766
+#: ../gnibbles/gnibbles.desktop.in.in.h:2
+#: ../gnibbles/main.c:162
+#: ../gnibbles/main.c:165
+#: ../gnibbles/main.c:695
+#: ../gnibbles/main.c:766
 #: ../gnibbles/main.c:896
 msgid "Nibbles"
 msgstr "כרסומים"
@@ -1693,12 +1811,15 @@ msgstr "Key to use for motion right."
 msgid "Key to use for motion up."
 msgstr "Key to use for motion up."
 
-#: ../gnibbles/gnibbles.schemas.in.h:15 ../gnibbles/preferences.c:430
-#: ../quadrapassel/quadrapassel.schemas.in.h:12 ../quadrapassel/tetris.cpp:753
+#: ../gnibbles/gnibbles.schemas.in.h:15
+#: ../gnibbles/preferences.c:430
+#: ../quadrapassel/quadrapassel.schemas.in.h:12
+#: ../quadrapassel/tetris.cpp:753
 msgid "Move down"
 msgstr "הזז למטה"
 
-#: ../gnibbles/gnibbles.schemas.in.h:18 ../gnibbles/preferences.c:429
+#: ../gnibbles/gnibbles.schemas.in.h:18
+#: ../gnibbles/preferences.c:429
 msgid "Move up"
 msgstr "הזז למעלה"
 
@@ -1827,8 +1948,10 @@ msgid "Finger-twitching good"
 msgstr "עיוות אצבעות טוב"
 
 #. Options
-#: ../gnibbles/preferences.c:294 ../gnibbles/preferences.c:436
-#: ../gnobots2/properties.c:460 ../iagno/properties.c:547
+#: ../gnibbles/preferences.c:294
+#: ../gnibbles/preferences.c:436
+#: ../gnobots2/properties.c:461
+#: ../iagno/properties.c:547
 msgid "Options"
 msgstr "אפשרויות"
 
@@ -1841,7 +1964,8 @@ msgid "_Enable fake bonuses"
 msgstr "הפעלת בונוסים מ_זויפים"
 
 #. starting level
-#: ../gnibbles/preferences.c:334 ../quadrapassel/tetris.cpp:643
+#: ../gnibbles/preferences.c:334
+#: ../quadrapassel/tetris.cpp:643
 msgid "_Starting level:"
 msgstr "רמת _התחלה:"
 
@@ -1886,18 +2010,22 @@ msgstr "אפור"
 msgid "Worm %d:"
 msgstr "תולעת %d:"
 
-#: ../gnobots2/game.c:150 ../gtali/gyahtzee.c:215
+#: ../gnobots2/game.c:150
+#: ../gtali/gyahtzee.c:215
 msgid "Game over!"
 msgstr "המשחק הסתיים!"
 
-#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:200 ../gnotski/gnotski.c:772
+#: ../gnobots2/game.c:152
+#: ../gnomine/gnomine.c:200
+#: ../gnotski/gnotski.c:778
 msgid "Great work, but unfortunately your score did not make the top ten."
-msgstr ""
-"עבודה מעולה, אבל למרבה הצער התוצאה שהשגת אינה מספיקה כדי להכנס לעשרת הגדולים."
+msgstr "עבודה מעולה, אבל למרבה הצער התוצאה שהשגת אינה מספיקה כדי להכנס לעשרת הגדולים."
 
 #. Translators: This "_New Game" is for the game-over dialogue
-#: ../gnobots2/game.c:154 ../gnome-sudoku/data/select_game.ui.h:1
-#: ../gnomine/gnomine.c:202 ../gnotski/gnotski.c:774
+#: ../gnobots2/game.c:154
+#: ../gnome-sudoku/data/select_game.ui.h:1
+#: ../gnomine/gnomine.c:202
+#: ../gnotski/gnotski.c:780
 #: ../libgames-support/games-stock.c:255
 msgid "_New Game"
 msgstr "_משחק חדש"
@@ -1906,12 +2034,14 @@ msgstr "_משחק חדש"
 msgid "Robots Scores"
 msgstr "ניקוד ברובוטים"
 
-#: ../gnobots2/game.c:170 ../mahjongg/mahjongg.c:620
+#: ../gnobots2/game.c:170
+#: ../mahjongg/mahjongg.c:620
 #: ../mahjongg/mahjongg.c:945
 msgid "Map:"
 msgstr "מפה:"
 
-#: ../gnobots2/game.c:409 ../gnobots2/game.c:425
+#: ../gnobots2/game.c:409
+#: ../gnobots2/game.c:425
 msgid ""
 "Congratulations, You Have Defeated the Robots!! \n"
 "But Can You do it Again?"
@@ -1932,7 +2062,8 @@ msgstr "אין מקומות בטוחים לעשות אליהם שיגור!!"
 msgid "Set game scenario"
 msgstr "Set game scenario"
 
-#: ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
+#: ../gnobots2/gnobots.c:85
+#: ../gnobots2/gnobots.c:87
 msgid "NAME"
 msgstr "NAME"
 
@@ -1940,18 +2071,25 @@ msgstr "NAME"
 msgid "Set game configuration"
 msgstr "Set game configuration"
 
-#: ../gnobots2/gnobots.c:89 ../gnobots2/gnobots.c:91
+#: ../gnobots2/gnobots.c:89
+#: ../gnobots2/gnobots.c:91
 msgid "Initial window position"
 msgstr "Initial window position"
 
-#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:914 ../gnomine/gnomine.c:922
-#: ../gnotravex/gnotravex.c:262 ../gnotski/gnotski.c:457
+#: ../gnobots2/gnobots.c:89
+#: ../gnomine/gnomine.c:914
+#: ../gnomine/gnomine.c:922
+#: ../gnotravex/gnotravex.c:262
+#: ../gnotski/gnotski.c:457
 #: ../iagno/gnothello.c:139
 msgid "X"
 msgstr "X"
 
-#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:916 ../gnomine/gnomine.c:924
-#: ../gnotravex/gnotravex.c:264 ../gnotski/gnotski.c:459
+#: ../gnobots2/gnobots.c:91
+#: ../gnomine/gnomine.c:916
+#: ../gnomine/gnomine.c:924
+#: ../gnotravex/gnotravex.c:264
+#: ../gnotski/gnotski.c:459
 #: ../iagno/gnothello.c:141
 msgid "Y"
 msgstr "Y"
@@ -2016,8 +2154,10 @@ msgstr "רובוטים עם שיגור בטוח ומהלכים בטוחים"
 msgid "Robots with safe teleport with super-safe moves"
 msgstr "רובוטים עם שיגור בטוח ומהלכים בטוחים מאוד"
 
-#: ../gnobots2/gnobots.c:237 ../gnobots2/gnobots.c:258
-#: ../gnobots2/gnobots2.desktop.in.in.h:2 ../gnobots2/menu.c:256
+#: ../gnobots2/gnobots.c:237
+#: ../gnobots2/gnobots.c:258
+#: ../gnobots2/gnobots2.desktop.in.in.h:2
+#: ../gnobots2/menu.c:256
 #: ../gnobots2/menu.c:259
 msgid "Robots"
 msgstr "רובוטים"
@@ -2027,24 +2167,16 @@ msgid "No game data could be found."
 msgstr "לא נמצא מידע משחק."
 
 #: ../gnobots2/gnobots.c:323
-msgid ""
-"The program Robots was unable to find any valid game configuration files. "
-"Please check that the program is installed correctly."
-msgstr ""
-"התכנית רובוטי GNOME לא הצליחה למצוא קובצי הגדרת משחק תקינים. נא לבדוק "
-"שהתכנית מותקנת כראוי."
+msgid "The program Robots was unable to find any valid game configuration files. Please check that the program is installed correctly."
+msgstr "התכנית רובוטי GNOME לא הצליחה למצוא קובצי הגדרת משחק תקינים. נא לבדוק שהתכנית מותקנת כראוי."
 
 #: ../gnobots2/gnobots.c:339
 msgid "Some graphics files are missing or corrupt."
 msgstr "חלק מקובצי הגרפיקה חסרים או פגומים."
 
 #: ../gnobots2/gnobots.c:341
-msgid ""
-"The program Robots was unable to load all the necessary graphics files. "
-"Please check that the program is installed correctly."
-msgstr ""
-"התכנית רובוטי GNOME לא הצליחה לטעון את קובצי הגרפיקה הנחוצים. נא לבדוק "
-"שהתכנית מותקנת כראוי."
+msgid "The program Robots was unable to load all the necessary graphics files. Please check that the program is installed correctly."
+msgstr "התכנית רובוטי GNOME לא הצליחה לטעון את קובצי הגרפיקה הנחוצים. נא לבדוק שהתכנית מותקנת כראוי."
 
 #. ********************************************************************
 #: ../gnobots2/gnobots2.desktop.in.in.h:1
@@ -2057,8 +2189,7 @@ msgstr "Enable game sounds"
 
 #: ../gnobots2/gnobots2.schemas.in.h:4
 msgid "Enable game sounds. Play sounds for various events throughout the game."
-msgstr ""
-"Enable game sounds. Play sounds for various events throughout the game."
+msgstr "Enable game sounds. Play sounds for various events throughout the game."
 
 #: ../gnobots2/gnobots2.schemas.in.h:5
 msgid "Game type"
@@ -2068,51 +2199,63 @@ msgstr "Game type"
 msgid "Game type. The name of the game variation to use."
 msgstr "Game type. The name of the game variation to use."
 
-#: ../gnobots2/gnobots2.schemas.in.h:7 ../gnobots2/properties.c:557
+#: ../gnobots2/gnobots2.schemas.in.h:7
+#: ../gnobots2/properties.c:560
 msgid "Key to hold"
 msgstr "מקש להחזקה"
 
-#: ../gnobots2/gnobots2.schemas.in.h:8 ../gnobots2/properties.c:553
+#: ../gnobots2/gnobots2.schemas.in.h:8
+#: ../gnobots2/properties.c:556
 msgid "Key to move E"
 msgstr "לחיצת מקשה לתנועה מזרחה"
 
-#: ../gnobots2/gnobots2.schemas.in.h:9 ../gnobots2/properties.c:550
+#: ../gnobots2/gnobots2.schemas.in.h:9
+#: ../gnobots2/properties.c:553
 msgid "Key to move N"
 msgstr "לחיצת מקש לתנועה צפונה"
 
-#: ../gnobots2/gnobots2.schemas.in.h:10 ../gnobots2/properties.c:551
+#: ../gnobots2/gnobots2.schemas.in.h:10
+#: ../gnobots2/properties.c:554
 msgid "Key to move NE"
 msgstr "לחיצת מקש לתנועה לצפון-מזרח"
 
-#: ../gnobots2/gnobots2.schemas.in.h:11 ../gnobots2/properties.c:549
+#: ../gnobots2/gnobots2.schemas.in.h:11
+#: ../gnobots2/properties.c:552
 msgid "Key to move NW"
 msgstr "לחיצת מקש לתנועה לצפון-מערב"
 
-#: ../gnobots2/gnobots2.schemas.in.h:12 ../gnobots2/properties.c:555
+#: ../gnobots2/gnobots2.schemas.in.h:12
+#: ../gnobots2/properties.c:558
 msgid "Key to move S"
 msgstr "לחיצת מקש לתנועה דרומה"
 
-#: ../gnobots2/gnobots2.schemas.in.h:13 ../gnobots2/properties.c:556
+#: ../gnobots2/gnobots2.schemas.in.h:13
+#: ../gnobots2/properties.c:559
 msgid "Key to move SE"
 msgstr "מקש לתנועה לדרום-מזרח"
 
-#: ../gnobots2/gnobots2.schemas.in.h:14 ../gnobots2/properties.c:554
+#: ../gnobots2/gnobots2.schemas.in.h:14
+#: ../gnobots2/properties.c:557
 msgid "Key to move SW"
 msgstr "מקש לתנועה לדרום-מערב"
 
-#: ../gnobots2/gnobots2.schemas.in.h:15 ../gnobots2/properties.c:552
+#: ../gnobots2/gnobots2.schemas.in.h:15
+#: ../gnobots2/properties.c:555
 msgid "Key to move W"
 msgstr "מקש לתנועה מערבה"
 
-#: ../gnobots2/gnobots2.schemas.in.h:16 ../gnobots2/properties.c:558
+#: ../gnobots2/gnobots2.schemas.in.h:16
+#: ../gnobots2/properties.c:561
 msgid "Key to teleport"
 msgstr "מקש לשיגור"
 
-#: ../gnobots2/gnobots2.schemas.in.h:17 ../gnobots2/properties.c:559
+#: ../gnobots2/gnobots2.schemas.in.h:17
+#: ../gnobots2/properties.c:562
 msgid "Key to teleport randomly"
 msgstr "מקש לשיגור אקראי"
 
-#: ../gnobots2/gnobots2.schemas.in.h:18 ../gnobots2/properties.c:560
+#: ../gnobots2/gnobots2.schemas.in.h:18
+#: ../gnobots2/properties.c:563
 msgid "Key to wait"
 msgstr "מקש להמתנה"
 
@@ -2133,81 +2276,48 @@ msgid "Show toolbar. A standard option for toolbars."
 msgstr "Show toolbar. A standard option for toolbars."
 
 #: ../gnobots2/gnobots2.schemas.in.h:23
-msgid ""
-"The name of the key used to hold still. The name is a standard X key name."
-msgstr ""
-"The name of the key used to hold still. The name is a standard X key name."
+msgid "The name of the key used to hold still. The name is a standard X key name."
+msgstr "The name of the key used to hold still. The name is a standard X key name."
 
 #: ../gnobots2/gnobots2.schemas.in.h:24
-msgid ""
-"The name of the key used to move east. The name is a standard X key name."
-msgstr ""
-"The name of the key used to move east. The name is a standard X key name."
+msgid "The name of the key used to move east. The name is a standard X key name."
+msgstr "The name of the key used to move east. The name is a standard X key name."
 
 #: ../gnobots2/gnobots2.schemas.in.h:25
-msgid ""
-"The name of the key used to move north-east. The name is a standard X key "
-"name."
-msgstr ""
-"The name of the key used to move north-east. The name is a standard X key "
+msgid "The name of the key used to move north-east. The name is a standard X key name."
+msgstr "The name of the key used to move north-east. The name is a standard X key "
 
 #: ../gnobots2/gnobots2.schemas.in.h:26
-msgid ""
-"The name of the key used to move north-west. The name is a standard X key "
-"name."
-msgstr ""
-"The name of the key used to move north-west. The name is a standard X key "
-"name."
+msgid "The name of the key used to move north-west. The name is a standard X key name."
+msgstr "The name of the key used to move north-west. The name is a standard X key name."
 
 #: ../gnobots2/gnobots2.schemas.in.h:27
-msgid ""
-"The name of the key used to move north. The name is a standard X key name."
-msgstr ""
-"The name of the key used to move north. The name is a standard X key name."
+msgid "The name of the key used to move north. The name is a standard X key name."
+msgstr "The name of the key used to move north. The name is a standard X key name."
 
 #: ../gnobots2/gnobots2.schemas.in.h:28
-msgid ""
-"The name of the key used to move south-east. The name is a standard X key "
-"name."
-msgstr ""
-"The name of the key used to move south-east. The name is a standard X key "
-"name."
+msgid "The name of the key used to move south-east. The name is a standard X key name."
+msgstr "The name of the key used to move south-east. The name is a standard X key name."
 
 #: ../gnobots2/gnobots2.schemas.in.h:29
-msgid ""
-"The name of the key used to move south-west. The name is a standard X key "
-"name."
-msgstr ""
-"The name of the key used to move south-west. The name is a standard X key "
-"name."
+msgid "The name of the key used to move south-west. The name is a standard X key name."
+msgstr "The name of the key used to move south-west. The name is a standard X key name."
 
 #: ../gnobots2/gnobots2.schemas.in.h:30
-msgid ""
-"The name of the key used to move south. The name is a standard X key name."
-msgstr ""
-"The name of the key used to move south. The name is a standard X key name."
+msgid "The name of the key used to move south. The name is a standard X key name."
+msgstr "The name of the key used to move south. The name is a standard X key name."
 
 #: ../gnobots2/gnobots2.schemas.in.h:31
-msgid ""
-"The name of the key used to move west. The name is a standard X key name."
-msgstr ""
-"The name of the key used to move west. The name is a standard X key name."
+msgid "The name of the key used to move west. The name is a standard X key name."
+msgstr "The name of the key used to move west. The name is a standard X key name."
 
 #: ../gnobots2/gnobots2.schemas.in.h:32
-msgid ""
-"The name of the key used to teleport randomly. The name is a standard X key "
-"name."
-msgstr ""
-"The name of the key used to teleport randomly. The name is a standard X key "
-"name."
+msgid "The name of the key used to teleport randomly. The name is a standard X key name."
+msgstr "The name of the key used to teleport randomly. The name is a standard X key name."
 
 #: ../gnobots2/gnobots2.schemas.in.h:33
-msgid ""
-"The name of the key used to teleport safely (if possible). The name is a "
-"standard X key name."
-msgstr ""
-"The name of the key used to teleport safely (if possible). The name is a "
-"standard X key name."
+msgid "The name of the key used to teleport safely (if possible). The name is a standard X key name."
+msgstr "The name of the key used to teleport safely (if possible). The name is a standard X key name."
 
 #: ../gnobots2/gnobots2.schemas.in.h:34
 msgid "The name of the key used to wait. The name is a standard X key name."
@@ -2218,33 +2328,25 @@ msgid "Use safe moves"
 msgstr "Use safe moves"
 
 #: ../gnobots2/gnobots2.schemas.in.h:36
-msgid ""
-"Use safe moves. The safe moves option will help you to avoid being killed "
-"due to a mistake. If you try to make a move that would lead to your death "
-"when there is a safe move available you will not be allowed to proceed."
-msgstr ""
-"Use safe moves. The safe moves option will help you to avoid being killed "
-"due to a mistake. If you try to make a move that would lead to your death "
-"when there is a safe move available you will not be allowed to proceed."
+msgid "Use safe moves. The safe moves option will help you to avoid being killed due to a mistake. If you try to make a move that would lead to your death when there is a safe move available you will not be allowed to proceed."
+msgstr "Use safe moves. The safe moves option will help you to avoid being killed due to a mistake. If you try to make a move that would lead to your death when there is a safe move available you will not be allowed to proceed."
 
 #: ../gnobots2/gnobots2.schemas.in.h:37
 msgid "Use super safe moves"
 msgstr "Use super safe moves"
 
 #: ../gnobots2/gnobots2.schemas.in.h:38
-msgid ""
-"Use super safe moves. The player is alerted when there is no safe move and "
-"the only option is to teleport out."
-msgstr ""
-"Use super safe moves. The player is alerted when there is no safe move and "
-"the only option is to teleport out."
+msgid "Use super safe moves. The player is alerted when there is no safe move and the only option is to teleport out."
+msgstr "Use super safe moves. The player is alerted when there is no safe move and the only option is to teleport out."
 
-#: ../gnobots2/graphics.c:153 ../iagno/gnothello.c:403
+#: ../gnobots2/graphics.c:153
+#: ../iagno/gnothello.c:403
 #, c-format
 msgid "Could not find '%s' pixmap file\n"
 msgstr "לא ניתן למצוא את קובץ התמונה '%s'\n"
 
-#: ../gnobots2/menu.c:68 ../gnotravex/gnotravex.c:1708
+#: ../gnobots2/menu.c:68
+#: ../gnotravex/gnotravex.c:1708
 msgid "_Move"
 msgstr "ה_זזה"
 
@@ -2272,11 +2374,13 @@ msgstr "_המתן"
 msgid "Wait for the robots"
 msgstr "המתן לרובוטים"
 
-#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1215
+#: ../gnobots2/menu.c:90
+#: ../mahjongg/mahjongg.c:1215
 msgid "_Toolbar"
 msgstr "_סרגל כלים"
 
-#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1215
+#: ../gnobots2/menu.c:90
+#: ../mahjongg/mahjongg.c:1215
 msgid "Show or hide the toolbar"
 msgstr "הצגה או הסתרה של סרגל הכלים"
 
@@ -2342,51 +2446,54 @@ msgid "Robots Preferences"
 msgstr "העדפות רובוטים"
 
 #. --- Combo (yahtzee or kismet style ----
-#: ../gnobots2/properties.c:445 ../gtali/setup.c:360
+#: ../gnobots2/properties.c:445
+#: ../gtali/setup.c:360
 msgid "Game Type"
 msgstr "סוג משחק"
 
-#: ../gnobots2/properties.c:465
+#: ../gnobots2/properties.c:467
 msgid "_Use safe moves"
 msgstr "השת_מש במהלכים בטוחים"
 
-#: ../gnobots2/properties.c:472
+#: ../gnobots2/properties.c:474
 msgid "Prevent accidental moves that result in getting killed."
 msgstr "מנע תנועות אקראיות שעלולות להוביל למותך."
 
-#: ../gnobots2/properties.c:474
+#: ../gnobots2/properties.c:476
 msgid "U_se super safe moves"
 msgstr "_השתמש במהלכים בטוחים מאוד"
 
-#: ../gnobots2/properties.c:481
+#: ../gnobots2/properties.c:483
 msgid "Prevents all moves that result in getting killed."
 msgstr "מונע את כל התנועות שמובילות למותך."
 
-#: ../gnobots2/properties.c:488 ../quadrapassel/tetris.cpp:669
+#: ../gnobots2/properties.c:491
+#: ../quadrapassel/tetris.cpp:669
 msgid "_Enable sounds"
 msgstr "ה_פעלת צלילים"
 
-#: ../gnobots2/properties.c:494
+#: ../gnobots2/properties.c:497
 msgid "Play sounds for events like winning a level and dying."
 msgstr "יש להשמיע צלילים עבור אירועים כגון ניצחון בשלב ותמותה."
 
-#: ../gnobots2/properties.c:504
+#: ../gnobots2/properties.c:507
 msgid "Graphics Theme"
 msgstr "ערכת נושא גרפית"
 
-#: ../gnobots2/properties.c:512
+#: ../gnobots2/properties.c:515
 msgid "_Image theme:"
 msgstr "ערכת נושא לתמונה:"
 
-#: ../gnobots2/properties.c:523 ../mahjongg/mahjongg.c:728
+#: ../gnobots2/properties.c:526
+#: ../mahjongg/mahjongg.c:728
 msgid "_Background color:"
 msgstr "_צבע הרקע:"
 
-#: ../gnobots2/properties.c:569
+#: ../gnobots2/properties.c:572
 msgid "_Restore Defaults"
 msgstr "_חזרה להגדרות בררת המחדל"
 
-#: ../gnobots2/properties.c:574
+#: ../gnobots2/properties.c:577
 msgid "Keyboard"
 msgstr "מקלדת"
 
@@ -2394,7 +2501,8 @@ msgstr "מקלדת"
 msgid "Safe Teleports:"
 msgstr "שיגורים בטוחים:"
 
-#: ../gnobots2/statusbar.c:87 ../quadrapassel/scoreframe.cpp:68
+#: ../gnobots2/statusbar.c:87
+#: ../quadrapassel/scoreframe.cpp:68
 msgid "Level:"
 msgstr "רמה:"
 
@@ -2407,13 +2515,16 @@ msgstr "נותרו:"
 msgid "Fit falling blocks together"
 msgstr "סדר לבנים נופלות"
 
-#: ../quadrapassel/quadrapassel.desktop.in.in.h:2 ../quadrapassel/main.cpp:66
-#: ../quadrapassel/tetris.cpp:158 ../quadrapassel/tetris.cpp:1305
+#: ../quadrapassel/quadrapassel.desktop.in.in.h:2
+#: ../quadrapassel/main.cpp:66
+#: ../quadrapassel/tetris.cpp:158
+#: ../quadrapassel/tetris.cpp:1305
 #: ../quadrapassel/tetris.cpp:1308
 msgid "Quadrapassel"
 msgstr "קוודראפאזל"
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:1 ../quadrapassel/tetris.cpp:754
+#: ../quadrapassel/quadrapassel.schemas.in.h:1
+#: ../quadrapassel/tetris.cpp:754
 msgid "Drop"
 msgstr "הפל"
 
@@ -2449,11 +2560,13 @@ msgstr "Level to start with"
 msgid "Level to start with."
 msgstr "Level to start with."
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:15 ../quadrapassel/tetris.cpp:756
+#: ../quadrapassel/quadrapassel.schemas.in.h:15
+#: ../quadrapassel/tetris.cpp:756
 msgid "Pause"
 msgstr "השהה"
 
-#: ../quadrapassel/quadrapassel.schemas.in.h:16 ../quadrapassel/tetris.cpp:755
+#: ../quadrapassel/quadrapassel.schemas.in.h:16
+#: ../quadrapassel/tetris.cpp:755
 msgid "Rotate"
 msgstr "סובב"
 
@@ -2466,12 +2579,8 @@ msgid "The background color, in a format gdk_color_parse understands."
 msgstr "The background color, in a format gdk_color_parse understands."
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:19
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgid "The density of blocks in rows filled at the start of the game. The value is between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr "The density of blocks in rows filled at the start of the game. The value is between 0 (for no blocks) and 10 (for a completely filled row)."
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:20
 msgid "The density of filled rows"
@@ -2479,16 +2588,11 @@ msgstr "The density of filled rows"
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:21
 msgid "The name of the theme used for rendering the blocks and the background."
-msgstr ""
-"The name of the theme used for rendering the blocks and the background."
+msgstr "The name of the theme used for rendering the blocks and the background."
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:22
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
+msgid "The number of rows that are filled with random blocks at the start of the game."
+msgstr "The number of rows that are filled with random blocks at the start of the game."
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:23
 msgid "The number of rows to fill"
@@ -2499,12 +2603,8 @@ msgid "The theme used for rendering the blocks"
 msgstr "The theme used for rendering the blocks"
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:25
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-"This selects whether or not to draw the background image over the background "
-"color."
+msgid "This selects whether or not to draw the background image over the background color."
+msgstr "This selects whether or not to draw the background image over the background color."
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:26
 msgid "Whether to give blocks random colors"
@@ -2523,10 +2623,8 @@ msgid "Whether to preview the next block."
 msgstr "Whether to preview the next block."
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:30
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr ""
-"Whether to provide a graphical representation of where a block will land."
+msgid "Whether to provide a graphical representation of where a block will land."
+msgstr "Whether to provide a graphical representation of where a block will land."
 
 #: ../quadrapassel/quadrapassel.schemas.in.h:31
 msgid "Whether to provide a target"
@@ -2576,7 +2674,8 @@ msgstr "שורות:"
 msgid "Quadrapassel Preferences"
 msgstr "העדפות Quadrapassel"
 
-#: ../quadrapassel/tetris.cpp:599 ../swell-foop/data/settings.ui.h:5
+#: ../quadrapassel/tetris.cpp:599
+#: ../swell-foop/data/settings.ui.h:5
 msgid "Setup"
 msgstr "הגדרות"
 
@@ -2590,7 +2689,8 @@ msgstr "_מספר השורות המלאות מראש:"
 msgid "_Density of blocks in a pre-filled row:"
 msgstr "_צפיפות הלבנים בשורות המלאות מראש:"
 
-#: ../quadrapassel/tetris.cpp:664 ../swell-foop/data/settings.ui.h:4
+#: ../quadrapassel/tetris.cpp:664
+#: ../swell-foop/data/settings.ui.h:4
 msgid "Operation"
 msgstr "פעולה"
 
@@ -2614,7 +2714,8 @@ msgstr "_סיבוב לבנים נגד כיוון השעון"
 msgid "Show _where the block will land"
 msgstr "הראה _היכן תפגע הלבנה"
 
-#: ../quadrapassel/tetris.cpp:731 ../quadrapassel/tetris.cpp:764
+#: ../quadrapassel/tetris.cpp:731
+#: ../quadrapassel/tetris.cpp:764
 msgid "Theme"
 msgstr "ערכת נושא"
 
@@ -2728,10 +2829,6 @@ msgstr "_כלול משחקים בהם כבר שיחקת ברשימת המשחק�
 msgid "_Mark games as played once you've printed them."
 msgstr "_סימון משחקים כמשוחקים ברגע שהודפסו."
 
-#: ../gnome-sudoku/data/print_games.ui.h:9
-msgid "_Medium"
-msgstr "_בינוני"
-
 #: ../gnome-sudoku/data/print_games.ui.h:10
 msgid "_Number of sudoku to print: "
 msgstr "_כמה סודוקו להדפיס: "
@@ -2752,7 +2849,8 @@ msgstr "משחקים _שמורים"
 msgid "Add a new tracker"
 msgstr "הוספת עוקב חדש"
 
-#: ../gnome-sudoku/data/tracker.ui.h:2 ../gnome-sudoku/src/lib/main.py:769
+#: ../gnome-sudoku/data/tracker.ui.h:2
+#: ../gnome-sudoku/src/lib/main.py:769
 msgid "H_ide"
 msgstr "ה_סתרה"
 
@@ -2776,7 +2874,8 @@ msgstr "אין מקום"
 msgid "No space left on disk"
 msgstr "לא נשאר מקום בכונן"
 
-#: ../gnome-sudoku/src/lib/saver.py:141 ../gnome-sudoku/src/lib/saver.py:148
+#: ../gnome-sudoku/src/lib/saver.py:141
+#: ../gnome-sudoku/src/lib/saver.py:148
 #, python-format
 msgid "Unable to create data folder %(path)s."
 msgstr "לא ניתן ליצור את תיקיית הנתונים %(path)s."
@@ -2785,27 +2884,33 @@ msgstr "לא ניתן ליצור את תיקיית הנתונים %(path)s."
 msgid "There is no disk space left!"
 msgstr "אין מספיק מקום פנוי על הכונן!"
 
-#: ../gnome-sudoku/src/lib/saver.py:149 ../gnome-sudoku/src/lib/saver.py:174
-#: ../gnome-sudoku/src/lib/saver.py:198 ../gnome-sudoku/src/lib/saver.py:216
+#: ../gnome-sudoku/src/lib/saver.py:149
+#: ../gnome-sudoku/src/lib/saver.py:174
+#: ../gnome-sudoku/src/lib/saver.py:198
+#: ../gnome-sudoku/src/lib/saver.py:216
 #, python-format
 msgid "Error %(errno)s: %(error)s"
 msgstr "שגיאה מס׳ %(errno)s:‏ %(error)s"
 
-#: ../gnome-sudoku/src/lib/saver.py:169 ../gnome-sudoku/src/lib/saver.py:170
+#: ../gnome-sudoku/src/lib/saver.py:169
+#: ../gnome-sudoku/src/lib/saver.py:170
 msgid "Unable to save game."
 msgstr "לא ניתן לשמור את המשחק."
 
-#: ../gnome-sudoku/src/lib/saver.py:172 ../gnome-sudoku/src/lib/saver.py:197
+#: ../gnome-sudoku/src/lib/saver.py:172
+#: ../gnome-sudoku/src/lib/saver.py:197
 #: ../gnome-sudoku/src/lib/saver.py:215
 #, python-format
 msgid "Unable to save file %(filename)s."
 msgstr "לא ניתן לשמור את הקובץ %(filename)s."
 
-#: ../gnome-sudoku/src/lib/saver.py:194 ../gnome-sudoku/src/lib/saver.py:195
+#: ../gnome-sudoku/src/lib/saver.py:194
+#: ../gnome-sudoku/src/lib/saver.py:195
 msgid "Unable to mark game as finished."
 msgstr "לא ניתן לסמן את המשחק כאחד שהסתיים."
 
-#: ../gnome-sudoku/src/lib/saver.py:212 ../gnome-sudoku/src/lib/saver.py:213
+#: ../gnome-sudoku/src/lib/saver.py:212
+#: ../gnome-sudoku/src/lib/saver.py:213
 msgid "Sudoku unable to mark game as finished."
 msgstr "אין באפשרות סודוקו לסמן את המשחק כאחד שהסתיים."
 
@@ -2814,7 +2919,8 @@ msgid "New game"
 msgstr "משחק חדש"
 
 #. Translators: this is the "Reset" scores button in a scores dialogue
-#: ../gnome-sudoku/src/lib/main.py:212 ../libgames-support/games-stock.c:258
+#: ../gnome-sudoku/src/lib/main.py:212
+#: ../libgames-support/games-stock.c:258
 msgid "_Reset"
 msgstr "_איפוס"
 
@@ -2850,7 +2956,8 @@ msgstr "הדפסת מס_פר לוחות סודוקו..."
 msgid "_Tools"
 msgstr "_כלים"
 
-#: ../gnome-sudoku/src/lib/main.py:227 ../libgames-support/games-stock.c:251
+#: ../gnome-sudoku/src/lib/main.py:227
+#: ../libgames-support/games-stock.c:251
 msgid "_Hint"
 msgstr "_רמז"
 
@@ -2905,14 +3012,16 @@ msgid_plural "You completed the puzzle in %d seconds"
 msgstr[0] "השלמת את הלוח תוך שנייה %d "
 msgstr[1] "השלמת את הלוח תוך %d שניות"
 
-#: ../gnome-sudoku/src/lib/main.py:382 ../gnome-sudoku/src/lib/main.py:390
+#: ../gnome-sudoku/src/lib/main.py:382
+#: ../gnome-sudoku/src/lib/main.py:390
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "דקה %d"
 msgstr[1] "%d דקות"
 
-#: ../gnome-sudoku/src/lib/main.py:383 ../gnome-sudoku/src/lib/main.py:391
+#: ../gnome-sudoku/src/lib/main.py:383
+#: ../gnome-sudoku/src/lib/main.py:391
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
@@ -2970,17 +3079,20 @@ msgstr "כרגע אין חידה."
 msgid "Calculated difficulty: "
 msgstr "רמת קושי מחושבת: "
 
-#: ../gnome-sudoku/src/lib/main.py:646 ../gnome-sudoku/src/lib/printing.py:182
+#: ../gnome-sudoku/src/lib/main.py:646
+#: ../gnome-sudoku/src/lib/printing.py:182
 #: ../gnome-sudoku/src/lib/game_selector.py:121
 msgid "Easy"
 msgstr "קל"
 
-#: ../gnome-sudoku/src/lib/main.py:647 ../gnome-sudoku/src/lib/printing.py:183
+#: ../gnome-sudoku/src/lib/main.py:647
+#: ../gnome-sudoku/src/lib/printing.py:183
 #: ../gnome-sudoku/src/lib/game_selector.py:122
 msgid "Medium"
 msgstr "בינוני"
 
-#: ../gnome-sudoku/src/lib/main.py:648 ../gnome-sudoku/src/lib/printing.py:184
+#: ../gnome-sudoku/src/lib/main.py:648
+#: ../gnome-sudoku/src/lib/printing.py:184
 #: ../gnome-sudoku/src/lib/game_selector.py:123
 msgid "Hard"
 msgstr "קשה"
@@ -3001,7 +3113,8 @@ msgstr "מספר המהלכים הניתנים למילוי באופן מייד�
 msgid "Amount of trial-and-error required to solve: "
 msgstr "מספר הניסויים-וטעיות הדרושים לפתרון: "
 
-#: ../gnome-sudoku/src/lib/main.py:663 ../gnome-sudoku/src/lib/main.py:664
+#: ../gnome-sudoku/src/lib/main.py:663
+#: ../gnome-sudoku/src/lib/main.py:664
 msgid "Puzzle Statistics"
 msgstr "_סטטיסטיקת החידה"
 
@@ -3130,7 +3243,8 @@ msgstr "אין לשאול אותי שוב"
 msgid "_Clear"
 msgstr "_ניקוי"
 
-#: ../gnomine/gnomine.c:53 ../gnomine/gnomine.desktop.in.in.h:2
+#: ../gnomine/gnomine.c:53
+#: ../gnomine/gnomine.desktop.in.in.h:2
 msgid "Mines"
 msgstr "מוקשים"
 
@@ -3152,7 +3266,8 @@ msgstr "שדה המוקשים נוקה!"
 msgid "Mines Scores"
 msgstr "תוצאות 'מוקשים'"
 
-#: ../gnomine/gnomine.c:217 ../gnotravex/gnotravex.c:1085
+#: ../gnomine/gnomine.c:217
+#: ../gnotravex/gnotravex.c:1085
 #: ../swell-foop/src/Score.js:57
 msgid "Size:"
 msgstr "גודל:"
@@ -3165,7 +3280,8 @@ msgstr "כדאי ללחוץ על משהו, לא חשוב על מה"
 msgid "Maybe they're all mines ..."
 msgstr "אולי כולם מוקשים..."
 
-#: ../gnomine/gnomine.c:430 ../mahjongg/mahjongg.c:859
+#: ../gnomine/gnomine.c:430
+#: ../mahjongg/mahjongg.c:859
 msgid "Main game:"
 msgstr "משחק ראשי:"
 
@@ -3183,13 +3299,11 @@ msgstr "גרפיקה:"
 
 #: ../gnomine/gnomine.c:462
 msgid ""
-"The popular logic puzzle minesweeper. Clear mines from a board using hints "
-"from squares you have already uncovered.\n"
+"The popular logic puzzle minesweeper. Clear mines from a board using hints from squares you have already uncovered.\n"
 "\n"
 "Mines is a part of GNOME Games."
 msgstr ""
-"משחק החשיבה הפופולרי \"שולה מוקשים\". נקה מוקשים מהלוח בעזרת רמזים מהריבועים "
-"שכבר חשפת.\n"
+"משחק החשיבה הפופולרי \"שולה מוקשים\". נקה מוקשים מהלוח בעזרת רמזים מהריבועים שכבר חשפת.\n"
 "\"שולה מוקשים\" הוא חלק מחבילת משחקי GNOME."
 
 #: ../gnomine/gnomine.c:621
@@ -3244,22 +3358,30 @@ msgstr "Height of grid"
 msgid "Number of mines"
 msgstr "Number of mines"
 
-#: ../gnomine/gnomine.c:918 ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109
-#: ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
+#: ../gnomine/gnomine.c:918
+#: ../gtali/gyahtzee.c:107
+#: ../gtali/gyahtzee.c:109
+#: ../gtali/gyahtzee.c:113
+#: ../gtali/gyahtzee.c:115
 msgid "NUMBER"
 msgstr "NUMBER"
 
-#: ../gnomine/gnomine.c:920 ../gnomine/org.gnome.gnomine.gschema.xml.in.h:8
+#: ../gnomine/gnomine.c:920
+#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:8
 msgid "Size of the board (0-2 = small-large, 3=custom)"
 msgstr "Size of the board (0-2 = small-large, 3=custom)"
 
-#: ../gnomine/gnomine.c:921 ../gnotravex/gnotravex.c:261
-#: ../gnotski/gnotski.c:456 ../iagno/gnothello.c:138
+#: ../gnomine/gnomine.c:921
+#: ../gnotravex/gnotravex.c:261
+#: ../gnotski/gnotski.c:456
+#: ../iagno/gnothello.c:138
 msgid "X location of window"
 msgstr "X location of window"
 
-#: ../gnomine/gnomine.c:923 ../gnotravex/gnotravex.c:263
-#: ../gnotski/gnotski.c:458 ../iagno/gnothello.c:140
+#: ../gnomine/gnomine.c:923
+#: ../gnotravex/gnotravex.c:263
+#: ../gnotski/gnotski.c:458
+#: ../iagno/gnothello.c:140
 msgid "Y location of window"
 msgstr "Y location of window"
 
@@ -3267,7 +3389,7 @@ msgstr "Y location of window"
 msgid "Press to Resume"
 msgstr "לחיצה להמשך"
 
-#: ../gnomine/gnomine.c:1094
+#: ../gnomine/gnomine.c:1095
 msgid "Time: "
 msgstr "זמן: "
 
@@ -3301,12 +3423,8 @@ msgid "Set to true to enable warning icons when too many flags are placed."
 msgstr "Set to true to enable warning icons when too many flags are placed."
 
 #: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:7
-msgid ""
-"Set to true to have gnomine automatically flag squares as mined when enough "
-"squares are revealed"
-msgstr ""
-"Set to true to have gnomine automatically flag squares as mined when enough "
-"squares are revealed"
+msgid "Set to true to have gnomine automatically flag squares as mined when enough squares are revealed"
+msgstr "Set to true to have gnomine automatically flag squares as mined when enough squares are revealed"
 
 #: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:9
 msgid "The number of mines in a custom game"
@@ -3345,7 +3463,8 @@ msgstr ""
 msgid "Could not load images"
 msgstr "לא ניתן לטעון תמונות"
 
-#: ../gnotravex/gnotravex.c:45 ../gnotravex/gnotravex.desktop.in.in.h:2
+#: ../gnotravex/gnotravex.c:45
+#: ../gnotravex/gnotravex.desktop.in.in.h:2
 msgid "Tetravex"
 msgstr "ארבע צלעות Tetravex"
 
@@ -3468,7 +3587,8 @@ msgctxt "number"
 msgid "9"
 msgstr "9"
 
-#: ../gnotravex/gnotravex.c:913 ../mahjongg/mahjongg.c:927
+#: ../gnotravex/gnotravex.c:913
+#: ../mahjongg/mahjongg.c:927
 msgid "Game paused"
 msgstr "המשחק הופסק"
 
@@ -3489,19 +3609,18 @@ msgstr "התצרף נפתר! כל הכבוד!"
 msgid "Puzzle solved!"
 msgstr "התצרף נפתר!"
 
-#: ../gnotravex/gnotravex.c:1402 ../mahjongg/mahjongg.c:1393
+#: ../gnotravex/gnotravex.c:1402
+#: ../mahjongg/mahjongg.c:1393
 msgid "Time:"
 msgstr "זמן:"
 
 #: ../gnotravex/gnotravex.c:1603
 msgid ""
-"GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
-"the same numbers are touching each other.\n"
+"GNOME Tetravex is a simple puzzle where pieces must be positioned so that the same numbers are touching each other.\n"
 "\n"
 "Tetravex is a part of GNOME Games."
 msgstr ""
-"ארבע צלעות (GNOME Tetravex) הוא תצרף בו יש למקם את החלקים כך שמספרים זהים "
-"יהיו צמודים אחד אל השני.\n"
+"ארבע צלעות (GNOME Tetravex) הוא תצרף בו יש למקם את החלקים כך שמספרים זהים יהיו צמודים אחד אל השני.\n"
 "ארבע צלעות הוא חלק מחבילת משחקי GNOME."
 
 #: ../gnotravex/gnotravex.c:1710
@@ -3561,12 +3680,8 @@ msgid "Select the style of control"
 msgstr "Select the style of control"
 
 #: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:2
-msgid ""
-"Select whether to drag the tiles or to click on the source then the "
-"destination."
-msgstr ""
-"Select whether to drag the tiles or to click on the source then the "
-"destination."
+msgid "Select whether to drag the tiles or to click on the source then the destination."
+msgstr "Select whether to drag the tiles or to click on the source then the destination."
 
 #: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:3
 msgid "The size of the playing grid"
@@ -3576,7 +3691,8 @@ msgstr "The size of the playing grid"
 msgid "The value of this key is used to decide the size of the playing grid."
 msgstr "The value of this key is used to decide the size of the playing grid."
 
-#: ../gnotski/gnotski.c:48 ../gnotski/gnotski.desktop.in.in.h:1
+#: ../gnotski/gnotski.c:48
+#: ../gnotski/gnotski.desktop.in.in.h:1
 msgid "Klotski"
 msgstr "בלוקים Klotski"
 
@@ -3585,137 +3701,164 @@ msgid "Only 18 steps"
 msgstr "רק 18 צעדים"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:102 ../gnotski/gnotski.c:189
+#: ../gnotski/gnotski.c:102
+#: ../gnotski/gnotski.c:189
 msgid "Daisy"
 msgstr "חרצית"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:103 ../gnotski/gnotski.c:195
+#: ../gnotski/gnotski.c:103
+#: ../gnotski/gnotski.c:195
 msgid "Violet"
 msgstr "סיגלית"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:104 ../gnotski/gnotski.c:201
+#: ../gnotski/gnotski.c:104
+#: ../gnotski/gnotski.c:201
 msgid "Poppy"
 msgstr "פרג"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:105 ../gnotski/gnotski.c:207
+#: ../gnotski/gnotski.c:105
+#: ../gnotski/gnotski.c:207
 msgid "Pansy"
 msgstr "אמנון ותמר"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:106 ../gnotski/gnotski.c:213
+#: ../gnotski/gnotski.c:106
+#: ../gnotski/gnotski.c:213
 msgid "Snowdrop"
 msgstr "פעמון השלג"
 
 #. puzzle name - sometimes called "Le'Ane Rouge"
-#: ../gnotski/gnotski.c:107 ../gnotski/gnotski.c:219
+#: ../gnotski/gnotski.c:107
+#: ../gnotski/gnotski.c:219
 msgid "Red Donkey"
 msgstr "חמור אדום"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:108 ../gnotski/gnotski.c:225
+#: ../gnotski/gnotski.c:108
+#: ../gnotski/gnotski.c:225
 msgid "Trail"
 msgstr "מסלול"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:109 ../gnotski/gnotski.c:231
+#: ../gnotski/gnotski.c:109
+#: ../gnotski/gnotski.c:231
 msgid "Ambush"
 msgstr "מארב"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:110 ../gnotski/gnotski.c:237
+#: ../gnotski/gnotski.c:110
+#: ../gnotski/gnotski.c:237
 msgid "Agatka"
 msgstr "אגתקה"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:111 ../gnotski/gnotski.c:242
+#: ../gnotski/gnotski.c:111
+#: ../gnotski/gnotski.c:242
 msgid "Success"
 msgstr "הצלחה"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:112 ../gnotski/gnotski.c:247
+#: ../gnotski/gnotski.c:112
+#: ../gnotski/gnotski.c:247
 msgid "Bone"
 msgstr "עצם"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:113 ../gnotski/gnotski.c:253
+#: ../gnotski/gnotski.c:113
+#: ../gnotski/gnotski.c:253
 msgid "Fortune"
 msgstr "מזל"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:114 ../gnotski/gnotski.c:261
+#: ../gnotski/gnotski.c:114
+#: ../gnotski/gnotski.c:261
 msgid "Fool"
 msgstr "כסיל"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:115 ../gnotski/gnotski.c:267
+#: ../gnotski/gnotski.c:115
+#: ../gnotski/gnotski.c:267
 msgid "Solomon"
 msgstr "שלמה"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:116 ../gnotski/gnotski.c:274
+#: ../gnotski/gnotski.c:116
+#: ../gnotski/gnotski.c:274
 msgid "Cleopatra"
 msgstr "קליאופטרה"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:117 ../gnotski/gnotski.c:279
+#: ../gnotski/gnotski.c:117
+#: ../gnotski/gnotski.c:279
 msgid "Shark"
 msgstr "כריש"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:118 ../gnotski/gnotski.c:287
+#: ../gnotski/gnotski.c:118
+#: ../gnotski/gnotski.c:287
 msgid "Rome"
 msgstr "רומא"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:119 ../gnotski/gnotski.c:294
+#: ../gnotski/gnotski.c:119
+#: ../gnotski/gnotski.c:294
 msgid "Pennant Puzzle"
 msgstr "תצרף הבוטנים"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:120 ../gnotski/gnotski.c:300
+#: ../gnotski/gnotski.c:120
+#: ../gnotski/gnotski.c:300
 msgid "Ithaca"
 msgstr "איתקה"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:121 ../gnotski/gnotski.c:321
+#: ../gnotski/gnotski.c:121
+#: ../gnotski/gnotski.c:321
 msgid "Pelopones"
 msgstr "פלופונס"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:122 ../gnotski/gnotski.c:328
+#: ../gnotski/gnotski.c:122
+#: ../gnotski/gnotski.c:328
 msgid "Transeuropa"
 msgstr "חוצה אירופה"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:123 ../gnotski/gnotski.c:337
+#: ../gnotski/gnotski.c:123
+#: ../gnotski/gnotski.c:337
 msgid "Lodzianka"
 msgstr "הפועל"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:124 ../gnotski/gnotski.c:343
+#: ../gnotski/gnotski.c:124
+#: ../gnotski/gnotski.c:343
 msgid "Polonaise"
 msgstr "פולונז"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:125 ../gnotski/gnotski.c:348
+#: ../gnotski/gnotski.c:125
+#: ../gnotski/gnotski.c:348
 msgid "Baltic Sea"
 msgstr "הים הבלטי"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:126 ../gnotski/gnotski.c:353
+#: ../gnotski/gnotski.c:126
+#: ../gnotski/gnotski.c:353
 msgid "American Pie"
 msgstr "פאי אמריקאי"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:127 ../gnotski/gnotski.c:365
+#: ../gnotski/gnotski.c:127
+#: ../gnotski/gnotski.c:365
 msgid "Traffic Jam"
 msgstr "פקק תנועה"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:128 ../gnotski/gnotski.c:372
+#: ../gnotski/gnotski.c:128
+#: ../gnotski/gnotski.c:372
 msgid "Sunshine"
 msgstr "זריחה"
 
@@ -3755,19 +3898,19 @@ msgstr "התצרף הקודם"
 msgid "Level completed."
 msgstr "השלב הושלם."
 
-#: ../gnotski/gnotski.c:770
+#: ../gnotski/gnotski.c:776
 msgid "The Puzzle Has Been Solved!"
 msgstr "פתרת את התצרף!"
 
-#: ../gnotski/gnotski.c:787
+#: ../gnotski/gnotski.c:793
 msgid "Klotski Scores"
 msgstr "תוצאות בלוקים"
 
-#: ../gnotski/gnotski.c:790
+#: ../gnotski/gnotski.c:796
 msgid "Puzzle:"
 msgstr "תצרף:"
 
-#: ../gnotski/gnotski.c:872
+#: ../gnotski/gnotski.c:878
 msgid ""
 "The theme for this game failed to render.\n"
 "\n"
@@ -3777,7 +3920,7 @@ msgstr ""
 "\n"
 "נא לבדוק ש־Klotski מותקן היטב."
 
-#: ../gnotski/gnotski.c:1115
+#: ../gnotski/gnotski.c:1122
 #, c-format
 msgid ""
 "Could not find the image:\n"
@@ -3790,12 +3933,12 @@ msgstr ""
 "\n"
 "אנא בדוק את ההתקנה של בלוקים Klotski."
 
-#: ../gnotski/gnotski.c:1154
+#: ../gnotski/gnotski.c:1161
 #, c-format
 msgid "Moves: %d"
 msgstr "מהלכים: %d"
 
-#: ../gnotski/gnotski.c:1479
+#: ../gnotski/gnotski.c:1486
 msgid ""
 "Sliding Block Puzzles\n"
 "\n"
@@ -3821,7 +3964,8 @@ msgstr "The puzzle in play"
 msgid "Already used! Where do you want to put that?"
 msgstr "כבר היה בשימוש! איפה ברצונך לשים זאת?"
 
-#: ../gtali/clist.c:414 ../swell-foop/src/Score.js:16
+#: ../gtali/clist.c:414
+#: ../swell-foop/src/Score.js:16
 #, c-format
 msgid "Score: %d"
 msgstr "ניקוד: %d"
@@ -3842,17 +3986,14 @@ msgstr "שדה בשימוש"
 msgid "Beat the odds in a poker-style dice game"
 msgstr "לנצח את המזל במשחק קוביות בסגנון פוקר"
 
-#: ../gtali/gtali.desktop.in.in.h:2 ../gtali/gyahtzee.c:60
+#: ../gtali/gtali.desktop.in.in.h:2
+#: ../gtali/gyahtzee.c:60
 msgid "Tali"
 msgstr "טאלי"
 
 #: ../gtali/gtali.schemas.in.h:1
-msgid ""
-"Choose whether or not to insert a delay between the computer's dice rolls so "
-"the player can follow what it is doing."
-msgstr ""
-"Choose whether or not to insert a delay between the computer's dice rolls so "
-"the player can follow what it is doing."
+msgid "Choose whether or not to insert a delay between the computer's dice rolls so the player can follow what it is doing."
+msgstr "Choose whether or not to insert a delay between the computer's dice rolls so the player can follow what it is doing."
 
 #: ../gtali/gtali.schemas.in.h:2
 msgid "Delay between rolls"
@@ -3863,10 +4004,8 @@ msgid "Display the computer's thoughts"
 msgstr "Display the computer's thoughts"
 
 #: ../gtali/gtali.schemas.in.h:4
-msgid ""
-"If set to true, a dump of the AI's working will be done to standard output."
-msgstr ""
-"If set to true, a dump of the AI's working will be done to standard output."
+msgid "If set to true, a dump of the AI's working will be done to standard output."
+msgstr "If set to true, a dump of the AI's working will be done to standard output."
 
 #: ../gtali/gtali.schemas.in.h:5
 msgid "Regular"
@@ -3908,12 +4047,14 @@ msgstr "Number of computer-only games to play"
 msgid "Number of trials for each roll for the computer"
 msgstr "Number of trials for each roll for the computer"
 
-#: ../gtali/gyahtzee.c:120 ../gtali/setup.c:364
+#: ../gtali/gyahtzee.c:120
+#: ../gtali/setup.c:364
 msgctxt "game type"
 msgid "Regular"
 msgstr "רגיל"
 
-#: ../gtali/gyahtzee.c:121 ../gtali/setup.c:365
+#: ../gtali/gyahtzee.c:121
+#: ../gtali/setup.c:365
 msgctxt "game type"
 msgid "Colors"
 msgstr "צבעים"
@@ -3922,7 +4063,8 @@ msgstr "צבעים"
 msgid "Roll all!"
 msgstr "גלגול הכול!"
 
-#: ../gtali/gyahtzee.c:147 ../gtali/gyahtzee.c:825
+#: ../gtali/gyahtzee.c:147
+#: ../gtali/gyahtzee.c:825
 msgid "Roll!"
 msgstr "גלגול!"
 
@@ -3930,7 +4072,8 @@ msgstr "גלגול!"
 msgid "The game is a draw!"
 msgstr "המשחק הסתיים בתיקו!"
 
-#: ../gtali/gyahtzee.c:195 ../gtali/gyahtzee.c:632
+#: ../gtali/gyahtzee.c:195
+#: ../gtali/gyahtzee.c:632
 msgid "Tali Scores"
 msgstr "תוצאות טאלי"
 
@@ -4028,48 +4171,67 @@ msgstr "בינוני"
 msgid "Player Names"
 msgstr "שמות השחקנים"
 
-#: ../gtali/yahtzee.c:85 ../gtali/yahtzee.c:109 ../gtali/yahtzee.c:517
+#: ../gtali/yahtzee.c:85
+#: ../gtali/yahtzee.c:109
+#: ../gtali/yahtzee.c:517
 msgid "1s [total of 1s]"
 msgstr "1ים [סכום ה־1ים]"
 
-#: ../gtali/yahtzee.c:86 ../gtali/yahtzee.c:110 ../gtali/yahtzee.c:518
+#: ../gtali/yahtzee.c:86
+#: ../gtali/yahtzee.c:110
+#: ../gtali/yahtzee.c:518
 msgid "2s [total of 2s]"
 msgstr "2ים [סכום ה־2ים]"
 
-#: ../gtali/yahtzee.c:87 ../gtali/yahtzee.c:111 ../gtali/yahtzee.c:519
+#: ../gtali/yahtzee.c:87
+#: ../gtali/yahtzee.c:111
+#: ../gtali/yahtzee.c:519
 msgid "3s [total of 3s]"
 msgstr "3ים [סכום ה־3ים]"
 
-#: ../gtali/yahtzee.c:88 ../gtali/yahtzee.c:112 ../gtali/yahtzee.c:520
+#: ../gtali/yahtzee.c:88
+#: ../gtali/yahtzee.c:112
+#: ../gtali/yahtzee.c:520
 msgid "4s [total of 4s]"
 msgstr "4ים [סכום ה־4ים]"
 
-#: ../gtali/yahtzee.c:89 ../gtali/yahtzee.c:113 ../gtali/yahtzee.c:521
+#: ../gtali/yahtzee.c:89
+#: ../gtali/yahtzee.c:113
+#: ../gtali/yahtzee.c:521
 msgid "5s [total of 5s]"
 msgstr "5ים [סכום ה־5ים]"
 
-#: ../gtali/yahtzee.c:90 ../gtali/yahtzee.c:114 ../gtali/yahtzee.c:522
+#: ../gtali/yahtzee.c:90
+#: ../gtali/yahtzee.c:114
+#: ../gtali/yahtzee.c:522
 msgid "6s [total of 6s]"
 msgstr "6ים [סכום ה־6ים]"
 
 #. End of upper panel
-#: ../gtali/yahtzee.c:92 ../gtali/yahtzee.c:117 ../gtali/yahtzee.c:523
+#: ../gtali/yahtzee.c:92
+#: ../gtali/yahtzee.c:117
+#: ../gtali/yahtzee.c:523
 msgid "3 of a Kind [total]"
 msgstr "3 מאותו סוג [סך-הכל]"
 
-#: ../gtali/yahtzee.c:93 ../gtali/yahtzee.c:524
+#: ../gtali/yahtzee.c:93
+#: ../gtali/yahtzee.c:524
 msgid "4 of a Kind [total]"
 msgstr "4 מאותו סוג [סך-הכל]"
 
-#: ../gtali/yahtzee.c:94 ../gtali/yahtzee.c:525
+#: ../gtali/yahtzee.c:94
+#: ../gtali/yahtzee.c:525
 msgid "Full House [25]"
 msgstr "בית מלא (שלישיה וזוג) [25]"
 
-#: ../gtali/yahtzee.c:95 ../gtali/yahtzee.c:526
+#: ../gtali/yahtzee.c:95
+#: ../gtali/yahtzee.c:526
 msgid "Small Straight [30]"
 msgstr "רצף קטן (1 עד 5) [30]"
 
-#: ../gtali/yahtzee.c:96 ../gtali/yahtzee.c:121 ../gtali/yahtzee.c:527
+#: ../gtali/yahtzee.c:96
+#: ../gtali/yahtzee.c:121
+#: ../gtali/yahtzee.c:527
 msgid "Large Straight [40]"
 msgstr "רצף גדול (2 עד 6) [40]"
 
@@ -4077,50 +4239,62 @@ msgstr "רצף גדול (2 עד 6) [40]"
 msgid "5 of a Kind [50]"
 msgstr "5 מאותו סוג [50]"
 
-#: ../gtali/yahtzee.c:98 ../gtali/yahtzee.c:124 ../gtali/yahtzee.c:529
+#: ../gtali/yahtzee.c:98
+#: ../gtali/yahtzee.c:124
+#: ../gtali/yahtzee.c:529
 msgid "Chance [total]"
 msgstr "הכול הולך [סך-הכול]"
 
 #. End of lower panel
-#: ../gtali/yahtzee.c:100 ../gtali/yahtzee.c:126
+#: ../gtali/yahtzee.c:100
+#: ../gtali/yahtzee.c:126
 msgid "Lower Total"
 msgstr "סכום תחתון"
 
-#: ../gtali/yahtzee.c:101 ../gtali/yahtzee.c:127
+#: ../gtali/yahtzee.c:101
+#: ../gtali/yahtzee.c:127
 msgid "Grand Total"
 msgstr "סכום כולל"
 
 #. Need to squish between upper and lower pannel
-#: ../gtali/yahtzee.c:103 ../gtali/yahtzee.c:129
+#: ../gtali/yahtzee.c:103
+#: ../gtali/yahtzee.c:129
 msgid "Upper total"
 msgstr "סכום עליון"
 
-#: ../gtali/yahtzee.c:104 ../gtali/yahtzee.c:130
+#: ../gtali/yahtzee.c:104
+#: ../gtali/yahtzee.c:130
 msgid "Bonus if >62"
 msgstr "בונוס אם > 62"
 
 #. End of upper panel
-#: ../gtali/yahtzee.c:116 ../gtali/yahtzee.c:530
+#: ../gtali/yahtzee.c:116
+#: ../gtali/yahtzee.c:530
 msgid "2 pair Same Color [total]"
 msgstr "2 זוגות בצבע אחיד [סכום]"
 
-#: ../gtali/yahtzee.c:118 ../gtali/yahtzee.c:531
+#: ../gtali/yahtzee.c:118
+#: ../gtali/yahtzee.c:531
 msgid "Full House [15 + total]"
 msgstr "בית מלא [15 + סכום]"
 
-#: ../gtali/yahtzee.c:119 ../gtali/yahtzee.c:532
+#: ../gtali/yahtzee.c:119
+#: ../gtali/yahtzee.c:532
 msgid "Full House Same Color [20 + total]"
 msgstr "בית מלא בצבע אחיד [20 + סכום]"
 
-#: ../gtali/yahtzee.c:120 ../gtali/yahtzee.c:533
+#: ../gtali/yahtzee.c:120
+#: ../gtali/yahtzee.c:533
 msgid "Flush (all same color) [35]"
 msgstr "פלאש (כולם באותו צבע) [35]"
 
-#: ../gtali/yahtzee.c:122 ../gtali/yahtzee.c:534
+#: ../gtali/yahtzee.c:122
+#: ../gtali/yahtzee.c:534
 msgid "4 of a Kind [25 + total]"
 msgstr "4 מאותו סוג [25 + הסכום]"
 
-#: ../gtali/yahtzee.c:123 ../gtali/yahtzee.c:535
+#: ../gtali/yahtzee.c:123
+#: ../gtali/yahtzee.c:535
 msgid "5 of a Kind [50 + total]"
 msgstr "5 מאותו סוג [50 + הסכום]"
 
@@ -4132,7 +4306,8 @@ msgstr "בחר תיבת ניקוד."
 msgid "5 of a Kind [total]"
 msgstr "5 מאותו סוג [סך הכול]"
 
-#: ../iagno/gnothello.c:48 ../iagno/iagno.desktop.in.in.h:2
+#: ../iagno/gnothello.c:48
+#: ../iagno/iagno.desktop.in.in.h:2
 msgid "Iagno"
 msgstr "יאגנו"
 
@@ -4150,7 +4325,8 @@ msgstr ""
 msgid "Invalid move."
 msgstr "מהלך לא תקין."
 
-#: ../iagno/gnothello.c:639 ../iagno/gnothello.c:641
+#: ../iagno/gnothello.c:639
+#: ../iagno/gnothello.c:641
 #, c-format
 msgid "%.2d"
 msgstr "%.2d"
@@ -4243,7 +4419,8 @@ msgstr "הצג רשת"
 msgid "_Flip final results"
 msgstr "הי_פוך תוצאות סופיות"
 
-#: ../iagno/properties.c:574 ../mahjongg/mahjongg.c:686
+#: ../iagno/properties.c:574
+#: ../mahjongg/mahjongg.c:686
 msgid "_Tile set:"
 msgstr "_ערכת אריחים:"
 
@@ -4397,7 +4574,8 @@ msgstr "המשך משחק מושהה"
 msgid "View the scores"
 msgstr "הצגת התוצאות"
 
-#: ../libgames-support/games-stock.c:57 ../mahjongg/mahjongg.c:1199
+#: ../libgames-support/games-stock.c:57
+#: ../mahjongg/mahjongg.c:1199
 msgid "Undo the last move"
 msgstr "ביטול המהלך האחרון"
 
@@ -4474,51 +4652,27 @@ msgstr "_סיום המשחק"
 #. %s is replaced with the name of the game in gnome-games.
 #: ../libgames-support/games-stock.c:320
 #, c-format
-msgid ""
-"%s is free software; you can redistribute it and/or modify it under the "
-"terms of the GNU General Public License as published by the Free Software "
-"Foundation; either version %d of the License, or (at your option) any later "
-"version."
-msgstr ""
-"%s is free software; you can redistribute it and/or modify it under the "
-"terms of the GNU General Public License as published by the Free Software "
-"Foundation; either version %d of the License, or (at your option) any later "
-"version."
+msgid "%s is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version %d of the License, or (at your option) any later version."
+msgstr "%s is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version %d of the License, or (at your option) any later version."
 
 #: ../libgames-support/games-stock.c:325
 #, c-format
-msgid ""
-"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
-"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-"details."
-msgstr ""
-"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
-"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-"details."
+msgid "%s is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
+msgstr "%s is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
 
 #: ../libgames-support/games-stock.c:330
 #, c-format
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
-"Fifth Floor, Boston, MA  02110-1301  USA"
-msgstr ""
-"You should have received a copy of the GNU General Public License along with "
-"%s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, "
-"Fifth Floor, Boston, MA  02110-1301  USA"
+msgid "You should have received a copy of the GNU General Public License along with %s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr "You should have received a copy of the GNU General Public License along with %s; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
 
 #: ../libgames-support/games-stock.c:334
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"You should have received a copy of the GNU General Public License along with "
-"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgid "You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr "You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>."
 
-#: ../lightsoff/lightsoff.desktop.in.in.h:1 ../lightsoff/data/lightsoff.ui.h:1
-#: ../lightsoff/data/settings.ui.h:2 ../lightsoff/src/About.js:11
+#: ../lightsoff/lightsoff.desktop.in.in.h:1
+#: ../lightsoff/data/lightsoff.ui.h:1
+#: ../lightsoff/data/settings.ui.h:2
+#: ../lightsoff/src/About.js:11
 #: ../lightsoff/src/About.js:15
 msgid "Lights Off"
 msgstr "האורות כבויים"
@@ -4528,12 +4682,8 @@ msgid "Turn off all the lights"
 msgstr "כבה את כל האורות"
 
 #: ../lightsoff/lightsoff.schemas.in.h:1
-msgid ""
-"If enabled, the default background color from the user's default GNOME theme "
-"is used to draw the tiles."
-msgstr ""
-"If enabled, the default background color from the user's default GNOME theme "
-"is used to draw the tiles."
+msgid "If enabled, the default background color from the user's default GNOME theme is used to draw the tiles."
+msgstr "If enabled, the default background color from the user's default GNOME theme is used to draw the tiles."
 
 #: ../lightsoff/lightsoff.schemas.in.h:2
 msgid "The current score"
@@ -4557,7 +4707,8 @@ msgstr "The users's most recent score."
 msgid "Whether or not to use the GNOME theme colors"
 msgstr "Whether or not to use the GNOME theme colors"
 
-#: ../lightsoff/data/settings.ui.h:3 ../swell-foop/data/settings.ui.h:7
+#: ../lightsoff/data/settings.ui.h:3
+#: ../swell-foop/data/settings.ui.h:7
 msgid "Theme:"
 msgstr "ערכת נושא:"
 
@@ -4575,7 +4726,8 @@ msgstr ""
 "\n"
 "כיבוי אורות חלק מחבילת משחקי GNOME."
 
-#: ../lightsoff/src/About.js:14 ../swell-foop/src/About.js:14
+#: ../lightsoff/src/About.js:14
+#: ../swell-foop/src/About.js:14
 msgid "Copyright  2009 Tim Horton"
 msgstr "כל הזכויות שמורות  2009 לטים הורטון"
 
@@ -4589,7 +4741,8 @@ msgstr ""
 "\n"
 "אנא וודא שמא-ג'ונג מותקן נכון."
 
-#: ../mahjongg/drawing.c:428 ../mahjongg/drawing.c:441
+#: ../mahjongg/drawing.c:428
+#: ../mahjongg/drawing.c:441
 #, c-format
 msgid ""
 "Unable to render file:\n"
@@ -4602,8 +4755,10 @@ msgstr ""
 "\n"
 "אנא וודא שמא-ג'ונג מותקן נכון."
 
-#: ../mahjongg/mahjongg.c:45 ../mahjongg/mahjongg.c:887
-#: ../mahjongg/mahjongg.c:890 ../mahjongg/mahjongg.desktop.in.in.h:2
+#: ../mahjongg/mahjongg.c:45
+#: ../mahjongg/mahjongg.c:887
+#: ../mahjongg/mahjongg.c:890
+#: ../mahjongg/mahjongg.desktop.in.in.h:2
 msgid "Mahjongg"
 msgstr "מא-ג׳ונג"
 
@@ -4639,7 +4794,8 @@ msgstr "משחק _חדש"
 msgid "_Shuffle"
 msgstr "ער_בב"
 
-#: ../mahjongg/mahjongg.c:618 ../mahjongg/mahjongg.c:943
+#: ../mahjongg/mahjongg.c:618
+#: ../mahjongg/mahjongg.c:943
 msgid "Mahjongg Scores"
 msgstr "תוצאות מא-ג׳ונג"
 
@@ -4763,8 +4919,10 @@ msgctxt "mahjongg map name"
 msgid "Difficult"
 msgstr "קשה"
 
-#: ../swell-foop/data/swell-foop.ui.h:1 ../swell-foop/data/settings.ui.h:6
-#: ../swell-foop/swell-foop.desktop.in.in.h:2 ../swell-foop/src/About.js:11
+#: ../swell-foop/data/swell-foop.ui.h:1
+#: ../swell-foop/data/settings.ui.h:6
+#: ../swell-foop/swell-foop.desktop.in.in.h:2
+#: ../swell-foop/src/About.js:11
 #: ../swell-foop/src/About.js:15
 msgid "Swell Foop"
 msgstr "פיצוץ בצבעים"
@@ -4807,13 +4965,11 @@ msgstr "Zealous animation"
 
 #: ../swell-foop/src/About.js:13
 msgid ""
-"I want to play that game! You know, they all light-up and you click on them "
-"and they vanish!\n"
+"I want to play that game! You know, they all light-up and you click on them and they vanish!\n"
 "\n"
 "Swell Foop is a part of GNOME Games."
 msgstr ""
-"אני רוצה לשחק במשחק הזה! תשמעו, כל המשבצות נדלקות וכשלוחצים עליהן הן "
-"נעלמות!\n"
+"אני רוצה לשחק במשחק הזה! תשמעו, כל המשבצות נדלקות וכשלוחצים עליהן הן נעלמות!\n"
 "\n"
 "\"אותו דבר\" הוא חלק מחבילת משחקי GNOME."
 
@@ -4821,7 +4977,8 @@ msgstr ""
 msgid "No points"
 msgstr "אין ניקוד"
 
-#: ../swell-foop/src/Board.js:105 ../swell-foop/src/Score.js:110
+#: ../swell-foop/src/Board.js:105
+#: ../swell-foop/src/Score.js:110
 #, c-format
 msgid "%d point"
 msgid_plural "%d points"
@@ -4960,12 +5117,12 @@ msgstr "גדול"
 #~ "Aisleriot cannot load the file “%s”. Please check your Aisleriot "
 #~ "installation."
 #~ msgstr "‏Aisleriot לא יכול לטעון את הקובץ “%s”. אנא בדוק את ההתקנה של המשחק."
-
 #~ msgctxt "slot type"
+
 #~ msgid "tableau"
 #~ msgstr "שולחן המשחק"
-
 #~ msgctxt "slot hint"
+
 #~ msgid "%s on tableau"
 #~ msgstr "%s על השולחן"
 
@@ -5574,8 +5731,8 @@ msgstr "גדול"
 
 #~ msgid "Display cards with “%s” card theme"
 #~ msgstr "הצגת קלפים עם ערכת הנושא \"%s\""
-
 #~ msgctxt "score"
+
 #~ msgid "%6d"
 #~ msgstr "%6d"
 
@@ -5653,60 +5810,60 @@ msgstr "גדול"
 
 #~ msgid "Cannot start the game “%s”"
 #~ msgstr "לא ניתן להתחיל את המשחק “%s”"
-
 #~ msgctxt "card symbol"
+
 #~ msgid "JOKER"
 #~ msgstr "ג׳וקר"
-
 #~ msgctxt "card symbol"
+
 #~ msgid "A"
 #~ msgstr "A"
-
 #~ msgctxt "card symbol"
+
 #~ msgid "2"
 #~ msgstr "2"
-
 #~ msgctxt "card symbol"
+
 #~ msgid "3"
 #~ msgstr "3"
-
 #~ msgctxt "card symbol"
+
 #~ msgid "4"
 #~ msgstr "4"
-
 #~ msgctxt "card symbol"
+
 #~ msgid "5"
 #~ msgstr "5"
-
 #~ msgctxt "card symbol"
+
 #~ msgid "6"
 #~ msgstr "6"
-
 #~ msgctxt "card symbol"
+
 #~ msgid "7"
 #~ msgstr "7"
-
 #~ msgctxt "card symbol"
+
 #~ msgid "8"
 #~ msgstr "8"
-
 #~ msgctxt "card symbol"
+
 #~ msgid "9"
 #~ msgstr "9"
-
 #~ msgctxt "card symbol"
+
 #~ msgid "J"
 #~ msgstr "J"
-
 #~ msgctxt "card symbol"
+
 #~ msgid "Q"
 #~ msgstr "Q"
-
 #~ msgctxt "card symbol"
+
 #~ msgid "K"
 #~ msgstr "K"
-
 #~ msgctxt "card symbol"
+
 #~ msgid "1"
 #~ msgstr "1"
 
@@ -6687,92 +6844,92 @@ msgstr "גדול"
 
 #~ msgid "AI (%s)"
 #~ msgstr "בינה מלאכותית (%s)"
-
 #~ msgctxt "chess-file"
+
 #~ msgid "a"
 #~ msgstr "א"
-
 #~ msgctxt "chess-file"
+
 #~ msgid "b"
 #~ msgstr "ב"
-
 #~ msgctxt "chess-file"
+
 #~ msgid "c"
 #~ msgstr "ג"
-
 #~ msgctxt "chess-file"
+
 #~ msgid "d"
 #~ msgstr "ד"
-
 #~ msgctxt "chess-file"
+
 #~ msgid "e"
 #~ msgstr "ה"
-
 #~ msgctxt "chess-file"
+
 #~ msgid "f"
 #~ msgstr "ו"
-
 #~ msgctxt "chess-file"
+
 #~ msgid "g"
 #~ msgstr "ז"
-
 #~ msgctxt "chess-file"
+
 #~ msgid "h"
 #~ msgstr "ח"
-
 #~ msgctxt "chess-rank"
+
 #~ msgid "1"
 #~ msgstr "1"
-
 #~ msgctxt "chess-rank"
+
 #~ msgid "2"
 #~ msgstr "2"
-
 #~ msgctxt "chess-rank"
+
 #~ msgid "3"
 #~ msgstr "3"
-
 #~ msgctxt "chess-rank"
+
 #~ msgid "4"
 #~ msgstr "4"
-
 #~ msgctxt "chess-rank"
+
 #~ msgid "5"
 #~ msgstr "5"
-
 #~ msgctxt "chess-rank"
+
 #~ msgid "6"
 #~ msgstr "6"
-
 #~ msgctxt "chess-rank"
+
 #~ msgid "7"
 #~ msgstr "7"
-
 #~ msgctxt "chess-rank"
+
 #~ msgid "8"
 #~ msgstr "8"
-
 #~ msgctxt "chess-notation"
+
 #~ msgid "P"
 #~ msgstr "P"
-
 #~ msgctxt "chess-notation"
+
 #~ msgid "N"
 #~ msgstr "N"
-
 #~ msgctxt "chess-notation"
+
 #~ msgid "B"
 #~ msgstr "B"
-
 #~ msgctxt "chess-notation"
+
 #~ msgid "R"
 #~ msgstr "R"
-
 #~ msgctxt "chess-notation"
+
 #~ msgid "Q"
 #~ msgstr "Q"
-
 #~ msgctxt "chess-notation"
+
 #~ msgid "K"
 #~ msgstr "K"
 
@@ -6853,21 +7010,25 @@ msgstr "גדול"
 #~ msgstr "לוח ברמה %(level)s"
 
 #~ msgid "%(n)s year"
+
 #~ msgid_plural "%(n)s years"
 #~ msgstr[0] "שנה אחת"
 #~ msgstr[1] "%(n)s שנים"
 
 #~ msgid "%(n)s month"
+
 #~ msgid_plural "%(n)s months"
 #~ msgstr[0] "חודש אחד"
 #~ msgstr[1] "%(n)s חודשים"
 
 #~ msgid "%(n)s week"
+
 #~ msgid_plural "%(n)s weeks"
 #~ msgstr[0] "שבוע אחד"
 #~ msgstr[1] "%(n)s שבועות"
 
 #~ msgid "%(n)s day"
+
 #~ msgid_plural "%(n)s days"
 #~ msgstr[0] "יום אחד"
 #~ msgstr[1] "%(n)s ימים"
