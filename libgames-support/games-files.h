@@ -50,13 +50,14 @@ GamesFileList *games_file_list_new                (const gchar * glob,
 GamesFileList *games_file_list_new_images         (const gchar * path1,
                                                    ...) G_GNUC_NULL_TERMINATED;
 void           games_file_list_transform_basename (GamesFileList * list);
+gsize          games_file_list_length             (GamesFileList * filelist);
 void           games_file_list_for_each           (GamesFileList * filelist,
                                                    GFunc function,
                                                    gpointer userdata);
 gchar         *games_file_list_find               (GamesFileList * filelist,
                                                    GCompareFunc function,
                                                    gpointer userdata);
-gchar         *games_file_list_get_nth            (GamesFileList * filelist,
+const gchar   *games_file_list_get_nth            (GamesFileList * filelist,
                                                    gint n);
 GtkWidget     *games_file_list_create_widget      (GamesFileList * filelist,
                                                    const gchar * selection,

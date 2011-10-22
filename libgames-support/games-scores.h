@@ -70,7 +70,7 @@ GamesScores    *games_scores_new               (const char *app_name,
                                                 const char *categories_domain,
                                                 int default_category_index,
                                                 GamesScoreStyle style);
-void            games_scores_set_category      (GamesScores * self, gchar * category);
+void            games_scores_set_category      (GamesScores * self, const gchar * category);
 gint            games_scores_add_score         (GamesScores * self, GamesScore *score);
 gint            games_scores_add_plain_score   (GamesScores * self, guint32 value);
 gint            games_scores_add_time_score    (GamesScores * self, gdouble value);

@@ -121,12 +121,13 @@ lightsoff/lightsoff.schemas.in
 [type: gettext/glade]lightsoff/data/lightsoff.ui
 [type: gettext/glade]lightsoff/data/settings.ui
 lightsoff/src/About.js
-mahjongg/drawing.c
-mahjongg/mahjongg.c
-mahjongg/mahjongg.desktop.in.in
-mahjongg/org.gnome.mahjongg.gschema.xml.in
-mahjongg/maps.c
-mahjongg/translatable_game_names.h
+mahjongg/src/game.vala
+mahjongg/src/game-view.vala
+mahjongg/src/mahjongg.vala
+mahjongg/src/map.vala
+mahjongg/data/mahjongg.desktop.in.in
+mahjongg/data/org.gnome.mahjongg.gschema.xml.in
+mahjongg/data/translatable_game_names.h
 [type: gettext/glade]swell-foop/data/swell-foop.ui
 [type: gettext/glade]swell-foop/data/settings.ui
 swell-foop/swell-foop.desktop.in.in

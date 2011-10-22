@@ -14,6 +14,10 @@ gtali/gtali.desktop.in
 iagno/iagno.desktop.in
 libgames-support/org.gnome.Games.WindowState.gschema.xml.in
 lightsoff/lightsoff.desktop.in
-mahjongg/mahjongg.desktop.in
+mahjongg/src/game.c
+mahjongg/src/game-view.c
+mahjongg/src/mahjongg.c
+mahjongg/src/map.c
+mahjongg/data/mahjongg.desktop.in
 swell-foop/swell-foop-c.desktop.in
 swell-foop/swell-foop.desktop.in

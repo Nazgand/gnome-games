@@ -853,7 +853,9 @@ gnomine/help/Makefile
 swell-foop/Makefile
 swell-foop/help/Makefile
 mahjongg/Makefile
+mahjongg/data/Makefile
 mahjongg/help/Makefile
+mahjongg/src/Makefile
 gtali/Makefile
 gtali/pix/Makefile
 gtali/help/Makefile
@@ -905,7 +907,7 @@ gnobots2/gnobots2.desktop.in
 gnibbles/gnibbles.desktop.in
 gnotski/gnotski.desktop.in
 glchess/glchess.desktop.in
-mahjongg/mahjongg.desktop.in
+mahjongg/data/mahjongg.desktop.in
 gtali/gtali.desktop.in
 gnome-sudoku/gnome-sudoku.desktop.in
 iagno/iagno.desktop.in

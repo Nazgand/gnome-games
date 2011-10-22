@@ -128,10 +128,6 @@ games_scores_new (const char *app_name,
 
   /* FIXME: Input sanity checks. */
 
-  self->priv->categories = g_hash_table_new_full (g_str_hash, g_str_equal,
-                                                  g_free,
-                                                  (GDestroyNotify) games_scores_category_free);
-
   /* catsordered is a record of the ordering of the categories. 
    * Its data is shared with the hash table. */
   self->priv->catsordered = NULL;
@@ -210,7 +206,7 @@ games_scores_add_category (GamesScores *self,
  *
  **/
 void
-games_scores_set_category (GamesScores * self, gchar * category)
+games_scores_set_category (GamesScores * self, const gchar * category)
 {
   GamesScoresPrivate *priv = self->priv;
 
@@ -494,6 +490,9 @@ games_scores_init (GamesScores * self)
   priv->last_score_significant = FALSE;
   priv->last_score_position = 0;
   priv->last_score = games_score_new ();
+  priv->categories = g_hash_table_new_full (g_str_hash, g_str_equal,
+                                            g_free,
+                                            (GDestroyNotify) games_scores_category_free);
 }
 
 static void
@@ -502,7 +501,7 @@ games_scores_finalize (GObject * object)
   GamesScores *scores = GAMES_SCORES (object);
 
   g_hash_table_unref (scores->priv->categories);
-  g_free (scores->priv->catsordered);
+  g_slist_free (scores->priv->catsordered);
   g_free (scores->priv->currentcat);
   g_free (scores->priv->defcat);
   g_free (scores->priv->basename);

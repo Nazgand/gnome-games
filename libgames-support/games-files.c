@@ -350,6 +350,18 @@ games_file_list_create_widget (GamesFileList * filelist,
 }
 
 /**
+ * games_file_list_length:
+ * @filelist: The list of files to use.
+ * 
+ * Get the number of elements in the file list.
+ **/
+gsize
+games_file_list_length (GamesFileList * filelist)
+{
+    return g_list_length (filelist->priv->list);
+}
+
+/**
  * games_file_list_for_each:
  * @filelist: The file list to iterate over.
  * @function: (scope call): The function to call on each item. It gets called with two 
@@ -403,10 +415,10 @@ games_file_list_find (GamesFileList * filelist, GCompareFunc function,
  * Return value: 
  **/
 /* Return the nth filename in the list. */
-gchar *
+const gchar *
 games_file_list_get_nth (GamesFileList * filelist, gint n)
 {
-  return (gchar *) g_list_nth_data (filelist->priv->list, n);
+  return (const gchar *) g_list_nth_data (filelist->priv->list, n);
 }
 
 static void
