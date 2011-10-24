@@ -180,6 +180,11 @@ public class Game
 
     public void set_hint (Tile? tile0, Tile? tile1)
     {
+        if (hint_tiles[0] != null)
+            redraw_tile (hint_tiles[0]);
+        if (hint_tiles[1] != null)
+            redraw_tile (hint_tiles[1]);
+    
         /* Stop hints */
         if (tile0 == null && tile1 == null)
         {
