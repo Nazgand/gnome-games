@@ -127,7 +127,7 @@ for game in $gamelist; do
     *) ;;
   esac
   case $game in
-    glchess) need_vala=yes ;;
+    glchess|mahjongg) need_vala=yes ;;
     *) ;;
   esac
   case $game in
