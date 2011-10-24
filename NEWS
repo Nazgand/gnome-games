@@ -1,3 +1,69 @@
+gnome-games 3.3.1
+=================
+
+Major changes:
+ * Mahjongg was ported to vala.
+ * Glines defines GUI in .ui files.
+
+All changes since 3.2.0:
+
+Algimantas Margevičius (1):
+      Updated Lithuanian translation
+
+Daniel Mustieles (1):
+      Updated Spanish translation
+
+Fran Diéguez (1):
+      Updated Galician translations
+
+Gil Forcada (1):
+      [l10n]Updated Catalan translations
+
+Ihar Hrachyshka (1):
+      Updated Belarusian translation.
+
+Jeremy Bicha (1):
+      gnect: minor typo fix
+
+Kjartan Maraas (1):
+      Updated Norwegian bokmål translation
+
+Marek Černocký (3):
+      Updated Czech translation
+      Updated Czech translation
+      Updated Czech translation
+
+Mario Blättermann (1):
+      [l10n] Updated German translation
+
+Matej Urbančič (1):
+      Updated Slovenian translation
+
+Miĥa-Johano WALTER (1):
+      Updated Esperanto translation
+
+Robert Ancell (2):
+      mahjongg: Port from C to Vala
+      mahjongg: Fix hints showing when doing new hints / cancelling them
+
+Thomas Hindoe Paaboel Andersen (7):
+      swell-foop: Default theme was renamed to Shapes and Colors
+      swell-foop: src folder should not depend on BUILD_HELP
+      glines: Move preferences to .ui file
+      glines: repaint board on bgcolor change
+      libgames/games-files.c: actually concat the lists
+      version bump
+      glines: Move main window to .ui file
+
+Yaron Shahrabani (1):
+      Updated Hebrew translation.
+
+krishnababu k (1):
+      Newly added Telugu translations
+
+Мирослав Николић (1):
+      Updated Serbian translation
+
 gnome-games 3.2.0
 =================
 
