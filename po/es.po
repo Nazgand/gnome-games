@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: gnome-games.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "games&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-10-06 22:13+0000\n"
-"PO-Revision-Date: 2011-10-07 10:17+0200\n"
+"POT-Creation-Date: 2011-10-24 21:22+0000\n"
+"PO-Revision-Date: 2011-10-25 11:13+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -165,7 +165,7 @@ msgstr "Mostrar el movimiento anterior"
 
 #. Tooltip for start new game toolbar button
 #: ../glchess/data/glchess.ui.h:16 ../gnobots2/menu.c:71
-#: ../libgames-support/games-stock.c:50 ../mahjongg/mahjongg.c:1195
+#: ../libgames-support/games-stock.c:50 ../mahjongg/src/mahjongg.vala:642
 msgid "Start a new game"
 msgstr "Iniciar un juego nuevo"
 
@@ -186,7 +186,7 @@ msgstr "Índ_ice"
 #: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:210
 #: ../gnomine/gnomine.c:758 ../gnotravex/gnotravex.c:1707
 #: ../gnotski/gnotski.c:409 ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:763
-#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1192
+#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/src/mahjongg.vala:639
 #: ../swell-foop/data/swell-foop.ui.h:2
 msgid "_Game"
 msgstr "_Juego"
@@ -197,7 +197,7 @@ msgstr "_Juego"
 #: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:233
 #: ../gnomine/gnomine.c:760 ../gnotravex/gnotravex.c:1711
 #: ../gnotski/gnotski.c:411 ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:765
-#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1194
+#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/src/mahjongg.vala:641
 #: ../swell-foop/data/swell-foop.ui.h:3
 msgid "_Help"
 msgstr "Ay_uda"
@@ -214,7 +214,7 @@ msgstr "De_recha"
 #: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:224
 #: ../gnomine/gnomine.c:759 ../gnotravex/gnotravex.c:1709
 #: ../gtali/gyahtzee.c:712 ../iagno/gnothello.c:764
-#: ../mahjongg/mahjongg.c:1193
+#: ../mahjongg/src/mahjongg.vala:640
 msgid "_Settings"
 msgstr "Aju_stes"
 
@@ -312,7 +312,6 @@ msgstr "Jugar como:"
 
 #. Title for preferences dialog
 #: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:180
-#: ../mahjongg/mahjongg.c:139
 msgid "Preferences"
 msgstr "Preferencias"
 
@@ -1043,7 +1042,7 @@ msgstr ""
 #: ../quadrapassel/tetris.cpp:1313 ../gnomine/gnomine.c:473
 #: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1497
 #: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:226
-#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:903
+#: ../lightsoff/src/About.js:19 ../mahjongg/src/mahjongg.vala:528
 #: ../swell-foop/src/About.js:19
 msgid "GNOME Games web site"
 msgstr "Sitio web de los juegos de GNOME"
@@ -1185,7 +1184,7 @@ msgstr ""
 #: ../gnome-sudoku/src/lib/main.py:688 ../gnomine/gnomine.c:470
 #: ../gnotravex/gnotravex.c:1613 ../gnotski/gnotski.c:1494
 #: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:224
-#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:900
+#: ../lightsoff/src/About.js:20 ../mahjongg/src/mahjongg.vala:525
 #: ../swell-foop/src/About.js:20
 msgid "translator-credits"
 msgstr ""
@@ -1200,13 +1199,10 @@ msgid "Remove colored balls from the board by forming lines"
 msgstr "Elimine bolas de colores del tablero formando líneas"
 
 #: ../glines/data/glines.ui.h:1
-#| msgctxt "number"
-#| msgid "0"
 msgid "0"
 msgstr "0"
 
 #: ../glines/data/glines.ui.h:2
-#| msgid "Five or More"
 msgid "Five or more"
 msgstr "Cinco o más"
 
@@ -1643,19 +1639,19 @@ msgstr "Velocidad:"
 
 #: ../gnibbles/gnibbles.c:369 ../gnobots2/game.c:179 ../gnomine/gnomine.c:224
 #: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:803
-#: ../gtali/gyahtzee.c:197 ../mahjongg/mahjongg.c:622
+#: ../gtali/gyahtzee.c:197
 msgid "Congratulations!"
 msgstr "Enhorabuena."
 
 #: ../gnibbles/gnibbles.c:370 ../gnobots2/game.c:180 ../gnomine/gnomine.c:225
 #: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:804
-#: ../gtali/gyahtzee.c:198 ../mahjongg/mahjongg.c:623
+#: ../gtali/gyahtzee.c:198 ../mahjongg/src/mahjongg.vala:252
 msgid "Your score is the best!"
 msgstr "Su puntuación es la mejor"
 
 #: ../gnibbles/gnibbles.c:371 ../gnobots2/game.c:181 ../gnomine/gnomine.c:226
 #: ../gnotravex/gnotravex.c:1092 ../gnotski/gnotski.c:805
-#: ../gtali/gyahtzee.c:199 ../mahjongg/mahjongg.c:624
+#: ../gtali/gyahtzee.c:199 ../mahjongg/src/mahjongg.vala:254
 msgid "Your score has made the top ten."
 msgstr "Su puntuación ha alcanzado los 10 mejores."
 
@@ -1939,8 +1935,8 @@ msgstr "Juego _nuevo"
 msgid "Robots Scores"
 msgstr "Puntuación de Robots"
 
-#: ../gnobots2/game.c:170 ../mahjongg/mahjongg.c:620
-#: ../mahjongg/mahjongg.c:945
+#: ../gnobots2/game.c:170 ../mahjongg/src/mahjongg.vala:248
+#: ../mahjongg/src/mahjongg.vala:549
 msgid "Map:"
 msgstr "Mapa:"
 
@@ -2318,11 +2314,11 @@ msgstr "_Esperar"
 msgid "Wait for the robots"
 msgstr "Esperar a los robots"
 
-#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1215
+#: ../gnobots2/menu.c:90 ../mahjongg/src/mahjongg.vala:656
 msgid "_Toolbar"
 msgstr "Barra de herramien_tas"
 
-#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1215
+#: ../gnobots2/menu.c:90 ../mahjongg/src/mahjongg.vala:656
 msgid "Show or hide the toolbar"
 msgstr "Mostrar u ocultar la barra de herramientas"
 
@@ -2425,7 +2421,7 @@ msgstr "Tema gráfico"
 msgid "_Image theme:"
 msgstr "Tema de _imagen:"
 
-#: ../gnobots2/properties.c:526 ../mahjongg/mahjongg.c:728
+#: ../gnobots2/properties.c:526 ../mahjongg/src/mahjongg.vala:402
 msgid "_Background color:"
 msgstr "Color de _fondo:"
 
@@ -3212,7 +3208,7 @@ msgstr "Pulse en un cuadro, cualquier cuadro"
 msgid "Maybe they're all mines ..."
 msgstr "Quizás son todas minas…"
 
-#: ../gnomine/gnomine.c:430 ../mahjongg/mahjongg.c:859
+#: ../gnomine/gnomine.c:430 ../mahjongg/src/mahjongg.vala:482
 msgid "Main game:"
 msgstr "Juego principal:"
 
@@ -3518,7 +3514,7 @@ msgctxt "number"
 msgid "9"
 msgstr "9"
 
-#: ../gnotravex/gnotravex.c:913 ../mahjongg/mahjongg.c:927
+#: ../gnotravex/gnotravex.c:913
 msgid "Game paused"
 msgstr "Juego suspendido"
 
@@ -3535,11 +3531,11 @@ msgstr "Puntuación de Tetravex"
 msgid "Puzzle solved! Well done!"
 msgstr "Puzle resuelto. Enhorabuena."
 
-#: ../gnotravex/gnotravex.c:1147
+#: ../gnotravex/gnotravex.c:1147 ../mahjongg/src/mahjongg.vala:249
 msgid "Puzzle solved!"
 msgstr "Puzle resuelto."
 
-#: ../gnotravex/gnotravex.c:1402 ../mahjongg/mahjongg.c:1393
+#: ../gnotravex/gnotravex.c:1402 ../mahjongg/src/mahjongg.vala:69
 msgid "Time:"
 msgstr "Tiempo:"
 
@@ -4298,7 +4294,7 @@ msgstr "M_ostrar rejilla"
 msgid "_Flip final results"
 msgstr "Invertir resultado _final"
 
-#: ../iagno/properties.c:574 ../mahjongg/mahjongg.c:686
+#: ../iagno/properties.c:574 ../mahjongg/src/mahjongg.vala:332
 msgid "_Tile set:"
 msgstr "Juego de _fichas:"
 
@@ -4453,7 +4449,7 @@ msgstr "Reiniciar el juego pausado"
 msgid "View the scores"
 msgstr "Ver la puntuación"
 
-#: ../libgames-support/games-stock.c:57 ../mahjongg/mahjongg.c:1199
+#: ../libgames-support/games-stock.c:57 ../mahjongg/src/mahjongg.vala:644
 msgid "Undo the last move"
 msgstr "Anular el último movimiento"
 
@@ -4487,7 +4483,7 @@ msgid "_Redo Move"
 msgstr "_Rehacer movimiento"
 
 #. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
-#: ../libgames-support/games-stock.c:260
+#: ../libgames-support/games-stock.c:260 ../mahjongg/src/mahjongg.vala:279
 msgid "_Restart"
 msgstr "_Reiniciar"
 
@@ -4635,187 +4631,166 @@ msgstr ""
 msgid "Copyright  2009 Tim Horton"
 msgstr "Copyright  2009 Tim Horton"
 
-#: ../mahjongg/drawing.c:299
-msgid ""
-"The selected theme failed to render.\n"
-"\n"
-"Please check that Mahjongg is installed correctly."
-msgstr ""
-"El tema seleccionado no se ha generado correctamente:\n"
-"\n"
-"Compruebe su instalación de Mahjongg."
-
-#: ../mahjongg/drawing.c:428 ../mahjongg/drawing.c:441
-#, c-format
-msgid ""
-"Unable to render file:\n"
-"'%s'\n"
-"\n"
-"Please check that Mahjongg is installed correctly."
-msgstr ""
-"No se generar el archivo:\n"
-"«%s»\n"
-"\n"
-"Compruebe su instalación de Mahjongg."
-
-#: ../mahjongg/mahjongg.c:45 ../mahjongg/mahjongg.c:887
-#: ../mahjongg/mahjongg.c:890 ../mahjongg/mahjongg.desktop.in.in.h:2
+#: ../mahjongg/src/mahjongg.vala:44 ../mahjongg/src/mahjongg.vala:515
+#: ../mahjongg/src/mahjongg.vala:520 ../mahjongg/src/mahjongg.vala:785
+#: ../mahjongg/data/mahjongg.desktop.in.in.h:2
 msgid "Mahjongg"
 msgstr "Mahjongg"
 
-#: ../mahjongg/mahjongg.c:134
-msgid "Could not load tile set"
-msgstr "No se pudo cargar el conjunto de fichas"
+#: ../mahjongg/src/mahjongg.vala:51
+msgid "Tiles Left:"
+msgstr "Piezas restantes:"
 
-#: ../mahjongg/mahjongg.c:263
+#: ../mahjongg/src/mahjongg.vala:60
+msgid "Moves Left:"
+msgstr "Movimientos restantes:"
+
+#: ../mahjongg/src/mahjongg.vala:183
 msgid "Do you want to start a new game with this map?"
 msgstr "¿Quiere empezar un juego nuevo con este mapa?"
 
-#: ../mahjongg/mahjongg.c:265
+#: ../mahjongg/src/mahjongg.vala:184
 msgid "If you continue playing the next game will use the new map."
 msgstr "Si elige continuar jugando el siguiente juego usará el mapa nuevo."
 
-#: ../mahjongg/mahjongg.c:267
+#: ../mahjongg/src/mahjongg.vala:185
 msgid "_Continue playing"
 msgstr "_Continuar jugando"
 
-#: ../mahjongg/mahjongg.c:268
+#: ../mahjongg/src/mahjongg.vala:186
 msgid "Use _new map"
 msgstr "Usar mapa _nuevo"
 
-#: ../mahjongg/mahjongg.c:571
-msgid "There are no more moves."
-msgstr "No hay más movimientos válidos."
-
-#: ../mahjongg/mahjongg.c:574
-msgid "_New game"
-msgstr "Partida _nueva"
-
-#: ../mahjongg/mahjongg.c:579
-msgid "_Shuffle"
-msgstr "_Revolver"
-
-#: ../mahjongg/mahjongg.c:618 ../mahjongg/mahjongg.c:943
+#: ../mahjongg/src/mahjongg.vala:247 ../mahjongg/src/mahjongg.vala:548
 msgid "Mahjongg Scores"
 msgstr "Puntuación Mahjongg"
 
-#: ../mahjongg/mahjongg.c:659
+#: ../mahjongg/src/mahjongg.vala:250
+msgid "You didn't make the top ten, better luck next time."
+msgstr "No ha conseguido estar entre los diez primeros."
+
+#: ../mahjongg/src/mahjongg.vala:276
+msgid "There are no more moves."
+msgstr "No hay más movimientos válidos."
+
+#: ../mahjongg/src/mahjongg.vala:277
+msgid ""
+"Each puzzle has at least one solution.  You can undo your moves and try and "
+"find the solution for a time penalty, restart this game or start an new one."
+msgstr ""
+"Cada puzle tiene, al menos, una solución. Puede deshacer sus movimientos e "
+"intentar encontrar la solución con una penalización de tiempo, reiniciar el "
+"juego o empezar uno nuevo."
+
+#: ../mahjongg/src/mahjongg.vala:280
+msgid "_New game"
+msgstr "Partida _nueva"
+
+#: ../mahjongg/src/mahjongg.vala:308
 msgid "Mahjongg Preferences"
 msgstr "Preferencias de Mahjongg"
 
-#: ../mahjongg/mahjongg.c:679
+#: ../mahjongg/src/mahjongg.vala:325
 msgid "Tiles"
 msgstr "Fichas"
 
-#: ../mahjongg/mahjongg.c:700
+#: ../mahjongg/src/mahjongg.vala:361
 msgid "Maps"
 msgstr "Mapas"
 
-#: ../mahjongg/mahjongg.c:707
+#: ../mahjongg/src/mahjongg.vala:368
 msgid "_Select map:"
 msgstr "_Seleccione mapa:"
 
-#: ../mahjongg/mahjongg.c:721
+#: ../mahjongg/src/mahjongg.vala:395
 msgid "Colors"
 msgstr "Colores"
 
-#: ../mahjongg/mahjongg.c:867
+#: ../mahjongg/src/mahjongg.vala:491
 msgid "Maps:"
 msgstr "Mapas:"
 
-#: ../mahjongg/mahjongg.c:874
+#: ../mahjongg/src/mahjongg.vala:499
 msgid "Tiles:"
 msgstr "Fichas:"
 
-#: ../mahjongg/mahjongg.c:893
+#: ../mahjongg/src/mahjongg.vala:518
+#| msgid ""
+#| "A matching game played with Mahjongg tiles.\n"
+#| "\n"
+#| "Mahjongg is a part of GNOME Games."
 msgid ""
 "A matching game played with Mahjongg tiles.\n"
 "\n"
-"Mahjongg is a part of GNOME Games."
+"Mahjongg is a part of GNOME GnomeGamesSupport."
 msgstr ""
 "Un juego de comparaciones que se juega con fichas de Mahjongg.\n"
 "\n"
 "Mahjongg es parte de los Juegos de GNOME."
 
-#: ../mahjongg/mahjongg.c:1138
+#. Translators: This is the window title for Mahjongg which contains the map name, e.g. 'Mahjongg - Red Dragon'
+#: ../mahjongg/src/mahjongg.vala:623
 #, c-format
 msgid "Mahjongg - %s"
 msgstr "Mahjongg - %s"
 
-#: ../mahjongg/mahjongg.c:1198
+#: ../mahjongg/src/mahjongg.vala:643
 msgid "Restart the current game"
 msgstr "Reiniciar el juego actual"
 
-#: ../mahjongg/mahjongg.c:1201
+#: ../mahjongg/src/mahjongg.vala:645
 msgid "Redo the last move"
 msgstr "Rehacer el último movimiento"
 
-#: ../mahjongg/mahjongg.c:1203
+#: ../mahjongg/src/mahjongg.vala:646
 msgid "Show a hint"
 msgstr "Mostrar una pista"
 
-#: ../mahjongg/mahjongg.c:1375
-msgid "Tiles Left:"
-msgstr "Piezas restantes:"
-
-#: ../mahjongg/mahjongg.c:1384
-msgid "Moves Left:"
-msgstr "Movimientos restantes:"
-
-#: ../mahjongg/mahjongg.c:1448
-msgid "Remove matching pairs of tiles."
-msgstr "Quitar parejas de fichas coincidentes."
-
-#: ../mahjongg/mahjongg.desktop.in.in.h:1
+#: ../mahjongg/data/mahjongg.desktop.in.in.h:1
 msgid "Disassemble a pile of tiles by removing matching pairs"
 msgstr "Desmonte un montón de fichas eliminando parejas coincidentes"
-
-#: ../mahjongg/maps.c:229
-msgctxt "mahjongg map name"
-msgid "Easy"
-msgstr "Fácil"
 
 #.
 #. * Translatable strings file generated by get_titles.pl.
 #. * Add this file to your project's POTFILES.in.
 #. * DO NOT compile it as part of your application.
 #.
-#: ../mahjongg/translatable_game_names.h:6
+#: ../mahjongg/data/translatable_game_names.h:6
 msgctxt "mahjongg map name"
 msgid "The Ziggurat"
 msgstr "El Zigurat"
 
-#: ../mahjongg/translatable_game_names.h:7
+#: ../mahjongg/data/translatable_game_names.h:7
 msgctxt "mahjongg map name"
 msgid "Four Bridges"
 msgstr "Cuatro puentes"
 
-#: ../mahjongg/translatable_game_names.h:8
+#: ../mahjongg/data/translatable_game_names.h:8
 msgctxt "mahjongg map name"
 msgid "Cloud"
 msgstr "Nube"
 
-#: ../mahjongg/translatable_game_names.h:9
+#: ../mahjongg/data/translatable_game_names.h:9
 msgctxt "mahjongg map name"
 msgid "Tic-Tac-Toe"
 msgstr "Tic-Tac-Toe"
 
-#: ../mahjongg/translatable_game_names.h:10
+#: ../mahjongg/data/translatable_game_names.h:10
 msgctxt "mahjongg map name"
 msgid "Red Dragon"
 msgstr "Dragón rojo"
 
-#: ../mahjongg/translatable_game_names.h:11
+#: ../mahjongg/data/translatable_game_names.h:11
 msgctxt "mahjongg map name"
 msgid "Pyramid's Walls"
 msgstr "Muro de la pirámide"
 
-#: ../mahjongg/translatable_game_names.h:12
+#: ../mahjongg/data/translatable_game_names.h:12
 msgctxt "mahjongg map name"
 msgid "Confounding Cross"
 msgstr "Cruce confuso"
 
-#: ../mahjongg/translatable_game_names.h:13
+#: ../mahjongg/data/translatable_game_names.h:13
 msgctxt "mahjongg map name"
 msgid "Difficult"
 msgstr "Dificultad"
@@ -4900,6 +4875,39 @@ msgstr "Normal"
 #: ../swell-foop/src/Score.js:147
 msgid "Large"
 msgstr "Grande"
+
+#~ msgid ""
+#~ "The selected theme failed to render.\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "El tema seleccionado no se ha generado correctamente:\n"
+#~ "\n"
+#~ "Compruebe su instalación de Mahjongg."
+
+#~ msgid ""
+#~ "Unable to render file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "No se generar el archivo:\n"
+#~ "«%s»\n"
+#~ "\n"
+#~ "Compruebe su instalación de Mahjongg."
+
+#~ msgid "Could not load tile set"
+#~ msgstr "No se pudo cargar el conjunto de fichas"
+
+#~ msgid "_Shuffle"
+#~ msgstr "_Revolver"
+
+#~ msgid "Remove matching pairs of tiles."
+#~ msgstr "Quitar parejas de fichas coincidentes."
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Easy"
+#~ msgstr "Fácil"
 
 #~ msgctxt "preferences"
 #~ msgid "General"
