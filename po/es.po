@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: gnome-games.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "games&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-10-24 21:22+0000\n"
-"PO-Revision-Date: 2011-10-25 11:13+0200\n"
+"POT-Creation-Date: 2011-10-26 00:43+0000\n"
+"PO-Revision-Date: 2011-10-26 16:40+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -184,7 +184,7 @@ msgstr "Índ_ice"
 #: ../glchess/data/glchess.ui.h:22 ../glines/data/glines.ui.h:7
 #: ../gnect/src/main.c:1187 ../gnibbles/main.c:600 ../gnobots2/menu.c:66
 #: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:210
-#: ../gnomine/gnomine.c:758 ../gnotravex/gnotravex.c:1707
+#: ../gnomine/gnomine.c:787 ../gnotravex/gnotravex.c:1707
 #: ../gnotski/gnotski.c:409 ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:763
 #: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/src/mahjongg.vala:639
 #: ../swell-foop/data/swell-foop.ui.h:2
@@ -195,7 +195,7 @@ msgstr "_Juego"
 #: ../glchess/data/glchess.ui.h:24 ../glines/data/glines.ui.h:8
 #: ../gnect/src/main.c:1190 ../gnibbles/main.c:603 ../gnobots2/menu.c:70
 #: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:233
-#: ../gnomine/gnomine.c:760 ../gnotravex/gnotravex.c:1711
+#: ../gnomine/gnomine.c:789 ../gnotravex/gnotravex.c:1711
 #: ../gnotski/gnotski.c:411 ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:765
 #: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/src/mahjongg.vala:641
 #: ../swell-foop/data/swell-foop.ui.h:3
@@ -212,7 +212,7 @@ msgstr "De_recha"
 #: ../glchess/data/glchess.ui.h:28 ../glines/data/glines.ui.h:9
 #: ../gnect/src/main.c:1189 ../gnibbles/main.c:602 ../gnobots2/menu.c:69
 #: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:224
-#: ../gnomine/gnomine.c:759 ../gnotravex/gnotravex.c:1709
+#: ../gnomine/gnomine.c:788 ../gnotravex/gnotravex.c:1709
 #: ../gtali/gyahtzee.c:712 ../iagno/gnothello.c:764
 #: ../mahjongg/src/mahjongg.vala:640
 msgid "_Settings"
@@ -1039,7 +1039,7 @@ msgstr ""
 
 #: ../glchess/src/glchess.vala:1368 ../glines/glines.c:1190
 #: ../gnect/src/main.c:828 ../gnibbles/main.c:177 ../gnobots2/menu.c:263
-#: ../quadrapassel/tetris.cpp:1313 ../gnomine/gnomine.c:473
+#: ../quadrapassel/tetris.cpp:1313 ../gnomine/gnomine.c:499
 #: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1497
 #: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:226
 #: ../lightsoff/src/About.js:19 ../mahjongg/src/mahjongg.vala:528
@@ -1097,17 +1097,17 @@ msgstr ""
 "Ejecute «%s --help» para ver una lista completa de las opciones de línea de "
 "comandos disponibles."
 
-#: ../glines/glines.c:85 ../gnomine/gnomine.c:101
+#: ../glines/glines.c:85 ../gnomine/gnomine.c:103
 msgctxt "board size"
 msgid "Small"
 msgstr "Pequeño"
 
-#: ../glines/glines.c:86 ../gnomine/gnomine.c:102
+#: ../glines/glines.c:86 ../gnomine/gnomine.c:104
 msgctxt "board size"
 msgid "Medium"
 msgstr "Mediano"
 
-#: ../glines/glines.c:87 ../gnomine/gnomine.c:103
+#: ../glines/glines.c:87 ../gnomine/gnomine.c:105
 msgctxt "board size"
 msgid "Large"
 msgstr "Grande"
@@ -1181,7 +1181,7 @@ msgstr ""
 #. this doesn't work for anyone
 #: ../glines/glines.c:1187 ../gnect/src/main.c:831 ../gnibbles/main.c:174
 #: ../gnobots2/menu.c:267 ../quadrapassel/tetris.cpp:1316
-#: ../gnome-sudoku/src/lib/main.py:688 ../gnomine/gnomine.c:470
+#: ../gnome-sudoku/src/lib/main.py:688 ../gnomine/gnomine.c:496
 #: ../gnotravex/gnotravex.c:1613 ../gnotski/gnotski.c:1494
 #: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:224
 #: ../lightsoff/src/About.js:20 ../mahjongg/src/mahjongg.vala:525
@@ -1211,7 +1211,7 @@ msgid "Next:"
 msgstr "Siguiente:"
 
 #: ../glines/data/glines.ui.h:4 ../gnobots2/statusbar.c:67
-#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:433
+#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:459
 msgid "Score:"
 msgstr "Puntuación:"
 
@@ -1637,19 +1637,19 @@ msgstr "Puntuación de Nibbles"
 msgid "Speed:"
 msgstr "Velocidad:"
 
-#: ../gnibbles/gnibbles.c:369 ../gnobots2/game.c:179 ../gnomine/gnomine.c:224
+#: ../gnibbles/gnibbles.c:369 ../gnobots2/game.c:179 ../gnomine/gnomine.c:227
 #: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:803
 #: ../gtali/gyahtzee.c:197
 msgid "Congratulations!"
 msgstr "Enhorabuena."
 
-#: ../gnibbles/gnibbles.c:370 ../gnobots2/game.c:180 ../gnomine/gnomine.c:225
+#: ../gnibbles/gnibbles.c:370 ../gnobots2/game.c:180 ../gnomine/gnomine.c:228
 #: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:804
 #: ../gtali/gyahtzee.c:198 ../mahjongg/src/mahjongg.vala:252
 msgid "Your score is the best!"
 msgstr "Su puntuación es la mejor"
 
-#: ../gnibbles/gnibbles.c:371 ../gnobots2/game.c:181 ../gnomine/gnomine.c:226
+#: ../gnibbles/gnibbles.c:371 ../gnobots2/game.c:181 ../gnomine/gnomine.c:229
 #: ../gnotravex/gnotravex.c:1092 ../gnotski/gnotski.c:805
 #: ../gtali/gyahtzee.c:199 ../mahjongg/src/mahjongg.vala:254
 msgid "Your score has made the top ten."
@@ -1918,7 +1918,7 @@ msgstr "Gusano %d:"
 msgid "Game over!"
 msgstr "Juego terminado"
 
-#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:200 ../gnotski/gnotski.c:778
+#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:203 ../gnotski/gnotski.c:778
 msgid "Great work, but unfortunately your score did not make the top ten."
 msgstr ""
 "¡Buen trabajo! Desafortunadamente su puntuación no alcanzó los 10 mejores "
@@ -1926,7 +1926,7 @@ msgstr ""
 
 #. Translators: This "_New Game" is for the game-over dialogue
 #: ../gnobots2/game.c:154 ../gnome-sudoku/data/select_game.ui.h:1
-#: ../gnomine/gnomine.c:202 ../gnotski/gnotski.c:780
+#: ../gnomine/gnomine.c:205 ../gnotski/gnotski.c:780
 #: ../libgames-support/games-stock.c:255
 msgid "_New Game"
 msgstr "Juego _nuevo"
@@ -1973,13 +1973,13 @@ msgstr "Ajustar la configuración del juego"
 msgid "Initial window position"
 msgstr "Posición inicial de la ventana"
 
-#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:914 ../gnomine/gnomine.c:922
+#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:943 ../gnomine/gnomine.c:951
 #: ../gnotravex/gnotravex.c:262 ../gnotski/gnotski.c:457
 #: ../iagno/gnothello.c:139
 msgid "X"
 msgstr "X"
 
-#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:916 ../gnomine/gnomine.c:924
+#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:945 ../gnomine/gnomine.c:953
 #: ../gnotravex/gnotravex.c:264 ../gnotski/gnotski.c:459
 #: ../iagno/gnothello.c:141
 msgid "Y"
@@ -3177,54 +3177,69 @@ msgstr "_Limpiar"
 msgid "Mines"
 msgstr "Minas"
 
-#: ../gnomine/gnomine.c:104
+#: ../gnomine/gnomine.c:106
 msgctxt "board size"
 msgid "Custom"
 msgstr "Personalizado"
 
-#: ../gnomine/gnomine.c:170
+#: ../gnomine/gnomine.c:173
 #, c-format
 msgid "Flags: %d/%d"
 msgstr "Banderas: %d/%d"
 
-#: ../gnomine/gnomine.c:198
+#: ../gnomine/gnomine.c:201
 msgid "The Mines Have Been Cleared!"
 msgstr "Las minas han sido eliminadas."
 
-#: ../gnomine/gnomine.c:214
+#: ../gnomine/gnomine.c:217
 msgid "Mines Scores"
 msgstr "Puntuación de Minas"
 
-#: ../gnomine/gnomine.c:217 ../gnotravex/gnotravex.c:1085
+#: ../gnomine/gnomine.c:220 ../gnotravex/gnotravex.c:1085
 #: ../swell-foop/src/Score.js:57
 msgid "Size:"
 msgstr "Tamaño:"
 
-#: ../gnomine/gnomine.c:315
+#: ../gnomine/gnomine.c:274
+#| msgid "Animation"
+msgid "Confirmation"
+msgstr "Confirmación"
+
+#: ../gnomine/gnomine.c:277
+#| msgid "Start a new game"
+msgid "Start New Game"
+msgstr "Iniciar un juego nuevo"
+
+#: ../gnomine/gnomine.c:279
+#| msgid "Save the current game"
+msgid "Keep Current Game"
+msgstr "Mantener el juego actual"
+
+#: ../gnomine/gnomine.c:341
 msgid "Click a square, any square"
 msgstr "Pulse en un cuadro, cualquier cuadro"
 
-#: ../gnomine/gnomine.c:317
+#: ../gnomine/gnomine.c:343
 msgid "Maybe they're all mines ..."
 msgstr "Quizás son todas minas…"
 
-#: ../gnomine/gnomine.c:430 ../mahjongg/src/mahjongg.vala:482
+#: ../gnomine/gnomine.c:456 ../mahjongg/src/mahjongg.vala:482
 msgid "Main game:"
 msgstr "Juego principal:"
 
-#: ../gnomine/gnomine.c:436
+#: ../gnomine/gnomine.c:462
 msgid "Resizing and SVG support:"
 msgstr "Soporte para redimensionado y SVG:"
 
-#: ../gnomine/gnomine.c:443
+#: ../gnomine/gnomine.c:469
 msgid "Faces:"
 msgstr "Caras:"
 
-#: ../gnomine/gnomine.c:446
+#: ../gnomine/gnomine.c:472
 msgid "Graphics:"
 msgstr "Gráficos:"
 
-#: ../gnomine/gnomine.c:462
+#: ../gnomine/gnomine.c:488
 msgid ""
 "The popular logic puzzle minesweeper. Clear mines from a board using hints "
 "from squares you have already uncovered.\n"
@@ -3236,82 +3251,82 @@ msgstr ""
 "\n"
 "Minas es parte de los juegos de GNOME."
 
-#: ../gnomine/gnomine.c:621
+#: ../gnomine/gnomine.c:650
 msgid "Field Size"
 msgstr "Tamaño del campo"
 
-#: ../gnomine/gnomine.c:644
+#: ../gnomine/gnomine.c:673
 msgid "Custom Size"
 msgstr "Tamaño personalizado"
 
-#: ../gnomine/gnomine.c:651
+#: ../gnomine/gnomine.c:680
 msgid "_Number of mines:"
 msgstr "_Número de minas:"
 
-#: ../gnomine/gnomine.c:664
+#: ../gnomine/gnomine.c:693
 msgid "_Horizontal:"
 msgstr "_Horizontal:"
 
-#: ../gnomine/gnomine.c:676
+#: ../gnomine/gnomine.c:705
 msgid "_Vertical:"
 msgstr "_Vertical:"
 
-#: ../gnomine/gnomine.c:693
+#: ../gnomine/gnomine.c:722
 msgid "Flags"
 msgstr "Banderas"
 
-#: ../gnomine/gnomine.c:696
+#: ../gnomine/gnomine.c:725
 msgid "_Use \"I'm not sure\" flags"
 msgstr "_Usar banderas «No estoy seguro»"
 
-#: ../gnomine/gnomine.c:707
+#: ../gnomine/gnomine.c:736
 msgid "Warnings"
 msgstr "Advertencias"
 
-#: ../gnomine/gnomine.c:710
+#: ../gnomine/gnomine.c:739
 msgid "_Use \"Too many flags\" warning"
 msgstr "_Usar la advertencia «Demasiadas banderas»"
 
-#: ../gnomine/gnomine.c:721
+#: ../gnomine/gnomine.c:750
 msgid "Mines Preferences"
 msgstr "Preferencias de Minas"
 
-#: ../gnomine/gnomine.c:914
+#: ../gnomine/gnomine.c:943
 msgid "Width of grid"
 msgstr "Ancho de la rejilla"
 
-#: ../gnomine/gnomine.c:915
+#: ../gnomine/gnomine.c:944
 msgid "Height of grid"
 msgstr "Alto de la rejilla"
 
-#: ../gnomine/gnomine.c:917
+#: ../gnomine/gnomine.c:946
 msgid "Number of mines"
 msgstr "Número de minas"
 
-#: ../gnomine/gnomine.c:918 ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109
+#: ../gnomine/gnomine.c:947 ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109
 #: ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
 msgid "NUMBER"
 msgstr "NÚMERO"
 
-#: ../gnomine/gnomine.c:920 ../gnomine/org.gnome.gnomine.gschema.xml.in.h:8
+#: ../gnomine/gnomine.c:949 ../gnomine/org.gnome.gnomine.gschema.xml.in.h:8
 msgid "Size of the board (0-2 = small-large, 3=custom)"
 msgstr "Tamaño del tablero (0-2 = pequeño-grande, 3 = personalizado)"
 
-#: ../gnomine/gnomine.c:921 ../gnotravex/gnotravex.c:261
+#: ../gnomine/gnomine.c:950 ../gnotravex/gnotravex.c:261
 #: ../gnotski/gnotski.c:456 ../iagno/gnothello.c:138
 msgid "X location of window"
 msgstr "Coordenada X de la ventana"
 
-#: ../gnomine/gnomine.c:923 ../gnotravex/gnotravex.c:263
+#: ../gnomine/gnomine.c:952 ../gnotravex/gnotravex.c:263
 #: ../gnotski/gnotski.c:458 ../iagno/gnothello.c:140
 msgid "Y location of window"
 msgstr "Coordenada Y de la ventana"
 
-#: ../gnomine/gnomine.c:1060
+#: ../gnomine/gnomine.c:1091
 msgid "Press to Resume"
 msgstr "Pulse para continuar"
 
-#: ../gnomine/gnomine.c:1095
+#: ../gnomine/gnomine.c:1126
 msgid "Time: "
 msgstr "Tiempo: "
 
@@ -4715,10 +4730,6 @@ msgid "Tiles:"
 msgstr "Fichas:"
 
 #: ../mahjongg/src/mahjongg.vala:518
-#| msgid ""
-#| "A matching game played with Mahjongg tiles.\n"
-#| "\n"
-#| "Mahjongg is a part of GNOME Games."
 msgid ""
 "A matching game played with Mahjongg tiles.\n"
 "\n"
@@ -7249,9 +7260,6 @@ msgstr "Grande"
 
 #~ msgid "Load a saved game"
 #~ msgstr "Cargar un juego guardado"
-
-#~ msgid "Save the current game"
-#~ msgstr "Guardar el juego actual"
 
 #~ msgid "Gnometris"
 #~ msgstr "GNOMEtris"
