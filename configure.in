@@ -848,8 +848,10 @@ gnect/data/Makefile
 gnect/pixmaps/Makefile
 gnect/help/Makefile
 gnomine/Makefile
-gnomine/icons/Makefile
+gnomine/data/Makefile
 gnomine/help/Makefile
+gnomine/icons/Makefile
+gnomine/src/Makefile
 swell-foop/Makefile
 swell-foop/help/Makefile
 mahjongg/Makefile
@@ -912,7 +914,7 @@ gtali/gtali.desktop.in
 gnome-sudoku/gnome-sudoku.desktop.in
 iagno/iagno.desktop.in
 gnect/data/gnect.desktop.in
-gnomine/gnomine.desktop.in
+gnomine/data/gnomine.desktop.in
 lightsoff/Makefile
 lightsoff/help/Makefile
 lightsoff/lightsoff.desktop.in
