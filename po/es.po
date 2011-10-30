@@ -5,23 +5,23 @@
 # Lucas 'Basurero' Vieites <lucas@codexion.com>, 2007.
 # Lucas Vieites <lucas@codexion.com>, 2007, 2008.
 # 
-# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010, 2011.
 # 
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2008, 2009, 2010, 2011., 2011.
+# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010, 2011., 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "games&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-10-26 00:43+0000\n"
-"PO-Revision-Date: 2011-10-26 16:40+0200\n"
-"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español <gnome-es-list@gnome.org>\n"
+"POT-Creation-Date: 2011-10-28 23:04+0000\n"
+"PO-Revision-Date: 2011-10-30 15:22+0100\n"
+"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:1
@@ -61,8 +61,9 @@ msgid ""
 "Can be 'human' (play against another human player), '' (use the first "
 "available chess engine) or the name of a specific engine to play against"
 msgstr ""
-"Puede ser «humano» (jugar contra otro jugador humano, «» (usar el primer motor "
-"de ajedrez disponible) o el nombre de un motor específico contra el que jugar"
+"Puede ser «humano» (jugar contra otro jugador humano, «» (usar el primer "
+"motor de ajedrez disponible) o el nombre de un motor específico contra el "
+"que jugar"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:10
 msgid "Difficulty of the opponent chess engine"
@@ -1465,8 +1466,8 @@ msgid ""
 "\n"
 "\"Four in a Row\" is a part of GNOME Games."
 msgstr ""
-"«Cuatro en raya» para GNOME, con un jugador automático impulsado por el motor "
-"Velena de Giuliano Bertoletti.\n"
+"«Cuatro en raya» para GNOME, con un jugador automático impulsado por el "
+"motor Velena de Giuliano Bertoletti.\n"
 "\n"
 "«Cuatro en raya» es parte de los juegos de GNOME."
 
@@ -3201,17 +3202,14 @@ msgid "Size:"
 msgstr "Tamaño:"
 
 #: ../gnomine/gnomine.c:274
-#| msgid "Animation"
 msgid "Confirmation"
 msgstr "Confirmación"
 
 #: ../gnomine/gnomine.c:277
-#| msgid "Start a new game"
 msgid "Start New Game"
 msgstr "Iniciar un juego nuevo"
 
 #: ../gnomine/gnomine.c:279
-#| msgid "Save the current game"
 msgid "Keep Current Game"
 msgstr "Mantener el juego actual"
 
@@ -4730,10 +4728,14 @@ msgid "Tiles:"
 msgstr "Fichas:"
 
 #: ../mahjongg/src/mahjongg.vala:518
+#| msgid ""
+#| "A matching game played with Mahjongg tiles.\n"
+#| "\n"
+#| "Mahjongg is a part of GNOME GnomeGamesSupport."
 msgid ""
 "A matching game played with Mahjongg tiles.\n"
 "\n"
-"Mahjongg is a part of GNOME GnomeGamesSupport."
+"Mahjongg is a part of GNOME Games."
 msgstr ""
 "Un juego de comparaciones que se juega con fichas de Mahjongg.\n"
 "\n"
@@ -6574,8 +6576,8 @@ msgstr "Grande"
 #~ "'lan' (long algebraic notation) or 'san' (standard algebraic notation)"
 #~ msgstr ""
 #~ "El formato en el que mostrar jugadas, puede ser «humano» (legible por "
-#~ "personas), «lan» (notación algebraica larga - «long algebraic notation») o "
-#~ "«san» (notación algebraica estándar - «standard algebraic notation»)"
+#~ "personas), «lan» (notación algebraica larga - «long algebraic notation») "
+#~ "o «san» (notación algebraica estándar - «standard algebraic notation»)"
 
 #~ msgid "The piece style to use. Can be one of: 'simple' or 'fancy'"
 #~ msgstr "El estilo de pieza que usar. Puede ser «simple» o «fantasía»."
@@ -6587,9 +6589,9 @@ msgstr "Grande"
 #~ "g. handhelds)"
 #~ msgstr ""
 #~ "El lado del tablero que está en primero plano, "
-#~ "«white» (blanco),«black» (negro), «current» (el jugador actual), «human» (el "
-#~ "lado del jugador humano actual) o «facetoface» (apropiado para jugadores a "
-#~ "cada lado de la pantalla, ej. dispositivos portátiles)"
+#~ "«white» (blanco),«black» (negro), «current» (el jugador actual), "
+#~ "«human» (el lado del jugador humano actual) o «facetoface» (apropiado "
+#~ "para jugadores a cada lado de la pantalla, ej. dispositivos portátiles)"
 
 #~ msgid "Logs"
 #~ msgstr "Registros"
