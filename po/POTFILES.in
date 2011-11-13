@@ -1,11 +1,11 @@
 # List of source files containing translatable strings.
 # Please keep this file in alphabetical order.
 [encoding: UTF-8]
-glchess/gnuchess/getopt.c
-glchess/data/org.gnome.glchess.gschema.xml.in
 [type: gettext/glade]glchess/data/glchess.ui
+glchess/data/org.gnome.glchess.gschema.xml.in
 [type: gettext/glade]glchess/data/preferences.ui
 glchess/glchess.desktop.in.in
+glchess/gnuchess/getopt.c
 glchess/src/3ds.vala
 glchess/src/ai-profile.vala
 glchess/src/chess-bitboard.vala
@@ -22,11 +22,11 @@ glchess/src/chess-view.vala
 glchess/src/glchess.vala
 glchess/src/history.vala
 glchess/src/test-chess-game.vala
-glines/glines.c
-glines/glines.h
-glines/glines.desktop.in.in
-[type: gettext/glade]glines/data/glines.ui
+glchess/src/test-chess-pgn.vala
 [type: gettext/glade]glines/data/glines-preferences.ui
+[type: gettext/glade]glines/data/glines.ui
+glines/glines.c
+glines/glines.desktop.in.in
 glines/org.gnome.glines.gschema.xml.in
 gnect/data/gnect.desktop.in.in
 gnect/data/gnect.schemas.in
@@ -42,48 +42,41 @@ gnibbles/main.c
 gnibbles/preferences.c
 gnibbles/scoreboard.c
 gnobots2/game.c
-gnobots2/gnobots.c
 gnobots2/gnobots2.desktop.in.in
 gnobots2/gnobots2.schemas.in
+gnobots2/gnobots.c
 gnobots2/graphics.c
 gnobots2/menu.c
 gnobots2/properties.c
 gnobots2/statusbar.c
-quadrapassel/quadrapassel.desktop.in.in
-quadrapassel/quadrapassel.schemas.in
-quadrapassel/main.cpp
-quadrapassel/renderer.cpp
-quadrapassel/scoreframe.cpp
-quadrapassel/tetris.cpp
-quadrapassel/highscores.cpp
-quadrapassel/blockops.cpp
-gnome-sudoku/gnome-sudoku.desktop.in.in
 gnome-sudoku/data/gnome-sudoku.schemas.in
 [type: gettext/glade]gnome-sudoku/data/print_games.ui
 [type: gettext/glade]gnome-sudoku/data/select_game.ui
 [type: gettext/glade]gnome-sudoku/data/tracker.ui
-gnome-sudoku/src/lib/simple_debug.py
+gnome-sudoku/gnome-sudoku.desktop.in.in
 gnome-sudoku/src/lib/colors.py
-gnome-sudoku/src/lib/sudoku_maker.py
-gnome-sudoku/src/lib/saver.py
+gnome-sudoku/src/lib/dialog_swallower.py
+gnome-sudoku/src/lib/game_selector.py
+gnome-sudoku/src/lib/gnome_sudoku.py
+gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py
+gnome-sudoku/src/lib/gtk_goodies/gconf_wrapper.py
+gnome-sudoku/src/lib/gtk_goodies/__init__.py
+gnome-sudoku/src/lib/gtk_goodies/Undo.py
+gnome-sudoku/src/lib/__init__.py
 gnome-sudoku/src/lib/main.py
+gnome-sudoku/src/lib/number_box.py
 gnome-sudoku/src/lib/pausable.py
 gnome-sudoku/src/lib/printing.py
-gnome-sudoku/src/lib/game_selector.py
-gnome-sudoku/src/lib/dialog_swallower.py
+gnome-sudoku/src/lib/saver.py
+gnome-sudoku/src/lib/simple_debug.py
+gnome-sudoku/src/lib/sudoku_maker.py
 gnome-sudoku/src/lib/sudoku.py
-gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py
-gnome-sudoku/src/lib/gtk_goodies/__init__.py
-gnome-sudoku/src/lib/gtk_goodies/gconf_wrapper.py
-gnome-sudoku/src/lib/gtk_goodies/Undo.py
 gnome-sudoku/src/lib/timer.py
-gnome-sudoku/src/lib/number_box.py
-gnome-sudoku/src/lib/gnome_sudoku.py
-gnome-sudoku/src/lib/__init__.py
 gnomine/data/gnomine.desktop.in.in
 gnomine/data/org.gnome.gnomine.gschema.xml.in
-gnomine/src/gnomine.c
-gnomine/src/minefield.c
+gnomine/src/gnomine.vala
+gnomine/src/minefield.vala
+gnomine/src/minefield-view.vala
 gnotravex/gnotravex.c
 gnotravex/gnotravex.desktop.in.in
 gnotravex/org.gnome.gnotravex.gschema.xml.in
@@ -96,11 +89,11 @@ gtali/gtali.schemas.in
 gtali/gyahtzee.c
 gtali/setup.c
 gtali/yahtzee.c
-iagno/gnothello.c
-iagno/iagno.desktop.in.in
-iagno/org.gnome.iagno.gschema.xml.in
-iagno/othello.c
-iagno/properties.c
+iagno/data/iagno.desktop.in.in
+iagno/data/org.gnome.iagno.gschema.xml.in
+iagno/src/gnothello.c
+iagno/src/othello.c
+iagno/src/properties.c
 libgames-support/eggdesktopfile.c
 libgames-support/eggsmclient.c
 libgames-support/eggsmclient-osx.c
@@ -116,23 +109,31 @@ libgames-support/games-scores-dialog.c
 libgames-support/games-show.c
 libgames-support/games-sound.c
 libgames-support/games-stock.c
-lightsoff/lightsoff.desktop.in.in
-lightsoff/lightsoff.schemas.in
 [type: gettext/glade]lightsoff/data/lightsoff.ui
 [type: gettext/glade]lightsoff/data/settings.ui
+lightsoff/lightsoff.desktop.in.in
+lightsoff/lightsoff.schemas.in
 lightsoff/src/About.js
+mahjongg/data/mahjongg.desktop.in.in
+mahjongg/data/org.gnome.mahjongg.gschema.xml.in
+mahjongg/data/translatable_game_names.h
 mahjongg/src/game.vala
 mahjongg/src/game-view.vala
 mahjongg/src/mahjongg.vala
 mahjongg/src/map.vala
-mahjongg/data/mahjongg.desktop.in.in
-mahjongg/data/org.gnome.mahjongg.gschema.xml.in
-mahjongg/data/translatable_game_names.h
-[type: gettext/glade]swell-foop/data/swell-foop.ui
+quadrapassel/blockops.cpp
+quadrapassel/highscores.cpp
+quadrapassel/main.cpp
+quadrapassel/quadrapassel.desktop.in.in
+quadrapassel/quadrapassel.schemas.in
+quadrapassel/renderer.cpp
+quadrapassel/scoreframe.cpp
+quadrapassel/tetris.cpp
 [type: gettext/glade]swell-foop/data/settings.ui
-swell-foop/swell-foop.desktop.in.in
-swell-foop/swell-foop.schemas.in
+[type: gettext/glade]swell-foop/data/swell-foop.ui
 swell-foop/src/About.js
 swell-foop/src/Board.js
 swell-foop/src/Score.js
 swell-foop/src/Settings.js
+swell-foop/swell-foop.desktop.in.in
+swell-foop/swell-foop.schemas.in
