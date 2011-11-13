@@ -861,7 +861,9 @@ gtali/Makefile
 gtali/pix/Makefile
 gtali/help/Makefile
 iagno/Makefile
+iagno/data/Makefile
 iagno/help/Makefile
+iagno/src/Makefile
 gnotravex/Makefile
 gnotravex/gnotravex.desktop.in
 gnotravex/help/Makefile
@@ -911,7 +913,7 @@ glchess/glchess.desktop.in
 mahjongg/data/mahjongg.desktop.in
 gtali/gtali.desktop.in
 gnome-sudoku/gnome-sudoku.desktop.in
-iagno/iagno.desktop.in
+iagno/data/iagno.desktop.in
 gnect/data/gnect.desktop.in
 gnomine/data/gnomine.desktop.in
 lightsoff/Makefile
