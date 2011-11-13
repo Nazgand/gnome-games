@@ -865,7 +865,9 @@ iagno/data/Makefile
 iagno/help/Makefile
 iagno/src/Makefile
 gnotravex/Makefile
-gnotravex/gnotravex.desktop.in
+gnotravex/data/Makefile
+gnotravex/data/gnotravex.desktop.in
+gnotravex/src/Makefile
 gnotravex/help/Makefile
 gnotravex/pixmaps/Makefile
 gnotski/Makefile
