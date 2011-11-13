@@ -7,7 +7,6 @@ AC_INIT([GNOME Games], [3.3.2],
   [gnome-games])
 
 AC_CONFIG_MACRO_DIR([m4])
-AC_CONFIG_SRCDIR([gnomine/gnomine.c])
 AC_CONFIG_HEADERS([config.h])
 
 AM_INIT_AUTOMAKE([1.11 tar-ustar no-dist-gzip dist-xz foreign])
@@ -127,7 +126,7 @@ for game in $gamelist; do
     *) ;;
   esac
   case $game in
-    glchess|mahjongg) need_vala=yes ;;
+    glchess|gnomine|mahjongg) need_vala=yes ;;
     *) ;;
   esac
   case $game in
@@ -159,7 +158,7 @@ for game in $gamelist; do
     *) ;;
   esac
   case $game in
-    glines|gnobots2|gnomine|gnotravex|gnotski|iagno) allow_smclient=yes ;;
+    glines|gnobots2|gnotravex|gnotski|iagno) allow_smclient=yes ;;
     *) ;;
   esac
   case $game in
