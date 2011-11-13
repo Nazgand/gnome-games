@@ -119,6 +119,7 @@ namespace GnomeGamesSupport
     {
         public signal void state_changed ();
         public PauseAction (string name);
+        public void set_is_paused (bool is_paused);
         public bool get_is_paused ();
     }
 
@@ -192,7 +193,7 @@ namespace GnomeGamesSupport
         public ScoresDialog (Gtk.Window parent_window, Scores scores, string title);
         public void set_category_description (string description);
         public void set_hilight (uint pos);
-        public void set_message (string message);
+        public void set_message (string? message);
         public void set_buttons (uint buttons);
     }
 

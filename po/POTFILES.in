@@ -80,10 +80,10 @@ gnome-sudoku/src/lib/timer.py
 gnome-sudoku/src/lib/number_box.py
 gnome-sudoku/src/lib/gnome_sudoku.py
 gnome-sudoku/src/lib/__init__.py
-gnomine/gnomine.c
-gnomine/gnomine.desktop.in.in
-gnomine/org.gnome.gnomine.gschema.xml.in
-gnomine/minefield.c
+gnomine/data/gnomine.desktop.in.in
+gnomine/data/org.gnome.gnomine.gschema.xml.in
+gnomine/src/gnomine.c
+gnomine/src/minefield.c
 gnotravex/gnotravex.c
 gnotravex/gnotravex.desktop.in.in
 gnotravex/org.gnome.gnotravex.gschema.xml.in
