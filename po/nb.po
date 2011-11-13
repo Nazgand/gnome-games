@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games 3.3.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-19 22:41+0200\n"
-"PO-Revision-Date: 2011-10-19 22:41+0200\n"
+"POT-Creation-Date: 2011-11-13 10:51+0100\n"
+"PO-Revision-Date: 2011-11-13 10:53+0100\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: nb\n"
@@ -18,6 +18,101 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.1\n"
+
+#. Claim draw menu item
+#: ../glchess/data/glchess.ui.h:2
+msgid "Claim _Draw"
+msgstr "Krev _remis"
+
+#. The New Game toolbar button
+#: ../glchess/data/glchess.ui.h:4
+#: ../libgames-support/games-scores-dialog.c:459
+msgid "New Game"
+msgstr "Nytt spill"
+
+#. The tooltip for the Resign toolbar button
+#: ../glchess/data/glchess.ui.h:6
+msgid "Resign"
+msgstr "Gi opp"
+
+#. Tooltip on the show first move (i.e. game start) navigation button
+#: ../glchess/data/glchess.ui.h:8
+msgid "Rewind to the game start"
+msgstr "Gå tilbake til spillets start"
+
+#. Tooltip on the show current move navigation button
+#: ../glchess/data/glchess.ui.h:10
+msgid "Show the current move"
+msgstr "Vis dette trekket"
+
+#. Tooltip on the show next move navigation button
+#: ../glchess/data/glchess.ui.h:12
+msgid "Show the next move"
+msgstr "Vis neste trekk"
+
+#. Tooltip on the show previous move navigation button
+#: ../glchess/data/glchess.ui.h:14
+msgid "Show the previous move"
+msgstr "Vis forrige trekk"
+
+#. Tooltip for start new game toolbar button
+#: ../glchess/data/glchess.ui.h:16 ../gnobots2/menu.c:71
+#: ../libgames-support/games-stock.c:50 ../mahjongg/src/mahjongg.vala:642
+msgid "Start a new game"
+msgstr "Start et nytt spill"
+
+#. The undo move toolbar button
+#: ../glchess/data/glchess.ui.h:18
+msgid "Undo Move"
+msgstr "Angre trekk"
+
+#. Help contents menu item
+#: ../glchess/data/glchess.ui.h:20 ../glines/data/glines.ui.h:6
+#: ../gnome-sudoku/src/lib/main.py:234 ../libgames-support/games-stock.c:249
+msgid "_Contents"
+msgstr "_Innhold"
+
+#. Game menu name
+#: ../glchess/data/glchess.ui.h:22 ../glines/data/glines.ui.h:7
+#: ../gnect/src/main.c:1187 ../gnibbles/main.c:600 ../gnobots2/menu.c:66
+#: ../gnome-sudoku/src/lib/main.py:210 ../gnomine/src/gnomine.vala:708
+#: ../gnotravex/gnotravex.c:1707 ../gnotski/gnotski.c:409
+#: ../gtali/gyahtzee.c:711 ../iagno/src/gnothello.c:763
+#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/src/mahjongg.vala:639
+#: ../quadrapassel/tetris.cpp:108 ../swell-foop/data/swell-foop.ui.h:2
+msgid "_Game"
+msgstr "_Spill"
+
+#. Help menu item
+#: ../glchess/data/glchess.ui.h:24 ../glines/data/glines.ui.h:8
+#: ../gnect/src/main.c:1190 ../gnibbles/main.c:603 ../gnobots2/menu.c:70
+#: ../gnome-sudoku/src/lib/main.py:233 ../gnomine/src/gnomine.vala:710
+#: ../gnotravex/gnotravex.c:1711 ../gnotski/gnotski.c:411
+#: ../gtali/gyahtzee.c:713 ../iagno/src/gnothello.c:765
+#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/src/mahjongg.vala:641
+#: ../quadrapassel/tetris.cpp:110 ../swell-foop/data/swell-foop.ui.h:3
+msgid "_Help"
+msgstr "_Hjelp"
+
+#. Save menu item
+#: ../glchess/data/glchess.ui.h:26
+msgid "_Resign"
+msgstr "_Gi opp"
+
+#. Settings menu item
+#: ../glchess/data/glchess.ui.h:28 ../glines/data/glines.ui.h:9
+#: ../gnect/src/main.c:1189 ../gnibbles/main.c:602 ../gnobots2/menu.c:69
+#: ../gnome-sudoku/src/lib/main.py:224 ../gnomine/src/gnomine.vala:709
+#: ../gnotravex/gnotravex.c:1709 ../gtali/gyahtzee.c:712
+#: ../iagno/src/gnothello.c:764 ../mahjongg/src/mahjongg.vala:640
+#: ../quadrapassel/tetris.cpp:109
+msgid "_Settings"
+msgstr "_Innstillinger"
+
+#. Undo move menu item
+#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:261
+msgid "_Undo Move"
+msgstr "_Angre trekk"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:1
 msgid "A flag to enable 3D mode"
@@ -122,101 +217,6 @@ msgstr "Bredden på vinduet"
 msgid "true if the human player is playing white"
 msgstr "«true» hvis menneskelig spiller er hvit"
 
-#. Claim draw menu item
-#: ../glchess/data/glchess.ui.h:2
-msgid "Claim _Draw"
-msgstr "Krev _remis"
-
-#. The New Game toolbar button
-#: ../glchess/data/glchess.ui.h:4
-#: ../libgames-support/games-scores-dialog.c:459
-msgid "New Game"
-msgstr "Nytt spill"
-
-#. The tooltip for the Resign toolbar button
-#: ../glchess/data/glchess.ui.h:6
-msgid "Resign"
-msgstr "Gi opp"
-
-#. Tooltip on the show first move (i.e. game start) navigation button
-#: ../glchess/data/glchess.ui.h:8
-msgid "Rewind to the game start"
-msgstr "Gå tilbake til spillets start"
-
-#. Tooltip on the show current move navigation button
-#: ../glchess/data/glchess.ui.h:10
-msgid "Show the current move"
-msgstr "Vis dette trekket"
-
-#. Tooltip on the show next move navigation button
-#: ../glchess/data/glchess.ui.h:12
-msgid "Show the next move"
-msgstr "Vis neste trekk"
-
-#. Tooltip on the show previous move navigation button
-#: ../glchess/data/glchess.ui.h:14
-msgid "Show the previous move"
-msgstr "Vis forrige trekk"
-
-#. Tooltip for start new game toolbar button
-#: ../glchess/data/glchess.ui.h:16 ../gnobots2/menu.c:71
-#: ../libgames-support/games-stock.c:50 ../mahjongg/mahjongg.c:1195
-msgid "Start a new game"
-msgstr "Start et nytt spill"
-
-#. The undo move toolbar button
-#: ../glchess/data/glchess.ui.h:18
-msgid "Undo Move"
-msgstr "Angre trekk"
-
-#. Help contents menu item
-#: ../glchess/data/glchess.ui.h:20 ../glines/data/glines.ui.h:6
-#: ../gnome-sudoku/src/lib/main.py:234 ../libgames-support/games-stock.c:249
-msgid "_Contents"
-msgstr "_Innhold"
-
-#. Game menu name
-#: ../glchess/data/glchess.ui.h:22 ../glines/data/glines.ui.h:7
-#: ../gnect/src/main.c:1187 ../gnibbles/main.c:600 ../gnobots2/menu.c:66
-#: ../quadrapassel/tetris.cpp:108 ../gnome-sudoku/src/lib/main.py:210
-#: ../gnomine/gnomine.c:758 ../gnotravex/gnotravex.c:1707
-#: ../gnotski/gnotski.c:409 ../gtali/gyahtzee.c:711 ../iagno/gnothello.c:763
-#: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/mahjongg.c:1192
-#: ../swell-foop/data/swell-foop.ui.h:2
-msgid "_Game"
-msgstr "_Spill"
-
-#. Help menu item
-#: ../glchess/data/glchess.ui.h:24 ../glines/data/glines.ui.h:8
-#: ../gnect/src/main.c:1190 ../gnibbles/main.c:603 ../gnobots2/menu.c:70
-#: ../quadrapassel/tetris.cpp:110 ../gnome-sudoku/src/lib/main.py:233
-#: ../gnomine/gnomine.c:760 ../gnotravex/gnotravex.c:1711
-#: ../gnotski/gnotski.c:411 ../gtali/gyahtzee.c:713 ../iagno/gnothello.c:765
-#: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/mahjongg.c:1194
-#: ../swell-foop/data/swell-foop.ui.h:3
-msgid "_Help"
-msgstr "_Hjelp"
-
-#. Save menu item
-#: ../glchess/data/glchess.ui.h:26
-msgid "_Resign"
-msgstr "_Gi opp"
-
-#. Settings menu item
-#: ../glchess/data/glchess.ui.h:28 ../glines/data/glines.ui.h:9
-#: ../gnect/src/main.c:1189 ../gnibbles/main.c:602 ../gnobots2/menu.c:69
-#: ../quadrapassel/tetris.cpp:109 ../gnome-sudoku/src/lib/main.py:224
-#: ../gnomine/gnomine.c:759 ../gnotravex/gnotravex.c:1709
-#: ../gtali/gyahtzee.c:712 ../iagno/gnothello.c:764
-#: ../mahjongg/mahjongg.c:1193
-msgid "_Settings"
-msgstr "_Innstillinger"
-
-#. Undo move menu item
-#: ../glchess/data/glchess.ui.h:30 ../libgames-support/games-stock.c:261
-msgid "_Undo Move"
-msgstr "_Angre trekk"
-
 #. Preferences Dialog: Combo box entry for game timer of thirty minutes
 #: ../glchess/data/preferences.ui.h:2
 msgid "30 minutes"
@@ -260,7 +260,7 @@ msgstr "Fem minutter"
 #. Preferences Dialog: Tab title for game preferences
 #: ../glchess/data/preferences.ui.h:18 ../gnect/src/prefs.c:301
 #: ../gnibbles/preferences.c:237 ../gnobots2/properties.c:499
-#: ../quadrapassel/tetris.cpp:596 ../iagno/properties.c:396
+#: ../iagno/src/properties.c:396 ../quadrapassel/tetris.cpp:596
 msgid "Game"
 msgstr "Spill"
 
@@ -306,7 +306,6 @@ msgstr "Spill som:"
 
 #. Title for preferences dialog
 #: ../glchess/data/preferences.ui.h:36 ../glines/glines.c:180
-#: ../mahjongg/mahjongg.c:139
 msgid "Preferences"
 msgstr "Brukervalg"
 
@@ -1031,10 +1030,10 @@ msgstr ""
 
 #: ../glchess/src/glchess.vala:1368 ../glines/glines.c:1190
 #: ../gnect/src/main.c:828 ../gnibbles/main.c:177 ../gnobots2/menu.c:263
-#: ../quadrapassel/tetris.cpp:1313 ../gnomine/gnomine.c:473
-#: ../gnotravex/gnotravex.c:1616 ../gnotski/gnotski.c:1497
-#: ../gtali/gyahtzee.c:621 ../iagno/gnothello.c:226
-#: ../lightsoff/src/About.js:19 ../mahjongg/mahjongg.c:903
+#: ../gnomine/src/gnomine.vala:459 ../gnotravex/gnotravex.c:1616
+#: ../gnotski/gnotski.c:1497 ../gtali/gyahtzee.c:621
+#: ../iagno/src/gnothello.c:226 ../lightsoff/src/About.js:19
+#: ../mahjongg/src/mahjongg.vala:528 ../quadrapassel/tetris.cpp:1313
 #: ../swell-foop/src/About.js:19
 msgid "GNOME Games web site"
 msgstr "GNOME spill nettsted"
@@ -1088,17 +1087,77 @@ msgid "Run '%s --help' to see a full list of available command line options."
 msgstr ""
 "Kjør «%s --help» for å se en full liste med tilgjengelige kommandolinjeflagg."
 
-#: ../glines/glines.c:85 ../gnomine/gnomine.c:101
+#: ../glines/data/glines-preferences.ui.h:1 ../gnect/src/prefs.c:333
+#: ../gnobots2/properties.c:538 ../iagno/src/properties.c:508
+#: ../lightsoff/data/settings.ui.h:1 ../swell-foop/data/settings.ui.h:1
+msgid "Appearance"
+msgstr "Utseende"
+
+#: ../glines/data/glines-preferences.ui.h:2
+msgid "B_ackground color:"
+msgstr "B_akgrunnsfarge:"
+
+#: ../glines/data/glines-preferences.ui.h:3
+msgid "Board Size"
+msgstr "Størrelse på brett"
+
+#: ../glines/data/glines-preferences.ui.h:4
+msgid "Five or More Preferences"
+msgstr "Brukervalg for fem eller flere"
+
+#: ../glines/data/glines-preferences.ui.h:5
+msgid "General"
+msgstr "Generelt"
+
+#: ../glines/data/glines-preferences.ui.h:6
+msgid "_Image:"
+msgstr "B_ilde:"
+
+#: ../glines/data/glines-preferences.ui.h:7
+msgid "_Large"
+msgstr "S_tor"
+
+#: ../glines/data/glines-preferences.ui.h:8
+#: ../gnome-sudoku/data/print_games.ui.h:9
+msgid "_Medium"
+msgstr "_Middels"
+
+#: ../glines/data/glines-preferences.ui.h:9
+msgid "_Small"
+msgstr "_Liten"
+
+#: ../glines/data/glines-preferences.ui.h:10
+msgid "_Use fast moves"
+msgstr "Br_uk raske trekk"
+
+#: ../glines/data/glines.ui.h:1
+msgid "0"
+msgstr "0"
+
+#: ../glines/data/glines.ui.h:2
+msgid "Five or more"
+msgstr "Fem eller flere"
+
+#: ../glines/data/glines.ui.h:3
+msgid "Next:"
+msgstr "Neste:"
+
+#: ../glines/data/glines.ui.h:4 ../gnobots2/statusbar.c:67
+#: ../gnomine/src/gnomine.vala:419 ../quadrapassel/scoreframe.cpp:47
+msgid "Score:"
+msgstr "Poeng:"
+
+#: ../glines/glines.c:85 ../gnomine/src/gnomine.vala:46
 msgctxt "board size"
 msgid "Small"
 msgstr "Liten"
 
-#: ../glines/glines.c:86 ../gnomine/gnomine.c:102
+#: ../glines/glines.c:86 ../gnomine/src/gnomine.vala:47
 msgctxt "board size"
 msgid "Medium"
 msgstr "Middels"
 
-#: ../glines/glines.c:87 ../gnomine/gnomine.c:103
+#: ../glines/glines.c:87 ../gnomine/src/gnomine.vala:48
 msgctxt "board size"
 msgid "Large"
 msgstr "Stor"
@@ -1171,11 +1230,11 @@ msgstr ""
 
 #. this doesn't work for anyone
 #: ../glines/glines.c:1187 ../gnect/src/main.c:831 ../gnibbles/main.c:174
-#: ../gnobots2/menu.c:267 ../quadrapassel/tetris.cpp:1316
-#: ../gnome-sudoku/src/lib/main.py:688 ../gnomine/gnomine.c:470
-#: ../gnotravex/gnotravex.c:1613 ../gnotski/gnotski.c:1494
-#: ../gtali/gyahtzee.c:617 ../iagno/gnothello.c:224
-#: ../lightsoff/src/About.js:20 ../mahjongg/mahjongg.c:900
+#: ../gnobots2/menu.c:267 ../gnome-sudoku/src/lib/main.py:688
+#: ../gnomine/src/gnomine.vala:456 ../gnotravex/gnotravex.c:1613
+#: ../gnotski/gnotski.c:1494 ../gtali/gyahtzee.c:617
+#: ../iagno/src/gnothello.c:224 ../lightsoff/src/About.js:20
+#: ../mahjongg/src/mahjongg.vala:525 ../quadrapassel/tetris.cpp:1316
 #: ../swell-foop/src/About.js:20
 msgid "translator-credits"
 msgstr ""
@@ -1186,66 +1245,6 @@ msgstr ""
 #: ../glines/glines.desktop.in.in.h:2
 msgid "Remove colored balls from the board by forming lines"
 msgstr "Fjern fargede baller fra brettet ved å lage linjer"
-
-#: ../glines/data/glines.ui.h:1
-msgid "0"
-msgstr "0"
-
-#: ../glines/data/glines.ui.h:2
-msgid "Five or more"
-msgstr "Fem eller flere"
-
-#: ../glines/data/glines.ui.h:3
-msgid "Next:"
-msgstr "Neste:"
-
-#: ../glines/data/glines.ui.h:4 ../gnobots2/statusbar.c:67
-#: ../quadrapassel/scoreframe.cpp:47 ../gnomine/gnomine.c:433
-msgid "Score:"
-msgstr "Poeng:"
-
-#: ../glines/data/glines-preferences.ui.h:1 ../gnect/src/prefs.c:333
-#: ../gnobots2/properties.c:538 ../iagno/properties.c:508
-#: ../lightsoff/data/settings.ui.h:1 ../swell-foop/data/settings.ui.h:1
-msgid "Appearance"
-msgstr "Utseende"
-
-#: ../glines/data/glines-preferences.ui.h:2
-msgid "B_ackground color:"
-msgstr "B_akgrunnsfarge:"
-
-#: ../glines/data/glines-preferences.ui.h:3
-msgid "Board Size"
-msgstr "Størrelse på brett"
-
-#: ../glines/data/glines-preferences.ui.h:4
-msgid "Five or More Preferences"
-msgstr "Brukervalg for fem eller flere"
-
-#: ../glines/data/glines-preferences.ui.h:5
-msgid "General"
-msgstr "Generelt"
-
-#: ../glines/data/glines-preferences.ui.h:6
-msgid "_Image:"
-msgstr "B_ilde:"
-
-#: ../glines/data/glines-preferences.ui.h:7
-msgid "_Large"
-msgstr "S_tor"
-
-#: ../glines/data/glines-preferences.ui.h:8
-#: ../gnome-sudoku/data/print_games.ui.h:9
-msgid "_Medium"
-msgstr "_Middels"
-
-#: ../glines/data/glines-preferences.ui.h:9
-msgid "_Small"
-msgstr "_Liten"
-
-#: ../glines/data/glines-preferences.ui.h:10
-msgid "_Use fast moves"
-msgstr "Br_uk raske trekk"
 
 #: ../glines/org.gnome.glines.gschema.xml.in.h:1
 #: ../gnobots2/gnobots2.schemas.in.h:1
@@ -1363,7 +1362,7 @@ msgid "Move right"
 msgstr "Flytt til høyre"
 
 #: ../gnect/data/gnect.schemas.in.h:11 ../gnobots2/properties.c:485
-#: ../iagno/org.gnome.iagno.gschema.xml.in.h:1
+#: ../iagno/data/org.gnome.iagno.gschema.xml.in.h:1
 msgid "Sound"
 msgstr "Lyd"
 
@@ -1372,7 +1371,7 @@ msgid "Theme ID"
 msgstr "Tema-ID"
 
 #: ../gnect/data/gnect.schemas.in.h:13
-#: ../iagno/org.gnome.iagno.gschema.xml.in.h:2
+#: ../iagno/data/org.gnome.iagno.gschema.xml.in.h:2
 msgid "Whether or not to play event sounds."
 msgstr "Om lyder skal spilles av for hendelser."
 
@@ -1484,22 +1483,22 @@ msgstr ""
 "%s"
 
 #: ../gnect/src/prefs.c:249 ../gtali/gyahtzee.c:998 ../gtali/yahtzee.c:69
-#: ../iagno/properties.c:429 ../iagno/properties.c:470
+#: ../iagno/src/properties.c:429 ../iagno/src/properties.c:470
 msgid "Human"
 msgstr "Menneske"
 
-#: ../gnect/src/prefs.c:251 ../iagno/properties.c:438
-#: ../iagno/properties.c:479
+#: ../gnect/src/prefs.c:251 ../iagno/src/properties.c:438
+#: ../iagno/src/properties.c:479
 msgid "Level one"
 msgstr "Nivå en"
 
-#: ../gnect/src/prefs.c:253 ../iagno/properties.c:447
-#: ../iagno/properties.c:488
+#: ../gnect/src/prefs.c:253 ../iagno/src/properties.c:447
+#: ../iagno/src/properties.c:488
 msgid "Level two"
 msgstr "Nivå to"
 
-#: ../gnect/src/prefs.c:255 ../iagno/properties.c:456
-#: ../iagno/properties.c:497
+#: ../gnect/src/prefs.c:255 ../iagno/src/properties.c:456
+#: ../iagno/src/properties.c:497
 msgid "Level three"
 msgstr "Nivå tre"
 
@@ -1516,7 +1515,7 @@ msgid "Enable _animation"
 msgstr "Aktiver _animasjon"
 
 #: ../gnect/src/prefs.c:361 ../gnibbles/preferences.c:321
-#: ../iagno/properties.c:417
+#: ../iagno/src/properties.c:417
 msgid "E_nable sounds"
 msgstr "A_ktiver lyder"
 
@@ -1627,21 +1626,24 @@ msgstr "Nibbles poeng"
 msgid "Speed:"
 msgstr "Hastighet:"
 
-#: ../gnibbles/gnibbles.c:369 ../gnobots2/game.c:179 ../gnomine/gnomine.c:224
-#: ../gnotravex/gnotravex.c:1090 ../gnotski/gnotski.c:803
-#: ../gtali/gyahtzee.c:197 ../mahjongg/mahjongg.c:622
+#: ../gnibbles/gnibbles.c:369 ../gnobots2/game.c:179
+#: ../gnomine/src/gnomine.vala:241 ../gnotravex/gnotravex.c:1090
+#: ../gnotski/gnotski.c:803 ../gtali/gyahtzee.c:197
+#, c-format
 msgid "Congratulations!"
 msgstr "Gratulerer!"
 
-#: ../gnibbles/gnibbles.c:370 ../gnobots2/game.c:180 ../gnomine/gnomine.c:225
-#: ../gnotravex/gnotravex.c:1091 ../gnotski/gnotski.c:804
-#: ../gtali/gyahtzee.c:198 ../mahjongg/mahjongg.c:623
+#: ../gnibbles/gnibbles.c:370 ../gnobots2/game.c:180
+#: ../gnomine/src/gnomine.vala:241 ../gnotravex/gnotravex.c:1091
+#: ../gnotski/gnotski.c:804 ../gtali/gyahtzee.c:198
+#: ../mahjongg/src/mahjongg.vala:252
 msgid "Your score is the best!"
 msgstr "Din poengsum er den beste!"
 
-#: ../gnibbles/gnibbles.c:371 ../gnobots2/game.c:181 ../gnomine/gnomine.c:226
-#: ../gnotravex/gnotravex.c:1092 ../gnotski/gnotski.c:805
-#: ../gtali/gyahtzee.c:199 ../mahjongg/mahjongg.c:624
+#: ../gnibbles/gnibbles.c:371 ../gnobots2/game.c:181
+#: ../gnomine/src/gnomine.vala:241 ../gnotravex/gnotravex.c:1092
+#: ../gnotski/gnotski.c:805 ../gtali/gyahtzee.c:199
+#: ../mahjongg/src/mahjongg.vala:254
 msgid "Your score has made the top ten."
 msgstr "Din poengsum er blant de ti beste."
 
@@ -1846,7 +1848,7 @@ msgstr "Fingerbrekkende god"
 
 #. Options
 #: ../gnibbles/preferences.c:294 ../gnibbles/preferences.c:436
-#: ../gnobots2/properties.c:461 ../iagno/properties.c:547
+#: ../gnobots2/properties.c:461 ../iagno/src/properties.c:547
 msgid "Options"
 msgstr "Alternativer"
 
@@ -1908,13 +1910,14 @@ msgstr "Orm %d:"
 msgid "Game over!"
 msgstr "Spillet over!"
 
-#: ../gnobots2/game.c:152 ../gnomine/gnomine.c:200 ../gnotski/gnotski.c:778
+#: ../gnobots2/game.c:152 ../gnomine/src/gnomine.vala:224
+#: ../gnotski/gnotski.c:778
 msgid "Great work, but unfortunately your score did not make the top ten."
 msgstr "Bra jobba, men din poengsum ble desverre ikke med blant de ti beste."
 
 #. Translators: This "_New Game" is for the game-over dialogue
 #: ../gnobots2/game.c:154 ../gnome-sudoku/data/select_game.ui.h:1
-#: ../gnomine/gnomine.c:202 ../gnotski/gnotski.c:780
+#: ../gnomine/src/gnomine.vala:226 ../gnotski/gnotski.c:780
 #: ../libgames-support/games-stock.c:255
 msgid "_New Game"
 msgstr "_Nytt spill"
@@ -1923,8 +1926,8 @@ msgstr "_Nytt spill"
 msgid "Robots Scores"
 msgstr "Poeng for roboter"
 
-#: ../gnobots2/game.c:170 ../mahjongg/mahjongg.c:620
-#: ../mahjongg/mahjongg.c:945
+#: ../gnobots2/game.c:170 ../mahjongg/src/mahjongg.vala:248
+#: ../mahjongg/src/mahjongg.vala:549
 msgid "Map:"
 msgstr "Kart:"
 
@@ -1945,128 +1948,15 @@ msgstr "Ingen steder igjen å teleportere til!!"
 msgid "There are no safe locations to teleport to!!"
 msgstr "Ingen trygge steder å teleportere til!!"
 
-#: ../gnobots2/gnobots.c:85
-msgid "Set game scenario"
-msgstr "Sett spillscenario"
-
-#: ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
-msgid "NAME"
-msgstr "NAVN"
-
-#: ../gnobots2/gnobots.c:87
-msgid "Set game configuration"
-msgstr "Sett spillscenario"
-
-#: ../gnobots2/gnobots.c:89 ../gnobots2/gnobots.c:91
-msgid "Initial window position"
-msgstr "Posisjon for vinduet"
-
-#: ../gnobots2/gnobots.c:89 ../gnomine/gnomine.c:914 ../gnomine/gnomine.c:922
-#: ../gnotravex/gnotravex.c:262 ../gnotski/gnotski.c:457
-#: ../iagno/gnothello.c:139
-msgid "X"
-msgstr "X"
-
-#: ../gnobots2/gnobots.c:91 ../gnomine/gnomine.c:916 ../gnomine/gnomine.c:924
-#: ../gnotravex/gnotravex.c:264 ../gnotski/gnotski.c:459
-#: ../iagno/gnothello.c:141
-msgid "Y"
-msgstr "Y"
-
-#: ../gnobots2/gnobots.c:96
-msgid "Classic robots"
-msgstr "Klassiske roboter"
-
-#: ../gnobots2/gnobots.c:97
-msgid "Classic robots with safe moves"
-msgstr "Klassisk spill med trygge trekk"
-
-#: ../gnobots2/gnobots.c:98
-msgid "Classic robots with super-safe moves"
-msgstr "Klassisk spill med super-trygge trekk"
-
-#: ../gnobots2/gnobots.c:99
-msgid "Nightmare"
-msgstr "Mareritt"
-
-#: ../gnobots2/gnobots.c:100
-msgid "Nightmare with safe moves"
-msgstr "Mareritt med trygge trekk"
-
-#: ../gnobots2/gnobots.c:101
-msgid "Nightmare with super-safe moves"
-msgstr "Mareritt med super-trygge trekk"
-
-#: ../gnobots2/gnobots.c:102
-msgid "Robots2"
-msgstr "Roboter2"
-
-#: ../gnobots2/gnobots.c:103
-msgid "Robots2 with safe moves"
-msgstr "Robots2 med trygge trekk"
-
-#: ../gnobots2/gnobots.c:104
-msgid "Robots2 with super-safe moves"
-msgstr "Robots2 med super-trygge trekk"
-
-#: ../gnobots2/gnobots.c:105
-msgid "Robots2 easy"
-msgstr "Robots2 lett"
-
-#: ../gnobots2/gnobots.c:106
-msgid "Robots2 easy with safe moves"
-msgstr "Robots2 lett med trygge trekk"
-
-#: ../gnobots2/gnobots.c:107
-msgid "Robots2 easy with super-safe moves"
-msgstr "Robots2 lett med super-trygge trekk"
-
-#: ../gnobots2/gnobots.c:108
-msgid "Robots with safe teleport"
-msgstr "Roboter med trygg teleportering"
-
-#: ../gnobots2/gnobots.c:109
-msgid "Robots with safe teleport with safe moves"
-msgstr "Roboter med trygg teleportering og trygge trekk"
-
-#: ../gnobots2/gnobots.c:110
-msgid "Robots with safe teleport with super-safe moves"
-msgstr "Roboter med trygg teleportering og supertrygge trekk"
-
-#: ../gnobots2/gnobots.c:237 ../gnobots2/gnobots.c:258
-#: ../gnobots2/gnobots2.desktop.in.in.h:2 ../gnobots2/menu.c:256
-#: ../gnobots2/menu.c:259
-msgid "Robots"
-msgstr "Roboter"
-
-#: ../gnobots2/gnobots.c:321
-msgid "No game data could be found."
-msgstr "Spilldata kunne ikke finnes."
-
-#: ../gnobots2/gnobots.c:323
-msgid ""
-"The program Robots was unable to find any valid game configuration files. "
-"Please check that the program is installed correctly."
-msgstr ""
-"GNOME Robots kunne ikke finne gyldige spillkonfigurasjonsfiler. Vennligst "
-"sjekk at programmet er installert korrekt."
-
-#: ../gnobots2/gnobots.c:339
-msgid "Some graphics files are missing or corrupt."
-msgstr "Noen grafikkfiler mangler eller er korrupt."
-
-#: ../gnobots2/gnobots.c:341
-msgid ""
-"The program Robots was unable to load all the necessary graphics files. "
-"Please check that the program is installed correctly."
-msgstr ""
-"GNOME Robots kunne ikke laste alle de nødvendige grafikkfilene. Sjekk at "
-"programmet er installert riktig."
-
 #. ********************************************************************
 #: ../gnobots2/gnobots2.desktop.in.in.h:1
 msgid "Avoid the robots and make them crash into each other"
 msgstr "Unngå roboter og få dem til å krasje med hverandre"
+
+#: ../gnobots2/gnobots2.desktop.in.in.h:2 ../gnobots2/gnobots.c:237
+#: ../gnobots2/gnobots.c:258 ../gnobots2/menu.c:256 ../gnobots2/menu.c:259
+msgid "Robots"
+msgstr "Roboter"
 
 #: ../gnobots2/gnobots2.schemas.in.h:3
 msgid "Enable game sounds"
@@ -2263,7 +2153,117 @@ msgstr ""
 "Bruk supertrygge trekk. Spilleren blir varslet når det ikke finnes noen "
 "trygge trekk og det eneste alternativet er å teleportere."
 
-#: ../gnobots2/graphics.c:153 ../iagno/gnothello.c:403
+#: ../gnobots2/gnobots.c:85
+msgid "Set game scenario"
+msgstr "Sett spillscenario"
+
+#: ../gnobots2/gnobots.c:85 ../gnobots2/gnobots.c:87
+msgid "NAME"
+msgstr "NAVN"
+
+#: ../gnobots2/gnobots.c:87
+msgid "Set game configuration"
+msgstr "Sett spillscenario"
+
+#: ../gnobots2/gnobots.c:89 ../gnobots2/gnobots.c:91
+msgid "Initial window position"
+msgstr "Posisjon for vinduet"
+
+#: ../gnobots2/gnobots.c:89 ../gnotravex/gnotravex.c:262
+#: ../gnotski/gnotski.c:457 ../iagno/src/gnothello.c:139
+msgid "X"
+msgstr "X"
+
+#: ../gnobots2/gnobots.c:91 ../gnotravex/gnotravex.c:264
+#: ../gnotski/gnotski.c:459 ../iagno/src/gnothello.c:141
+msgid "Y"
+msgstr "Y"
+
+#: ../gnobots2/gnobots.c:96
+msgid "Classic robots"
+msgstr "Klassiske roboter"
+
+#: ../gnobots2/gnobots.c:97
+msgid "Classic robots with safe moves"
+msgstr "Klassisk spill med trygge trekk"
+
+#: ../gnobots2/gnobots.c:98
+msgid "Classic robots with super-safe moves"
+msgstr "Klassisk spill med super-trygge trekk"
+
+#: ../gnobots2/gnobots.c:99
+msgid "Nightmare"
+msgstr "Mareritt"
+
+#: ../gnobots2/gnobots.c:100
+msgid "Nightmare with safe moves"
+msgstr "Mareritt med trygge trekk"
+
+#: ../gnobots2/gnobots.c:101
+msgid "Nightmare with super-safe moves"
+msgstr "Mareritt med super-trygge trekk"
+
+#: ../gnobots2/gnobots.c:102
+msgid "Robots2"
+msgstr "Roboter2"
+
+#: ../gnobots2/gnobots.c:103
+msgid "Robots2 with safe moves"
+msgstr "Robots2 med trygge trekk"
+
+#: ../gnobots2/gnobots.c:104
+msgid "Robots2 with super-safe moves"
+msgstr "Robots2 med super-trygge trekk"
+
+#: ../gnobots2/gnobots.c:105
+msgid "Robots2 easy"
+msgstr "Robots2 lett"
+
+#: ../gnobots2/gnobots.c:106
+msgid "Robots2 easy with safe moves"
+msgstr "Robots2 lett med trygge trekk"
+
+#: ../gnobots2/gnobots.c:107
+msgid "Robots2 easy with super-safe moves"
+msgstr "Robots2 lett med super-trygge trekk"
+
+#: ../gnobots2/gnobots.c:108
+msgid "Robots with safe teleport"
+msgstr "Roboter med trygg teleportering"
+
+#: ../gnobots2/gnobots.c:109
+msgid "Robots with safe teleport with safe moves"
+msgstr "Roboter med trygg teleportering og trygge trekk"
+
+#: ../gnobots2/gnobots.c:110
+msgid "Robots with safe teleport with super-safe moves"
+msgstr "Roboter med trygg teleportering og supertrygge trekk"
+
+#: ../gnobots2/gnobots.c:321
+msgid "No game data could be found."
+msgstr "Spilldata kunne ikke finnes."
+
+#: ../gnobots2/gnobots.c:323
+msgid ""
+"The program Robots was unable to find any valid game configuration files. "
+"Please check that the program is installed correctly."
+msgstr ""
+"GNOME Robots kunne ikke finne gyldige spillkonfigurasjonsfiler. Vennligst "
+"sjekk at programmet er installert korrekt."
+
+#: ../gnobots2/gnobots.c:339
+msgid "Some graphics files are missing or corrupt."
+msgstr "Noen grafikkfiler mangler eller er korrupt."
+
+#: ../gnobots2/gnobots.c:341
+msgid ""
+"The program Robots was unable to load all the necessary graphics files. "
+"Please check that the program is installed correctly."
+msgstr ""
+"GNOME Robots kunne ikke laste alle de nødvendige grafikkfilene. Sjekk at "
+"programmet er installert riktig."
+
+#: ../gnobots2/graphics.c:153 ../iagno/src/gnothello.c:403
 #, c-format
 msgid "Could not find '%s' pixmap file\n"
 msgstr "Kunne ikke finne bildefilen «%s»\n"
@@ -2296,11 +2296,11 @@ msgstr "_Vent"
 msgid "Wait for the robots"
 msgstr "Vent på robotene"
 
-#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1215
+#: ../gnobots2/menu.c:90 ../mahjongg/src/mahjongg.vala:656
 msgid "_Toolbar"
 msgstr "_Verktøylinje"
 
-#: ../gnobots2/menu.c:90 ../mahjongg/mahjongg.c:1215
+#: ../gnobots2/menu.c:90 ../mahjongg/src/mahjongg.vala:656
 msgid "Show or hide the toolbar"
 msgstr "Vis eller skjul verktøylinjen"
 
@@ -2403,7 +2403,7 @@ msgstr "Grafikktema"
 msgid "_Image theme:"
 msgstr "B_ildetema:"
 
-#: ../gnobots2/properties.c:526 ../mahjongg/mahjongg.c:728
+#: ../gnobots2/properties.c:526 ../mahjongg/src/mahjongg.vala:402
 msgid "_Background color:"
 msgstr "_Bakgrunnsfarge:"
 
@@ -2428,257 +2428,6 @@ msgid "Remaining:"
 msgstr "Gjenstår:"
 
 #. ********************************************************************
-#: ../quadrapassel/quadrapassel.desktop.in.in.h:1
-msgid "Fit falling blocks together"
-msgstr "Få fallende blokker til å passe sammen"
-
-#: ../quadrapassel/quadrapassel.desktop.in.in.h:2 ../quadrapassel/main.cpp:66
-#: ../quadrapassel/tetris.cpp:158 ../quadrapassel/tetris.cpp:1305
-#: ../quadrapassel/tetris.cpp:1308
-msgid "Quadrapassel"
-msgstr "Quadrapassel"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:1 ../quadrapassel/tetris.cpp:754
-msgid "Drop"
-msgstr "Slipp"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:2
-msgid "Image to use for drawing blocks"
-msgstr "Bilde som skal brukes til å tegne blokker"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:3
-msgid "Image to use for drawing blocks."
-msgstr "Bilde som skal brukes til å tegne blokker."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:4
-msgid "Key press to drop."
-msgstr "Tastetrykk for å slippe."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:5
-msgid "Key press to move down."
-msgstr "Tastetrykk for å flytte ned."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:8
-msgid "Key press to pause."
-msgstr "Tastetrykk for å pause."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:9
-msgid "Key press to rotate."
-msgstr "Tastetrykk for å rotere."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:10
-msgid "Level to start with"
-msgstr "Startnivå"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:11
-msgid "Level to start with."
-msgstr "Startnivå."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:15 ../quadrapassel/tetris.cpp:756
-msgid "Pause"
-msgstr "Pause"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:16 ../quadrapassel/tetris.cpp:755
-msgid "Rotate"
-msgstr "Roter"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:17
-msgid "The background color"
-msgstr "Bakgrunnsfarge"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:18
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Bakgrunnsfarge, i et format gdk_color_parse forstår."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:19
-msgid ""
-"The density of blocks in rows filled at the start of the game. The value is "
-"between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr ""
-"Tettheten på rekker med blokker som blir fylt ved starten av spillet. "
-"Verdiene er mellom 0 (for ingen blokker) og 10 (for en helt fylt rekke)."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:20
-msgid "The density of filled rows"
-msgstr "Tetthet for fylte rader"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:21
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "Navn på tema som brukes ofr å tegne blokkene og bakgrunnen."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:22
-msgid ""
-"The number of rows that are filled with random blocks at the start of the "
-"game."
-msgstr ""
-"Nummeret på rekker som er uregelmessig fylt med blokker ved starten av "
-"spillet."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:23
-msgid "The number of rows to fill"
-msgstr "Antall rader som skal fylles"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:24
-msgid "The theme used for rendering the blocks"
-msgstr "Tema som skal brukes til å tegne blokker"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:25
-msgid ""
-"This selects whether or not to draw the background image over the background "
-"color."
-msgstr ""
-"The velger om bakgrunnsbildet skal bli tegnet over bakgrunnsfargen eller ei."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:26
-msgid "Whether to give blocks random colors"
-msgstr "Om blokkene skal gis tilfeldige farger"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:27
-msgid "Whether to give blocks random colors."
-msgstr "Om blokkene skal gis tilfeldige farger."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:28
-msgid "Whether to preview the next block"
-msgstr "Om neste blokk skal forhåndsvises"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:29
-msgid "Whether to preview the next block."
-msgstr "Om neste blokk skal forhåndsvises."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:30
-msgid ""
-"Whether to provide a graphical representation of where a block will land."
-msgstr ""
-"Om en grafisk representasjon av landingspunkte for en blokk skal vises."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:31
-msgid "Whether to provide a target"
-msgstr "Om et mål skal oppgis"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:32
-msgid "Whether to rotate counter clock wise"
-msgstr "Om teller skal roteres med klokken"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:33
-msgid "Whether to rotate counter clock wise."
-msgstr "Om teller skal roteres med klokken."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:34
-msgid "Whether to use the background image"
-msgstr "Om bakgrunnsbilde skal brukes"
-
-#: ../quadrapassel/main.cpp:48
-msgid "Set starting level (1 or greater)"
-msgstr "Sett startnivå (1 eller større)"
-
-#: ../quadrapassel/main.cpp:48
-msgid "LEVEL"
-msgstr "NIVÅ"
-
-#: ../quadrapassel/renderer.cpp:30
-msgid "Plain"
-msgstr "Vanlig"
-
-#: ../quadrapassel/renderer.cpp:31
-msgid "Tango Flat"
-msgstr "Tango flat"
-
-#: ../quadrapassel/renderer.cpp:32
-msgid "Tango Shaded"
-msgstr "Tango skyggelagt"
-
-#: ../quadrapassel/renderer.cpp:33
-msgid "Clean"
-msgstr "Tøm"
-
-#: ../quadrapassel/scoreframe.cpp:57
-msgid "Lines:"
-msgstr "Linjer:"
-
-#: ../quadrapassel/tetris.cpp:576
-msgid "Quadrapassel Preferences"
-msgstr "Brukervalg for Quadrapassel"
-
-#: ../quadrapassel/tetris.cpp:599 ../swell-foop/data/settings.ui.h:5
-msgid "Setup"
-msgstr "Oppsett"
-
-#. pre-filled rows
-#: ../quadrapassel/tetris.cpp:605
-msgid "_Number of pre-filled rows:"
-msgstr "A_ntall forhåndsutfylte rader:"
-
-#. pre-filled rows density
-#: ../quadrapassel/tetris.cpp:624
-msgid "_Density of blocks in a pre-filled row:"
-msgstr "_Tetthet for blokker i forhåndsutfylt rad:"
-
-#: ../quadrapassel/tetris.cpp:664 ../swell-foop/data/settings.ui.h:4
-msgid "Operation"
-msgstr "Operasjon"
-
-#: ../quadrapassel/tetris.cpp:678
-msgid "_Preview next block"
-msgstr "_Forhåndsvis neste blokk"
-
-#: ../quadrapassel/tetris.cpp:687
-msgid "_Use random block colors"
-msgstr "Br_uk tilfeldige farger på blokker"
-
-#: ../quadrapassel/tetris.cpp:698
-msgid "Choose difficult _blocks"
-msgstr "Velg vanskelige _blokker"
-
-#: ../quadrapassel/tetris.cpp:714
-msgid "_Rotate blocks counterclockwise"
-msgstr "_Roter blokker mot klokken"
-
-#: ../quadrapassel/tetris.cpp:723
-msgid "Show _where the block will land"
-msgstr "Vis h_vor blokken skal lande"
-
-#: ../quadrapassel/tetris.cpp:731 ../quadrapassel/tetris.cpp:764
-msgid "Theme"
-msgstr "Tema"
-
-#: ../quadrapassel/tetris.cpp:740
-msgid "Controls"
-msgstr "Kontroller"
-
-#: ../quadrapassel/tetris.cpp:767
-msgid "Block Style"
-msgstr "Blokkstil"
-
-#: ../quadrapassel/tetris.cpp:1310
-msgid ""
-"A classic game of fitting falling blocks together.\n"
-"\n"
-"Quadrapassel is a part of GNOME Games."
-msgstr ""
-"Et klassisk spill om å få fallende blokker til å passe sammen.\n"
-"\n"
-"Quadrapassel er en del av GNOME-spillene."
-
-#: ../quadrapassel/highscores.cpp:48
-msgid "Quadrapassel Scores"
-msgstr "Poeng for Quadrapassel"
-
-#: ../quadrapassel/blockops.cpp:786
-msgid "Paused"
-msgstr "Pause"
-
-#: ../quadrapassel/blockops.cpp:788
-msgid "Game Over"
-msgstr "Spillet over"
-
-#: ../gnome-sudoku/gnome-sudoku.desktop.in.in.h:1
-msgid "Sudoku"
-msgstr "Sudoku"
-
-#: ../gnome-sudoku/gnome-sudoku.desktop.in.in.h:2
-msgid "Test your logic skills in this number grid puzzle"
-msgstr "Test dine logiske ferdigheter i dette nummerpuslespillet"
-
 #: ../gnome-sudoku/data/gnome-sudoku.schemas.in.h:1
 msgid "Color of the grid border"
 msgstr "Farge på kanten av rutenettet"
@@ -2788,46 +2537,114 @@ msgstr "Gjør sporede endringer permanent"
 msgid "Remove the selected tracker"
 msgstr "Slett valgt sporer"
 
-#: ../gnome-sudoku/src/lib/saver.py:138
-msgid "No Space"
-msgstr "Ingen plass"
+#: ../gnome-sudoku/gnome-sudoku.desktop.in.in.h:1
+msgid "Sudoku"
+msgstr "Sudoku"
 
-#: ../gnome-sudoku/src/lib/saver.py:139
-msgid "No space left on disk"
-msgstr "Ikke mer plass på disken"
+#: ../gnome-sudoku/gnome-sudoku.desktop.in.in.h:2
+msgid "Test your logic skills in this number grid puzzle"
+msgstr "Test dine logiske ferdigheter i dette nummerpuslespillet"
 
-#: ../gnome-sudoku/src/lib/saver.py:141 ../gnome-sudoku/src/lib/saver.py:148
+#: ../gnome-sudoku/src/lib/game_selector.py:121
+#: ../gnome-sudoku/src/lib/main.py:646 ../gnome-sudoku/src/lib/printing.py:182
+msgid "Easy"
+msgstr "Lett"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:122
+#: ../gnome-sudoku/src/lib/main.py:647 ../gnome-sudoku/src/lib/printing.py:183
+msgid "Medium"
+msgstr "Middels"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:123
+#: ../gnome-sudoku/src/lib/main.py:648 ../gnome-sudoku/src/lib/printing.py:184
+msgid "Hard"
+msgstr "Vanskelig"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:124
+#: ../gnome-sudoku/src/lib/printing.py:185
+msgid "Very hard"
+msgstr "Meget vanskelig"
+
+#. Then we're today
+#. within the minute
+#: ../gnome-sudoku/src/lib/game_selector.py:160
 #, python-format
-msgid "Unable to create data folder %(path)s."
-msgstr "Kan ikke opprette datamappe %(path)s."
+msgid "Last played %(n)s second ago"
+msgid_plural "Last played %(n)s seconds ago"
+msgstr[0] "Sist spilt %(n)s sekund siden"
+msgstr[1] "Sist spilt %(n) sekunder siden"
 
-#: ../gnome-sudoku/src/lib/saver.py:142
-msgid "There is no disk space left!"
-msgstr "Det er ikke mer plass på disken!"
-
-#: ../gnome-sudoku/src/lib/saver.py:149 ../gnome-sudoku/src/lib/saver.py:174
-#: ../gnome-sudoku/src/lib/saver.py:198 ../gnome-sudoku/src/lib/saver.py:216
+#: ../gnome-sudoku/src/lib/game_selector.py:164
 #, python-format
-msgid "Error %(errno)s: %(error)s"
-msgstr "Feil %(errno)s: %(error)s"
+msgid "Last played %(n)s minute ago"
+msgid_plural "Last played %(n)s minutes ago"
+msgstr[0] "Sist spilt %(n)s minutt siden"
+msgstr[1] "Sist spilt %(n)s minutter siden"
 
-#: ../gnome-sudoku/src/lib/saver.py:169 ../gnome-sudoku/src/lib/saver.py:170
-msgid "Unable to save game."
-msgstr "Kan ikke lagre spillet."
+#. Translators, see strftime manual in order to translate %? format strings
+#: ../gnome-sudoku/src/lib/game_selector.py:168
+msgid "Last played at %I:%M %p"
+msgstr "Sist spilt %H.%M"
 
-#: ../gnome-sudoku/src/lib/saver.py:172 ../gnome-sudoku/src/lib/saver.py:197
-#: ../gnome-sudoku/src/lib/saver.py:215
+#. Translators, see strftime manual in order to translate %? format strings
+#: ../gnome-sudoku/src/lib/game_selector.py:171
+msgid "Last played yesterday at %I:%M %p"
+msgstr "Sist spilt i går kl %H.%M"
+
+#. Translators, see strftime manual in order to translate %? format strings
+#: ../gnome-sudoku/src/lib/game_selector.py:174
+msgid "Last played on %A at %I:%M %p"
+msgstr "Sist spilt på %A kl %H.%M"
+
+#. Translators, see strftime manual in order to translate %? format strings
+#: ../gnome-sudoku/src/lib/game_selector.py:177
+msgid "Last played on %B %e %Y"
+msgstr "Sist spilt %B %e %Y"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:190
+msgid "Easy puzzle"
+msgstr "Lett puslespill"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:191
+msgid "Medium puzzle"
+msgstr "Middels vanskelig puslespill"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:192
+msgid "Hard puzzle"
+msgstr "Vanskelig puslespill"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:193
+msgid "Very hard puzzle"
+msgstr "Meget vanskelig puslespill"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:199
 #, python-format
-msgid "Unable to save file %(filename)s."
-msgstr "Kan ikke lagre fil %(filename)s."
+msgid "Played for %d hour"
+msgid_plural "Played for %d hours"
+msgstr[0] "Spilt i %d time"
+msgstr[1] "Spilt i %d timer"
 
-#: ../gnome-sudoku/src/lib/saver.py:194 ../gnome-sudoku/src/lib/saver.py:195
-msgid "Unable to mark game as finished."
-msgstr "Kan ikke merke spillet som fullført."
+#: ../gnome-sudoku/src/lib/game_selector.py:202
+#, python-format
+msgid "Played for %d minute"
+msgid_plural "Played for %d minutes"
+msgstr[0] "Spilt i %d minutt"
+msgstr[1] "Spilt i %d minutter"
 
-#: ../gnome-sudoku/src/lib/saver.py:212 ../gnome-sudoku/src/lib/saver.py:213
-msgid "Sudoku unable to mark game as finished."
-msgstr "Sudoku kunne ikke merke spillet som fullført."
+#: ../gnome-sudoku/src/lib/game_selector.py:205
+#, python-format
+msgid "Played for %d second"
+msgid_plural "Played for %d seconds"
+msgstr[0] "Spilt i %d sekund"
+msgstr[1] "Spilt i %d sekunder"
+
+#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:162
+msgid "Do you really want to do this?"
+msgstr "Er du sikker på at du vil gjøre dette?"
+
+#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:196
+msgid "Don't ask me this again."
+msgstr "Ikke spør om dette igjen."
 
 #: ../gnome-sudoku/src/lib/main.py:211
 msgid "New game"
@@ -2990,21 +2807,6 @@ msgstr "Ingen aktive puslespill."
 msgid "Calculated difficulty: "
 msgstr "Kalkulert vanskelighetsgrad:"
 
-#: ../gnome-sudoku/src/lib/main.py:646 ../gnome-sudoku/src/lib/printing.py:182
-#: ../gnome-sudoku/src/lib/game_selector.py:121
-msgid "Easy"
-msgstr "Lett"
-
-#: ../gnome-sudoku/src/lib/main.py:647 ../gnome-sudoku/src/lib/printing.py:183
-#: ../gnome-sudoku/src/lib/game_selector.py:122
-msgid "Medium"
-msgstr "Middels"
-
-#: ../gnome-sudoku/src/lib/main.py:648 ../gnome-sudoku/src/lib/printing.py:184
-#: ../gnome-sudoku/src/lib/game_selector.py:123
-msgid "Hard"
-msgstr "Vanskelig"
-
 #: ../gnome-sudoku/src/lib/main.py:649
 msgid "Very Hard"
 msgstr "Meget vanskelig"
@@ -3060,148 +2862,167 @@ msgstr "Bruk alle sporede verdier og slett valgt sporer."
 msgid "Tracker %s"
 msgstr "Sporer %s"
 
-#: ../gnome-sudoku/src/lib/printing.py:185
-#: ../gnome-sudoku/src/lib/game_selector.py:124
-msgid "Very hard"
-msgstr "Meget vanskelig"
-
-#. Then we're today
-#. within the minute
-#: ../gnome-sudoku/src/lib/game_selector.py:160
-#, python-format
-msgid "Last played %(n)s second ago"
-msgid_plural "Last played %(n)s seconds ago"
-msgstr[0] "Sist spilt %(n)s sekund siden"
-msgstr[1] "Sist spilt %(n) sekunder siden"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:164
-#, python-format
-msgid "Last played %(n)s minute ago"
-msgid_plural "Last played %(n)s minutes ago"
-msgstr[0] "Sist spilt %(n)s minutt siden"
-msgstr[1] "Sist spilt %(n)s minutter siden"
-
-#. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:168
-msgid "Last played at %I:%M %p"
-msgstr "Sist spilt %H.%M"
-
-#. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:171
-msgid "Last played yesterday at %I:%M %p"
-msgstr "Sist spilt i går kl %H.%M"
-
-#. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:174
-msgid "Last played on %A at %I:%M %p"
-msgstr "Sist spilt på %A kl %H.%M"
-
-#. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:177
-msgid "Last played on %B %e %Y"
-msgstr "Sist spilt %B %e %Y"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:190
-msgid "Easy puzzle"
-msgstr "Lett puslespill"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:191
-msgid "Medium puzzle"
-msgstr "Middels vanskelig puslespill"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:192
-msgid "Hard puzzle"
-msgstr "Vanskelig puslespill"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:193
-msgid "Very hard puzzle"
-msgstr "Meget vanskelig puslespill"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:199
-#, python-format
-msgid "Played for %d hour"
-msgid_plural "Played for %d hours"
-msgstr[0] "Spilt i %d time"
-msgstr[1] "Spilt i %d timer"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:202
-#, python-format
-msgid "Played for %d minute"
-msgid_plural "Played for %d minutes"
-msgstr[0] "Spilt i %d minutt"
-msgstr[1] "Spilt i %d minutter"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:205
-#, python-format
-msgid "Played for %d second"
-msgid_plural "Played for %d seconds"
-msgstr[0] "Spilt i %d sekund"
-msgstr[1] "Spilt i %d sekunder"
-
-#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:162
-msgid "Do you really want to do this?"
-msgstr "Er du sikker på at du vil gjøre dette?"
-
-#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:196
-msgid "Don't ask me this again."
-msgstr "Ikke spør om dette igjen."
-
 #: ../gnome-sudoku/src/lib/number_box.py:68
 msgid "_Clear"
 msgstr "_Tøm"
 
-#: ../gnomine/gnomine.c:53 ../gnomine/gnomine.desktop.in.in.h:2
+#: ../gnome-sudoku/src/lib/saver.py:138
+msgid "No Space"
+msgstr "Ingen plass"
+
+#: ../gnome-sudoku/src/lib/saver.py:139
+msgid "No space left on disk"
+msgstr "Ikke mer plass på disken"
+
+#: ../gnome-sudoku/src/lib/saver.py:141 ../gnome-sudoku/src/lib/saver.py:148
+#, python-format
+msgid "Unable to create data folder %(path)s."
+msgstr "Kan ikke opprette datamappe %(path)s."
+
+#: ../gnome-sudoku/src/lib/saver.py:142
+msgid "There is no disk space left!"
+msgstr "Det er ikke mer plass på disken!"
+
+#: ../gnome-sudoku/src/lib/saver.py:149 ../gnome-sudoku/src/lib/saver.py:174
+#: ../gnome-sudoku/src/lib/saver.py:198 ../gnome-sudoku/src/lib/saver.py:216
+#, python-format
+msgid "Error %(errno)s: %(error)s"
+msgstr "Feil %(errno)s: %(error)s"
+
+#: ../gnome-sudoku/src/lib/saver.py:169 ../gnome-sudoku/src/lib/saver.py:170
+msgid "Unable to save game."
+msgstr "Kan ikke lagre spillet."
+
+#: ../gnome-sudoku/src/lib/saver.py:172 ../gnome-sudoku/src/lib/saver.py:197
+#: ../gnome-sudoku/src/lib/saver.py:215
+#, python-format
+msgid "Unable to save file %(filename)s."
+msgstr "Kan ikke lagre fil %(filename)s."
+
+#: ../gnome-sudoku/src/lib/saver.py:194 ../gnome-sudoku/src/lib/saver.py:195
+msgid "Unable to mark game as finished."
+msgstr "Kan ikke merke spillet som fullført."
+
+#: ../gnome-sudoku/src/lib/saver.py:212 ../gnome-sudoku/src/lib/saver.py:213
+msgid "Sudoku unable to mark game as finished."
+msgstr "Sudoku kunne ikke merke spillet som fullført."
+
+#: ../gnomine/data/gnomine.desktop.in.in.h:1
+msgid "Clear hidden mines from a minefield"
+msgstr "Fjern skjulte miner fra et minefelt"
+
+#: ../gnomine/data/gnomine.desktop.in.in.h:2 ../gnomine/src/gnomine.vala:64
+#: ../gnomine/src/gnomine.vala:446 ../gnomine/src/gnomine.vala:452
+#: ../gnomine/src/gnomine.vala:793
 msgid "Mines"
 msgstr "Miner"
 
-#: ../gnomine/gnomine.c:104
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:1
+#: ../swell-foop/swell-foop.schemas.in.h:2
+msgid "Board size"
+msgstr "Størrelse på brett"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:2
+msgid "Enable automatic placing of flags"
+msgstr "Aktiver automatisk plassering av flagg"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:3
+msgid "Number of columns in a custom game"
+msgstr "Antall kolonner i et egendefinert spill"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:4
+msgid "Number of rows in a custom game"
+msgstr "Antall rader i et egendefinert spill"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:5
+msgid "Set to true to be able to mark squares as unknown."
+msgstr "Sett til «true» for å kunne merke ruter som ukjent."
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:6
+msgid "Set to true to enable warning icons when too many flags are placed."
+msgstr ""
+"Sett til «true» for å aktivere ikoner som varsler om at for mange flagg er "
+"satt opp."
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:7
+msgid ""
+"Set to true to have gnomine automatically flag squares as mined when enough "
+"squares are revealed"
+msgstr ""
+"Sett til «true» for å la gnomine flagge ruter som minelagt når mange nok "
+"ruter er avdekket"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:8
+msgid "Size of the board (0-2 = small-large, 3=custom)"
+msgstr "Størrelse på brettet (0-2 = liten-stor, 3=egendefinert)"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:9
+msgid "The number of mines in a custom game"
+msgstr "Antall miner i egendefinert spill"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:10
+msgid "Use the unknown flag"
+msgstr "Bruk flagg for ukjente"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:11
+msgid "Warning about too many flags"
+msgstr "Advarsel om for mange flagg"
+
+#: ../gnomine/src/gnomine.vala:49
 msgctxt "board size"
 msgid "Custom"
 msgstr "Egendefinert"
 
-#: ../gnomine/gnomine.c:170
-#, c-format
-msgid "Flags: %d/%d"
-msgstr "Flagg: %d/%d"
+#: ../gnomine/src/gnomine.vala:123
+msgid "Press to Resume"
+msgstr "Trykk for å starte igjen"
 
-#: ../gnomine/gnomine.c:198
+#: ../gnomine/src/gnomine.vala:145
+msgid "Time: "
+msgstr "Tid: "
+
+#: ../gnomine/src/gnomine.vala:223
 msgid "The Mines Have Been Cleared!"
 msgstr "Minene har blitt ryddet!"
 
-#: ../gnomine/gnomine.c:214
+#: ../gnomine/src/gnomine.vala:235
 msgid "Mines Scores"
 msgstr "Mines poeng"
 
-#: ../gnomine/gnomine.c:217 ../gnotravex/gnotravex.c:1085
+#: ../gnomine/src/gnomine.vala:236 ../gnotravex/gnotravex.c:1085
 #: ../swell-foop/src/Score.js:57
 msgid "Size:"
 msgstr "Størrelse:"
 
-#: ../gnomine/gnomine.c:315
-msgid "Click a square, any square"
-msgstr "Klikk på en rute, hvilken som helst rute"
+#: ../gnomine/src/gnomine.vala:266
+msgid "Cancel current game?"
+msgstr "Avbryt dette spillet?"
 
-#: ../gnomine/gnomine.c:317
-msgid "Maybe they're all mines ..."
-msgstr "Kanskje de er miner alle sammen …"
+#: ../gnomine/src/gnomine.vala:267
+msgid "Start New Game"
+msgstr "Start nytt spill"
 
-#: ../gnomine/gnomine.c:430 ../mahjongg/mahjongg.c:859
+#: ../gnomine/src/gnomine.vala:268
+msgid "Keep Current Game"
+msgstr "Behold dette spillet"
+
+#: ../gnomine/src/gnomine.vala:414 ../mahjongg/src/mahjongg.vala:482
 msgid "Main game:"
 msgstr "Hovedspill:"
 
-#: ../gnomine/gnomine.c:436
+#: ../gnomine/src/gnomine.vala:422
 msgid "Resizing and SVG support:"
 msgstr "Endring av størrelse og støtte for SVG:"
 
-#: ../gnomine/gnomine.c:443
+#: ../gnomine/src/gnomine.vala:430
 msgid "Faces:"
 msgstr "Ansikter:"
 
-#: ../gnomine/gnomine.c:446
+#: ../gnomine/src/gnomine.vala:434
 msgid "Graphics:"
 msgstr "Grafikk:"
 
-#: ../gnomine/gnomine.c:462
+#: ../gnomine/src/gnomine.vala:449
 msgid ""
 "The popular logic puzzle minesweeper. Clear mines from a board using hints "
 "from squares you have already uncovered.\n"
@@ -3213,159 +3034,41 @@ msgstr ""
 "\n"
 "Minesveiper er en del av GNOME spill."
 
-#: ../gnomine/gnomine.c:621
+#: ../gnomine/src/gnomine.vala:531
 msgid "Field Size"
 msgstr "Feltstørrelse"
 
-#: ../gnomine/gnomine.c:644
+#: ../gnomine/src/gnomine.vala:572
 msgid "Custom Size"
 msgstr "Tilpasset størrelse"
 
-#: ../gnomine/gnomine.c:651
+#: ../gnomine/src/gnomine.vala:580
 msgid "_Number of mines:"
 msgstr "A_ntall miner:"
 
-#: ../gnomine/gnomine.c:664
+#: ../gnomine/src/gnomine.vala:591
 msgid "_Horizontal:"
 msgstr "_Horisontal:"
 
-#: ../gnomine/gnomine.c:676
+#: ../gnomine/src/gnomine.vala:601
 msgid "_Vertical:"
 msgstr "_Vertikal:"
 
-#: ../gnomine/gnomine.c:693
+#: ../gnomine/src/gnomine.vala:613
 msgid "Flags"
 msgstr "Flagg"
 
-#: ../gnomine/gnomine.c:696
+#: ../gnomine/src/gnomine.vala:620
 msgid "_Use \"I'm not sure\" flags"
 msgstr "Br_uk «Ikke sikker»-flagg."
 
-#: ../gnomine/gnomine.c:707
-msgid "Warnings"
-msgstr "Advarsler"
+#: ../gnomine/src/gnomine.vala:625
+msgid "_Warn if too many flags placed"
+msgstr "Ad_varsel hvis for mange flagg settes ut"
 
-#: ../gnomine/gnomine.c:710
-msgid "_Use \"Too many flags\" warning"
-msgstr "Br_uk advarsel for «For mange flagg»"
-
-#: ../gnomine/gnomine.c:721
+#: ../gnomine/src/gnomine.vala:630
 msgid "Mines Preferences"
 msgstr "Mines instillinger"
-
-#: ../gnomine/gnomine.c:914
-msgid "Width of grid"
-msgstr "Bredde på rutenett"
-
-#: ../gnomine/gnomine.c:915
-msgid "Height of grid"
-msgstr "Høyde på rutenett"
-
-#: ../gnomine/gnomine.c:917
-msgid "Number of mines"
-msgstr "Antall miner"
-
-#: ../gnomine/gnomine.c:918 ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109
-#: ../gtali/gyahtzee.c:113 ../gtali/gyahtzee.c:115
-msgid "NUMBER"
-msgstr "ANTALL"
-
-#: ../gnomine/gnomine.c:920 ../gnomine/org.gnome.gnomine.gschema.xml.in.h:8
-msgid "Size of the board (0-2 = small-large, 3=custom)"
-msgstr "Størrelse på brettet (0-2 = liten-stor, 3=egendefinert)"
-
-#: ../gnomine/gnomine.c:921 ../gnotravex/gnotravex.c:261
-#: ../gnotski/gnotski.c:456 ../iagno/gnothello.c:138
-msgid "X location of window"
-msgstr "X-plassering for vinduet"
-
-#: ../gnomine/gnomine.c:923 ../gnotravex/gnotravex.c:263
-#: ../gnotski/gnotski.c:458 ../iagno/gnothello.c:140
-msgid "Y location of window"
-msgstr "Y-plassering for vinduet"
-
-#: ../gnomine/gnomine.c:1060
-msgid "Press to Resume"
-msgstr "Trykk for å starte igjen"
-
-#: ../gnomine/gnomine.c:1095
-msgid "Time: "
-msgstr "Tid: "
-
-#: ../gnomine/gnomine.desktop.in.in.h:1
-msgid "Clear hidden mines from a minefield"
-msgstr "Fjern skjulte miner fra et minefelt"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:1
-#: ../swell-foop/swell-foop.schemas.in.h:2
-msgid "Board size"
-msgstr "Størrelse på brett"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:2
-msgid "Enable automatic placing of flags"
-msgstr "Aktiver automatisk plassering av flagg"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:3
-msgid "Number of columns in a custom game"
-msgstr "Antall kolonner i et egendefinert spill"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:4
-msgid "Number of rows in a custom game"
-msgstr "Antall rader i et egendefinert spill"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:5
-msgid "Set to true to be able to mark squares as unknown."
-msgstr "Sett til «true» for å kunne merke ruter som ukjent."
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:6
-msgid "Set to true to enable warning icons when too many flags are placed."
-msgstr ""
-"Sett til «true» for å aktivere ikoner som varsler om at for mange flagg er "
-"satt opp."
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:7
-msgid ""
-"Set to true to have gnomine automatically flag squares as mined when enough "
-"squares are revealed"
-msgstr ""
-"Sett til «true» for å la gnomine flagge ruter som minelagt når mange nok "
-"ruter er avdekket"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:9
-msgid "The number of mines in a custom game"
-msgstr "Antall miner i egendefinert spill"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:10
-msgid "Use the unknown flag"
-msgstr "Bruk flagg for ukjente"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:11
-msgid "Warning about too many flags"
-msgstr "Advarsel om for mange flagg"
-
-#: ../gnomine/minefield.c:206
-msgid ""
-"Unable to find required images.\n"
-"\n"
-"Please check your gnome-games installation."
-msgstr ""
-"Kunne ikke finne nødvendige bilder.\n"
-"\n"
-"Vennligst sjekk din gnome-games installasjon"
-
-#: ../gnomine/minefield.c:228
-msgid ""
-"Required images have been found, but refused to load.\n"
-"\n"
-"Please check your installation of gnome-games and its dependencies."
-msgstr ""
-"Nødvendige bilder ble funnet, men kunne ikke lastes.\n"
-"\n"
-"Vennligst sjekk din installasjon av gnome-games med avhengigheter."
-
-#: ../gnomine/minefield.c:237
-msgid "Could not load images"
-msgstr "Kunne ikke laste bilder"
 
 #: ../gnotravex/gnotravex.c:45 ../gnotravex/gnotravex.desktop.in.in.h:2
 msgid "Tetravex"
@@ -3431,6 +3134,16 @@ msgstr "_6x6"
 msgid "Play on a 6×6 board"
 msgstr "Spill på et 6x6 brett"
 
+#: ../gnotravex/gnotravex.c:261 ../gnotski/gnotski.c:456
+#: ../iagno/src/gnothello.c:138
+msgid "X location of window"
+msgstr "X-plassering for vinduet"
+
+#: ../gnotravex/gnotravex.c:263 ../gnotski/gnotski.c:458
+#: ../iagno/src/gnothello.c:140
+msgid "Y location of window"
+msgstr "Y-plassering for vinduet"
+
 #: ../gnotravex/gnotravex.c:265
 msgid "Size of board (2-6)"
 msgstr "Størrelsen på brettet (2-6)"
@@ -3490,7 +3203,7 @@ msgctxt "number"
 msgid "9"
 msgstr "9"
 
-#: ../gnotravex/gnotravex.c:913 ../mahjongg/mahjongg.c:927
+#: ../gnotravex/gnotravex.c:913
 msgid "Game paused"
 msgstr "Spillet er stoppet"
 
@@ -3507,11 +3220,11 @@ msgstr "Tetravex poeng"
 msgid "Puzzle solved! Well done!"
 msgstr "Puslespillet løst! Godt gjort!"
 
-#: ../gnotravex/gnotravex.c:1147
+#: ../gnotravex/gnotravex.c:1147 ../mahjongg/src/mahjongg.vala:249
 msgid "Puzzle solved!"
 msgstr "Puslespillet løst!"
 
-#: ../gnotravex/gnotravex.c:1402 ../mahjongg/mahjongg.c:1393
+#: ../gnotravex/gnotravex.c:1402 ../mahjongg/src/mahjongg.vala:69
 msgid "Time:"
 msgstr "Tid:"
 
@@ -3910,6 +3623,11 @@ msgstr "Vis datamaskinens tanker"
 msgid "Number of computer opponents"
 msgstr "Antall datamaskinmotstandere"
 
+#: ../gtali/gyahtzee.c:107 ../gtali/gyahtzee.c:109 ../gtali/gyahtzee.c:113
+#: ../gtali/gyahtzee.c:115
+msgid "NUMBER"
+msgstr "ANTALL"
+
 #: ../gtali/gyahtzee.c:109
 msgid "Number of human opponents"
 msgstr "Antall menneskelige motstandere"
@@ -4154,11 +3872,21 @@ msgstr "Velg en poengplass."
 msgid "5 of a Kind [total]"
 msgstr "5 like [total]"
 
-#: ../iagno/gnothello.c:48 ../iagno/iagno.desktop.in.in.h:2
+#. Arrgh - lets all use the same tabs under emacs:
+#. Local Variables:
+#. tab-width: 8
+#. c-basic-offset: 8
+#. indent-tabs-mode: nil
+#.
+#: ../iagno/data/iagno.desktop.in.in.h:1
+msgid "Dominate the board in a classic version of Reversi"
+msgstr "Dominer brettet i den klassiske versjonen av Reversi"
+
+#: ../iagno/data/iagno.desktop.in.in.h:2 ../iagno/src/gnothello.c:48
 msgid "Iagno"
 msgstr "Iagno"
 
-#: ../iagno/gnothello.c:221
+#: ../iagno/src/gnothello.c:221
 msgid ""
 "A disk flipping game derived from Reversi.\n"
 "\n"
@@ -4168,104 +3896,100 @@ msgstr ""
 "\n"
 "Iagno er en del av GNOME-spillene."
 
-#: ../iagno/gnothello.c:283
+#: ../iagno/src/gnothello.c:283
 msgid "Invalid move."
 msgstr "Ugyldig trekk."
 
-#: ../iagno/gnothello.c:639 ../iagno/gnothello.c:641
+#: ../iagno/src/gnothello.c:639 ../iagno/src/gnothello.c:641
 #, c-format
 msgid "%.2d"
 msgstr "%.2d"
 
-#: ../iagno/gnothello.c:648
+#: ../iagno/src/gnothello.c:648
 msgid "Dark's move"
 msgstr "Mørkt trekk"
 
-#: ../iagno/gnothello.c:650
+#: ../iagno/src/gnothello.c:650
 msgid "Light's move"
 msgstr "Lyst trekk"
 
-#: ../iagno/gnothello.c:872
+#: ../iagno/src/gnothello.c:872
 msgid "Dark:"
 msgstr "Mørk:"
 
-#: ../iagno/gnothello.c:882
+#: ../iagno/src/gnothello.c:882
 msgid "Light:"
 msgstr "Lys:"
 
-#: ../iagno/gnothello.c:906
+#: ../iagno/src/gnothello.c:906
 msgid "Welcome to Iagno!"
 msgstr "Velkommen til Iagno!"
 
-#: ../iagno/iagno.desktop.in.in.h:1
-msgid "Dominate the board in a classic version of Reversi"
-msgstr "Dominer brettet i den klassiske versjonen av Reversi"
-
-#: ../iagno/othello.c:699
+#: ../iagno/src/othello.c:699
 msgid "Light player wins!"
 msgstr "Lys spiller vinner!"
 
-#: ../iagno/othello.c:701
+#: ../iagno/src/othello.c:701
 msgid "Dark player wins!"
 msgstr "Mørk spiller vinner!"
 
-#: ../iagno/othello.c:703
+#: ../iagno/src/othello.c:703
 msgid "The game was a draw."
 msgstr "Spillet endte uavgjort."
 
-#: ../iagno/othello.c:715
+#: ../iagno/src/othello.c:715
 msgid "Light must pass, Dark's move"
 msgstr "Lys må stå over …mørkt trekk …"
 
-#: ../iagno/othello.c:720
+#: ../iagno/src/othello.c:720
 msgid "Dark must pass, Light's move"
 msgstr "Mørk må stå over … lyst trekk ….."
 
-#: ../iagno/properties.c:380
+#: ../iagno/src/properties.c:380
 msgid "Iagno Preferences"
 msgstr "Brukervalg for Iagno"
 
-#: ../iagno/properties.c:409
+#: ../iagno/src/properties.c:409
 msgid "_Use quick moves"
 msgstr "Br_uk raske trekk"
 
-#: ../iagno/properties.c:424
+#: ../iagno/src/properties.c:424
 msgid "Dark"
 msgstr "Mørk"
 
-#: ../iagno/properties.c:465
+#: ../iagno/src/properties.c:465
 msgid "Light"
 msgstr "Lys"
 
-#: ../iagno/properties.c:514
+#: ../iagno/src/properties.c:514
 msgid "Animation"
 msgstr "Animasjon"
 
-#: ../iagno/properties.c:518
+#: ../iagno/src/properties.c:518
 msgid "None"
 msgstr "Ingen"
 
-#: ../iagno/properties.c:527
+#: ../iagno/src/properties.c:527
 msgid "Partial"
 msgstr "Delvis"
 
-#: ../iagno/properties.c:536
+#: ../iagno/src/properties.c:536
 msgid "Complete"
 msgstr "Fullstendig"
 
-#: ../iagno/properties.c:550
+#: ../iagno/src/properties.c:550
 msgid "_Stagger flips"
 msgstr "_Snublende vending"
 
-#: ../iagno/properties.c:558
+#: ../iagno/src/properties.c:558
 msgid "S_how grid"
 msgstr "_Vis rutenett"
 
-#: ../iagno/properties.c:565
+#: ../iagno/src/properties.c:565
 msgid "_Flip final results"
 msgstr "_Snu om på de endelige resultatene"
 
-#: ../iagno/properties.c:574 ../mahjongg/mahjongg.c:686
+#: ../iagno/src/properties.c:574 ../mahjongg/src/mahjongg.vala:332
 msgid "_Tile set:"
 msgstr "S_teinsett:"
 
@@ -4419,7 +4143,7 @@ msgstr "Start spillet igjen"
 msgid "View the scores"
 msgstr "Vis poeng"
 
-#: ../libgames-support/games-stock.c:57 ../mahjongg/mahjongg.c:1199
+#: ../libgames-support/games-stock.c:57 ../mahjongg/src/mahjongg.vala:644
 msgid "Undo the last move"
 msgstr "Angre forrige trekk"
 
@@ -4453,7 +4177,7 @@ msgid "_Redo Move"
 msgstr "_Gjenopprett trekk"
 
 #. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
-#: ../libgames-support/games-stock.c:260
+#: ../libgames-support/games-stock.c:260 ../mahjongg/src/mahjongg.vala:279
 msgid "_Restart"
 msgstr "Sta_rt på nytt"
 
@@ -4538,11 +4262,19 @@ msgstr ""
 "Du skal ha mottatt en kopi av GNU General Public License sammen med %s. Hvis "
 "ikke se på <http://www.gnu.org/licenses/>."
 
-#: ../lightsoff/lightsoff.desktop.in.in.h:1 ../lightsoff/data/lightsoff.ui.h:1
-#: ../lightsoff/data/settings.ui.h:2 ../lightsoff/src/About.js:11
+#: ../lightsoff/data/lightsoff.ui.h:1 ../lightsoff/data/settings.ui.h:2
+#: ../lightsoff/lightsoff.desktop.in.in.h:1 ../lightsoff/src/About.js:11
 #: ../lightsoff/src/About.js:15
 msgid "Lights Off"
 msgstr "Av med lysene"
+
+#: ../lightsoff/data/settings.ui.h:3 ../swell-foop/data/settings.ui.h:7
+msgid "Theme:"
+msgstr "Tema:"
+
+#: ../lightsoff/data/settings.ui.h:4
+msgid "Use colors from GNOME theme"
+msgstr "Bruk farger fra GNOME tema"
 
 #: ../lightsoff/lightsoff.desktop.in.in.h:2
 msgid "Turn off all the lights"
@@ -4578,14 +4310,6 @@ msgstr "Brukerens seneste poengsum."
 msgid "Whether or not to use the GNOME theme colors"
 msgstr "Om farger fra GNOME tema skal brukes eller ikke"
 
-#: ../lightsoff/data/settings.ui.h:3 ../swell-foop/data/settings.ui.h:7
-msgid "Theme:"
-msgstr "Tema:"
-
-#: ../lightsoff/data/settings.ui.h:4
-msgid "Use colors from GNOME theme"
-msgstr "Bruk farger fra GNOME tema"
-
 #: ../lightsoff/src/About.js:13
 msgid ""
 "Turn off all the lights\n"
@@ -4600,99 +4324,136 @@ msgstr ""
 msgid "Copyright  2009 Tim Horton"
 msgstr "Opphavsrett © 2009 Tim Horton"
 
-#: ../mahjongg/drawing.c:299
-msgid ""
-"The selected theme failed to render.\n"
-"\n"
-"Please check that Mahjongg is installed correctly."
-msgstr ""
-"Det valgte temaet kunne ikke vises.\n"
-"\n"
-"Sjekk at Mahjongg er installert riktig."
+#: ../mahjongg/data/mahjongg.desktop.in.in.h:1
+msgid "Disassemble a pile of tiles by removing matching pairs"
+msgstr "Ta fra hverandre en haug med fliser ved å finne like par"
 
-#: ../mahjongg/drawing.c:428 ../mahjongg/drawing.c:441
-#, c-format
-msgid ""
-"Unable to render file:\n"
-"'%s'\n"
-"\n"
-"Please check that Mahjongg is installed correctly."
-msgstr ""
-"Kunne ikke vise fil:\n"
-"'%s'\n"
-"\n"
-"Sjekk at Mahjongg er installert riktig."
-
-#: ../mahjongg/mahjongg.c:45 ../mahjongg/mahjongg.c:887
-#: ../mahjongg/mahjongg.c:890 ../mahjongg/mahjongg.desktop.in.in.h:2
+#: ../mahjongg/data/mahjongg.desktop.in.in.h:2
+#: ../mahjongg/src/mahjongg.vala:44 ../mahjongg/src/mahjongg.vala:515
+#: ../mahjongg/src/mahjongg.vala:520 ../mahjongg/src/mahjongg.vala:785
 msgid "Mahjongg"
 msgstr "Mahjongg"
 
-#: ../mahjongg/mahjongg.c:134
-msgid "Could not load tile set"
-msgstr "Kunne ikke laste flissett"
+#.
+#. * Translatable strings file generated by get_titles.pl.
+#. * Add this file to your project's POTFILES.in.
+#. * DO NOT compile it as part of your application.
+#.
+#: ../mahjongg/data/translatable_game_names.h:6
+msgctxt "mahjongg map name"
+msgid "The Ziggurat"
+msgstr "The Ziggurat"
 
-#: ../mahjongg/mahjongg.c:263
+#: ../mahjongg/data/translatable_game_names.h:7
+msgctxt "mahjongg map name"
+msgid "Four Bridges"
+msgstr "Fire broer"
+
+#: ../mahjongg/data/translatable_game_names.h:8
+msgctxt "mahjongg map name"
+msgid "Cloud"
+msgstr "Sky"
+
+#: ../mahjongg/data/translatable_game_names.h:9
+msgctxt "mahjongg map name"
+msgid "Tic-Tac-Toe"
+msgstr "Tic-Tac-Toe"
+
+#: ../mahjongg/data/translatable_game_names.h:10
+msgctxt "mahjongg map name"
+msgid "Red Dragon"
+msgstr "Rød drage"
+
+#: ../mahjongg/data/translatable_game_names.h:11
+msgctxt "mahjongg map name"
+msgid "Pyramid's Walls"
+msgstr "Pyramidens vegger"
+
+#: ../mahjongg/data/translatable_game_names.h:12
+msgctxt "mahjongg map name"
+msgid "Confounding Cross"
+msgstr "Forvirrende kors"
+
+#: ../mahjongg/data/translatable_game_names.h:13
+msgctxt "mahjongg map name"
+msgid "Difficult"
+msgstr "Vanskelig"
+
+#: ../mahjongg/src/mahjongg.vala:51
+msgid "Tiles Left:"
+msgstr "Steiner igjen:"
+
+#: ../mahjongg/src/mahjongg.vala:60
+msgid "Moves Left:"
+msgstr "Trekk igjen:"
+
+#: ../mahjongg/src/mahjongg.vala:183
 msgid "Do you want to start a new game with this map?"
 msgstr "Vil du starte et nytt spill med dette kartet?"
 
-#: ../mahjongg/mahjongg.c:265
+#: ../mahjongg/src/mahjongg.vala:184
 msgid "If you continue playing the next game will use the new map."
 msgstr "Hvis du fortsetter å spille vil det nye kartet brukes i neste spill."
 
-#: ../mahjongg/mahjongg.c:267
+#: ../mahjongg/src/mahjongg.vala:185
 msgid "_Continue playing"
 msgstr "_Fortsett spill"
 
-#: ../mahjongg/mahjongg.c:268
+#: ../mahjongg/src/mahjongg.vala:186
 msgid "Use _new map"
 msgstr "Bruk _nytt kart"
 
-#: ../mahjongg/mahjongg.c:571
-msgid "There are no more moves."
-msgstr "Ingen flere trekk."
-
-#: ../mahjongg/mahjongg.c:574
-msgid "_New game"
-msgstr "_Nytt spill"
-
-#: ../mahjongg/mahjongg.c:579
-msgid "_Shuffle"
-msgstr "_Stokk om"
-
-#: ../mahjongg/mahjongg.c:618 ../mahjongg/mahjongg.c:943
+#: ../mahjongg/src/mahjongg.vala:247 ../mahjongg/src/mahjongg.vala:548
 msgid "Mahjongg Scores"
 msgstr "Poeng fro Mahjongg"
 
-#: ../mahjongg/mahjongg.c:659
+#: ../mahjongg/src/mahjongg.vala:250
+msgid "You didn't make the top ten, better luck next time."
+msgstr "Du kom ikke blant de ti beste. Bedre lykke neste gang."
+
+#: ../mahjongg/src/mahjongg.vala:276
+msgid "There are no more moves."
+msgstr "Ingen flere trekk."
+
+#: ../mahjongg/src/mahjongg.vala:277
+msgid ""
+"Each puzzle has at least one solution.  You can undo your moves and try and "
+"find the solution for a time penalty, restart this game or start an new one."
+msgstr "Hvert puslespill har minst en løsning. Du kan angre dine trekk og prøve å finne løsningen med en tidsstraff. Start dette spillet på nytt eller start et nytt et."
+
+#: ../mahjongg/src/mahjongg.vala:280
+msgid "_New game"
+msgstr "_Nytt spill"
+
+#: ../mahjongg/src/mahjongg.vala:308
 msgid "Mahjongg Preferences"
 msgstr "Brukervalg for Mahjongg"
 
-#: ../mahjongg/mahjongg.c:679
+#: ../mahjongg/src/mahjongg.vala:325
 msgid "Tiles"
 msgstr "Steiner"
 
-#: ../mahjongg/mahjongg.c:700
+#: ../mahjongg/src/mahjongg.vala:361
 msgid "Maps"
 msgstr "Kart"
 
-#: ../mahjongg/mahjongg.c:707
+#: ../mahjongg/src/mahjongg.vala:368
 msgid "_Select map:"
 msgstr "_Velg kart:"
 
-#: ../mahjongg/mahjongg.c:721
+#: ../mahjongg/src/mahjongg.vala:395
 msgid "Colors"
 msgstr "Farger"
 
-#: ../mahjongg/mahjongg.c:867
+#: ../mahjongg/src/mahjongg.vala:491
 msgid "Maps:"
 msgstr "Kart:"
 
-#: ../mahjongg/mahjongg.c:874
+#: ../mahjongg/src/mahjongg.vala:499
 msgid "Tiles:"
 msgstr "Steiner:"
 
-#: ../mahjongg/mahjongg.c:893
+#: ../mahjongg/src/mahjongg.vala:518
 msgid ""
 "A matching game played with Mahjongg tiles.\n"
 "\n"
@@ -4702,94 +4463,266 @@ msgstr ""
 "\n"
 "Mahjongg er en del av GNOME-spillene."
 
-#: ../mahjongg/mahjongg.c:1138
+#. Translators: This is the window title for Mahjongg which contains the map name, e.g. 'Mahjongg - Red Dragon'
+#: ../mahjongg/src/mahjongg.vala:623
 #, c-format
 msgid "Mahjongg - %s"
 msgstr "Mahjongg - %s"
 
-#: ../mahjongg/mahjongg.c:1198
+#: ../mahjongg/src/mahjongg.vala:643
 msgid "Restart the current game"
 msgstr "Start dette spillet på nytt"
 
-#: ../mahjongg/mahjongg.c:1201
+#: ../mahjongg/src/mahjongg.vala:645
 msgid "Redo the last move"
 msgstr "Gjenta forrige trekk"
 
-#: ../mahjongg/mahjongg.c:1203
+#: ../mahjongg/src/mahjongg.vala:646
 msgid "Show a hint"
 msgstr "Vis et hint"
 
-#: ../mahjongg/mahjongg.c:1375
-msgid "Tiles Left:"
-msgstr "Steiner igjen:"
+#: ../quadrapassel/blockops.cpp:786
+msgid "Paused"
+msgstr "Pause"
 
-#: ../mahjongg/mahjongg.c:1384
-msgid "Moves Left:"
-msgstr "Trekk igjen:"
+#: ../quadrapassel/blockops.cpp:788
+msgid "Game Over"
+msgstr "Spillet over"
 
-#: ../mahjongg/mahjongg.c:1448
-msgid "Remove matching pairs of tiles."
-msgstr "Fjern like par med fliser."
+#: ../quadrapassel/highscores.cpp:48
+msgid "Quadrapassel Scores"
+msgstr "Poeng for Quadrapassel"
 
-#: ../mahjongg/mahjongg.desktop.in.in.h:1
-msgid "Disassemble a pile of tiles by removing matching pairs"
-msgstr "Ta fra hverandre en haug med fliser ved å finne like par"
+#: ../quadrapassel/main.cpp:48
+msgid "Set starting level (1 or greater)"
+msgstr "Sett startnivå (1 eller større)"
 
-#: ../mahjongg/maps.c:229
-msgctxt "mahjongg map name"
-msgid "Easy"
-msgstr "Lett"
+#: ../quadrapassel/main.cpp:48
+msgid "LEVEL"
+msgstr "NIVÅ"
 
-#.
-#. * Translatable strings file generated by get_titles.pl.
-#. * Add this file to your project's POTFILES.in.
-#. * DO NOT compile it as part of your application.
-#.
-#: ../mahjongg/translatable_game_names.h:6
-msgctxt "mahjongg map name"
-msgid "The Ziggurat"
-msgstr "The Ziggurat"
+#: ../quadrapassel/main.cpp:66 ../quadrapassel/quadrapassel.desktop.in.in.h:2
+#: ../quadrapassel/tetris.cpp:158 ../quadrapassel/tetris.cpp:1305
+#: ../quadrapassel/tetris.cpp:1308
+msgid "Quadrapassel"
+msgstr "Quadrapassel"
 
-#: ../mahjongg/translatable_game_names.h:7
-msgctxt "mahjongg map name"
-msgid "Four Bridges"
-msgstr "Fire broer"
+#: ../quadrapassel/quadrapassel.desktop.in.in.h:1
+msgid "Fit falling blocks together"
+msgstr "Få fallende blokker til å passe sammen"
 
-#: ../mahjongg/translatable_game_names.h:8
-msgctxt "mahjongg map name"
-msgid "Cloud"
-msgstr "Sky"
+#: ../quadrapassel/quadrapassel.schemas.in.h:1 ../quadrapassel/tetris.cpp:754
+msgid "Drop"
+msgstr "Slipp"
 
-#: ../mahjongg/translatable_game_names.h:9
-msgctxt "mahjongg map name"
-msgid "Tic-Tac-Toe"
-msgstr "Tic-Tac-Toe"
+#: ../quadrapassel/quadrapassel.schemas.in.h:2
+msgid "Image to use for drawing blocks"
+msgstr "Bilde som skal brukes til å tegne blokker"
 
-#: ../mahjongg/translatable_game_names.h:10
-msgctxt "mahjongg map name"
-msgid "Red Dragon"
-msgstr "Rød drage"
+#: ../quadrapassel/quadrapassel.schemas.in.h:3
+msgid "Image to use for drawing blocks."
+msgstr "Bilde som skal brukes til å tegne blokker."
 
-#: ../mahjongg/translatable_game_names.h:11
-msgctxt "mahjongg map name"
-msgid "Pyramid's Walls"
-msgstr "Pyramidens vegger"
+#: ../quadrapassel/quadrapassel.schemas.in.h:4
+msgid "Key press to drop."
+msgstr "Tastetrykk for å slippe."
 
-#: ../mahjongg/translatable_game_names.h:12
-msgctxt "mahjongg map name"
-msgid "Confounding Cross"
-msgstr "Forvirrende kors"
+#: ../quadrapassel/quadrapassel.schemas.in.h:5
+msgid "Key press to move down."
+msgstr "Tastetrykk for å flytte ned."
 
-#: ../mahjongg/translatable_game_names.h:13
-msgctxt "mahjongg map name"
-msgid "Difficult"
-msgstr "Vanskelig"
+#: ../quadrapassel/quadrapassel.schemas.in.h:8
+msgid "Key press to pause."
+msgstr "Tastetrykk for å pause."
 
-#: ../swell-foop/data/swell-foop.ui.h:1 ../swell-foop/data/settings.ui.h:6
-#: ../swell-foop/swell-foop.desktop.in.in.h:2 ../swell-foop/src/About.js:11
-#: ../swell-foop/src/About.js:15
-msgid "Swell Foop"
-msgstr "Swell Foop"
+#: ../quadrapassel/quadrapassel.schemas.in.h:9
+msgid "Key press to rotate."
+msgstr "Tastetrykk for å rotere."
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:10
+msgid "Level to start with"
+msgstr "Startnivå"
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:11
+msgid "Level to start with."
+msgstr "Startnivå."
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:15 ../quadrapassel/tetris.cpp:756
+msgid "Pause"
+msgstr "Pause"
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:16 ../quadrapassel/tetris.cpp:755
+msgid "Rotate"
+msgstr "Roter"
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:17
+msgid "The background color"
+msgstr "Bakgrunnsfarge"
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:18
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr "Bakgrunnsfarge, i et format gdk_color_parse forstår."
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:19
+msgid ""
+"The density of blocks in rows filled at the start of the game. The value is "
+"between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr ""
+"Tettheten på rekker med blokker som blir fylt ved starten av spillet. "
+"Verdiene er mellom 0 (for ingen blokker) og 10 (for en helt fylt rekke)."
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:20
+msgid "The density of filled rows"
+msgstr "Tetthet for fylte rader"
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:21
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr "Navn på tema som brukes ofr å tegne blokkene og bakgrunnen."
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:22
+msgid ""
+"The number of rows that are filled with random blocks at the start of the "
+"game."
+msgstr ""
+"Nummeret på rekker som er uregelmessig fylt med blokker ved starten av "
+"spillet."
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:23
+msgid "The number of rows to fill"
+msgstr "Antall rader som skal fylles"
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:24
+msgid "The theme used for rendering the blocks"
+msgstr "Tema som skal brukes til å tegne blokker"
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:25
+msgid ""
+"This selects whether or not to draw the background image over the background "
+"color."
+msgstr ""
+"The velger om bakgrunnsbildet skal bli tegnet over bakgrunnsfargen eller ei."
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:26
+msgid "Whether to give blocks random colors"
+msgstr "Om blokkene skal gis tilfeldige farger"
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:27
+msgid "Whether to give blocks random colors."
+msgstr "Om blokkene skal gis tilfeldige farger."
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:28
+msgid "Whether to preview the next block"
+msgstr "Om neste blokk skal forhåndsvises"
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:29
+msgid "Whether to preview the next block."
+msgstr "Om neste blokk skal forhåndsvises."
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:30
+msgid ""
+"Whether to provide a graphical representation of where a block will land."
+msgstr ""
+"Om en grafisk representasjon av landingspunkte for en blokk skal vises."
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:31
+msgid "Whether to provide a target"
+msgstr "Om et mål skal oppgis"
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:32
+msgid "Whether to rotate counter clock wise"
+msgstr "Om teller skal roteres med klokken"
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:33
+msgid "Whether to rotate counter clock wise."
+msgstr "Om teller skal roteres med klokken."
+
+#: ../quadrapassel/quadrapassel.schemas.in.h:34
+msgid "Whether to use the background image"
+msgstr "Om bakgrunnsbilde skal brukes"
+
+#: ../quadrapassel/renderer.cpp:30
+msgid "Plain"
+msgstr "Vanlig"
+
+#: ../quadrapassel/renderer.cpp:31
+msgid "Tango Flat"
+msgstr "Tango flat"
+
+#: ../quadrapassel/renderer.cpp:32
+msgid "Tango Shaded"
+msgstr "Tango skyggelagt"
+
+#: ../quadrapassel/renderer.cpp:33
+msgid "Clean"
+msgstr "Tøm"
+
+#: ../quadrapassel/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "Linjer:"
+
+#: ../quadrapassel/tetris.cpp:576
+msgid "Quadrapassel Preferences"
+msgstr "Brukervalg for Quadrapassel"
+
+#: ../quadrapassel/tetris.cpp:599 ../swell-foop/data/settings.ui.h:5
+msgid "Setup"
+msgstr "Oppsett"
+
+#. pre-filled rows
+#: ../quadrapassel/tetris.cpp:605
+msgid "_Number of pre-filled rows:"
+msgstr "A_ntall forhåndsutfylte rader:"
+
+#. pre-filled rows density
+#: ../quadrapassel/tetris.cpp:624
+msgid "_Density of blocks in a pre-filled row:"
+msgstr "_Tetthet for blokker i forhåndsutfylt rad:"
+
+#: ../quadrapassel/tetris.cpp:664 ../swell-foop/data/settings.ui.h:4
+msgid "Operation"
+msgstr "Operasjon"
+
+#: ../quadrapassel/tetris.cpp:678
+msgid "_Preview next block"
+msgstr "_Forhåndsvis neste blokk"
+
+#: ../quadrapassel/tetris.cpp:687
+msgid "_Use random block colors"
+msgstr "Br_uk tilfeldige farger på blokker"
+
+#: ../quadrapassel/tetris.cpp:698
+msgid "Choose difficult _blocks"
+msgstr "Velg vanskelige _blokker"
+
+#: ../quadrapassel/tetris.cpp:714
+msgid "_Rotate blocks counterclockwise"
+msgstr "_Roter blokker mot klokken"
+
+#: ../quadrapassel/tetris.cpp:723
+msgid "Show _where the block will land"
+msgstr "Vis h_vor blokken skal lande"
+
+#: ../quadrapassel/tetris.cpp:731 ../quadrapassel/tetris.cpp:764
+msgid "Theme"
+msgstr "Tema"
+
+#: ../quadrapassel/tetris.cpp:740
+msgid "Controls"
+msgstr "Kontroller"
+
+#: ../quadrapassel/tetris.cpp:767
+msgid "Block Style"
+msgstr "Blokkstil"
+
+#: ../quadrapassel/tetris.cpp:1310
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Quadrapassel is a part of GNOME Games."
+msgstr ""
+"Et klassisk spill om å få fallende blokker til å passe sammen.\n"
+"\n"
+"Quadrapassel er en del av GNOME-spillene."
 
 #: ../swell-foop/data/settings.ui.h:2
 msgid "Board size:"
@@ -4799,33 +4732,14 @@ msgstr "Størrelse på brett:"
 msgid "Number of colors:"
 msgstr "Antall farger:"
 
+#: ../swell-foop/data/settings.ui.h:6 ../swell-foop/data/swell-foop.ui.h:1
+#: ../swell-foop/src/About.js:11 ../swell-foop/src/About.js:15
+#: ../swell-foop/swell-foop.desktop.in.in.h:2
+msgid "Swell Foop"
+msgstr "Swell Foop"
+
 #: ../swell-foop/data/settings.ui.h:8
 msgid "Zealous Animation"
-msgstr "Zealous animasjon"
-
-#: ../swell-foop/swell-foop.desktop.in.in.h:1
-msgid "Clear the screen by removing groups of colored and shaped tiles"
-msgstr ""
-"Tøm skjermen ved å fjerne grupper med fargede fliser med forskjellig form"
-
-#: ../swell-foop/swell-foop.schemas.in.h:1
-msgid "Board color count"
-msgstr "Antall farger på brettet"
-
-#: ../swell-foop/swell-foop.schemas.in.h:3
-msgid "The number of colors of tiles to use in the game."
-msgstr "Antall farger på flisene som brukes i spillet."
-
-#: ../swell-foop/swell-foop.schemas.in.h:4
-msgid "The size of the game board."
-msgstr "Størrelsen på spillbrettet."
-
-#: ../swell-foop/swell-foop.schemas.in.h:7
-msgid "Use more flashy, but slower, animations."
-msgstr "Bruk tøffere men tregere animasjoner."
-
-#: ../swell-foop/swell-foop.schemas.in.h:8
-msgid "Zealous animation"
 msgstr "Zealous animasjon"
 
 #: ../swell-foop/src/About.js:13
@@ -4855,14 +4769,43 @@ msgstr[1] "%d poeng"
 msgid "Swell Foop Scores"
 msgstr "Poeng for Swell Foop"
 
-#: ../swell-foop/src/Score.js:145
+#: ../swell-foop/src/Score.js:145 ../swell-foop/src/Settings.js:20
 msgid "Small"
 msgstr "Liten"
 
-#: ../swell-foop/src/Score.js:146
+#: ../swell-foop/src/Score.js:146 ../swell-foop/src/Settings.js:21
 msgid "Normal"
 msgstr "Normal"
 
-#: ../swell-foop/src/Score.js:147
+#: ../swell-foop/src/Score.js:147 ../swell-foop/src/Settings.js:22
 msgid "Large"
 msgstr "Stor"
+
+#: ../swell-foop/src/Settings.js:13
+msgid "Shapes and Colors"
+msgstr "Former og farger"
+
+#: ../swell-foop/swell-foop.desktop.in.in.h:1
+msgid "Clear the screen by removing groups of colored and shaped tiles"
+msgstr ""
+"Tøm skjermen ved å fjerne grupper med fargede fliser med forskjellig form"
+
+#: ../swell-foop/swell-foop.schemas.in.h:1
+msgid "Board color count"
+msgstr "Antall farger på brettet"
+
+#: ../swell-foop/swell-foop.schemas.in.h:3
+msgid "The number of colors of tiles to use in the game."
+msgstr "Antall farger på flisene som brukes i spillet."
+
+#: ../swell-foop/swell-foop.schemas.in.h:4
+msgid "The size of the game board."
+msgstr "Størrelsen på spillbrettet."
+
+#: ../swell-foop/swell-foop.schemas.in.h:7
+msgid "Use more flashy, but slower, animations."
+msgstr "Bruk tøffere men tregere animasjoner."
+
+#: ../swell-foop/swell-foop.schemas.in.h:8
+msgid "Zealous animation"
+msgstr "Zealous animasjon"
