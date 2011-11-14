@@ -77,9 +77,9 @@ gnomine/data/org.gnome.gnomine.gschema.xml.in
 gnomine/src/gnomine.vala
 gnomine/src/minefield.vala
 gnomine/src/minefield-view.vala
-gnotravex/gnotravex.c
-gnotravex/gnotravex.desktop.in.in
-gnotravex/org.gnome.gnotravex.gschema.xml.in
+gnotravex/src/gnotravex.c
+gnotravex/data/gnotravex.desktop.in.in
+gnotravex/data/org.gnome.gnotravex.gschema.xml.in
 gnotski/gnotski.c
 gnotski/gnotski.desktop.in.in
 gnotski/gnotski.schemas.in
