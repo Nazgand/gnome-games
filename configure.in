@@ -126,7 +126,7 @@ for game in $gamelist; do
     *) ;;
   esac
   case $game in
-    glchess|gnomine|mahjongg) need_vala=yes ;;
+    glchess|gnomine|gnotravex|mahjongg) need_vala=yes ;;
     *) ;;
   esac
   case $game in
@@ -158,7 +158,7 @@ for game in $gamelist; do
     *) ;;
   esac
   case $game in
-    glines|gnobots2|gnotravex|gnotski|iagno) allow_smclient=yes ;;
+    glines|gnobots2|gnotski|iagno) allow_smclient=yes ;;
     *) ;;
   esac
   case $game in
