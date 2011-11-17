@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: gnome-games.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "games&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-11-13 18:17+0000\n"
-"PO-Revision-Date: 2011-11-14 17:27+0100\n"
+"POT-Creation-Date: 2011-11-14 16:29+0000\n"
+"PO-Revision-Date: 2011-11-17 13:45+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -81,7 +81,7 @@ msgstr "Índ_ice"
 #: ../glchess/data/glchess.ui.h:22 ../glines/data/glines.ui.h:7
 #: ../gnect/src/main.c:1187 ../gnibbles/main.c:600 ../gnobots2/menu.c:66
 #: ../gnome-sudoku/src/lib/main.py:210 ../gnomine/src/gnomine.vala:708
-#: ../gnotravex/gnotravex.c:1707 ../gnotski/gnotski.c:409
+#: ../gnotravex/src/gnotravex.c:1707 ../gnotski/gnotski.c:409
 #: ../gtali/gyahtzee.c:711 ../iagno/src/gnothello.c:763
 #: ../lightsoff/data/lightsoff.ui.h:2 ../mahjongg/src/mahjongg.vala:639
 #: ../quadrapassel/tetris.cpp:108 ../swell-foop/data/swell-foop.ui.h:2
@@ -92,7 +92,7 @@ msgstr "_Juego"
 #: ../glchess/data/glchess.ui.h:24 ../glines/data/glines.ui.h:8
 #: ../gnect/src/main.c:1190 ../gnibbles/main.c:603 ../gnobots2/menu.c:70
 #: ../gnome-sudoku/src/lib/main.py:233 ../gnomine/src/gnomine.vala:710
-#: ../gnotravex/gnotravex.c:1711 ../gnotski/gnotski.c:411
+#: ../gnotravex/src/gnotravex.c:1711 ../gnotski/gnotski.c:411
 #: ../gtali/gyahtzee.c:713 ../iagno/src/gnothello.c:765
 #: ../lightsoff/data/lightsoff.ui.h:3 ../mahjongg/src/mahjongg.vala:641
 #: ../quadrapassel/tetris.cpp:110 ../swell-foop/data/swell-foop.ui.h:3
@@ -109,7 +109,7 @@ msgstr "_Renunciar"
 #: ../glchess/data/glchess.ui.h:28 ../glines/data/glines.ui.h:9
 #: ../gnect/src/main.c:1189 ../gnibbles/main.c:602 ../gnobots2/menu.c:69
 #: ../gnome-sudoku/src/lib/main.py:224 ../gnomine/src/gnomine.vala:709
-#: ../gnotravex/gnotravex.c:1709 ../gtali/gyahtzee.c:712
+#: ../gnotravex/src/gnotravex.c:1709 ../gtali/gyahtzee.c:712
 #: ../iagno/src/gnothello.c:764 ../mahjongg/src/mahjongg.vala:640
 #: ../quadrapassel/tetris.cpp:109
 msgid "_Settings"
@@ -1039,7 +1039,7 @@ msgstr ""
 
 #: ../glchess/src/glchess.vala:1368 ../glines/glines.c:1190
 #: ../gnect/src/main.c:828 ../gnibbles/main.c:177 ../gnobots2/menu.c:263
-#: ../gnomine/src/gnomine.vala:459 ../gnotravex/gnotravex.c:1616
+#: ../gnomine/src/gnomine.vala:459 ../gnotravex/src/gnotravex.c:1616
 #: ../gnotski/gnotski.c:1497 ../gtali/gyahtzee.c:621
 #: ../iagno/src/gnothello.c:226 ../lightsoff/src/About.js:19
 #: ../mahjongg/src/mahjongg.vala:528 ../quadrapassel/tetris.cpp:1313
@@ -1241,7 +1241,7 @@ msgstr ""
 #. this doesn't work for anyone
 #: ../glines/glines.c:1187 ../gnect/src/main.c:831 ../gnibbles/main.c:174
 #: ../gnobots2/menu.c:267 ../gnome-sudoku/src/lib/main.py:688
-#: ../gnomine/src/gnomine.vala:456 ../gnotravex/gnotravex.c:1613
+#: ../gnomine/src/gnomine.vala:456 ../gnotravex/src/gnotravex.c:1613
 #: ../gnotski/gnotski.c:1494 ../gtali/gyahtzee.c:617
 #: ../iagno/src/gnothello.c:224 ../lightsoff/src/About.js:20
 #: ../mahjongg/src/mahjongg.vala:525 ../quadrapassel/tetris.cpp:1316
@@ -1638,21 +1638,21 @@ msgid "Speed:"
 msgstr "Velocidad:"
 
 #: ../gnibbles/gnibbles.c:369 ../gnobots2/game.c:179
-#: ../gnomine/src/gnomine.vala:241 ../gnotravex/gnotravex.c:1090
+#: ../gnomine/src/gnomine.vala:241 ../gnotravex/src/gnotravex.c:1090
 #: ../gnotski/gnotski.c:803 ../gtali/gyahtzee.c:197
 #, c-format
 msgid "Congratulations!"
 msgstr "Enhorabuena."
 
 #: ../gnibbles/gnibbles.c:370 ../gnobots2/game.c:180
-#: ../gnomine/src/gnomine.vala:241 ../gnotravex/gnotravex.c:1091
+#: ../gnomine/src/gnomine.vala:241 ../gnotravex/src/gnotravex.c:1091
 #: ../gnotski/gnotski.c:804 ../gtali/gyahtzee.c:198
 #: ../mahjongg/src/mahjongg.vala:252
 msgid "Your score is the best!"
 msgstr "Su puntuación es la mejor"
 
 #: ../gnibbles/gnibbles.c:371 ../gnobots2/game.c:181
-#: ../gnomine/src/gnomine.vala:241 ../gnotravex/gnotravex.c:1092
+#: ../gnomine/src/gnomine.vala:241 ../gnotravex/src/gnotravex.c:1092
 #: ../gnotski/gnotski.c:805 ../gtali/gyahtzee.c:199
 #: ../mahjongg/src/mahjongg.vala:254
 msgid "Your score has made the top ten."
@@ -2188,12 +2188,12 @@ msgstr "Ajustar la configuración del juego"
 msgid "Initial window position"
 msgstr "Posición inicial de la ventana"
 
-#: ../gnobots2/gnobots.c:89 ../gnotravex/gnotravex.c:262
+#: ../gnobots2/gnobots.c:89 ../gnotravex/src/gnotravex.c:262
 #: ../gnotski/gnotski.c:457 ../iagno/src/gnothello.c:139
 msgid "X"
 msgstr "X"
 
-#: ../gnobots2/gnobots.c:91 ../gnotravex/gnotravex.c:264
+#: ../gnobots2/gnobots.c:91 ../gnotravex/src/gnotravex.c:264
 #: ../gnotski/gnotski.c:459 ../iagno/src/gnothello.c:141
 msgid "Y"
 msgstr "Y"
@@ -2287,7 +2287,7 @@ msgstr ""
 msgid "Could not find '%s' pixmap file\n"
 msgstr "No pude encontrar el archivo pixmap «%s».\n"
 
-#: ../gnobots2/menu.c:68 ../gnotravex/gnotravex.c:1708
+#: ../gnobots2/menu.c:68 ../gnotravex/src/gnotravex.c:1708
 msgid "_Move"
 msgstr "_Mover"
 
@@ -2513,7 +2513,7 @@ msgstr "_Difícil"
 
 #: ../gnome-sudoku/data/print_games.ui.h:7
 msgid "_Include games you've already played in list of games to print"
-msgstr "_Incluir juegos que ya ha jugado en la lista de juegos a imprimir"
+msgstr "_Incluir juegos que ya ha jugado en la lista de juegos que imprimir"
 
 #: ../gnome-sudoku/data/print_games.ui.h:8
 msgid "_Mark games as played once you've printed them."
@@ -3011,7 +3011,7 @@ msgstr "Las minas han sido eliminadas."
 msgid "Mines Scores"
 msgstr "Puntuación de Minas"
 
-#: ../gnomine/src/gnomine.vala:236 ../gnotravex/gnotravex.c:1085
+#: ../gnomine/src/gnomine.vala:236 ../gnotravex/src/gnotravex.c:1085
 #: ../swell-foop/src/Score.js:57
 msgid "Size:"
 msgstr "Tamaño:"
@@ -3092,165 +3092,166 @@ msgstr "_Advertir si se han colocado demasiadas banderas"
 msgid "Mines Preferences"
 msgstr "Preferencias de Minas"
 
-#: ../gnotravex/gnotravex.c:45 ../gnotravex/gnotravex.desktop.in.in.h:2
+#: ../gnotravex/src/gnotravex.c:45
+#: ../gnotravex/data/gnotravex.desktop.in.in.h:2
 msgid "Tetravex"
 msgstr "Tetravex"
 
-#: ../gnotravex/gnotravex.c:115
+#: ../gnotravex/src/gnotravex.c:115
 msgid "2×2"
 msgstr "2x2"
 
-#: ../gnotravex/gnotravex.c:116
+#: ../gnotravex/src/gnotravex.c:116
 msgid "3×3"
 msgstr "3x3"
 
-#: ../gnotravex/gnotravex.c:117
+#: ../gnotravex/src/gnotravex.c:117
 msgid "4×4"
 msgstr "4x4"
 
-#: ../gnotravex/gnotravex.c:118
+#: ../gnotravex/src/gnotravex.c:118
 msgid "5×5"
 msgstr "5x5"
 
-#: ../gnotravex/gnotravex.c:119
+#: ../gnotravex/src/gnotravex.c:119
 msgid "6×6"
 msgstr "6x6"
 
-#: ../gnotravex/gnotravex.c:198
+#: ../gnotravex/src/gnotravex.c:198
 msgid "_2×2"
 msgstr "_2x2"
 
-#: ../gnotravex/gnotravex.c:198
+#: ../gnotravex/src/gnotravex.c:198
 msgid "Play on a 2×2 board"
 msgstr "Jugar con un tablero de 2x2"
 
-#: ../gnotravex/gnotravex.c:200
+#: ../gnotravex/src/gnotravex.c:200
 msgid "_3×3"
 msgstr "_3x3"
 
-#: ../gnotravex/gnotravex.c:200
+#: ../gnotravex/src/gnotravex.c:200
 msgid "Play on a 3×3 board"
 msgstr "Jugar con un tablero de 3x3"
 
-#: ../gnotravex/gnotravex.c:202
+#: ../gnotravex/src/gnotravex.c:202
 msgid "_4×4"
 msgstr "_4x4"
 
-#: ../gnotravex/gnotravex.c:202
+#: ../gnotravex/src/gnotravex.c:202
 msgid "Play on a 4×4 board"
 msgstr "Jugar con un tablero de 4x4"
 
-#: ../gnotravex/gnotravex.c:204
+#: ../gnotravex/src/gnotravex.c:204
 msgid "_5×5"
 msgstr "_5x5"
 
-#: ../gnotravex/gnotravex.c:204
+#: ../gnotravex/src/gnotravex.c:204
 msgid "Play on a 5×5 board"
 msgstr "Jugar con un tablero de 5x5"
 
-#: ../gnotravex/gnotravex.c:206
+#: ../gnotravex/src/gnotravex.c:206
 msgid "_6×6"
 msgstr "_6x6"
 
-#: ../gnotravex/gnotravex.c:206
+#: ../gnotravex/src/gnotravex.c:206
 msgid "Play on a 6×6 board"
 msgstr "Jugar con un tablero de 6x6"
 
-#: ../gnotravex/gnotravex.c:261 ../gnotski/gnotski.c:456
+#: ../gnotravex/src/gnotravex.c:261 ../gnotski/gnotski.c:456
 #: ../iagno/src/gnothello.c:138
 msgid "X location of window"
 msgstr "Coordenada X de la ventana"
 
-#: ../gnotravex/gnotravex.c:263 ../gnotski/gnotski.c:458
+#: ../gnotravex/src/gnotravex.c:263 ../gnotski/gnotski.c:458
 #: ../iagno/src/gnothello.c:140
 msgid "Y location of window"
 msgstr "Coordenada Y de la ventana"
 
-#: ../gnotravex/gnotravex.c:265
+#: ../gnotravex/src/gnotravex.c:265
 msgid "Size of board (2-6)"
 msgstr "Tamaño del tablero (2-6)"
 
-#: ../gnotravex/gnotravex.c:266
+#: ../gnotravex/src/gnotravex.c:266
 msgid "SIZE"
 msgstr "TAMAÑO"
 
 #. Translators: in-game numbers, replaceable with single-character local ideograms
-#: ../gnotravex/gnotravex.c:460
+#: ../gnotravex/src/gnotravex.c:460
 msgctxt "number"
 msgid "0"
 msgstr "0"
 
-#: ../gnotravex/gnotravex.c:461
+#: ../gnotravex/src/gnotravex.c:461
 msgctxt "number"
 msgid "1"
 msgstr "1"
 
-#: ../gnotravex/gnotravex.c:462
+#: ../gnotravex/src/gnotravex.c:462
 msgctxt "number"
 msgid "2"
 msgstr "2"
 
-#: ../gnotravex/gnotravex.c:463
+#: ../gnotravex/src/gnotravex.c:463
 msgctxt "number"
 msgid "3"
 msgstr "3"
 
-#: ../gnotravex/gnotravex.c:464
+#: ../gnotravex/src/gnotravex.c:464
 msgctxt "number"
 msgid "4"
 msgstr "4"
 
-#: ../gnotravex/gnotravex.c:465
+#: ../gnotravex/src/gnotravex.c:465
 msgctxt "number"
 msgid "5"
 msgstr "5"
 
-#: ../gnotravex/gnotravex.c:466
+#: ../gnotravex/src/gnotravex.c:466
 msgctxt "number"
 msgid "6"
 msgstr "6"
 
-#: ../gnotravex/gnotravex.c:467
+#: ../gnotravex/src/gnotravex.c:467
 msgctxt "number"
 msgid "7"
 msgstr "7"
 
-#: ../gnotravex/gnotravex.c:468
+#: ../gnotravex/src/gnotravex.c:468
 msgctxt "number"
 msgid "8"
 msgstr "8"
 
-#: ../gnotravex/gnotravex.c:469
+#: ../gnotravex/src/gnotravex.c:469
 msgctxt "number"
 msgid "9"
 msgstr "9"
 
-#: ../gnotravex/gnotravex.c:913
+#: ../gnotravex/src/gnotravex.c:913
 msgid "Game paused"
 msgstr "Juego suspendido"
 
-#: ../gnotravex/gnotravex.c:975
+#: ../gnotravex/src/gnotravex.c:975
 #, c-format
 msgid "Playing %d×%d board"
 msgstr "Jugando con un tablero de %d x %d"
 
-#: ../gnotravex/gnotravex.c:1083
+#: ../gnotravex/src/gnotravex.c:1083
 msgid "Tetravex Scores"
 msgstr "Puntuación de Tetravex"
 
-#: ../gnotravex/gnotravex.c:1145
+#: ../gnotravex/src/gnotravex.c:1145
 msgid "Puzzle solved! Well done!"
 msgstr "Puzle resuelto. Enhorabuena."
 
-#: ../gnotravex/gnotravex.c:1147 ../mahjongg/src/mahjongg.vala:249
+#: ../gnotravex/src/gnotravex.c:1147 ../mahjongg/src/mahjongg.vala:249
 msgid "Puzzle solved!"
 msgstr "Puzle resuelto."
 
-#: ../gnotravex/gnotravex.c:1402 ../mahjongg/src/mahjongg.vala:69
+#: ../gnotravex/src/gnotravex.c:1402 ../mahjongg/src/mahjongg.vala:69
 msgid "Time:"
 msgstr "Tiempo:"
 
-#: ../gnotravex/gnotravex.c:1603
+#: ../gnotravex/src/gnotravex.c:1603
 msgid ""
 "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
 "the same numbers are touching each other.\n"
@@ -3262,63 +3263,63 @@ msgstr ""
 "\n"
 "GNOME Tetravex es parte de los juegos de GNOME."
 
-#: ../gnotravex/gnotravex.c:1710
+#: ../gnotravex/src/gnotravex.c:1710
 msgid "_Size"
 msgstr "_Tamaño"
 
-#: ../gnotravex/gnotravex.c:1715
+#: ../gnotravex/src/gnotravex.c:1715
 msgid "Sol_ve"
 msgstr "Resol_ver"
 
-#: ../gnotravex/gnotravex.c:1715
+#: ../gnotravex/src/gnotravex.c:1715
 msgid "Solve the game"
 msgstr "Resolver el juego"
 
-#: ../gnotravex/gnotravex.c:1719
+#: ../gnotravex/src/gnotravex.c:1719
 msgid "_Up"
 msgstr "A_rriba"
 
-#: ../gnotravex/gnotravex.c:1720
+#: ../gnotravex/src/gnotravex.c:1720
 msgid "Move the pieces up"
 msgstr "Mover las piezas hacia arriba"
 
-#: ../gnotravex/gnotravex.c:1721
+#: ../gnotravex/src/gnotravex.c:1721
 msgid "_Left"
 msgstr "_Izquierda"
 
-#: ../gnotravex/gnotravex.c:1722
+#: ../gnotravex/src/gnotravex.c:1722
 msgid "Move the pieces left"
 msgstr "Mover las pieza hacia la izquierda"
 
-#: ../gnotravex/gnotravex.c:1723
+#: ../gnotravex/src/gnotravex.c:1723
 msgid "_Right"
 msgstr "De_recha"
 
-#: ../gnotravex/gnotravex.c:1724
+#: ../gnotravex/src/gnotravex.c:1724
 msgid "Move the pieces right"
 msgstr "Mover las piezas hacia la derecha"
 
-#: ../gnotravex/gnotravex.c:1725
+#: ../gnotravex/src/gnotravex.c:1725
 msgid "_Down"
 msgstr "Aba_jo"
 
-#: ../gnotravex/gnotravex.c:1726
+#: ../gnotravex/src/gnotravex.c:1726
 msgid "Move the pieces down"
 msgstr "Mover las piezas hacia abajo"
 
-#: ../gnotravex/gnotravex.c:1731
+#: ../gnotravex/src/gnotravex.c:1731
 msgid "_Click to Move"
 msgstr "_Pulsar para mover"
 
-#: ../gnotravex/gnotravex.desktop.in.in.h:1
+#: ../gnotravex/data/gnotravex.desktop.in.in.h:1
 msgid "Complete the puzzle by matching numbered tiles"
 msgstr "Complete el puzle haciendo coincidir las baldosas numeradas"
 
-#: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:1
+#: ../gnotravex/data/org.gnome.gnotravex.gschema.xml.in.h:1
 msgid "Select the style of control"
 msgstr "Seleccione el estilo del control"
 
-#: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:2
+#: ../gnotravex/data/org.gnome.gnotravex.gschema.xml.in.h:2
 msgid ""
 "Select whether to drag the tiles or to click on the source then the "
 "destination."
@@ -3326,11 +3327,11 @@ msgstr ""
 "Seleccione entre arrastrar las baldosas o pulsar en el origen y después en "
 "el destino."
 
-#: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:3
+#: ../gnotravex/data/org.gnome.gnotravex.gschema.xml.in.h:3
 msgid "The size of the playing grid"
 msgstr "El tamaño de la rejilla de juego"
 
-#: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:4
+#: ../gnotravex/data/org.gnome.gnotravex.gschema.xml.in.h:4
 msgid "The value of this key is used to decide the size of the playing grid."
 msgstr ""
 "El valor de esta clave se utiliza para decidir el tamaño de la rejilla de "
