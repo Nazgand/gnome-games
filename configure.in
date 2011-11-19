@@ -858,7 +858,8 @@ mahjongg/data/Makefile
 mahjongg/help/Makefile
 mahjongg/src/Makefile
 gtali/Makefile
-gtali/pix/Makefile
+gtali/data/Makefile
+gtali/src/Makefile
 gtali/help/Makefile
 iagno/Makefile
 iagno/data/Makefile
@@ -912,7 +913,7 @@ gnibbles/gnibbles.desktop.in
 gnotski/gnotski.desktop.in
 glchess/glchess.desktop.in
 mahjongg/data/mahjongg.desktop.in
-gtali/gtali.desktop.in
+gtali/data/gtali.desktop.in
 gnome-sudoku/gnome-sudoku.desktop.in
 iagno/data/iagno.desktop.in
 gnect/data/gnect.desktop.in
