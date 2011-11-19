@@ -28,7 +28,9 @@ gnomine/src/minefield.c
 gnomine/src/minefield-view.c
 gnotravex/gnotravex.desktop.in
 gnotravex/src/gnotravex.c
+gnotravex/src/puzzle.c
 gnotravex/src/puzzle-view.c
+gnotravex/src/theme.vala
 gnotski/gnotski.desktop.in
 gtali/gtali.desktop.in
 iagno/iagno.desktop.in
