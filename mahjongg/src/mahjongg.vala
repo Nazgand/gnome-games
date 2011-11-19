@@ -87,6 +87,7 @@ public class Mahjongg
         window.delete_event.connect (window_delete_event_cb);
 
         game_view = new GameView ();
+        game_view.button_press_event.connect (view_button_press_event);        
         game_view.set_size_request (320, 200);
 
         toolbar = (Gtk.Toolbar) ui_manager.get_widget ("/Toolbar");
@@ -209,6 +210,18 @@ public class Mahjongg
             warning ("Failed to load theme %s: %s", filename, path);
             return null;
         }
+    }
+
+    private bool view_button_press_event (Gtk.Widget widget, Gdk.EventButton event)
+    {
+        /* Cancel pause on click */
+        if (pause_action.get_is_paused ())
+        {
+            pause_action.set_is_paused (false);
+            return true;
+        }
+
+        return false;
     }
 
     private void show_toolbar_cb (Gtk.Action action)
