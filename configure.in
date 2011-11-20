@@ -871,6 +871,8 @@ gnotravex/data/gnotravex.desktop.in
 gnotravex/src/Makefile
 gnotravex/help/Makefile
 gnotski/Makefile
+gnotski/data/Makefile
+gnotski/src/Makefile
 gnotski/help/Makefile
 glines/Makefile
 glines/data/Makefile
@@ -910,7 +912,7 @@ swell-foop/src/Makefile
 quadrapassel/quadrapassel.desktop.in
 gnobots2/gnobots2.desktop.in
 gnibbles/gnibbles.desktop.in
-gnotski/gnotski.desktop.in
+gnotski/data/gnotski.desktop.in
 glchess/glchess.desktop.in
 mahjongg/data/mahjongg.desktop.in
 gtali/data/gtali.desktop.in
