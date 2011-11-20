@@ -879,8 +879,9 @@ glines/data/Makefile
 glines/glines.desktop.in
 glines/help/Makefile
 quadrapassel/Makefile
-quadrapassel/pix/Makefile
+quadrapassel/data/Makefile
 quadrapassel/help/Makefile
+quadrapassel/src/Makefile
 gnobots2/Makefile
 gnobots2/help/Makefile
 gnibbles/Makefile
@@ -909,7 +910,7 @@ swell-foop/data/themes/colors/Makefile
 swell-foop/data/themes/shapesandcolors/Makefile
 swell-foop/swell-foop.desktop.in
 swell-foop/src/Makefile
-quadrapassel/quadrapassel.desktop.in
+quadrapassel/data/quadrapassel.desktop.in
 gnobots2/gnobots2.desktop.in
 gnibbles/gnibbles.desktop.in
 gnotski/data/gnotski.desktop.in
