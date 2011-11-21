@@ -31,7 +31,7 @@ gnotravex/src/gnotravex.c
 gnotravex/src/puzzle.c
 gnotravex/src/puzzle-view.c
 gnotravex/src/theme.vala
-gnotski/gnotski.desktop.in
+gnotski/data/gnotski.desktop.in
 gtali/gtali.desktop.in
 iagno/iagno.desktop.in
 libgames-support/org.gnome.Games.WindowState.gschema.xml.in
@@ -41,6 +41,6 @@ mahjongg/src/game.c
 mahjongg/src/game-view.c
 mahjongg/src/mahjongg.c
 mahjongg/src/map.c
-quadrapassel/quadrapassel.desktop.in
+quadrapassel/data/quadrapassel.desktop.in
 swell-foop/swell-foop-c.desktop.in
 swell-foop/swell-foop.desktop.in

@@ -83,9 +83,9 @@ gnotravex/src/gnotravex.vala
 gnotravex/src/puzzle.vala
 gnotravex/src/puzzle-view.vala
 gnotravex/src/theme.vala
-gnotski/gnotski.c
-gnotski/gnotski.desktop.in.in
-gnotski/gnotski.schemas.in
+gnotski/data/gnotski.desktop.in.in
+gnotski/data/gnotski.schemas.in
+gnotski/src/gnotski.c
 gtali/data/gtali.desktop.in.in
 gtali/data/gtali.schemas.in
 gtali/src/clist.c
@@ -124,14 +124,14 @@ mahjongg/src/game.vala
 mahjongg/src/game-view.vala
 mahjongg/src/mahjongg.vala
 mahjongg/src/map.vala
-quadrapassel/blockops.cpp
-quadrapassel/highscores.cpp
-quadrapassel/main.cpp
-quadrapassel/quadrapassel.desktop.in.in
-quadrapassel/quadrapassel.schemas.in
-quadrapassel/renderer.cpp
-quadrapassel/scoreframe.cpp
-quadrapassel/tetris.cpp
+quadrapassel/data/quadrapassel.desktop.in.in
+quadrapassel/data/quadrapassel.schemas.in
+quadrapassel/src/blockops.cpp
+quadrapassel/src/highscores.cpp
+quadrapassel/src/main.cpp
+quadrapassel/src/renderer.cpp
+quadrapassel/src/scoreframe.cpp
+quadrapassel/src/tetris.cpp
 [type: gettext/glade]swell-foop/data/settings.ui
 [type: gettext/glade]swell-foop/data/swell-foop.ui
 swell-foop/src/About.js
