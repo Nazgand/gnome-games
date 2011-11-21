@@ -1,9 +1,9 @@
 public class GameView : Gtk.DrawingArea
 {
     public Gdk.Color background_color;
-    private Gdk.Pixbuf? tile_textures = null;
-    private int tile_texture_width = 0;
-    private int tile_texture_height = 0;
+    private Cairo.Pattern? tile_pattern = null;
+    private int tile_pattern_width = 0;
+    private int tile_pattern_height = 0;
     
     private int x_offset;
     private int y_offset;
@@ -28,7 +28,7 @@ public class GameView : Gtk.DrawingArea
     public GnomeGamesSupport.Preimage? theme
     {
         get { return _theme; }
-        set { _theme = value; tile_textures = null; queue_draw (); }
+        set { _theme = value; tile_pattern = null; queue_draw (); }
     }
     
     private bool _paused = false;
@@ -50,15 +50,7 @@ public class GameView : Gtk.DrawingArea
             background_color.red = background_color.green = background_color.blue = 0;
         queue_draw ();
     }
-
-    public override bool configure_event (Gdk.EventConfigure event)
-    {
-        /* Regenerate images */
-        tile_textures = null;
-
-        return false;
-    }
-    
+   
     private void draw_game (Cairo.Context cr, bool render_indexes = false)
     {
         if (theme == null)
@@ -71,13 +63,23 @@ public class GameView : Gtk.DrawingArea
         var image_height = tile_height + tile_layer_offset_y;
 
         /* Render the tiles */
-        if (!render_indexes && (tile_textures == null || tile_texture_width != image_width || tile_texture_height != image_height))
+        if (!render_indexes && (tile_pattern == null || tile_pattern_width != image_width || tile_pattern_height != image_height))
         {
-            tile_texture_width = image_width;
-            tile_texture_height = image_height;
-            tile_textures = theme.render ((int) (image_width * 43), image_height * 2);
-            if (tile_textures == null)
+            tile_pattern_width = image_width;
+            tile_pattern_height = image_height;
+
+            var width = image_width * 43;
+            var height = image_height * 2;
+
+            var surface = new Cairo.ImageSurface (Cairo.Format.ARGB32, width, height);
+            var c = new Cairo.Context (surface);
+            var pixbuf = theme.render (width, height);
+            if (pixbuf == null)
                 return;
+            Gdk.cairo_set_source_pixbuf (c, pixbuf, 0, 0);
+            c.paint ();
+
+            tile_pattern = new Cairo.Pattern.for_surface (surface);
         }
 
         /* This works because of the way the tiles are sorted. We could
@@ -108,7 +110,12 @@ public class GameView : Gtk.DrawingArea
             if (render_indexes)
                 cr.set_source_rgb (tile.number / 255.0, tile.number / 255.0, tile.number / 255.0);
             else
-                Gdk.cairo_set_source_pixbuf (cr, tile_textures, x - texture_x, y - texture_y);
+            {
+                var matrix = Cairo.Matrix.identity ();
+                matrix.translate (texture_x - x, texture_y - y);
+                tile_pattern.set_matrix (matrix);
+                cr.set_source (tile_pattern);
+            }
             cr.rectangle (x, y, image_width, image_height);
             cr.fill ();
         }
@@ -195,7 +202,7 @@ public class GameView : Gtk.DrawingArea
         update_dimensions ();
         int x, y;
         get_tile_position (tile, out x, out y);
-        queue_draw_area (x, y, tile_texture_width, tile_texture_height);
+        queue_draw_area (x, y, tile_pattern_width, tile_pattern_height);
     }
 
     public override bool draw (Cairo.Context cr)
