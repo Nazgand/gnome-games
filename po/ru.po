@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games trunk\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-games&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-09-05 10:14+0000\n"
-"PO-Revision-Date: 2011-09-17 14:09+0300\n"
+"POT-Creation-Date: 2011-11-21 23:47+0000\n"
+"PO-Revision-Date: 2011-11-24 19:36+0300\n"
 "Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
 "Language-Team: Russian <gnome-cyr@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -24,6 +24,128 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#. Claim draw menu item
+#: ../glchess/data/glchess.ui.h:2
+msgid "Claim _Draw"
+msgstr "Предложить _ничью"
+
+#. The New Game toolbar button
+#: ../glchess/data/glchess.ui.h:4
+#: ../libgames-support/games-scores-dialog.c:459
+msgid "New Game"
+msgstr "Новая игра"
+
+#. The tooltip for the Resign toolbar button
+#: ../glchess/data/glchess.ui.h:6
+msgid "Resign"
+msgstr "Сдаться"
+
+#. Tooltip on the show first move (i.e. game start) navigation button
+#: ../glchess/data/glchess.ui.h:8
+msgid "Rewind to the game start"
+msgstr "Откатить на начало игры"
+
+#. Tooltip on the show current move navigation button
+#: ../glchess/data/glchess.ui.h:10
+msgid "Show the current move"
+msgstr "Показать текущий ход"
+
+#. Tooltip on the show next move navigation button
+#: ../glchess/data/glchess.ui.h:12
+msgid "Show the next move"
+msgstr "Показать следующий ход"
+
+#. Tooltip on the show previous move navigation button
+#: ../glchess/data/glchess.ui.h:14
+msgid "Show the previous move"
+msgstr "Показать предыдущий ход"
+
+#. Tooltip for start new game toolbar button
+#: ../glchess/data/glchess.ui.h:16
+#: ../gnobots2/menu.c:71
+#: ../libgames-support/games-stock.c:50
+#: ../mahjongg/src/mahjongg.vala:655
+msgid "Start a new game"
+msgstr "Начать новую игру"
+
+#. The undo move toolbar button
+#: ../glchess/data/glchess.ui.h:18
+msgid "Undo Move"
+msgstr "Отменить ход"
+
+#. Help contents menu item
+#: ../glchess/data/glchess.ui.h:20
+#: ../glines/data/glines.ui.h:6
+#: ../gnome-sudoku/src/lib/main.py:234
+#: ../libgames-support/games-stock.c:249
+msgid "_Contents"
+msgstr "_Содержание"
+
+#. Game menu name
+#: ../glchess/data/glchess.ui.h:22
+#: ../glines/data/glines.ui.h:7
+#: ../gnect/src/main.c:1187
+#: ../gnibbles/main.c:600
+#: ../gnobots2/menu.c:66
+#: ../gnome-sudoku/src/lib/main.py:210
+#: ../gnomine/src/gnomine.vala:700
+#: ../gnotravex/src/gnotravex.vala:350
+#: ../gnotski/src/gnotski.c:409
+#: ../gtali/src/gyahtzee.c:711
+#: ../iagno/src/gnothello.c:763
+#: ../lightsoff/data/lightsoff.ui.h:2
+#: ../mahjongg/src/mahjongg.vala:652
+#: ../quadrapassel/src/tetris.cpp:108
+#: ../swell-foop/data/swell-foop.ui.h:2
+msgid "_Game"
+msgstr "_Игра"
+
+#. Help menu item
+#: ../glchess/data/glchess.ui.h:24
+#: ../glines/data/glines.ui.h:8
+#: ../gnect/src/main.c:1190
+#: ../gnibbles/main.c:603
+#: ../gnobots2/menu.c:70
+#: ../gnome-sudoku/src/lib/main.py:233
+#: ../gnomine/src/gnomine.vala:702
+#: ../gnotravex/src/gnotravex.vala:354
+#: ../gnotski/src/gnotski.c:411
+#: ../gtali/src/gyahtzee.c:713
+#: ../iagno/src/gnothello.c:765
+#: ../lightsoff/data/lightsoff.ui.h:3
+#: ../mahjongg/src/mahjongg.vala:654
+#: ../quadrapassel/src/tetris.cpp:110
+#: ../swell-foop/data/swell-foop.ui.h:3
+msgid "_Help"
+msgstr "_Справка"
+
+#. Save menu item
+#: ../glchess/data/glchess.ui.h:26
+msgid "_Resign"
+msgstr "Сд_аться"
+
+#. Settings menu item
+#: ../glchess/data/glchess.ui.h:28
+#: ../glines/data/glines.ui.h:9
+#: ../gnect/src/main.c:1189
+#: ../gnibbles/main.c:602
+#: ../gnobots2/menu.c:69
+#: ../gnome-sudoku/src/lib/main.py:224
+#: ../gnomine/src/gnomine.vala:701
+#: ../gnotravex/src/gnotravex.vala:352
+#: ../gtali/src/gyahtzee.c:712
+#: ../iagno/src/gnothello.c:764
+#: ../mahjongg/src/mahjongg.vala:653
+#: ../quadrapassel/src/tetris.cpp:109
+msgid "_Settings"
+msgstr "_Параметры"
+
+#. Undo move menu item
+#: ../glchess/data/glchess.ui.h:30
+#: ../libgames-support/games-stock.c:261
+msgid "_Undo Move"
+msgstr "_Отменить"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:1
 msgid "A flag to enable 3D mode"
@@ -38,7 +160,6 @@ msgid "A flag to enable fullscreen mode"
 msgstr "Работать в полноэкранном режиме"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:4
-#| msgid "A flag to enable maximised mode"
 msgid "A flag to enable maximized mode"
 msgstr "Разворачивать окно на весь экран"
 
@@ -84,7 +205,7 @@ msgstr "Формат отображения ходов"
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:15
 msgid "The height of the main window in pixels."
-msgstr "Требуемая высота основного, в пикселях."
+msgstr "Требуемая высота основного, в пикселах."
 
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:16
 msgid "The height of the window"
@@ -121,127 +242,6 @@ msgstr "Ширина окна"
 #: ../glchess/data/org.gnome.glchess.gschema.xml.in.h:24
 msgid "true if the human player is playing white"
 msgstr "установлено, если игрок играет белыми"
-
-#. Claim draw menu item
-#: ../glchess/data/glchess.ui.h:2
-msgid "Claim _Draw"
-msgstr "Предложить _ничью"
-
-#. The New Game toolbar button
-#: ../glchess/data/glchess.ui.h:4
-#: ../libgames-support/games-scores-dialog.c:459
-msgid "New Game"
-msgstr "Новая игра"
-
-#. The tooltip for the Resign toolbar button
-#: ../glchess/data/glchess.ui.h:6
-msgid "Resign"
-msgstr "Сдаться"
-
-#. Tooltip on the show first move (i.e. game start) navigation button
-#: ../glchess/data/glchess.ui.h:8
-msgid "Rewind to the game start"
-msgstr "Откатить на начало игры"
-
-#. Tooltip on the show current move navigation button
-#: ../glchess/data/glchess.ui.h:10
-msgid "Show the current move"
-msgstr "Показать текущий ход"
-
-#. Tooltip on the show next move navigation button
-#: ../glchess/data/glchess.ui.h:12
-msgid "Show the next move"
-msgstr "Показать следующий ход"
-
-#. Tooltip on the show previous move navigation button
-#: ../glchess/data/glchess.ui.h:14
-msgid "Show the previous move"
-msgstr "Показать предыдущий ход"
-
-#. Tooltip for start new game toolbar button
-#: ../glchess/data/glchess.ui.h:16
-#: ../gnobots2/menu.c:71
-#: ../libgames-support/games-stock.c:50
-#: ../mahjongg/mahjongg.c:1195
-msgid "Start a new game"
-msgstr "Начать новую игру"
-
-#. The undo move toolbar button
-#: ../glchess/data/glchess.ui.h:18
-msgid "Undo Move"
-msgstr "Отменить ход"
-
-#. Help contents menu item
-#: ../glchess/data/glchess.ui.h:20
-#: ../gnome-sudoku/src/lib/main.py:234
-#: ../libgames-support/games-stock.c:249
-msgid "_Contents"
-msgstr "_Содержание"
-
-#. Game menu name
-#: ../glchess/data/glchess.ui.h:22
-#: ../glines/glines.c:1646
-#: ../gnect/src/main.c:1187
-#: ../gnibbles/main.c:600
-#: ../gnobots2/menu.c:66
-#: ../quadrapassel/tetris.cpp:108
-#: ../gnome-sudoku/src/lib/main.py:210
-#: ../gnomine/gnomine.c:758
-#: ../gnotravex/gnotravex.c:1707
-#: ../gnotski/gnotski.c:409
-#: ../gtali/gyahtzee.c:711
-#: ../iagno/gnothello.c:763
-#: ../lightsoff/data/lightsoff.ui.h:2
-#: ../mahjongg/mahjongg.c:1192
-#: ../swell-foop/data/swell-foop.ui.h:2
-msgid "_Game"
-msgstr "_Игра"
-
-#. Help menu item
-#: ../glchess/data/glchess.ui.h:24
-#: ../glines/glines.c:1648
-#: ../gnect/src/main.c:1190
-#: ../gnibbles/main.c:603
-#: ../gnobots2/menu.c:70
-#: ../quadrapassel/tetris.cpp:110
-#: ../gnome-sudoku/src/lib/main.py:233
-#: ../gnomine/gnomine.c:760
-#: ../gnotravex/gnotravex.c:1711
-#: ../gnotski/gnotski.c:411
-#: ../gtali/gyahtzee.c:713
-#: ../iagno/gnothello.c:765
-#: ../lightsoff/data/lightsoff.ui.h:3
-#: ../mahjongg/mahjongg.c:1194
-#: ../swell-foop/data/swell-foop.ui.h:3
-msgid "_Help"
-msgstr "_Справка"
-
-#. Save menu item
-#: ../glchess/data/glchess.ui.h:26
-msgid "_Resign"
-msgstr "Сд_аться"
-
-#. Settings menu item
-#: ../glchess/data/glchess.ui.h:28
-#: ../glines/glines.c:1647
-#: ../gnect/src/main.c:1189
-#: ../gnibbles/main.c:602
-#: ../gnobots2/menu.c:69
-#: ../quadrapassel/tetris.cpp:109
-#: ../gnome-sudoku/src/lib/main.py:224
-#: ../gnomine/gnomine.c:759
-#: ../gnotravex/gnotravex.c:1709
-#: ../gtali/gyahtzee.c:712
-#: ../iagno/gnothello.c:764
-#: ../mahjongg/mahjongg.c:1193
-msgid "_Settings"
-msgstr "_Правка"
-
-#. Undo move menu item
-#: ../glchess/data/glchess.ui.h:30
-#: ../libgames-support/games-stock.c:261
-msgid "_Undo Move"
-msgstr "_Отменить"
 
 #. Preferences Dialog: Combo box entry for game timer of thirty minutes
 #: ../glchess/data/preferences.ui.h:2
@@ -287,9 +287,9 @@ msgstr "пять минут"
 #: ../glchess/data/preferences.ui.h:18
 #: ../gnect/src/prefs.c:301
 #: ../gnibbles/preferences.c:237
-#: ../gnobots2/properties.c:496
-#: ../quadrapassel/tetris.cpp:596
-#: ../iagno/properties.c:396
+#: ../gnobots2/properties.c:499
+#: ../iagno/src/properties.c:396
+#: ../quadrapassel/src/tetris.cpp:596
 msgid "Game"
 msgstr "Игра"
 
@@ -335,8 +335,7 @@ msgstr "Играть за:"
 
 #. Title for preferences dialog
 #: ../glchess/data/preferences.ui.h:36
-#: ../glines/glines.c:196
-#: ../mahjongg/mahjongg.c:139
+#: ../glines/glines.c:180
 msgid "Preferences"
 msgstr "Параметры"
 
@@ -479,14 +478,14 @@ msgstr "Сторона белых"
 
 #. Preferences Dialog: Combo box entry for easy game difficulty
 #: ../glchess/data/preferences.ui.h:86
-#: ../gtali/setup.c:347
+#: ../gtali/src/setup.c:347
 msgctxt "difficulty"
 msgid "Easy"
 msgstr "Лёгкий"
 
 #. Preferences Dialog: Combo box entry for hard game difficulty
 #: ../glchess/data/preferences.ui.h:88
-#: ../gtali/setup.c:349
+#: ../gtali/src/setup.c:349
 msgctxt "difficulty"
 msgid "Hard"
 msgstr "Сложный"
@@ -1056,7 +1055,7 @@ msgstr[0] "час"
 msgstr[1] "часа"
 msgstr[2] "часов"
 
-#: ../glchess/src/glchess.vala:1362
+#: ../glchess/src/glchess.vala:1363
 msgid ""
 "The 2D/3D chess game for GNOME. \n"
 "\n"
@@ -1066,96 +1065,168 @@ msgstr ""
 "\n"
 "glChess — часть пакета GNOME Games."
 
-#: ../glchess/src/glchess.vala:1367
-#: ../glines/glines.c:1225
+#: ../glchess/src/glchess.vala:1368
+#: ../glines/glines.c:1190
 #: ../gnect/src/main.c:828
 #: ../gnibbles/main.c:177
 #: ../gnobots2/menu.c:263
-#: ../quadrapassel/tetris.cpp:1313
-#: ../gnomine/gnomine.c:473
-#: ../gnotravex/gnotravex.c:1616
-#: ../gnotski/gnotski.c:1490
-#: ../gtali/gyahtzee.c:621
-#: ../iagno/gnothello.c:226
+#: ../gnomine/src/gnomine.vala:451
+#: ../gnotravex/src/gnotravex.vala:303
+#: ../gnotski/src/gnotski.c:1497
+#: ../gtali/src/gyahtzee.c:621
+#: ../iagno/src/gnothello.c:226
 #: ../lightsoff/src/About.js:19
-#: ../mahjongg/mahjongg.c:903
+#: ../mahjongg/src/mahjongg.vala:541
+#: ../quadrapassel/src/tetris.cpp:1313
 #: ../swell-foop/src/About.js:19
 msgid "GNOME Games web site"
 msgstr "Веб-сайт GNOME Games"
 
 #. Title of save game dialog
-#: ../glchess/src/glchess.vala:1421
+#: ../glchess/src/glchess.vala:1422
 msgid "Save Chess Game"
 msgstr "Сохранить шахматы"
 
 #. Save Game Dialog: Name of filter to show only PGN files
 #. Load Game Dialog: Name of filter to show only PGN files
-#: ../glchess/src/glchess.vala:1434
-#: ../glchess/src/glchess.vala:1502
+#: ../glchess/src/glchess.vala:1435
+#: ../glchess/src/glchess.vala:1503
 msgid "PGN files"
 msgstr "Файлы PGN"
 
 #. Save Game Dialog: Name of filter to show all files
 #. Load Game Dialog: Name of filter to show all files
-#: ../glchess/src/glchess.vala:1441
-#: ../glchess/src/glchess.vala:1509
+#: ../glchess/src/glchess.vala:1442
+#: ../glchess/src/glchess.vala:1510
 msgid "All files"
 msgstr "Все файлы"
 
-#: ../glchess/src/glchess.vala:1465
+#: ../glchess/src/glchess.vala:1466
 #, c-format
 msgid "Failed to save game: %s"
 msgstr "Не удалось сохранить игру: %s"
 
 #. Title of load game dialog
-#: ../glchess/src/glchess.vala:1489
+#: ../glchess/src/glchess.vala:1490
 msgid "Load Chess Game"
 msgstr "Загрузить шахматы"
 
-#: ../glchess/src/glchess.vala:1531
+#: ../glchess/src/glchess.vala:1532
 #, c-format
 msgid "Failed to open game: %s"
 msgstr "Не удалось открыть игру: %s"
 
 #. Help string for command line --version flag
-#: ../glchess/src/glchess.vala:1592
+#: ../glchess/src/glchess.vala:1593
 msgid "Show release version"
 msgstr "Показать номер версии"
 
 #. Arguments and description for --help text
-#: ../glchess/src/glchess.vala:1607
+#: ../glchess/src/glchess.vala:1608
 msgid "[FILE] - Play Chess"
 msgstr "[ФАЙЛ] — играть в шахматы"
 
 #. Text printed out when an unknown command-line argument provided
-#: ../glchess/src/glchess.vala:1618
+#: ../glchess/src/glchess.vala:1619
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options."
 msgstr "Запустите «%s --help», чтобы вывести список всех доступных параметров командной строки."
 
-#: ../glines/glines.c:89
-#: ../gnomine/gnomine.c:101
+#: ../glines/data/glines-preferences.ui.h:1
+#: ../gnect/src/prefs.c:333
+#: ../gnobots2/properties.c:538
+#: ../iagno/src/properties.c:508
+#: ../lightsoff/data/settings.ui.h:1
+#: ../swell-foop/data/settings.ui.h:1
+msgid "Appearance"
+msgstr "Вид"
+
+#: ../glines/data/glines-preferences.ui.h:2
+msgid "B_ackground color:"
+msgstr "Цвет _фона:"
+
+#: ../glines/data/glines-preferences.ui.h:3
+msgid "Board Size"
+msgstr "Размер игрового поля"
+
+#: ../glines/data/glines-preferences.ui.h:4
+msgid "Five or More Preferences"
+msgstr "Параметры игры «Цветные линии»"
+
+#: ../glines/data/glines-preferences.ui.h:5
+#| msgctxt "preferences"
+#| msgid "General"
+msgid "General"
+msgstr "Общие"
+
+#: ../glines/data/glines-preferences.ui.h:6
+msgid "_Image:"
+msgstr "_Шарики:"
+
+#: ../glines/data/glines-preferences.ui.h:7
+#| msgid "Large"
+msgid "_Large"
+msgstr "_Большой"
+
+#: ../glines/data/glines-preferences.ui.h:8
+#: ../gnome-sudoku/data/print_games.ui.h:9
+msgid "_Medium"
+msgstr "_Средний"
+
+#: ../glines/data/glines-preferences.ui.h:9
+#| msgid "Small"
+msgid "_Small"
+msgstr "_Маленький"
+
+#: ../glines/data/glines-preferences.ui.h:10
+msgid "_Use fast moves"
+msgstr "Использовать _быстрые ходы"
+
+#: ../glines/data/glines.ui.h:1
+#| msgctxt "number"
+#| msgid "0"
+msgid "0"
+msgstr "0"
+
+#: ../glines/data/glines.ui.h:2
+#| msgid "Five or More"
+msgid "Five or more"
+msgstr "Цветные линии"
+
+#: ../glines/data/glines.ui.h:3
+msgid "Next:"
+msgstr "Следующие:"
+
+#: ../glines/data/glines.ui.h:4
+#: ../gnobots2/statusbar.c:67
+#: ../gnomine/src/gnomine.vala:411
+#: ../quadrapassel/src/scoreframe.cpp:47
+msgid "Score:"
+msgstr "Счёт:"
+
+#: ../glines/glines.c:85
+#: ../gnomine/src/gnomine.vala:44
 msgctxt "board size"
 msgid "Small"
 msgstr "Маленькая"
 
-#: ../glines/glines.c:90
-#: ../gnomine/gnomine.c:102
+#: ../glines/glines.c:86
+#: ../gnomine/src/gnomine.vala:45
 msgctxt "board size"
 msgid "Medium"
 msgstr "Средняя"
 
-#: ../glines/glines.c:91
-#: ../gnomine/gnomine.c:103
+#: ../glines/glines.c:87
+#: ../gnomine/src/gnomine.vala:46
 msgctxt "board size"
 msgid "Large"
 msgstr "Большая"
 
-#: ../glines/glines.c:190
+#: ../glines/glines.c:174
 msgid "Could not load theme"
 msgstr "Не удалось загрузить тему"
 
-#: ../glines/glines.c:218
+#: ../glines/glines.c:202
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1167,7 +1238,7 @@ msgstr ""
 "%s\n"
 "Вместо него будет загружена тема по умолчанию."
 
-#: ../glines/glines.c:225
+#: ../glines/glines.c:209
 #, c-format
 msgid ""
 "Unable to locate file:\n"
@@ -1180,37 +1251,36 @@ msgstr ""
 "\n"
 "Проверьте установку игры Цветные линии"
 
-#: ../glines/glines.c:449
+#: ../glines/glines.c:414
 msgid "Match five objects of the same type in a row to score!"
 msgstr "Соберите пять шариков одинакового цвета в одну линию"
 
-#: ../glines/glines.c:511
+#: ../glines/glines.c:476
 msgid "GNOME Five or More"
 msgstr "Цветные линии"
 
-#: ../glines/glines.c:513
+#: ../glines/glines.c:478
 msgid "_Board size:"
 msgstr "Размер _доски:"
 
-#: ../glines/glines.c:530
+#: ../glines/glines.c:495
 #: ../swell-foop/src/Score.js:110
 msgid "Game Over!"
 msgstr "Игра окончена!"
 
 #. Can't move there!
-#: ../glines/glines.c:687
+#: ../glines/glines.c:652
 msgid "You can't move there!"
 msgstr "Сюда нельзя попасть!"
 
-#: ../glines/glines.c:1211
-#: ../glines/glines.c:1214
-#: ../glines/glines.c:1758
-#: ../glines/glines.c:1790
+#: ../glines/glines.c:1176
+#: ../glines/glines.c:1179
+#: ../glines/glines.c:1614
 #: ../glines/glines.desktop.in.in.h:1
 msgid "Five or More"
 msgstr "Цветные линии"
 
-#: ../glines/glines.c:1216
+#: ../glines/glines.c:1181
 msgid ""
 "GNOME port of the once-popular Color Lines game.\n"
 "\n"
@@ -1221,19 +1291,19 @@ msgstr ""
 "Цветные линии являются частью пакета GNOME Games."
 
 #. this doesn't work for anyone
-#: ../glines/glines.c:1222
+#: ../glines/glines.c:1187
 #: ../gnect/src/main.c:831
 #: ../gnibbles/main.c:174
 #: ../gnobots2/menu.c:267
-#: ../quadrapassel/tetris.cpp:1316
 #: ../gnome-sudoku/src/lib/main.py:688
-#: ../gnomine/gnomine.c:470
-#: ../gnotravex/gnotravex.c:1613
-#: ../gnotski/gnotski.c:1487
-#: ../gtali/gyahtzee.c:617
-#: ../iagno/gnothello.c:224
+#: ../gnomine/src/gnomine.vala:448
+#: ../gnotravex/src/gnotravex.vala:300
+#: ../gnotski/src/gnotski.c:1494
+#: ../gtali/src/gyahtzee.c:617
+#: ../iagno/src/gnothello.c:224
 #: ../lightsoff/src/About.js:20
-#: ../mahjongg/mahjongg.c:900
+#: ../mahjongg/src/mahjongg.vala:538
+#: ../quadrapassel/src/tetris.cpp:1316
 #: ../swell-foop/src/About.js:20
 msgid "translator-credits"
 msgstr ""
@@ -1243,110 +1313,65 @@ msgstr ""
 "Михаил Яхонтов\n"
 "Леонид Кантер"
 
-#: ../glines/glines.c:1403
-msgid "Five or More Preferences"
-msgstr "Параметры игры «Цветные линии»"
-
-#: ../glines/glines.c:1422
-#: ../gnect/src/prefs.c:333
-#: ../gnobots2/properties.c:535
-#: ../iagno/properties.c:508
-#: ../lightsoff/data/settings.ui.h:1
-#: ../swell-foop/data/settings.ui.h:1
-msgid "Appearance"
-msgstr "Вид"
-
-#: ../glines/glines.c:1430
-msgid "_Image:"
-msgstr "_Шарики:"
-
-#: ../glines/glines.c:1441
-msgid "B_ackground color:"
-msgstr "Цвет _фона:"
-
-#: ../glines/glines.c:1456
-msgid "Board Size"
-msgstr "Размер игрового поля"
-
-#: ../glines/glines.c:1475
-msgctxt "preferences"
-msgid "General"
-msgstr "Общие"
-
-#: ../glines/glines.c:1481
-msgid "_Use fast moves"
-msgstr "Использовать _быстрые ходы"
-
-#: ../glines/glines.c:1817
-msgid "Next:"
-msgstr "Следующие:"
-
-#: ../glines/glines.c:1847
-#: ../gnobots2/statusbar.c:67
-#: ../quadrapassel/scoreframe.cpp:47
-#: ../gnomine/gnomine.c:433
-msgid "Score:"
-msgstr "Счёт:"
-
 #: ../glines/glines.desktop.in.in.h:2
 msgid "Remove colored balls from the board by forming lines"
 msgstr "Убирайте разноцветные шарики с поля, выстраивая прямые линии одного цвета"
 
-#: ../glines/glines.schemas.in.h:1
+#: ../glines/org.gnome.glines.gschema.xml.in.h:1
 #: ../gnobots2/gnobots2.schemas.in.h:1
 msgid "Background color"
 msgstr "Цвет фона"
 
-#: ../glines/glines.schemas.in.h:2
+#: ../glines/org.gnome.glines.gschema.xml.in.h:2
 #: ../gnobots2/gnobots2.schemas.in.h:2
 msgid "Background color. The hex specification of the background color."
 msgstr "Цвет фона. Это шестнадцатеричное число, определяющее цвет фона."
 
-#: ../glines/glines.schemas.in.h:3
+#: ../glines/org.gnome.glines.gschema.xml.in.h:3
 msgid "Ball style"
 msgstr "Стиль шариков"
 
-#: ../glines/glines.schemas.in.h:4
+#: ../glines/org.gnome.glines.gschema.xml.in.h:4
 msgid "Ball style. The filename of the images to use for the balls."
 msgstr "Стиль шариков. Это имя файла изображения шариков."
 
-#: ../glines/glines.schemas.in.h:5
+#: ../glines/org.gnome.glines.gschema.xml.in.h:5
 msgid "Game field"
 msgstr "Игровое поле"
 
-#: ../glines/glines.schemas.in.h:6
+#: ../glines/org.gnome.glines.gschema.xml.in.h:6
 msgid "Game field from last saved session."
 msgstr "Игровое поле из последнего сохраненного сеанса игры."
 
-#: ../glines/glines.schemas.in.h:7
+#: ../glines/org.gnome.glines.gschema.xml.in.h:7
 msgid "Game preview"
 msgstr "Просмотр игры"
 
-#: ../glines/glines.schemas.in.h:8
+#: ../glines/org.gnome.glines.gschema.xml.in.h:8
 msgid "Game preview from last saved session."
 msgstr "Просмотр игры из последнего сохраненного сеанса игры."
 
-#: ../glines/glines.schemas.in.h:9
+#: ../glines/org.gnome.glines.gschema.xml.in.h:9
 msgid "Game score"
 msgstr "Результаты игры"
 
-#: ../glines/glines.schemas.in.h:10
+#: ../glines/org.gnome.glines.gschema.xml.in.h:10
 msgid "Game score from last saved session."
 msgstr "Таблица результатов из последнего сохраненного сеанса игры."
 
-#: ../glines/glines.schemas.in.h:11
+#: ../glines/org.gnome.glines.gschema.xml.in.h:11
 msgid "Playing field size"
 msgstr "Размер игрового поля"
 
-#: ../glines/glines.schemas.in.h:12
+#: ../glines/org.gnome.glines.gschema.xml.in.h:12
 msgid "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is invalid."
 msgstr "Размер игрового поля. 1 - маленькое, 2 - среднее, 3 - большое. Другие значения некорректны."
 
-#: ../glines/glines.schemas.in.h:13
+#: ../glines/org.gnome.glines.gschema.xml.in.h:13
 msgid "Time between moves"
 msgstr "Время между прыжками шариков"
 
-#: ../glines/glines.schemas.in.h:14
+#: ../glines/org.gnome.glines.gschema.xml.in.h:14
 msgid "Time between moves in milliseconds."
 msgstr "Время между прыжками шарика в миллисекундах"
 
@@ -1376,12 +1401,12 @@ msgid "Key press to drop a marble."
 msgstr "Нажмите клавишу для сброса шарика."
 
 #: ../gnect/data/gnect.schemas.in.h:5
-#: ../quadrapassel/quadrapassel.schemas.in.h:6
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:6
 msgid "Key press to move left."
 msgstr "Клавиша для перемещения влево."
 
 #: ../gnect/data/gnect.schemas.in.h:6
-#: ../quadrapassel/quadrapassel.schemas.in.h:7
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:7
 msgid "Key press to move right."
 msgstr "Клавиша для перемещения вправо."
 
@@ -1397,8 +1422,8 @@ msgstr "Уровень второго игрока"
 #: ../gnect/src/prefs.c:370
 #: ../gnibbles/gnibbles.schemas.in.h:16
 #: ../gnibbles/preferences.c:427
-#: ../quadrapassel/quadrapassel.schemas.in.h:13
-#: ../quadrapassel/tetris.cpp:751
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:13
+#: ../quadrapassel/src/tetris.cpp:751
 msgid "Move left"
 msgstr "Влево"
 
@@ -1406,14 +1431,14 @@ msgstr "Влево"
 #: ../gnect/src/prefs.c:371
 #: ../gnibbles/gnibbles.schemas.in.h:17
 #: ../gnibbles/preferences.c:428
-#: ../quadrapassel/quadrapassel.schemas.in.h:14
-#: ../quadrapassel/tetris.cpp:752
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:14
+#: ../quadrapassel/src/tetris.cpp:752
 msgid "Move right"
 msgstr "Вправо"
 
 #: ../gnect/data/gnect.schemas.in.h:11
-#: ../gnobots2/properties.c:483
-#: ../iagno/org.gnome.iagno.gschema.xml.in.h:1
+#: ../gnobots2/properties.c:485
+#: ../iagno/data/org.gnome.iagno.gschema.xml.in.h:1
 msgid "Sound"
 msgstr "Звук"
 
@@ -1422,7 +1447,7 @@ msgid "Theme ID"
 msgstr "Идентификатор темы"
 
 #: ../gnect/data/gnect.schemas.in.h:13
-#: ../iagno/org.gnome.iagno.gschema.xml.in.h:2
+#: ../iagno/data/org.gnome.iagno.gschema.xml.in.h:2
 msgid "Whether or not to play event sounds."
 msgstr "Воспроизводить ли звуковые события."
 
@@ -1512,7 +1537,7 @@ msgstr ""
 #: ../gnect/src/main.c:1188
 #: ../gnibbles/main.c:601
 #: ../gnobots2/menu.c:67
-#: ../gnotski/gnotski.c:410
+#: ../gnotski/src/gnotski.c:410
 msgid "_View"
 msgstr "_Вид"
 
@@ -1535,28 +1560,28 @@ msgstr ""
 "%s"
 
 #: ../gnect/src/prefs.c:249
-#: ../gtali/gyahtzee.c:998
-#: ../gtali/yahtzee.c:69
-#: ../iagno/properties.c:429
-#: ../iagno/properties.c:470
+#: ../gtali/src/gyahtzee.c:998
+#: ../gtali/src/yahtzee.c:69
+#: ../iagno/src/properties.c:429
+#: ../iagno/src/properties.c:470
 msgid "Human"
 msgstr "Человек"
 
 #: ../gnect/src/prefs.c:251
-#: ../iagno/properties.c:438
-#: ../iagno/properties.c:479
+#: ../iagno/src/properties.c:438
+#: ../iagno/src/properties.c:479
 msgid "Level one"
 msgstr "Первый уровень"
 
 #: ../gnect/src/prefs.c:253
-#: ../iagno/properties.c:447
-#: ../iagno/properties.c:488
+#: ../iagno/src/properties.c:447
+#: ../iagno/src/properties.c:488
 msgid "Level two"
 msgstr "Второй уровень"
 
 #: ../gnect/src/prefs.c:255
-#: ../iagno/properties.c:456
-#: ../iagno/properties.c:497
+#: ../iagno/src/properties.c:456
+#: ../iagno/src/properties.c:497
 msgid "Level three"
 msgstr "Третий уровень"
 
@@ -1574,15 +1599,15 @@ msgstr "Включить _анимацию"
 
 #: ../gnect/src/prefs.c:361
 #: ../gnibbles/preferences.c:321
-#: ../iagno/properties.c:417
+#: ../iagno/src/properties.c:417
 msgid "E_nable sounds"
 msgstr "Включить _звуки"
 
 #. keyboard tab
 #: ../gnect/src/prefs.c:366
 #: ../gnibbles/preferences.c:417
-#: ../gnobots2/properties.c:542
-#: ../quadrapassel/tetris.cpp:743
+#: ../gnobots2/properties.c:545
+#: ../quadrapassel/src/tetris.cpp:743
 msgid "Keyboard Controls"
 msgstr "Управление с клавиатуры:"
 
@@ -1609,13 +1634,11 @@ msgstr "Высококонтрастная"
 
 #: ../gnect/src/theme.c:54
 #: ../gnect/src/theme.c:61
-#| msgid "mice"
 msgid "Circle"
 msgstr "Круг"
 
 #: ../gnect/src/theme.c:54
 #: ../gnect/src/theme.c:61
-#| msgid "Controls"
 msgid "Cross"
 msgstr "Крест"
 
@@ -1700,31 +1723,31 @@ msgstr "Скорость:"
 
 #: ../gnibbles/gnibbles.c:369
 #: ../gnobots2/game.c:179
-#: ../gnomine/gnomine.c:224
-#: ../gnotravex/gnotravex.c:1090
-#: ../gnotski/gnotski.c:797
-#: ../gtali/gyahtzee.c:197
-#: ../mahjongg/mahjongg.c:622
+#: ../gnomine/src/gnomine.vala:243
+#: ../gnotravex/src/gnotravex.vala:211
+#: ../gnotski/src/gnotski.c:803
+#: ../gtali/src/gyahtzee.c:197
+#, c-format
 msgid "Congratulations!"
 msgstr "Поздравляем!"
 
 #: ../gnibbles/gnibbles.c:370
 #: ../gnobots2/game.c:180
-#: ../gnomine/gnomine.c:225
-#: ../gnotravex/gnotravex.c:1091
-#: ../gnotski/gnotski.c:798
-#: ../gtali/gyahtzee.c:198
-#: ../mahjongg/mahjongg.c:623
+#: ../gnomine/src/gnomine.vala:243
+#: ../gnotravex/src/gnotravex.vala:211
+#: ../gnotski/src/gnotski.c:804
+#: ../gtali/src/gyahtzee.c:198
+#: ../mahjongg/src/mahjongg.vala:265
 msgid "Your score is the best!"
 msgstr "Ваш результат - лучший!"
 
 #: ../gnibbles/gnibbles.c:371
 #: ../gnobots2/game.c:181
-#: ../gnomine/gnomine.c:226
-#: ../gnotravex/gnotravex.c:1092
-#: ../gnotski/gnotski.c:799
-#: ../gtali/gyahtzee.c:199
-#: ../mahjongg/mahjongg.c:624
+#: ../gnomine/src/gnomine.vala:243
+#: ../gnotravex/src/gnotravex.vala:211
+#: ../gnotski/src/gnotski.c:805
+#: ../gtali/src/gyahtzee.c:199
+#: ../mahjongg/src/mahjongg.vala:267
 msgid "Your score has made the top ten."
 msgstr "Ваш результат попал в десятку лучших."
 
@@ -1799,8 +1822,8 @@ msgstr "Кнопка для движения вверх."
 
 #: ../gnibbles/gnibbles.schemas.in.h:15
 #: ../gnibbles/preferences.c:430
-#: ../quadrapassel/quadrapassel.schemas.in.h:12
-#: ../quadrapassel/tetris.cpp:753
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:12
+#: ../quadrapassel/src/tetris.cpp:753
 msgid "Move down"
 msgstr "Двигаться вниз"
 
@@ -1936,8 +1959,8 @@ msgstr "Мастер работы с кнопками"
 #. Options
 #: ../gnibbles/preferences.c:294
 #: ../gnibbles/preferences.c:436
-#: ../gnobots2/properties.c:460
-#: ../iagno/properties.c:547
+#: ../gnobots2/properties.c:461
+#: ../iagno/src/properties.c:547
 msgid "Options"
 msgstr "Параметры"
 
@@ -1951,7 +1974,7 @@ msgstr "Разрешить _фальшивые бонусы"
 
 #. starting level
 #: ../gnibbles/preferences.c:334
-#: ../quadrapassel/tetris.cpp:643
+#: ../quadrapassel/src/tetris.cpp:643
 msgid "_Starting level:"
 msgstr "_Начальный уровень:"
 
@@ -1997,21 +2020,21 @@ msgid "Worm %d:"
 msgstr "Червяк %d:"
 
 #: ../gnobots2/game.c:150
-#: ../gtali/gyahtzee.c:215
+#: ../gtali/src/gyahtzee.c:215
 msgid "Game over!"
 msgstr "Игра закончена!"
 
 #: ../gnobots2/game.c:152
-#: ../gnomine/gnomine.c:200
-#: ../gnotski/gnotski.c:772
+#: ../gnomine/src/gnomine.vala:226
+#: ../gnotski/src/gnotski.c:778
 msgid "Great work, but unfortunately your score did not make the top ten."
 msgstr "К сожалению, ваш результат недостаточен для попадания в десятку лучших."
 
 #. Translators: This "_New Game" is for the game-over dialogue
 #: ../gnobots2/game.c:154
 #: ../gnome-sudoku/data/select_game.ui.h:1
-#: ../gnomine/gnomine.c:202
-#: ../gnotski/gnotski.c:774
+#: ../gnomine/src/gnomine.vala:228
+#: ../gnotski/src/gnotski.c:780
 #: ../libgames-support/games-stock.c:255
 msgid "_New Game"
 msgstr "_Новая игра"
@@ -2021,8 +2044,8 @@ msgid "Robots Scores"
 msgstr "Результаты игры Роботы"
 
 #: ../gnobots2/game.c:170
-#: ../mahjongg/mahjongg.c:620
-#: ../mahjongg/mahjongg.c:945
+#: ../mahjongg/src/mahjongg.vala:261
+#: ../mahjongg/src/mahjongg.vala:562
 msgid "Map:"
 msgstr "Карта:"
 
@@ -2044,130 +2067,18 @@ msgstr "Нет больше мест для телепортации!!"
 msgid "There are no safe locations to teleport to!!"
 msgstr "Нет безопасных мест для телепортации!!"
 
-#: ../gnobots2/gnobots.c:85
-msgid "Set game scenario"
-msgstr "Определить сценарий игры"
-
-#: ../gnobots2/gnobots.c:85
-#: ../gnobots2/gnobots.c:87
-msgid "NAME"
-msgstr "ИМЯ"
-
-#: ../gnobots2/gnobots.c:87
-msgid "Set game configuration"
-msgstr "Настроить игру"
-
-#: ../gnobots2/gnobots.c:89
-#: ../gnobots2/gnobots.c:91
-msgid "Initial window position"
-msgstr "Начальное положение окна"
-
-#: ../gnobots2/gnobots.c:89
-#: ../gnomine/gnomine.c:914
-#: ../gnomine/gnomine.c:922
-#: ../gnotravex/gnotravex.c:262
-#: ../gnotski/gnotski.c:457
-#: ../iagno/gnothello.c:139
-msgid "X"
-msgstr "X"
-
-#: ../gnobots2/gnobots.c:91
-#: ../gnomine/gnomine.c:916
-#: ../gnomine/gnomine.c:924
-#: ../gnotravex/gnotravex.c:264
-#: ../gnotski/gnotski.c:459
-#: ../iagno/gnothello.c:141
-msgid "Y"
-msgstr "Y"
-
-#: ../gnobots2/gnobots.c:96
-msgid "Classic robots"
-msgstr "Классические роботы"
-
-#: ../gnobots2/gnobots.c:97
-msgid "Classic robots with safe moves"
-msgstr "Классические роботы с безопасными ходами"
-
-#: ../gnobots2/gnobots.c:98
-msgid "Classic robots with super-safe moves"
-msgstr "Классические роботы с особо безопасными ходами"
-
-#: ../gnobots2/gnobots.c:99
-msgid "Nightmare"
-msgstr "Кошмар"
-
-#: ../gnobots2/gnobots.c:100
-msgid "Nightmare with safe moves"
-msgstr "Кошмар с безопасными ходами"
-
-#: ../gnobots2/gnobots.c:101
-msgid "Nightmare with super-safe moves"
-msgstr "Кошмар с особо безопасными ходами"
-
-#: ../gnobots2/gnobots.c:102
-msgid "Robots2"
-msgstr "Роботы2"
-
-#: ../gnobots2/gnobots.c:103
-msgid "Robots2 with safe moves"
-msgstr "Роботы2 с безопасными ходами"
-
-#: ../gnobots2/gnobots.c:104
-msgid "Robots2 with super-safe moves"
-msgstr "Роботы2 с особо безопасными ходами"
-
-#: ../gnobots2/gnobots.c:105
-msgid "Robots2 easy"
-msgstr "Простые Роботы 2"
-
-#: ../gnobots2/gnobots.c:106
-msgid "Robots2 easy with safe moves"
-msgstr "Роботы2 с безопасными ходами"
-
-#: ../gnobots2/gnobots.c:107
-msgid "Robots2 easy with super-safe moves"
-msgstr "Роботы2 с особо безопасными ходами"
-
-#: ../gnobots2/gnobots.c:108
-msgid "Robots with safe teleport"
-msgstr "Роботы с безопасными телепортациями"
-
-#: ../gnobots2/gnobots.c:109
-msgid "Robots with safe teleport with safe moves"
-msgstr "Роботы с безопасными телепортациями и безопасными ходами"
-
-#: ../gnobots2/gnobots.c:110
-msgid "Robots with safe teleport with super-safe moves"
-msgstr "Роботы с безопасными телепортациями и особо безопасными ходами"
-
-#: ../gnobots2/gnobots.c:237
-#: ../gnobots2/gnobots.c:258
-#: ../gnobots2/gnobots2.desktop.in.in.h:2
-#: ../gnobots2/menu.c:256
-#: ../gnobots2/menu.c:259
-msgid "Robots"
-msgstr "Роботы"
-
-#: ../gnobots2/gnobots.c:321
-msgid "No game data could be found."
-msgstr "Не найдены данные игры."
-
-#: ../gnobots2/gnobots.c:323
-msgid "The program Robots was unable to find any valid game configuration files. Please check that the program is installed correctly."
-msgstr "Программа Роботы не смогла найти ни одного файла настроек. Проверьте корректность установки игры."
-
-#: ../gnobots2/gnobots.c:339
-msgid "Some graphics files are missing or corrupt."
-msgstr "Некоторые файлы изображений отсутствуют или повреждены."
-
-#: ../gnobots2/gnobots.c:341
-msgid "The program Robots was unable to load all the necessary graphics files. Please check that the program is installed correctly."
-msgstr "Программа Роботы не смогла найти все необходимые изображения. Проверьте корректность установки игры."
-
 #. ********************************************************************
 #: ../gnobots2/gnobots2.desktop.in.in.h:1
 msgid "Avoid the robots and make them crash into each other"
 msgstr "Убегайте от роботов, заставляя их сталкиваться друг с другом. "
+
+#: ../gnobots2/gnobots2.desktop.in.in.h:2
+#: ../gnobots2/gnobots.c:237
+#: ../gnobots2/gnobots.c:258
+#: ../gnobots2/menu.c:256
+#: ../gnobots2/menu.c:259
+msgid "Robots"
+msgstr "Роботы"
 
 #: ../gnobots2/gnobots2.schemas.in.h:3
 msgid "Enable game sounds"
@@ -2186,62 +2097,62 @@ msgid "Game type. The name of the game variation to use."
 msgstr "Тип игры. Название используемого варианта игры."
 
 #: ../gnobots2/gnobots2.schemas.in.h:7
-#: ../gnobots2/properties.c:557
+#: ../gnobots2/properties.c:560
 msgid "Key to hold"
 msgstr "Клавиша, чтобы остаться на месте"
 
 #: ../gnobots2/gnobots2.schemas.in.h:8
-#: ../gnobots2/properties.c:553
+#: ../gnobots2/properties.c:556
 msgid "Key to move E"
 msgstr "Клавиша для перемещения вправо."
 
 #: ../gnobots2/gnobots2.schemas.in.h:9
-#: ../gnobots2/properties.c:550
+#: ../gnobots2/properties.c:553
 msgid "Key to move N"
 msgstr "Клавиша для перемещения вверх."
 
 #: ../gnobots2/gnobots2.schemas.in.h:10
-#: ../gnobots2/properties.c:551
+#: ../gnobots2/properties.c:554
 msgid "Key to move NE"
 msgstr "Клавиша для перемещения вправо и вверх."
 
 #: ../gnobots2/gnobots2.schemas.in.h:11
-#: ../gnobots2/properties.c:549
+#: ../gnobots2/properties.c:552
 msgid "Key to move NW"
 msgstr "Клавиша для перемещения влево и вверх."
 
 #: ../gnobots2/gnobots2.schemas.in.h:12
-#: ../gnobots2/properties.c:555
+#: ../gnobots2/properties.c:558
 msgid "Key to move S"
 msgstr "Клавиша для перемещения вниз."
 
 #: ../gnobots2/gnobots2.schemas.in.h:13
-#: ../gnobots2/properties.c:556
+#: ../gnobots2/properties.c:559
 msgid "Key to move SE"
 msgstr "Клавиша для перемещения вправо и вниз."
 
 #: ../gnobots2/gnobots2.schemas.in.h:14
-#: ../gnobots2/properties.c:554
+#: ../gnobots2/properties.c:557
 msgid "Key to move SW"
 msgstr "Клавиша для перемещения влево и вниз."
 
 #: ../gnobots2/gnobots2.schemas.in.h:15
-#: ../gnobots2/properties.c:552
+#: ../gnobots2/properties.c:555
 msgid "Key to move W"
 msgstr "Клавиша для перемещения влево."
 
 #: ../gnobots2/gnobots2.schemas.in.h:16
-#: ../gnobots2/properties.c:558
+#: ../gnobots2/properties.c:561
 msgid "Key to teleport"
 msgstr "Клавиша для телепортации"
 
 #: ../gnobots2/gnobots2.schemas.in.h:17
-#: ../gnobots2/properties.c:559
+#: ../gnobots2/properties.c:562
 msgid "Key to teleport randomly"
 msgstr "Клавиша для случайной телепортации"
 
 #: ../gnobots2/gnobots2.schemas.in.h:18
-#: ../gnobots2/properties.c:560
+#: ../gnobots2/properties.c:563
 msgid "Key to wait"
 msgstr "Клавиша для ожидания"
 
@@ -2325,14 +2236,120 @@ msgstr "Использовать особо безопасные ходы"
 msgid "Use super safe moves. The player is alerted when there is no safe move and the only option is to teleport out."
 msgstr "Использовать особо безопасные ходы. Игрок предупреждается, если больше нет безопасных ходов и срочно необходима телепортация."
 
+#: ../gnobots2/gnobots.c:85
+msgid "Set game scenario"
+msgstr "Определить сценарий игры"
+
+#: ../gnobots2/gnobots.c:85
+#: ../gnobots2/gnobots.c:87
+msgid "NAME"
+msgstr "ИМЯ"
+
+#: ../gnobots2/gnobots.c:87
+msgid "Set game configuration"
+msgstr "Настроить игру"
+
+#: ../gnobots2/gnobots.c:89
+#: ../gnobots2/gnobots.c:91
+msgid "Initial window position"
+msgstr "Начальное положение окна"
+
+#: ../gnobots2/gnobots.c:89
+#: ../gnotski/src/gnotski.c:457
+#: ../iagno/src/gnothello.c:139
+msgid "X"
+msgstr "X"
+
+#: ../gnobots2/gnobots.c:91
+#: ../gnotski/src/gnotski.c:459
+#: ../iagno/src/gnothello.c:141
+msgid "Y"
+msgstr "Y"
+
+#: ../gnobots2/gnobots.c:96
+msgid "Classic robots"
+msgstr "Классические роботы"
+
+#: ../gnobots2/gnobots.c:97
+msgid "Classic robots with safe moves"
+msgstr "Классические роботы с безопасными ходами"
+
+#: ../gnobots2/gnobots.c:98
+msgid "Classic robots with super-safe moves"
+msgstr "Классические роботы с особо безопасными ходами"
+
+#: ../gnobots2/gnobots.c:99
+msgid "Nightmare"
+msgstr "Кошмар"
+
+#: ../gnobots2/gnobots.c:100
+msgid "Nightmare with safe moves"
+msgstr "Кошмар с безопасными ходами"
+
+#: ../gnobots2/gnobots.c:101
+msgid "Nightmare with super-safe moves"
+msgstr "Кошмар с особо безопасными ходами"
+
+#: ../gnobots2/gnobots.c:102
+msgid "Robots2"
+msgstr "Роботы2"
+
+#: ../gnobots2/gnobots.c:103
+msgid "Robots2 with safe moves"
+msgstr "Роботы2 с безопасными ходами"
+
+#: ../gnobots2/gnobots.c:104
+msgid "Robots2 with super-safe moves"
+msgstr "Роботы2 с особо безопасными ходами"
+
+#: ../gnobots2/gnobots.c:105
+msgid "Robots2 easy"
+msgstr "Простые Роботы 2"
+
+#: ../gnobots2/gnobots.c:106
+msgid "Robots2 easy with safe moves"
+msgstr "Роботы2 с безопасными ходами"
+
+#: ../gnobots2/gnobots.c:107
+msgid "Robots2 easy with super-safe moves"
+msgstr "Роботы2 с особо безопасными ходами"
+
+#: ../gnobots2/gnobots.c:108
+msgid "Robots with safe teleport"
+msgstr "Роботы с безопасными телепортациями"
+
+#: ../gnobots2/gnobots.c:109
+msgid "Robots with safe teleport with safe moves"
+msgstr "Роботы с безопасными телепортациями и безопасными ходами"
+
+#: ../gnobots2/gnobots.c:110
+msgid "Robots with safe teleport with super-safe moves"
+msgstr "Роботы с безопасными телепортациями и особо безопасными ходами"
+
+#: ../gnobots2/gnobots.c:321
+msgid "No game data could be found."
+msgstr "Не найдены данные игры."
+
+#: ../gnobots2/gnobots.c:323
+msgid "The program Robots was unable to find any valid game configuration files. Please check that the program is installed correctly."
+msgstr "Программа Роботы не смогла найти ни одного файла настроек. Проверьте корректность установки игры."
+
+#: ../gnobots2/gnobots.c:339
+msgid "Some graphics files are missing or corrupt."
+msgstr "Некоторые файлы изображений отсутствуют или повреждены."
+
+#: ../gnobots2/gnobots.c:341
+msgid "The program Robots was unable to load all the necessary graphics files. Please check that the program is installed correctly."
+msgstr "Программа Роботы не смогла найти все необходимые изображения. Проверьте корректность установки игры."
+
 #: ../gnobots2/graphics.c:153
-#: ../iagno/gnothello.c:403
+#: ../iagno/src/gnothello.c:403
 #, c-format
 msgid "Could not find '%s' pixmap file\n"
 msgstr "Не удалось найти файл изображения «%s»\n"
 
 #: ../gnobots2/menu.c:68
-#: ../gnotravex/gnotravex.c:1708
+#: ../gnotravex/src/gnotravex.vala:351
 msgid "_Move"
 msgstr "_Ход"
 
@@ -2361,12 +2378,12 @@ msgid "Wait for the robots"
 msgstr "Ожидание роботов"
 
 #: ../gnobots2/menu.c:90
-#: ../mahjongg/mahjongg.c:1215
+#: ../mahjongg/src/mahjongg.vala:669
 msgid "_Toolbar"
 msgstr "Панель _инструментов"
 
 #: ../gnobots2/menu.c:90
-#: ../mahjongg/mahjongg.c:1215
+#: ../mahjongg/src/mahjongg.vala:669
 msgid "Show or hide the toolbar"
 msgstr "Показать или скрыть панель инструментов"
 
@@ -2434,53 +2451,53 @@ msgstr "Параметры игры «Роботы»"
 
 #. --- Combo (yahtzee or kismet style ----
 #: ../gnobots2/properties.c:445
-#: ../gtali/setup.c:360
+#: ../gtali/src/setup.c:360
 msgid "Game Type"
 msgstr "Тип игры"
 
-#: ../gnobots2/properties.c:465
+#: ../gnobots2/properties.c:467
 msgid "_Use safe moves"
 msgstr "Использовать _безопасные ходы"
 
-#: ../gnobots2/properties.c:472
+#: ../gnobots2/properties.c:474
 msgid "Prevent accidental moves that result in getting killed."
 msgstr "Предотвращать случайные ходы, которые закончатся смертью."
 
-#: ../gnobots2/properties.c:474
+#: ../gnobots2/properties.c:476
 msgid "U_se super safe moves"
 msgstr "Использовать _особо безопасные ходы"
 
-#: ../gnobots2/properties.c:481
+#: ../gnobots2/properties.c:483
 msgid "Prevents all moves that result in getting killed."
 msgstr "Предотвращать все ходы, которые закончатся смертью."
 
-#: ../gnobots2/properties.c:488
-#: ../quadrapassel/tetris.cpp:669
+#: ../gnobots2/properties.c:491
+#: ../quadrapassel/src/tetris.cpp:669
 msgid "_Enable sounds"
 msgstr "Включить _звуки"
 
-#: ../gnobots2/properties.c:494
+#: ../gnobots2/properties.c:497
 msgid "Play sounds for events like winning a level and dying."
 msgstr "Проигрывать звук для событий победы и смерти."
 
-#: ../gnobots2/properties.c:504
+#: ../gnobots2/properties.c:507
 msgid "Graphics Theme"
 msgstr "Графическая тема"
 
-#: ../gnobots2/properties.c:512
+#: ../gnobots2/properties.c:515
 msgid "_Image theme:"
 msgstr "_Тема роботов:"
 
-#: ../gnobots2/properties.c:523
-#: ../mahjongg/mahjongg.c:728
+#: ../gnobots2/properties.c:526
+#: ../mahjongg/src/mahjongg.vala:415
 msgid "_Background color:"
 msgstr "_Цвет фона:"
 
-#: ../gnobots2/properties.c:569
+#: ../gnobots2/properties.c:572
 msgid "_Restore Defaults"
 msgstr "Параметры по _умолчанию:"
 
-#: ../gnobots2/properties.c:574
+#: ../gnobots2/properties.c:577
 msgid "Keyboard"
 msgstr "Клавиатура"
 
@@ -2489,7 +2506,7 @@ msgid "Safe Teleports:"
 msgstr "Безопасные телепортации:"
 
 #: ../gnobots2/statusbar.c:87
-#: ../quadrapassel/scoreframe.cpp:68
+#: ../quadrapassel/src/scoreframe.cpp:68
 msgid "Level:"
 msgstr "Уровень:"
 
@@ -2498,252 +2515,6 @@ msgid "Remaining:"
 msgstr "Осталось:"
 
 #. ********************************************************************
-#: ../quadrapassel/quadrapassel.desktop.in.in.h:1
-msgid "Fit falling blocks together"
-msgstr "Укладывайте падающие блоки вместе"
-
-#: ../quadrapassel/quadrapassel.desktop.in.in.h:2
-#: ../quadrapassel/main.cpp:66
-#: ../quadrapassel/tetris.cpp:158
-#: ../quadrapassel/tetris.cpp:1305
-#: ../quadrapassel/tetris.cpp:1308
-msgid "Quadrapassel"
-msgstr "Quadrapassel"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:1
-#: ../quadrapassel/tetris.cpp:754
-msgid "Drop"
-msgstr "Бросить"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:2
-msgid "Image to use for drawing blocks"
-msgstr "Изображение для блоков"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:3
-msgid "Image to use for drawing blocks."
-msgstr "Изображение для блоков."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:4
-msgid "Key press to drop."
-msgstr "Клавиша для сброса."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:5
-msgid "Key press to move down."
-msgstr "Клавиша для перемещения вниз."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:8
-msgid "Key press to pause."
-msgstr "Клавиша для паузы."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:9
-msgid "Key press to rotate."
-msgstr "Нажмите клавишу для поворота."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:10
-msgid "Level to start with"
-msgstr "Начальный уровень"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:11
-msgid "Level to start with."
-msgstr "Начальный уровень."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:15
-#: ../quadrapassel/tetris.cpp:756
-msgid "Pause"
-msgstr "Пауза"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:16
-#: ../quadrapassel/tetris.cpp:755
-msgid "Rotate"
-msgstr "Поворот"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:17
-msgid "The background color"
-msgstr "Цвет фона"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:18
-msgid "The background color, in a format gdk_color_parse understands."
-msgstr "Цвет фона в формате, распознаваемом gdk_color_parse."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:19
-msgid "The density of blocks in rows filled at the start of the game. The value is between 0 (for no blocks) and 10 (for a completely filled row)."
-msgstr "Количество рядов блоков в начале игры. Принимает значения от 0 (нет блоков) до 10 (полностью заполненный стакан)."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:20
-msgid "The density of filled rows"
-msgstr "Плотность блоков в заполненных строках"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:21
-msgid "The name of the theme used for rendering the blocks and the background."
-msgstr "Тема, используемая для рисования блоков и фона."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:22
-msgid "The number of rows that are filled with random blocks at the start of the game."
-msgstr "Число рядов, заполненных случайными блоками в начале игры."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:23
-msgid "The number of rows to fill"
-msgstr "Число заполняемый рядов"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:24
-msgid "The theme used for rendering the blocks"
-msgstr "Тема блоков"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:25
-msgid "This selects whether or not to draw the background image over the background color."
-msgstr "Отрисовывать ли фоновое изображение над фоном, заполненным цветом."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:26
-msgid "Whether to give blocks random colors"
-msgstr "Использовать разноцветные блоки"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:27
-msgid "Whether to give blocks random colors."
-msgstr "Использовать разноцветные блоки."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:28
-msgid "Whether to preview the next block"
-msgstr "Показывать следующий блок"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:29
-msgid "Whether to preview the next block."
-msgstr "Показывать следующий блок."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:30
-msgid "Whether to provide a graphical representation of where a block will land."
-msgstr "Показывать, куда упадёт блок."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:31
-msgid "Whether to provide a target"
-msgstr "Показывать цель"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:32
-msgid "Whether to rotate counter clock wise"
-msgstr "Вращать по часовой стрелке"
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:33
-msgid "Whether to rotate counter clock wise."
-msgstr "Вращать по часовой стрелке."
-
-#: ../quadrapassel/quadrapassel.schemas.in.h:34
-msgid "Whether to use the background image"
-msgstr "Использовать фоновое изображение"
-
-#: ../quadrapassel/main.cpp:48
-msgid "Set starting level (1 or greater)"
-msgstr "Установить начальный уровень (1 или больше)"
-
-#: ../quadrapassel/main.cpp:48
-msgid "LEVEL"
-msgstr "УРОВЕНЬ"
-
-#: ../quadrapassel/renderer.cpp:30
-msgid "Plain"
-msgstr "Простой"
-
-#: ../quadrapassel/renderer.cpp:31
-msgid "Tango Flat"
-msgstr "Простой Танго"
-
-#: ../quadrapassel/renderer.cpp:32
-msgid "Tango Shaded"
-msgstr "Танго с тенями"
-
-#: ../quadrapassel/renderer.cpp:33
-msgid "Clean"
-msgstr "Очистить"
-
-#: ../quadrapassel/scoreframe.cpp:57
-msgid "Lines:"
-msgstr "Линии:"
-
-#: ../quadrapassel/tetris.cpp:576
-msgid "Quadrapassel Preferences"
-msgstr "Параметры Quadrapassel"
-
-#: ../quadrapassel/tetris.cpp:599
-#: ../swell-foop/data/settings.ui.h:5
-msgid "Setup"
-msgstr "Настройка"
-
-#. pre-filled rows
-#: ../quadrapassel/tetris.cpp:605
-msgid "_Number of pre-filled rows:"
-msgstr "_Число заранее заполненных строк:"
-
-#. pre-filled rows density
-#: ../quadrapassel/tetris.cpp:624
-msgid "_Density of blocks in a pre-filled row:"
-msgstr "_Плотность блоков в заполненных строках:"
-
-#: ../quadrapassel/tetris.cpp:664
-#: ../swell-foop/data/settings.ui.h:4
-msgid "Operation"
-msgstr "Игровой процесс"
-
-#: ../quadrapassel/tetris.cpp:678
-msgid "_Preview next block"
-msgstr "Показывать _следующий блок"
-
-#: ../quadrapassel/tetris.cpp:687
-msgid "_Use random block colors"
-msgstr "_Использовать разноцветные блоки"
-
-#: ../quadrapassel/tetris.cpp:698
-msgid "Choose difficult _blocks"
-msgstr "Выбирать _сложные блоки"
-
-#: ../quadrapassel/tetris.cpp:714
-msgid "_Rotate blocks counterclockwise"
-msgstr "Вращение против часовой стр_елки"
-
-#: ../quadrapassel/tetris.cpp:723
-msgid "Show _where the block will land"
-msgstr "Показывать место попадания _блока"
-
-#: ../quadrapassel/tetris.cpp:731
-#: ../quadrapassel/tetris.cpp:764
-msgid "Theme"
-msgstr "Тема"
-
-#: ../quadrapassel/tetris.cpp:740
-msgid "Controls"
-msgstr "Управление"
-
-#: ../quadrapassel/tetris.cpp:767
-msgid "Block Style"
-msgstr "Стиль блоков"
-
-#: ../quadrapassel/tetris.cpp:1310
-msgid ""
-"A classic game of fitting falling blocks together.\n"
-"\n"
-"Quadrapassel is a part of GNOME Games."
-msgstr ""
-"Классическая игра укладки падающих блоков.\n"
-"\n"
-"Quadrapassel является частью GNOME Games."
-
-#: ../quadrapassel/highscores.cpp:48
-msgid "Quadrapassel Scores"
-msgstr "Результаты Quadrapassel"
-
-#: ../quadrapassel/blockops.cpp:786
-msgid "Paused"
-msgstr "Пауза"
-
-#: ../quadrapassel/blockops.cpp:788
-msgid "Game Over"
-msgstr "Игра окончена"
-
-#: ../gnome-sudoku/gnome-sudoku.desktop.in.in.h:1
-msgid "Sudoku"
-msgstr "Судоку"
-
-#: ../gnome-sudoku/gnome-sudoku.desktop.in.in.h:2
-msgid "Test your logic skills in this number grid puzzle"
-msgstr "Проверьте логические способности в этой головоломке расстановки чисел"
-
 #: ../gnome-sudoku/data/gnome-sudoku.schemas.in.h:1
 msgid "Color of the grid border"
 msgstr "Цвет линий сетки"
@@ -2816,10 +2587,6 @@ msgstr "_Включать уже решённые головоломки в за
 msgid "_Mark games as played once you've printed them."
 msgstr "_Отмечать головоломки как сыгранные после их печати."
 
-#: ../gnome-sudoku/data/print_games.ui.h:9
-msgid "_Medium"
-msgstr "_Средний"
-
 #: ../gnome-sudoku/data/print_games.ui.h:10
 msgid "_Number of sudoku to print: "
 msgstr "_Число судоку для печати: "
@@ -2857,53 +2624,122 @@ msgstr "Сделать отслеживаемые изменения посто�
 msgid "Remove the selected tracker"
 msgstr "Удалить выбранный трассировщик"
 
-#: ../gnome-sudoku/src/lib/saver.py:138
-msgid "No Space"
-msgstr "Нет места"
+#: ../gnome-sudoku/gnome-sudoku.desktop.in.in.h:1
+msgid "Sudoku"
+msgstr "Судоку"
 
-#: ../gnome-sudoku/src/lib/saver.py:139
-msgid "No space left on disk"
-msgstr "На диске не осталось места"
+#: ../gnome-sudoku/gnome-sudoku.desktop.in.in.h:2
+msgid "Test your logic skills in this number grid puzzle"
+msgstr "Проверьте логические способности в этой головоломке расстановки чисел"
 
-#: ../gnome-sudoku/src/lib/saver.py:141
-#: ../gnome-sudoku/src/lib/saver.py:148
+#: ../gnome-sudoku/src/lib/game_selector.py:121
+#: ../gnome-sudoku/src/lib/main.py:646
+#: ../gnome-sudoku/src/lib/printing.py:182
+msgid "Easy"
+msgstr "Лёгкий"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:122
+#: ../gnome-sudoku/src/lib/main.py:647
+#: ../gnome-sudoku/src/lib/printing.py:183
+msgid "Medium"
+msgstr "Средний"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:123
+#: ../gnome-sudoku/src/lib/main.py:648
+#: ../gnome-sudoku/src/lib/printing.py:184
+msgid "Hard"
+msgstr "Тяжелый"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:124
+#: ../gnome-sudoku/src/lib/printing.py:185
+msgid "Very hard"
+msgstr "Очень тяжёлый"
+
+#. Then we're today
+#. within the minute
+#: ../gnome-sudoku/src/lib/game_selector.py:160
 #, python-format
-msgid "Unable to create data folder %(path)s."
-msgstr "Не удалось создать каталог данных %(path)s."
+msgid "Last played %(n)s second ago"
+msgid_plural "Last played %(n)s seconds ago"
+msgstr[0] "Сыграно в последний раз %(n)s секунду назад"
+msgstr[1] "Сыграно в последний раз %(n)s секунды назад"
+msgstr[2] "Сыграно в последний раз %(n)s секунд назад"
 
-#: ../gnome-sudoku/src/lib/saver.py:142
-msgid "There is no disk space left!"
-msgstr "На диске не осталось места!"
-
-#: ../gnome-sudoku/src/lib/saver.py:149
-#: ../gnome-sudoku/src/lib/saver.py:174
-#: ../gnome-sudoku/src/lib/saver.py:198
-#: ../gnome-sudoku/src/lib/saver.py:216
+#: ../gnome-sudoku/src/lib/game_selector.py:164
 #, python-format
-msgid "Error %(errno)s: %(error)s"
-msgstr "Ошибка %(errno)s: %(error)s"
+msgid "Last played %(n)s minute ago"
+msgid_plural "Last played %(n)s minutes ago"
+msgstr[0] "Сыграно в последний раз %(n)s минуту назад"
+msgstr[1] "Сыграно в последний раз %(n)s минуты назад"
+msgstr[2] "Сыграно в последний раз %(n)s минут назад"
 
-#: ../gnome-sudoku/src/lib/saver.py:169
-#: ../gnome-sudoku/src/lib/saver.py:170
-msgid "Unable to save game."
-msgstr "Не удалось сохранить игру."
+#. Translators, see strftime manual in order to translate %? format strings
+#: ../gnome-sudoku/src/lib/game_selector.py:168
+msgid "Last played at %I:%M %p"
+msgstr "Сыграно в последний в %I:%M %p"
 
-#: ../gnome-sudoku/src/lib/saver.py:172
-#: ../gnome-sudoku/src/lib/saver.py:197
-#: ../gnome-sudoku/src/lib/saver.py:215
+#. Translators, see strftime manual in order to translate %? format strings
+#: ../gnome-sudoku/src/lib/game_selector.py:171
+msgid "Last played yesterday at %I:%M %p"
+msgstr "Сыграно в последний раз вчера в %I:%M %p"
+
+#. Translators, see strftime manual in order to translate %? format strings
+#: ../gnome-sudoku/src/lib/game_selector.py:174
+msgid "Last played on %A at %I:%M %p"
+msgstr "Сыграно в последний раз %A в %I:%M %p"
+
+#. Translators, see strftime manual in order to translate %? format strings
+#: ../gnome-sudoku/src/lib/game_selector.py:177
+msgid "Last played on %B %e %Y"
+msgstr "Сыграно в последний раз %B %e %Y"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:190
+msgid "Easy puzzle"
+msgstr "Простая головоломка"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:191
+msgid "Medium puzzle"
+msgstr "Средняя головоломка"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:192
+msgid "Hard puzzle"
+msgstr "Сложная головоломка"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:193
+msgid "Very hard puzzle"
+msgstr "Очень сложная головоломка"
+
+#: ../gnome-sudoku/src/lib/game_selector.py:199
 #, python-format
-msgid "Unable to save file %(filename)s."
-msgstr "Не удалось сохранить игру %(filename)s."
+msgid "Played for %d hour"
+msgid_plural "Played for %d hours"
+msgstr[0] "Сыгран %d час"
+msgstr[1] "Сыграно %d часа"
+msgstr[2] "Сыграно %d часов"
 
-#: ../gnome-sudoku/src/lib/saver.py:194
-#: ../gnome-sudoku/src/lib/saver.py:195
-msgid "Unable to mark game as finished."
-msgstr "Не удалось пометить игру как законченную."
+#: ../gnome-sudoku/src/lib/game_selector.py:202
+#, python-format
+msgid "Played for %d minute"
+msgid_plural "Played for %d minutes"
+msgstr[0] "Сыграна %d минута"
+msgstr[1] "Сыграно %d минуты"
+msgstr[2] "Сыграно %d минут"
 
-#: ../gnome-sudoku/src/lib/saver.py:212
-#: ../gnome-sudoku/src/lib/saver.py:213
-msgid "Sudoku unable to mark game as finished."
-msgstr "Не удалось пометить игру как законченную."
+#: ../gnome-sudoku/src/lib/game_selector.py:205
+#, python-format
+msgid "Played for %d second"
+msgid_plural "Played for %d seconds"
+msgstr[0] "Сыграна %d секунда"
+msgstr[1] "Сыграно %d секунды"
+msgstr[2] "Сыграно %d секунд"
+
+#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:162
+msgid "Do you really want to do this?"
+msgstr "Действительно продолжить?"
+
+#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:196
+msgid "Don't ask me this again."
+msgstr "Не спрашивать ещё раз."
 
 #: ../gnome-sudoku/src/lib/main.py:211
 msgid "New game"
@@ -3076,24 +2912,6 @@ msgstr "В данный момент головоломка не решаетс�
 msgid "Calculated difficulty: "
 msgstr "Вычисленная сложность: "
 
-#: ../gnome-sudoku/src/lib/main.py:646
-#: ../gnome-sudoku/src/lib/printing.py:182
-#: ../gnome-sudoku/src/lib/game_selector.py:121
-msgid "Easy"
-msgstr "Лёгкий"
-
-#: ../gnome-sudoku/src/lib/main.py:647
-#: ../gnome-sudoku/src/lib/printing.py:183
-#: ../gnome-sudoku/src/lib/game_selector.py:122
-msgid "Medium"
-msgstr "Средний"
-
-#: ../gnome-sudoku/src/lib/main.py:648
-#: ../gnome-sudoku/src/lib/printing.py:184
-#: ../gnome-sudoku/src/lib/game_selector.py:123
-msgid "Hard"
-msgstr "Тяжелый"
-
 #: ../gnome-sudoku/src/lib/main.py:649
 msgid "Very Hard"
 msgstr "Очень тяжёлый"
@@ -3150,156 +2968,172 @@ msgstr "Применить все отслеживаемые значения и
 msgid "Tracker %s"
 msgstr "Слежение %s"
 
-#: ../gnome-sudoku/src/lib/printing.py:185
-#: ../gnome-sudoku/src/lib/game_selector.py:124
-msgid "Very hard"
-msgstr "Очень тяжёлый"
-
-#. Then we're today
-#. within the minute
-#: ../gnome-sudoku/src/lib/game_selector.py:160
-#, python-format
-msgid "Last played %(n)s second ago"
-msgid_plural "Last played %(n)s seconds ago"
-msgstr[0] "Сыграно в последний раз %(n)s секунду назад"
-msgstr[1] "Сыграно в последний раз %(n)s секунды назад"
-msgstr[2] "Сыграно в последний раз %(n)s секунд назад"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:164
-#, python-format
-msgid "Last played %(n)s minute ago"
-msgid_plural "Last played %(n)s minutes ago"
-msgstr[0] "Сыграно в последний раз %(n)s минуту назад"
-msgstr[1] "Сыграно в последний раз %(n)s минуты назад"
-msgstr[2] "Сыграно в последний раз %(n)s минут назад"
-
-#. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:168
-msgid "Last played at %I:%M %p"
-msgstr "Сыграно в последний в %I:%M %p"
-
-#. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:171
-msgid "Last played yesterday at %I:%M %p"
-msgstr "Сыграно в последний раз вчера в %I:%M %p"
-
-#. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:174
-msgid "Last played on %A at %I:%M %p"
-msgstr "Сыграно в последний раз %A в %I:%M %p"
-
-#. Translators, see strftime manual in order to translate %? format strings
-#: ../gnome-sudoku/src/lib/game_selector.py:177
-msgid "Last played on %B %e %Y"
-msgstr "Сыграно в последний раз %B %e %Y"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:190
-msgid "Easy puzzle"
-msgstr "Простая головоломка"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:191
-msgid "Medium puzzle"
-msgstr "Средняя головоломка"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:192
-msgid "Hard puzzle"
-msgstr "Сложная головоломка"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:193
-msgid "Very hard puzzle"
-msgstr "Очень сложная головоломка"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:199
-#, python-format
-msgid "Played for %d hour"
-msgid_plural "Played for %d hours"
-msgstr[0] "Сыгран %d час"
-msgstr[1] "Сыграно %d часа"
-msgstr[2] "Сыграно %d часов"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:202
-#, python-format
-msgid "Played for %d minute"
-msgid_plural "Played for %d minutes"
-msgstr[0] "Сыграна %d минута"
-msgstr[1] "Сыграно %d минуты"
-msgstr[2] "Сыграно %d минут"
-
-#: ../gnome-sudoku/src/lib/game_selector.py:205
-#, python-format
-msgid "Played for %d second"
-msgid_plural "Played for %d seconds"
-msgstr[0] "Сыграна %d секунда"
-msgstr[1] "Сыграно %d секунды"
-msgstr[2] "Сыграно %d секунд"
-
-#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:162
-msgid "Do you really want to do this?"
-msgstr "Действительно продолжить?"
-
-#: ../gnome-sudoku/src/lib/gtk_goodies/dialog_extras.py:196
-msgid "Don't ask me this again."
-msgstr "Не спрашивать ещё раз."
-
 #: ../gnome-sudoku/src/lib/number_box.py:68
 msgid "_Clear"
 msgstr "_Очистить"
 
-#: ../gnomine/gnomine.c:53
-#: ../gnomine/gnomine.desktop.in.in.h:2
+#: ../gnome-sudoku/src/lib/saver.py:138
+msgid "No Space"
+msgstr "Нет места"
+
+#: ../gnome-sudoku/src/lib/saver.py:139
+msgid "No space left on disk"
+msgstr "На диске не осталось места"
+
+#: ../gnome-sudoku/src/lib/saver.py:141
+#: ../gnome-sudoku/src/lib/saver.py:148
+#, python-format
+msgid "Unable to create data folder %(path)s."
+msgstr "Не удалось создать каталог данных %(path)s."
+
+#: ../gnome-sudoku/src/lib/saver.py:142
+msgid "There is no disk space left!"
+msgstr "На диске не осталось места!"
+
+#: ../gnome-sudoku/src/lib/saver.py:149
+#: ../gnome-sudoku/src/lib/saver.py:174
+#: ../gnome-sudoku/src/lib/saver.py:198
+#: ../gnome-sudoku/src/lib/saver.py:216
+#, python-format
+msgid "Error %(errno)s: %(error)s"
+msgstr "Ошибка %(errno)s: %(error)s"
+
+#: ../gnome-sudoku/src/lib/saver.py:169
+#: ../gnome-sudoku/src/lib/saver.py:170
+msgid "Unable to save game."
+msgstr "Не удалось сохранить игру."
+
+#: ../gnome-sudoku/src/lib/saver.py:172
+#: ../gnome-sudoku/src/lib/saver.py:197
+#: ../gnome-sudoku/src/lib/saver.py:215
+#, python-format
+msgid "Unable to save file %(filename)s."
+msgstr "Не удалось сохранить игру %(filename)s."
+
+#: ../gnome-sudoku/src/lib/saver.py:194
+#: ../gnome-sudoku/src/lib/saver.py:195
+msgid "Unable to mark game as finished."
+msgstr "Не удалось пометить игру как законченную."
+
+#: ../gnome-sudoku/src/lib/saver.py:212
+#: ../gnome-sudoku/src/lib/saver.py:213
+msgid "Sudoku unable to mark game as finished."
+msgstr "Не удалось пометить игру как законченную."
+
+#: ../gnomine/data/gnomine.desktop.in.in.h:1
+msgid "Clear hidden mines from a minefield"
+msgstr "Искать мины на минном поле"
+
+#: ../gnomine/data/gnomine.desktop.in.in.h:2
+#: ../gnomine/src/gnomine.vala:62
+#: ../gnomine/src/gnomine.vala:438
+#: ../gnomine/src/gnomine.vala:444
+#: ../gnomine/src/gnomine.vala:785
 msgid "Mines"
 msgstr "Сапер"
 
-#: ../gnomine/gnomine.c:104
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:1
+#: ../swell-foop/swell-foop.schemas.in.h:2
+msgid "Board size"
+msgstr "Размер игрового поля"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:2
+msgid "Enable automatic placing of flags"
+msgstr "Включить автоматическое открытие мин"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:3
+msgid "Number of columns in a custom game"
+msgstr "Число столбцов в настраиваемой игре"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:4
+msgid "Number of rows in a custom game"
+msgstr "Число строк в настраиваемой игре"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:5
+msgid "Set to true to be able to mark squares as unknown."
+msgstr "Отметьте поле, если вы хотите использовать флаги «Неизвестно»."
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:6
+msgid "Set to true to enable warning icons when too many flags are placed."
+msgstr "Если истинно, при слишком большом количестве флагов отображается значок предупреждения."
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:7
+msgid "Set to true to have gnomine automatically flag squares as mined when enough squares are revealed"
+msgstr "Если истинно, квадраты с минами будут автоматически открываться, когда вокруг открыто достаточное количество квадратов."
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:8
+msgid "Size of the board (0-2 = small-large, 3=custom)"
+msgstr "Размер доски (0-2=маленькая-большая, 3=настраиваемая)"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:9
+msgid "The number of mines in a custom game"
+msgstr "Число мин в настраиваемой игре"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:10
+msgid "Use the unknown flag"
+msgstr "Использовать флаг «Неизвестно»"
+
+#: ../gnomine/data/org.gnome.gnomine.gschema.xml.in.h:11
+msgid "Warning about too many flags"
+msgstr "Предупреждение о слишком большом количестве флагов"
+
+#: ../gnomine/src/gnomine.vala:47
 msgctxt "board size"
 msgid "Custom"
 msgstr "Другая"
 
-#: ../gnomine/gnomine.c:170
-#, c-format
-msgid "Flags: %d/%d"
-msgstr "Флаги: %d/%d"
+#: ../gnomine/src/gnomine.vala:136
+msgid "Time: "
+msgstr "Время:"
 
-#: ../gnomine/gnomine.c:198
+#: ../gnomine/src/gnomine.vala:225
 msgid "The Mines Have Been Cleared!"
 msgstr "Все мины найдены!"
 
-#: ../gnomine/gnomine.c:214
+#: ../gnomine/src/gnomine.vala:237
 msgid "Mines Scores"
 msgstr "Результаты игры «Мины»"
 
-#: ../gnomine/gnomine.c:217
-#: ../gnotravex/gnotravex.c:1085
+#: ../gnomine/src/gnomine.vala:238
+#: ../gnotravex/src/gnotravex.vala:209
+#: ../gnotravex/src/gnotravex.vala:233
 #: ../swell-foop/src/Score.js:57
 msgid "Size:"
 msgstr "Размер:"
 
-#: ../gnomine/gnomine.c:315
-msgid "Click a square, any square"
-msgstr "Щелкните по ячейке, любой ячейке"
+#: ../gnomine/src/gnomine.vala:268
+#| msgid "End the current game"
+msgid "Cancel current game?"
+msgstr "Отменить текущую игру?"
 
-#: ../gnomine/gnomine.c:317
-msgid "Maybe they're all mines ..."
-msgstr "Возможно, там мины..."
+#: ../gnomine/src/gnomine.vala:269
+#| msgid "Start a new game"
+msgid "Start New Game"
+msgstr "Начать новую игру"
 
-#: ../gnomine/gnomine.c:430
-#: ../mahjongg/mahjongg.c:859
+#: ../gnomine/src/gnomine.vala:270
+#| msgid "End the current game"
+msgid "Keep Current Game"
+msgstr "Продолжить игру"
+
+#: ../gnomine/src/gnomine.vala:406
+#: ../mahjongg/src/mahjongg.vala:495
 msgid "Main game:"
 msgstr "Основная игра:"
 
-#: ../gnomine/gnomine.c:436
+#: ../gnomine/src/gnomine.vala:414
 msgid "Resizing and SVG support:"
 msgstr "Изменение размера и поддержка изображений SVG:"
 
-#: ../gnomine/gnomine.c:443
+#: ../gnomine/src/gnomine.vala:422
 msgid "Faces:"
 msgstr "Изображения:"
 
-#: ../gnomine/gnomine.c:446
+#: ../gnomine/src/gnomine.vala:426
 msgid "Graphics:"
 msgstr "Графическая тема:"
 
-#: ../gnomine/gnomine.c:462
+#: ../gnomine/src/gnomine.vala:441
 msgid ""
 "The popular logic puzzle minesweeper. Clear mines from a board using hints from squares you have already uncovered.\n"
 "\n"
@@ -3309,315 +3143,149 @@ msgstr ""
 "\n"
 "«Мины» являются частью GNOME Games."
 
-#: ../gnomine/gnomine.c:621
+#: ../gnomine/src/gnomine.vala:523
 msgid "Field Size"
 msgstr "Размер поля"
 
-#: ../gnomine/gnomine.c:644
+#: ../gnomine/src/gnomine.vala:564
 msgid "Custom Size"
 msgstr "Настраиваемый размер"
 
-#: ../gnomine/gnomine.c:651
+#: ../gnomine/src/gnomine.vala:572
 msgid "_Number of mines:"
 msgstr "Число _мин:"
 
-#: ../gnomine/gnomine.c:664
+#: ../gnomine/src/gnomine.vala:583
 msgid "_Horizontal:"
 msgstr "По _горизонтали:"
 
-#: ../gnomine/gnomine.c:676
+#: ../gnomine/src/gnomine.vala:593
 msgid "_Vertical:"
 msgstr "По _вертикали:"
 
-#: ../gnomine/gnomine.c:693
+#: ../gnomine/src/gnomine.vala:605
 msgid "Flags"
 msgstr "Флаги"
 
-#: ../gnomine/gnomine.c:696
+#: ../gnomine/src/gnomine.vala:612
 msgid "_Use \"I'm not sure\" flags"
 msgstr "Использовать _флаги «Не уверен»."
 
-#: ../gnomine/gnomine.c:707
-msgid "Warnings"
-msgstr "Предупреждения"
+#: ../gnomine/src/gnomine.vala:617
+#| msgid "Warning about too many flags"
+msgid "_Warn if too many flags placed"
+msgstr "_Предупреждать, если установлено слишком много флагов"
 
-#: ../gnomine/gnomine.c:710
-msgid "_Use \"Too many flags\" warning"
-msgstr "Предупреждать о слишком _большом количестве флагов"
-
-#: ../gnomine/gnomine.c:721
+#: ../gnomine/src/gnomine.vala:622
 msgid "Mines Preferences"
 msgstr "Параметры игры «Мины»"
 
-#: ../gnomine/gnomine.c:914
-msgid "Width of grid"
-msgstr "Ширина решетки"
+#: ../gnomine/src/minefield-view.vala:421
+#: ../gnotravex/src/puzzle-view.vala:335
+#: ../mahjongg/src/game-view.vala:132
+#: ../quadrapassel/src/blockops.cpp:786
+msgid "Paused"
+msgstr "Пауза"
 
-#: ../gnomine/gnomine.c:915
-msgid "Height of grid"
-msgstr "Высота решетки"
+#: ../gnotravex/data/gnotravex.desktop.in.in.h:1
+msgid "Complete the puzzle by matching numbered tiles"
+msgstr "Разгадайте головоломку, собирая совпадающие по номерам кусочки"
 
-#: ../gnomine/gnomine.c:917
-msgid "Number of mines"
-msgstr "Число мин"
-
-#: ../gnomine/gnomine.c:918
-#: ../gtali/gyahtzee.c:107
-#: ../gtali/gyahtzee.c:109
-#: ../gtali/gyahtzee.c:113
-#: ../gtali/gyahtzee.c:115
-msgid "NUMBER"
-msgstr "ЧИСЛО"
-
-#: ../gnomine/gnomine.c:920
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:8
-msgid "Size of the board (0-2 = small-large, 3=custom)"
-msgstr "Размер доски (0-2=маленькая-большая, 3=настраиваемая)"
-
-#: ../gnomine/gnomine.c:921
-#: ../gnotravex/gnotravex.c:261
-#: ../gnotski/gnotski.c:456
-#: ../iagno/gnothello.c:138
-msgid "X location of window"
-msgstr "Х-координата окна"
-
-#: ../gnomine/gnomine.c:923
-#: ../gnotravex/gnotravex.c:263
-#: ../gnotski/gnotski.c:458
-#: ../iagno/gnothello.c:140
-msgid "Y location of window"
-msgstr "Y-координата окна"
-
-#: ../gnomine/gnomine.c:1060
-msgid "Press to Resume"
-msgstr "Продолжить"
-
-#: ../gnomine/gnomine.c:1094
-msgid "Time: "
-msgstr "Время:"
-
-#: ../gnomine/gnomine.desktop.in.in.h:1
-msgid "Clear hidden mines from a minefield"
-msgstr "Искать мины на минном поле"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:1
-#: ../swell-foop/swell-foop.schemas.in.h:2
-msgid "Board size"
-msgstr "Размер игрового поля"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:2
-msgid "Enable automatic placing of flags"
-msgstr "Включить автоматическое открытие мин"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:3
-msgid "Number of columns in a custom game"
-msgstr "Число столбцов в настраиваемой игре"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:4
-msgid "Number of rows in a custom game"
-msgstr "Число строк в настраиваемой игре"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:5
-msgid "Set to true to be able to mark squares as unknown."
-msgstr "Отметьте поле, если вы хотите использовать флаги «Неизвестно»."
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:6
-msgid "Set to true to enable warning icons when too many flags are placed."
-msgstr "Если истинно, при слишком большом количестве флагов отображается значок предупреждения."
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:7
-msgid "Set to true to have gnomine automatically flag squares as mined when enough squares are revealed"
-msgstr "Если истинно, квадраты с минами будут автоматически открываться, когда вокруг открыто достаточное количество квадратов."
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:9
-msgid "The number of mines in a custom game"
-msgstr "Число мин в настраиваемой игре"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:10
-msgid "Use the unknown flag"
-msgstr "Использовать флаг «Неизвестно»"
-
-#: ../gnomine/org.gnome.gnomine.gschema.xml.in.h:11
-msgid "Warning about too many flags"
-msgstr "Предупреждение о слишком большом количестве флагов"
-
-#: ../gnomine/minefield.c:206
-msgid ""
-"Unable to find required images.\n"
-"\n"
-"Please check your gnome-games installation."
-msgstr ""
-"Не удалось загрузить файл изображения: \n"
-"%s\n"
-"\n"
-"Проверьте правильность установки пакета gnome-games"
-
-#: ../gnomine/minefield.c:228
-msgid ""
-"Required images have been found, but refused to load.\n"
-"\n"
-"Please check your installation of gnome-games and its dependencies."
-msgstr ""
-"Требуемые изображения найдены, но их не удалось загрузить.\n"
-"\n"
-"Пожалуйста, проверьте правильность установки игры и ее зависимостей."
-
-#: ../gnomine/minefield.c:237
-msgid "Could not load images"
-msgstr "Не удалось загрузить изображения"
-
-#: ../gnotravex/gnotravex.c:45
-#: ../gnotravex/gnotravex.desktop.in.in.h:2
+#: ../gnotravex/data/gnotravex.desktop.in.in.h:2
+#: ../gnotravex/src/gnotravex.vala:91
+#: ../gnotravex/src/gnotravex.vala:288
+#: ../gnotravex/src/gnotravex.vala:290
+#: ../gnotravex/src/gnotravex.vala:393
 msgid "Tetravex"
 msgstr "Тетравекс"
 
-#: ../gnotravex/gnotravex.c:115
+#: ../gnotravex/data/org.gnome.gnotravex.gschema.xml.in.h:1
+msgid "Select the style of control"
+msgstr "Выбор стиля управления"
+
+#: ../gnotravex/data/org.gnome.gnotravex.gschema.xml.in.h:2
+msgid "Select whether to drag the tiles or to click on the source then the destination."
+msgstr "Нужно ли перетаскивать фигуры мышью или указывать место, откуда фигура берётся и куда кладется."
+
+#: ../gnotravex/data/org.gnome.gnotravex.gschema.xml.in.h:3
+msgid "The size of the playing grid"
+msgstr "Размер игровой решетки"
+
+#: ../gnotravex/data/org.gnome.gnotravex.gschema.xml.in.h:4
+msgid "The value of this key is used to decide the size of the playing grid."
+msgstr "Значение этого ключа используется для указания размеров игровой решётки."
+
+#: ../gnotravex/src/gnotravex.vala:19
 msgid "2×2"
 msgstr "2×2"
 
-#: ../gnotravex/gnotravex.c:116
+#: ../gnotravex/src/gnotravex.vala:20
 msgid "3×3"
 msgstr "3×3"
 
-#: ../gnotravex/gnotravex.c:117
+#: ../gnotravex/src/gnotravex.vala:21
 msgid "4×4"
 msgstr "4×4"
 
-#: ../gnotravex/gnotravex.c:118
+#: ../gnotravex/src/gnotravex.vala:22
 msgid "5×5"
 msgstr "5×5"
 
-#: ../gnotravex/gnotravex.c:119
+#: ../gnotravex/src/gnotravex.vala:23
 msgid "6×6"
 msgstr "6x6"
 
-#: ../gnotravex/gnotravex.c:198
+#: ../gnotravex/src/gnotravex.vala:28
 msgid "_2×2"
 msgstr "_2×2"
 
-#: ../gnotravex/gnotravex.c:198
+#: ../gnotravex/src/gnotravex.vala:28
 msgid "Play on a 2×2 board"
 msgstr "Игра на поле 2x2"
 
-#: ../gnotravex/gnotravex.c:200
+#: ../gnotravex/src/gnotravex.vala:29
 msgid "_3×3"
 msgstr "_3×3"
 
-#: ../gnotravex/gnotravex.c:200
+#: ../gnotravex/src/gnotravex.vala:29
 msgid "Play on a 3×3 board"
 msgstr "Игра на поле 3x3"
 
-#: ../gnotravex/gnotravex.c:202
+#: ../gnotravex/src/gnotravex.vala:30
 msgid "_4×4"
 msgstr "_4×4"
 
-#: ../gnotravex/gnotravex.c:202
+#: ../gnotravex/src/gnotravex.vala:30
 msgid "Play on a 4×4 board"
 msgstr "Игра на поле 4x4"
 
-#: ../gnotravex/gnotravex.c:204
+#: ../gnotravex/src/gnotravex.vala:31
 msgid "_5×5"
 msgstr "_5×5"
 
-#: ../gnotravex/gnotravex.c:204
+#: ../gnotravex/src/gnotravex.vala:31
 msgid "Play on a 5×5 board"
 msgstr "Игра на поле 5x5"
 
-#: ../gnotravex/gnotravex.c:206
+#: ../gnotravex/src/gnotravex.vala:32
 msgid "_6×6"
 msgstr "_6x6"
 
-#: ../gnotravex/gnotravex.c:206
+#: ../gnotravex/src/gnotravex.vala:32
 msgid "Play on a 6×6 board"
 msgstr "Игра на поле 6x6"
 
-#: ../gnotravex/gnotravex.c:265
-msgid "Size of board (2-6)"
-msgstr "Размер доски (2-6)"
-
-#: ../gnotravex/gnotravex.c:266
-msgid "SIZE"
-msgstr "РАЗМЕР"
-
-#. Translators: in-game numbers, replaceable with single-character local ideograms
-#: ../gnotravex/gnotravex.c:460
-msgctxt "number"
-msgid "0"
-msgstr "0"
-
-#: ../gnotravex/gnotravex.c:461
-msgctxt "number"
-msgid "1"
-msgstr "1"
-
-#: ../gnotravex/gnotravex.c:462
-msgctxt "number"
-msgid "2"
-msgstr "2"
-
-#: ../gnotravex/gnotravex.c:463
-msgctxt "number"
-msgid "3"
-msgstr "3"
-
-#: ../gnotravex/gnotravex.c:464
-msgctxt "number"
-msgid "4"
-msgstr "4"
-
-#: ../gnotravex/gnotravex.c:465
-msgctxt "number"
-msgid "5"
-msgstr "5"
-
-#: ../gnotravex/gnotravex.c:466
-msgctxt "number"
-msgid "6"
-msgstr "6"
-
-#: ../gnotravex/gnotravex.c:467
-msgctxt "number"
-msgid "7"
-msgstr "7"
-
-#: ../gnotravex/gnotravex.c:468
-msgctxt "number"
-msgid "8"
-msgstr "8"
-
-#: ../gnotravex/gnotravex.c:469
-msgctxt "number"
-msgid "9"
-msgstr "9"
-
-#: ../gnotravex/gnotravex.c:913
-#: ../mahjongg/mahjongg.c:927
-msgid "Game paused"
-msgstr "Игра приостановлена"
-
-#: ../gnotravex/gnotravex.c:975
-#, c-format
-msgid "Playing %d×%d board"
-msgstr "Игра на доске %dx%d"
-
-#: ../gnotravex/gnotravex.c:1083
-msgid "Tetravex Scores"
-msgstr "Результаты Тетравекс"
-
-#: ../gnotravex/gnotravex.c:1145
-msgid "Puzzle solved! Well done!"
-msgstr "Головоломка решена! Отлично!"
-
-#: ../gnotravex/gnotravex.c:1147
-msgid "Puzzle solved!"
-msgstr "Головоломка решена!"
-
-#: ../gnotravex/gnotravex.c:1402
-#: ../mahjongg/mahjongg.c:1393
+#: ../gnotravex/src/gnotravex.vala:164
+#: ../mahjongg/src/mahjongg.vala:69
 msgid "Time:"
 msgstr "Время:"
 
-#: ../gnotravex/gnotravex.c:1603
+#: ../gnotravex/src/gnotravex.vala:208
+#: ../gnotravex/src/gnotravex.vala:232
+msgid "Tetravex Scores"
+msgstr "Результаты Тетравекс"
+
+#: ../gnotravex/src/gnotravex.vala:293
 msgid ""
 "GNOME Tetravex is a simple puzzle where pieces must be positioned so that the same numbers are touching each other.\n"
 "\n"
@@ -3627,297 +3295,296 @@ msgstr ""
 "\n"
 "Тетравекс является частью GNOME Games"
 
-#: ../gnotravex/gnotravex.c:1710
+#: ../gnotravex/src/gnotravex.vala:353
 msgid "_Size"
 msgstr "_Размер"
 
-#: ../gnotravex/gnotravex.c:1715
+#: ../gnotravex/src/gnotravex.vala:356
 msgid "Sol_ve"
 msgstr "Ре_шить"
 
-#: ../gnotravex/gnotravex.c:1715
+#: ../gnotravex/src/gnotravex.vala:356
 msgid "Solve the game"
 msgstr "Найти решение по игре"
 
-#: ../gnotravex/gnotravex.c:1719
+#: ../gnotravex/src/gnotravex.vala:359
 msgid "_Up"
 msgstr "В_верх"
 
-#: ../gnotravex/gnotravex.c:1720
+#: ../gnotravex/src/gnotravex.vala:359
 msgid "Move the pieces up"
 msgstr "Передвинуть вверх"
 
-#: ../gnotravex/gnotravex.c:1721
+#: ../gnotravex/src/gnotravex.vala:360
 msgid "_Left"
 msgstr "В_лево"
 
-#: ../gnotravex/gnotravex.c:1722
+#: ../gnotravex/src/gnotravex.vala:360
 msgid "Move the pieces left"
 msgstr "Передвинуть влево"
 
-#: ../gnotravex/gnotravex.c:1723
+#: ../gnotravex/src/gnotravex.vala:361
 msgid "_Right"
 msgstr "В_право"
 
-#: ../gnotravex/gnotravex.c:1724
+#: ../gnotravex/src/gnotravex.vala:361
 msgid "Move the pieces right"
 msgstr "Передвинуть вправо"
 
-#: ../gnotravex/gnotravex.c:1725
+#: ../gnotravex/src/gnotravex.vala:362
 msgid "_Down"
 msgstr "В_низ"
 
-#: ../gnotravex/gnotravex.c:1726
+#: ../gnotravex/src/gnotravex.vala:362
 msgid "Move the pieces down"
 msgstr "Передвинуть вниз"
 
-#: ../gnotravex/gnotravex.c:1731
+#: ../gnotravex/src/gnotravex.vala:368
 msgid "_Click to Move"
 msgstr "_Перенос карт"
 
-#: ../gnotravex/gnotravex.desktop.in.in.h:1
-msgid "Complete the puzzle by matching numbered tiles"
-msgstr "Разгадайте головоломку, собирая совпадающие по номерам кусочки"
-
-#: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:1
-msgid "Select the style of control"
-msgstr "Выбор стиля управления"
-
-#: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:2
-msgid "Select whether to drag the tiles or to click on the source then the destination."
-msgstr "Нужно ли перетаскивать фигуры мышью или указывать место, откуда фигура берётся и куда кладется."
-
-#: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:3
-msgid "The size of the playing grid"
-msgstr "Размер игровой решетки"
-
-#: ../gnotravex/org.gnome.gnotravex.gschema.xml.in.h:4
-#| msgid ""
-#| "The value of this key is used to decide the size of the playing grid. The "
-#| "valid values are 2 to 8, anything else gets set to 3."
-msgid "The value of this key is used to decide the size of the playing grid."
-msgstr "Значение этого ключа используется для указания размеров игровой решётки."
-
-#: ../gnotski/gnotski.c:48
-#: ../gnotski/gnotski.desktop.in.in.h:1
+#: ../gnotski/data/gnotski.desktop.in.in.h:1
+#: ../gnotski/src/gnotski.c:48
 msgid "Klotski"
 msgstr "Клоцки"
 
-#: ../gnotski/gnotski.c:101
+#: ../gnotski/data/gnotski.desktop.in.in.h:2
+msgid "Slide blocks to solve the puzzle"
+msgstr "Двигайте блоки для создания заданного расположения"
+
+#: ../gnotski/data/gnotski.schemas.in.h:1
+msgid "The number of the puzzle being played."
+msgstr "Номер текущей головоломки"
+
+#: ../gnotski/data/gnotski.schemas.in.h:2
+msgid "The puzzle in play"
+msgstr "Текущая головоломка"
+
+#: ../gnotski/src/gnotski.c:101
 msgid "Only 18 steps"
 msgstr "Только 18 шагов"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:102
-#: ../gnotski/gnotski.c:189
+#: ../gnotski/src/gnotski.c:102
+#: ../gnotski/src/gnotski.c:189
 msgid "Daisy"
 msgstr "Дэйзи"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:103
-#: ../gnotski/gnotski.c:195
+#: ../gnotski/src/gnotski.c:103
+#: ../gnotski/src/gnotski.c:195
 msgid "Violet"
 msgstr "Вайолет"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:104
-#: ../gnotski/gnotski.c:201
+#: ../gnotski/src/gnotski.c:104
+#: ../gnotski/src/gnotski.c:201
 msgid "Poppy"
 msgstr "Поппи"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:105
-#: ../gnotski/gnotski.c:207
+#: ../gnotski/src/gnotski.c:105
+#: ../gnotski/src/gnotski.c:207
 msgid "Pansy"
 msgstr "Панси"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:106
-#: ../gnotski/gnotski.c:213
+#: ../gnotski/src/gnotski.c:106
+#: ../gnotski/src/gnotski.c:213
 msgid "Snowdrop"
 msgstr "Снегопад"
 
 #. puzzle name - sometimes called "Le'Ane Rouge"
-#: ../gnotski/gnotski.c:107
-#: ../gnotski/gnotski.c:219
+#: ../gnotski/src/gnotski.c:107
+#: ../gnotski/src/gnotski.c:219
 msgid "Red Donkey"
 msgstr "Красный осёл"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:108
-#: ../gnotski/gnotski.c:225
+#: ../gnotski/src/gnotski.c:108
+#: ../gnotski/src/gnotski.c:225
 msgid "Trail"
 msgstr "Грузовик"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:109
-#: ../gnotski/gnotski.c:231
+#: ../gnotski/src/gnotski.c:109
+#: ../gnotski/src/gnotski.c:231
 msgid "Ambush"
 msgstr "Засада"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:110
-#: ../gnotski/gnotski.c:237
+#: ../gnotski/src/gnotski.c:110
+#: ../gnotski/src/gnotski.c:237
 msgid "Agatka"
 msgstr "Агатка"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:111
-#: ../gnotski/gnotski.c:242
+#: ../gnotski/src/gnotski.c:111
+#: ../gnotski/src/gnotski.c:242
 msgid "Success"
 msgstr "Успех"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:112
-#: ../gnotski/gnotski.c:247
+#: ../gnotski/src/gnotski.c:112
+#: ../gnotski/src/gnotski.c:247
 msgid "Bone"
 msgstr "Кость"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:113
-#: ../gnotski/gnotski.c:253
+#: ../gnotski/src/gnotski.c:113
+#: ../gnotski/src/gnotski.c:253
 msgid "Fortune"
 msgstr "Фортуна"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:114
-#: ../gnotski/gnotski.c:261
+#: ../gnotski/src/gnotski.c:114
+#: ../gnotski/src/gnotski.c:261
 msgid "Fool"
 msgstr "Дурак"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:115
-#: ../gnotski/gnotski.c:267
+#: ../gnotski/src/gnotski.c:115
+#: ../gnotski/src/gnotski.c:267
 msgid "Solomon"
 msgstr "Соломон"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:116
-#: ../gnotski/gnotski.c:274
+#: ../gnotski/src/gnotski.c:116
+#: ../gnotski/src/gnotski.c:274
 msgid "Cleopatra"
 msgstr "Клеопатра"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:117
-#: ../gnotski/gnotski.c:279
+#: ../gnotski/src/gnotski.c:117
+#: ../gnotski/src/gnotski.c:279
 msgid "Shark"
 msgstr "Акула"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:118
-#: ../gnotski/gnotski.c:287
+#: ../gnotski/src/gnotski.c:118
+#: ../gnotski/src/gnotski.c:287
 msgid "Rome"
 msgstr "Рим"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:119
-#: ../gnotski/gnotski.c:294
+#: ../gnotski/src/gnotski.c:119
+#: ../gnotski/src/gnotski.c:294
 msgid "Pennant Puzzle"
 msgstr "Головоломка Вымпел"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:120
-#: ../gnotski/gnotski.c:300
+#: ../gnotski/src/gnotski.c:120
+#: ../gnotski/src/gnotski.c:300
 msgid "Ithaca"
 msgstr "Итхаца"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:121
-#: ../gnotski/gnotski.c:321
+#: ../gnotski/src/gnotski.c:121
+#: ../gnotski/src/gnotski.c:321
 msgid "Pelopones"
 msgstr "Пелопонес"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:122
-#: ../gnotski/gnotski.c:328
+#: ../gnotski/src/gnotski.c:122
+#: ../gnotski/src/gnotski.c:328
 msgid "Transeuropa"
 msgstr "Европа"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:123
-#: ../gnotski/gnotski.c:337
+#: ../gnotski/src/gnotski.c:123
+#: ../gnotski/src/gnotski.c:337
 msgid "Lodzianka"
 msgstr "Лодзянка"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:124
-#: ../gnotski/gnotski.c:343
+#: ../gnotski/src/gnotski.c:124
+#: ../gnotski/src/gnotski.c:343
 msgid "Polonaise"
 msgstr "Полонез"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:125
-#: ../gnotski/gnotski.c:348
+#: ../gnotski/src/gnotski.c:125
+#: ../gnotski/src/gnotski.c:348
 msgid "Baltic Sea"
 msgstr "Балтийское море"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:126
-#: ../gnotski/gnotski.c:353
+#: ../gnotski/src/gnotski.c:126
+#: ../gnotski/src/gnotski.c:353
 msgid "American Pie"
 msgstr "Американский пирог"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:127
-#: ../gnotski/gnotski.c:365
+#: ../gnotski/src/gnotski.c:127
+#: ../gnotski/src/gnotski.c:365
 msgid "Traffic Jam"
 msgstr "Пробка"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:128
-#: ../gnotski/gnotski.c:372
+#: ../gnotski/src/gnotski.c:128
+#: ../gnotski/src/gnotski.c:372
 msgid "Sunshine"
 msgstr "Солнечное сияние"
 
 #. puzzle name
-#: ../gnotski/gnotski.c:183
+#: ../gnotski/src/gnotski.c:183
 msgid "Only 18 Steps"
 msgstr "Только 18 шагов"
 
 #. set of puzzles
-#: ../gnotski/gnotski.c:413
+#: ../gnotski/src/gnotski.c:413
 msgid "HuaRong Trail"
 msgstr "Поезд Хуа-Ронг"
 
 #. set of puzzles
-#: ../gnotski/gnotski.c:415
+#: ../gnotski/src/gnotski.c:415
 msgid "Challenge Pack"
 msgstr "Набор открытий"
 
 #. set of puzzles
-#: ../gnotski/gnotski.c:417
+#: ../gnotski/src/gnotski.c:417
 msgid "Skill Pack"
 msgstr "Трудный набор"
 
-#: ../gnotski/gnotski.c:418
+#: ../gnotski/src/gnotski.c:418
 msgid "_Restart Puzzle"
 msgstr "Начать головоломку _заново"
 
-#: ../gnotski/gnotski.c:420
+#: ../gnotski/src/gnotski.c:420
 msgid "Next Puzzle"
 msgstr "Следующая головоломка"
 
-#: ../gnotski/gnotski.c:422
+#: ../gnotski/src/gnotski.c:422
 msgid "Previous Puzzle"
 msgstr "Предыдущая головоломка"
 
-#: ../gnotski/gnotski.c:630
+#: ../gnotski/src/gnotski.c:456
+#: ../iagno/src/gnothello.c:138
+msgid "X location of window"
+msgstr "Х-координата окна"
+
+#: ../gnotski/src/gnotski.c:458
+#: ../iagno/src/gnothello.c:140
+msgid "Y location of window"
+msgstr "Y-координата окна"
+
+#: ../gnotski/src/gnotski.c:630
 msgid "Level completed."
 msgstr "Уровень пройден."
 
-#: ../gnotski/gnotski.c:770
+#: ../gnotski/src/gnotski.c:776
 msgid "The Puzzle Has Been Solved!"
 msgstr "Головоломка решена!"
 
-#: ../gnotski/gnotski.c:787
+#: ../gnotski/src/gnotski.c:793
 msgid "Klotski Scores"
 msgstr "Результаты Клотски"
 
-#: ../gnotski/gnotski.c:790
+#: ../gnotski/src/gnotski.c:796
 msgid "Puzzle:"
 msgstr "Головоломка:"
 
-#: ../gnotski/gnotski.c:872
+#: ../gnotski/src/gnotski.c:878
 msgid ""
 "The theme for this game failed to render.\n"
 "\n"
@@ -3927,7 +3594,7 @@ msgstr ""
 "\n"
 "Проверьте установку игры Клотски."
 
-#: ../gnotski/gnotski.c:1115
+#: ../gnotski/src/gnotski.c:1122
 #, c-format
 msgid ""
 "Could not find the image:\n"
@@ -3940,12 +3607,12 @@ msgstr ""
 "\n"
 "Проверьте установку игры Клотски."
 
-#: ../gnotski/gnotski.c:1154
+#: ../gnotski/src/gnotski.c:1161
 #, c-format
 msgid "Moves: %d"
 msgstr "Ходов: %d"
 
-#: ../gnotski/gnotski.c:1479
+#: ../gnotski/src/gnotski.c:1486
 msgid ""
 "Sliding Block Puzzles\n"
 "\n"
@@ -3955,136 +3622,124 @@ msgstr ""
 "\n"
 "Клотски является частью пакета GNOME Games."
 
-#: ../gnotski/gnotski.desktop.in.in.h:2
-msgid "Slide blocks to solve the puzzle"
-msgstr "Двигайте блоки для создания заданного расположения"
+#: ../gtali/data/gtali.desktop.in.in.h:1
+msgid "Beat the odds in a poker-style dice game"
+msgstr "Сыграйте в кости в стиле покера"
 
-#: ../gnotski/gnotski.schemas.in.h:1
-msgid "The number of the puzzle being played."
-msgstr "Номер текущей головоломки"
+#: ../gtali/data/gtali.desktop.in.in.h:2
+#: ../gtali/src/gyahtzee.c:60
+msgid "Tali"
+msgstr "Тали"
 
-#: ../gnotski/gnotski.schemas.in.h:2
-msgid "The puzzle in play"
-msgstr "Текущая головоломка"
+#: ../gtali/data/gtali.schemas.in.h:1
+msgid "Choose whether or not to insert a delay between the computer's dice rolls so the player can follow what it is doing."
+msgstr "Выберите, вставлять или нет задержку между бросками костей компьютером так, чтобы игрок мог видеть, что происходит."
 
-#: ../gtali/clist.c:158
+#: ../gtali/data/gtali.schemas.in.h:2
+msgid "Delay between rolls"
+msgstr "Задержка между бросками"
+
+#: ../gtali/data/gtali.schemas.in.h:3
+msgid "Display the computer's thoughts"
+msgstr "Показать размышления компьютера"
+
+#: ../gtali/data/gtali.schemas.in.h:4
+msgid "If set to true, a dump of the AI's working will be done to standard output."
+msgstr "Если установлено, то на стандартный вывод будут выводиться куски размышлений искусственного интеллекта."
+
+#: ../gtali/data/gtali.schemas.in.h:5
+msgid "Regular"
+msgstr "Обычная"
+
+#: ../gtali/data/gtali.schemas.in.h:6
+msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
+msgstr "[Человек,Вилбер,Билл,Моника,Кеннет,Джанет]"
+
+#: ../gtali/src/clist.c:158
 msgid "Already used! Where do you want to put that?"
 msgstr "Уже занято! Куда поместить эту деталь?"
 
-#: ../gtali/clist.c:414
+#: ../gtali/src/clist.c:414
 #: ../swell-foop/src/Score.js:16
 #, c-format
 msgid "Score: %d"
 msgstr "Результат: %d"
 
-#: ../gtali/clist.c:416
+#: ../gtali/src/clist.c:416
 #, c-format
 msgid "Field used"
 msgstr "Используемое поле"
 
-#. Arrgh - lets all use the same tabs under emacs:
-#. Local Variables:
-#. tab-width: 8
-#. c-basic-offset: 8
-#. indent-tabs-mode: nil
-#. End:
-#.
-#: ../gtali/gtali.desktop.in.in.h:1
-msgid "Beat the odds in a poker-style dice game"
-msgstr "Сыграйте в кости в стиле покера"
-
-#: ../gtali/gtali.desktop.in.in.h:2
-#: ../gtali/gyahtzee.c:60
-msgid "Tali"
-msgstr "Тали"
-
-#: ../gtali/gtali.schemas.in.h:1
-msgid "Choose whether or not to insert a delay between the computer's dice rolls so the player can follow what it is doing."
-msgstr "Выберите, вставлять или нет задержку между бросками костей компьютером так, чтобы игрок мог видеть, что происходит."
-
-#: ../gtali/gtali.schemas.in.h:2
-msgid "Delay between rolls"
-msgstr "Задержка между бросками"
-
-#: ../gtali/gtali.schemas.in.h:3
-msgid "Display the computer's thoughts"
-msgstr "Показать размышления компьютера"
-
-#: ../gtali/gtali.schemas.in.h:4
-msgid "If set to true, a dump of the AI's working will be done to standard output."
-msgstr "Если установлено, то на стандартный вывод будут выводиться куски размышлений искусственного интеллекта."
-
-#: ../gtali/gtali.schemas.in.h:5
-msgid "Regular"
-msgstr "Обычная"
-
-#: ../gtali/gtali.schemas.in.h:6
-msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
-msgstr "[Человек,Вилбер,Билл,Моника,Кеннет,Джанет]"
-
-#: ../gtali/gyahtzee.c:103
+#: ../gtali/src/gyahtzee.c:103
 msgid "Delay computer moves"
 msgstr "Задержка ходов компьютера"
 
-#: ../gtali/gyahtzee.c:105
+#: ../gtali/src/gyahtzee.c:105
 msgid "Display computer thoughts"
 msgstr "Показать мысли компьютера"
 
-#: ../gtali/gyahtzee.c:107
+#: ../gtali/src/gyahtzee.c:107
 msgid "Number of computer opponents"
 msgstr "Число компьютерных соперников"
 
-#: ../gtali/gyahtzee.c:109
+#: ../gtali/src/gyahtzee.c:107
+#: ../gtali/src/gyahtzee.c:109
+#: ../gtali/src/gyahtzee.c:113
+#: ../gtali/src/gyahtzee.c:115
+msgid "NUMBER"
+msgstr "ЧИСЛО"
+
+#: ../gtali/src/gyahtzee.c:109
 msgid "Number of human opponents"
 msgstr "Число соперников-людей"
 
-#: ../gtali/gyahtzee.c:111
+#: ../gtali/src/gyahtzee.c:111
 msgid "Game choice: Regular or Colors"
 msgstr "Выбор игры: обычная или цветная"
 
-#: ../gtali/gyahtzee.c:111
+#: ../gtali/src/gyahtzee.c:111
 msgid "STRING"
 msgstr "СТРОКА"
 
-#: ../gtali/gyahtzee.c:113
+#: ../gtali/src/gyahtzee.c:113
 msgid "Number of computer-only games to play"
 msgstr "Число игр только для компьютеров"
 
-#: ../gtali/gyahtzee.c:115
+#: ../gtali/src/gyahtzee.c:115
 msgid "Number of trials for each roll for the computer"
 msgstr "Число попыток для каждого броска компьютера"
 
-#: ../gtali/gyahtzee.c:120
-#: ../gtali/setup.c:364
+#: ../gtali/src/gyahtzee.c:120
+#: ../gtali/src/setup.c:364
 msgctxt "game type"
 msgid "Regular"
 msgstr "Обычная"
 
-#: ../gtali/gyahtzee.c:121
-#: ../gtali/setup.c:365
+#: ../gtali/src/gyahtzee.c:121
+#: ../gtali/src/setup.c:365
 msgctxt "game type"
 msgid "Colors"
 msgstr "Цветная"
 
-#: ../gtali/gyahtzee.c:144
+#: ../gtali/src/gyahtzee.c:144
 msgid "Roll all!"
 msgstr "Бросок всех!"
 
-#: ../gtali/gyahtzee.c:147
-#: ../gtali/gyahtzee.c:825
+#: ../gtali/src/gyahtzee.c:147
+#: ../gtali/src/gyahtzee.c:825
 msgid "Roll!"
 msgstr "Бросок!"
 
-#: ../gtali/gyahtzee.c:181
+#: ../gtali/src/gyahtzee.c:181
 msgid "The game is a draw!"
 msgstr "Игра закончилась ничьёй."
 
-#: ../gtali/gyahtzee.c:195
-#: ../gtali/gyahtzee.c:632
+#: ../gtali/src/gyahtzee.c:195
+#: ../gtali/src/gyahtzee.c:632
 msgid "Tali Scores"
 msgstr "Результаты Тали"
 
-#: ../gtali/gyahtzee.c:211
+#: ../gtali/src/gyahtzee.c:211
 #, c-format
 msgid "%s wins the game with %d point"
 msgid_plural "%s wins the game with %d points"
@@ -4092,41 +3747,41 @@ msgstr[0] "%s победил в игре с %d очком"
 msgstr[1] "%s победил в игре с %d очками"
 msgstr[2] "%s победил в игре с %d очками"
 
-#: ../gtali/gyahtzee.c:259
+#: ../gtali/src/gyahtzee.c:259
 #, c-format
 msgid "Computer playing for %s"
 msgstr "Компьютер играет за %s"
 
-#: ../gtali/gyahtzee.c:261
+#: ../gtali/src/gyahtzee.c:261
 #, c-format
 msgid "%s! -- You're up."
 msgstr "%s! -- Ваша очередь."
 
-#: ../gtali/gyahtzee.c:450
+#: ../gtali/src/gyahtzee.c:450
 msgid "Select dice to roll or choose a score slot."
 msgstr "Выберите кости для перебрасывания или выберите клетку счёта."
 
-#: ../gtali/gyahtzee.c:479
+#: ../gtali/src/gyahtzee.c:479
 msgid "Roll"
 msgstr "Бросок"
 
-#: ../gtali/gyahtzee.c:537
+#: ../gtali/src/gyahtzee.c:537
 msgid "You are only allowed three rolls. Choose a score slot."
 msgstr "Можно сделать только три броска. Выберите клетку."
 
-#: ../gtali/gyahtzee.c:588
+#: ../gtali/src/gyahtzee.c:588
 msgid "GNOME version (1998):"
 msgstr "Версия GNOME (1998):"
 
-#: ../gtali/gyahtzee.c:591
+#: ../gtali/src/gyahtzee.c:591
 msgid "Console version (1992):"
 msgstr "Текстовая версия (1992):"
 
-#: ../gtali/gyahtzee.c:594
+#: ../gtali/src/gyahtzee.c:594
 msgid "Colors game and multi-level AI (2006):"
 msgstr "Цветной режим игры и многоуровневый ИИ (2006):"
 
-#: ../gtali/gyahtzee.c:612
+#: ../gtali/src/gyahtzee.c:612
 msgid ""
 "A variation on poker with dice and less money.\n"
 "\n"
@@ -4136,190 +3791,200 @@ msgstr ""
 "\n"
 "Тали является частью GNOME Games."
 
-#: ../gtali/setup.c:123
+#: ../gtali/src/setup.c:123
 msgid "Current game will complete with original number of players."
 msgstr "Текущая игра завершится с исходным числом игроков."
 
-#: ../gtali/setup.c:266
+#: ../gtali/src/setup.c:266
 msgid "Tali Preferences"
 msgstr "Параметры Тали"
 
-#: ../gtali/setup.c:287
+#: ../gtali/src/setup.c:287
 msgid "Human Players"
 msgstr "Игроки-люди"
 
-#: ../gtali/setup.c:298
+#: ../gtali/src/setup.c:298
 msgid "_Number of players:"
 msgstr "_Число игроков:"
 
-#: ../gtali/setup.c:312
+#: ../gtali/src/setup.c:312
 msgid "Computer Opponents"
 msgstr "Компьютерные соперники"
 
 #. --- Button ---
-#: ../gtali/setup.c:320
+#: ../gtali/src/setup.c:320
 msgid "_Delay between rolls"
 msgstr "_Задержка между бросками"
 
-#: ../gtali/setup.c:330
+#: ../gtali/src/setup.c:330
 msgid "N_umber of opponents:"
 msgstr "Число _соперников:"
 
-#: ../gtali/setup.c:344
+#: ../gtali/src/setup.c:344
 msgid "_Difficulty:"
 msgstr "С_ложность:"
 
-#: ../gtali/setup.c:348
+#: ../gtali/src/setup.c:348
 msgctxt "difficulty"
 msgid "Medium"
 msgstr "Средний"
 
 #. --- PLAYER NAMES FRAME ----
-#: ../gtali/setup.c:373
+#: ../gtali/src/setup.c:373
 msgid "Player Names"
 msgstr "Имена игроков"
 
-#: ../gtali/yahtzee.c:85
-#: ../gtali/yahtzee.c:109
-#: ../gtali/yahtzee.c:517
+#: ../gtali/src/yahtzee.c:85
+#: ../gtali/src/yahtzee.c:109
+#: ../gtali/src/yahtzee.c:517
 msgid "1s [total of 1s]"
 msgstr "1 [сумма 1й]"
 
-#: ../gtali/yahtzee.c:86
-#: ../gtali/yahtzee.c:110
-#: ../gtali/yahtzee.c:518
+#: ../gtali/src/yahtzee.c:86
+#: ../gtali/src/yahtzee.c:110
+#: ../gtali/src/yahtzee.c:518
 msgid "2s [total of 2s]"
 msgstr "2 [сумма 2х]"
 
-#: ../gtali/yahtzee.c:87
-#: ../gtali/yahtzee.c:111
-#: ../gtali/yahtzee.c:519
+#: ../gtali/src/yahtzee.c:87
+#: ../gtali/src/yahtzee.c:111
+#: ../gtali/src/yahtzee.c:519
 msgid "3s [total of 3s]"
 msgstr "3 [сумма 3х]"
 
-#: ../gtali/yahtzee.c:88
-#: ../gtali/yahtzee.c:112
-#: ../gtali/yahtzee.c:520
+#: ../gtali/src/yahtzee.c:88
+#: ../gtali/src/yahtzee.c:112
+#: ../gtali/src/yahtzee.c:520
 msgid "4s [total of 4s]"
 msgstr "4 [сумма 4х]"
 
-#: ../gtali/yahtzee.c:89
-#: ../gtali/yahtzee.c:113
-#: ../gtali/yahtzee.c:521
+#: ../gtali/src/yahtzee.c:89
+#: ../gtali/src/yahtzee.c:113
+#: ../gtali/src/yahtzee.c:521
 msgid "5s [total of 5s]"
 msgstr "5 [сумма 5х]"
 
-#: ../gtali/yahtzee.c:90
-#: ../gtali/yahtzee.c:114
-#: ../gtali/yahtzee.c:522
+#: ../gtali/src/yahtzee.c:90
+#: ../gtali/src/yahtzee.c:114
+#: ../gtali/src/yahtzee.c:522
 msgid "6s [total of 6s]"
 msgstr "6 [сумма 6х]"
 
 #. End of upper panel
-#: ../gtali/yahtzee.c:92
-#: ../gtali/yahtzee.c:117
-#: ../gtali/yahtzee.c:523
+#: ../gtali/src/yahtzee.c:92
+#: ../gtali/src/yahtzee.c:117
+#: ../gtali/src/yahtzee.c:523
 msgid "3 of a Kind [total]"
 msgstr "3 одинаковых [сумма]"
 
-#: ../gtali/yahtzee.c:93
-#: ../gtali/yahtzee.c:524
+#: ../gtali/src/yahtzee.c:93
+#: ../gtali/src/yahtzee.c:524
 msgid "4 of a Kind [total]"
 msgstr "4 одинаковых [сумма]"
 
-#: ../gtali/yahtzee.c:94
-#: ../gtali/yahtzee.c:525
+#: ../gtali/src/yahtzee.c:94
+#: ../gtali/src/yahtzee.c:525
 msgid "Full House [25]"
 msgstr "Фулл [25]"
 
-#: ../gtali/yahtzee.c:95
-#: ../gtali/yahtzee.c:526
+#: ../gtali/src/yahtzee.c:95
+#: ../gtali/src/yahtzee.c:526
 msgid "Small Straight [30]"
 msgstr "Малый стрит [30]"
 
-#: ../gtali/yahtzee.c:96
-#: ../gtali/yahtzee.c:121
-#: ../gtali/yahtzee.c:527
+#: ../gtali/src/yahtzee.c:96
+#: ../gtali/src/yahtzee.c:121
+#: ../gtali/src/yahtzee.c:527
 msgid "Large Straight [40]"
 msgstr "Главный стрит [40]"
 
-#: ../gtali/yahtzee.c:97
+#: ../gtali/src/yahtzee.c:97
 msgid "5 of a Kind [50]"
 msgstr "5 одинаковых [50]"
 
-#: ../gtali/yahtzee.c:98
-#: ../gtali/yahtzee.c:124
-#: ../gtali/yahtzee.c:529
+#: ../gtali/src/yahtzee.c:98
+#: ../gtali/src/yahtzee.c:124
+#: ../gtali/src/yahtzee.c:529
 msgid "Chance [total]"
 msgstr "Шанс [сумма]"
 
 #. End of lower panel
-#: ../gtali/yahtzee.c:100
-#: ../gtali/yahtzee.c:126
+#: ../gtali/src/yahtzee.c:100
+#: ../gtali/src/yahtzee.c:126
 msgid "Lower Total"
 msgstr "Малая сумма"
 
-#: ../gtali/yahtzee.c:101
-#: ../gtali/yahtzee.c:127
+#: ../gtali/src/yahtzee.c:101
+#: ../gtali/src/yahtzee.c:127
 msgid "Grand Total"
 msgstr "Главная сумма"
 
 #. Need to squish between upper and lower pannel
-#: ../gtali/yahtzee.c:103
-#: ../gtali/yahtzee.c:129
+#: ../gtali/src/yahtzee.c:103
+#: ../gtali/src/yahtzee.c:129
 msgid "Upper total"
 msgstr "Верхняя сумма"
 
-#: ../gtali/yahtzee.c:104
-#: ../gtali/yahtzee.c:130
+#: ../gtali/src/yahtzee.c:104
+#: ../gtali/src/yahtzee.c:130
 msgid "Bonus if >62"
 msgstr "Бонус, если >62"
 
 #. End of upper panel
-#: ../gtali/yahtzee.c:116
-#: ../gtali/yahtzee.c:530
+#: ../gtali/src/yahtzee.c:116
+#: ../gtali/src/yahtzee.c:530
 msgid "2 pair Same Color [total]"
 msgstr "2 пары одного цвета [сумма]"
 
-#: ../gtali/yahtzee.c:118
-#: ../gtali/yahtzee.c:531
+#: ../gtali/src/yahtzee.c:118
+#: ../gtali/src/yahtzee.c:531
 msgid "Full House [15 + total]"
 msgstr "Фулл [15 + сумма]"
 
-#: ../gtali/yahtzee.c:119
-#: ../gtali/yahtzee.c:532
+#: ../gtali/src/yahtzee.c:119
+#: ../gtali/src/yahtzee.c:532
 msgid "Full House Same Color [20 + total]"
 msgstr "Фулл одного цвета [20 + сумма]"
 
-#: ../gtali/yahtzee.c:120
-#: ../gtali/yahtzee.c:533
+#: ../gtali/src/yahtzee.c:120
+#: ../gtali/src/yahtzee.c:533
 msgid "Flush (all same color) [35]"
 msgstr "Флэш (все одного цвета) [35]"
 
-#: ../gtali/yahtzee.c:122
-#: ../gtali/yahtzee.c:534
+#: ../gtali/src/yahtzee.c:122
+#: ../gtali/src/yahtzee.c:534
 msgid "4 of a Kind [25 + total]"
 msgstr "4 одинаковых [25 + сумма]"
 
-#: ../gtali/yahtzee.c:123
-#: ../gtali/yahtzee.c:535
+#: ../gtali/src/yahtzee.c:123
+#: ../gtali/src/yahtzee.c:535
 msgid "5 of a Kind [50 + total]"
 msgstr "5 одинаковых [50 + сумма]"
 
-#: ../gtali/yahtzee.c:251
+#: ../gtali/src/yahtzee.c:251
 msgid "Choose a score slot."
 msgstr "Выберите клетку счёта."
 
-#: ../gtali/yahtzee.c:528
+#: ../gtali/src/yahtzee.c:528
 msgid "5 of a Kind [total]"
 msgstr "5 одинаковых [сумма]"
 
-#: ../iagno/gnothello.c:48
-#: ../iagno/iagno.desktop.in.in.h:2
+#. Arrgh - lets all use the same tabs under emacs:
+#. Local Variables:
+#. tab-width: 8
+#. c-basic-offset: 8
+#. indent-tabs-mode: nil
+#.
+#: ../iagno/data/iagno.desktop.in.in.h:1
+msgid "Dominate the board in a classic version of Reversi"
+msgstr "Захватите доску в классическом варианте Реверси"
+
+#: ../iagno/data/iagno.desktop.in.in.h:2
+#: ../iagno/src/gnothello.c:48
 msgid "Iagno"
 msgstr "Ягно"
 
-#: ../iagno/gnothello.c:221
+#: ../iagno/src/gnothello.c:221
 msgid ""
 "A disk flipping game derived from Reversi.\n"
 "\n"
@@ -4329,106 +3994,102 @@ msgstr ""
 "\n"
 "Ягно это часть пакет GNOME Games."
 
-#: ../iagno/gnothello.c:283
+#: ../iagno/src/gnothello.c:283
 msgid "Invalid move."
 msgstr "Некорректный ход."
 
-#: ../iagno/gnothello.c:639
-#: ../iagno/gnothello.c:641
+#: ../iagno/src/gnothello.c:639
+#: ../iagno/src/gnothello.c:641
 #, c-format
 msgid "%.2d"
 msgstr "%.2d"
 
-#: ../iagno/gnothello.c:648
+#: ../iagno/src/gnothello.c:648
 msgid "Dark's move"
 msgstr "Ход черных"
 
-#: ../iagno/gnothello.c:650
+#: ../iagno/src/gnothello.c:650
 msgid "Light's move"
 msgstr "Ход белых"
 
-#: ../iagno/gnothello.c:872
+#: ../iagno/src/gnothello.c:872
 msgid "Dark:"
 msgstr "Черные:"
 
-#: ../iagno/gnothello.c:882
+#: ../iagno/src/gnothello.c:882
 msgid "Light:"
 msgstr "Белые:"
 
-#: ../iagno/gnothello.c:906
+#: ../iagno/src/gnothello.c:906
 msgid "Welcome to Iagno!"
 msgstr "Добро пожаловать в Ягно!"
 
-#: ../iagno/iagno.desktop.in.in.h:1
-msgid "Dominate the board in a classic version of Reversi"
-msgstr "Захватите доску в классическом варианте Реверси"
-
-#: ../iagno/othello.c:699
+#: ../iagno/src/othello.c:699
 msgid "Light player wins!"
 msgstr "Белые победили!"
 
-#: ../iagno/othello.c:701
+#: ../iagno/src/othello.c:701
 msgid "Dark player wins!"
 msgstr "Черные победили!"
 
-#: ../iagno/othello.c:703
+#: ../iagno/src/othello.c:703
 msgid "The game was a draw."
 msgstr "Ничья."
 
-#: ../iagno/othello.c:715
+#: ../iagno/src/othello.c:715
 msgid "Light must pass, Dark's move"
 msgstr "Белые пропускают ход, черные ходят"
 
-#: ../iagno/othello.c:720
+#: ../iagno/src/othello.c:720
 msgid "Dark must pass, Light's move"
 msgstr "Черные пропускают ход, белые ходят"
 
-#: ../iagno/properties.c:380
+#: ../iagno/src/properties.c:380
 msgid "Iagno Preferences"
 msgstr "Параметры Ягно"
 
-#: ../iagno/properties.c:409
+#: ../iagno/src/properties.c:409
 msgid "_Use quick moves"
 msgstr "Использовать _быстрые ходы"
 
-#: ../iagno/properties.c:424
+#: ../iagno/src/properties.c:424
 msgid "Dark"
 msgstr "Черные"
 
-#: ../iagno/properties.c:465
+#: ../iagno/src/properties.c:465
 msgid "Light"
 msgstr "Белые"
 
-#: ../iagno/properties.c:514
+#: ../iagno/src/properties.c:514
 msgid "Animation"
 msgstr "Анимация"
 
-#: ../iagno/properties.c:518
+#: ../iagno/src/properties.c:518
 msgid "None"
 msgstr "Нет"
 
-#: ../iagno/properties.c:527
+#: ../iagno/src/properties.c:527
 msgid "Partial"
 msgstr "Частичная"
 
-#: ../iagno/properties.c:536
+#: ../iagno/src/properties.c:536
 msgid "Complete"
 msgstr "Полная"
 
-#: ../iagno/properties.c:550
+#: ../iagno/src/properties.c:550
 msgid "_Stagger flips"
 msgstr "_Замедлять перевороты"
 
-#: ../iagno/properties.c:558
+#: ../iagno/src/properties.c:558
 msgid "S_how grid"
 msgstr "Показывать _решетку"
 
-#: ../iagno/properties.c:565
+#: ../iagno/src/properties.c:565
 msgid "_Flip final results"
 msgstr "_Подбросить в конце игры"
 
-#: ../iagno/properties.c:574
-#: ../mahjongg/mahjongg.c:686
+#: ../iagno/src/properties.c:574
+#: ../mahjongg/src/mahjongg.vala:345
 msgid "_Tile set:"
 msgstr "Набор _фишек:"
 
@@ -4583,7 +4244,7 @@ msgid "View the scores"
 msgstr "Просмотреть результаты"
 
 #: ../libgames-support/games-stock.c:57
-#: ../mahjongg/mahjongg.c:1199
+#: ../mahjongg/src/mahjongg.vala:657
 msgid "Undo the last move"
 msgstr "Отменить последний ход"
 
@@ -4618,6 +4279,7 @@ msgstr "_Возвратить"
 
 #. Translators: "_Restart" is the menu item 'Game->Restart', implies "Restart Game"
 #: ../libgames-support/games-stock.c:260
+#: ../mahjongg/src/mahjongg.vala:292
 msgid "_Restart"
 msgstr "_Начать заново"
 
@@ -4677,13 +4339,22 @@ msgstr "Вы должны получить копию GNU General Public License
 msgid "You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "Вы должны получить копию GNU General Public License вместе с этой программой. Если этого не произошло, посмотрите <http://www.gnu.org/licenses/>."
 
-#: ../lightsoff/lightsoff.desktop.in.in.h:1
 #: ../lightsoff/data/lightsoff.ui.h:1
 #: ../lightsoff/data/settings.ui.h:2
+#: ../lightsoff/lightsoff.desktop.in.in.h:1
 #: ../lightsoff/src/About.js:11
 #: ../lightsoff/src/About.js:15
 msgid "Lights Off"
-msgstr "Выключите свет"
+msgstr "Туши свет"
+
+#: ../lightsoff/data/settings.ui.h:3
+#: ../swell-foop/data/settings.ui.h:7
+msgid "Theme:"
+msgstr "Тема:"
+
+#: ../lightsoff/data/settings.ui.h:4
+msgid "Use colors from GNOME theme"
+msgstr "Использовать цвета из системной темы"
 
 #: ../lightsoff/lightsoff.desktop.in.in.h:2
 msgid "Turn off all the lights"
@@ -4715,15 +4386,6 @@ msgstr "Последний рейтинг пользователей."
 msgid "Whether or not to use the GNOME theme colors"
 msgstr "Использовать цвета из системной темы"
 
-#: ../lightsoff/data/settings.ui.h:3
-#: ../swell-foop/data/settings.ui.h:7
-msgid "Theme:"
-msgstr "Тема:"
-
-#: ../lightsoff/data/settings.ui.h:4
-msgid "Use colors from GNOME theme"
-msgstr "Использовать цвета из системной темы"
-
 #: ../lightsoff/src/About.js:13
 msgid ""
 "Turn off all the lights\n"
@@ -4732,110 +4394,148 @@ msgid ""
 msgstr ""
 "Выключите все огоньки\n"
 "\n"
-"«Выключите свет» является частью пакета GNOME Games."
+"«Туши свет» является частью пакета GNOME Games."
 
 #: ../lightsoff/src/About.js:14
 #: ../swell-foop/src/About.js:14
 msgid "Copyright  2009 Tim Horton"
 msgstr "Авторские права 2009 Tim Horton"
 
-#: ../mahjongg/drawing.c:299
-msgid ""
-"The selected theme failed to render.\n"
-"\n"
-"Please check that Mahjongg is installed correctly."
-msgstr ""
-"Не удалось правильно прочитать выбранную тему.\n"
-"\n"
-"Проверьте установку игры Маджонг."
+#: ../mahjongg/data/mahjongg.desktop.in.in.h:1
+msgid "Disassemble a pile of tiles by removing matching pairs"
+msgstr "Разберите большую кучу фишек, убирая совпадающие пары картинок"
 
-#: ../mahjongg/drawing.c:428
-#: ../mahjongg/drawing.c:441
-#, c-format
-msgid ""
-"Unable to render file:\n"
-"'%s'\n"
-"\n"
-"Please check that Mahjongg is installed correctly."
-msgstr ""
-"Не удалось прочитать файл:\n"
-"%s\n"
-"\n"
-"Проверьте установку игры Маджонг."
-
-#: ../mahjongg/mahjongg.c:45
-#: ../mahjongg/mahjongg.c:887
-#: ../mahjongg/mahjongg.c:890
-#: ../mahjongg/mahjongg.desktop.in.in.h:2
+#: ../mahjongg/data/mahjongg.desktop.in.in.h:2
+#: ../mahjongg/src/mahjongg.vala:44
+#: ../mahjongg/src/mahjongg.vala:528
+#: ../mahjongg/src/mahjongg.vala:533
+#: ../mahjongg/src/mahjongg.vala:798
 msgid "Mahjongg"
 msgstr "Маджонг"
 
-#: ../mahjongg/mahjongg.c:134
-msgid "Could not load tile set"
-msgstr "Не удалось загрузить набор фишек."
+#.
+#. * Translatable strings file generated by get_titles.pl.
+#. * Add this file to your project's POTFILES.in.
+#. * DO NOT compile it as part of your application.
+#.
+#: ../mahjongg/data/translatable_game_names.h:6
+msgctxt "mahjongg map name"
+msgid "The Ziggurat"
+msgstr "Зиггурат"
 
-#: ../mahjongg/mahjongg.c:263
+#: ../mahjongg/data/translatable_game_names.h:7
+msgctxt "mahjongg map name"
+msgid "Four Bridges"
+msgstr "Четыре моста"
+
+#: ../mahjongg/data/translatable_game_names.h:8
+msgctxt "mahjongg map name"
+msgid "Cloud"
+msgstr "Облако"
+
+#: ../mahjongg/data/translatable_game_names.h:9
+msgctxt "mahjongg map name"
+msgid "Tic-Tac-Toe"
+msgstr "Крестики-нолики"
+
+#: ../mahjongg/data/translatable_game_names.h:10
+msgctxt "mahjongg map name"
+msgid "Red Dragon"
+msgstr "Красный дракон"
+
+#: ../mahjongg/data/translatable_game_names.h:11
+msgctxt "mahjongg map name"
+msgid "Pyramid's Walls"
+msgstr "Стены пирамиды"
+
+#: ../mahjongg/data/translatable_game_names.h:12
+msgctxt "mahjongg map name"
+msgid "Confounding Cross"
+msgstr "Смешанный крест"
+
+#: ../mahjongg/data/translatable_game_names.h:13
+msgctxt "mahjongg map name"
+msgid "Difficult"
+msgstr "Тяжёлая"
+
+#: ../mahjongg/src/mahjongg.vala:51
+msgid "Tiles Left:"
+msgstr "Осталось фишек:"
+
+#: ../mahjongg/src/mahjongg.vala:60
+msgid "Moves Left:"
+msgstr "Осталось ходов:"
+
+#: ../mahjongg/src/mahjongg.vala:184
 msgid "Do you want to start a new game with this map?"
 msgstr "Начать новую игру с этой картой?"
 
-#: ../mahjongg/mahjongg.c:265
+#: ../mahjongg/src/mahjongg.vala:185
 msgid "If you continue playing the next game will use the new map."
 msgstr "Если продолжить, следующая игра будет иметь другую карту."
 
-#: ../mahjongg/mahjongg.c:267
+#: ../mahjongg/src/mahjongg.vala:186
 msgid "_Continue playing"
 msgstr "_Продолжить игру"
 
-#: ../mahjongg/mahjongg.c:268
+#: ../mahjongg/src/mahjongg.vala:187
 msgid "Use _new map"
 msgstr "В_ыбрать карту"
 
-#: ../mahjongg/mahjongg.c:571
-msgid "There are no more moves."
-msgstr "Больше нет вариантов ходов."
-
-#: ../mahjongg/mahjongg.c:574
-msgid "_New game"
-msgstr "_Новая игра"
-
-#: ../mahjongg/mahjongg.c:579
-msgid "_Shuffle"
-msgstr "П_еремешать"
-
-#: ../mahjongg/mahjongg.c:618
-#: ../mahjongg/mahjongg.c:943
+#: ../mahjongg/src/mahjongg.vala:260
+#: ../mahjongg/src/mahjongg.vala:561
 msgid "Mahjongg Scores"
 msgstr "Результаты игры Маджонг"
 
-#: ../mahjongg/mahjongg.c:659
+#: ../mahjongg/src/mahjongg.vala:262
+msgid "Puzzle solved!"
+msgstr "Головоломка решена!"
+
+#: ../mahjongg/src/mahjongg.vala:263
+msgid "You didn't make the top ten, better luck next time."
+msgstr "Вы не вошли в десятку лучших, удачи в следующей игре."
+
+#: ../mahjongg/src/mahjongg.vala:289
+msgid "There are no more moves."
+msgstr "Больше нет вариантов ходов."
+
+#: ../mahjongg/src/mahjongg.vala:290
+msgid "Each puzzle has at least one solution.  You can undo your moves and try and find the solution for a time penalty, restart this game or start an new one."
+msgstr "Каждая головоломка имеет по крайней мере одно решение. Вы можете отменить сделанные ходы и попытаться найти решение со штрафом времени, перезапустить эту игру или начать новую."
+
+#: ../mahjongg/src/mahjongg.vala:293
+msgid "_New game"
+msgstr "_Новая игра"
+
+#: ../mahjongg/src/mahjongg.vala:321
 msgid "Mahjongg Preferences"
 msgstr "Параметры игры «Маджонг»"
 
-#: ../mahjongg/mahjongg.c:679
+#: ../mahjongg/src/mahjongg.vala:338
 msgid "Tiles"
 msgstr "Фишки"
 
-#: ../mahjongg/mahjongg.c:700
+#: ../mahjongg/src/mahjongg.vala:374
 msgid "Maps"
 msgstr "Карты"
 
-#: ../mahjongg/mahjongg.c:707
+#: ../mahjongg/src/mahjongg.vala:381
 msgid "_Select map:"
 msgstr "Выбор _карты:"
 
-#: ../mahjongg/mahjongg.c:721
+#: ../mahjongg/src/mahjongg.vala:408
 msgid "Colors"
 msgstr "Цвета"
 
-#: ../mahjongg/mahjongg.c:867
+#: ../mahjongg/src/mahjongg.vala:504
 msgid "Maps:"
 msgstr "Карты:"
 
-#: ../mahjongg/mahjongg.c:874
+#: ../mahjongg/src/mahjongg.vala:512
 msgid "Tiles:"
 msgstr "Фишки:"
 
-#: ../mahjongg/mahjongg.c:893
+#: ../mahjongg/src/mahjongg.vala:531
 msgid ""
 "A matching game played with Mahjongg tiles.\n"
 "\n"
@@ -4845,96 +4545,257 @@ msgstr ""
 "\n"
 "«Маджонг» это часть GNOME Games"
 
-#: ../mahjongg/mahjongg.c:1138
+#. Translators: This is the window title for Mahjongg which contains the map name, e.g. 'Mahjongg - Red Dragon'
+#: ../mahjongg/src/mahjongg.vala:636
 #, c-format
 msgid "Mahjongg - %s"
 msgstr "Маджонг — %s"
 
-#: ../mahjongg/mahjongg.c:1198
+#: ../mahjongg/src/mahjongg.vala:656
 msgid "Restart the current game"
 msgstr "Начать игру заново"
 
-#: ../mahjongg/mahjongg.c:1201
+#: ../mahjongg/src/mahjongg.vala:658
 msgid "Redo the last move"
 msgstr "Вернуть последний ход"
 
-#: ../mahjongg/mahjongg.c:1203
+#: ../mahjongg/src/mahjongg.vala:659
 msgid "Show a hint"
 msgstr "Подсказка"
 
-#: ../mahjongg/mahjongg.c:1375
-msgid "Tiles Left:"
-msgstr "Осталось фишек:"
+#: ../quadrapassel/data/quadrapassel.desktop.in.in.h:1
+msgid "Fit falling blocks together"
+msgstr "Укладывайте падающие блоки вместе"
 
-#: ../mahjongg/mahjongg.c:1384
-msgid "Moves Left:"
-msgstr "Осталось ходов:"
+#: ../quadrapassel/data/quadrapassel.desktop.in.in.h:2
+#: ../quadrapassel/src/main.cpp:66
+#: ../quadrapassel/src/tetris.cpp:158
+#: ../quadrapassel/src/tetris.cpp:1305
+#: ../quadrapassel/src/tetris.cpp:1308
+msgid "Quadrapassel"
+msgstr "Quadrapassel"
 
-#: ../mahjongg/mahjongg.c:1448
-msgid "Remove matching pairs of tiles."
-msgstr "Удалить пару совпадающих фишек."
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:1
+#: ../quadrapassel/src/tetris.cpp:754
+msgid "Drop"
+msgstr "Бросить"
 
-#: ../mahjongg/mahjongg.desktop.in.in.h:1
-msgid "Disassemble a pile of tiles by removing matching pairs"
-msgstr "Разберите большую кучу фишек, убирая совпадающие пары картинок"
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:2
+msgid "Image to use for drawing blocks"
+msgstr "Изображение для блоков"
 
-#: ../mahjongg/maps.c:229
-msgctxt "mahjongg map name"
-msgid "Easy"
-msgstr "Лёгкая"
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:3
+msgid "Image to use for drawing blocks."
+msgstr "Изображение для блоков."
 
-#.
-#. * Translatable strings file generated by get_titles.pl.
-#. * Add this file to your project's POTFILES.in.
-#. * DO NOT compile it as part of your application.
-#.
-#: ../mahjongg/translatable_game_names.h:6
-msgctxt "mahjongg map name"
-msgid "The Ziggurat"
-msgstr "Зиггурат"
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:4
+msgid "Key press to drop."
+msgstr "Клавиша для сброса."
 
-#: ../mahjongg/translatable_game_names.h:7
-msgctxt "mahjongg map name"
-msgid "Four Bridges"
-msgstr "Четыре моста"
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:5
+msgid "Key press to move down."
+msgstr "Клавиша для перемещения вниз."
 
-#: ../mahjongg/translatable_game_names.h:8
-msgctxt "mahjongg map name"
-msgid "Cloud"
-msgstr "Облако"
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:8
+msgid "Key press to pause."
+msgstr "Клавиша для паузы."
 
-#: ../mahjongg/translatable_game_names.h:9
-msgctxt "mahjongg map name"
-msgid "Tic-Tac-Toe"
-msgstr "Крестики-нолики"
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:9
+msgid "Key press to rotate."
+msgstr "Нажмите клавишу для поворота."
 
-#: ../mahjongg/translatable_game_names.h:10
-msgctxt "mahjongg map name"
-msgid "Red Dragon"
-msgstr "Красный дракон"
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:10
+msgid "Level to start with"
+msgstr "Начальный уровень"
 
-#: ../mahjongg/translatable_game_names.h:11
-msgctxt "mahjongg map name"
-msgid "Pyramid's Walls"
-msgstr "Стены пирамиды"
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:11
+msgid "Level to start with."
+msgstr "Начальный уровень."
 
-#: ../mahjongg/translatable_game_names.h:12
-msgctxt "mahjongg map name"
-msgid "Confounding Cross"
-msgstr "Смешанный крест"
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:15
+#: ../quadrapassel/src/tetris.cpp:756
+msgid "Pause"
+msgstr "Пауза"
 
-#: ../mahjongg/translatable_game_names.h:13
-msgctxt "mahjongg map name"
-msgid "Difficult"
-msgstr "Тяжёлая"
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:16
+#: ../quadrapassel/src/tetris.cpp:755
+msgid "Rotate"
+msgstr "Поворот"
 
-#: ../swell-foop/data/swell-foop.ui.h:1
-#: ../swell-foop/data/settings.ui.h:6
-#: ../swell-foop/swell-foop.desktop.in.in.h:2
-#: ../swell-foop/src/About.js:11
-#: ../swell-foop/src/About.js:15
-msgid "Swell Foop"
-msgstr "Swell Foop"
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:17
+msgid "The background color"
+msgstr "Цвет фона"
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:18
+msgid "The background color, in a format gdk_color_parse understands."
+msgstr "Цвет фона в формате, распознаваемом gdk_color_parse."
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:19
+msgid "The density of blocks in rows filled at the start of the game. The value is between 0 (for no blocks) and 10 (for a completely filled row)."
+msgstr "Количество рядов блоков в начале игры. Принимает значения от 0 (нет блоков) до 10 (полностью заполненный стакан)."
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:20
+msgid "The density of filled rows"
+msgstr "Плотность блоков в заполненных строках"
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:21
+msgid "The name of the theme used for rendering the blocks and the background."
+msgstr "Тема, используемая для рисования блоков и фона."
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:22
+msgid "The number of rows that are filled with random blocks at the start of the game."
+msgstr "Число рядов, заполненных случайными блоками в начале игры."
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:23
+msgid "The number of rows to fill"
+msgstr "Число заполняемый рядов"
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:24
+msgid "The theme used for rendering the blocks"
+msgstr "Тема блоков"
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:25
+msgid "This selects whether or not to draw the background image over the background color."
+msgstr "Отрисовывать ли фоновое изображение над фоном, заполненным цветом."
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:26
+msgid "Whether to give blocks random colors"
+msgstr "Использовать разноцветные блоки"
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:27
+msgid "Whether to give blocks random colors."
+msgstr "Использовать разноцветные блоки."
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:28
+msgid "Whether to preview the next block"
+msgstr "Показывать следующий блок"
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:29
+msgid "Whether to preview the next block."
+msgstr "Показывать следующий блок."
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:30
+msgid "Whether to provide a graphical representation of where a block will land."
+msgstr "Показывать, куда упадёт блок."
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:31
+msgid "Whether to provide a target"
+msgstr "Показывать цель"
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:32
+msgid "Whether to rotate counter clock wise"
+msgstr "Вращать по часовой стрелке"
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:33
+msgid "Whether to rotate counter clock wise."
+msgstr "Вращать по часовой стрелке."
+
+#: ../quadrapassel/data/quadrapassel.schemas.in.h:34
+msgid "Whether to use the background image"
+msgstr "Использовать фоновое изображение"
+
+#: ../quadrapassel/src/blockops.cpp:788
+msgid "Game Over"
+msgstr "Игра окончена"
+
+#: ../quadrapassel/src/highscores.cpp:48
+msgid "Quadrapassel Scores"
+msgstr "Результаты Quadrapassel"
+
+#: ../quadrapassel/src/main.cpp:48
+msgid "Set starting level (1 or greater)"
+msgstr "Установить начальный уровень (1 или больше)"
+
+#: ../quadrapassel/src/main.cpp:48
+msgid "LEVEL"
+msgstr "УРОВЕНЬ"
+
+#: ../quadrapassel/src/renderer.cpp:30
+msgid "Plain"
+msgstr "Простой"
+
+#: ../quadrapassel/src/renderer.cpp:31
+msgid "Tango Flat"
+msgstr "Простой Танго"
+
+#: ../quadrapassel/src/renderer.cpp:32
+msgid "Tango Shaded"
+msgstr "Танго с тенями"
+
+#: ../quadrapassel/src/renderer.cpp:33
+msgid "Clean"
+msgstr "Очистить"
+
+#: ../quadrapassel/src/scoreframe.cpp:57
+msgid "Lines:"
+msgstr "Линии:"
+
+#: ../quadrapassel/src/tetris.cpp:576
+msgid "Quadrapassel Preferences"
+msgstr "Параметры Quadrapassel"
+
+#: ../quadrapassel/src/tetris.cpp:599
+#: ../swell-foop/data/settings.ui.h:5
+msgid "Setup"
+msgstr "Настройка"
+
+#. pre-filled rows
+#: ../quadrapassel/src/tetris.cpp:605
+msgid "_Number of pre-filled rows:"
+msgstr "_Число заранее заполненных строк:"
+
+#. pre-filled rows density
+#: ../quadrapassel/src/tetris.cpp:624
+msgid "_Density of blocks in a pre-filled row:"
+msgstr "_Плотность блоков в заполненных строках:"
+
+#: ../quadrapassel/src/tetris.cpp:664
+#: ../swell-foop/data/settings.ui.h:4
+msgid "Operation"
+msgstr "Игровой процесс"
+
+#: ../quadrapassel/src/tetris.cpp:678
+msgid "_Preview next block"
+msgstr "Показывать _следующий блок"
+
+#: ../quadrapassel/src/tetris.cpp:687
+msgid "_Use random block colors"
+msgstr "_Использовать разноцветные блоки"
+
+#: ../quadrapassel/src/tetris.cpp:698
+msgid "Choose difficult _blocks"
+msgstr "Выбирать _сложные блоки"
+
+#: ../quadrapassel/src/tetris.cpp:714
+msgid "_Rotate blocks counterclockwise"
+msgstr "Вращение против часовой стр_елки"
+
+#: ../quadrapassel/src/tetris.cpp:723
+msgid "Show _where the block will land"
+msgstr "Показывать место попадания _блока"
+
+#: ../quadrapassel/src/tetris.cpp:731
+#: ../quadrapassel/src/tetris.cpp:764
+msgid "Theme"
+msgstr "Тема"
+
+#: ../quadrapassel/src/tetris.cpp:740
+msgid "Controls"
+msgstr "Управление"
+
+#: ../quadrapassel/src/tetris.cpp:767
+msgid "Block Style"
+msgstr "Стиль блоков"
+
+#: ../quadrapassel/src/tetris.cpp:1310
+msgid ""
+"A classic game of fitting falling blocks together.\n"
+"\n"
+"Quadrapassel is a part of GNOME Games."
+msgstr ""
+"Классическая игра укладки падающих блоков.\n"
+"\n"
+"Quadrapassel является частью GNOME Games."
 
 #: ../swell-foop/data/settings.ui.h:2
 msgid "Board size:"
@@ -4944,40 +4805,19 @@ msgstr "Размер доски:"
 msgid "Number of colors:"
 msgstr "Число цветов:"
 
+#: ../swell-foop/data/settings.ui.h:6
+#: ../swell-foop/data/swell-foop.ui.h:1
+#: ../swell-foop/src/About.js:11
+#: ../swell-foop/src/About.js:15
+#: ../swell-foop/swell-foop.desktop.in.in.h:2
+msgid "Swell Foop"
+msgstr "Swell Foop"
+
 #: ../swell-foop/data/settings.ui.h:8
 msgid "Zealous Animation"
 msgstr "Быстрая анимация"
 
-#: ../swell-foop/swell-foop.desktop.in.in.h:1
-msgid "Clear the screen by removing groups of colored and shaped tiles"
-msgstr "Очистите поле, удаляя группы цветных шаров"
-
-#: ../swell-foop/swell-foop.schemas.in.h:1
-msgid "Board color count"
-msgstr "Количество цветов на доске"
-
-#: ../swell-foop/swell-foop.schemas.in.h:3
-msgid "The number of colors of tiles to use in the game."
-msgstr "Число цветов на доске которое будет использоваться в игре."
-
-#: ../swell-foop/swell-foop.schemas.in.h:4
-msgid "The size of the game board."
-msgstr "Размер игровой доски."
-
-#: ../swell-foop/swell-foop.schemas.in.h:7
-msgid "Use more flashy, but slower, animations."
-msgstr "Использовать красивую анимацию."
-
-#: ../swell-foop/swell-foop.schemas.in.h:8
-msgid "Zealous animation"
-msgstr "Использовать быструю анимацию"
-
 #: ../swell-foop/src/About.js:13
-#| msgid ""
-#| "I want to play that game! You know, they all go whirly-round and you "
-#| "click on them and they vanish!\n"
-#| "\n"
-#| "Swell Foop is a part of GNOME Games."
 msgid ""
 "I want to play that game! You know, they all light-up and you click on them and they vanish!\n"
 "\n"
@@ -5005,14 +4845,45 @@ msgid "Swell Foop Scores"
 msgstr "Очки Swell Foop"
 
 #: ../swell-foop/src/Score.js:145
+#: ../swell-foop/src/Settings.js:20
 msgid "Small"
 msgstr "Маленький"
 
 #: ../swell-foop/src/Score.js:146
+#: ../swell-foop/src/Settings.js:21
 msgid "Normal"
 msgstr "Обычный"
 
 #: ../swell-foop/src/Score.js:147
+#: ../swell-foop/src/Settings.js:22
 msgid "Large"
 msgstr "Большой"
+
+#: ../swell-foop/src/Settings.js:13
+msgid "Shapes and Colors"
+msgstr "Фигуры и цвета"
+
+#: ../swell-foop/swell-foop.desktop.in.in.h:1
+msgid "Clear the screen by removing groups of colored and shaped tiles"
+msgstr "Очистите поле, удаляя группы цветных шаров"
+
+#: ../swell-foop/swell-foop.schemas.in.h:1
+msgid "Board color count"
+msgstr "Количество цветов на доске"
+
+#: ../swell-foop/swell-foop.schemas.in.h:3
+msgid "The number of colors of tiles to use in the game."
+msgstr "Число цветов на доске которое будет использоваться в игре."
+
+#: ../swell-foop/swell-foop.schemas.in.h:4
+msgid "The size of the game board."
+msgstr "Размер игровой доски."
+
+#: ../swell-foop/swell-foop.schemas.in.h:7
+msgid "Use more flashy, but slower, animations."
+msgstr "Использовать красивую анимацию."
+
+#: ../swell-foop/swell-foop.schemas.in.h:8
+msgid "Zealous animation"
+msgstr "Использовать быструю анимацию"
 
