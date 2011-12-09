@@ -1,0 +1,24 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" 
+      id="index">
+
+  <info>
+    <title type="link">gnomine</title>
+    <title type="text">gnomine</title>
+    <revision version="0.1" date="2011-12-08" status="stub"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email>baptistem@gnome.org</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p> 
+    </license>
+
+    <desc>A documentation about <app>gnomine</app></desc>
+  </info>
+
+  <title>gnomine mine sweeper</title>
+
+</page>
