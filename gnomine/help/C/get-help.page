@@ -1,8 +1,8 @@
-<page xmlns="http://projectmallard.org/1.0/"
+<page xmlns="http://projectmallard.org/2.0/"
       type="topic" 
       id="get-help">
   <info>
-	<link type="guide" xref="index"/>
+    <link type="guide" xref="index"/>
     <revision version="0.1" date="2011-12-07" status="stub"/>
 
     <credit type="author copyright">

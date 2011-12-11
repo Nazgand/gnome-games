@@ -25,14 +25,14 @@
 
   <p>
     <app>gnomine</app> is a mine sweeper clone game. The aim of this game is to
-    locate the mines hidden under tiles on a square board. You'll need some 
+    locate all the mines hidden under tiles on a square board. You'll need some 
     reflexion and some chance to find all of them without make you explode.
   </p>
 
   <figure>
     <title><app>gnomine</app> main window</title>
-    <desc>The main window of <app>gnomine</app>,the menu at top, the board game
-    and the status bar.</desc>
+    <desc>The main window of <app>gnomine</app>, the menu at top, the face, the
+    board game and the status bar.</desc>
     <media type="image" src="figures/gnomine.png"/>
   </figure>
 
